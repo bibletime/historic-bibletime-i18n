@@ -4,13 +4,13 @@
 
 
 merge:
-	for cat in `find -name "*.po"`; do \
+	for cat in *.po; do \
 	name=../../../bibletime/pot/howto.pot ; \
 		echo $$cat $$name; \
-			msgmerge $$cat $$name > $$cat.new; \
-			if diff $$cat $$cat.new; then \
-				rm $$cat.new;  \
-			else  \
-				mv $$cat.new $$cat ; \
-			fi;\
+		msgmerge $$cat $$name > $$cat.new; \
+		if diff $$cat $$cat.new; then \
+			rm $$cat.new;  \
+		else  \
+			mv $$cat.new $$cat ; \
+		fi;\
 	done;
