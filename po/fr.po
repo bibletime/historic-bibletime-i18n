@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-02-03 20:57+0100\n"
+"POT-Creation-Date: 2003-02-07 15:18+0100\n"
 "PO-Revision-Date: 2002-04-26 22:40GMT\n"
 "Last-Translator: Martin Gruner <mg.pub@gmx.net>\n"
 "Language-Team: Deutsch <de@li.org>\n"
@@ -480,20 +480,21 @@ msgid "&Close all"
 msgstr "Tout fermer"
 
 #: ../bibletime/bibletime_init.cpp:217
-msgid "&Save profile"
-msgstr "&Sauver profil"
+msgid "&Save session"
+msgstr ""
 
 #: ../bibletime/bibletime_init.cpp:227
 #, fuzzy
-msgid "&Save as new profile"
+msgid "&Save as new session"
 msgstr "Enregistrer un nouveau profil"
 
 #: ../bibletime/bibletime_init.cpp:238
-msgid "&Load profile"
-msgstr "&Charger profil"
+msgid "&Load session"
+msgstr ""
 
 #: ../bibletime/bibletime_init.cpp:248
-msgid "&Configure profiles"
+#, fuzzy
+msgid "&Configure sessions"
 msgstr "Confi&gurer les profils"
 
 #: ../bibletime/bibletime_init.cpp:259
@@ -532,13 +533,13 @@ msgstr "Impression..."
 #: ../bibletime/bibletime_slots.cpp:453
 #: ../bibletime/frontend/coptionsdialog.cpp:133
 #, fuzzy
-msgid "Please enter the name of the new profile."
-msgstr "Entrer le nom du nouveau profil"
+msgid "Please enter a name for the new session."
+msgstr "Entrer un nom pour cette nouvelle plage de recherche"
 
 #: ../bibletime/bibletime_slots.cpp:453
 #, fuzzy
-msgid "Profile name:"
-msgstr "Profils"
+msgid "Session name:"
+msgstr "�tendue de la recherche"
 
 #: ../bibletime/frontend/cbtconfig.cpp:233
 msgid "Old testament"
@@ -606,18 +607,20 @@ msgstr ""
 #: ../bibletime/frontend/coptionsdialog.cpp:133
 #: ../bibletime/frontend/coptionsdialog.cpp:410
 #: ../bibletime/frontend/cresmgr.cpp:668
-msgid "Create new profile"
+#, fuzzy
+msgid "Create new session"
 msgstr "Créer un nouveau profil"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:156
 #, fuzzy
-msgid "Please enter a new name for the profile."
+msgid "Please enter a new name for the session."
 msgstr "Entrer le nouveau nom du profil"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:156
 #: ../bibletime/frontend/cresmgr.cpp:676
-msgid "Rename profile"
-msgstr "Renommer le profil"
+#, fuzzy
+msgid "Rename session"
+msgstr "Expression régulière"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:180
 msgid "Startup"
@@ -705,18 +708,19 @@ msgid "Morphologic tags"
 msgstr "Marques morphologiques"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:393
-msgid "Profiles"
-msgstr "Profils"
+#, fuzzy
+msgid "Sessions"
+msgstr "Version"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:398
-msgid "Manage your profiles"
-msgstr "Gérer les profils"
+msgid "Manage sessions"
+msgstr ""
 
 #: ../bibletime/frontend/coptionsdialog.cpp:399
 #, fuzzy
 msgid ""
-"Profiles define the appereance of the work area, for example which windows "
-"are open and which texts should displayed in these windows. New profiles "
+"Sessions define the appereance of the work area, for example which windows "
+"are open and which texts should displayed in these windows. New sessions "
 "only work after you've saved something into them."
 msgstr ""
 "Les profils définissent l'apparence de l'espace de travail, par exemple "
@@ -725,11 +729,13 @@ msgstr ""
 "avoir enregistré quelque chose dedans !"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:414
-msgid "Delete selected profile"
+#, fuzzy
+msgid "Delete selected session"
 msgstr "Supprimer le profil sélectionné"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:418
-msgid "Rename selected profile"
+#, fuzzy
+msgid "Rename selected session"
 msgstr "Renommer le profil sélectionné"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:436
@@ -1021,41 +1027,39 @@ msgstr ""
 "modules."
 
 #: ../bibletime/frontend/cresmgr.cpp:100
-msgid "Load a new profile"
+#, fuzzy
+msgid "Load a new session"
 msgstr "Enregistrer un nouveau profil"
 
 #: ../bibletime/frontend/cresmgr.cpp:101
-msgid "Restore a BibleTime session using a profile stored on disk."
-msgstr ""
+#, fuzzy
+msgid "Restore a saved BibleTime session."
+msgstr "Activer ceci pour afficher le logo BibleTime au démarrage."
 
 #: ../bibletime/frontend/cresmgr.cpp:106
-msgid "Save current profile"
+#, fuzzy
+msgid "Save current session"
 msgstr "Enregistrer le profil courant"
 
 #: ../bibletime/frontend/cresmgr.cpp:107
-msgid ""
-"Save current BibleTime session to a profile on disk so that it can be reused "
-"later."
+msgid "Save current BibleTime session so that it can be reused later."
 msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:112
 #, fuzzy
-msgid "Save as a new profile"
+msgid "Save as new session"
 msgstr "Enregistrer un nouveau profil"
 
 #: ../bibletime/frontend/cresmgr.cpp:113
-#, fuzzy
-msgid "Create a new profile and save the current BibleTime sessin into it."
+msgid "Create and save a new session."
 msgstr ""
-"Ignorer le profil de démarrage enregistré après la dernière exécution de "
-"BibleTime."
 
 #: ../bibletime/frontend/cresmgr.cpp:119
-msgid "Edit profiles"
-msgstr "�diter les profils"
+msgid "Edit sessions"
+msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:120
-msgid "Create new, delete or rename existing profiles."
+msgid "Create new, delete or rename existing sessions."
 msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:126
@@ -1892,31 +1896,31 @@ msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:664
 #, fuzzy
-msgid "List of profiles"
-msgstr "Liste des styles d'impression"
+msgid "List of sessions"
+msgstr "Liste des versets"
 
 #: ../bibletime/frontend/cresmgr.cpp:665
 #, fuzzy
-msgid "The list of available profiles."
+msgid "The list of available sessions."
 msgstr "Ceci est la liste contenant les items retenus pour l'impression."
 
 #: ../bibletime/frontend/cresmgr.cpp:669
-msgid "Create a new, empty profile with default settings."
+msgid "Create a new, empty session with default settings."
 msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:672
 #, fuzzy
-msgid "Delete profile"
-msgstr "Supprimer le profil sélectionné"
+msgid "Delete session"
+msgstr "Effacer l'item"
 
 #: ../bibletime/frontend/cresmgr.cpp:673
 #, fuzzy
-msgid "Delete the selected profile."
-msgstr "Supprimer le profil sélectionné"
+msgid "Delete the selected session."
+msgstr "Supprime l'item sélectionné."
 
 #: ../bibletime/frontend/cresmgr.cpp:677
 #, fuzzy
-msgid "Rename the selected profile."
+msgid "Rename the selected session."
 msgstr "Renommer le profil sélectionné"
 
 #: ../bibletime/frontend/cresmgr.cpp:685
@@ -2221,6 +2225,13 @@ msgstr "Gras"
 #, fuzzy
 msgid "Underline"
 msgstr "Souligné"
+
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:278
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:149
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:105
+#, fuzzy
+msgid "Select all"
+msgstr "Sélectionne tout le texte."
 
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:282
 #, fuzzy
@@ -2930,7 +2941,8 @@ msgstr "Messages de debuguage"
 #: ../bibletime/main.cpp:130
 #, fuzzy
 msgid ""
-"Ignore the startup profile saved when BibleTime was closed the last time."
+"Ignore the startup session that was saved when BibleTime was closed the last "
+"time."
 msgstr ""
 "Ignorer le profil de démarrage enregistré après la dernière exécution de "
 "BibleTime."
@@ -3169,7 +3181,7 @@ msgstr ""
 #: ../bibletime/tips-dummy.cpp:12
 msgid ""
 "No one is allowed by God to add anything to or take anything away from the "
-"Word. (Revelation 22:18)\n"
+"Word. (Revelation 22:18-19)\n"
 msgstr ""
 
 #: ../bibletime/tips-dummy.cpp:16
@@ -3179,7 +3191,7 @@ msgstr ""
 #: ../bibletime/tips-dummy.cpp:20
 #, fuzzy
 msgid ""
-"BibleTime does include a <B>Bible Study HowTo</B>! \n"
+"BibleTime does include a <B>Bible Study HowTo</B>!\n"
 "It was written by Bob Harman and is a great introduction how to study the "
 "Bible.\n"
 msgstr ""
@@ -3189,12 +3201,6 @@ msgstr ""
 
 #: ../bibletime/tips-dummy.cpp:25
 msgid ""
-"The Bible has the power to \"comfort the afflicted\" and \"afflict the "
-"comfortable\". (Revelation 10:10)\n"
-msgstr ""
-
-#: ../bibletime/tips-dummy.cpp:29
-msgid ""
 "You can save, print and copy the whole search result by pressing the right "
 "mouse button on the icon of the searched module in the search dialog.\n"
 msgstr ""
@@ -3202,11 +3208,11 @@ msgstr ""
 "recherche en cliquant sur l'icone du module dans lequel la recherche s'est "
 "faite à l'aide du bouton droit de la souris.\n"
 
-#: ../bibletime/tips-dummy.cpp:33
+#: ../bibletime/tips-dummy.cpp:29
 msgid "The Bible is our only spiritual weapon. (Ephesians 6:17)\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:37
+#: ../bibletime/tips-dummy.cpp:33
 msgid ""
 "To get the number of verses in the Bible search for a space in the module.\n"
 "The search analysis shows you the number of verses of each book.\n"
@@ -3216,38 +3222,23 @@ msgstr ""
 "L'outil d'analyse de la recherche affichera le nombre de verset de chaque "
 "livres.\n"
 
-#: ../bibletime/tips-dummy.cpp:42
-msgid "That the Bible is truth. (John 17:17)\n"
+#: ../bibletime/tips-dummy.cpp:38
+msgid "The Bible is truth. (John 17:17)\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:46
+#: ../bibletime/tips-dummy.cpp:42
 msgid ""
 "If you would like to create a set of bookmarks around a specific topic with "
 "comments containing what the Lord told you here, it's best to\n"
 "make bookmarks from your personal commentary.\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:51
+#: ../bibletime/tips-dummy.cpp:47
 msgid ""
 "The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:55
-msgid ""
-"It's possible to insert the text of bookmarks and references to verses or "
-"lexicon entries into the personal commentary editor by dropping them there.\n"
-msgstr ""
-"Il est possible d'insèrer le texte de signets et les références de versets "
-"ou d'entrée de lexique dans l'éditeur de commentaires personnels en les "
-"faisant glisser dedans.\n"
-
-#: ../bibletime/tips-dummy.cpp:59
-msgid ""
-"By studying the Bible you will have no reason to stand ashamed before God. "
-"(2 Timothy 2:15)\n"
-msgstr ""
-
-#: ../bibletime/tips-dummy.cpp:63
+#: ../bibletime/tips-dummy.cpp:51
 msgid ""
 "To lookup the meaning of the original hebrew or greek word in a Bible "
 "supporting Strong's numbers, switch them on and \n"
@@ -3255,92 +3246,87 @@ msgid ""
 "it's explanation is shown. If your favourite translation doesn't support "
 "Strong's numbers please refer to an alternate translation for the number of "
 "the corresponding word.\n"
-"Make sure you have set the default modules in the optionsdialog.\n"
+"Make sure you have set the default modules in the preferences.\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:70
+#: ../bibletime/tips-dummy.cpp:58
 msgid ""
 "If you want to use a commentary as a topical reference, search it for terms "
 "your topic is about.\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:74
+#: ../bibletime/tips-dummy.cpp:62
 msgid ""
 "In the beginning was the Word, the Word was with God, and the Word was God. "
 "(John 1:1)\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:78
+#: ../bibletime/tips-dummy.cpp:66
 msgid ""
 "We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:82
+#: ../bibletime/tips-dummy.cpp:70
+#, fuzzy
 msgid ""
 "If you want to find the full set of verses or entries on a area of content, "
-"you should use the regular expression \"x | y | z\" for searching, which is "
-"equivalent to \"x OR y OR z\", e.g. \"pray | worship | supplicate\".\n"
+"you should use the option \"Multiple words (OR)\" for searching.\n"
 msgstr ""
 "Pour rechercher l'ensemble des versets ou des entrées d'une partie d'un "
 "document, utilisez l'expression régulière \"x | y | z\" dans la recherche. "
 "Ceci est équivalent à \"x OR y OR z\", par exemple \"prière | culte | "
 "supplique\".\n"
 
-#: ../bibletime/tips-dummy.cpp:86
+#: ../bibletime/tips-dummy.cpp:74
 msgid ""
 "If you are searching a verse you know only fuzzy or in a different "
 "translation search for the most probable terms in multiple Bible "
 "translations at the same time.\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:90
+#: ../bibletime/tips-dummy.cpp:78
 msgid ""
 "God's Word can be a lamp to your feet and a light to your path. (Psalm "
 "119:105)\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:94
+#: ../bibletime/tips-dummy.cpp:82
 msgid ""
 "If you want to search a word in a foreign module (e.g. greek or hebrew), "
 "open a display window and choose a chapter or an entry which contains this "
 "word.\n"
-"Now double click on it and drag the selected word on the foreign module in "
-"the main index.\n"
-"The search dialog will be opened with the word in the edit line.\n"
+"Select it and copy it to the clipboard. Now insert the copied word in the "
+"search text box of the searchdialog.\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:100
+#: ../bibletime/tips-dummy.cpp:87
 msgid ""
 "The Word of God will not return to Him without accomplishing its purpose. "
 "(Isaiah 55:11)\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:104
+#: ../bibletime/tips-dummy.cpp:91
 msgid ""
-"Foreign modules (e.g. greek or hebrew) do often require a special unicode "
-"font to read them.\n"
-"Many of the fonts are available on www.crosswire.org or on the Sword CD.\n"
+"Foreign modules do often require a special font to display correctly. You "
+"can set the font for each language in the preferences.\n"
 msgstr ""
-"Les modules étrangers (par exemple grecs ou hébreux) nécessitent souvent une "
-"police unicode spécifique pour les afficher.\n"
-"De nombreuses polices sont disponibles sur www.crosswire.org ou sur le CD-"
-"rom Sword.\n"
 
-#: ../bibletime/tips-dummy.cpp:109
+#: ../bibletime/tips-dummy.cpp:95
+#, fuzzy
 msgid ""
 "Did you know that the first book ever printed on a printing press was the "
-"Bible. (by Johann Gutenberg, in 1492)\n"
+"Bible (by Johann Gutenberg, in 1492)?\n"
 msgstr ""
 "Saviez-vous que le premier livre jamais imprimé par une presse d'imprimerie "
 "fût la Bible ? (par Johann Gutenberg, en 1492)\n"
 
-#: ../bibletime/tips-dummy.cpp:113
+#: ../bibletime/tips-dummy.cpp:99
 msgid ""
 "God has already given to us everything pertaining to life and godliness. (2 "
 "Peter 1:3)\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:117
+#: ../bibletime/tips-dummy.cpp:103
 msgid ""
 "All important elements of BibleTime's graphical user interface have a "
 "tooltip and a \"What's this?\" help.<BR>\n"
@@ -3352,13 +3338,13 @@ msgstr ""
 "Pour lire l'aide \"Qu'est ce que c'est ?\", pressez les touches SHIFT+F1 et "
 "cliquez sur l'élement de l'interface.\n"
 
-#: ../bibletime/tips-dummy.cpp:122
+#: ../bibletime/tips-dummy.cpp:108
 msgid ""
 "The Word of God is living, active, and sharper than any two-edged sword. "
 "(Hebrews 4:12)\n"
 msgstr ""
 
-#: ../bibletime/tips-dummy.cpp:126
+#: ../bibletime/tips-dummy.cpp:112
 msgid ""
 "You are using a program that has been written for the glory of God.<BR>May "
 "He bless you as you study His Word!\n"
@@ -3384,6 +3370,73 @@ msgstr "Désolé ! Le fichier n'a pu être sauvé !"
 #, fuzzy
 msgid "Please check permissions etc."
 msgstr "Vérifiez les permissions, etc !"
+
+#~ msgid "&Save profile"
+#~ msgstr "&Sauver profil"
+
+#~ msgid "&Load profile"
+#~ msgstr "&Charger profil"
+
+#, fuzzy
+#~ msgid "Please enter the name of the new profile."
+#~ msgstr "Entrer le nom du nouveau profil"
+
+#, fuzzy
+#~ msgid "Profile name:"
+#~ msgstr "Profils"
+
+#~ msgid "Rename profile"
+#~ msgstr "Renommer le profil"
+
+#~ msgid "Profiles"
+#~ msgstr "Profils"
+
+#~ msgid "Manage your profiles"
+#~ msgstr "Gérer les profils"
+
+#, fuzzy
+#~ msgid "Save as a new profile"
+#~ msgstr "Enregistrer un nouveau profil"
+
+#, fuzzy
+#~ msgid "Create a new profile and save the current BibleTime sessin into it."
+#~ msgstr ""
+#~ "Ignorer le profil de démarrage enregistré après la dernière exécution de "
+#~ "BibleTime."
+
+#~ msgid "Edit profiles"
+#~ msgstr "�diter les profils"
+
+#, fuzzy
+#~ msgid "List of profiles"
+#~ msgstr "Liste des styles d'impression"
+
+#, fuzzy
+#~ msgid "Delete profile"
+#~ msgstr "Supprimer le profil sélectionné"
+
+#, fuzzy
+#~ msgid "Delete the selected profile."
+#~ msgstr "Supprimer le profil sélectionné"
+
+#~ msgid ""
+#~ "It's possible to insert the text of bookmarks and references to verses or "
+#~ "lexicon entries into the personal commentary editor by dropping them "
+#~ "there.\n"
+#~ msgstr ""
+#~ "Il est possible d'insèrer le texte de signets et les références de "
+#~ "versets ou d'entrée de lexique dans l'éditeur de commentaires personnels "
+#~ "en les faisant glisser dedans.\n"
+
+#~ msgid ""
+#~ "Foreign modules (e.g. greek or hebrew) do often require a special unicode "
+#~ "font to read them.\n"
+#~ "Many of the fonts are available on www.crosswire.org or on the Sword CD.\n"
+#~ msgstr ""
+#~ "Les modules étrangers (par exemple grecs ou hébreux) nécessitent souvent "
+#~ "une police unicode spécifique pour les afficher.\n"
+#~ "De nombreuses polices sont disponibles sur www.crosswire.org ou sur le CD-"
+#~ "rom Sword.\n"
 
 #~ msgid "Reset main index"
 #~ msgstr "Réinitialiser l'index principal"
@@ -3634,9 +3687,6 @@ msgstr "Vérifiez les permissions, etc !"
 
 #~ msgid "Range name"
 #~ msgstr "Nom de la plage"
-
-#~ msgid "Please enter a name for the new range"
-#~ msgstr "Entrer un nom pour cette nouvelle plage de recherche"
 
 #~ msgid "Exact Search"
 #~ msgstr "Recherche exacte"
@@ -3908,9 +3958,6 @@ msgstr "Vérifiez les permissions, etc !"
 
 #~ msgid "Save the displayed chapter as an HTML file."
 #~ msgstr "Sauvegarde le chapitre affiché en tant que fichier HTML."
-
-#~ msgid "Select all text."
-#~ msgstr "Sélectionne tout le texte."
 
 #~ msgid "Copy the displayed text to the clipboard."
 #~ msgstr "Copie le texte affiché dans le presse-papier."

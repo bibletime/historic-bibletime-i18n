@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: BibleTime 1.3-beta\n"
-"POT-Creation-Date: 2003-02-03 20:57+0100\n"
+"POT-Creation-Date: 2003-02-07 15:18+0100\n"
 "PO-Revision-Date: 2003-01-25 11:47+0100\n"
 "Last-Translator: Zdenko Podobný <zdpo@mailbox.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -467,20 +467,21 @@ msgid "&Close all"
 msgstr "Všetko &zatvoriť"
 
 #: ../bibletime/bibletime_init.cpp:217
-msgid "&Save profile"
-msgstr "&Uložiť profil"
+msgid "&Save session"
+msgstr ""
 
 #: ../bibletime/bibletime_init.cpp:227
 #, fuzzy
-msgid "&Save as new profile"
+msgid "&Save as new session"
 msgstr "&Uložiť ako nový profil"
 
 #: ../bibletime/bibletime_init.cpp:238
-msgid "&Load profile"
-msgstr "&Načítať profil"
+msgid "&Load session"
+msgstr ""
 
 #: ../bibletime/bibletime_init.cpp:248
-msgid "&Configure profiles"
+#, fuzzy
+msgid "&Configure sessions"
 msgstr "Nas&tavenie profilov"
 
 #: ../bibletime/bibletime_init.cpp:259
@@ -519,12 +520,13 @@ msgstr "Tlač..."
 #: ../bibletime/bibletime_slots.cpp:453
 #: ../bibletime/frontend/coptionsdialog.cpp:133
 #, fuzzy
-msgid "Please enter the name of the new profile."
+msgid "Please enter a name for the new session."
 msgstr "Vložte prosím názov nového profilu"
 
 #: ../bibletime/bibletime_slots.cpp:453
-msgid "Profile name:"
-msgstr "Názov profilu:"
+#, fuzzy
+msgid "Session name:"
+msgstr "Názov rozsahu hľadania"
 
 #: ../bibletime/frontend/cbtconfig.cpp:233
 msgid "Old testament"
@@ -590,18 +592,20 @@ msgstr "Referencia"
 #: ../bibletime/frontend/coptionsdialog.cpp:133
 #: ../bibletime/frontend/coptionsdialog.cpp:410
 #: ../bibletime/frontend/cresmgr.cpp:668
-msgid "Create new profile"
+#, fuzzy
+msgid "Create new session"
 msgstr "Vytvoriť nový profil"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:156
 #, fuzzy
-msgid "Please enter a new name for the profile."
+msgid "Please enter a new name for the session."
 msgstr "Vložte prosím nový názov profilu"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:156
 #: ../bibletime/frontend/cresmgr.cpp:676
-msgid "Rename profile"
-msgstr "Premenovať profil"
+#, fuzzy
+msgid "Rename session"
+msgstr "Regulárny výraz"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:180
 msgid "Startup"
@@ -689,18 +693,19 @@ msgid "Morphologic tags"
 msgstr "Morfologické príznaky"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:393
-msgid "Profiles"
-msgstr "Profily"
+#, fuzzy
+msgid "Sessions"
+msgstr "Verzia"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:398
-msgid "Manage your profiles"
-msgstr "Spravovanie vašich profilov"
+msgid "Manage sessions"
+msgstr ""
 
 #: ../bibletime/frontend/coptionsdialog.cpp:399
 #, fuzzy
 msgid ""
-"Profiles define the appereance of the work area, for example which windows "
-"are open and which texts should displayed in these windows. New profiles "
+"Sessions define the appereance of the work area, for example which windows "
+"are open and which texts should displayed in these windows. New sessions "
 "only work after you've saved something into them."
 msgstr ""
 "Profily definujú zobrazenie pracovnej plochy, napríklad ktoré okná sú "
@@ -708,11 +713,13 @@ msgstr ""
 "profily budú fungovať až potom, čo do nich niečo uložíte."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:414
-msgid "Delete selected profile"
-msgstr "Zmazať zvolený profil"
+#, fuzzy
+msgid "Delete selected session"
+msgstr "Zmazať vybrané štýly"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:418
-msgid "Rename selected profile"
+#, fuzzy
+msgid "Rename selected session"
 msgstr "Premenovať zvolený profil"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:436
@@ -992,37 +999,40 @@ msgid "Open the search dialog to search in the default bible."
 msgstr "Otvorí dialóg vyhľadávania v štandardnej Biblií."
 
 #: ../bibletime/frontend/cresmgr.cpp:100
-msgid "Load a new profile"
+#, fuzzy
+msgid "Load a new session"
 msgstr "Vytvoriť nový profil"
 
 #: ../bibletime/frontend/cresmgr.cpp:101
-msgid "Restore a BibleTime session using a profile stored on disk."
-msgstr ""
+#, fuzzy
+msgid "Restore a saved BibleTime session."
+msgstr "Aktivujte túto možnosť, ak chcete vidieť tipy dňa pri spustení."
 
 #: ../bibletime/frontend/cresmgr.cpp:106
-msgid "Save current profile"
+#, fuzzy
+msgid "Save current session"
 msgstr "Uložiť aktuálny profil"
 
 #: ../bibletime/frontend/cresmgr.cpp:107
-msgid ""
-"Save current BibleTime session to a profile on disk so that it can be reused "
-"later."
+msgid "Save current BibleTime session so that it can be reused later."
 msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:112
-msgid "Save as a new profile"
-msgstr "Uložiť ako nový profil"
+#, fuzzy
+msgid "Save as new session"
+msgstr "&Uložiť ako nový profil"
 
 #: ../bibletime/frontend/cresmgr.cpp:113
-msgid "Create a new profile and save the current BibleTime sessin into it."
+msgid "Create and save a new session."
 msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:119
-msgid "Edit profiles"
-msgstr "Upraviť profily"
+msgid "Edit sessions"
+msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:120
-msgid "Create new, delete or rename existing profiles."
+#, fuzzy
+msgid "Create new, delete or rename existing sessions."
 msgstr "Vytvorenie, odstránenie alebo premenovanie profilov."
 
 #: ../bibletime/frontend/cresmgr.cpp:126
@@ -1842,31 +1852,31 @@ msgstr "Všetky morfologické príznaky budú mať takúto farbu."
 
 #: ../bibletime/frontend/cresmgr.cpp:664
 #, fuzzy
-msgid "List of profiles"
-msgstr "Zoznam tlačových štýlov"
+msgid "List of sessions"
+msgstr "Zoznam veršov"
 
 #: ../bibletime/frontend/cresmgr.cpp:665
 #, fuzzy
-msgid "The list of available profiles."
+msgid "The list of available sessions."
 msgstr "Tento zoznam obsahuje dostupné položky pre tlač."
 
 #: ../bibletime/frontend/cresmgr.cpp:669
-msgid "Create a new, empty profile with default settings."
+msgid "Create a new, empty session with default settings."
 msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:672
 #, fuzzy
-msgid "Delete profile"
-msgstr "Zmazať zvolený profil"
+msgid "Delete session"
+msgstr "Zmazať položky"
 
 #: ../bibletime/frontend/cresmgr.cpp:673
 #, fuzzy
-msgid "Delete the selected profile."
-msgstr "Zmazať zvolený profil"
+msgid "Delete the selected session."
+msgstr "Zmaže zvolené položky."
 
 #: ../bibletime/frontend/cresmgr.cpp:677
 #, fuzzy
-msgid "Rename the selected profile."
+msgid "Rename the selected session."
 msgstr "Premenovať zvolený profil"
 
 #: ../bibletime/frontend/cresmgr.cpp:685
@@ -2175,6 +2185,13 @@ msgstr "Tučné"
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:209
 msgid "Underline"
 msgstr "Podčiarknuté"
+
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:278
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:149
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:105
+#, fuzzy
+msgid "Select all"
+msgstr "Označí celý text"
 
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:282
 #, fuzzy
@@ -2839,7 +2856,8 @@ msgstr ""
 
 #: ../bibletime/main.cpp:130
 msgid ""
-"Ignore the startup profile saved when BibleTime was closed the last time."
+"Ignore the startup session that was saved when BibleTime was closed the last "
+"time."
 msgstr ""
 
 #: ../bibletime/main.cpp:131
@@ -3059,9 +3077,10 @@ msgstr ""
 "Prečítať si ju môžete cez položku \"Príručka\" v ponuke \"Pomocník\".\n"
 
 #: ../bibletime/tips-dummy.cpp:12
+#, fuzzy
 msgid ""
 "No one is allowed by God to add anything to or take anything away from the "
-"Word. (Revelation 22:18)\n"
+"Word. (Revelation 22:18-19)\n"
 msgstr ""
 "Boh nikomu nedovolil, aby niečo pridal alebo odobral zo Slova (Zjavenie "
 "22:18-19)\n"
@@ -3073,7 +3092,7 @@ msgstr "Biblia je ako zrkadlo (Jakoba 1:23)\n"
 #: ../bibletime/tips-dummy.cpp:20
 #, fuzzy
 msgid ""
-"BibleTime does include a <B>Bible Study HowTo</B>! \n"
+"BibleTime does include a <B>Bible Study HowTo</B>!\n"
 "It was written by Bob Harman and is a great introduction how to study the "
 "Bible.\n"
 msgstr ""
@@ -3082,23 +3101,17 @@ msgstr ""
 
 #: ../bibletime/tips-dummy.cpp:25
 msgid ""
-"The Bible has the power to \"comfort the afflicted\" and \"afflict the "
-"comfortable\". (Revelation 10:10)\n"
-msgstr "Biblia má moc k \"potešeniu sužovaných\" a \"súženiu tešiacich sa\".\n"
-
-#: ../bibletime/tips-dummy.cpp:29
-msgid ""
 "You can save, print and copy the whole search result by pressing the right "
 "mouse button on the icon of the searched module in the search dialog.\n"
 msgstr ""
 "Môžete ukladať, tlačiť a kopírovať celkové výsledky hľadania pomocou pravého "
 "tlačítka na myši vo vyhľadávacom dialógu.\n"
 
-#: ../bibletime/tips-dummy.cpp:33
+#: ../bibletime/tips-dummy.cpp:29
 msgid "The Bible is our only spiritual weapon. (Ephesians 6:17)\n"
 msgstr "Biblia je naša jediná duchovná zbraň. (Efezanom 6:17)\n"
 
-#: ../bibletime/tips-dummy.cpp:37
+#: ../bibletime/tips-dummy.cpp:33
 msgid ""
 "To get the number of verses in the Bible search for a space in the module.\n"
 "The search analysis shows you the number of verses of each book.\n"
@@ -3106,11 +3119,12 @@ msgstr ""
 "Verše v Biblii môžete spočítať tak, že dáte vyhľadávať \" \"(medzeru).\n"
 "Analýza vyhľadávanie vám potom zobrazí počet veršov v každej knihe.\n"
 
-#: ../bibletime/tips-dummy.cpp:42
-msgid "That the Bible is truth. (John 17:17)\n"
+#: ../bibletime/tips-dummy.cpp:38
+#, fuzzy
+msgid "The Bible is truth. (John 17:17)\n"
 msgstr "Biblia je pravda (Ján 17:17)\n"
 
-#: ../bibletime/tips-dummy.cpp:46
+#: ../bibletime/tips-dummy.cpp:42
 msgid ""
 "If you would like to create a set of bookmarks around a specific topic with "
 "comments containing what the Lord told you here, it's best to\n"
@@ -3120,29 +3134,13 @@ msgstr ""
 "ktorý bude obsahovať, čo Vám Boh povedal, tak najlepší spôsob je, \n"
 "urobiť si záložku v osobnom komentári (personal commentary).\n"
 
-#: ../bibletime/tips-dummy.cpp:51
+#: ../bibletime/tips-dummy.cpp:47
 msgid ""
 "The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
 msgstr "Písmo nám dáva múdrosť, ktorá vedia k spaseniu (2 Timotejovi 3:15).\n"
 
-#: ../bibletime/tips-dummy.cpp:55
-msgid ""
-"It's possible to insert the text of bookmarks and references to verses or "
-"lexicon entries into the personal commentary editor by dropping them there.\n"
-msgstr ""
-"Text záložky, referenciu k veršu alebo položky lexikónu môžete vložiť do "
-"editora osobného komentára (personal commentary editor) tak, že ju tam "
-"pustíte.\n"
-
-#: ../bibletime/tips-dummy.cpp:59
-msgid ""
-"By studying the Bible you will have no reason to stand ashamed before God. "
-"(2 Timothy 2:15)\n"
-msgstr ""
-"Vďaka štúdiu Biblie nebudeš mať dôvod stáť zahanbený pred Bohom. (2 "
-"Timotejovi 2:15)\n"
-
-#: ../bibletime/tips-dummy.cpp:63
+#: ../bibletime/tips-dummy.cpp:51
+#, fuzzy
 msgid ""
 "To lookup the meaning of the original hebrew or greek word in a Bible "
 "supporting Strong's numbers, switch them on and \n"
@@ -3150,7 +3148,7 @@ msgid ""
 "it's explanation is shown. If your favourite translation doesn't support "
 "Strong's numbers please refer to an alternate translation for the number of "
 "the corresponding word.\n"
-"Make sure you have set the default modules in the optionsdialog.\n"
+"Make sure you have set the default modules in the preferences.\n"
 msgstr ""
 "Ak hľadáte význam originálneho hebrejského alebo gréckeho slova v Biblii, "
 "ktorá podporuje Strongové čísla, povoľte ich zobrazenie,\n"
@@ -3159,14 +3157,14 @@ msgstr ""
 "preklad pre číslo zodpovedajúce slovu.\n"
 "Uistite sa, že ste nastavili štandardné moduly v Nastaveniach.\n"
 
-#: ../bibletime/tips-dummy.cpp:70
+#: ../bibletime/tips-dummy.cpp:58
 msgid ""
 "If you want to use a commentary as a topical reference, search it for terms "
 "your topic is about.\n"
 msgstr ""
 "Ak si prajete použiť komentár ako slovník pojmov, použite vyhľadávanie.\n"
 
-#: ../bibletime/tips-dummy.cpp:74
+#: ../bibletime/tips-dummy.cpp:62
 msgid ""
 "In the beginning was the Word, the Word was with God, and the Word was God. "
 "(John 1:1)\n"
@@ -3174,24 +3172,24 @@ msgstr ""
 "Na počiatku bolo Slovo u Boha, Slovo bolo s Bohom a to Slovo bol Boh. (Ján "
 "1:1)\n"
 
-#: ../bibletime/tips-dummy.cpp:78
+#: ../bibletime/tips-dummy.cpp:66
 msgid ""
 "We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
 msgstr ""
 "V posledný deň budeme súdení slovami, ktoré vyriekol Ježiš. (Ján 12:48)\n"
 
-#: ../bibletime/tips-dummy.cpp:82
+#: ../bibletime/tips-dummy.cpp:70
+#, fuzzy
 msgid ""
 "If you want to find the full set of verses or entries on a area of content, "
-"you should use the regular expression \"x | y | z\" for searching, which is "
-"equivalent to \"x OR y OR z\", e.g. \"pray | worship | supplicate\".\n"
+"you should use the option \"Multiple words (OR)\" for searching.\n"
 msgstr ""
 "Ak chcete nájsť celú sadu veršov alebo položiek v oblasti významu, mali by "
 "ste používať regulárne výrazy \"x | y | z\"  pre vyhľadávanie, ktoré je "
 "ekvivalentom pre  \"x ALEBO y ALEBO z\", napr. \"modliť | uctievať | prosiť"
 "\".\n"
 
-#: ../bibletime/tips-dummy.cpp:86
+#: ../bibletime/tips-dummy.cpp:74
 msgid ""
 "If you are searching a verse you know only fuzzy or in a different "
 "translation search for the most probable terms in multiple Bible "
@@ -3200,7 +3198,7 @@ msgstr ""
 "Ak hľadáte verš, ktorý presne nepoznáte alebo ho hľadáte v inom preklade, "
 "použite najpravdepodobnejšie termíny vo viacerých prekladoch biblií naraz.\n"
 
-#: ../bibletime/tips-dummy.cpp:90
+#: ../bibletime/tips-dummy.cpp:78
 msgid ""
 "God's Word can be a lamp to your feet and a light to your path. (Psalm "
 "119:105)\n"
@@ -3208,14 +3206,14 @@ msgstr ""
 "Božie Slovo môže byť lampou tvojím nohám a svetlom tvojej ceste. (Žalm "
 "119:105)\n"
 
-#: ../bibletime/tips-dummy.cpp:94
+#: ../bibletime/tips-dummy.cpp:82
+#, fuzzy
 msgid ""
 "If you want to search a word in a foreign module (e.g. greek or hebrew), "
 "open a display window and choose a chapter or an entry which contains this "
 "word.\n"
-"Now double click on it and drag the selected word on the foreign module in "
-"the main index.\n"
-"The search dialog will be opened with the word in the edit line.\n"
+"Select it and copy it to the clipboard. Now insert the copied word in the "
+"search text box of the searchdialog.\n"
 msgstr ""
 "Ak chcete hľadať slovo v cudzojazyčnom module (napr. gréckom alebo "
 "hebrejskom), otvorte zobrazenie a zvoľte si kapitolu alebo položku, ktorá "
@@ -3224,7 +3222,7 @@ msgstr ""
 "indexe.\n"
 "Dialóg s vyhľadávaním sa vám otvorí so zvoleným slovom.\n"
 
-#: ../bibletime/tips-dummy.cpp:100
+#: ../bibletime/tips-dummy.cpp:87
 msgid ""
 "The Word of God will not return to Him without accomplishing its purpose. "
 "(Isaiah 55:11)\n"
@@ -3232,31 +3230,28 @@ msgstr ""
 "Božie Slovo sa nevráti k Bohu, bez toho, aby vykonalo svoj účel. (Izaiáš "
 "55:11)\n"
 
-#: ../bibletime/tips-dummy.cpp:104
+#: ../bibletime/tips-dummy.cpp:91
 msgid ""
-"Foreign modules (e.g. greek or hebrew) do often require a special unicode "
-"font to read them.\n"
-"Many of the fonts are available on www.crosswire.org or on the Sword CD.\n"
+"Foreign modules do often require a special font to display correctly. You "
+"can set the font for each language in the preferences.\n"
 msgstr ""
-"Cudzojazyčné moduly (napr. grécky alebo hebrejský) často vyžadujú špeciálne "
-"unicode písmo, aby ich bolo možné čítať.\n"
-"Mnohé takéto písma sú dostupné na www.crosswire.org alebo na Sword CD.\n"
 
-#: ../bibletime/tips-dummy.cpp:109
+#: ../bibletime/tips-dummy.cpp:95
+#, fuzzy
 msgid ""
 "Did you know that the first book ever printed on a printing press was the "
-"Bible. (by Johann Gutenberg, in 1492)\n"
+"Bible (by Johann Gutenberg, in 1492)?\n"
 msgstr ""
 "Vedeli ste, že prvá kniha vytlačená na tlačiarenskom stroji bola Biblia? "
 "(Johannom Gutenbergom v roku 1492)\n"
 
-#: ../bibletime/tips-dummy.cpp:113
+#: ../bibletime/tips-dummy.cpp:99
 msgid ""
 "God has already given to us everything pertaining to life and godliness. (2 "
 "Peter 1:3)\n"
 msgstr "Boh nám už dal všetko potrebné k životu a pobožnosti. (2 Petra 1:3)\n"
 
-#: ../bibletime/tips-dummy.cpp:117
+#: ../bibletime/tips-dummy.cpp:103
 msgid ""
 "All important elements of BibleTime's graphical user interface have a "
 "tooltip and a \"What's this?\" help.<BR>\n"
@@ -3268,7 +3263,7 @@ msgstr ""
 "Ak chcete si prečítať \"Čo je to?\" pomocníka stlačte klávesy SHIFT+F1 a "
 "kliknite na tlačítka.\n"
 
-#: ../bibletime/tips-dummy.cpp:122
+#: ../bibletime/tips-dummy.cpp:108
 msgid ""
 "The Word of God is living, active, and sharper than any two-edged sword. "
 "(Hebrews 4:12)\n"
@@ -3276,7 +3271,7 @@ msgstr ""
 "Božie Slovo je živé, aktívne a ostrejšie ako akýkoľvek dvojsečný meč. (Židom "
 "4:12)\n"
 
-#: ../bibletime/tips-dummy.cpp:126
+#: ../bibletime/tips-dummy.cpp:112
 msgid ""
 "You are using a program that has been written for the glory of God.<BR>May "
 "He bless you as you study His Word!\n"
@@ -3302,6 +3297,76 @@ msgstr "Ľutujem, ale súbor nie je možné uložiť!"
 #, fuzzy
 msgid "Please check permissions etc."
 msgstr "Skontrolujte si prosím práva prístupu atď!"
+
+#~ msgid "&Save profile"
+#~ msgstr "&Uložiť profil"
+
+#~ msgid "&Load profile"
+#~ msgstr "&Načítať profil"
+
+#~ msgid "Profile name:"
+#~ msgstr "Názov profilu:"
+
+#~ msgid "Rename profile"
+#~ msgstr "Premenovať profil"
+
+#~ msgid "Profiles"
+#~ msgstr "Profily"
+
+#~ msgid "Manage your profiles"
+#~ msgstr "Spravovanie vašich profilov"
+
+#~ msgid "Delete selected profile"
+#~ msgstr "Zmazať zvolený profil"
+
+#~ msgid "Save as a new profile"
+#~ msgstr "Uložiť ako nový profil"
+
+#~ msgid "Edit profiles"
+#~ msgstr "Upraviť profily"
+
+#, fuzzy
+#~ msgid "List of profiles"
+#~ msgstr "Zoznam tlačových štýlov"
+
+#, fuzzy
+#~ msgid "Delete profile"
+#~ msgstr "Zmazať zvolený profil"
+
+#, fuzzy
+#~ msgid "Delete the selected profile."
+#~ msgstr "Zmazať zvolený profil"
+
+#~ msgid ""
+#~ "The Bible has the power to \"comfort the afflicted\" and \"afflict the "
+#~ "comfortable\". (Revelation 10:10)\n"
+#~ msgstr ""
+#~ "Biblia má moc k \"potešeniu sužovaných\" a \"súženiu tešiacich sa\".\n"
+
+#~ msgid ""
+#~ "It's possible to insert the text of bookmarks and references to verses or "
+#~ "lexicon entries into the personal commentary editor by dropping them "
+#~ "there.\n"
+#~ msgstr ""
+#~ "Text záložky, referenciu k veršu alebo položky lexikónu môžete vložiť do "
+#~ "editora osobného komentára (personal commentary editor) tak, že ju tam "
+#~ "pustíte.\n"
+
+#~ msgid ""
+#~ "By studying the Bible you will have no reason to stand ashamed before "
+#~ "God. (2 Timothy 2:15)\n"
+#~ msgstr ""
+#~ "Vďaka štúdiu Biblie nebudeš mať dôvod stáť zahanbený pred Bohom. (2 "
+#~ "Timotejovi 2:15)\n"
+
+#~ msgid ""
+#~ "Foreign modules (e.g. greek or hebrew) do often require a special unicode "
+#~ "font to read them.\n"
+#~ "Many of the fonts are available on www.crosswire.org or on the Sword CD.\n"
+#~ msgstr ""
+#~ "Cudzojazyčné moduly (napr. grécky alebo hebrejský) často vyžadujú "
+#~ "špeciálne unicode písmo, aby ich bolo možné čítať.\n"
+#~ "Mnohé takéto písma sú dostupné na www.crosswire.org alebo na Sword CD.\n"
 
 #~ msgid "Please enter the name of the new profile!"
 #~ msgstr "Vložte prosím názov nového profilu!"
@@ -3551,9 +3616,6 @@ msgstr "Skontrolujte si prosím práva prístupu atď!"
 #~ msgid "Insert a page break"
 #~ msgstr "Vložiť koniec strany"
 
-#~ msgid "Delete the selected style"
-#~ msgstr "Zmazať vybrané štýly"
-
 #~ msgid "Edit the selected style"
 #~ msgstr "Upraviť zvolené štýly"
 
@@ -3621,9 +3683,6 @@ msgstr "Skontrolujte si prosím práva prístupu atď!"
 
 #~ msgid "Save the displayed chapter as an HTML file."
 #~ msgstr "Uloží zobrazenú kapitolu ako HTML súbor"
-
-#~ msgid "Select all text."
-#~ msgstr "Označí celý text"
 
 #~ msgid "Copy the displayed text to the clipboard."
 #~ msgstr "Kopíruje zobrazený text do schránky."
