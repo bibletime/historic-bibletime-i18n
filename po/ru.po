@@ -574,16 +574,16 @@ msgstr "неизвестно"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:151
 msgid "Manage installation sources"
-msgstr ""
+msgstr "Управление источниками инсталяции"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:189
 #: ../bibletime/frontend/cswordsetupdialog.cpp:201
 msgid "Local sources"
-msgstr ""
+msgstr "Локальные источники"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:195
 msgid "Manage local sources"
-msgstr ""
+msgstr "Управление локальными источниками"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:196
 msgid ""
@@ -593,30 +593,36 @@ msgid ""
 "make sure you mounted the CD-Rom before you use BibleTime to install from CD-"
 "Rom."
 msgstr ""
+"Здесь вы можете выбрать локальные источники для модуля инсталяции, например путь "
+"к вашему CD-Rom для инсталяции с Sword CD.<br>На большинстве Linux дистрибутивах "
+"путь к вашему CD-приводу как <i>/media/cdrom</i>  или <i>/cdrom</i>. Пожалуйста "
+"убедитесь, что вы смотировали CD-привод перед тем как устанавливать BibleTime из CD-привода"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:204
 #, fuzzy
 msgid "Add new directory"
-msgstr "Добавить новые границы"
+msgstr "Добавить новую директорию"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:207
 msgid "Remove directory"
-msgstr ""
+msgstr "Удалить директорию"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:258
 msgid "Remote sources"
-msgstr ""
+msgstr "Удалить источники"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:264
 #, fuzzy
 msgid "Manage remote sources"
-msgstr "Упорядочить сессии"
+msgstr "Управление удаленными источниками"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:265
 msgid ""
 "Setup remote sources like FTP servers which can be used to download Sword "
 "modules on your computer."
 msgstr ""
+"Настройка удаленных источников в виде FTP-серверов с которых можно будет "
+"загрузить модули Sword на ваш компьютер"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:271
 #: ../bibletime/frontend/cswordsetupdialog.cpp:571
@@ -628,11 +634,11 @@ msgstr "Название:"
 #: ../bibletime/frontend/cswordsetupdialog.cpp:277
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1076
 msgid "New"
-msgstr ""
+msgstr "Новый"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:298
 msgid "Edit remote source"
-msgstr ""
+msgstr "Редактировать удаленные источники"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:304
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:607
@@ -643,41 +649,43 @@ msgstr "Название:"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:315
 msgid "Server:"
-msgstr ""
+msgstr "Сервер:"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:321
 msgid "Path on server:"
-msgstr ""
+msgstr "Путь к серверу:"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:356
 #, fuzzy
 msgid "New remote source"
-msgstr "Упорядочить сессии"
+msgstr "Новый удаленный источник"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:410
 msgid "Sword configuration"
-msgstr ""
+msgstr "Конфигурация Sword"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:424
 #, fuzzy
 msgid "Sword Path"
-msgstr "Sword"
+msgstr "Путь к Sword"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:435
 #: ../bibletime/util/cresmgr.cpp:994
 #, fuzzy
 msgid "Configure Sword"
-msgstr "&Настроить сессии"
+msgstr "&Настроить Sword"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:436
 msgid ""
 "The underlying Sword software uses an own configuration file. This page let "
 "you set up this file."
 msgstr ""
+"Ядро Sword использует собственный конфигурационный файл. Эта страница "
+"дает вам возможность его настроить."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:442
 msgid "Your Sword configuration file is <b>%1</b>"
-msgstr ""
+msgstr "Ваш файл конфигурации Sword <b>%1</b>"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:447
 #, fuzzy
@@ -687,24 +695,24 @@ msgstr "Выберите модули"
 #: ../bibletime/frontend/cswordsetupdialog.cpp:451
 #, fuzzy
 msgid "Edit Entry"
-msgstr "Редактировать вхождение..."
+msgstr "Редактировать запись"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:456
 #, fuzzy
 msgid "Add Entry"
-msgstr "Вхождение"
+msgstr "Добавить запись"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:461
 msgid "Remove Entry"
-msgstr ""
+msgstr "Удалить запись"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:470
 msgid "Install/Update Modules"
-msgstr ""
+msgstr "Установить/Обновить Модули"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:492
 msgid "Install/update modules - Step 1"
-msgstr ""
+msgstr "Установить/Обновить модули - Шаг 1"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:493
 msgid ""
@@ -713,44 +721,49 @@ msgid ""
 "not wish to risk detection you should NOT use the module remote installation "
 "feature!</b>"
 msgstr ""
+"Пожалуйста выберите источник и путь назначения. После этого шага нажмите на "
+"кнопку соединения.<br/><b>ВНИМАНИЕ: если вы живете в преследуемой стране и не хотите "
+"рисковать НЕ используйте модуль удаленной инсталяции!</b>"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:497
 msgid "Select source location"
-msgstr ""
+msgstr "Укажите размещение источника"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:503
 msgid "Maintain sources"
-msgstr ""
+msgstr "Поддерживаемые источники"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:511
 msgid "Select target location"
-msgstr ""
+msgstr "Укажите целевой каталог"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:531
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1294
 msgid "Connect to source"
-msgstr ""
+msgstr "Соединиться с источником"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:546
 #, fuzzy
 msgid "Remove Modules"
-msgstr "Модули"
+msgstr "Удалить Модули"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:558
 #, fuzzy
 msgid "Remove installed module(s)"
-msgstr "Искать в выбранных модулях"
+msgstr "Удалить установленные модули"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:559
 msgid ""
 "This dialog lets you remove installed Sword modules from your system. Choose "
 "the modules and then click on the remove button."
 msgstr ""
+"Этот диалог поможет вам удалить установленные модули Sword из вашей системы. Выберите "
+"модули и нажмите кнопку удаления"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:563
 #, fuzzy
 msgid "Select modules to be uninstalled"
-msgstr "Добавить выбранный модуль ко списку"
+msgstr "Выбрать модули для деинсталяции"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:572
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:304
@@ -766,13 +779,13 @@ msgstr "Удалить выбранные элементы"
 #: ../bibletime/frontend/cswordsetupdialog.cpp:727
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1374
 msgid "[Remote]"
-msgstr ""
+msgstr "[Удаленный]"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:677
 #: ../bibletime/frontend/cswordsetupdialog.cpp:721
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1368
 msgid "[Local]"
-msgstr ""
+msgstr "[Локальный]"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:770
 msgid ""
@@ -780,6 +793,9 @@ msgid ""
 "\n"
 "Do you really want to remove them from your system?"
 msgstr ""
+"Вы выбрали следующие модули: %1.\n"
+"\n"
+"Вы действительно хотите удалить их с вашей системы?"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:853
 #: ../bibletime/frontend/cswordsetupdialog.cpp:963
@@ -830,31 +846,33 @@ msgstr ""
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1076
 msgid "Updated"
-msgstr ""
+msgstr "Обновлено"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1105
 msgid "Install/update modules - Step 2"
-msgstr ""
+msgstr "Установить/Обновить модули - Шаг 2"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1106
 msgid ""
 "Please choose the modules which should be installed / updated and click the "
 "install button."
 msgstr ""
+"Пожалуйста выберите модули которые следует установить/обновить и нажмите "
+"кнопку инсталяции"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1121
 msgid "Installed version"
-msgstr ""
+msgstr "Установленная версия"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1122
 #, fuzzy
 msgid "Remote version"
-msgstr "Переименовать сессию"
+msgstr "Удаленная версия"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1123
 #, fuzzy
 msgid "Status"
-msgstr "Запуск"
+msgstr "Статус"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1139
 #, fuzzy
@@ -867,26 +885,33 @@ msgid ""
 "\n"
 "Do you really want to install them on your system?"
 msgstr ""
+"Вы выбрали следующие модули: %1.\n"
+"\n"
+"Вы действительно хотите установить их на вашу систему?"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1230
 msgid "Module installation ..."
-msgstr ""
+msgstr "Устанавливаются модули..."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1284
 msgid "[%1]: %2% complete"
-msgstr ""
+msgstr "[%1]: %2% выполненно"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1310
 msgid ""
 "This directory is not writable, so modules can not be installed here using "
 "BibleTime. Do you want to use this directory instead of the previous value?"
 msgstr ""
+"Эта директория не подходит для записи, поэтому модули не могу быть установленны "
+"поэтому пути при помощи BibleTime. Вы хотите использовать эту дерикторию вместо предыдущей?"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1328
 msgid ""
 "This directory is not writable, so modules can not be installed here using "
 "BibleTime. Do you want to add it to the list of module directories?"
 msgstr ""
+"Эта директория не подходит для записи, поэтому модули не могу быть установленны "
+"поэтому пути при помощи BibleTime. Вы хотите добавить этот путь в список директорий модулей?"
 
 #: ../bibletime/frontend/ctooltipmanager.cpp:52
 msgid "Bible"
@@ -1243,8 +1268,7 @@ msgstr "Сохранить текст перед закрытием?"
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:263
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:335
 msgid "Take care, this module contains cult / questionable material!"
-msgstr ""
-"Будьте осторожны -- модуль содержит культовые / сомнительные материалы!"
+msgstr "Будьте осторожны -- модуль содержит культовые / сомнительные материалы!"
 
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:265
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:306
@@ -1626,8 +1650,7 @@ msgstr "Включить отладочные сообщения"
 msgid ""
 "Ignore the startup session that was saved when BibleTime was closed the last "
 "time."
-msgstr ""
-"Игнорировать сессию запуска, сохранённую при последнем закрытии BibleTime."
+msgstr "Игнорировать сессию запуска, сохранённую при последнем закрытии BibleTime."
 
 #: ../bibletime/main.cpp:135
 msgid ""
@@ -1701,13 +1724,17 @@ msgstr "Коды и названия языков"
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "Vlad Savitsky"
+msgstr ""
+"Vlad Savitsky "
+"R.Ignatov"
 
 #: ../bibletime/main.cpp:189
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "vlad_savitsky@mail.ru"
+msgstr ""
+"vlad_savitsky@mail.ru "
+"R.Ignatov@infocreek.com"
 
 #: ../bibletime/main.cpp:220
 msgid "Starting BibleTime"
@@ -1910,10 +1937,8 @@ msgstr ""
 "создать закладки из вашего личного комментария.\n"
 
 #: ../bibletime/tips-dummy.cpp:47
-msgid ""
-"The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
-msgstr ""
-"Писание даёт нам мудрость, которая ведёт ко спасению. (2 Тимофею 3:15)\n"
+msgid "The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
+msgstr "Писание даёт нам мудрость, которая ведёт ко спасению. (2 Тимофею 3:15)\n"
 
 #: ../bibletime/tips-dummy.cpp:51
 msgid ""
@@ -1945,12 +1970,10 @@ msgstr ""
 msgid ""
 "In the beginning was the Word, the Word was with God, and the Word was God. "
 "(John 1:1)\n"
-msgstr ""
-"В начале было Слово, и Слово было у Бога, и Слово было Бог. (Иоанна 1:1)\n"
+msgstr "В начале было Слово, и Слово было у Бога, и Слово было Бог. (Иоанна 1:1)\n"
 
 #: ../bibletime/tips-dummy.cpp:66
-msgid ""
-"We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
+msgid "We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
 msgstr ""
 "В последний день мы будем судимы словами, которые сказал Иисус. (Иоанна "
 "12:48)\n"
@@ -2023,8 +2046,7 @@ msgstr ""
 msgid ""
 "God has already given to us everything pertaining to life and godliness. (2 "
 "Peter 1:3)\n"
-msgstr ""
-"Бог уже дал нам всё необходимое для жизни и благочестия. (2 Петра 1:3)\n"
+msgstr "Бог уже дал нам всё необходимое для жизни и благочестия. (2 Петра 1:3)\n"
 
 #: ../bibletime/tips-dummy.cpp:103
 msgid ""
@@ -2099,10 +2121,8 @@ msgid "Search in open modules"
 msgstr "Искать в открытых модулях"
 
 #: ../bibletime/util/cresmgr.cpp:917
-msgid ""
-"Open the search dialog to search in all modules that are currently open."
-msgstr ""
-"Открыть диалог поиска, чтобы искать во всех модулях, которые сейчас открыты."
+msgid "Open the search dialog to search in all modules that are currently open."
+msgstr "Открыть диалог поиска, чтобы искать во всех модулях, которые сейчас открыты."
 
 #: ../bibletime/util/cresmgr.cpp:921
 msgid "Search default bible"
@@ -2126,8 +2146,7 @@ msgstr "Сохранить текущую сессию"
 
 #: ../bibletime/util/cresmgr.cpp:936
 msgid "Save current BibleTime session so that it can be reused later."
-msgstr ""
-"Сохранить текущую сессию BibleTime, чтобы её можно было использовать позже."
+msgstr "Сохранить текущую сессию BibleTime, чтобы её можно было использовать позже."
 
 #: ../bibletime/util/cresmgr.cpp:940
 msgid "Save as new session"
@@ -2210,9 +2229,8 @@ msgid "Open the dialog to set most of BibleTime's preferences."
 msgstr "Открыть диалог, где можно установить большинство параметров BibleTime."
 
 #: ../bibletime/util/cresmgr.cpp:995
-msgid ""
-"Open the dialog to configure Sword and install/update/remove Sword modules."
-msgstr ""
+msgid "Open the dialog to configure Sword and install/update/remove Sword modules."
+msgstr "Открыть диалог для настройки Sword и установки/обновления/удаления модулей Sword"
 
 #: ../bibletime/util/cresmgr.cpp:1004
 msgid "BibleTime's handbook"
@@ -2501,8 +2519,7 @@ msgid "List of chapters"
 msgstr "Список глав"
 
 #: ../bibletime/util/cresmgr.cpp:1185
-msgid ""
-"This list contains the chapters which are available in the current book."
+msgid "This list contains the chapters which are available in the current book."
 msgstr "Этот список содержит главы, доступные в текущей книге."
 
 #: ../bibletime/util/cresmgr.cpp:1189
@@ -2526,8 +2543,7 @@ msgid "List of verses"
 msgstr "Список стихов"
 
 #: ../bibletime/util/cresmgr.cpp:1200
-msgid ""
-"This list contains the verses which are available in the current chapter."
+msgid "This list contains the verses which are available in the current chapter."
 msgstr "Этот список содержит стихи, доступные в текущей главе."
 
 #: ../bibletime/util/cresmgr.cpp:1204
@@ -2559,10 +2575,8 @@ msgid "Synchronize with Bible windows"
 msgstr "Синхронизировать с окнами Библии"
 
 #: ../bibletime/util/cresmgr.cpp:1218
-msgid ""
-"Synchronize the displayed entry of this module with the active Bible window."
-msgstr ""
-"Синхронизировать отображаемую запись этого модуля с окном активной Библии."
+msgid "Synchronize the displayed entry of this module with the active Bible window."
+msgstr "Синхронизировать отображаемую запись этого модуля с окном активной Библии."
 
 #: ../bibletime/util/cresmgr.cpp:1225
 msgid "List of entries"
@@ -2757,8 +2771,7 @@ msgid "Size of page borders"
 msgstr "Размер полей страницы"
 
 #: ../bibletime/util/cresmgr.cpp:1367
-msgid ""
-"This group contains the page borders of the page measured in millimeters."
+msgid "This group contains the page borders of the page measured in millimeters."
 msgstr "Эта группа содержит границы страницы в миллиметрах."
 
 #: ../bibletime/util/cresmgr.cpp:1370
@@ -2862,10 +2875,8 @@ msgid "This color will be used for all footnotes in the display windows."
 msgstr "Этот цвет будет использован для всех сносок в окнах."
 
 #: ../bibletime/util/cresmgr.cpp:1444
-msgid ""
-"This color will be used for every Strong's Number in the display windows."
-msgstr ""
-"Этот цвет будет использован для каждого номера Стронга в окнах модулей."
+msgid "This color will be used for every Strong's Number in the display windows."
+msgstr "Этот цвет будет использован для каждого номера Стронга в окнах модулей."
 
 #: ../bibletime/util/cresmgr.cpp:1448
 msgid "Color of the highlighted verse"
@@ -2937,8 +2948,7 @@ msgstr "Список языков"
 
 #: ../bibletime/util/cresmgr.cpp:1502
 msgid "Contains the languages which can be used for the biblical booknames."
-msgstr ""
-"Содержит языки, которые могут быть использованы для названий библейских книг."
+msgstr "Содержит языки, которые могут быть использованы для названий библейских книг."
 
 #: ../bibletime/util/cresmgr.cpp:1509
 msgid "The default bible used in the workspace area"
@@ -2946,16 +2956,14 @@ msgstr "Библия, используемая в рабочей области 
 
 #: ../bibletime/util/cresmgr.cpp:1510
 msgid "The default Bible is used when a hyperlink into a Bible is clicked."
-msgstr ""
-"Библия по умолчанию используется, когда ссылка на Библию была щёлкнута."
+msgstr "Библия по умолчанию используется, когда ссылка на Библию была щёлкнута."
 
 #: ../bibletime/util/cresmgr.cpp:1514
 msgid "The default commentary used in the workspace area"
 msgstr "Комментарий, используемый в рабочей области по умолчанию"
 
 #: ../bibletime/util/cresmgr.cpp:1515
-msgid ""
-"The default commentary is used when a hyperlink into a commentary is clicked."
+msgid "The default commentary is used when a hyperlink into a commentary is clicked."
 msgstr ""
 "Комментарий по умолчанию используется, когда была щёлкнута гиперссылка в "
 "комментарий."
@@ -2966,18 +2974,15 @@ msgstr "Лексикон, используемый в рабочей облас�
 
 #: ../bibletime/util/cresmgr.cpp:1520
 msgid "The default lexicon is used when a hyperlink into a lexicon is clicked."
-msgstr ""
-"Словарь по умолчанию используется, когда была щёлкнута гиперссылка в словарь."
+msgstr "Словарь по умолчанию используется, когда была щёлкнута гиперссылка в словарь."
 
 #: ../bibletime/util/cresmgr.cpp:1524
 msgid "The default daily devotional module"
 msgstr "Модуль ежедневных чтений по умолчанию."
 
 #: ../bibletime/util/cresmgr.cpp:1525
-msgid ""
-"The default devotional will be used to display a short start up devotional."
-msgstr ""
-"Короткое ежедневное чтение будет показываться при каждом старте программы."
+msgid "The default devotional will be used to display a short start up devotional."
+msgstr "Короткое ежедневное чтение будет показываться при каждом старте программы."
 
 #: ../bibletime/util/cresmgr.cpp:1529
 msgid "The default Hebrew lexicon used in the workspace area"
@@ -3004,8 +3009,7 @@ msgstr ""
 "в греческий словарь."
 
 #: ../bibletime/util/cresmgr.cpp:1539
-msgid ""
-"The default Morphological lexicon for Hebrew texts used in the workspace area"
+msgid "The default Morphological lexicon for Hebrew texts used in the workspace area"
 msgstr ""
 "Морфологический словарь для еврейских текстов, используемый в рабочей "
 "области по умолчанию"
@@ -3019,8 +3023,7 @@ msgstr ""
 "когда ссылка морфологического тэга в еврейском тексте была щёлкнута."
 
 #: ../bibletime/util/cresmgr.cpp:1544
-msgid ""
-"The default Morphological lexicon for Greek texts used in the workspace area"
+msgid "The default Morphological lexicon for Greek texts used in the workspace area"
 msgstr ""
 "Морфологический словарь для греческих текстов, используемый в рабочей "
 "области по умолчанию"
@@ -3098,8 +3101,7 @@ msgid "Use different variants from the textual sources."
 msgstr "Использовать различные варианты из текстовых источников."
 
 #: ../bibletime/util/cresmgr.cpp:1613
-msgid ""
-"Opens the search dialog to search in the modules that are currently open."
+msgid "Opens the search dialog to search in the modules that are currently open."
 msgstr ""
 "Открывает диалог поиска для поиска текста в одном или нескольких открытых "
 "модулях."
@@ -4205,3 +4207,4 @@ msgstr "Зулу"
 #~ msgid ""
 #~ "Create a new printing style.<BR>The new style will be added to the list."
 #~ msgstr "Создать новый стиль печати.<BR>Новый стиль будет добавлен к списку."
+
