@@ -41,7 +41,7 @@
 <para
 > Zwei weitere Funktionen sind durch &RMB; auf dem Modul verfügbar. "Über dieses ModulA" öffnet ein Fenster mit Informationen über Copyright und andere wichtige Eigenschaften dieses Dokumentes. "Dieses Modul entschlüsseln" öffnet einen kleinen Dialog für verschlüsselte Dokumente. Dies erlaubt es den Besitzern des Schlüssels, diesen einzugeben, um das Modul zu entschlüssenl und damit lesbar zu machen. Die Crosswire Bible Society muss Module verschlüsseln, bis entweder der Copyrightinhaber die Erlaubnis für die Weitergabe des Moduls erteilt, oder der Text in Public Domain übergegangen ist (Copyright verfallen). <ulink url="http://www.crosswire.org/sword/modules/aboutlocked.jsp"
 >See information on locked modules on the Crosswire Bible Society web site</ulink
->.</para>
+>. </para>
 </section>
 
 <section id="hdbk-op-module-tree-search">
@@ -140,30 +140,28 @@
 <section id="hdbk-op-MDI-Window-Personal-commentary">
 <title
 >Bearbeiten Sie ihren eigenen Kommentar</title
-> <para
-> Die Werkzeugleiste des Kommentarfensters hat einen weiteren Button, mit dem Bild eines Stiftes.<inlinemediaobject
+> 
+<para
+></para>
+<tip
+><para
+></para
+></tip>
+<para
+></para
+>.
+<inlinemediaobject
 > <imageobject
 > <imagedata fileref="hdbk-op-pencil.png"/> </imageobject
 > <textobject
 > <phrase
->Geben Sie ihre Notizen ein</phrase
+></phrase
 > </textobject
-> </inlinemediaobject
-> Für das "Personal-commentary" Modul, &LMB; den <guibutton
->Button mit dem Bild eines Stiftes</guibutton
-> um Ihre Notizen einzugeben, oder um eingegebene zu bearbeiten. Wenn Sie fertig sind, &LMB; den <guibutton
->"Speichern" (Ddisketten) Button</guibutton
->, um Ihre Notizen zu sichern. Um die Notizen für einen Vers zu löschen, &LMB; den <guibutton
->Vers löschen Button</guibutton
-> <inlinemediaobject
-> <imageobject
-> <imagedata fileref="hdbk-op-delete-verse.png"/> </imageobject
-> <textobject
-> <phrase
->Vers Löschen Symbol</phrase
-> </textobject
-> </inlinemediaobject
->. </para>
+> </inlinemediaobject>
+<para
+> </para>
+<para
+>  </para>
 <!-- This is a feature not yet finished.
 You can also set the endpoint of your notes, if for example you want
 to use the same notes to comment on a range of verses. Click the "Edit" button
@@ -906,13 +904,6 @@ again to return to normal commentary browsing mode.
 >Ein &LMB; hier wählt den gesamten text des Kapitels aus, das gerade dargestellt wird. </para>
 </section>
 
-<section id="hdbk-op-lookup">
-<title
->Text im Lexikon nachschlagen</title>
-<para
->Ein &LMB; hier wird ein Submenü mit einer Liste von allen verfügbaren Lexikons öffnen. Ein &LMB; auf einem Lexicon öffnet das Lexikokn mit dem Eintrag, der gerade im aktuellen Text markiert ist. </para>
-</section>
-
 <section id="hdbk-op-copy">
 <title
 >Kopieren</title>
@@ -957,6 +948,10 @@ again to return to normal commentary browsing mode.
 <section id="hdbk-op-print"
 ><title
 >Zur Druckschlange hinzufügen</title>
+<important
+> <para
+>  </para
+> </important>
 <para
 >Ein &LMB; hier zeigt ein Submenü mit den Druckmöglichkeiten an: </para>
 <itemizedlist
@@ -984,6 +979,12 @@ again to return to normal commentary browsing mode.
 <para
 >Ein &LMB; hier zeigt ein Submenü mit Speichermöglichkeiten an: </para>
 <itemizedlist
+> <listitem
+> <para
+> <guimenuitem
+>Kapitel als normaler Text</guimenuitem
+> - eine Datei mit &UNIX;-formatiertem ASCII-Text wird erstellt. </para
+> </listitem
 > <listitem
 > <para
 > <guimenuitem

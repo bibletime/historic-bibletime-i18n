@@ -32,7 +32,7 @@
 
 	<section id="hdbk-config-bt"
 ><title
->Optionendialog</title>
+></title>
 	<para
 >Der Optionendialgo erlaubt Ihnen, viele &bibletime; und Sword Features anzupassen.</para>
 
@@ -84,21 +84,8 @@
 ><title
 >Unicode Schriften (ISO10646)</title>
 			<para
->Sword Module benutzen entweder das ISO-8859-1 (Latin-1) oder das ISO-10646 (Unicode) Encoding. Sie können herausfinden, welches Encoding verwendet wurde, durch &RMB; auf dem Hauptindex, und Auswahl von <guimenuitem
->Über dieses Modul</guimenuitem
->.</para>
-			<mediaobject
-> <imageobject
-> <imagedata fileref="hdbk-conf-font-about.png" format="PNG"/> </imageobject
-> <textobject
-> <phrase
->Über dieses Modul</phrase
-> </textobject
-> <caption
-> <para
->Das "Über dieses Modul"-Fenster zeigt an, welches Encoding benutzt wird.</para
-> </caption
-> </mediaobject>
+></para>
+
 			<para
 >Solange Ihre benötigten Module korrekt angezeigt werden, muss hier nichts unternommen werden. Wenn ein Modul als eine Folge von Fragezeichen (???????????????????) angezeigt wird, dann enthält die eingestellte Schriftart nicht die Zeichen, die in Ihrem Dokument verwendet wurden.</para>
 
@@ -150,11 +137,11 @@
 >Es gibt eine Anzahl von Schriften, die Unicode unterstützen, und einige von ihnen sind kostenlos verfügbar. Wenige der verfügbaren Schriften enthalten alle Symbole, die im Unicode Standard definiert sind.</para>
 			<para
 >Hier ist eine Liste von einigen verfügbaren Schriften:</para>
-				<table>
-				<title
->Unicode Schriften</title>
-				<tgroup cols="2">
-				<tbody
+				<table
+> <title
+>Unicode Schriften</title
+> <tgroup cols="2"
+> <tbody
 > <row
 ><entry
 >Clearlyu</entry
@@ -185,9 +172,9 @@
 > <entry
 >Teilweise Abdeckung, siehe die Information auf der angegebenen Seite.</entry
 ></row
-> </tbody>
-				</tgroup>
-				</table>
+> </tbody
+> </tgroup
+> </table>
 			<para
 >Das vollständigste Verzeichnis von Unicode-Schriften, das wir kennen, ist <ulink url="http://www.ccss.de/slovo/unifonts.htm"
 > Christoph Singers "Multilingual Unicode TrueType Fonts in the Internet" </ulink
@@ -381,20 +368,19 @@
 	<para
 >Es handelt sich um spezielle Tastenbefehle, die anstatt der Menüeinträge und Icons verwendet werden können. Eine Anzahl der Kommandos in &bibletime; haben vordefinierte Tastenkürzel. Allen Kommandos in &bibletime; können hier Tastenküzel zugewiesen werden.</para>
 
-		<table>
-		<title
->Standard-Tastenkürzel</title>
-		<tgroup cols="2">
-		<thead
+		<table
+> <title
+>Standard-Tastenkürzel</title
+> <tgroup cols="2"
+> <thead
 > <row
 > <entry
 >Aktion</entry
 > <entry
 >Tastenkombination</entry
 > </row
-> </thead>
-
-		<tbody
+> </thead
+> <tbody
 > <row
 > <entry
 >Automatisch Kacheln</entry
@@ -461,9 +447,9 @@
 ><entry
 >Ctrl+T </entry
 ></row
-> </tbody>
-		</tgroup>
-		</table>
+> </tbody
+> </tgroup
+> </table>
 	</section>
 </section>
 </chapter>

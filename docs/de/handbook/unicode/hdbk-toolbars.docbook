@@ -442,8 +442,8 @@
 ><title
 >Menüzeile</title>
 	<para
->Später</para>
-	</section>
+></para>
+
 	
 
 	<section id="hdbk-bars-menubar-file"
@@ -467,6 +467,14 @@
 >Dieser Menüeintrag öffnet den <guilabel
 >Druckdialog</guilabel
 >. Hier können Sie wie in jeder anderen &kde; Anwendung drucken oder betrachten.</para
+> </listitem
+> </varlistentry
+> <varlistentry
+> <term
+> </term
+> <listitem
+> <para
+>&bibletime; einrichten</para
 > </listitem
 > </varlistentry
 > </variablelist
@@ -509,7 +517,7 @@
 
 	<section id="hdbk-bars-menubar-mainindex"
 ><title
->Hauptgruppe</title>
+>Ansicht</title>
 	<para
 > <variablelist
 > <varlistentry
@@ -526,26 +534,14 @@
 > </varlistentry
 > <varlistentry
 ><term
->Hauptgruppe zurücksetzen</term
+>In Modulen suchen</term
 > <listitem
 > <para
 > Wenn <guimenuitem
->Hauptgruppe zurücksetzen</guimenuitem
-> ausgewählt wird, wird der linke Bereich neu aufgebaut.Jede Einstellung sowie die Lesezeichen werden gelöscht. </para
-> </listitem
-> </varlistentry
-> <varlistentry
-> <term
->Entferne ausgewählte Elemente</term
-> <listitem
-> <para
-> Wenn <guimenuitem
->Entferne ausgewählte Einträge</guimenuitem
-> ausgewählt wird, wird jeder in der <guilabel
->Hauptgruppe</guilabel
-> gewählte Eintrag gelöscht. Diese Aktion kann nur teilweise durch <guimenuitem
->Hauptgruppe zurücksetzen</guimenuitem
-> rückgängig gemacht werden. Benutzen Sie diese Funktion mit Vorsicht. </para
+>Durchsuche gewählte Module</guimenuitem
+> ausgewählt ist, dann wird der<guilabel
+>Suchdialog</guilabel
+>  angezeigt. Jedes im linken  Bereich ausgewählte Dokument sind in der Module auswählen Karteikarte vorausgewählt. </para
 > </listitem
 > </varlistentry
 > </variablelist
@@ -559,7 +555,7 @@
 > <variablelist
 > <varlistentry
 > <term
->Profil speichern</term
+></term
 > <listitem
 ><para
 >Speichert die aktuelle Konfiguration zum gewählten Profil</para
@@ -567,7 +563,15 @@
 > </varlistentry
 > <varlistentry
 > <term
->Profile laden</term
+></term
+> <listitem
+><para
+>Speichert die aktuelle Konfiguration zum gewählten Profil</para
+></listitem
+> </varlistentry
+> <varlistentry
+> <term
+></term
 > <listitem
 ><para
 >Lädt den Inhalt des gewählten Profiles in die aktuelle Sitzung von &bibletime;.</para
@@ -575,7 +579,7 @@
 > </varlistentry
 > <varlistentry
 > <term
->Profile einrichten</term
+>Werkzeugleiste einrichten</term
 > <listitem
 ><para
 >Dies öffnet den <guilabel
@@ -618,7 +622,7 @@
 >Automatisch staffeln</term
 > <listitem
 > <para
-> Staffelt automatisch die neu geöffneten Anzeigefenster </para
+>Staffelt automatisch die neu geöffneten Anzeigefenster</para
 > </listitem
 > </varlistentry
 > <varlistentry
@@ -642,7 +646,7 @@
 >Liste des geöffneten Module</term
 > <listitem
 > <para
->zeigt eine Liste aller zur Zeit gewählter Module.</para
+></para
 > </listitem
 > </varlistentry
 > </variablelist
@@ -762,9 +766,7 @@
 > </variablelist
 > </para>
 </section>
-
-
-
+</section>
 </chapter>
 
 

@@ -455,20 +455,22 @@ msgstr "Menüzeile"
 
 #: index.docbook:463
 #, no-c-format
-msgid "Later"
-msgstr "Später"
+msgid ""
+"Various features of bibletime are accessed by way of drop down menus from "
+"the menubar."
+msgstr ""
 
-#: index.docbook:467
+#: index.docbook:468
 #, no-c-format
 msgid "File"
 msgstr "Datei"
 
-#: index.docbook:468
+#: index.docbook:469
 #, no-c-format
 msgid "Clear printing queue"
 msgstr "Druckschlange leeren"
 
-#: index.docbook:468
+#: index.docbook:469
 #, no-c-format
 msgid ""
 "Clears all items from the &bibletime; print queue. The &bibletime; printing "
@@ -477,12 +479,12 @@ msgstr ""
 "Entfernt alle Einträge aus der &bibletime; Druckschlange. Die &bibletime; "
 "Druckschlange wird nicht automatisch gelöscht."
 
-#: index.docbook:468
+#: index.docbook:469
 #, no-c-format
 msgid "Print"
 msgstr "Drucken"
 
-#: index.docbook:468
+#: index.docbook:469
 #, no-c-format
 msgid ""
 "This menu item launches the <guilabel>printdialog</guilabel> box. From here "
@@ -491,17 +493,27 @@ msgstr ""
 "Dieser Menüeintrag öffnet den <guilabel>Druckdialog</guilabel>. Hier können "
 "Sie wie in jeder anderen &kde; Anwendung drucken oder betrachten."
 
-#: index.docbook:490
+#: index.docbook:469
+#, no-c-format
+msgid "Quit"
+msgstr ""
+
+#: index.docbook:469
+#, fuzzy, no-c-format
+msgid "Closes &bibletime;."
+msgstr "&bibletime; einrichten"
+
+#: index.docbook:498 index.docbook:526
 #, no-c-format
 msgid "View"
 msgstr "Ansicht"
 
-#: index.docbook:491
+#: index.docbook:499
 #, no-c-format
 msgid "Show Toolbar"
 msgstr "Werkzeugleiste anzeigen"
 
-#: index.docbook:491
+#: index.docbook:499
 #, no-c-format
 msgid ""
 ">If <guimenuitem>show toolbar</guimenuitem> is selected, the toolbar is "
@@ -513,12 +525,12 @@ msgstr ""
 "anzeigen</guimenuitem> nicht ausgewählt ist, dass wird die Werkzeugleiste "
 "versteckt."
 
-#: index.docbook:491
+#: index.docbook:499
 #, no-c-format
 msgid "Show Main Index"
 msgstr "Zeige Hauptgruppe"
 
-#: index.docbook:491
+#: index.docbook:499
 #, no-c-format
 msgid ""
 "If <guimenuitem>show main index</guimenuitem> is selected, the left pane "
@@ -530,114 +542,102 @@ msgstr ""
 "Wenn <guimenuitem>Zeige Hauptgruppe</guimenuitem> nicht ausgewählt ist, dann "
 "wird der linke Bereich versteckt."
 
-#: index.docbook:518
-#, no-c-format
-msgid "Main Index"
-msgstr "Hauptgruppe"
-
-#: index.docbook:519
-#, no-c-format
-msgid "Search in module(s)"
+#: index.docbook:527
+#, fuzzy, no-c-format
+msgid "Search in default Bible"
 msgstr "In Modulen suchen"
 
-#: index.docbook:519
-#, no-c-format
+#: index.docbook:527
+#, fuzzy, no-c-format
 msgid ""
-"If <guimenuitem>Search in module(s)</guimenuitem> is selected, "
-"<guilabel>search dialog</guilabel> is displayed. Any selected documents from "
-"the left pane are preselected on the choose modules tab."
+"If <guimenuitem>Search in default Bible</guimenuitem> is selected, "
+"<guilabel>search dialog</guilabel> is displayed with the default Bible "
+"selected as the search parameter."
 msgstr ""
 "Wenn <guimenuitem>Durchsuche gewählte Module</guimenuitem> ausgewählt ist, "
 "dann wird der<guilabel>Suchdialog</guilabel>  angezeigt. Jedes im linken  "
 "Bereich ausgewählte Dokument sind in der Module auswählen Karteikarte "
 "vorausgewählt."
 
-#: index.docbook:519
-#, no-c-format
-msgid "Reset Main Index"
-msgstr "Hauptgruppe zurücksetzen"
+#: index.docbook:527
+#, fuzzy, no-c-format
+msgid "Search in open module(s)"
+msgstr "In Modulen suchen"
 
-#: index.docbook:519
-#, no-c-format
+#: index.docbook:527
+#, fuzzy, no-c-format
 msgid ""
-"If <guimenuitem>Reset Main Index</guimenuitem> is selected, the "
-"<guilabel>Main Index</guilabel> in the left pane will be rebuilt. Any "
-"customization in the <guilabel>main index</guilabel> and bookmarks will be "
-"deleted."
+"If <guimenuitem>Search in open module(s)</guimenuitem> is selected, "
+"<guilabel>search dialog</guilabel> is displayed with all of the open modules "
+"selected as the search parameters."
 msgstr ""
-"Wenn <guimenuitem>Hauptgruppe zurücksetzen</guimenuitem> ausgewählt wird, "
-"wird der linke Bereich neu aufgebaut.Jede Einstellung sowie die Lesezeichen "
-"werden gelöscht."
+"Wenn <guimenuitem>Durchsuche gewählte Module</guimenuitem> ausgewählt ist, "
+"dann wird der<guilabel>Suchdialog</guilabel>  angezeigt. Jedes im linken  "
+"Bereich ausgewählte Dokument sind in der Module auswählen Karteikarte "
+"vorausgewählt."
 
-#: index.docbook:519
-#, no-c-format
-msgid "Remove selected item"
-msgstr "Entferne ausgewählte Elemente"
-
-#: index.docbook:519
-#, no-c-format
-msgid ""
-"If <guimenuitem>Remove selected item</guimenuitem> is selected, any selected "
-"items in the <guilabel>Main Index</guilabel> in the left pane will be "
-"deleted. This action can only be partly undone by the <guimenuitem>Reset "
-"Main Index</guimenuitem>. Use this feature with caution."
-msgstr ""
-"Wenn <guimenuitem>Entferne ausgewählte Einträge</guimenuitem> ausgewählt "
-"wird, wird jeder in der <guilabel>Hauptgruppe</guilabel> gewählte Eintrag "
-"gelöscht. Diese Aktion kann nur teilweise durch <guimenuitem>Hauptgruppe "
-"zurücksetzen</guimenuitem> rückgängig gemacht werden. Benutzen Sie diese "
-"Funktion mit Vorsicht."
-
-#: index.docbook:557
+#: index.docbook:553
 #, no-c-format
 msgid "Window"
 msgstr "Fenster"
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
-msgid "Save Profile"
-msgstr "Profil speichern"
+msgid "Save Session"
+msgstr ""
 
-#: index.docbook:558
-#, no-c-format
-msgid "Saves the current configuration to a selected profile"
+#: index.docbook:554
+#, fuzzy, no-c-format
+msgid "Saves the current configuration to a selected Session."
 msgstr "Speichert die aktuelle Konfiguration zum gewählten Profil"
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
-msgid "Load Profile"
-msgstr "Profile laden"
+msgid "Save as Session"
+msgstr ""
 
-#: index.docbook:558
-#, no-c-format
+#: index.docbook:554
+#, fuzzy, no-c-format
 msgid ""
-"Loads the contents of the named profile to the current session of "
+"Saves the current configuration to a Session, and allows the new profile to "
+"be named."
+msgstr "Speichert die aktuelle Konfiguration zum gewählten Profil"
+
+#: index.docbook:554
+#, no-c-format
+msgid "Load Session"
+msgstr ""
+
+#: index.docbook:554
+#, fuzzy, no-c-format
+msgid ""
+"Loads the contents of the named Session to the current session of "
 "&bibletime;."
 msgstr ""
 "Lädt den Inhalt des gewählten Profiles in die aktuelle Sitzung von "
 "&bibletime;."
 
-#: index.docbook:558
-#, no-c-format
-msgid "Configure Profile"
-msgstr "Profile einrichten"
+#: index.docbook:554
+#, fuzzy, no-c-format
+msgid "Configure Sessions"
+msgstr "Werkzeugleiste einrichten"
 
-#: index.docbook:558
-#, no-c-format
+#: index.docbook:554
+#, fuzzy, no-c-format
 msgid ""
-"This brings up the <guilabel>profiles</guilabel> tab of the "
-"<guilabel>Options dialog</guilabel>. Here you create and manage profiles"
+"This brings up the <guilabel>Sessions</guilabel> tab of the "
+"<guilabel>Options dialog</guilabel>. Here you create and manage Sessions."
 msgstr ""
 "Dies öffnet den <guilabel>Profile</guilabel> Teil des "
 "<guilabel>Optionendialoges</guilabel>. Hier erzeugen und verwalten Sie die "
 "Profile."
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
 msgid "Fullscreen Mode"
 msgstr "Vollbild Modus"
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
 msgid ""
 "When <guimenuitem>Fullscreen Mode</guimenuitem> is selected, &bibletime; "
@@ -649,87 +649,89 @@ msgstr ""
 "rückgängig zu machen, wählen Sie <guimenuitem>Vollbild Modus</guimenuitem> "
 "erneut aus."
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
 msgid "Cascade"
 msgstr "Staffeln"
 
-#: index.docbook:558
-#, no-c-format
-msgid "Cascades open display windows"
+#: index.docbook:554
+#, fuzzy, no-c-format
+msgid "Cascades open display windows."
 msgstr "Geöffnete Dokumentenfenster staffeln"
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
 msgid "Tile"
 msgstr "Kacheln"
 
-#: index.docbook:558
-#, no-c-format
-msgid "Tiles open display windows"
+#: index.docbook:554
+#, fuzzy, no-c-format
+msgid "Tiles open display windows."
 msgstr "Geöffnete Dokumentenfenster kacheln"
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
 msgid "Auto Cascade"
 msgstr "Automatisch staffeln"
 
-#: index.docbook:558
-#, no-c-format
-msgid "Automatically cascades newly opened display windows"
+#: index.docbook:554
+#, fuzzy, no-c-format
+msgid "Automatically cascades newly opened display windows."
 msgstr "Staffelt automatisch die neu geöffneten Anzeigefenster"
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
 msgid "Auto Tile"
 msgstr "Automatisch Kacheln"
 
-#: index.docbook:558
-#, no-c-format
-msgid "ditto for tiling newly opened display windows"
+#: index.docbook:554
+#, fuzzy, no-c-format
+msgid "ditto for tiling newly opened display windows."
 msgstr "ditto für das kacheln neu geöffneter Anzeigefenster"
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
 msgid "Close all"
 msgstr "Alle Schließen"
 
-#: index.docbook:558
-#, no-c-format
-msgid "Closes all open display windows"
+#: index.docbook:554
+#, fuzzy, no-c-format
+msgid "Closes all open display windows."
 msgstr "Schließt alle geöffneten Anzeigefenster"
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
 msgid "List of open modules"
 msgstr "Liste des geöffneten Module"
 
-#: index.docbook:558
+#: index.docbook:554
 #, no-c-format
-msgid "shows a list of all of the currently selected modules."
-msgstr "zeigt eine Liste aller zur Zeit gewählter Module."
+msgid ""
+"shows a list of all of the currently open modules. Selecting a module in "
+"this list makes that open module the selected module in the display area."
+msgstr ""
 
-#: index.docbook:635
+#: index.docbook:636
 #, no-c-format
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: index.docbook:636
+#: index.docbook:637
 #, no-c-format
 msgid "Configure Toolbar"
 msgstr "Werkzeugleiste einrichten"
 
-#: index.docbook:636
+#: index.docbook:637
 #, no-c-format
 msgid "show the <guilabel>Configure Toolbar</guilabel> dialog."
 msgstr "Zeigt den <guilabel>Werkzeugleiste einrichten</guilabel> Dialog."
 
-#: index.docbook:636
+#: index.docbook:637
 #, no-c-format
 msgid "Configure &bibletime;"
 msgstr "&bibletime; einrichten"
 
-#: index.docbook:636
+#: index.docbook:637
 #, no-c-format
 msgid ""
 "Shows the <guilabel>Options dialog</guilabel>. From this dialog the startup "
@@ -740,17 +742,17 @@ msgstr ""
 "Sie alle Einstellungen wie Schriften, Profile, Sword-Einstellungen und "
 "Tastenkürzel vornehmen."
 
-#: index.docbook:660
+#: index.docbook:661
 #, no-c-format
 msgid "Help"
 msgstr "Hilfe"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "Handbook"
 msgstr "Handbuch"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid ""
 "Select <guimenuitem>Handbook</guimenuitem> to access this document from the "
@@ -759,12 +761,12 @@ msgstr ""
 "Wählen Sie <guimenuitem>Handbuch</guimenuitem> aus, um dieses Dokument im "
 "&kde; Hilfezentrum zu lesen."
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "Installation"
 msgstr "Installation"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid ""
 "Select <guimenuitem>Installation</guimenuitem> to access the installation "
@@ -773,12 +775,12 @@ msgstr ""
 "Wählen Sie <guimenuitem>Installation</guimenuitem> aus, um die "
 "Installationsanleitung für &bibletime; im &kde; Hilfezentrum zu öffnen."
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "Biblestudy HowTo"
 msgstr "Anleitung zum Bibelstudium"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid ""
 "Select <guimenuitem>Biblestudy HowTo</guimenuitem> to access A good basic "
@@ -787,24 +789,24 @@ msgstr ""
 "Wählen Sie <guimenuitem>Anleitung zum Bibelstudium</guimenuitem> um einen "
 "guten Grundlagentext mit Empfelungen zum Bibelstudium zu öffnen."
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "What's This"
 msgstr "Was ist das?"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "Allows you to click on certain items for contextual help."
 msgstr ""
 "Dies erlaubt ihnen auf bestimmte Elemente zu klicken, um eine "
 "Kontextinformation zu erhalten."
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "Bug Report"
 msgstr "Fehlerbericht"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid ""
 "Send a bug report to the program's maintainers to help development. Before "
@@ -819,35 +821,82 @@ msgstr ""
 "im <guilabel>Einen Fehlerbericht schicken...</guilabel> Dialog gemacht "
 "werden."
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "Daily Tip"
 msgstr "Täglicher Tipp"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "Launches the <guilabel>tip of the day</guilabel> dialog."
 msgstr "Öffnet den <guilabel>Tipp des Tages</guilabel> Dialog."
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "About &bibletime;"
 msgstr "Über &bibletime;"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "Opens a window with general &bibletime; information."
 msgstr "Öffnet ein Fenster mit allgemeinen Informationen zu &bibletime;"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "About &kde;"
 msgstr "Über &kde;"
 
-#: index.docbook:661
+#: index.docbook:662
 #, no-c-format
 msgid "Opens a window with general &kde; information."
 msgstr "Öffnet ein Fenster mit allgemeinen Informationen zu &kde;"
+
+#~ msgid "Later"
+#~ msgstr "Später"
+
+#~ msgid "Main Index"
+#~ msgstr "Hauptgruppe"
+
+#~ msgid "Reset Main Index"
+#~ msgstr "Hauptgruppe zurücksetzen"
+
+#~ msgid ""
+#~ "If <guimenuitem>Reset Main Index</guimenuitem> is selected, the "
+#~ "<guilabel>Main Index</guilabel> in the left pane will be rebuilt. Any "
+#~ "customization in the <guilabel>main index</guilabel> and bookmarks will "
+#~ "be deleted."
+#~ msgstr ""
+#~ "Wenn <guimenuitem>Hauptgruppe zurücksetzen</guimenuitem> ausgewählt wird, "
+#~ "wird der linke Bereich neu aufgebaut.Jede Einstellung sowie die "
+#~ "Lesezeichen werden gelöscht."
+
+#~ msgid "Remove selected item"
+#~ msgstr "Entferne ausgewählte Elemente"
+
+#~ msgid ""
+#~ "If <guimenuitem>Remove selected item</guimenuitem> is selected, any "
+#~ "selected items in the <guilabel>Main Index</guilabel> in the left pane "
+#~ "will be deleted. This action can only be partly undone by the "
+#~ "<guimenuitem>Reset Main Index</guimenuitem>. Use this feature with "
+#~ "caution."
+#~ msgstr ""
+#~ "Wenn <guimenuitem>Entferne ausgewählte Einträge</guimenuitem> ausgewählt "
+#~ "wird, wird jeder in der <guilabel>Hauptgruppe</guilabel> gewählte Eintrag "
+#~ "gelöscht. Diese Aktion kann nur teilweise durch <guimenuitem>Hauptgruppe "
+#~ "zurücksetzen</guimenuitem> rückgängig gemacht werden. Benutzen Sie diese "
+#~ "Funktion mit Vorsicht."
+
+#~ msgid "Save Profile"
+#~ msgstr "Profil speichern"
+
+#~ msgid "Load Profile"
+#~ msgstr "Profile laden"
+
+#~ msgid "Configure Profile"
+#~ msgstr "Profile einrichten"
+
+#~ msgid "shows a list of all of the currently selected modules."
+#~ msgstr "zeigt eine Liste aller zur Zeit gewählter Module."
 
 #~ msgid "Icon"
 #~ msgstr "Symbol"

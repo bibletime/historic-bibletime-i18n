@@ -40,7 +40,7 @@ msgstr "&bibletime; starten"
 msgid ""
 "&bibletime; can also be launched from a terminal command prompt. To launch "
 "&bibletime; open a terminal (any Xterminal inside a &kde;3 session) and type "
-"<command>&bibletime;</command>."
+"<command>bibletime</command>."
 msgstr ""
 "&bibletime; kann auch von der Kommandozeile eines Terminals aufgerugfen "
 "werden. Um &bibletime; zu starten, öffnen Sie ein Terminal (jedes beliebige "
@@ -76,7 +76,7 @@ msgstr ""
 #: index.docbook:38
 #, no-c-format
 msgid ""
-"export KDEDIR=/opt/kde3  \n"
+"export KDEDIR=/opt/kde3\n"
 "bibletime"
 msgstr ""
 
@@ -89,49 +89,61 @@ msgid ""
 "application.</ulink>, or one of the &kde;2 versions of &bibletime;."
 msgstr ""
 
-#: index.docbook:49
+#: index.docbook:48
+#, no-c-format
+msgid ""
+"With &Linux-Mandrake; 9.0 and other other distributions where &kde; 3.x is "
+"installed in the normal location, simply type:"
+msgstr ""
+
+#: index.docbook:50
+#, fuzzy, no-c-format
+msgid "bibletime"
+msgstr "&bibletime; starten"
+
+#: index.docbook:55
 #, no-c-format
 msgid "Startup Customization"
 msgstr ""
 
-#: index.docbook:51
+#: index.docbook:57
 #, no-c-format
 msgid ""
 "From a terminal you can use &bibletime; to open a random verse in the "
 "default bible:"
 msgstr ""
 
-#: index.docbook:53
+#: index.docbook:59
 #, no-c-format
 msgid "bibletime --open-default-bible \"&lt;random&gt;\""
 msgstr ""
 
-#: index.docbook:57
+#: index.docbook:63
 #, no-c-format
 msgid "To open at a given passage use:"
 msgstr ""
 
-#: index.docbook:58
+#: index.docbook:64
 #, no-c-format
 msgid "bibletime --open-default-bible \"John 3:16\""
 msgstr ""
 
-#: index.docbook:64
+#: index.docbook:70
 #, no-c-format
 msgid "You can also use keys in your current bookname language."
 msgstr ""
 
-#: index.docbook:69
+#: index.docbook:75
 #, fuzzy, no-c-format
 msgid "Startup Sequence"
 msgstr "Startvorgang"
 
-#: index.docbook:70
+#: index.docbook:76
 #, fuzzy, no-c-format
 msgid "As &bibletime; launches you may see some message screens:"
 msgstr "Wenn &bibletime; startet, könnten Sie einige Meldungen sehen:"
 
-#: index.docbook:72
+#: index.docbook:78
 #, fuzzy, no-c-format
 msgid ""
 "<interface>No Modules Installed</interface> - This is shown if you have "
@@ -141,7 +153,7 @@ msgstr ""
 "vergessen haben Sword Module zu installieren, oder wenn Sword Module nicht "
 "gefunden werden können."
 
-#: index.docbook:72
+#: index.docbook:78
 #, fuzzy, no-c-format
 msgid ""
 "<interface>First Time Startup</interface> - This is shown the first time "
@@ -150,7 +162,7 @@ msgstr ""
 "<interface>Erster Start</interface> - Dies wird angezeigt, wenn &bibletime; "
 "das erste Mal startet."
 
-#: index.docbook:72
+#: index.docbook:78
 #, fuzzy, no-c-format
 msgid ""
 "<interface>Daily Tips</interface> - These show on every startup, unless you "
@@ -159,17 +171,17 @@ msgstr ""
 "<interface>Tägliche Tipps</interface> - Dies wird bei jedem Start angezeigt, "
 "es sei denn Sie schalten dies ab."
 
-#: index.docbook:72
+#: index.docbook:78
 #, fuzzy, no-c-format
 msgid "Daily tips"
 msgstr "Tägliche Tipps"
 
-#: index.docbook:102
+#: index.docbook:108
 #, fuzzy, no-c-format
 msgid "Parts of the &bibletime; Window"
 msgstr "Elemente des &bibletime; Fensters"
 
-#: index.docbook:103
+#: index.docbook:109
 #, fuzzy, no-c-format
 msgid ""
 "Now the main &bibletime; window will open. It's operation is covered in the "
@@ -178,7 +190,7 @@ msgstr ""
 "Jetzt öffnet sich das &bibletime; Fenster. Die Bedienung wird im nächsten "
 "Kapitel erklärt."
 
-#: index.docbook:103
+#: index.docbook:109
 #, fuzzy, no-c-format
 msgid "The &bibletime; Application Window"
 msgstr "Das &bibletime; Anwendungsfenster"

@@ -63,15 +63,15 @@ msgstr "Werkzeugleisten-Konfigurationsdialog"
 msgid "The Toolbar Configuration dialog."
 msgstr "Der Werkzeugleisten-Konfigurationsdialog."
 
-#: index.docbook:27 index.docbook:39
+#: index.docbook:27
 #, no-c-format
-msgid "Options Dialog"
-msgstr "Optionendialog"
+msgid "Preferences - Bibletime Dialog"
+msgstr ""
 
 #: index.docbook:28
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
-"The options dialog allows many &bibletime; and Sword features to be "
+"The preferences dialog allows many &bibletime; and Sword features to be "
 "customized."
 msgstr ""
 "Der Optionendialgo erlaubt Ihnen, viele &bibletime; und Sword Features "
@@ -107,6 +107,11 @@ msgstr "Fenster im Arbeitsbereich wiederherstellen"
 
 #: index.docbook:39
 #, no-c-format
+msgid "Options Dialog"
+msgstr "Optionendialog"
+
+#: index.docbook:39
+#, no-c-format
 msgid "The Options dialog - Startup."
 msgstr "Der Optionendialog - Start."
 
@@ -116,55 +121,43 @@ msgid "Fonts"
 msgstr "Schriften"
 
 #: index.docbook:52
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "The display font used for text can be changed as desired. If you have a "
 "module that requires a special font, check here to see if the font is "
-"available to &bibletime;."
+"available to &bibletime;. You can select to have all modules of any "
+"particular language use a selected font."
 msgstr ""
 "Die Anzeigeschrift kann verändert werden. Wenn Sie ein Modul haben, das eine "
 "spezielle Schrift benötigt, überprüfen Sie hier, ob die Schrift für "
 "&bibletime; verfügbar ist."
 
-#: index.docbook:56
+#: index.docbook:57
 #, no-c-format
 msgid "Options Dialog - fonts"
 msgstr "Optionendialog - Schriften"
 
-#: index.docbook:56
+#: index.docbook:57
 #, no-c-format
 msgid "The Options dialog - Fonts."
 msgstr "Der Optionendialog - Schriften."
 
-#: index.docbook:68
+#: index.docbook:69
 #, no-c-format
 msgid "Unicode Fonts (ISO10646)"
 msgstr "Unicode Schriften (ISO10646)"
 
-#: index.docbook:69
+#: index.docbook:70
 #, no-c-format
 msgid ""
-"Sword modules are provided with either iso-8859-1 (Latin-1) or iso-10646 "
-"(Unicode) encoding. You can tell how a module is encoded by &RMB; on the "
-"main index and selecting <guimenuitem>about this module</guimenuitem>."
+"Selection of unicode fonts is now automatic thanks to new features in the "
+"Sword back end. You now no longer need to understand how iso-8859-1 (Latin-"
+"1) or iso-10646 (Unicode) encoding works. If the font you need is not "
+"installed please consult the <ulink href=\"http://pegasus.rutgers.edu/"
+"~elflord/font_howto\">Font-HOWTO</ulink> or read further."
 msgstr ""
-"Sword Module benutzen entweder das ISO-8859-1 (Latin-1) oder das ISO-10646 "
-"(Unicode) Encoding. Sie können herausfinden, welches Encoding verwendet "
-"wurde, durch &RMB; auf dem Hauptindex, und Auswahl von <guimenuitem>Über "
-"dieses Modul</guimenuitem>."
 
-#: index.docbook:72
-#, no-c-format
-msgid "About this module"
-msgstr "Über dieses Modul"
-
-#: index.docbook:72
-#, no-c-format
-msgid "The 'About this module' window shows what kind of encoding is used."
-msgstr ""
-"Das \"Über dieses Modul\"-Fenster zeigt an, welches Encoding benutzt wird."
-
-#: index.docbook:83
+#: index.docbook:77
 #, no-c-format
 msgid ""
 "As long as the modules you are interested in display correctly nothing needs "
@@ -177,12 +170,12 @@ msgstr ""
 "(???????????????????) angezeigt wird, dann enthält die eingestellte "
 "Schriftart nicht die Zeichen, die in Ihrem Dokument verwendet wurden."
 
-#: index.docbook:87
-#, no-c-format
+#: index.docbook:82
+#, fuzzy, no-c-format
 msgid ""
 "In the options dialog, choose <guilabel>fonts select</guilabel> in the "
 "<guilabel>Unicode area of application</guilabel>. You will need to choose a "
-"font that has a iso-10646-1 character set. Try clearlyu as a first step (it "
+"font that has a iso-10646-1 character set. Try clearlyu as a first step ( it "
 "is included with most distributions). If your module still does not display, "
 "you will need to use a more appropriate font."
 msgstr ""
@@ -193,7 +186,7 @@ msgstr ""
 "Wenn Ihr Modul immer noch nicht korrekt dargestellt wird, dann versuchen Sie "
 "es mit einer geeigneteren Schriftart."
 
-#: index.docbook:91
+#: index.docbook:88
 #, no-c-format
 msgid ""
 "If you use a small Unicode font like clearlyu (about 22kb) &bibletime; will "
@@ -203,37 +196,37 @@ msgstr ""
 "wird &bibletime; schneller laufen, als wenn Sie eine umfangreiche Schriftart "
 "wie Bitstream Cyberbit (ungefähr 12Mb) verwenden."
 
-#: index.docbook:94
+#: index.docbook:92
 #, no-c-format
 msgid "Font Installation"
 msgstr "Schrift Installation"
 
-#: index.docbook:95
-#, no-c-format
-msgid "Installing fonts consists of three steps"
+#: index.docbook:93
+#, fuzzy, no-c-format
+msgid "Installing fonts consists of three steps."
 msgstr "Die Installation von Schriftarten besteht aus drei Schritten"
 
-#: index.docbook:97
+#: index.docbook:95
 #, no-c-format
 msgid "Obtaining Unicode fonts"
 msgstr "Unicode Schriftarten bekommen"
 
-#: index.docbook:97
+#: index.docbook:95
 #, no-c-format
 msgid "Installing fonts to the XFree86 &X-Server;"
 msgstr "Schriftarten für den &X-Server; installieren"
 
-#: index.docbook:97
+#: index.docbook:95
 #, no-c-format
 msgid "Installing the font for printing (does not work yet)."
 msgstr "Schriftarten für das Drucken installieren (funktioniert noch nicht)."
 
-#: index.docbook:111
+#: index.docbook:109
 #, no-c-format
 msgid "Obtaining Fonts"
 msgstr "Schriftarten bekommen"
 
-#: index.docbook:112
+#: index.docbook:110
 #, no-c-format
 msgid ""
 "There are a number of fonts that support Unicode encoding, some of these are "
@@ -244,22 +237,22 @@ msgstr ""
 "ihnen sind kostenlos verfügbar. Wenige der verfügbaren Schriften enthalten "
 "alle Symbole, die im Unicode Standard definiert sind."
 
-#: index.docbook:115
+#: index.docbook:113
 #, no-c-format
 msgid "Here is a listing of some of the fonts available:"
 msgstr "Hier ist eine Liste von einigen verfügbaren Schriften:"
 
-#: index.docbook:117
+#: index.docbook:114
 #, no-c-format
 msgid "Unicode Fonts"
 msgstr "Unicode Schriften"
 
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid "Clearlyu"
 msgstr "Clearlyu"
 
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid ""
 "Included in some distributions. Contains European, Greek, Hebrew, Thai. Does "
@@ -268,7 +261,7 @@ msgstr ""
 "Ist in einigen Distributionen enthalten. Enthält Europäisch, Griechisch, "
 "Hebräisch, Thai. Enthält keine chinesischen Schriftzeichen oder Arabisch"
 
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid ""
 "<ulink url=\"ftp://ftp.crosswire.org/pub/sword/iso/latest/FONTS\">ftp://ftp."
@@ -277,32 +270,32 @@ msgstr ""
 "<ulink url=\"ftp://ftp.crosswire.org/pub/sword/iso/latest/FONTS\">ftp://ftp."
 "crosswire.org/pub/sword/iso/latest/FONTS</ulink>."
 
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid "Several fonts available from the Crosswire Bible Society ftp site."
 msgstr "Verschiedene Schriften sind auf der Crosswire FTP Seite verfügbar."
 
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid "Bitstream CyberBit"
 msgstr "Bitstream CyberBit"
 
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid "Covers almost the entire range of Unicode."
 msgstr "Deckt fast den ganzen Unicode-Bereich ab."
 
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid "Caslon, Monospace, Cupola, Caliban"
 msgstr "Caslon, Monospace, Cupola, Caliban"
 
-#: index.docbook:119
+#: index.docbook:114
 #, no-c-format
 msgid "Partial coverage, see information on linked site."
 msgstr "Teilweise Abdeckung, siehe die Information auf der angegebenen Seite."
 
-#: index.docbook:137
+#: index.docbook:135
 #, no-c-format
 msgid ""
 "The most complete listing of Unicode fonts that we are aware of is<ulink url="
@@ -313,22 +306,22 @@ msgstr ""
 "<ulink url=\"http://www.ccss.de/slovo/unifonts.htm\"> Christoph Singers "
 "\"Multilingual Unicode TrueType Fonts in the Internet\" </ulink>."
 
-#: index.docbook:139
-#, no-c-format
+#: index.docbook:137
+#, fuzzy, no-c-format
 msgid ""
 "Another Unicode font list can be found at: <ulink url=\"http://www.hclrss."
-"demon.co.uk/unicode/fontsbyrange.html\">Unicode Font List</ulink>"
+"demon.co.uk/unicode/fontsbyrange.html\">Unicode Font List</ulink>."
 msgstr ""
 "Eine andere Liste von Unicode Schriften und den abgedeckten Bereichen finden "
 "sie <ulink url=\"http://www.hclrss.demon.co.uk/unicode/fontsbyrange.html"
 "\">hier</ulink>"
 
-#: index.docbook:144
+#: index.docbook:142
 #, no-c-format
 msgid "Installing your font to XFree86 (your &X-Server;)"
 msgstr "Schriften für XFree86 installieren (Ihren &X-Server;)"
 
-#: index.docbook:145
+#: index.docbook:143
 #, no-c-format
 msgid ""
 "If your distribution includes a font installer (&Linux-Mandrake; supplies "
@@ -347,12 +340,12 @@ msgstr ""
 "\">Das Unicode HOWTO</ulink>. Das wurde getestet und funktioniert unter "
 "&Linux-Mandrake; 7.1."
 
-#: index.docbook:154
+#: index.docbook:152
 #, no-c-format
 msgid "Installing the font for printing."
 msgstr "Installieren der Schrift für das Drucken"
 
-#: index.docbook:155
+#: index.docbook:153
 #, no-c-format
 msgid ""
 "There is a known issue with Qt that prevents printing characters outside the "
@@ -369,12 +362,12 @@ msgstr ""
 "HOWTO.html\">Font HowTo</ulink> beschreibt den Prozess der Installation von "
 "Schriften für das Drucksystem."
 
-#: index.docbook:165
+#: index.docbook:163
 #, no-c-format
 msgid "Colors"
 msgstr "Farben"
 
-#: index.docbook:166
+#: index.docbook:164
 #, no-c-format
 msgid ""
 "The colors of the objects in display windows can be customized. Objects that "
@@ -383,47 +376,47 @@ msgstr ""
 "Die Farben der Objekte in den Anzeigefenstern können angepasst werden. "
 "Folgende Objekte können verändert werden:"
 
-#: index.docbook:168
+#: index.docbook:166
 #, no-c-format
 msgid "Text"
 msgstr "Text"
 
-#: index.docbook:168
+#: index.docbook:166
 #, no-c-format
 msgid "Highlighted verse"
 msgstr "Hervorgehobener Vers"
 
-#: index.docbook:168
+#: index.docbook:166
 #, no-c-format
 msgid "Footnotes"
 msgstr "Fußnoten"
 
-#: index.docbook:168
+#: index.docbook:166
 #, no-c-format
 msgid "Morphological Tags"
 msgstr "Morphologische Tags"
 
-#: index.docbook:168
+#: index.docbook:166
 #, no-c-format
 msgid "Background"
 msgstr "Hintergrund"
 
-#: index.docbook:168
+#: index.docbook:166
 #, no-c-format
 msgid "Hyperlinks"
 msgstr "Hyperlinks"
 
-#: index.docbook:168
+#: index.docbook:166
 #, no-c-format
 msgid "Strong's Numbers"
 msgstr "Strongnummern"
 
-#: index.docbook:168
+#: index.docbook:166
 #, no-c-format
 msgid "Words of Jesus"
 msgstr "Worte Jesu"
 
-#: index.docbook:179
+#: index.docbook:177
 #, no-c-format
 msgid ""
 "Some options like \"Words of Jesus\" only apply to texts which support this "
@@ -432,22 +425,22 @@ msgstr ""
 "Einige Optionen, wie die \"Worte Jesu\" treffen nur für bestimmte Texte zu, "
 "die diese speziellen Features unterstützen."
 
-#: index.docbook:181
+#: index.docbook:179
 #, no-c-format
 msgid "Options Dialog - Color"
 msgstr "Optionendialog - Farbe "
 
-#: index.docbook:181
+#: index.docbook:179
 #, no-c-format
 msgid "The Options dialog - Color."
 msgstr "Der Optionendialog - Farbe"
 
-#: index.docbook:195
+#: index.docbook:193
 #, no-c-format
 msgid "Profiles"
 msgstr "Profile"
 
-#: index.docbook:196
+#: index.docbook:194
 #, no-c-format
 msgid ""
 "Profiles define the appearance of the work area, for example which windows "
@@ -465,41 +458,41 @@ msgstr ""
 "<guimenu>Fenster</guimenu> -> <guimenuitem>Profil laden</guimenuitem>, um "
 "ein bereits gespeichertes Profil in &bibletime; zu laden."
 
-#: index.docbook:204
+#: index.docbook:202
 #, no-c-format
 msgid "Sword"
 msgstr "Sword"
 
-#: index.docbook:205
-#, no-c-format
+#: index.docbook:203
+#, fuzzy, no-c-format
 msgid ""
 "Many features provided by the Sword backend can now be customized in "
-"&bibletime;'"
+"&bibletime;."
 msgstr ""
 "Viele Funktionen, die von Sword bereitgestellt werden, können in &bibletime; "
 "angepasst werden."
 
-#: index.docbook:207
+#: index.docbook:205
 #, no-c-format
 msgid "Options Dialog - Sword"
 msgstr "Optionendialog - Sword"
 
-#: index.docbook:207
+#: index.docbook:205
 #, no-c-format
 msgid "The Options dialog - Sword."
 msgstr "Der Optionendialog - Sword."
 
-#: index.docbook:219
+#: index.docbook:217
 #, no-c-format
 msgid "Sword General"
 msgstr "Sword Allgemein"
 
-#: index.docbook:220
+#: index.docbook:218
 #, no-c-format
 msgid "Key Catch for Lexicons"
 msgstr "Schlüsselcache für Lexikons"
 
-#: index.docbook:221
+#: index.docbook:219
 #, no-c-format
 msgid ""
 "Bibletime can create a key catch for lexicons. This speeds up opening large "
@@ -512,12 +505,12 @@ msgstr ""
 "also sollten Sie dieses Feature abschalten, wenn Sie nur über sehr wenig "
 "freien Speicher haben."
 
-#: index.docbook:226
+#: index.docbook:224
 #, no-c-format
 msgid "Scrolling Behavior"
 msgstr "Scrollverhalten"
 
-#: index.docbook:227
+#: index.docbook:225
 #, no-c-format
 msgid ""
 "The default is that a down arrow moves the current position in a text to the "
@@ -528,12 +521,12 @@ msgstr ""
 "nächsten Vers. Mit dieser Option kann man das Verhalten so ändern, dass es "
 "zum vorigen Vers springt."
 
-#: index.docbook:231
+#: index.docbook:229
 #, no-c-format
 msgid "Specify a language for biblical book names"
 msgstr "Wählen Sie eine Sprache für die Bücher der Bibel"
 
-#: index.docbook:232
+#: index.docbook:230
 #, no-c-format
 msgid ""
 "This feature allows the language used to displayed book names to be changed. "
@@ -548,22 +541,22 @@ msgstr ""
 "Sie gerne eine Übersetzung anfertigen wollen, dann besuchen Sie bitte die "
 "Crosswire Entwicklerseiten."
 
-#: index.docbook:240
+#: index.docbook:238
 #, no-c-format
 msgid "Sword Default Modules"
 msgstr "Sword Standardmodule"
 
-#: index.docbook:241
+#: index.docbook:239
 #, no-c-format
 msgid "Default modules are specified here."
 msgstr "Hier werden Standardmodule festgelegt."
 
-#: index.docbook:243
+#: index.docbook:241
 #, no-c-format
 msgid "Sword filter settings"
 msgstr "Sword Filtereinstellungen"
 
-#: index.docbook:244
+#: index.docbook:242
 #, no-c-format
 msgid ""
 "Filters control the appearance of text in the display windows. Here you can "
@@ -572,67 +565,67 @@ msgstr ""
 "Filter kontrollieren die Erscheinung des Textes in den Anzeigefenstern. Hier "
 "können Sie die Voreinstellungen für verschiedene Filter festlegen."
 
-#: index.docbook:246
+#: index.docbook:244
 #, no-c-format
 msgid "The items controlled by filters are:"
 msgstr "Folgendes kann durch Filter kontrolliert werden:"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show line brake after each verse"
 msgstr "Zeilenumbruch nach jedem Vers anzeigen"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show verse numbers"
 msgstr "Versnummern anzeigen"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show footnotes"
 msgstr "Fußnoten anzeigen"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show Strong's numbers"
 msgstr "Strongnummern anzeigen"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show headings"
 msgstr "Überschriften anzeigen"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show morphologic tags"
 msgstr "Morphologische Tags anzeigen"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show lemmas"
 msgstr "Wurzeln anzeigen"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show Hebrew vowel points"
 msgstr "Hebräische Vokalzeichen anzeigen"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show Hebrew cantillation marks"
 msgstr "Hebräische Kantillationszeichen anzeigen"
 
-#: index.docbook:248
+#: index.docbook:246
 #, no-c-format
 msgid "Show Greek accents"
 msgstr "Griechische Akzente anzeigen"
 
-#: index.docbook:265
+#: index.docbook:263
 #, no-c-format
 msgid "Accelerators"
 msgstr "Tastenkürzel"
 
-#: index.docbook:266
+#: index.docbook:264
 #, no-c-format
 msgid ""
 "Accelerators are special key commands that can be used in the place of the "
@@ -645,122 +638,139 @@ msgstr ""
 "haben vordefinierte Tastenkürzel. Allen Kommandos in &bibletime; können hier "
 "Tastenküzel zugewiesen werden."
 
-#: index.docbook:272
+#: index.docbook:269
 #, no-c-format
 msgid "Default accelerators"
 msgstr "Standard-Tastenkürzel"
 
-#: index.docbook:274
+#: index.docbook:269
 #, no-c-format
 msgid "Action"
 msgstr "Aktion"
 
-#: index.docbook:274
+#: index.docbook:269
 #, no-c-format
 msgid "Key combination"
 msgstr "Tastenkombination"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Auto Tile"
 msgstr "Automatisch Kacheln"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Ctrl+Alt+T"
 msgstr "Ctrl+Alt+T"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Auto Cascade"
 msgstr "Automatisch staffeln"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Ctrl+Alt+A"
 msgstr "Ctrl+Alt+A"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Cascade"
 msgstr "Staffeln"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Ctrl+A"
 msgstr "Ctrl+A"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Close All"
 msgstr "Alle schließen"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Shift+Ctrl+A"
 msgstr "Shift+Ctrl+A"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Configure Toolbars"
 msgstr "Werkzeugleisten konfigurieren"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "<entry></entry>"
 msgstr "<entry></entry>"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Preferences"
 msgstr "Voreinstellungen"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Quit"
 msgstr "Verlassen"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Ctrl+Q"
 msgstr "Ctrl+Q"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Remove Selected Item(s)"
 msgstr "Ausgewählte Einträge entfernen"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Ctrl+Alt+D"
 msgstr "Ctrl+Alt+D"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Reset Main Index"
 msgstr "Hauptgruppe zurücksetzen"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Ctrl+Alt+R"
 msgstr "Ctrl+Alt+R"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Search in Selected Module(s)"
 msgstr "In den ausgewählten Modulen suchen"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Ctrl+Alt+S"
 msgstr "Ctrl+Alt+S"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Tile"
 msgstr "Kacheln"
 
-#: index.docbook:281
+#: index.docbook:269
 #, no-c-format
 msgid "Ctrl+T"
 msgstr "Ctrl+T"
+
+#~ msgid ""
+#~ "Sword modules are provided with either iso-8859-1 (Latin-1) or iso-10646 "
+#~ "(Unicode) encoding. You can tell how a module is encoded by &RMB; on the "
+#~ "main index and selecting <guimenuitem>about this module</guimenuitem>."
+#~ msgstr ""
+#~ "Sword Module benutzen entweder das ISO-8859-1 (Latin-1) oder das ISO-"
+#~ "10646 (Unicode) Encoding. Sie können herausfinden, welches Encoding "
+#~ "verwendet wurde, durch &RMB; auf dem Hauptindex, und Auswahl von "
+#~ "<guimenuitem>Über dieses Modul</guimenuitem>."
+
+#~ msgid "About this module"
+#~ msgstr "Über dieses Modul"
+
+#~ msgid "The 'About this module' window shows what kind of encoding is used."
+#~ msgstr ""
+#~ "Das \"Über dieses Modul\"-Fenster zeigt an, welches Encoding benutzt wird."
