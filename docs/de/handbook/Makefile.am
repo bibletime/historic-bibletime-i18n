@@ -7,7 +7,7 @@ SUBDIRS = html unicode
 po-files:
 	for f in `ls ../../../../bibletime/docs/handbook/pot/*.pot`; do \
 		pofile=`echo $$f | sed s/\.pot$$/\.po/`; \
-		pofile=`echo $$pofile | sed s/"..\/..\/..\/bibletime\/docs\/handbook\/pot\/"//`; \
+		pofile=`echo $$pofile | sed s/"..\/..\/..\/..\/bibletime\/docs\/handbook\/pot\/"//`; \
 		if test ! -e po/$$pofile; then touch po/$$pofile; fi; \
 		echo "Calling msgmerge -o po/$$pofile.new po/$$pofile $$f"; \
 		msgmerge -o po/$$pofile.new po/$$pofile $$f; \
@@ -21,8 +21,8 @@ po-files:
 unicode-files:
 	for f in `ls ../../../../bibletime/docs/handbook/unicode/*.docbook`; do \
 		pofile=`echo $$f | sed s/\.docbook$$/\.po/`; \
-		pofile=`echo $$pofile | sed s/"..\/..\/..\/bibletime\/docs\/handbook\/unicode\/"//`; \
-		newfile=`echo $$f | sed s/"..\/..\/..\/bibletime\/docs\/handbook\/unicode\/"//`; \
+		pofile=`echo $$pofile | sed s/"..\/..\/..\/..\/bibletime\/docs\/handbook\/unicode\/"//`; \
+		newfile=`echo $$f | sed s/"..\/..\/..\/..\/bibletime\/docs\/handbook\/unicode\/"//`; \
 		echo "Calling po2xml $$f po/$$pofile  > unicode/$$newfile"; \
 		po2xml $$f po/$$pofile > unicode/$$newfile; \
 	done;
