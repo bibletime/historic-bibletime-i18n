@@ -1,15 +1,5 @@
 # translation of ru.po to russian
-# translation of ru.po to
-# translation of ru.po to
-# translation of ru.po to
 # Copyright (C) 2003 Free Software Foundation, Inc.
-# , 2003
-# , 2003
-# , 2003
-# , 2003
-# , 2003
-# , 2003
-# , 2003
 # , 2003
 # Vlad Savitsky <vlad_savitsky@mail.ru>, 2003
 #
@@ -17,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "POT-Creation-Date: 2003-03-03 09:27+0100\n"
-"PO-Revision-Date: 2003-06-12 17:20+0300\n"
+"PO-Revision-Date: 2003-07-02 22:53+0300\n"
 "Last-Translator: Vlad Savitsky <vlad_savitsky@mail.ru>\n"
 "Language-Team: russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +21,7 @@ msgstr "Африканский"
 
 #: ../bibletime/backend/clanguagemgr.cpp:181
 msgid "English, Old (ca.450-1100)"
-msgstr "Старый английский (ca.450-1100)"
+msgstr "Старый английский (450-1100)"
 
 #: ../bibletime/backend/clanguagemgr.cpp:182
 msgid "Arabic"
@@ -100,12 +90,11 @@ msgstr "Английский"
 
 #: ../bibletime/backend/clanguagemgr.cpp:214
 msgid "American English"
-msgstr "Английский амер."
+msgstr "Английский (США)"
 
 #: ../bibletime/backend/clanguagemgr.cpp:215
-#, fuzzy
 msgid "English, Middle (1100-1500)"
-msgstr "Английский преходн. (1100-1500)"
+msgstr "Английский, средние века (1100-1500)"
 
 #: ../bibletime/backend/clanguagemgr.cpp:216
 msgid "Esperanto"
@@ -133,7 +122,7 @@ msgstr "Французский"
 
 #: ../bibletime/backend/clanguagemgr.cpp:226
 msgid "Frisian"
-msgstr "Фрисский"
+msgstr "Фризский"
 
 #: ../bibletime/backend/clanguagemgr.cpp:228
 msgid "Irish"
@@ -294,7 +283,7 @@ msgstr "Сирийский"
 
 #: ../bibletime/backend/clanguagemgr.cpp:345
 msgid "Tamil"
-msgstr "Тамилский"
+msgstr "Тамильский"
 
 #: ../bibletime/backend/clanguagemgr.cpp:348
 msgid "Thai"
@@ -431,9 +420,8 @@ msgid "Scripture Cross-references"
 msgstr "Перекрестные ссылки Писания"
 
 #: ../bibletime/backend/cswordbackend.cpp:390
-#, fuzzy
 msgid "Transliteration between scripts"
-msgstr "Транслитерация между скриптами"
+msgstr "Транслитерация между Писаниями"
 
 #: ../bibletime/bibletime_init.cpp:65
 msgid "Creating BibleTime's GUI"
@@ -497,7 +485,7 @@ msgstr "&Настроить сессии"
 
 #: ../bibletime/bibletime_init.cpp:253
 msgid "&Fullscreen mode"
-msgstr "&Полноэкранный режим"
+msgstr "&Полный экран"
 
 #: ../bibletime/bibletime_init.cpp:278
 msgid "&Handbook"
@@ -628,7 +616,6 @@ msgid "Restore windows from the last BibleTime session"
 msgstr "Восстанавливать окна последней сессии BibleTime"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:222
-#, fuzzy
 msgid "Select custom fonts per-language"
 msgstr "Выбор особых шрифтов для каждого языка"
 
@@ -638,9 +625,9 @@ msgid ""
 "specify a custom font for each language that needs a special font to be "
 "displayed correctly."
 msgstr ""
-"Здесь вы найдете список всех языков установленных модулей. Вы можете "
-"установить определенный шрифт для каждого языка, которому необходимы "
-"специальные шрифты для корректного отображения."
+"Здесь вы найдете список всех языков модулей, которые установлены. "
+"Вы можете установить особый шрифт для каждого языка, "
+"которому нужны специальные шрифты для корректного отображения."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:256
 msgid "Use custom font"
@@ -681,9 +668,8 @@ msgid "Background"
 msgstr "Фон"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:332
-#, fuzzy
 msgid "Hyperlinks"
-msgstr "Гиперссылки"
+msgstr "Cсылки"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:354
 #: ../bibletime/util/cresmgr.cpp:1438
@@ -712,9 +698,9 @@ msgid ""
 "are open and which texts should displayed in these windows. New sessions "
 "only work after you've saved something into them."
 msgstr ""
-"Сессии определяют внешний вид рабочей области, например, какие окна открыты "
+"Сессии определяют внешний вид рабочей области. Например, какие окна открыты "
 "и какой текст должен отображаться в этих окнах. Новые "
-"сессии применимы только после того, как вы что-нибудь в них сохраните."
+"сессии можно применять только после того, как вы что-нибудь в них сохраните."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:414
 msgid "Delete selected session"
@@ -774,7 +760,7 @@ msgid ""
 msgstr ""
 "BibleTime может создать кэш ключей для словарей. "
 "Это существенно ускоряет открытие модулей больших словарей. "
-"Внимание: эти файлы требуют некоторого простанства на диске (обычно немного), "
+"Внимание: эти файлы требуют места на диске (обычно немного), "
 "и находятся в $KDEHOME/share/apps/bibletime/cache."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:556
@@ -873,7 +859,7 @@ msgid ""
 msgstr ""
 "Фильтры управляют отображением текста в окнах модулей. "
 "Здесь вы можете определить настройки по умолчанию для всех фильтров. "
-"Конечно Вы также можете изменять настройки в каждом окне модуля."
+"Конечно, вы также можете изменять настройки в каждом окне модуля."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:778
 msgid "Insert line break after each verse"
@@ -898,24 +884,23 @@ msgid "Show morphologic tags"
 msgstr "Показывать морфологические тэги"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:813
-#, fuzzy
 msgid "Show section headings"
 msgstr "Показывать подзаголовки"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:820
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:150
 msgid "Show lemmas"
-msgstr "Показать леммы"
+msgstr "Показывать леммы"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:827
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:152
 msgid "Show Hebrew vowel points"
-msgstr "Показать точки еврейских гласных"
+msgstr "Показывать точки еврейских гласных"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:834
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:154
 msgid "Show Hebrew cantillation marks"
-msgstr "Показать знаки еврейской кантиляции"
+msgstr "Показывать знаки еврейской кантиляции"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:841
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:156
@@ -1493,7 +1478,7 @@ msgstr "Результат поиска"
 
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:387
 msgid "Daily Devotionals"
-msgstr "Едеждневные чтения"
+msgstr "Ежедневные чтения"
 
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:499
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:632
@@ -1758,7 +1743,7 @@ msgstr "Спонсировал наш домен в интернете мног�
 
 #: ../bibletime/main.cpp:179
 msgid "Bible Study HowTo"
-msgstr "Как изучать Библию"
+msgstr "\"Как изучать Библию\""
 
 #: ../bibletime/main.cpp:181
 msgid "Language codes and names"
@@ -1791,7 +1776,7 @@ msgstr "Поля (мм)"
 
 #: ../bibletime/printing/cprintdialogpages.cpp:56
 msgid "&Left"
-msgstr "&Лево"
+msgstr "В&лево"
 
 #: ../bibletime/printing/cprintdialogpages.cpp:56
 msgid "&Right"
@@ -1917,7 +1902,7 @@ msgid ""
 "BibleTime includes a really useful handbook written by Fred Saalbach.\n"
 "To read it choose the item \"Handbook\" in the \"Help\" menu of BibleTime.\n"
 msgstr ""
-"BibleTime включает действительно полезное руководство, написанное Фредом Заальбахом.\n"
+"BibleTime включает действительно полезное руководство, которое написал Fred Saalbach.\n"
 "Для его чтения выберите - \"Руководство\" в меню BibleTime \"Помощь\".\n"
 
 #: ../bibletime/tips-dummy.cpp:12
@@ -1939,7 +1924,7 @@ msgid ""
 "Bible.\n"
 msgstr ""
 "BibleTime содержит <B>\"Как изучать Библию\"</B>!\n"
-"Автор -- Боб Гарман. Это великолепное объяснение как изучать Библию.\n"
+"Автор -- Bob Harman. Это великолепное объяснение как изучать Библию.\n"
 
 #: ../bibletime/tips-dummy.cpp:25
 msgid ""
@@ -1998,7 +1983,6 @@ msgstr ""
 "Удостоверьтесь, что вы установили модули по умолчанию в Настройках.\n"
 
 #: ../bibletime/tips-dummy.cpp:58
-#, fuzzy
 msgid ""
 "If you want to use a commentary as a topical reference, search it for terms "
 "your topic is about.\n"
@@ -2050,7 +2034,7 @@ msgid ""
 "Select it and copy it to the clipboard. Now insert the copied word in the "
 "search text box of the searchdialog.\n"
 msgstr ""
-"Если вы хотите искать слово в иностранном модуле (напр. греческом или "
+"Если вы хотите искать слово в иностранном модуле (например, греческом или "
 "еврейском), откройте его в окне и выберите главу или запись, которая содержит это слово.\n"
 "Выделите его и скопируйте в буфер обмена. Затем вставьте скопированное слово в "
 "поле ввода текста для поиска на диалоге поиска.\n"
@@ -2235,7 +2219,7 @@ msgstr "Автоматически разместить открытые окн�
 
 #: ../bibletime/util/cresmgr.cpp:961
 msgid "Automatically cascade windows"
-msgstr "Автоматически розместить каскадом окна"
+msgstr "Автоматически разместить каскадом окна"
 
 #: ../bibletime/util/cresmgr.cpp:962
 msgid "Automatically cascade the open display windows."
@@ -2390,7 +2374,7 @@ msgstr "Точный поиск"
 
 #: ../bibletime/util/cresmgr.cpp:1066
 msgid "The search text will be used exactly as entered."
-msgstr "Поисковый текст будет использован точно как и введён."
+msgstr "Поисковый текст будет использоваться именно так, как введён."
 
 #: ../bibletime/util/cresmgr.cpp:1071
 msgid ""
@@ -2451,7 +2435,7 @@ msgid ""
 "Change the search ranges of the selected search scope item. Have a look at "
 "the predefined search scopes to see how search ranges are constructed."
 msgstr ""
-"Измените границы поиска выбранного поискового диапазона. Взгляните"
+"Измените границы поиска выбранного поискового диапазона. Взгляните "
 "на предустановленные поисковые диапазоны, чтобы понять "
 "как задаются границы поиска."
 
@@ -2845,7 +2829,7 @@ msgstr "Показывать совет дня"
 
 #: ../bibletime/util/cresmgr.cpp:1383
 msgid "Activate this box to see a daily tip on startup."
-msgstr "Отметьте это поле, чтобы видеть совет дня при запске."
+msgstr "Отметьте это поле, чтобы видеть совет дня при запуске."
 
 #: ../bibletime/util/cresmgr.cpp:1387
 msgid "Show startup logo"
@@ -3071,7 +3055,7 @@ msgstr ""
 
 #: ../bibletime/util/cresmgr.cpp:1537
 msgid "Line breaks"
-msgstr "Использовать разрывы строк."
+msgstr "Использовать разрывы строк"
 
 #: ../bibletime/util/cresmgr.cpp:1538
 msgid "Insert line breaks after each verse."
@@ -3079,7 +3063,7 @@ msgstr "Разрывать строки после каждого стиха."
 
 #: ../bibletime/util/cresmgr.cpp:1542
 msgid "Verse numbers"
-msgstr "Номера стихов."
+msgstr "Номера стихов"
 
 #: ../bibletime/util/cresmgr.cpp:1543
 msgid "Show the verse number before each verse in Bibles."
