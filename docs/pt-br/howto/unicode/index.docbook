@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1-Based Variant V1.0//EN" "dtd/kdex.dtd" [
+  <!ENTITY bibletime '<application
+>BibleTime</application
+>'>
+  <!ENTITY kapp "&bibletimehandbook;">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % English "INCLUDE"
+><!-- change language only here -->
+
+  <!-- user entities -->
+
+  <!ENTITY how2-chap1 SYSTEM "how2-importance.docbook">
+  <!ENTITY how2-chap2 SYSTEM "how2-basics.docbook">
+  <!ENTITY how2-chap3 SYSTEM "how2-interpretation.docbook">
+
+]>
+
+<book lang="&language;">
+
+<bookinfo>
+<title
+>Estudo Bíblico HowTo</title>
+
+<authorgroup>
+<author
+> <firstname
+>Bob</firstname
+> <surname
+>Harman</surname
+> </author>
+</authorgroup>
+
+<!-- TRANS:ROLES_OF_TRANSLATORS -->
+
+<copyright>
+<year
+>2001</year
+><year
+>2002</year
+><year
+>2003</year>
+<holder
+>Time do &bibletime;, info@bibletime.info</holder>
+</copyright
+><copyright>
+<year
+>2001</year
+><year
+>2002</year
+><year
+>2003</year>
+<holder
+>Bob Harman</holder>
+</copyright>
+
+<legalnotice
+><para
+> O copyright desse texto pertence ao autor, Bob Harman. O texto foi adaptado para publicação no BIbleTime por Fred Saalbach.</para>
+
+<para
+> Os direitos de distribuição deste documento com o software &bibletime; foram feitos. Redistribuição como parte do software Bibletime sem modificação e reprodução limitada como provida pelo "uso honesto" que provém do código de direitos autorais dos EUA também são permitidas.</para>
+
+<para
+> Para questões sobre o uso desse material contacte Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email
+>ncc@ncchampton.org</email
+>.</para>
+
+<para
+>Citações das Escrituras no original em inglês são da New American Standard Bible.Na tradução em português foi usada a edição Atualizada de Almeida (PorAA).</para>
+</legalnotice>
+
+
+<date
+>10/23/2001</date>
+<releaseinfo
+>1.01.00</releaseinfo>
+
+
+<abstract>
+<title
+>Resumo</title>
+<para
+> O <application
+>Estudo Bíblico HowTo</application
+> é um guia para estudo da Bíblia. </para>
+<para
+>A esperança do time do &bibletime; é que esse HowTo incentive os leitores a estudar as escrituras e ver o que elas dizem. Esse guia de estudo particular foi escolhido porque não promove nenhuma doutrina denominacional em particular. Nós esperamos que você leia e estude as escrituras para entender o que elas dizem. Se você começar com a atitude de querer que o Senhor mostre sua Palavra em seu coração ele não desapontará você.</para>
+</abstract>
+
+<keywordset>
+<keyword
+>Bíblico</keyword>
+<keyword
+>Estudo</keyword>
+<keyword
+>HowTo</keyword>
+</keywordset>
+
+</bookinfo>
+
+&how2-chap1;
+&how2-chap2;
+&how2-chap3;
+
+</book>
+<!--
+Local Variables:
+mode: sgml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+-->
