@@ -1,0 +1,12 @@
+Source: bibletime-i18n
+Section: x11
+Build-Depends: debhelper, kdelibs4-dev
+Priority: optional
+Maintainer: Daniel Glassey <wdg@debian.org>
+Standards-Version: 3.5.6.0
+
+Package: bibletime-i18n
+Architecture: any
+Section: x11
+Depends: ${shlibs:Depends}, bibletime
+Description: Translated messages and documentation of BibleTime.
