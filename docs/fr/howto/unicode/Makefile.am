@@ -9,7 +9,7 @@ install-data-local:
 	chmod -R a+r+X  $(DESTDIR)$(kde_htmldir)/fr/bibletime;
 	for file in  how2-basics.docbook how2-importance.docbook how2-interpretation.docbook index.docbook; do \
 	  if test -e $$file; then \
-	    $(INSTALL_DATA) $$file $(DESTDIR)$(kde_htmldir)/fr/bibletime/howto; \
+	    $(INSTALL_DATA) $(srcdir)/$$file $(DESTDIR)$(kde_htmldir)/fr/bibletime/howto; \
 	    chmod a+r $(DESTDIR)$(kde_htmldir)/fr/bibletime/howto/$$file; \
 	  else \
 	    ln -sf ../../../en/bibletime/howto/$$file $(DESTDIR)$(kde_htmldir)/fr/bibletime/howto/$$file; \

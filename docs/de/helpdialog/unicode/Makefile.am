@@ -9,7 +9,7 @@ install-data-local:
 	chmod -R a+r+X  $(DESTDIR)$(kde_htmldir)/de/bibletime;
 	for file in  help-first-startup.docbook help-first-time-search.docbook help-initbackend-failed.docbook help-module-encrypted.docbook help-no-mods-d.docbook help-no-modules.docbook help-sword-module-trouble.docbook index.docbook; do \
 	  if test -e $$file; then \
-	    $(INSTALL_DATA) $$file $(DESTDIR)$(kde_htmldir)/de/bibletime/helpdialog; \
+	    $(INSTALL_DATA) $(srcdir)/$$file $(DESTDIR)$(kde_htmldir)/de/bibletime/helpdialog; \
 	    chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/helpdialog/$$file; \
 	  else \
 	    ln -sf ../../../en/bibletime/helpdialog/$$file $(DESTDIR)$(kde_htmldir)/de/bibletime/helpdialog/$$file; \

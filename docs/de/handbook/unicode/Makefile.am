@@ -9,7 +9,7 @@ install-data-local:
 	chmod -R a+r+X  $(DESTDIR)$(kde_htmldir)/de/bibletime;
 	for file in  hdbk-config.docbook hdbk-intro.docbook hdbk-operation.docbook hdbk-start.docbook hdbk-toolbars.docbook index.docbook; do \
 	  if test -e $$file; then \
-	    $(INSTALL_DATA) $$file $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook; \
+	    $(INSTALL_DATA) $(srcdir)/$$file $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook; \
 	    chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/$$file; \
 	  else \
 	    ln -sf ../../../en/bibletime/handbook/$$file $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/$$file; \
