@@ -5,7 +5,7 @@
 SUBDIRS = html unicode 
 
 po-files:
-	for f in `ls ../../../bibletime/docs/howto/pot/*.pot`; do \
+	for f in `ls ../../../../bibletime/docs/howto/pot/*.pot`; do \
 		pofile=`echo $$f | sed s/\.pot$$/\.po/`; \
 		pofile=`echo $$pofile | sed s/"..\/..\/..\/bibletime\/docs\/howto\/pot\/"//`; \
 		if test ! -e po/$$pofile; then touch po/$$pofile; fi; \
@@ -19,7 +19,7 @@ po-files:
 	done;
 
 unicode-files:
-	for f in `ls ../../../bibletime/docs/howto/unicode/*.docbook`; do \
+	for f in `ls ../../../../bibletime/docs/howto/unicode/*.docbook`; do \
 		pofile=`echo $$f | sed s/\.docbook$$/\.po/`; \
 		pofile=`echo $$pofile | sed s/"..\/..\/..\/bibletime\/docs\/howto\/unicode\/"//`; \
 		newfile=`echo $$f | sed s/"..\/..\/..\/bibletime\/docs\/howto\/unicode\/"//`; \
