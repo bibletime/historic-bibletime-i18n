@@ -10,9 +10,9 @@
 >Werkzeugleiste</title>
 
 	<para
-> Die Aktion jedes Knopfes wird in der Dialogbox beschrieben. <action
->Bewegen des Mauspfeils über einen Knopf</action
-> zeigt den Tooltip des Knopfes der die Aktion des Knopfes beschreibt. </para>
+> Die Aktion jedes Knopfes wird in der Konfigurations-Dialogbox beschrieben. <action
+>Das Bewegen des Mauspfeils über einen Knopf</action
+> zeigt die Schnellhilfe des Knopfes an, die die Aufgabe beschreibt. </para>
 	</section>
 	<section id="hdbk-bars-toolbar-action"
 ><title
@@ -27,7 +27,11 @@
 > </textobject
 > <caption
 > <para
-> </para
+>Dieses Icon öffnet den Abschnitt <guilabel
+>Sitzungen verwalten</guilabel 
+> des <guilabel
+>Konfigurationsdialoges</guilabel
+> Hier können Sie die aktuelle Sitzung für späteren Aufruf abspeichern. </para
 > </caption
 > </mediaobject
 > <mediaobject
@@ -39,11 +43,11 @@
 > </textobject
 ><caption
 > <para
->Im <guilabel
->Options Dialog</guilabel
->, this icon opens the <guilabel
->Accelerator</guilabel
-> dialog. Here you can customize the key bindings (keyboard shortcuts). </para
+>Dieses Icon öffnet den <guilabel
+>Testenkürzel</guilabel
+> Abschnitt des <guilabel
+>Konfigurationsdialoges</guilabel
+> Hier können Sie die Tastenkombinationen einstellen. </para
 > </caption
 > </mediaobject
 > <mediaobject
@@ -51,15 +55,15 @@
 > <imagedata fileref="./kcmfontinst.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>kcmfontinst.png</phrase
 > </textobject
 ><caption
 > <para
->Dies öffnet den <guilabel
->Profile</guilabel
-> Teil des <guilabel
->Optionendialoges</guilabel
->. Hier erzeugen und verwalten Sie die Profile. </para
+>Dieses Symbol öffnet den <guilabel
+>Schriftarten</guilabel
+> Abschnitt des <guilabel
+>Konfigurationsdialoges</guilabel
+>. Hier können Sie die Schriftarten einstellen, die zur Darstellung ihrer Sword-Module benutzt werden. </para
 > </caption
 > </mediaobject
 > <mediaobject
@@ -67,11 +71,13 @@
 > <imagedata fileref="./window_fullscreen.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>window_fullscreen.png</phrase
 > </textobject
 ><caption
 > <para
-> </para
+>Dieses Symbol der <guilabel
+>Werkzeugleiste</guilabel
+> lässt BibleTime den kompletten Bereich des Monitors benutzen. </para
 > </caption
 > </mediaobject
 > <mediaobject
@@ -79,11 +85,15 @@
 > <imagedata fileref="./ktip.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>ktip.png</phrase
 > </textobject
 ><caption
 > <para
-> </para
+>Dieses Symbol der <guilabel
+>Werkzeugleiste</guilabel
+> öffnet den <guilabel
+>Tipp des Tages</guilabel
+>. </para
 > </caption
 > </mediaobject
 > <mediaobject
@@ -91,13 +101,13 @@
 > <imagedata fileref="./configure.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>configure.png</phrase
 > </textobject
 ><caption
 > <para
->Zeigt den <guilabel
->Werkzeugleiste einrichten</guilabel
-> Dialog. </para
+>Dieses Symbol der <guilabel
+>Werkzeugleiste</guilabel
+> öffnet den Dialog um &bibletime; zu konfigurieren. </para
 > </caption
 > </mediaobject
 > <mediaobject
@@ -105,13 +115,11 @@
 > <imagedata fileref="./contents.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>contents.png</phrase
 > </textobject
 ><caption
 > <para
->Zeigt den <guilabel
->Werkzeugleiste einrichten</guilabel
-> Dialog. </para
+>Dieses Symbol der Werkzeugleiste öffnet das Handbuch. </para
 > </caption
 > </mediaobject
 > <mediaobject
@@ -119,13 +127,13 @@
 > <imagedata fileref="./exit.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>exit.png</phrase
 > </textobject
 ><caption
 > <para
->Zeigt den <guilabel
->Werkzeugleiste einrichten</guilabel
-> Dialog. </para
+>Dieses Symbol der <guilabel
+>Werkzeugleiste</guilabel
+> schließt &bibletime;. </para
 > </caption
 > </mediaobject
 > <mediaobject
@@ -133,7 +141,7 @@
 > <imagedata fileref="./fileclose.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>fileclose.png</phrase
 > </textobject
 ><caption
 > <para
@@ -145,7 +153,7 @@
 > <imagedata fileref="./fileprint.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>fileprint.png</phrase
 > </textobject
 ><caption
 > <para
@@ -157,7 +165,7 @@
 > <imagedata fileref="./find.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>find.png</phrase
 > </textobject
 ><caption
 > <para
@@ -169,7 +177,7 @@
 > <imagedata fileref="./hi32-action-bt_bible_add.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>bible_add.png</phrase
 > </textobject
 ><caption
 > <para
@@ -229,7 +237,7 @@
 > <imagedata fileref="./hi32-action-bt_cascade.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
->Staffeln</phrase
+>cascade.png</phrase
 > </textobject
 ><caption
 > <para
@@ -281,7 +289,7 @@
 > <imagedata fileref="./hi32-action-bt_lexicon_add.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>lexicon_add.png</phrase
 > </textobject
 ><caption
 > <para
@@ -293,7 +301,7 @@
 > <imagedata fileref="./hi32-action-bt_lexicon.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>lexicon.png</phrase
 > </textobject
 ><caption
 > <para
@@ -305,7 +313,7 @@
 > <imagedata fileref="./hi32-action-bt_startconfig.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>startconfig.png</phrase
 > </textobject
 ><caption
 > <para
@@ -321,7 +329,7 @@
 > <imagedata fileref="./hi32-action-bt_swordconfig.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>swordconfig.png</phrase
 > </textobject
 ><caption
 > <para
@@ -333,7 +341,7 @@
 > <imagedata fileref="./hi32-action-bt_sync.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>sync.png</phrase
 > </textobject
 ><caption
 > <para
@@ -345,7 +353,7 @@
 > <imagedata fileref="./hi32-action-bt_tile_auto.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
-></phrase
+>tile_auto.png</phrase
 > </textobject
 ><caption
 > <para
@@ -369,7 +377,7 @@
 > <imagedata fileref="./hi32-app-bibletime.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
->Schließt &bibletime;</phrase
+>bibletime.png</phrase
 > </textobject
 ><caption
 > <para
@@ -441,7 +449,7 @@
 > </term
 > <listitem
 > <para
->&bibletime; einrichten</para
+></para
 > </listitem
 > </varlistentry
 > </variablelist
@@ -458,7 +466,6 @@
 >Werkzeugleiste anzeigen</term
 > <listitem
 > <para
->
 >Wenn <guimenuitem
 >Werkzeigleiste anzeigen</guimenuitem
 > ausgewählt ist, dass wird die Werkzeugleiste angezeigt. Wenn <guimenuitem
@@ -484,12 +491,12 @@
 
 	<section id="hdbk-bars-menubar-mainindex"
 ><title
-></title>
+>Suchen</title>
 	<para
 > <variablelist
 > <varlistentry
 ><term
->In Modulen suchen</term
+></term
 > <listitem
 > <para
 > Wenn <guimenuitem
