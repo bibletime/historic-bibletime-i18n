@@ -3,7 +3,7 @@ AC_CONFIG_AUX_DIR(admin)
 unset CDPATH
 AC_CANONICAL_SYSTEM
 AC_ARG_PROGRAM
-AM_INIT_AUTOMAKE(bibletime-i18n,1.4)
+AM_INIT_AUTOMAKE(bibletime-i18n, 1.4)
 
 KDE_SET_PREFIX
 KDE_USE_QT(3.0)
@@ -18,5 +18,4 @@ AC_CHECK_DISTRIBUTION
 
 dnl add here all your Makefiles. They are created by configure
 
-dnl echo "Executing perl am_edit ..."
-dnl perl am_edit
+AC_CONFIG_FILES([ bibletime-i18n.spec ])

@@ -23,7 +23,7 @@
 <title
 >Ein Modul zum Anschauen auswählen</title>
 <para
->Wenn Sie Dokument auswählen wolllen, klicken Sie einfach auf die gewünschte Dokumentengruppe (Bibeln, Kommentare oder Lexika) um den Inhalt der Dokumentengruppe anzuzeigen. Um ein Dokument zu öffnen klicken Sie auf dessen Symbol. </para>
+>Wenn Sie Dokument auswählen wolllen, klicken Sie einfach auf die gewünschte Dokumentengruppe (Bibeln, Kommentare, Lexika, Bücher, Andachten oder Wörterbücher) um den Inhalt der Dokumentengruppe anzuzeigen. Um ein Dokument zu öffnen klicken Sie auf dessen Symbol. </para>
 <screenshot
 > <screeninfo
 >Auswahl eines Dokumentes</screeninfo
@@ -39,8 +39,10 @@
 <para
 > Ein Dokument kann aus einem bereits geöffneten Dokument heraus geöffnet werden. Klicken Sie einfach auf eine Versnummer (Mauspfeil ändert sich zu einer Hand) und ziehen Sie diese zur Modulliste. Lassen Sie sie hier auf dem Namen des von Ihnen gewünschten Modules fallen; dieses Modul wird nun an der Stelle des herübergezogenen Verses geöffnet. Wenn Sie eine Versnummer auf ein bereits geöffnetes Modul ziehen, wird dieses automatisch zur gewünschten Stelle springen. Dies funktioniert nur für Bibeln und Kommentare. </para>
 <para
-> Zwei weitere Funktionen sind durch &RMB; auf dem Modul verfügbar. "Über dieses ModulA" öffnet ein Fenster mit Informationen über Copyright und andere wichtige Eigenschaften dieses Dokumentes. "Dieses Modul entschlüsseln" öffnet einen kleinen Dialog für verschlüsselte Dokumente. Dies erlaubt es den Besitzern des Schlüssels, diesen einzugeben, um das Modul zu entschlüssenl und damit lesbar zu machen. Die Crosswire Bible Society muss Module verschlüsseln, bis entweder der Copyrightinhaber die Erlaubnis für die Weitergabe des Moduls erteilt, oder der Text in Public Domain übergegangen ist (Copyright verfallen). <ulink url="http://www.crosswire.org/sword/modules/aboutlocked.jsp"
->See information on locked modules on the Crosswire Bible Society web site</ulink
+> Zwei weitere Funktionen sind durch Klicken mit der <mousebutton
+>rechten</mousebutton
+> Maustaste auf den Modulnamen verfügbar. "Über dieses Modul" öffnet ein Fenster mit Informationen über Copyright und anderen wichtige Eigenschaften dieses Dokumentes. "Dieses Modul entschlüsseln" öffnet einen kleinen Dialog für verschlüsselte Dokumente. Dies erlaubt es den Besitzern des Schlüssels, diesen einzugeben, um das Modul zu entschlüssenl und damit lesbar zu machen. Die Crosswire Bible Society muss Module verschlüsseln, bis entweder der Copyrightinhaber die Erlaubnis für die Weitergabe des Moduls erteilt, oder der Text in Public Domain übergegangen ist (Verfallen des Copyrights). <ulink url="http://www.crosswire.org/sword/modules/aboutlocked.jsp"
+>Lesen Sie die Informationen über verschlüsselte Module auf den Seiten der Crosswire Bible Society</ulink
 >. </para>
 </section>
 
@@ -48,7 +50,11 @@
 <title
 >Auf den Suchdialog zugreifen</title
 > <para
-> Sie können in einem Modul suchen durch &RMB; auf dem Modulnamen in der Modulliste und Auswahl von "Search in module(s)". Durch Shift-&RMB; auf anderen Modulnamen können Sie mehrere Module auswählen. </para>
+> Sie können in einem Modul suchen, indem Sie mit der <mousebutton
+>rechten</mousebutton
+> Maustaste auf den Modulnamen in der Liste der Module klicken und "Ausgewählte Module durchsuchen..." auswählen. Durch Drücken von Umschalt- und Klicken auf andere Module können Sie mehr als eins auswählen. Befolgen Sie die gleiche Prozedur um die Module zu durchsuchen. Sie suchen dann in allen gewählten Dokumenten. Eine vollständige Beschreibung der Bedienung der Suchfunktionen kann <link linkend="hdbk-op-search"
+>hier</link
+> gefunden werden. </para>
 <screenshot
 > <screeninfo
 >Auswahl von Lesezeichen</screeninfo
@@ -68,11 +74,15 @@
 ><para
 >Hier funktioniert Drag&amp;Drop</para
 ></tip
-> Klicken Sie mit der rechten Maustaste auf einen leeren Bereich der Hauptgruppe und wählen Sie <guimenuitem
->"Erzeuge einen neuen Ordner"</guimenuitem
-> um einen neuen Ordner anzulegen. Sie können normale Drag&amp;Drop Funktionen benutzen, um Verse aus den Suchdialogsergebnissen in den Lesezeichen Ordner zu ziehen und um Lesezeichen in Ordnern neu anzuordnen. Es gibt auch eine Import/Export Funktion für Lesezeichen. Wählen Sie "Exportiere Lesezeichen" im <guimenu
+> Klicken Sie mit der rechten Maustaste auf die Lesezeichengruppe der Hauptgruppe und wählen Sie <guimenuitem
+>&quot;Neuen Ordner anlegen&quot;</guimenuitem
+> um einen neuen Ordner anzulegen. Sie können normale Drag&amp;Drop Funktionen benutzen, um Verse aus den Suchdialogsergebnissen in den Lesezeichen Ordner zu ziehen und um Lesezeichen in Ordnern neu anzuordnen. Es gibt auch eine Import/Export Funktion für Lesezeichen. Wählen Sie <guimenuitem
+>&quot;Lesezeichen exportieren&quot;</guimenuitem
+> im <guimenu
 >Menü der rechten Maustaste</guimenu
->. Dies wird eine Dialogbox öffnen, in der Sie die Lesezeichen speichern können. Sie können mit anderen Benutzern von BibleTime ausgetauscht werden, archiviert werden usw. Sie können in der gleichen Art und Weise importiert werden. Sie können auch rechts-klicken um Ordnernamen und Beschreibungen von Lesezeichen zu ändern, und um Lesezeichen und Gruppen zu entfernen. </para>
+>. Dies wird eine Dialogbox öffnen, in der Sie die Sammlung der Lesezeichen speichern können. Sie können mit anderen Benutzern von BibleTime ausgetauscht werden, archiviert werden usw. Sie können in der gleichen Art und Weise importiert werden. Sie können auch mit der <mousebutton
+>rechten</mousebutton
+> Maustaste klicken, um Ordnernamen und Beschreibungen von Lesezeichen zu ändern, und um Lesezeichen und Ordner zu entfernen. </para>
 <screenshot
 > <screeninfo
 >Auswahl von Lesezeichen</screeninfo
@@ -89,14 +99,14 @@
 <title
 >Multiple Document Interface (MDI) Fenster</title>
 <para
-> Hier werden Dokumente "Anzegefenstern" angezeigt, die speziell auf die verschiedenen Modultypen abgestimmt sind. Die Crosswire Bible Society wird möglicherweise andere Dokumenttypen für Sword schaffen. Wenn sie freigegeben werden, wird &bibletime; sie auch unterstützen. </para>
+> Hier werden die geöffneten Dokumente angezeigt. Dokumente werden in "Anzeigefenstern" angezeigt, die speziell auf die verschiedenen Modultypen abgestimmt sind. Die Crosswire Bible Society wird möglicherweise andere Dokumenttypen für Sword schaffen. Wenn sie freigegeben werden, wird &bibletime; sie ebenfalls unterstützen. </para>
 
 <section id="hdbk-op-MDI-Window-control-modules">
 <title
 >Geöffnete Fenster verwalten</title
 > <para
 > Dokumentenfenster können mit Hilfe von üblichen &kde; Fenster/Titelzeilen Funktionen kontrolliert und verändert werden. Als Erweiterung zu diesen können Sie geöffnete Dokumentenfenster kacheln und stapeln. Benutzen Sie die entsprechenden Knöpfe in der Werkzeugleiste oder die Menüfunktionen im <guimenu
->"Fenster"</guimenu
+>&quot;Fenste&quot;</guimenu
 > Untermenü der Menüleiste. </para>
 </section>
 
@@ -165,9 +175,19 @@
 > </textobject
 > </inlinemediaobject>
 <para
-> </para>
+>Die Editoren für den persönlichen Kommentar sind mit einer Navigation und einem Speichern-Knopf ausgestattet. Der HTML Editor stellt auch dir Grundlegenden Funktionen für Schriftnamen, -größe, -farbe, kursiv, unterstreichen und einiger anderer Möglichkeiten der Absatzformatierung. So wie mit allen modernen Editoren gilt hier hier &quot;What you see is what you get&quot;. </para>
 <para
->  </para>
+> Um die Anmerkungen eines Verses zu löschen, klicken Sie auf den <guibutton
+>Löschen Knopf</guibutton
+> <inlinemediaobject
+> <imageobject
+> <imagedata fileref="hdbk-op-delete-verse.png"/> </imageobject
+> <textobject
+> <phrase
+>Anmerkungen Löschen</phrase
+> </textobject
+> </inlinemediaobject
+>. </para>
 <!-- This is a feature not yet finished.
 You can also set the endpoint of your notes, if for example you want
 to use the same notes to comment on a range of verses. Click the "Edit" button
@@ -226,7 +246,13 @@ again to return to normal commentary browsing mode.
 >jede denkbare Art einer Suche</link
 > durchzuführen.</para>
 <para
-></para>
+>Um auf die Suchfunktion zuzugreifen, klicken Sie mit der <mousebutton
+>rechten</mousebutton
+> Maustaste in die Hauptgruppe. Wählen Sie nun das Vergrößerungsglas aus. Sie können &bibletime; auch so einrichten, dass Suchsymbol <inlinemediaobject
+> <imageobject
+> <imagedata fileref="find.png" format="PNG"/> </imageobject
+> </inlinemediaobject
+> in die Werkzeugleiste zu setzen.</para>
 
 
 <section id="hdbk-op-search-options">
@@ -248,7 +274,13 @@ again to return to normal commentary browsing mode.
 <title
 >Benutzung des Module auswählen Knopfes.</title>
 <para
-> </para>
+>Ganz oben im Abschnitt "Einstellungen" finden die den Knopf <guibutton
+>Module wählen</guibutton
+>, mit den bereits gewählten Modulen darunter. Wenn Sie weitere Module durchsuchen möchten, klicken Sie auf <guibutton
+>Module wählen</guibutton
+>, es öffnet sich ein Dialog mit allen durchsuchbaren Modulen. Wählen Sie Module mit einem Klick auf die Box aus, dann klicken Sie auf den Knopf <guibutton
+>Gewählte Module benutzen</guibutton
+>. </para>
 
 <screenshot
 > <screeninfo
@@ -265,7 +297,9 @@ again to return to normal commentary browsing mode.
 >Gesuchter Text - was Sie finden möchten.</title>
 
 <para
->Die Textbox in dem Feld Sucheinstellungen ist der Ort, wo Sie den zu suchenden Text eingeben können. Er kann aus einem oder mehreren Worten bestehen, oder auch aus Wortteilen(trennen Sie Wörter und Wortteile mit Leerzeichen) oder Regulären Ausdrücken bestehen. Sie können die Radio Buttons verwenden, um die Suche im "Mehrere Wörter", "Exakte Suche" oder "Reguläre Ausdrücke" Modus auszuführen. Mit einer Checkbox können Sie die Unterscheidung zwischen Groß- und Kleinbuchstaben an- und ausschalten. </para>
+>Die Textbox in dem Feld Sucheinstellungen ist der Ort, wo Sie den zu suchenden Text eingeben können. Er kann aus einem oder mehreren Worten bestehen, aus Wortteilen (trennen Sie Wörter und Wortteile mit Leerzeichen) oder Mustern <link linkend="hdbk-op-search-dialog-text-regexp"
+>(Regulären Ausdrücken )</link
+>bestehen. Sie können die Radio-Buttons verwenden, um die Suche im "Mehrere Wörter", "Exakte Suche" oder "Regulärer Ausdrück" Modus auszuführen. Es steht eine Checkbox zur Verfügung, um einzustellen , ob die Suche zwischen Groß- und Kleinschreibung unterscheiden soll. </para>
 
 <tip
 ><para
@@ -277,7 +311,7 @@ again to return to normal commentary browsing mode.
 <title
 >Benutzung des Knopfes für GROSS/klein Unterscheidung</title>
 <para
->Klicken Sie auf die GROß/klein Box, um die Unterscheidung an oder aus zu schalten. Wenn die Box angeschaltet ist, wird die Suche nur Verse finden, in denen der Text genauso wie in der Texteingabezeile auftaucht. Falls die Box ausgeschaltet ist, wird die Suche Treffer finden, sie sich auch in der Groß- und Kleinschreibung unterscheiden. Um &quot;HERR&quot; jedoch nicht &quot;Herr&quot; oder &quot;herr&quot; zu finden, wählen Sie die Option aus. Um mit &quot;HERR&quot; und &quot;Herr&quot; &quot;herr&quot; zu finden, lassen Sie die Option ausgeschaltet.</para>
+>Klicken Sie auf die GROß/klein Box, um die Unterscheidung zwischen beiden an oder aus zu schalten. Wenn die Box angeschaltet ist, wird die Suche nur Verse finden, in denen der Text genauso wie in der Texteingabezeile auftaucht. Falls die Box ausgeschaltet ist, wird die Suche Treffer finden, die sich auch in der Groß- und Kleinschreibung unterscheiden. Um &quot;HERR&quot; jedoch nicht &quot;Herr&quot; oder &quot;herr&quot; zu finden, wählen Sie die Option aus. Um mit &quot;HERR&quot; und &quot;Herr&quot; &quot;herr&quot; zu finden, lassen Sie die Option ausgeschaltet.</para>
 </section>
 
 
@@ -286,7 +320,7 @@ again to return to normal commentary browsing mode.
 <title
 >Benutzung des "Mehrere Wörter (UND)" Knopfes</title>
 <para
->Wenn "Mehrere Wörter" ausgewählt ist, wird die Suche alle Verse finden, die alle Worte (oder Wortteile) enthalten. Die Position und Reihenfolge der The position Worte spielt keine Rolle. Wenn alle Worte in einem Vers enthalten sind, wird er in der Liste der gefundenen Verse angezeigt. Eine Suche nach &quot;prove cause&quot; wird 1 Mose 21:25 finden, &quot;And Abraham re<emphasis
+>Wenn "Mehrere Wörter (UND)" ausgewählt ist, wird die Suche alle Verse finden, die alle eingegebenen Worte enthalten. Die Position und Reihenfolge der Worte spielt keine Rolle. Wenn alle Worte in einem Vers enthalten sind, wird er in der Liste der gefundenen Verse angezeigt. Eine Suche nach &quot;prove cause&quot; wird 1 Mose 21:25 finden, &quot;And Abraham re<emphasis
 >prove</emphasis
 >d Abimelech be <emphasis
 >cause</emphasis
@@ -295,9 +329,11 @@ again to return to normal commentary browsing mode.
 
 <section id="hdbk-op-search-dialog-text-input-multior">
 <title
->Benutzung des "Mehrere Wörter" Button </title>
+>Benutzung des "Mehrere Wörter" Knopfes</title>
 <para
-></para>
+>Wenn der Knopf "Mehrere Wörter (ODER)" ausgewählt wurde, dass findet die Suche alle Zeilen (oder Verse) die eines der Wörter des Eingabefeldes enthalten. Eine Suche nach &quot;cause&quot; findet 1. Mose 21:11 &quot;And the thing was very grievous in Abraham's sight be<emphasis
+>cause </emphasis
+> of his son.&quot;.</para>
 </section>
 
 <section id="hdbk-op-search-dialog-text-input-phrase">
@@ -312,11 +348,13 @@ again to return to normal commentary browsing mode.
 
 <section id="hd-op-sch-dia-txt-scope-options">
 <title
->Klicken Sie den Knopf <guibutton
->Suchen</guibutton
-> um die Suche zu starten.</title>
+><guibutton
+>Suchbereich wählen</guibutton
+> Einstellungen</title>
 <para
-></para>
+>Geben Sie die Suche für ihre Suche durch Klick auf den<guibutton
+>Suchbereich wählen</guibutton
+> Knopf. Ihnen wird eine Liste von vordefinierten Suchbereichen angeboten.</para>
 
 <itemizedlist
 > <listitem
@@ -334,14 +372,14 @@ again to return to normal commentary browsing mode.
 > <listitem
 ><para
 ><guibutton
->Suchbereich benutzen</guibutton
-> Die neue Suche wird innerhalb des angegebenen Suchbereiches ausgeführt.</para
+>Evangelien</guibutton
+> Die neue Suche wird innerhalb der Grenze Matthäus 1:1 und Johannes 21:25 ausgeführt.</para
 ></listitem
 > <listitem
 ><para
 ><guibutton
->Suchbereich benutzen</guibutton
-> Die neue Suche wird innerhalb des angegebenen Suchbereiches ausgeführt.</para
+>Geschichte</guibutton
+> Die neue Suche wird in den Grenzen von Josua :1 - Esther 10:3 durchgeführt.</para
 ></listitem
 > </itemizedlist>
 
@@ -352,42 +390,44 @@ again to return to normal commentary browsing mode.
 >Letztes Ergebnis</guibutton
 > ausgewählt ist, und eine weitere Suche nach "Christ", durchgeführt wird, werden 257 Verse der 939 Treffer der letzten Suche übrigbleiben. Wenn dann noch (<guibutton
 >Letztes Suchergebnis</guibutton
-> bleibt ausgewählt) nach "Lord" gesucht wird, bleiben von den 257 Versen noch 106 übrig. Alle diese 106 Verse enthalten "Jesus", "Christ" und "Lord". Alle diese Verse enthalten "Jesus", "Christ" und "Lord".</para>
+> bleibt ausgewählt) nach "Lord" gesucht wird, bleiben von den 257 Versen noch 106 übrig. Alle diese verbleibenden 106 Verse enthalten "Jesus", "Christ" und "Lord".</para>
 </section>
 
 <section id="hd-op-sch-dia-txt-scope-maintain"
 ><title
 >Bereiche bearbeiten</title
 ><para
->Bereiche bearbeiten - Sie können obere und untere Grenzen für die Suche eingeben mit &LMB; <guibutton
->Bereiche beabeiten</guibutton
-> Button.</para>
+>Bereiche bearbeiten - Sie können durch Klick auf <guibutton
+>Suchbereiche einstellen</guibutton
+> den oberen und unteren Suchgrenzen für die Suche eingeben.</para>
 
 <mediaobject
 > <imageobject
 > <imagedata fileref="hdbk-op-search-dialog-range.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
->Bereich verändern Box</phrase
+>Suchbereich ändern Box</phrase
 > </textobject
 > </mediaobject>
 
 <para
 >Die voreingestellten Einträge zeigen Beispiele der verlangten Syntax. </para>
 <para
->  </para>
+> Klicken Sie auf <guibutton
+>Neuen Suchbereich</guibutton
+>, geben Sie den Namen in die Eingabezeile ein und geben Sie den Suchbereich in die Box mit dem Titel "Suchbereich bearbeiten" ein. Ihre Liste wird nun zu der Liste der vordefinierten Suchbereiche hinzugefügt. Wenn Sie zufriedengestellt sind, können Sie durch Klick auf <guibutton
+>Ok</guibutton
+> zu den Sucheinstellungen zurückkehren. </para>
 
 <para
->Eine Anzahl von angepassten Bereichen wurde zur Verfügung gestellt.</para>
+>Eine Anzahl von vordefinierten Suchbereichen wird hier zur Verfügung gestellt.</para>
 
 <para
->Wenn <guibutton
->Kein Suchbereich</guibutton
-> ausgewählt ist, und die KJV Bible nach "Jesus" durchsucht wird, werden 939 Verse gefunden. Wenn dann <guibutton
->Letztes Ergebnis</guibutton
-> ausgewählt ist, und eine weitere Suche nach "Christ", durchgeführt wird, werden 257 Verse der 939 Treffer der letzten Suche übrigbleiben. Wenn dann noch (<guibutton
->Letztes Suchergebnis</guibutton
-> bleibt ausgewählt) nach "Lord" gesucht wird, bleiben von den 257 Versen noch 106 übrig. Alle diese 106 Verse enthalten "Jesus", "Christ" und "Lord". Alle diese Verse enthalten "Jesus", "Christ" und "Lord".</para>
+>Der Suchbereich kann auf das <emphasis
+>gesamte Modul</emphasis
+> oder auf das<emphasis
+>letzte Suchergebnis</emphasis
+> gesetzt werden. Wenn das ganze Modul ausgewählt wurde und eine Suche nach dem Namen Jesus in der KJV Bibel gestartet wird, werden 939 Verse gefunden. Wenn nun "Letztes Suchergebnis" ausgewählt wurde und eine weitere Suche nach dem Titel "Christ" durchgeführt wird, bleiben 257 Ergebnisse der 939 übrig. Wenn "Letztes Suchergebnis " ausgewählt bleibt und eine weitere Suche nach "Lord" gemacht wird, verbleiben 196 Treffer der 257. Alle dieser verbleibenden Treffer enthalten den Namen "Jesus" und die beiden Titel "Christ" und "Lord".</para>
 
 <!-- NOT YET WORKING in 1.3, but a good idea
 <tip
@@ -399,7 +439,7 @@ You can also paste text into the entry field.</para
 -->
 <screenshot
 > <screeninfo
->Dialogbox Suchtext</screeninfo
+>Textsuche: Dialogbox Eigener Suchbereich</screeninfo
 > <mediaobject
 > <imageobject
 > <imagedata fileref="hdbk-op-search-dialog-range.png" format="PNG"/> </imageobject
@@ -416,7 +456,7 @@ You can also paste text into the entry field.</para
 > um die Suche zu starten.</para>
 <screenshot
 > <screeninfo
->Dialogbox Suchtext</screeninfo
+>Suchtext Dialogbox</screeninfo
 > <mediaobject
 > <imageobject
 > <imagedata fileref="hdbk-op-search-dialog-options.png" format="PNG"/> </imageobject
@@ -427,9 +467,9 @@ You can also paste text into the entry field.</para
 
 <section id="hdbk-op-search-results">
 <title
->Benutzung des Tabs Suchergebnis</title>
+>Der Suchergebnis-Abschnitt</title>
 <para
-></para>
+>Im Abschnit "Suchergebnis" finden Sie alle Treffer der Suche.</para>
 
 
 <section id="hdbk-op-search-dialog-text-result">
@@ -440,7 +480,7 @@ You can also paste text into the entry field.</para
 
 <tip
 ><para
->Hier funktioniert Drag&amp;Drop, wie bei anderen Kommentaren und Bibeltexten.</para
+>Drag &amp; Drop funktioniert hier im Textanzeigeberich.</para
 ></tip>
 
 <tip
@@ -469,16 +509,18 @@ You can also paste text into the entry field.</para
 
 <section id="hdbk-op-search-dialog-text-analysis">
 <title
->Benutzung des Suchanalyse Teils</title>
+>Benutzung der Suchanalyse</title>
 <para
->Klicken Sie den Knopf <guibutton
->Suchen</guibutton
-> um die Suche zu starten.</para>
+>Klicken Sie auf <guibutton
+>Suchanalyse</guibutton
+> um die Suchanalyse anzuzeigen.</para>
 <para
-> Suchanalyse - Dies zeigt eine grafische Analyse der Anzahl der Treffer in jedem Buch. Sie kann das Ergebnis aller Dokumente anzeigen. Sie können den Graphen auch als Bild auf Festplatte abspeichern. </para>
+> <guibutton
+>Suchanalyse</guibutton
+> - Dies gibt eine grafische Übersicht über die Anzahl, die der Suchbegriff in jedem Buch gefunden wurde. Es können Suchergebnisse für alle durchsuchten Dokumente angezeigt werden. Sie haben die  Möglichkeit die Analyse als HTML formatierte Liste auf Festplatte abzuspeichern. </para>
 <screenshot
 > <screeninfo
->Dialogbox Suchanalyse</screeninfo
+>Suchanalyse Dialogbox</screeninfo
 > <mediaobject
 > <imageobject
 > <imagedata fileref="hdbk-op-search-dialog-searchanal.png" format="PNG"/> </imageobject
@@ -491,7 +533,7 @@ You can also paste text into the entry field.</para
 
 <section id="hdbk-op-search-dialog-text-regexp">
 <title
->Syntax der Suche bei Benutzung von GCC regulären Ausdrücken</title>
+>Suchsyntax bei Benutzung von GCC regulären Ausdrücken</title>
 
 <para
 >Eine Suche mit regulären Ausdrücken stellt eine Möglichkeit dar, einfache oder komplexe Suchen nach Zeichenketten durchzuführen, die einem Muster oder einer Menge von Mustern (Bereiche) entsprechen. Die einzelnen Muster einer Menge werden durch den horizontalen Strich &quot;|&quot; getrennt. Während es möglich ist, ein Muster zu bauen, dass nach einem Wort oder einem Satz sucht, sucht ein einfaches aus einem einzelnen Wort bestehendes Muster nicht nur nach diesem einen Wort, sondern auch nach jeder Zeichenkette die das gesuchte Wort enthält. Eine Suche nach &quot;gerecht&quot; wird Verse liefern, die das Wort &quot;gerecht&quot; enthalten. Es werden jedoch auch Verse zurückgeliefert, die &quot;<emphasis
@@ -915,22 +957,24 @@ You can also paste text into the entry field.</para
 <title
 >Exortieren und Drucken</title>
 <para
->Bibel-Fenster, Lexikon-Fenster, Kommentar-Fenster</para>
+>Bibel-Fenster, Lexikon-Fenster, Kommentar-Fenster, Buch-Fenster</para>
 <para
->Durch &RMB; auf dem Eintrag, der Versnummer oder dem Text des Anzeigefensters wird eine Auswahlbox erscheininen (je nach Modultyp), die Zugriff auf Auswahl-, Nachschlage-, Export- und Druckfunktionen bietet.</para>
+>Durck Klick mit der <mousebutton
+>rechten</mousebutton
+> Maustaste auf eine Stellenangabe oder auf den Text wird eine Menü geöffnet, dessen Typ je nach dem Typus des aktuellen Fensters abhängt. Das Menü stellt ihnen die Aktion "Alles auswählen" die Exportoptionen "Kopieren", "Drucken" und "Speichern" zur Verfügung.</para>
 
 <section id="hdbk-op-select-all">
 <title
->Alle auswählen</title>
+>Alles auswählen</title>
 <para
->Ein &LMB; hier wählt den gesamten text des Kapitels aus, das gerade dargestellt wird. </para>
+>Ein Mausklick wählt den gesamten Text des im aktuellen Anzeigefenster angezeigten Kapitels aus. </para>
 </section>
 
 <section id="hdbk-op-copy">
 <title
 >Kopieren</title>
 <para
->Ein &LMB; hier wird ein Submenü anzeigen, dass die Möglichkeit bietet, den aktuellen Text in die Zwischenablage zu kopieren. </para>
+>Ein Mausklick öffnet hier ein Untermenü, das die Möglichkeit bietet, den Text in die Zwischenablage zu kopieren. </para>
 <itemizedlist
 > <listitem
 > <para
@@ -948,19 +992,19 @@ You can also paste text into the entry field.</para
 > <para
 > <guimenuitem
 >Vers mit Text</guimenuitem
-> - Sowohl Versnummer und Text des aktuellen Verses </para
+> - Sowohl der Text des aktuellen Verses, als auch die Versnummer. </para
 > </listitem
 > <listitem
 > <para
 > <guimenuitem
 >Kapitel</guimenuitem
-> - Das ganze Kapitel </para
+> - Das ganze Kapitel. </para
 > </listitem
 > <listitem
 > <para
 > <guimenuitem
 >Ausgewählter Text</guimenuitem
-> - Nur der ausgewählte Text. </para
+> - Nur der ausgewählte (hervorgehobene) Text. </para
 > </listitem
 > </itemizedlist>
 <para
@@ -972,15 +1016,21 @@ You can also paste text into the entry field.</para
 >Zur Druckschlange hinzufügen</title>
 <important
 > <para
->  </para
+> Die Auswahl von Drucken stellt die Druckausgabe in die &bibletime; Druckschlange. Um den Auftrag durch kprinter an den Drucker zu schicken, müssen Sie <guimenu
+>Datei</guimenu
+> <guimenuitem
+>Drucken</guimenuitem
+> in der <guilabel
+>Menüleiste</guilabel
+> auswählen. </para
 > </important>
 <para
->Ein &LMB; hier zeigt ein Submenü mit den Druckmöglichkeiten an: </para>
+>Ein Mausklick öffnet ein Untermenu mit den Druckoptionen: </para>
 <itemizedlist
 > <listitem
 > <para
 > <guimenuitem
->Vers mit Text</guimenuitem
+>Querverweis mit Text</guimenuitem
 > </para
 > </listitem
 > <listitem
@@ -999,12 +1049,12 @@ You can also paste text into the entry field.</para
 <title
 >Speichern</title>
 <para
->Ein &LMB; hier zeigt ein Submenü mit Speichermöglichkeiten an: </para>
+>Ein Mausklick öffnet ein Untermenü mit Optionen zum Abspeichern: </para>
 <itemizedlist
 > <listitem
 > <para
 > <guimenuitem
->Kapitel als normaler Text</guimenuitem
+>Verse mit Stelle</guimenuitem
 > - eine Datei mit &UNIX;-formatiertem ASCII-Text wird erstellt. </para
 > </listitem
 > <listitem

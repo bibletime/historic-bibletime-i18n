@@ -3,6 +3,7 @@
 # translation of de.po to
 # translation of de.po to
 # translation of de.po to
+# translation of de.po to
 # translation of de.po to Deutsch
 # translation of de.po to German
 # Copyright (C) 2002,2003 Free Software Foundation, Inc.
@@ -13,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2003-12-27 21:23+0100\n"
-"PO-Revision-Date: 2003-12-27 21:29+0100\n"
+"POT-Creation-Date: 2003-12-28 23:55+0100\n"
+"PO-Revision-Date: 2003-12-29 00:01+0100\n"
 "Last-Translator: Joachim Ansorg\n"
 "Language-Team:  <de@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -209,7 +210,7 @@ msgstr "Briefe/Episteln"
 msgid "Paul's Epistles"
 msgstr "Paulus-Briefe"
 
-#: ../bibletime/frontend/cexportmanager.cpp:415
+#: ../bibletime/frontend/cexportmanager.cpp:408
 msgid ""
 "*.html *.htm | HTML files\n"
 " *.* | All files (*.*)"
@@ -217,7 +218,7 @@ msgstr ""
 "*.html *.htm | HTML-Dateien\n"
 "*.* | Alle Dateien (*.*)"
 
-#: ../bibletime/frontend/cexportmanager.cpp:417
+#: ../bibletime/frontend/cexportmanager.cpp:410
 msgid ""
 "*.txt | Text files\n"
 " *.* | All files (*.*)"
@@ -225,7 +226,7 @@ msgstr ""
 "*.txt | Textdateien\n"
 " *.* | Alle Dateien (*.*)"
 
-#: ../bibletime/frontend/cexportmanager.cpp:419
+#: ../bibletime/frontend/cexportmanager.cpp:412
 msgid "All files (*.*)"
 msgstr "Alle Dateien (*.*)"
 
@@ -601,6 +602,8 @@ msgid ""
 "make sure you mounted the CD-Rom before you use BibleTime to install from CD-"
 "Rom."
 msgstr ""
+"Hier können Sie die lokalen Installationsquellen einstellen, z.B. den Pfad zu ihrem CD-Laufwerk um von CD installieren zu können.<br> "
+"Bei vielen Linux-Distributionen ist der Pfad zu ihrem CD-Rom Laufwerk <i>/media/cdrom</i> oder <i>/cdrom</i>. Bitte stellen Sie sicher, das die CD gemountet wurde, bevor Sie mit BibleTime Module davon installieren möchten."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:204
 msgid "Add new directory"
@@ -622,7 +625,9 @@ msgstr "Internet-Quellen verwalten"
 msgid ""
 "Setup remote sources like FTP servers which can be used to download Sword "
 "modules on your computer."
-msgstr "Einstellung der Internetquellen (FTP Server) die benutzt werden können um von dort Sword Module auf ihren Rechner zu laden."
+msgstr ""
+"Einstellung der Internetquellen (FTP Server) die benutzt werden können um "
+"von dort Sword Module auf ihren Rechner zu laden."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:271
 #: ../bibletime/frontend/cswordsetupdialog.cpp:573
@@ -675,7 +680,9 @@ msgstr "Sword einrichten"
 msgid ""
 "The underlying Sword software uses an own configuration file. This page let "
 "you set up this file."
-msgstr "Die zugrundeliegende Sword-Software benutzt eine eigene Konfigurationsdatei. Diese Seite lässt Sie diese Datei einrichten."
+msgstr ""
+"Die zugrundeliegende Sword-Software benutzt eine eigene Konfigurationsdatei. "
+"Diese Seite lässt Sie diese Datei einrichten."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:441
 msgid "Your Sword configuration file is <b>%1</b>"
@@ -712,6 +719,9 @@ msgid ""
 "not wish to risk detection you should NOT use the module remote installation "
 "feature!</b>"
 msgstr ""
+"Bitte wählen Sie eine Quelle und ein Ziel. Danach klicken Sie bitte auf den \"Verbinden\" Knopf.<br/> "
+"<b>WARNUNG: Wenn Sie in einem Land mit Christverfolgung leben und Sie eine Entdeckung vermeiden möchten, "
+"dann sollten Sie NICHT diese Funktion benutzen, um Module über das Internet zu installieren.</b>"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:502
 msgid "Maintain sources"
@@ -738,7 +748,9 @@ msgstr "Installierte Module löschen"
 msgid ""
 "This dialog lets you remove installed Sword modules from your system. Choose "
 "the modules and then click on the remove button."
-msgstr "Dieser Dialog lässt Sie Sword Module von ihrem Rechner entfernen. Wählen Sie die gewünschten Module aus und klicken Sie dann auf den \"Entfernen\" Knopf."
+msgstr ""
+"Dieser Dialog lässt Sie Sword Module von ihrem Rechner entfernen. Wählen Sie "
+"die gewünschten Module aus und klicken Sie dann auf den \"Entfernen\" Knopf."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:565
 msgid "<b>Select modules to be uninstalled</b>"
@@ -876,7 +888,10 @@ msgstr "[%1]: %2% fertig"
 msgid ""
 "This directory is not writable, so modules can not be installed here using "
 "BibleTime. Do you want to use this directory instead of the previous value?"
-msgstr "Dieses Verzeichnis ist nicht schreibar, es können von BibleTIme keine Module in diesem Verzeichnis installiert werden. Wollen Sie dieses Verzeichnis statt dem vorherigen Wert benutzen?"
+msgstr ""
+"Dieses Verzeichnis ist nicht schreibar, es können von BibleTIme keine Module "
+"in diesem Verzeichnis installiert werden. Wollen Sie dieses Verzeichnis "
+"statt dem vorherigen Wert benutzen?"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1326
 msgid ""
@@ -1634,10 +1649,6 @@ msgid ""
 msgstr ""
 "Die Standardbibel an der angegebenen Stelle öffnen. Verwenden Sie <random>, "
 "um eine zufällige Stelle aufzuschlagen."
-
-#: ../bibletime/main.cpp:136
-msgid "Open the SwordSetup dialog to install modules from <path>"
-msgstr "Öffne den SwordSetup Dialog und installiere Module von <path>"
 
 #: ../bibletime/main.cpp:144
 msgid "Bible study tool for KDE"
@@ -3478,6 +3489,9 @@ msgstr "Chinesisch"
 #: clanguagemgr.cpp:391
 msgid "Zulu"
 msgstr "Zulu"
+
+#~ msgid "Open the SwordSetup dialog to install modules from <path>"
+#~ msgstr "Öffne den SwordSetup Dialog und installiere Module von <path>"
 
 #~ msgid "No modules selected."
 #~ msgstr "Keine Module ausgewählt"

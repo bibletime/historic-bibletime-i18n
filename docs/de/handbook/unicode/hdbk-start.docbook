@@ -1,6 +1,6 @@
 <chapter id="hdbk-term"
 ><title
->&bibletime; starten</title>
+> &bibletime; starten</title>
 
 <para
 > &bibletime; ist ein &kde; Programm und ist in den &kde; Arbeitsplatz integriert. Sie können &bibletime; vom Untermenü &quot;Anwendungen&quot;des &kde; <guimenu
@@ -28,13 +28,15 @@
 > &bibletime; kann von anderen Fenstermanagern aufgerufen werden (wie zum Beispiel Gnome), voraussgesetzt &kde; ist installiert. Sie müssen ihr eigenes Symbol anlegen, um das Programm zu starten. Schlagen Sie in der Hilfe des Fenstermanagers nach, wie dies funktioniert. </para>
 
 <para
-> </para>
+> &bibletime; kann mit anderen Windowmanagern wie Gnome, BlackBox oder Sawfish verwendet werden, vorrausgesetzt, &kde; 3 ist installiert. Wenn Sie &kde; 3 mit Hilfe der &Linux-Mandrake; RPMS installier haben, dann in KDE in /opt installiert. Das Startkommando in einem Terminal lautet dann:</para>
 <screen>
 export KDEDIR=/opt/kde3
 bibletime
 </screen>
 <para
->  </para>
+> &bibletime; öffnet nun in einem Fenster des laufenden Windowmanagers. Wenn Sie &kde; 3 in ihrem &Linux; System nicht installiert haben, probieren Sie doch die <ulink url="http://gnomesword.sourceforge.net/"
+> Gnomesword Anwendung</ulink
+> oder die &kde; 2 Version von &bibletime; aus. </para>
 <para
 >Mit &Linux-Mandrake; 9.0 oder anderen Distributionen, bei denen &kde; 3.x am normalen Ort installiert ist, geben Sie einfach folgendes ein:</para>
 <screen>
