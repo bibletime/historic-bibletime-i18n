@@ -3,6 +3,7 @@
 
 
 POFILES = bg.po cs.po de.po en_GB.po es.po fr.po fi.po ko.po nl.po pl.po pt_br.po ro.po ru.po sk.po ua.po 
+
 GMOFILES = $(POFILES:.po=.gmo)
 
 localedir = $(DESTDIR)$(kde_locale)
