@@ -4,7 +4,6 @@ EXTRA_DIST = configure.in.in configure.in Makefile.cvs bibletime.m4
 
 btadmindir = $(top_srcdir)/admin
 
-EXTRA_DIST += $(btadmindir)/ChangeLog
 EXTRA_DIST += $(btadmindir)/compile
 EXTRA_DIST += $(btadmindir)/config.guess
 EXTRA_DIST += $(btadmindir)/config.pl

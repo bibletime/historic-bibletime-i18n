@@ -1,16 +1,17 @@
+# translation of GUI_ru.po to russain
 # translation of ru.po to russian
-# Copyright (C) 2003 Free Software Foundation, Inc.
+# Copyright (C) 2003,2004 Free Software Foundation, Inc.
 # , 2003
-# Vlad Savitsky <vlad_savitsky@mail.ru>, 2003
+# Vlad Savitsky <vlad_savitsky@mail.ru>, 2003,2004
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ru\n"
+"Project-Id-Version: GUI_ru\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2004-01-13 16:31+0100\n"
-"PO-Revision-Date: 2003-07-02 22:53+0300\n"
+"PO-Revision-Date: 2004-01-26 16:34+0200\n"
 "Last-Translator: Vlad Savitsky <vlad_savitsky@mail.ru>\n"
-"Language-Team: russian <ru@li.org>\n"
+"Language-Team: russain <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -91,9 +92,8 @@ msgid "&Show main index"
 msgstr "&Показать панель навигации"
 
 #: ../bibletime/bibletime_init.cpp:175
-#, fuzzy
 msgid "Configure &Sword"
-msgstr "&Настроить сессии"
+msgstr "&Настроить Sword"
 
 #: ../bibletime/bibletime_init.cpp:194
 msgid "&Cascade"
@@ -600,7 +600,6 @@ msgstr ""
 "устанавливать BibleTime из CD-привода"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:204
-#, fuzzy
 msgid "Add new directory"
 msgstr "Добавить новую директорию"
 
@@ -613,7 +612,6 @@ msgid "Remote sources"
 msgstr "Удаленные источники"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:264
-#, fuzzy
 msgid "Manage remote sources"
 msgstr "Управление удаленными источниками"
 
@@ -628,7 +626,6 @@ msgstr ""
 #: ../bibletime/frontend/cswordsetupdialog.cpp:271
 #: ../bibletime/frontend/cswordsetupdialog.cpp:571
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1120
-#, fuzzy
 msgid "Name"
 msgstr "Название:"
 
@@ -657,7 +654,6 @@ msgid "Path on server:"
 msgstr "Путь на сервере:"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:356
-#, fuzzy
 msgid "New remote source"
 msgstr "Новый удаленный источник"
 
@@ -666,15 +662,13 @@ msgid "Sword configuration"
 msgstr "Конфигурация Sword"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:424
-#, fuzzy
 msgid "Sword Path"
 msgstr "Путь к Sword"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:435
 #: ../bibletime/util/cresmgr.cpp:1009
-#, fuzzy
 msgid "Configure Sword"
-msgstr "&Настроить Sword"
+msgstr "Настроить Sword"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:436
 msgid ""
@@ -689,17 +683,14 @@ msgid "Your Sword configuration file is <b>%1</b>"
 msgstr "Ваш файл конфигурации Sword <b>%1</b>"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:447
-#, fuzzy
 msgid "Path to Sword modules"
 msgstr "Путь к модулям Sword"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:451
-#, fuzzy
 msgid "Edit Entry"
 msgstr "Редактировать запись"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:456
-#, fuzzy
 msgid "Add Entry"
 msgstr "Добавить запись"
 
@@ -744,12 +735,10 @@ msgid "Connect to source"
 msgstr "Соединиться с источником"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:546
-#, fuzzy
 msgid "Remove Modules"
-msgstr "Удалить Модули"
+msgstr "Удалить модули"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:558
-#, fuzzy
 msgid "Remove installed module(s)"
 msgstr "Удалить установленные модули"
 
@@ -762,9 +751,8 @@ msgstr ""
 "Выберите модули и нажмите кнопку удаления"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:563
-#, fuzzy
 msgid "Select modules to be uninstalled"
-msgstr "Выбрать модули для деинсталяции"
+msgstr "Выбрать модули для удаления"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:572
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:304
@@ -772,9 +760,8 @@ msgid "Location"
 msgstr "Размещение"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:581
-#, fuzzy
 msgid "Remove selected module(s)"
-msgstr "Удалить выбранные элементы"
+msgstr "Удалить выбранные модули"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:672
 #: ../bibletime/frontend/cswordsetupdialog.cpp:727
@@ -843,7 +830,7 @@ msgstr "Глоссарии"
 #: ../bibletime/frontend/cswordsetupdialog.cpp:884
 #, c-format
 msgid "Scanning your modules: %1%"
-msgstr "Сканирование ваших модулей:"
+msgstr "Сканирование ваших модулей: %1%"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1076
 msgid "Updated"
@@ -866,19 +853,16 @@ msgid "Installed version"
 msgstr "Установленная версия"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1122
-#, fuzzy
 msgid "Remote version"
 msgstr "Удаленная версия"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1123
-#, fuzzy
 msgid "Status"
 msgstr "Статус"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1139
-#, fuzzy
 msgid "Install modules"
-msgstr "Установить модули:"
+msgstr "Установить модули"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1204
 msgid ""
@@ -955,13 +939,12 @@ msgid "Configuration problem!"
 msgstr "Проблема настройки!"
 
 #: ../bibletime/frontend/ctooltipmanager.cpp:81
-#, fuzzy
 msgid ""
 "Please make sure the default module for the type <font color=\"blue\"><i>%1</"
 "i></font> is properly configured in the options dialog."
 msgstr ""
 "Пожалуйста убедитесь, что модуль по умолчанию для типа "
-"<FONT COLOR=\"blue\"><I>%1</I></FONT>  правильно настроен в диалоге опций."
+"<FONT COLOR=\"blue\"><I>%1</I></FONT> правильно настроен в диалоге опций."
 
 #: ../bibletime/frontend/ctooltipmanager.cpp:96
 msgid ""
@@ -1271,14 +1254,15 @@ msgid "Save text before closing?"
 msgstr "Сохранить текст перед закрытием?"
 
 #: ../bibletime/frontend/displaywindow/cwritewindow.cpp:172
-#, fuzzy
 msgid "Save changed text?"
 msgstr "Сохранить измененный текст?"
 
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:263
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:335
 msgid "Take care, this module contains cult / questionable material!"
-msgstr "Будьте осторожны -- модуль содержит культовые / сомнительные материалы!"
+msgstr ""
+"Будьте осторожны -- модуль содержит материалы культов или "
+"сомнительные материалы!"
 
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:265
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:306
@@ -1422,7 +1406,6 @@ msgid "About this module"
 msgstr "Об этом модуле"
 
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:435
-#, fuzzy
 msgid "Delete Items"
 msgstr "Удалить элементы"
 
@@ -1709,16 +1692,14 @@ msgid "Icons, startlogo, webpage"
 msgstr "Пиктограммы, заставка, веб-страница"
 
 #: ../bibletime/main.cpp:167
-#, fuzzy
 msgid "Crystal icons, crystal startlogo, webpage"
-msgstr "Пиктограммы, заставка, веб-страница"
+msgstr "Кристальные пиктограммы, кристальная заставка при загрузке, веб-страница"
 
 #: ../bibletime/main.cpp:169
 msgid "Documentation"
 msgstr "Документация"
 
 #: ../bibletime/main.cpp:181
-#, fuzzy
 msgid "Sponsored our internet domain for many years"
 msgstr "Спонсировал наш домен в интернете многие годы"
 
