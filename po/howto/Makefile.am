@@ -8,9 +8,8 @@ merge:
 	name=../../../bibletime/pot/howto.pot ; \
 		echo $$cat $$name; \
 		msgmerge $$cat $$name > $$cat.new; \
-		if diff $$cat $$cat.new; then \
-			rm $$cat.new;  \
-		else  \
-			mv $$cat.new $$cat ; \
-		fi;\
+		mv $$cat.new $$cat ; \
 	done;
+clean:
+	rm -f *.gmo
+
