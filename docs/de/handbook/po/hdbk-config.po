@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hdbk-config\n"
 "POT-Creation-Date: 2001-02-09 01:25+0100\n"
-"PO-Revision-Date: 2003-03-19 11:27+0100\n"
+"PO-Revision-Date: 2003-03-20 14:28+0100\n"
 "Last-Translator: Joachim Ansorg <joachim@ansorgs.de>\n"
 "Language-Team: Deutsch <de@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -86,8 +86,7 @@ msgstr "Start"
 
 #: index.docbook:32
 #, no-c-format
-msgid ""
-"The startup behavior can be customized. Select from the following options:"
+msgid "The startup behavior can be customized. Select from the following options:"
 msgstr ""
 "Das Startverhalten kann angepasst werden. Wählen Sie aus den folgenden "
 "Optionen aus:"
@@ -161,6 +160,12 @@ msgid ""
 "\"registered\">TrueType</trademark>. These fonts may be supplied with your "
 "distribution, or may be obtained separately."
 msgstr ""
+"&bibletime; kann nun jede installierte Schriftart benutzen. Diese können Bitmap-Schriftarten, "
+"<trademark class=\"registered\">Adobe</trademark> Type1 Schriftarten, "
+"<trademark class=\"registered\">Adobe</trademark> Type3 Schriftarten, "
+"oder <trademark class=\"registered\">TrueType</trademark> Schriftarten sein."
+"Die Schriftarten sind entdweder mit ihrer Distribution geliefert worden, oder können seperat "
+"bekommen werden."
 
 #: index.docbook:77
 #, no-c-format
@@ -172,8 +177,8 @@ msgid ""
 msgstr ""
 "Solange Ihre benötigten Module korrekt angezeigt werden, muss hier nichts "
 "getan werden. Wenn ein Modul als eine Folge von Fragezeichen "
-"(???????????????????) angezeigt wird, dann enthält die eingestellte "
-"Schriftart nicht die Zeichen, die in Ihrem Dokument verwendet wurden."
+"(???????????????????) oder als leere Kästchen angezeigt wird, "
+"dann entht die für &bibletime; verfügbare Schriftart nicht die im Dokument benutzten Zeichen."
 
 #: index.docbook:82
 #, no-c-format
@@ -184,6 +189,11 @@ msgid ""
 "be found that displays the module you are interested in, try installing the "
 "&kde; localization package for that language."
 msgstr ""
+"Wählen Sie im Schriftarten-Abschnit des Konfigurationsdialoges die gewünschte Sprache "
+"im Aufklappmenü. Klicken Sie auf die &quot;Eigene Schriftart benutzen&quot; Box. "
+"Wählen Sie nun eine Schriftart. Clearlyu unterstüzt viele Sprachen, diese könnte ein erster "
+"Versuch sein. Wenn keine Schriftart gefunden werden konnte, die das gewünschte Modul "
+"korrekt anzeigt, versuchen Sie bitte das KDE Sprachpaket für die gewünschte Sprache zu installieren."
 
 #: index.docbook:88
 #, no-c-format
@@ -200,6 +210,12 @@ msgid ""
 "other-formats/html_single/Unicode-HOWTO.html#toc4\"> The Unicode HOWTO</"
 "ulink>"
 msgstr ""
+"Detallierte Anweisungen gehen über den Umfang dieses Handbuces hinaus. Wenn Sie genaue "
+"Anweisungen zur Installation von Schriftarten benötigen, lesen Sie bitte das"
+"<ulink url=\"http://pegasus.rutgers.edu/~elflord/font_howto\">Font-"
+"HOWTO</ulink>, und <ulink url=\"http://www.ibiblio.org/pub/Linux/docs/HOWTO/"
+"other-formats/html_single/Unicode-HOWTO.html#toc4\"> das Unicode HOWTO</"
+"ulink>"
 
 #: index.docbook:95
 #, no-c-format
@@ -211,13 +227,13 @@ msgstr ""
 "Verfügung stellt, benuzten Sie ihn! Die Installation wird so viel leichter."
 
 #: index.docbook:98
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "If you use a small font like clearlyu (about 22kb) &bibletime; will run "
 "faster than if a large font like <trademark class=\"registered\">Bitstream "
 "Cyberbit</trademark> (about 12Mb) is used."
 msgstr ""
-"Wenn Sie eine kleine Unicode-Schriftart wie clearlyu (about 22kb) benutzen, "
+"Wenn Sie eine kleine Unicode-Schriftart wie clearlyu (etwa 22kb) benutzen, "
 "wird &bibletime; schneller laufen, als wenn Sie eine umfangreiche Schriftart "
 "wie Bitstream Cyberbit (ungefähr 12Mb) verwenden."
 
@@ -229,7 +245,7 @@ msgstr "Schriftarten bekommen"
 #: index.docbook:104
 #, no-c-format
 msgid "Fonts can be obtained from a number of sources."
-msgstr "Schriftarten können von unterschiedlichen Quellen kommen."
+msgstr "Schriftarten können Sie von unterschiedlichen Quellen kommen."
 
 #: index.docbook:105
 #, no-c-format
@@ -244,8 +260,7 @@ msgstr "Das jeweilige Sprachpaket ihrer Distribution."
 #: index.docbook:105
 #, no-c-format
 msgid "An existing &Microsoft; &Windows; installation on the same computer."
-msgstr ""
-"Eine bestehende &Microsoft; &Windows; Installation auf dem gleichen Computer."
+msgstr "Eine bestehende &Microsoft; &Windows; Installation auf dem gleichen Computer."
 
 #: index.docbook:105
 #, no-c-format
@@ -271,11 +286,16 @@ msgid ""
 "Few of the fonts available include all of range of symbols defined in the "
 "Unicode standard, so you may try several before finding what you need"
 msgstr ""
+"Unicode Schriftarten benuzten mehr Zeichen als andere Schriftarten, sie sind also eine gute "
+"Wahl für &bibletime;. Einige dieser Schriftarten sind kostenlos erhtlich. "
+"Nur wenige Schriftarten enthalten alle Zeichen, die im Unicode Standard definiert sind, "
+"so dass Sie evtl. mehrere ausprobieren müssen, bevor Sie das gewünschte Resultat "
+"erhalten."
 
 #: index.docbook:119
 #, no-c-format
 msgid "Here is a listing of some of the fonts available:"
-msgstr "Hier ist eine Liste von einigen verfügbaren Schriften:"
+msgstr "Hier ist eine Liste von einigen der verfügbaren Schriften:"
 
 #: index.docbook:120
 #, no-c-format
@@ -331,7 +351,7 @@ msgid "Partial coverage, see information on linked site."
 msgstr "Teilweise Abdeckung, siehe die Information auf der angegebenen Seite."
 
 #: index.docbook:140
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The most complete listing of Unicode fonts that we are aware of is <ulink "
 "url=\"http://www.ccss.de/slovo/unifonts.htm\"> Christoph Singer's "
@@ -343,7 +363,7 @@ msgstr ""
 "\"Multilingual Unicode TrueType Fonts in the Internet\" </ulink>."
 
 #: index.docbook:143
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Another Unicode font list can be found at: <ulink url=\"http://www.hclrss."
 "demon.co.uk/unicode/fontsbyrange.html\"> Unicode Font List</ulink>."
@@ -393,7 +413,7 @@ msgstr "Hintergrund"
 #: index.docbook:152
 #, no-c-format
 msgid "Hyperlinks"
-msgstr "Hyperlinks"
+msgstr "Querverweise"
 
 #: index.docbook:152
 #, no-c-format
@@ -430,7 +450,7 @@ msgid "Sessions"
 msgstr "Sitzungen"
 
 #: index.docbook:180
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Sessions define the appearance of the work area, for example which windows "
 "are open and which texts should be displayed in these windows. Once a "
@@ -441,11 +461,11 @@ msgid ""
 msgstr ""
 "Profile definieren die Erscheinung des Arbeitsbereiches, z.B. welche Fenster "
 "geöffnet sind, und welche Texte in diesen Fenstern angezeigt werden sollen. "
-"Wenn ein Profil einmal erstellt ist, erwenden Sie den Eintrag "
-"<guimenu>Fenster</guimenu> -> <guimenuitem>Profil sichern</guimenuitem>, um "
-"die aktuelle Sitzung in ein Profil zu sichern. Verwenden Sie "
-"<guimenu>Fenster</guimenu> -> <guimenuitem>Profil laden</guimenuitem>, um "
-"ein bereits gespeichertes Profil in &bibletime; zu laden."
+"Wenn eine Sitzung einmal erstellt ist, erwenden Sie den Eintrag "
+"<guimenu>Fenster</guimenu> -> <guimenuitem>Sitzung sichern</guimenuitem>, um "
+"die aktuelle Sitzung in eine Sitzungsdatei zu sichern. Verwenden Sie "
+"<guimenu>Fenster</guimenu> -> <guimenuitem>Sitzung laden</guimenuitem>, um "
+"eine bereits gespeicherte Sitzung in &bibletime; zu laden."
 
 #: index.docbook:188
 #, no-c-format
@@ -464,12 +484,12 @@ msgstr ""
 #: index.docbook:191
 #, no-c-format
 msgid "Options Dialog - Sword"
-msgstr "Optionendialog - Sword"
+msgstr "Konfigurationsdialog - Sword"
 
 #: index.docbook:191
 #, no-c-format
 msgid "The Options dialog - Sword."
-msgstr "Der Optionendialog - Sword."
+msgstr "Der Konfigurationsdialog - Sword."
 
 #: index.docbook:203
 #, no-c-format
@@ -479,7 +499,7 @@ msgstr "Sword Allgemein"
 #: index.docbook:204
 #, no-c-format
 msgid "Key Cache for Lexicons"
-msgstr "Schlüsselcache für Lexikons"
+msgstr "Schlüsselcache für Lexika"
 
 #: index.docbook:205
 #, no-c-format
@@ -489,7 +509,7 @@ msgid ""
 "computer has only a small amount of free space, you might want to disable "
 "this feature."
 msgstr ""
-"&bibletime; kann einen Keycache für Lexikons anlegen. Dies beschleunigt das "
+"&bibletime; kann einen Schlüsselcache für Lexikons anlegen. Dies beschleunigt das "
 "Öffnen großer Lexika. Es verbraucht allerdings etwas Festplattenkapazität, "
 "also sollten Sie dieses Feature abschalten, wenn Sie nur über sehr wenig "
 "freien Speicher haben."
@@ -868,3 +888,4 @@ msgstr "Ctrl+T"
 #~ msgid "The 'About this module' window shows what kind of encoding is used."
 #~ msgstr ""
 #~ "Das \"Über dieses Modul\"-Fenster zeigt an, welches Encoding benutzt wird."
+
