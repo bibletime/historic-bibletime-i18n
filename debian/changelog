@@ -1,9 +1,12 @@
 bibletime-i18n (1.4-1) unstable; urgency=low
 
   * New upstream version
-  * This is no official package!
+  * Build depend on kdelibs4-dev because it uses the
+     kde admin dir, Closes: #223130
+  * Updated the description to indicate the current translations
+  * Improved copyright notice
 
- -- Martin Gruner <mg.pub@gmx.net>  Tue, 16 Dec 2003 22:40:52 +0000
+ -- Daniel Glassey <wdg@debian.org>  Thu,  8 Jan 2004 13:05:04 +0000
 
 bibletime-i18n (1.3-2) unstable; urgency=medium
 
