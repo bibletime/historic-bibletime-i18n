@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2003-02-06 13:16+0100\n"
+"POT-Creation-Date: 2003-02-08 16:23+0100\n"
 "PO-Revision-Date: 2002-05-13 21:10EET\n"
 "Last-Translator: Yuriy Salimovskyy <y2000@pisem.net>\n"
 "Language-Team: Russian\n"
@@ -480,20 +480,22 @@ msgid "&Close all"
 msgstr "&Закрыть всё"
 
 #: ../bibletime/bibletime_init.cpp:217
-msgid "&Save profile"
-msgstr "&Сохранить профиль"
+#, fuzzy
+msgid "&Save session"
+msgstr "Сохранить текущий профиль"
 
 #: ../bibletime/bibletime_init.cpp:227
 #, fuzzy
-msgid "&Save as new profile"
-msgstr "Загрузить новый профиль"
+msgid "&Save as new session"
+msgstr "Сохранить текущий профиль"
 
 #: ../bibletime/bibletime_init.cpp:238
-msgid "&Load profile"
-msgstr "&Загрузить профиль"
+msgid "&Load session"
+msgstr ""
 
 #: ../bibletime/bibletime_init.cpp:248
-msgid "&Configure profiles"
+#, fuzzy
+msgid "&Configure sessions"
 msgstr "&Настроить профили"
 
 #: ../bibletime/bibletime_init.cpp:259
@@ -532,13 +534,13 @@ msgstr "Идёт печать..."
 #: ../bibletime/bibletime_slots.cpp:453
 #: ../bibletime/frontend/coptionsdialog.cpp:133
 #, fuzzy
-msgid "Please enter the name of the new profile."
-msgstr "Пожалуйста, введите название нового профиля"
+msgid "Please enter a name for the new session."
+msgstr "Пожалуйста, введите название для нового диапазона"
 
 #: ../bibletime/bibletime_slots.cpp:453
 #, fuzzy
-msgid "Profile name:"
-msgstr "Профили"
+msgid "Session name:"
+msgstr "Диапазон поиска"
 
 #: ../bibletime/frontend/cbtconfig.cpp:233
 msgid "Old testament"
@@ -606,18 +608,20 @@ msgstr ""
 #: ../bibletime/frontend/coptionsdialog.cpp:133
 #: ../bibletime/frontend/coptionsdialog.cpp:410
 #: ../bibletime/frontend/cresmgr.cpp:668
-msgid "Create new profile"
+#, fuzzy
+msgid "Create new session"
 msgstr "Создать новый профиль"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:156
 #, fuzzy
-msgid "Please enter a new name for the profile."
+msgid "Please enter a new name for the session."
 msgstr "Пожалуйста, введите новое название профиля"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:156
 #: ../bibletime/frontend/cresmgr.cpp:676
-msgid "Rename profile"
-msgstr "Переименовать профиль"
+#, fuzzy
+msgid "Rename session"
+msgstr "Регулярное выражение"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:180
 msgid "Startup"
@@ -705,19 +709,20 @@ msgid "Morphologic tags"
 msgstr "Морфологические тэги"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:393
-msgid "Profiles"
-msgstr "Профили"
+#, fuzzy
+msgid "Sessions"
+msgstr "Версия"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:398
 #, fuzzy
-msgid "Manage profiles"
+msgid "Manage sessions"
 msgstr "Управление профилями"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:399
 #, fuzzy
 msgid ""
-"Profiles define the appereance of the work area, for example which windows "
-"are open and which texts should displayed in these windows. New profiles "
+"Sessions define the appereance of the work area, for example which windows "
+"are open and which texts should displayed in these windows. New sessions "
 "only work after you've saved something into them."
 msgstr ""
 "Профили определяют внешний вид рабочей области, например, какие окна открыты "
@@ -725,11 +730,13 @@ msgstr ""
 "профили применимы только после того, как вы что-нибудь в них сохраните."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:414
-msgid "Delete selected profile"
+#, fuzzy
+msgid "Delete selected session"
 msgstr "Удалить выбранный профиль"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:418
-msgid "Rename selected profile"
+#, fuzzy
+msgid "Rename selected session"
 msgstr "Переименовать выбранный профиль"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:436
@@ -1015,12 +1022,13 @@ msgstr ""
 "Открыть диалог поиска для поиска текста в одном или нескольких модулях."
 
 #: ../bibletime/frontend/cresmgr.cpp:100
-msgid "Load a new profile"
-msgstr "Загрузить новый профиль"
+msgid "Load a session"
+msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:101
-msgid "Restore a BibleTime session using a profile stored on disk."
-msgstr ""
+#, fuzzy
+msgid "Restore a saved BibleTime session."
+msgstr "Отметьте это поле, чтобы видеть логотип BibleTime при запуске."
 
 #: ../bibletime/frontend/cresmgr.cpp:106
 #, fuzzy
@@ -1028,29 +1036,24 @@ msgid "Save current session"
 msgstr "Сохранить текущий профиль"
 
 #: ../bibletime/frontend/cresmgr.cpp:107
-msgid ""
-"Save current BibleTime session to a profile on disk so that it can be reused "
-"later."
+msgid "Save current BibleTime session so that it can be reused later."
 msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:112
 #, fuzzy
-msgid "Save as a new profile"
-msgstr "Загрузить новый профиль"
+msgid "Save as new session"
+msgstr "Сохранить текущий профиль"
 
 #: ../bibletime/frontend/cresmgr.cpp:113
-#, fuzzy
-msgid "Create a new profile and save the current BibleTime sessin into it."
+msgid "Create and save a new session."
 msgstr ""
-"Игнорировать профиль запуска, сохранённый после последнего использования "
-"BibleTime."
 
 #: ../bibletime/frontend/cresmgr.cpp:119
-msgid "Edit profiles"
-msgstr "Редактировать профили"
+msgid "Edit sessions"
+msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:120
-msgid "Create new, delete or rename existing profiles."
+msgid "Create new, delete or rename existing sessions."
 msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:126
@@ -1110,7 +1113,7 @@ msgstr "Редактировать панель инструментов"
 
 #: ../bibletime/frontend/cresmgr.cpp:172
 #, fuzzy
-msgid "Open BibleTime's tool bar editor."
+msgid "Open BibleTime's toolbar editor."
 msgstr "Открыть редактор панели инструментов BibleTime."
 
 #: ../bibletime/frontend/cresmgr.cpp:175
@@ -1879,31 +1882,31 @@ msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:664
 #, fuzzy
-msgid "List of profiles"
-msgstr "Список стилей печати"
+msgid "List of sessions"
+msgstr "Список стихов"
 
 #: ../bibletime/frontend/cresmgr.cpp:665
 #, fuzzy
-msgid "The list of available profiles."
+msgid "The list of available sessions."
 msgstr "Это список, содержащий доступные элементы печати."
 
 #: ../bibletime/frontend/cresmgr.cpp:669
-msgid "Create a new, empty profile with default settings."
+msgid "Create a new, empty session with default settings."
 msgstr ""
 
 #: ../bibletime/frontend/cresmgr.cpp:672
 #, fuzzy
-msgid "Delete profile"
-msgstr "Удалить выбранный профиль"
+msgid "Delete session"
+msgstr "Удалить элементы"
 
 #: ../bibletime/frontend/cresmgr.cpp:673
 #, fuzzy
-msgid "Delete the selected profile."
-msgstr "Удалить выбранный профиль"
+msgid "Delete the selected session."
+msgstr "Удалить выбранные элементы."
 
 #: ../bibletime/frontend/cresmgr.cpp:677
 #, fuzzy
-msgid "Rename the selected profile."
+msgid "Rename the selected session."
 msgstr "Переименовать выбранный профиль"
 
 #: ../bibletime/frontend/cresmgr.cpp:685
@@ -2217,6 +2220,13 @@ msgstr "Жирный"
 #, fuzzy
 msgid "Underline"
 msgstr "Подчёркнутый"
+
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:278
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:149
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:105
+#, fuzzy
+msgid "Select all"
+msgstr "Выделить весь текст"
 
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:282
 #, fuzzy
@@ -2926,7 +2936,8 @@ msgstr "Включить отладочные сообщения"
 #: ../bibletime/main.cpp:130
 #, fuzzy
 msgid ""
-"Ignore the startup profile saved when BibleTime was closed the last time."
+"Ignore the startup session that was saved when BibleTime was closed the last "
+"time."
 msgstr ""
 "Игнорировать профиль запуска, сохранённый после последнего использования "
 "BibleTime."
@@ -3389,6 +3400,58 @@ msgstr "Извините, но файл невозможно сохранить!
 msgid "Please check permissions etc."
 msgstr "Пожалуйста, проверьте права и пр.!"
 
+#~ msgid "&Save profile"
+#~ msgstr "&Сохранить профиль"
+
+#, fuzzy
+#~ msgid "&Save as new profile"
+#~ msgstr "Загрузить новый профиль"
+
+#~ msgid "&Load profile"
+#~ msgstr "&Загрузить профиль"
+
+#, fuzzy
+#~ msgid "Please enter the name of the new profile."
+#~ msgstr "Пожалуйста, введите название нового профиля"
+
+#, fuzzy
+#~ msgid "Profile name:"
+#~ msgstr "Профили"
+
+#~ msgid "Rename profile"
+#~ msgstr "Переименовать профиль"
+
+#~ msgid "Profiles"
+#~ msgstr "Профили"
+
+#~ msgid "Load a new profile"
+#~ msgstr "Загрузить новый профиль"
+
+#, fuzzy
+#~ msgid "Save as a new profile"
+#~ msgstr "Загрузить новый профиль"
+
+#, fuzzy
+#~ msgid "Create a new profile and save the current BibleTime sessin into it."
+#~ msgstr ""
+#~ "Игнорировать профиль запуска, сохранённый после последнего использования "
+#~ "BibleTime."
+
+#~ msgid "Edit profiles"
+#~ msgstr "Редактировать профили"
+
+#, fuzzy
+#~ msgid "List of profiles"
+#~ msgstr "Список стилей печати"
+
+#, fuzzy
+#~ msgid "Delete profile"
+#~ msgstr "Удалить выбранный профиль"
+
+#, fuzzy
+#~ msgid "Delete the selected profile."
+#~ msgstr "Удалить выбранный профиль"
+
 #~ msgid "Reset main index"
 #~ msgstr "Сбросить основной список"
 
@@ -3580,9 +3643,6 @@ msgstr "Пожалуйста, проверьте права и пр.!"
 
 #~ msgid "Range name"
 #~ msgstr "Название диапазона"
-
-#~ msgid "Please enter a name for the new range"
-#~ msgstr "Пожалуйста, введите название для нового диапазона"
 
 #~ msgid "Search Dialog"
 #~ msgstr "Диалог поиска"
@@ -3929,9 +3989,6 @@ msgstr "Пожалуйста, проверьте права и пр.!"
 
 #~ msgid "Save the displayed chapter as an HTML file."
 #~ msgstr "Сохранить показанную главу как файл HTML."
-
-#~ msgid "Select all text."
-#~ msgstr "Выделить весь текст"
 
 #~ msgid "Copy the displayed text to the clipboard."
 #~ msgstr "Копировать показанный текст в буфер обмена."
