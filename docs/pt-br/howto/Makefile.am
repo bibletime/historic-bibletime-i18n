@@ -6,11 +6,11 @@ SUBDIRS = html unicode
 unicode-files:
 	for f in `ls ../../../../bibletime/docs/howto/unicode/*.docbook`; do \
 		newfile=`echo $$f | sed s/"..\/..\/..\/..\/bibletime\/docs\/howto\/unicode\/"//`; \
-		echo "Calling po2xml $$f ../../../po/pt-br.po  > unicode/$$newfile"; \
-		po2xml $$f ../../../po/pt-br.po > unicode/$$newfile; \
+		echo "Calling po2xml $$f ../../../po/howto/pt-br.po  > unicode/$$newfile"; \
+		po2xml $$f ../../../po/howto/pt-br.po > unicode/$$newfile; \
 	done;
 
-html-files:
+html-files: unicode-files
 	if test -e unicode/index.docbook; then \
 		olddir=$$PWD; \
 		cd html;\
