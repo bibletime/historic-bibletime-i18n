@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "POT-Creation-Date: 2003-02-08 16:23+0100\n"
-"PO-Revision-Date: 2003-02-08 19:31GMT\n"
+"PO-Revision-Date: 2003-02-10 09:31GMT\n"
 "Last-Translator: Martin Gruner <mg.pub@gmx.net>\n"
 "Language-Team: Deutsch <de@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1704,18 +1704,16 @@ msgid "Restore the last BibleTime session on startup"
 msgstr "Die letzte BibleTime-Sitzung beim Start wiederherstellen"
 
 #: ../bibletime/frontend/cresmgr.cpp:613
-#, fuzzy
 msgid ""
 "Save the user's session when BibleTime is closed and restore it on the next "
 "startup."
 msgstr ""
-"Sichere die Fenster des Arbeitsbereiches wenn BibleTime geschlossen "
-"wird<BR>und stelle diese beim nächsten Start wieder her."
+"Sitzung beim Schließen von BibleTime sichern und beim nächsten "
+"Start wiederherstellen."
 
 #: ../bibletime/frontend/cresmgr.cpp:620
-#, fuzzy
 msgid "Choose a language"
-msgstr "Wählen Sie einen Stil"
+msgstr "Sprache auswählen"
 
 #: ../bibletime/frontend/cresmgr.cpp:621
 msgid "The font selection below will apply to all texts in this language."
@@ -1726,7 +1724,6 @@ msgid "Text color"
 msgstr "Textfarbe"
 
 #: ../bibletime/frontend/cresmgr.cpp:629
-#, fuzzy
 msgid "The color used for normal text in the display windows."
 msgstr "Die Farbe, die für normalen Text der Anzeigefenster benutzt wird."
 
@@ -1755,9 +1752,8 @@ msgid "This color will be used for all footnotes in the display windows."
 msgstr "Diese Farbe wird für alle Fußnoten der Anzeigfenster benutzt."
 
 #: ../bibletime/frontend/cresmgr.cpp:645
-#, fuzzy
 msgid "This color will be used for every Strong's Number in the display windows."
-msgstr "Die Farbe, die für jede Strong-Nummer in den Anzeigefenstern benutzt wird."
+msgstr "Die Farbe, die für die Strong-Nummern in den Anzeigefenstern benutzt wird."
 
 #: ../bibletime/frontend/cresmgr.cpp:648
 msgid "Color of the highlighted verse"
@@ -1780,48 +1776,43 @@ msgid "All morphological tags will appear in this color."
 msgstr "Alle morphologischen Tags erscheinen in dieser Farbe."
 
 #: ../bibletime/frontend/cresmgr.cpp:664
-#, fuzzy
 msgid "List of sessions"
-msgstr "Liste der Verse"
+msgstr "Liste der Sitzungen"
 
 #: ../bibletime/frontend/cresmgr.cpp:665
-#, fuzzy
 msgid "The list of available sessions."
-msgstr "Dies ist die Liste, die die vorhanden Druckeinträge enthält."
+msgstr "Das ist die Liste der verfügbaren BibleTime-Sitzungen."
 
 #: ../bibletime/frontend/cresmgr.cpp:669
 msgid "Create a new, empty session with default settings."
 msgstr "Eine neue, leere Sitzung mit Standardeinstellungen anlegen."
 
 #: ../bibletime/frontend/cresmgr.cpp:672
-#, fuzzy
 msgid "Delete session"
-msgstr "Einträge löschen"
+msgstr "Sitzung löschen"
 
 #: ../bibletime/frontend/cresmgr.cpp:673
-#, fuzzy
 msgid "Delete the selected session."
-msgstr "Lösche den ausgewählten Eintrag."
+msgstr "Die ausgewählte Sitzung löschen."
 
 #: ../bibletime/frontend/cresmgr.cpp:677
-#, fuzzy
 msgid "Rename the selected session."
-msgstr "Gewähltes Profil umbenennen"
+msgstr "Die ausgewählte Sitzung umbenennen."
 
 #: ../bibletime/frontend/cresmgr.cpp:685
 msgid "Use cache files for the lexicon entries"
 msgstr "Benutzen von Cachedateien für Lexikoneinträge"
 
 #: ../bibletime/frontend/cresmgr.cpp:686
-#, fuzzy
 msgid ""
 "Activate this to let BibleTime create index files for the lexicon entries. "
 "This increases the speed of opening large lexicon modules significantly, but "
 "does consume some disk space. Recommended."
 msgstr ""
-"Aktivieren Sie dies, um BibleTime die Indexdateien für die Lexikoneinträge "
-"anlegen zu lassen. Dies beschleunigt das öffnen von Lexika ziemlich, aber es "
-"verbraucht mehr Speicherplatz. Empfohlen."
+"Aktivieren Sie dies, um BibleTime Indexdateien für die Lexikoneinträge "
+"anlegen zu lassen. "
+"Dadurch wird das Öffnen von Lexika stark beschleunigt, aber es "
+"verbraucht etwas Speicherplatz. Empfohlen."
 
 #: ../bibletime/frontend/cresmgr.cpp:690
 msgid "Check this to use the down arrow to scroll to the next verse."
@@ -1834,10 +1825,9 @@ msgid "List of languages"
 msgstr "Liste der Sprachen"
 
 #: ../bibletime/frontend/cresmgr.cpp:694
-#, fuzzy
 msgid "Contains the languages which can be used for the biblical booknames."
 msgstr ""
-"Enthält die Sprachen, die für die Internationalen Buchnamen benutzt werden "
+"Enthält die Sprachen, die für die biblischen Buchnamen benutzt werden "
 "können."
 
 #: ../bibletime/frontend/cresmgr.cpp:699
@@ -1845,38 +1835,28 @@ msgid "The default bible used in the workspace area"
 msgstr "Die Standardbibel, die im Arbeitsbereich verwendet wird."
 
 #: ../bibletime/frontend/cresmgr.cpp:700
-#, fuzzy
 msgid "The default Bible is used when a hyperlink into a Bible is clicked."
-msgstr ""
-"Die voreingestelle Bibel wird benutzt, wenn ein  Verweis auf eine "
-"Bibelstelle angeklickt wird."
+msgstr "Die Standardbibel wird benutzt, wenn ein Verweis auf eine Bibelstelle angeklickt wurde."
 
 #: ../bibletime/frontend/cresmgr.cpp:703
 msgid "The default commentary used in the workspace area"
 msgstr "Der Standardkommentar, der im Arbeitsbereich verwendet wird"
 
 #: ../bibletime/frontend/cresmgr.cpp:704
-#, fuzzy
 msgid "The default commentary is used when a hyperlink into a commentary is clicked."
-msgstr ""
-"Der voreingestelle Kommentar wird benutzt, wenn ein Verweis auf einen "
-"Kommentar angeklickt wurde."
+msgstr "Der Standardkommentar wird benutzt, wenn ein Verweis auf einen Kommentar angeklickt wurde."
 
 #: ../bibletime/frontend/cresmgr.cpp:707
 msgid "The default lexicon used in the workspace area"
 msgstr "Das Standardlexikon, das im Arbeitsbereich verwendet wird"
 
 #: ../bibletime/frontend/cresmgr.cpp:708
-#, fuzzy
 msgid "The default lexicon is used when a hyperlink into a lexicon is clicked."
-msgstr ""
-"Das voreingestelle Lexikon wird benutzt, wenn ein Verweis auf ein Lexikon "
-"angeklickt wurde."
+msgstr "Das Standardlexikon wird benutzt, wenn ein Verweis auf ein Lexikon angeklickt wurde."
 
 #: ../bibletime/frontend/cresmgr.cpp:711
-#, fuzzy
 msgid "The default daily devotional module"
-msgstr "Standard Andachtsbuch"
+msgstr "Das Standardandachtsbuch"
 
 #: ../bibletime/frontend/cresmgr.cpp:712
 msgid "The default devotional will be used to display a short start up devotional."
@@ -1889,12 +1869,11 @@ msgid "The default Hebrew lexicon used in the workspace area"
 msgstr "Das Standardlexikon für Hebräisch, das im Arbeitsbereich verwendet wird."
 
 #: ../bibletime/frontend/cresmgr.cpp:716
-#, fuzzy
 msgid ""
 "The default Hebrew lexicon is used when a hyperlink into a Hebrew lexicon is "
 "clicked."
 msgstr ""
-"Das voreingestellte Lexikon für Hebräisch wird benutzt, wenn ein Verweis auf "
+"Das Standardlexikon für Hebräisch wird benutzt, wenn ein Verweis auf "
 "ein Hebräisch-Lexikon angeklickt wurde."
 
 #: ../bibletime/frontend/cresmgr.cpp:719
@@ -1942,30 +1921,26 @@ msgid "Line breaks"
 msgstr "Zeilenumbrüche"
 
 #: ../bibletime/frontend/cresmgr.cpp:734
-#, fuzzy
 msgid "Insert line breaks after each verse."
-msgstr "Zeilenumbruch nach jedem Vers"
+msgstr "Zeilenumbruch nach jedem Vers einfügen."
 
 #: ../bibletime/frontend/cresmgr.cpp:737
 msgid "Verse numbers"
 msgstr "Versnummern"
 
 #: ../bibletime/frontend/cresmgr.cpp:738
-#, fuzzy
 msgid "Show the verse number before each verse in Bibles."
-msgstr "Zeige Versnummern vor jedem Bibelvers an."
+msgstr "Versnummern vor jedem Bibelvers anzeigen."
 
 #: ../bibletime/frontend/cresmgr.cpp:742
-#, fuzzy
 msgid "Show footnotes embedded in the module's text."
-msgstr "Zeige Zeilenumbrüche nach jedem Vers an."
+msgstr "Fußnoten im Text der Module anzeigen, wenn vorhanden."
 
 #: ../bibletime/frontend/cresmgr.cpp:746
-#, fuzzy
 msgid ""
 "Show Strong's Numbers embedded in the text of modules which support this "
 "feature."
-msgstr "Zeige Zeilenumbrüche nach jedem Vers an."
+msgstr "Strongnummern im Text der Module anzeigen, wenn vorhanden."
 
 #: ../bibletime/frontend/cresmgr.cpp:750
 msgid ""
@@ -1984,24 +1959,20 @@ msgstr ""
 "aufweisen."
 
 #: ../bibletime/frontend/cresmgr.cpp:758
-#, fuzzy
 msgid "Show root words."
-msgstr "Fußnoten anzeigen"
+msgstr "Wurzeln anzeigen."
 
 #: ../bibletime/frontend/cresmgr.cpp:762
-#, fuzzy
 msgid "Show hebrew vowel points in the text."
-msgstr "Hebräische Vokalzeichen anzeigen"
+msgstr "Hebräische Vokalzeichen im Text anzeigen."
 
 #: ../bibletime/frontend/cresmgr.cpp:766
-#, fuzzy
 msgid "Show hebrew cantillation marks in the text."
-msgstr "Hebräische Kantillationszeichen anzeigen"
+msgstr "Hebräische Kantillationszeichen im Text anzeigen."
 
 #: ../bibletime/frontend/cresmgr.cpp:770
-#, fuzzy
 msgid "Show greek accents in the text."
-msgstr "Griechische Akzente anzeigen"
+msgstr "Griechische Akzente im Text anzeigen."
 
 #: ../bibletime/frontend/cresmgr.cpp:774
 msgid "Use different variants from the textual sources."
