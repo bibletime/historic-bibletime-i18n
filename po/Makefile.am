@@ -56,7 +56,7 @@ uninstall-local:
 merge:
 	@catalogs='$(POFILES)'; \
 	for cat in $$catalogs; do \
-	name=../../bibletime/pot/bibletime.pot ; \
+	name=../../bibletime/pot/messages.pot ; \
 	echo $$cat $$name; \
 	msgmerge $$cat $$name > $$cat.new ; \
 	if diff $$cat $$cat.new; then \
