@@ -1,16 +1,16 @@
 <chapter id="hdbk-intro"
 ><title
->Einführung</title>
+>Einleitung</title>
 
 <para
 > &bibletime; ist ein mächtiges Bibelstudien-Werkzeug, geschrieben für die &kde;Umgebung auf dem Linux Betriebssystem. Es basiert auf der <ulink url="http://www.crosswire.org"
 >Sword</ulink
-> Bibliothek, welche die Back-End Funktionalität für &bibletime; zur Verfügung stellt, zum Beispiel Bibeltexte anschauen, Suchen, Lesezeichen anlegen usw. Sword ist das Hauptprodukt der <ulink url="http://www.crosswire.org"
+> Bibliothek, welche die Back-End Funktionalität für &bibletime; zur Verfügung stellt, zum Beispiel um Bibeltexte anschauen, zu Suchen, um Lesezeichen anzulegen usw. Sword ist das Hauptprodukt der <ulink url="http://www.crosswire.org"
 >Crosswire Bibelgesellschaft</ulink
 >. </para>
 
 <para
->&bibletime; wurde konzipiert, um mit Dokumenten benutzt zu werden, die in Theological Markup Language (ThML) und im General Bible Format (GBF) vorliegen. Diese Formatierungssprachen zielen auf die Erfordernisse religiöser Texte. Vollständige Informationen über die unterstützten Dokumentenformate können im <ulink url="http://www.crosswire.org/sword/develop/index.jsp"
+>&bibletime; wurde konzipiert, um mit Dokumenten benutzt zu werden, die in der Theological Markup Language (ThML) und im General Bible Format (GBF) vorliegen. Diese Formatierungssprachen erfüllen die Anforderungenreligiöser Texte. Vollständige Informationen über die unterstützten Dokumentenformate können im <ulink url="http://www.crosswire.org/sword/develop/index.jsp"
 > Entwicklungsbereich der Crosswire Bible Society</ulink
 > gefunden werden.</para>
 
@@ -26,7 +26,7 @@
 >Bibeln</term
 > <listitem
 > <para
-> Der ganze Bibeltext, mit optionalen Strongnummern und Fußnoten im Text. Die Strongnummern sind Links in das hebräische Strongnummern-Lexikon.Bibeln sind in vielen Sprachen verfügbar, sowohl in modernen als auch antiken jVersionen wie dem Kodex Aleppo (hebräisch) und der Septuaginta (griechisch).  </para
+> Der ganze Bibeltext, mit optionalen Strongnummern und Fußnoten im Text. Die Strongnummern sind Links in das hebräische Strongnummern-Lexikon. Bibeln sind in vielen Sprachen verfügbar, sowohl in modernen als auch antiken Versionen wie dem Kodex Aleppo (hebräisch) und der Septuaginta (griechisch).  </para
 > </listitem
 ></varlistentry
 > <varlistentry
@@ -35,7 +35,7 @@
 > <listitem
 > <para
 > Zu den verfügbaren Kommentaren gehören Klassiker wie John Wesley's Notes on the Bible und Luther's Commentary on Galatians. Mit dem <emphasis
->Personal</emphasis
+>Persönlichen</emphasis
 > commentary können Sie Ihre eigenen Notizen zu Bibelversen eingeben. </para
 > </listitem
 > </varlistentry
@@ -60,7 +60,7 @@
 >Bücher</term
 > <listitem
 > <para
->Folgende Bücher sind beispielsweise verfügbar: Imitation of Christ, Enuma Elish, und Josephus, the complete works </para
+>Folgende Bücher sind beispielsweise verfügbar: &quot;Imitation of Christ&quot;, &quot;Enuma Elish,&quot; und &quot;Josephus, the complete works&quot; </para
 > </listitem
 > </varlistentry
 > </variablelist
@@ -85,42 +85,43 @@
 
 <section
 ><title
-></title>
+>Änderungen mit dem &bibletime;-Release 1.3</title>
 <para
-></para>
+>BibleTime 1.3 behebt einige Fehler und Stabilitätsprobleme. Auch an am Erscheinungsbild des Programms hat sich einiges geändert. Dies ist nur ein Überblick, wenn Sie eine vollständige Liste der Änderungen sehen wollen, lesen Sie bitte den Changelog.</para>
 
 <section
 ><title
-></title>
+>Hauptfenster</title>
 <para
-></para>
+>Die Hauptgruppe wurde neu geordnet; die Module werden jetzt nach Sprachen angeordnet</para>
 
 <para
-></para>
+>Lesezeichen werden jetzt in einer XML-Datei abgespeichert. Alte Lesezeichen können importiert werden. Nach dem Upgrade finden Sie Ihre alten Lesezeichen im Ordner "Alte Lesezeichen".</para>
 
 <para
-></para>
+>Drag&amp;Drop funktioniert jetzt mit mehreren Einträgen gleichzeitig.</para>
 
 <para
-></para>
+>Im Suchmenü wurden die Einträge "Suche in Standardbibel" und "Suche in geöffnenten Modulen" hinzugefügt.</para>
+</section>
+
+<section
+><title
+>Suchdialog</title>
+<para
+>Die Benutzerschnittstelle wurde gründlich überarbeitet. Jetzt gibt es nur noch 2 Tabs (Suche und Ergebnis). Die einzelnene Elemente wurden auf dem passenden Tab plaziert.</para>
 </section>
 <section
 ><title
-></title>
+>Anzeigefenster</title>
 <para
-></para>
+>Wurden in Lese- und Schreibfenster aufgeteilt. Schreibfenster können mit dem Kontextmenü in der Hauptgruppe auf dem Persönlichen Kommentar oder jedem anderen RawFiles-Modul geöffnet werden.</para>
 </section>
 <section
 ><title
-></title>
+>Konfigurationsdialog</title>
 <para
-></para>
-</section>
-<section
-><title
-></title>
-<para
-></para>
+>Für jede Sprache kann eine Schrift eingestellt werden. Die Voreinstellungen funktionieren mit den meisten Modulen.</para>
 </section>
 </section>
 </section>
@@ -130,12 +131,10 @@
 ><title
 >ToDo</title>
 <para
-> Jede Menge! </para>
-<para
-> Wir haben viel zu tun. Da wir ein sehr kleines Team von aktiven Entwicklern sind, ist es sehr schwierig vernünftige Ergebnisse in einer kurzen Zeit zu bekommen. Falls Sie daran interessiert sind dem &bibletime; Team zu helfen, kontaktieren Sie uns bitte auf <ulink url="http://sourceforge.net/pm/?group_id=954"
->SourceForge &bibletime; Hompage</ulink
->. Informationen können ebenso auf der <ulink url="http://www.bibletime.de"
->BibleTime Homepage</ulink
+> Wir haben viel zu tun. Da wir ein sehr kleines Team von aktiven Entwicklern sind, ist es sehr schwierig vernünftige Ergebnisse in einer kurzen Zeit zu erzielen. Falls Sie daran interessiert sind, dem &bibletime; Team zu helfen, kontaktieren Sie uns bitte auf der <ulink url="http://sourceforge.net/pm/?group_id=954"
+>SourceForge &bibletime;-Hompage</ulink
+>. Informationen können ebenso auf der <ulink url="http://www.bibletime.info"
+>&bibletimel;-Homepage</ulink
 > gefunden werden.</para>
 
 <para

@@ -60,27 +60,27 @@ msgstr "Ein Modul zum Anschauen auswählen"
 #, fuzzy, no-c-format
 msgid ""
 "To select a document, click with the <mousebutton>left</mousebutton> mouse "
-"button on the desired document group (Bibles, Commentaries, or Lexicons) to "
-"display the contents of a document group, click with the <mousebutton>right</"
-"mousebutton> mouse button on the icon for the desired group. To open a "
-"document, click on it's icon."
+"button on the desired document group (Bibles, Commentaries, Lexicons, Books, "
+"Devotionals or Glossaries) to display the contents of a document group, "
+"click with the <mousebutton>right</mousebutton> mouse button on the icon for "
+"the desired group. To open a document, click on it's icon."
 msgstr ""
 "Wenn Sie Dokument auswählen wolllen, klicken Sie einfach auf die gewünschte "
 "Dokumentengruppe (Bibeln, Kommentare oder Lexika) um den Inhalt der "
 "Dokumentengruppe anzuzeigen. Um ein Dokument zu öffnen klicken Sie auf "
 "dessen Symbol."
 
-#: index.docbook:33
+#: index.docbook:32
 #, no-c-format
 msgid "Document Selection"
 msgstr "Auswahl eines Dokumentes"
 
-#: index.docbook:41 index.docbook:86
+#: index.docbook:40 index.docbook:86
 #, no-c-format
 msgid "Drag &amp; Drop Works Here"
 msgstr "Hier funktioniert Drag&amp;Drop"
 
-#: index.docbook:42
+#: index.docbook:41
 #, fuzzy, no-c-format
 msgid ""
 "A document can be opened from an already opened document. Simply click with "
@@ -99,7 +99,7 @@ msgstr ""
 "ein bereits geöffnetes Modul ziehen, wird dieses automatisch zur gewünschten "
 "Stelle springen. Dies funktioniert nur für Bibeln und Kommentare."
 
-#: index.docbook:49
+#: index.docbook:48
 #, fuzzy, no-c-format
 msgid ""
 "There are two other functions accessible through clicking with the "
@@ -126,12 +126,12 @@ msgstr ""
 "org/sword/modules/aboutlocked.jsp\">See information on locked modules on the "
 "Crosswire Bible Society web site</ulink>."
 
-#: index.docbook:64
+#: index.docbook:63
 #, no-c-format
 msgid "Accessing the search dialog"
 msgstr "Auf den Suchdialog zugreifen"
 
-#: index.docbook:64
+#: index.docbook:63
 #, fuzzy, no-c-format
 msgid ""
 "You can search in a module by clicking with the <mousebutton>right</"
@@ -146,12 +146,12 @@ msgstr ""
 "Modulliste und Auswahl von \"Search in module(s)\". Durch Shift-&RMB; auf "
 "anderen Modulnamen können Sie mehrere Module auswählen."
 
-#: index.docbook:74 index.docbook:98
+#: index.docbook:73 index.docbook:97
 #, no-c-format
 msgid "Bookmark Selection"
 msgstr "Auswahl von Lesezeichen"
 
-#: index.docbook:86
+#: index.docbook:85
 #, no-c-format
 msgid "Accessing bookmark functions"
 msgstr "Auf Lesezeichen zugreifen"
@@ -159,18 +159,18 @@ msgstr "Auf Lesezeichen zugreifen"
 #: index.docbook:86
 #, fuzzy, no-c-format
 msgid ""
-"Click with the <mousebutton>right</mousebutton> mouse button on an empty "
-"part of the module tree window and select <guimenuitem>\"Create new group\"</"
-"guimenuitem> to create a new bookmark folder. You can use normal drag 'n' "
-"drop functions to drag verse numbers from search dialog results to the "
-"bookmark folder, and to rearrange bookmarks between folders. There is an "
-"import/export function for bookmarks also. From the <guimenu>right-mouse-"
-"button menu</guimenu>, select \"Export bookmarks\". This will bring up a "
-"dialog box for you to save the bookmark collection. They can be shared with "
-"other &bibletime; users, archived, etc. They can be imported in the same "
-"way. You can also click with the <mousebutton>right</mousebutton> mouse "
-"button to change folder names and bookmark descriptions, and delete folders "
-"and bookmarks."
+"Click with the <mousebutton>right</mousebutton> mouse button on the bookmark "
+"group of the module tree window and select <guimenuitem>&quot;Create new "
+"folder&quot;</guimenuitem> to create a new bookmark sub folder. You can use "
+"normal drag 'n' drop functions to drag verse numbers from search dialog "
+"results to the bookmark folder, and to rearrange bookmarks between folders. "
+"There is an import/export function for bookmarks also. From the "
+"<guimenu>right-mouse-button menu</guimenu>, select &quot;Export "
+"bookmarks&quot;. This will bring up a dialog box for you to save the "
+"bookmark collection. They can be shared with other &bibletime; users, "
+"archived, etc. They can be imported in the same way. You can also click with "
+"the <mousebutton>right</mousebutton> mouse button to change folder names and "
+"bookmark descriptions, and delete folders and bookmarks."
 msgstr ""
 "Klicken Sie mit der rechten Maustaste auf einen leeren Bereich der "
 "Hauptgruppe und wählen Sie <guimenuitem>\"Erzeuge einen neuen Ordner\"</"
@@ -185,16 +185,16 @@ msgstr ""
 "werden. Sie können auch rechts-klicken um Ordnernamen und Beschreibungen von "
 "Lesezeichen zu ändern, und um Lesezeichen und Gruppen zu entfernen."
 
-#: index.docbook:111
+#: index.docbook:110
 #, no-c-format
 msgid "Multiple Document Interface (MDI) Window"
 msgstr "Multiple Document Interface (MDI) Fenster"
 
-#: index.docbook:112
-#, no-c-format
+#: index.docbook:111
+#, fuzzy, no-c-format
 msgid ""
-"This is where the opened documents are displayed. documents are displayed in "
-"\"Document Windows\", that are specific to the three types of documents. "
+"This is where the opened documents are displayed. Documents are displayed in "
+"\"Display Windows\", that are specific to the four types of documents. "
 "Crosswire Bible Society may release other document types for sword in the "
 "future. When they are released, &bibletime; will support them as well."
 msgstr ""
@@ -203,19 +203,19 @@ msgstr ""
 "möglicherweise andere Dokumenttypen für Sword schaffen. Wenn sie freigegeben "
 "werden, wird &bibletime; sie auch unterstützen."
 
-#: index.docbook:119
+#: index.docbook:118
 #, no-c-format
 msgid "Controlling Open Documents"
 msgstr "Geöffnete Fenster verwalten"
 
-#: index.docbook:119
-#, no-c-format
+#: index.docbook:118
+#, fuzzy, no-c-format
 msgid ""
 "Document Windows can be controlled and manipulated with normal &kde; window/"
 "title bar functions. In addition to this, you can tile and cascade open "
 "Document Windows. Use the appropriate tool bar buttons, or menu functions "
-"under <guimenu>\"Window\"</guimenu> in the main menubar. Document Windows "
-"can be set to automatically cascade or tile also."
+"under <guimenu>&quot;Window&quot;</guimenu> in the main menubar. Document "
+"Windows can be set to automatically cascade or tile also."
 msgstr ""
 "Dokumentenfenster können mit Hilfe von üblichen &kde; Fenster/Titelzeilen "
 "Funktionen kontrolliert und verändert werden. Als Erweiterung zu diesen "
@@ -223,12 +223,12 @@ msgstr ""
 "entsprechenden Knöpfe in der Werkzeugleiste oder die Menüfunktionen im "
 "<guimenu>\"Fenster\"</guimenu> Untermenü der Menüleiste."
 
-#: index.docbook:127
+#: index.docbook:126
 #, no-c-format
 msgid "Navigating in Open Documents"
 msgstr "In geöffneten Dokumenten navigieren"
 
-#: index.docbook:127
+#: index.docbook:126
 #, no-c-format
 msgid ""
 "Navigation within a document is accomplished with the Document Key Control "
@@ -237,40 +237,42 @@ msgstr ""
 "Die Navigation innerhalb eines Dokumentes ist durch das Schlüssel-"
 "Kontrollmenü und durch eine Scrollleiste verwirklicht."
 
-#: index.docbook:131
+#: index.docbook:130
 #, no-c-format
 msgid "To move to a specific location use the Document Key Control."
 msgstr ""
 "Um zu einer bestimmter Stelle zu springen benutzen Sie die "
 "Schlüsselkontrolle."
 
-#: index.docbook:132
+#: index.docbook:131
 #, no-c-format
 msgid "To move within a section of a document use the scroll bar."
 msgstr ""
 "Um sich in dem Bereich des Dokumentes zu bewegen benutzen Sie die "
 "Scrollleiste."
 
-#: index.docbook:133
+#: index.docbook:132
 #, no-c-format
-msgid "For Bible texts the index key is <emphasis>Book - Chapter - Verse</emphasis>"
+msgid ""
+"For Bible texts the index key is <emphasis>Book - Chapter - Verse</emphasis>"
 msgstr ""
 "Für Bibeltexte ist die Indexreihenfolge <emphasis>Buch - Kapitel - Vers</"
 "emphasis>"
 
-#: index.docbook:134
+#: index.docbook:133
 #, no-c-format
-msgid "For commentaries the index key is <emphasis>Book - Chapter - Verse</emphasis>"
+msgid ""
+"For commentaries the index key is <emphasis>Book - Chapter - Verse</emphasis>"
 msgstr ""
 "Für Kommentare ist die Indexreihenfolge <emphasis>Buch - Kapitel - Vers</"
 "emphasis>"
 
-#: index.docbook:135
+#: index.docbook:134
 #, no-c-format
 msgid "For lexicons the index key is <emphasis>Keyword</emphasis>"
 msgstr "Für Lexika ist der Index <emphasis>Schlüsselwort</emphasis>"
 
-#: index.docbook:136
+#: index.docbook:135
 #, no-c-format
 msgid ""
 "Drag &amp; Drop Works Here; if you drag a verse from one open document or a "
@@ -282,48 +284,48 @@ msgstr ""
 "fallen lassen, wird dieses von der aktuell angezeigten Stelle zur Stelle des "
 "Verses oder des Lesezeichens springen."
 
-#: index.docbook:142
+#: index.docbook:141
 #, no-c-format
 msgid "Editing your own commentary"
 msgstr "Bearbeiten Sie ihren eigenen Kommentar"
 
-#: index.docbook:143
+#: index.docbook:142
 #, no-c-format
 msgid ""
-"If the personal commentary is opened with a <mousebutton>right</mousebutton> "
+"If the personal commentary is opened with a <mousebutton>left</mousebutton> "
 "mouse button it opens in read only mode. If you wish to make entries to the "
-"personal commentary, <mousebutton>left</mousebutton> mouse button on the "
+"personal commentary, <mousebutton>right</mousebutton> mouse button on the "
 "<menuchoice>personal commentary</menuchoice> brings up the choice of the "
 "<guimenuitem>plane text or the HTML editors</guimenuitem>."
 msgstr ""
 
-#: index.docbook:148
+#: index.docbook:147
 #, no-c-format
 msgid ""
 "If the editor does not save an entry, please check that you have permission "
 "to write to the personal commentary."
 msgstr ""
 
-#: index.docbook:150
+#: index.docbook:149
 #, no-c-format
 msgid "The pencil icon is shown for the commentary editor"
 msgstr ""
 
-#: index.docbook:151
+#: index.docbook:150
 #, no-c-format
 msgid "Enter your notes"
 msgstr "Geben Sie Ihre Notizen ein"
 
-#: index.docbook:159
+#: index.docbook:158
 #, no-c-format
 msgid ""
-"The personnel commentary editors are provided with a search key and save "
+"The personal commentary editors are provided with a search key and save "
 "button. The HTML editor is also provided with the basic functions font name, "
 "size, color, italicize, underline and some paragraph formating "
 "possibilities. As with all good modern editors What You See Is What You Get."
 msgstr ""
 
-#: index.docbook:164
+#: index.docbook:163
 #, no-c-format
 msgid ""
 "To delete notes for a selected verse, click the <guibutton>delete verse "
@@ -332,7 +334,7 @@ msgid ""
 "Verse Symbol</phrase> </textobject> </inlinemediaobject>."
 msgstr ""
 
-#: index.docbook:182
+#: index.docbook:181
 #, no-c-format
 msgid ""
 "The personal commentary is a sword module. If you do not find it in the main "
@@ -343,7 +345,7 @@ msgstr ""
 "finden, dann laden Sie es von der<ulink url=\"http://www.crosswire.org"
 "\">Crosswire Bible Society</ulink> herunter."
 
-#: index.docbook:185
+#: index.docbook:184
 #, no-c-format
 msgid ""
 "If you can not write to the personal commentary your permissions for the "
@@ -354,17 +356,19 @@ msgstr ""
 "die Zugriffsrechte für den persönlichen Kommentar falsch. Setzen Sie die "
 "Zugrigffsrechte zurück, um ihrem Benutzer zu erlauben hinein zu schreiben."
 
-#: index.docbook:188
+#: index.docbook:187
 #, no-c-format
-msgid "Drag &amp; Drop Works Here, just like other commentaries and Bible texts."
-msgstr "Hier funktioniert Drag&amp;Drop, wie bei anderen Kommentaren und Bibeltexten."
+msgid ""
+"Drag &amp; Drop Works Here, just like other commentaries and Bible texts."
+msgstr ""
+"Hier funktioniert Drag&amp;Drop, wie bei anderen Kommentaren und Bibeltexten."
 
-#: index.docbook:196
+#: index.docbook:195
 #, no-c-format
 msgid "Searching in Documents"
 msgstr "In Dokumenten suchen"
 
-#: index.docbook:197
+#: index.docbook:196
 #, fuzzy, no-c-format
 msgid ""
 "Portions of the instructions for the use of GCC Regular Expression in "
@@ -375,12 +379,12 @@ msgstr ""
 "Dokumente Durchsuchen ist übernommen aus den Hilfedateien der <trademark "
 "class=\"registered\">Microsoft Windows</trademark> Version von &sword;"
 
-#: index.docbook:202
+#: index.docbook:201
 #, no-c-format
 msgid "Accessing search functions"
 msgstr "Zugriff auf Suchfunktionen"
 
-#: index.docbook:203
+#: index.docbook:202
 #, fuzzy, no-c-format
 msgid ""
 "You can search in a document by clicking with the <mousebutton>right</"
@@ -397,12 +401,12 @@ msgstr ""
 "können Sie mehr als eines auswählen. Gehen Sie in der selben Art und Weise "
 "vor, um in allen gewählten Modulen zu suchen."
 
-#: index.docbook:214
+#: index.docbook:213
 #, no-c-format
 msgid "Using the Search Dialog"
 msgstr "Benutzung des Suchdialoges"
 
-#: index.docbook:215
+#: index.docbook:214
 #, no-c-format
 msgid ""
 "&bibletime; provides a well developed search facility based on "
@@ -411,7 +415,7 @@ msgid ""
 "search you can imagine.</link>"
 msgstr ""
 
-#: index.docbook:219
+#: index.docbook:218
 #, no-c-format
 msgid ""
 "To access the search feature, click with the <mousebutton>right</"
@@ -422,27 +426,27 @@ msgid ""
 "prefer."
 msgstr ""
 
-#: index.docbook:231
+#: index.docbook:230
 #, no-c-format
 msgid "The Options Tab - Setting up your search."
 msgstr ""
 
-#: index.docbook:232
+#: index.docbook:231
 #, no-c-format
 msgid "Use the options tab to set up your search."
 msgstr ""
 
-#: index.docbook:233
+#: index.docbook:232
 #, fuzzy, no-c-format
 msgid "Search Text Dialog Options Tab"
 msgstr "Dialogbox Suchtext"
 
-#: index.docbook:244
+#: index.docbook:243
 #, fuzzy, no-c-format
 msgid "Using the Choose Modules Button"
 msgstr "Das Modul Auswählen Tab benutzen"
 
-#: index.docbook:245
+#: index.docbook:244
 #, no-c-format
 msgid ""
 "At the top of the options tab you will find <guibutton>Choose Modules</"
@@ -453,17 +457,17 @@ msgid ""
 "<guibutton>Use Selected Modules</guibutton> button."
 msgstr ""
 
-#: index.docbook:251
+#: index.docbook:250
 #, fuzzy, no-c-format
 msgid "Choose Modules Dialog Box"
 msgstr "Dialogbox Suchergebnis"
 
-#: index.docbook:262
+#: index.docbook:261
 #, no-c-format
 msgid "Searched Text - what you want to find."
 msgstr ""
 
-#: index.docbook:264
+#: index.docbook:263
 #, fuzzy, no-c-format
 msgid ""
 "The text box labled Searched Text is where the phrase to be used as the "
@@ -482,7 +486,7 @@ msgstr ""
 "\"Reguläre Ausdrücke\" Modus auszuführen. Mit einer Checkbox können Sie die "
 "Unterscheidung zwischen Groß- und Kleinbuchstaben an- und ausschalten."
 
-#: index.docbook:275
+#: index.docbook:274
 #, no-c-format
 msgid ""
 "Drag &amp; Drop Works Here, you can drop verses and bookmarks into the text "
@@ -492,12 +496,12 @@ msgstr ""
 "Text-Eingabebox ziehen. Sie können Text in die Zwischenablage kopieren und "
 "in die Eingabezeile einfügen."
 
-#: index.docbook:280
+#: index.docbook:279
 #, fuzzy, no-c-format
 msgid "Using the Search Text Case Sensitive checkbox"
 msgstr "Benutzung des Knopfes für GROSS/klein Unterscheidung"
 
-#: index.docbook:281
+#: index.docbook:280
 #, fuzzy, no-c-format
 msgid ""
 "Click on the Case Sensitive check box to toggle case sensitivity on or off. "
@@ -517,23 +521,23 @@ msgstr ""
 "mit &quot;HERR&quot; und &quot;Herr&quot; &quot;herr&quot; zu finden, lassen "
 "Sie die Option ausgeschaltet."
 
-#: index.docbook:295
-#, no-c-format
-msgid "Using the Search Text Multiple Word Button"
+#: index.docbook:294
+#, fuzzy, no-c-format
+msgid "Using the Search Text Multiple Word (AND) Button"
 msgstr "Benutzung des \"Mehrere Wörter\" Button "
 
-#: index.docbook:296
+#: index.docbook:295
 #, fuzzy, no-c-format
 msgid ""
-"If Multiple Words radio button is marked the search will locate all lines "
-"(or verses) that have all the words, (or partials), listed in the Input "
-"Field. The position and order of the words, (or partials), in the line is "
-"not a factor. If all the words, (or partials), are in a line, in any order, "
-"even separated by other words, the line will be included in the list of "
-"found line. A search for &quot;prove cause&quot; will find Gen. 21:25, &quot;"
-"And Abraham re<emphasis>prove</emphasis>d Abimelech be <emphasis>cause</"
-"emphasis> of a well of water...&quot; This is because a word that is part of "
-"another word is considered found if a word containing it is found."
+"If Multiple Words (AND) radio button is marked the search will locate all "
+"lines (or verses) that have all the words, listed in the Input Field. The "
+"position and order of the words, in the line is not a factor. If all the "
+"words, are in a line, in any order, even separated by other words, the line "
+"will be included in the list of found lines. A search for &quot;prove "
+"cause&quot; will find Gen. 21:25, &quot;And Abraham re<emphasis>prove</"
+"emphasis>d Abimelech be <emphasis>cause</emphasis> of a well of water..."
+"&quot; This is because a word that is part of another word is considered "
+"found if a word containing it is found."
 msgstr ""
 "Wenn \"Mehrere Wörter\" ausgewählt ist, wird die Suche alle Verse finden, "
 "die alle Worte (oder Wortteile) enthalten. Die Position und Reihenfolge der "
@@ -544,12 +548,27 @@ msgstr ""
 "emphasis> of a well of water...&quot; Es reicht also sogar, wenn die "
 "gesuchten Worte in den Worten des Verses enthalten sind."
 
-#: index.docbook:311
+#: index.docbook:308
+#, fuzzy, no-c-format
+msgid "Using the Search Text Multiple Word (OR) Button"
+msgstr "Benutzung des \"Mehrere Wörter\" Button "
+
+#: index.docbook:309
+#, no-c-format
+msgid ""
+"If Multiple Words (OR) radio button is marked the search will locate all "
+"lines (or verses) that have any of the words, listed in the Input Field. A "
+"search for &quot;cause&quot; will find Genesis 21:11, &quot;And the thing "
+"was very grievous in Abraham's sight be<emphasis>cause </emphasis> of his "
+"son.&quot;"
+msgstr ""
+
+#: index.docbook:317
 #, no-c-format
 msgid "Using the Exact Search"
 msgstr "Benutzung der Genauen Suche"
 
-#: index.docbook:312
+#: index.docbook:318
 #, fuzzy, no-c-format
 msgid ""
 "If the Exact radio button is marked the search will locate all lines (or "
@@ -567,19 +586,20 @@ msgstr ""
 "Bischofs<emphasis>amt begehrt</emphasis>, der begehrt ein köstlich Werk."
 "&quot;"
 
-#: index.docbook:323
+#: index.docbook:329
 #, fuzzy, no-c-format
 msgid "<guibutton>Choose Search</guibutton> Scope Options"
-msgstr "Klicken Sie den Knopf <guibutton>Suchen</guibutton> um die Suche zu starten."
+msgstr ""
+"Klicken Sie den Knopf <guibutton>Suchen</guibutton> um die Suche zu starten."
 
-#: index.docbook:324
+#: index.docbook:330
 #, no-c-format
 msgid ""
 "Define the Scope of your search by clicking on the <guibutton>Choose Scope</"
 "guibutton> button. You will be presented a list of predefined scopes."
 msgstr ""
 
-#: index.docbook:327
+#: index.docbook:333
 #, no-c-format
 msgid ""
 "<guibutton>No Scope</guibutton> this turns off the search scope tab. The "
@@ -588,7 +608,7 @@ msgstr ""
 "<guibutton>Kein Suchbereich</guibutton> schaltet den Suchbereich Tab aus. "
 "Das ganze Dokument wird durchsucht."
 
-#: index.docbook:327
+#: index.docbook:333
 #, no-c-format
 msgid ""
 "<guibutton>Last Result</guibutton> The new search will only search within "
@@ -597,7 +617,7 @@ msgstr ""
 "<guibutton>Letztes Suchergebnis</guibutton> Die neue Suche wird nur "
 "innerhalb der Verse suchen, die in der letzten Suche gefunden wurden. "
 
-#: index.docbook:327
+#: index.docbook:333
 #, fuzzy, no-c-format
 msgid ""
 "<guibutton>Gospels</guibutton> The new search will be performed within the "
@@ -606,7 +626,7 @@ msgstr ""
 "<guibutton>Suchbereich benutzen</guibutton> Die neue Suche wird innerhalb "
 "des angegebenen Suchbereiches ausgeführt."
 
-#: index.docbook:327
+#: index.docbook:333
 #, fuzzy, no-c-format
 msgid ""
 "<guibutton>History</guibutton> The new search will be performed within the "
@@ -615,14 +635,14 @@ msgstr ""
 "<guibutton>Suchbereich benutzen</guibutton> Die neue Suche wird innerhalb "
 "des angegebenen Suchbereiches ausgeführt."
 
-#: index.docbook:338
+#: index.docbook:344
 #, fuzzy, no-c-format
 msgid ""
 "If <guibutton>No Scope</guibutton> is checked and a search of the KJV Bible "
 "module is done for the name, Jesus, 939 matches will result. Then if "
 "<guibutton>Last Result</guibutton> is checked and another search is done for "
 "the title, Christ, 257 matches from the first 939 matches will remain. Then "
-"if<guibutton>Last Result</guibutton> remains checked and another search is "
+"if <guibutton>Last Result</guibutton> remains checked and another search is "
 "done for the title, Lord, 106 matches from the 257 will remain. All the "
 "remaining 106 matches will have the name, Jesus, and both the titles, Christ "
 "and Lord."
@@ -637,12 +657,12 @@ msgstr ""
 "\"Jesus\", \"Christ\" und \"Lord\". Alle diese Verse enthalten \"Jesus\", "
 "\"Christ\" und \"Lord\"."
 
-#: index.docbook:348
+#: index.docbook:354
 #, no-c-format
 msgid "Edit Ranges"
 msgstr "Bereiche bearbeiten"
 
-#: index.docbook:349
+#: index.docbook:355
 #, fuzzy, no-c-format
 msgid ""
 "Setup Custom Ranges - You can enter upper and lower boundaries for the "
@@ -651,17 +671,17 @@ msgstr ""
 "Bereiche bearbeiten - Sie können obere und untere Grenzen für die Suche "
 "eingeben mit &LMB; <guibutton>Bereiche beabeiten</guibutton> Button."
 
-#: index.docbook:352
+#: index.docbook:358
 #, no-c-format
 msgid "Change Range Entry Box"
 msgstr "Bereich verändern Box"
 
-#: index.docbook:361
+#: index.docbook:367
 #, fuzzy, no-c-format
 msgid "The predefined ranges show examples of the required syntax."
 msgstr "Die voreingestellten Einträge zeigen Beispiele der verlangten Syntax."
 
-#: index.docbook:363
+#: index.docbook:369
 #, no-c-format
 msgid ""
 "Click on the <guibutton>Add New Range</guibutton> enter the name for your "
@@ -671,22 +691,22 @@ msgid ""
 "clicking on <guibutton>OK</guibutton>."
 msgstr ""
 
-#: index.docbook:370
+#: index.docbook:376
 #, no-c-format
 msgid "A number of custom ranges have been provided."
 msgstr "Eine Anzahl von angepassten Bereichen wurde zur Verfügung gestellt."
 
-#: index.docbook:372
-#, no-c-format
+#: index.docbook:378
+#, fuzzy, no-c-format
 msgid ""
-"The scope of a search can be set to the <emphasis>Entire Module</emphasis>or "
-"the <emphasis>Current Results. </emphasis>If Entire Module is checked and a "
-"search of the KJV Bible module is done for the name, Jesus, 939 matches will "
-"result. Then if Current Results is checked and another search is done for "
-"the title, Christ, 257 matches from the first 939 matches will remain. Then "
-"if Current Results remains checked and another search is done for the title, "
-"Lord, 106 matches from the 257 will remain. All the remaining 106 matches "
-"will have the name, Jesus, and both the titles, Christ and Lord."
+"The scope of a search can be set to the <emphasis>Entire Module</emphasis> "
+"or the <emphasis>Current Results.</emphasis> If Entire Module is checked and "
+"a search of the KJV Bible module is done for the name, Jesus, 939 matches "
+"will result. Then if Current Results is checked and another search is done "
+"for the title, Christ, 257 matches from the first 939 matches will remain. "
+"Then if Current Results remains checked and another search is done for the "
+"title, Lord, 106 matches from the 257 will remain. All the remaining 106 "
+"matches will have the name, Jesus, and both the titles, Christ and Lord."
 msgstr ""
 "Wenn <guibutton>Kein Suchbereich</guibutton> ausgewählt ist, und die KJV "
 "Bible nach \"Jesus\" durchsucht wird, werden 939 Verse gefunden. Wenn dann "
@@ -698,51 +718,43 @@ msgstr ""
 "\"Jesus\", \"Christ\" und \"Lord\". Alle diese Verse enthalten \"Jesus\", "
 "\"Christ\" und \"Lord\"."
 
-#: index.docbook:383
-#, no-c-format
-msgid ""
-"Drag &amp; Drop Works Here; you can drop verse numbers, and bookmarks into "
-"the custom range entry field. You can also paste text into the entry field."
-msgstr ""
-"Drag &amp; Drop funktioniert hier; Sie können Versreferenzen und Lesezeichen "
-"in die Bereichsbox fallen lassen, ebenso können Sie normalen Text einfügen."
-
-#: index.docbook:386
+#: index.docbook:394
 #, fuzzy, no-c-format
 msgid "Search TextCustom Range Dialog Box"
 msgstr "Dialogbox Suchtext"
 
-#: index.docbook:397
+#: index.docbook:405
 #, no-c-format
 msgid "Using the Search Text Button"
 msgstr "Benutzung des Knopfes Text Suchen"
 
-#: index.docbook:398
+#: index.docbook:406
 #, fuzzy, no-c-format
 msgid "Click on the <guibutton>Search Button</guibutton> to start the search."
-msgstr "Klicken Sie den Knopf <guibutton>Suchen</guibutton> um die Suche zu starten."
+msgstr ""
+"Klicken Sie den Knopf <guibutton>Suchen</guibutton> um die Suche zu starten."
 
-#: index.docbook:400
+#: index.docbook:408
 #, no-c-format
 msgid "Search Text Dialog Box"
 msgstr "Dialogbox Suchtext"
 
-#: index.docbook:412
+#: index.docbook:420
 #, fuzzy, no-c-format
 msgid "The Search Results Tab"
 msgstr "Benutzung des Tabs Suchergebnis"
 
-#: index.docbook:413
+#: index.docbook:421
 #, no-c-format
-msgid "Under the search results tab you will find the Expressionour search."
+msgid "Under the search results tab you will find the all of your search hits."
 msgstr ""
 
-#: index.docbook:417
+#: index.docbook:425
 #, no-c-format
 msgid "Using the Search Results Tab"
 msgstr "Benutzung des Tabs Suchergebnis"
 
-#: index.docbook:418
+#: index.docbook:426
 #, fuzzy, no-c-format
 msgid ""
 "Search Result - This tells you first, by module, how many instances of the "
@@ -761,19 +773,21 @@ msgstr ""
 "Dokument in der Hauptgruppe fallen, um dieses Modul an der gewünschten "
 "Stelle zu öffnen."
 
-#: index.docbook:427
+#: index.docbook:435
 #, fuzzy, no-c-format
 msgid "Drag &amp; Drop Works Here in the text display area."
-msgstr "Hier funktioniert Drag&amp;Drop, wie bei anderen Kommentaren und Bibeltexten."
+msgstr ""
+"Hier funktioniert Drag&amp;Drop, wie bei anderen Kommentaren und Bibeltexten."
 
-#: index.docbook:429
+#: index.docbook:437
 #, no-c-format
-msgid "Select verse numbers and drag them to the main index to create bookmarks."
+msgid ""
+"Select verse numbers and drag them to the main index to create bookmarks."
 msgstr ""
 "Wählen Sie eine Versnummer und ziehen Sie diese in die Hauptgruppe um "
 "Lesezeichen anzulegen,"
 
-#: index.docbook:430
+#: index.docbook:438
 #, no-c-format
 msgid ""
 "Select verse numbers and drop them on an unopened module in the main index "
@@ -784,7 +798,7 @@ msgstr ""
 "dieses zu öffnen und damit dieses die gewünschte Stelle anzeigt (Nur für "
 "Bibeln und Kommentare)."
 
-#: index.docbook:432
+#: index.docbook:440
 #, no-c-format
 msgid ""
 "Select verse numbers and drag them to an open document and the document will "
@@ -794,46 +808,47 @@ msgstr ""
 "um das Anzeigefenster an diese Stelle springen zu lassen (Nur in Bibeln und "
 "Kommentaren)."
 
-#: index.docbook:435
+#: index.docbook:443
 #, no-c-format
 msgid "Search Result Dialog Box"
 msgstr "Dialogbox Suchergebnis"
 
-#: index.docbook:447
-#, no-c-format
-msgid "Using the Search Analysis Tab"
+#: index.docbook:455
+#, fuzzy, no-c-format
+msgid "Using the Search Analysis"
 msgstr "Benutzung des Suchanalyse Teils"
 
-#: index.docbook:448
+#: index.docbook:456
 #, fuzzy, no-c-format
 msgid ""
-"Click on <guibutton>Search Analsis</guibutton> to open the search analsis "
+"Click on <guibutton>Search Analysis</guibutton> to open the search analysis "
 "display."
-msgstr "Klicken Sie den Knopf <guibutton>Suchen</guibutton> um die Suche zu starten."
+msgstr ""
+"Klicken Sie den Knopf <guibutton>Suchen</guibutton> um die Suche zu starten."
 
-#: index.docbook:449
-#, no-c-format
+#: index.docbook:457
+#, fuzzy, no-c-format
 msgid ""
-"Search Analysis - This gives a graphic analysis of the number of instances "
-"the search string was found in each book. It can display results for all "
-"documents searched. You have the option of saving the graph as an image file "
-"on your hard drive."
+"<guibutton>Search Analysis</guibutton> - This gives a graphic analysis of "
+"the number of instances the search string was found in each book. It can "
+"display results for all documents searched. You have the option of saving "
+"the analysis as an html formated list on your hard drive."
 msgstr ""
 "Suchanalyse - Dies zeigt eine grafische Analyse der Anzahl der Treffer in "
 "jedem Buch. Sie kann das Ergebnis aller Dokumente anzeigen. Sie können den "
 "Graphen auch als Bild auf Festplatte abspeichern."
 
-#: index.docbook:454
+#: index.docbook:462
 #, no-c-format
 msgid "Search Analysis Dialog Box"
 msgstr "Dialogbox Suchanalyse"
 
-#: index.docbook:469
+#: index.docbook:477
 #, fuzzy, no-c-format
 msgid "Search Syntax using GCC Regular Expression"
 msgstr "Syntax der Suche bei Benutzung von GCC regulären Ausdrücken"
 
-#: index.docbook:471
+#: index.docbook:479
 #, no-c-format
 msgid ""
 "Regular expression searches provide a way to do simple or complex searches "
@@ -869,7 +884,7 @@ msgstr ""
 "&quot;hall not&quot; wird Textstellen mit &quot;s<emphasis>hall not</"
 "emphasis>&quot; finden."
 
-#: index.docbook:487
+#: index.docbook:495
 #, no-c-format
 msgid ""
 "The power of Regular Expressions is in the patterns (or templates) used to "
@@ -888,7 +903,7 @@ msgstr ""
 "um die besonderen Zeichen in normale und normale in besondere Zeichen "
 "umzuwandeln."
 
-#: index.docbook:496
+#: index.docbook:504
 #, no-c-format
 msgid ""
 "Example: the pattern &quot;<emphasis>i. love\\.</emphasis>&quot; will find "
@@ -911,12 +926,12 @@ msgstr ""
 "&quot; markiert den folgenden Punkt als normales Zeichen (der sonst ein "
 "Sonderzeichen ist)."
 
-#: index.docbook:507
+#: index.docbook:515
 #, fuzzy, no-c-format
 msgid "Rules for GCC Regular Expression Search Requests"
 msgstr "Regeln für Suchabfragen mit GCC regulären Ausdrücken"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 ". The period matches any character. See <link linkend=\"period\">Details</"
@@ -925,7 +940,7 @@ msgstr ""
 ". Der Punkt passt auf jedes Zeichen. Siehe auch <link linkend=\"period\"> "
 "Einzelheiten</link>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "* The asterisk matches 0 or more characters of the preceding: set, character "
@@ -935,7 +950,7 @@ msgstr ""
 "vorhergehenden Zeichens oder des vorhergehenden besonderern Zeichens. Siehe "
 "auch <link linkend=\"asterisk\">Einzelheiten</link>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "+ The plus sign matches 1 or more characters of the preceding: set, "
@@ -945,7 +960,7 @@ msgstr ""
 "vorhergehenden Zeichens oder des vorhergehenden besonderern Zeichens. Siehe "
 "auch <link linkend=\"plus\">Einzelheiten</link>."
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "? The question mark matches 0 or 1 character of the preceding: set, "
@@ -956,7 +971,7 @@ msgstr ""
 "Zeichens oder besonderern Zeichens. Siehe auch <link linkend=\"question"
 "\">Einzelheiten</link>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "[ ] Square brackets match any one of the characters specified inside [ ]. "
@@ -965,7 +980,7 @@ msgstr ""
 "[ ] Eckige Klammern finden ein Zeichens innerhalb der eckigen Klammern [ ]. "
 "Siehe auch <link linkend=\"bracket\">Einzelheiten</link>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "^ A caret as the first character inside [ ] means NOT. See <link linkend="
@@ -974,7 +989,7 @@ msgstr ""
 "^ Ein Hochzeichen als erstes Zeichen innerhalb von [ ] heißt NICHT. Siehe "
 "auch <link linkend=\"caret\">Einzelheiten</link>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "^ A caret beginning a pattern anchors the beginning of a line. See <link "
@@ -983,7 +998,7 @@ msgstr ""
 "^ Ein Hochzeichen als Beginn eines Musters verankert an den Beginn der "
 "Zeile. Siehe auch <link linkend=\"caret\">Einzelheiten</link>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "$ A dollar at the end of a pattern anchors the end of a line. See <link "
@@ -992,14 +1007,15 @@ msgstr ""
 "$ Ein Dollarzeichen am Beginn eines Musters verankert an das Ende einer "
 "Zeile. Siehe auch <link linkend=\"dollar\">Einzelheiten</link>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
-msgid "| A vertical bar means logical OR. See <link linkend=\"bar\">Details</link>"
+msgid ""
+"| A vertical bar means logical OR. See <link linkend=\"bar\">Details</link>"
 msgstr ""
 "| Ein vertikaler Strich hat die Bedeutung des logischen ODER. Siehe auch "
 "<link linkend=\"bar\">Einzelheiten</link>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "( ) Parentheses enclose expressions for grouping. <emphasis>Not supported!</"
@@ -1008,7 +1024,7 @@ msgstr ""
 "( ) Runde Klammern gruppieren Ausdrücke. <emphasis>Wird nicht unterstützt!</"
 "emphasis>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "\\ A backslash can be used prior to any special character to match that "
@@ -1017,7 +1033,7 @@ msgstr ""
 "\\ Ein Backslash kann vor jedem besonderem Zeichen benutzt werden, um dieses "
 "Zeichen zu finden. Siehe auch <link linkend=\"backslash\">Einzelheiten</link>"
 
-#: index.docbook:508
+#: index.docbook:516
 #, no-c-format
 msgid ""
 "\\ A backslash can be used prior to an ordinary character to make it a "
@@ -1027,12 +1043,12 @@ msgstr ""
 "einem besonderen Zeichen zu machen. Siehe auch <link linkend=\"backslash"
 "\">Einzelheiten</link>"
 
-#: index.docbook:539
+#: index.docbook:547
 #, no-c-format
 msgid "The Period ."
 msgstr "Der Punkt ."
 
-#: index.docbook:541
+#: index.docbook:549
 #, no-c-format
 msgid ""
 "The Period &quot;.&quot; will match any single character even a space or "
@@ -1060,12 +1076,12 @@ msgstr ""
 "foot.tool </emphasis>findet <emphasis>foot</emphasis>s<emphasis>tool </"
 "emphasis>und <emphasis>foot tool</emphasis>"
 
-#: index.docbook:555
+#: index.docbook:563
 #, no-c-format
 msgid "The Asterisk *"
 msgstr "Das Sternchen *"
 
-#: index.docbook:557
+#: index.docbook:565
 #, no-c-format
 msgid ""
 "The asterisk matches zero or more characters of the preceding: set, "
@@ -1084,12 +1100,12 @@ msgstr ""
 "<emphasis>bn</emphasis> was z.B. &quot;Reu<emphasis>ben</emphasis>&quot; und "
 "&quot;She<emphasis>bn</emphasis>a&quot; finden könnte."
 
-#: index.docbook:569
+#: index.docbook:577
 #, no-c-format
 msgid "The Plus Sign +"
 msgstr "Das Pluszeichen +"
 
-#: index.docbook:570
+#: index.docbook:578
 #, no-c-format
 msgid ""
 "The Plus Sign matches one or more characters of the preceding: set, "
@@ -1107,12 +1123,12 @@ msgstr ""
 "emphasis>&quot; und &quot;<emphasis>ben</emphasis>&quot;, jedoch nicht &quot;"
 "<emphasis>bn</emphasis>&quot;."
 
-#: index.docbook:581
+#: index.docbook:589
 #, no-c-format
 msgid "The Question Mark ?"
 msgstr "Das Fragezeichen ?"
 
-#: index.docbook:582
+#: index.docbook:590
 #, no-c-format
 msgid ""
 "The Question Mark matches zero or one character of the preceding: set, "
@@ -1127,12 +1143,12 @@ msgstr ""
 "<emphasis>been</emphasis>. <emphasis>trees?</emphasis> findet "
 "<emphasis>trees</emphasis> oder <emphasis>tree</emphasis>."
 
-#: index.docbook:591
+#: index.docbook:599
 #, no-c-format
 msgid "The Square Brackets [ ]"
 msgstr "Die eckigen Klammern [ ]"
 
-#: index.docbook:592
+#: index.docbook:600
 #, no-c-format
 msgid ""
 "The Square Brackets enclose a set of characters that can match. The period, "
@@ -1171,12 +1187,12 @@ msgstr ""
 "jeden Großbuchstaben. [.;:?!] findet ., ;, :, ?, oder ! jedoch kein Komma. "
 "[ ]^-] findet ] oder ^ oder -"
 
-#: index.docbook:614
+#: index.docbook:622
 #, no-c-format
 msgid "The Caret first in Square Brackets [^xxx"
 msgstr "Das Hochzeichen zu Beginn in den eckigen Klammern [^xxx"
 
-#: index.docbook:615
+#: index.docbook:623
 #, no-c-format
 msgid ""
 "If the Caret is the first character after the left bracket it means NOT. "
@@ -1189,12 +1205,12 @@ msgstr ""
 "sat</emphasis>, usw., jedoch nicht <emphasis>s</emphasis>i<emphasis>t</"
 "emphasis> und <emphasis>s</emphasis>o<emphasis>t</emphasis>."
 
-#: index.docbook:622
+#: index.docbook:630
 #, no-c-format
 msgid "The Caret as Start of Line Anchor ^xxx"
 msgstr "Das Hochzeichen als Zeilenbeginn Anker ^xxx"
 
-#: index.docbook:623
+#: index.docbook:631
 #, no-c-format
 msgid ""
 "If the Caret is the first character in a pattern it anchors the pattern to "
@@ -1215,12 +1231,12 @@ msgstr ""
 "<emphasis>Amfang</emphasis>&quot;. beginnen (Vielleicht müssen Sie &quot;"
 "<emphasis>^.....Am Anfang</emphasis>&quot; benutzen)."
 
-#: index.docbook:636
+#: index.docbook:644
 #, no-c-format
 msgid "The Dollar Sign as End of Line Anchor xxx$"
 msgstr "Das Dollarzeichen als Zeilenende Anker xxx$"
 
-#: index.docbook:637
+#: index.docbook:645
 #, no-c-format
 msgid ""
 "If the Dollar Sign is the last character in a pattern it anchors the pattern "
@@ -1241,12 +1257,12 @@ msgstr ""
 "Amen\\..........$&quot;, oder sogar &quot;Amen\\....................$&quot; "
 "benutzen)"
 
-#: index.docbook:651
+#: index.docbook:659
 #, no-c-format
 msgid "The Vertical Bar |"
 msgstr "Der senkrechte Strich |"
 
-#: index.docbook:652
+#: index.docbook:660
 #, no-c-format
 msgid ""
 "The Vertical Bar between patterns means OR. <emphasis>John|Peter</emphasis> "
@@ -1265,22 +1281,22 @@ msgstr ""
 "sorrow</emphasis> findet<emphasis>pain</emphasis>, oder <emphasis>suffering</"
 "emphasis>, oder <emphasis>sorrow</emphasis>."
 
-#: index.docbook:663
+#: index.docbook:671
 #, no-c-format
 msgid "The Parentheses ( )"
 msgstr "Die runden Klammern ( )"
 
-#: index.docbook:664
+#: index.docbook:672
 #, no-c-format
 msgid "The use of Parentheses ( ) is not supported!"
 msgstr "Die Benutzung der runden Klammern () wird nicht unterstützt."
 
-#: index.docbook:670
+#: index.docbook:678
 #, no-c-format
 msgid "The Backslash Prior to a Special Character \\*"
 msgstr "Der Backslash vor einem besonderen Zeichen \\*"
 
-#: index.docbook:671
+#: index.docbook:679
 #, no-c-format
 msgid ""
 "The Backslash prior to a special character indicates that the character is "
@@ -1296,12 +1312,12 @@ msgstr ""
 "emphasis>t&quot; und es wird nicht &quot;firm<emphasis>amen</"
 "emphasis>t&quot;."
 
-#: index.docbook:679
+#: index.docbook:687
 #, no-c-format
 msgid "The Backslash Prior to an Ordinary Character \\s"
 msgstr "Der Backslash vor einem normalen Zeichen \\s"
 
-#: index.docbook:681
+#: index.docbook:689
 #, no-c-format
 msgid ""
 "The Backslash prior to an ordinary character indicates that the character is "
@@ -1310,7 +1326,7 @@ msgstr ""
 "Der Backslash vor einem normalen Zeichen bedeutet, dass dieses statt der "
 "normalen Bedeutung eine besondere haben soll."
 
-#: index.docbook:685
+#: index.docbook:693
 #, no-c-format
 msgid ""
 "\\b if use outside [ ] means word boundary. If used inside [ ] means "
@@ -1323,7 +1339,7 @@ msgstr ""
 "findet <emphasis>righteous</emphasis>, aber nicht un<emphasis>righteous</"
 "emphasis> oder <emphasis>righteous</emphasis>ness"
 
-#: index.docbook:685
+#: index.docbook:693
 #, no-c-format
 msgid ""
 "\\B means non-word boundary. <emphasis>\\Brighteous\\B</emphasis> matches "
@@ -1336,65 +1352,65 @@ msgstr ""
 "jedoch nicht <emphasis>righteous</emphasis>, un<emphasis>righteous</"
 "emphasis> oder <emphasis> righteous</emphasis>ness."
 
-#: index.docbook:685
+#: index.docbook:693
 #, no-c-format
 msgid "\\d means digit; same as [0-9]."
 msgstr "\\d steht für Zahlen; das Gleiche wie [0-9]."
 
-#: index.docbook:685
+#: index.docbook:693
 #, no-c-format
 msgid "\\D means non-digit, same as [^0-9]."
 msgstr "\\D steht für nicht-Zahlen; das Gleiche wie [^0-9]."
 
-#: index.docbook:685
+#: index.docbook:693
 #, no-c-format
 msgid "\\s means space."
 msgstr "\\s bedeutet Leerzeichen."
 
-#: index.docbook:685
+#: index.docbook:693
 #, no-c-format
 msgid "\\S means not a space."
 msgstr "\\S steht für nicht-Leerzeichen."
 
-#: index.docbook:685
+#: index.docbook:693
 #, no-c-format
 msgid "\\w means alphanumeric; same as [a-zA-Z0-9_]."
 msgstr "\\w bedeutet alphanumerisch; das Gleiche wie [a-zA-Z0-9_]."
 
-#: index.docbook:685
+#: index.docbook:693
 #, no-c-format
 msgid "\\W means not alphanumeric; same as [^a-zA-Z0-9_]."
 msgstr "\\W bedeutet nicht-alphanumerisch; das Gleiche wie [^a-zA-Z0-9_]."
 
-#: index.docbook:706
+#: index.docbook:714
 #, no-c-format
 msgid "Exporting and Printing"
 msgstr "Exortieren und Drucken"
 
-#: index.docbook:707
+#: index.docbook:715
 #, fuzzy, no-c-format
-msgid "Bible Window, Lexicon Window, Commentary Window."
+msgid "Bible Window, Lexicon Window, Commentary Window, Book Window."
 msgstr "Bibel-Fenster, Lexikon-Fenster, Kommentar-Fenster"
 
-#: index.docbook:708
+#: index.docbook:716
 #, fuzzy, no-c-format
 msgid ""
 "By clicking with the <mousebutton>right</mousebutton> mouse button on the "
-"index key number, verse number or text the Bible Window, Lexicon Window,or "
-"Commentary Window drop down box is displayed (depending on which kind of "
-"window is current), providing options to select all, and the export options "
-"copy, add to printing queue, and save."
+"index key number, verse number or text the Bible Window, Lexicon Window, "
+"Commentary Window or Book Window drop down box is displayed (depending on "
+"which kind of window is current), providing options to select all, and the "
+"export options copy, add to printing queue, and save."
 msgstr ""
 "Durch &RMB; auf dem Eintrag, der Versnummer oder dem Text des "
 "Anzeigefensters wird eine Auswahlbox erscheininen (je nach Modultyp), die "
 "Zugriff auf Auswahl-, Nachschlage-, Export- und Druckfunktionen bietet."
 
-#: index.docbook:716
+#: index.docbook:723
 #, no-c-format
 msgid "Select All"
 msgstr "Alle auswählen"
 
-#: index.docbook:717
+#: index.docbook:724
 #, fuzzy, no-c-format
 msgid ""
 "A mouse click here will select all of the text in the chapter displayed in "
@@ -1403,12 +1419,12 @@ msgstr ""
 "Ein &LMB; hier wählt den gesamten text des Kapitels aus, das gerade "
 "dargestellt wird."
 
-#: index.docbook:723
+#: index.docbook:730
 #, no-c-format
 msgid "Copy"
 msgstr "Kopieren"
 
-#: index.docbook:724
+#: index.docbook:731
 #, fuzzy, no-c-format
 msgid ""
 "A mouse click here will bring up a sub menu offering to copy to the copy "
@@ -1417,7 +1433,7 @@ msgstr ""
 "Ein &LMB; hier wird ein Submenü anzeigen, dass die Möglichkeit bietet, den "
 "aktuellen Text in die Zwischenablage zu kopieren."
 
-#: index.docbook:727
+#: index.docbook:734
 #, fuzzy, no-c-format
 msgid ""
 "<guimenuitem>Reference only</guimenuitem> - The number of the current verse "
@@ -1426,12 +1442,14 @@ msgstr ""
 "<guimenuitem>Vers</guimenuitem> - Die Nummer des aktuellen Verses (z.B. 1 "
 "Mose 1:25)."
 
-#: index.docbook:727
+#: index.docbook:734
 #, fuzzy, no-c-format
-msgid "<guimenuitem>Text of Reference</guimenuitem> - The text of the current verse."
-msgstr "<guimenuitem>Text des Verses</guimenuitem> - Der Text des aktuellen Verses."
+msgid ""
+"<guimenuitem>Text of Reference</guimenuitem> - The text of the current verse."
+msgstr ""
+"<guimenuitem>Text des Verses</guimenuitem> - Der Text des aktuellen Verses."
 
-#: index.docbook:727
+#: index.docbook:734
 #, fuzzy, no-c-format
 msgid ""
 "<guimenuitem>Reference with Text</guimenuitem> - Both the text of the "
@@ -1440,19 +1458,20 @@ msgstr ""
 "<guimenuitem>Vers mit Text</guimenuitem> - Sowohl Versnummer und Text des "
 "aktuellen Verses"
 
-#: index.docbook:727
+#: index.docbook:734
 #, fuzzy, no-c-format
-msgid "<guimenuitem>Chapter</guimenuitem> -the entire chapter."
+msgid "<guimenuitem>Chapter</guimenuitem> - the entire chapter."
 msgstr "<guimenuitem>Kapitel</guimenuitem> - Das ganze Kapitel"
 
-#: index.docbook:727
+#: index.docbook:734
 #, fuzzy, no-c-format
 msgid ""
 "<guimenuitem>Selected Text</guimenuitem> - Only the selected (highlighted) "
 "text."
-msgstr "<guimenuitem>Ausgewählter Text</guimenuitem> - Nur der ausgewählte Text."
+msgstr ""
+"<guimenuitem>Ausgewählter Text</guimenuitem> - Nur der ausgewählte Text."
 
-#: index.docbook:754
+#: index.docbook:761
 #, no-c-format
 msgid ""
 "This text can be copied into any application that can access the linux copy "
@@ -1461,12 +1480,12 @@ msgstr ""
 "Dieser Text kann in jede Anwendung kopiert werden, die auf die "
 "Zwischenablage zugreifen kann."
 
-#: index.docbook:759
+#: index.docbook:766
 #, no-c-format
 msgid "Add to Printing Queue"
 msgstr "Zur Druckschlange hinzufügen"
 
-#: index.docbook:760
+#: index.docbook:767
 #, no-c-format
 msgid ""
 "Selecting print here puts your print output in the bibletime print buffer. "
@@ -1475,22 +1494,22 @@ msgid ""
 "<guilabel>menubar</guilabel>."
 msgstr ""
 
-#: index.docbook:768
+#: index.docbook:775
 #, fuzzy, no-c-format
 msgid "A mouse click here will bring up a submenu with the printing options:"
 msgstr "Ein &LMB; hier zeigt ein Submenü mit den Druckmöglichkeiten an:"
 
-#: index.docbook:770
+#: index.docbook:777
 #, fuzzy, no-c-format
 msgid "reference with text"
 msgstr "Vers mit Text"
 
-#: index.docbook:770
+#: index.docbook:777
 #, no-c-format
 msgid "chapter"
 msgstr "Kapitel"
 
-#: index.docbook:782
+#: index.docbook:789
 #, no-c-format
 msgid ""
 "Selecting these places text into the bibletime print queue, but it will not "
@@ -1504,7 +1523,7 @@ msgstr ""
 "und der Druckdialog wird angezeigt. Nun können Sie den Text entweder "
 "anschauen oder drucken."
 
-#: index.docbook:788
+#: index.docbook:795
 #, no-c-format
 msgid ""
 "Printing from &bibletime; is rather basic and is intended as a utility. If "
@@ -1517,17 +1536,17 @@ msgstr ""
 "&bibletime; Dokumenten enthält, dann kopieren Sie den Text doch über die "
 "Zwischenablage in Ihr bevorzugtes Programm."
 
-#: index.docbook:795
+#: index.docbook:802
 #, no-c-format
 msgid "Save"
 msgstr "Speichern"
 
-#: index.docbook:796
+#: index.docbook:803
 #, fuzzy, no-c-format
 msgid "A mouse click here will bring up a submenu with save options:"
 msgstr "Ein &LMB; hier zeigt ein Submenü mit Speichermöglichkeiten an:"
 
-#: index.docbook:798
+#: index.docbook:805
 #, fuzzy, no-c-format
 msgid ""
 "<guimenuitem>Verse with reference</guimenuitem> - a file is created in "
@@ -1536,7 +1555,7 @@ msgstr ""
 "<guimenuitem>Kapitel als normaler Text</guimenuitem> - eine Datei mit &UNIX;-"
 "formatiertem ASCII-Text wird erstellt."
 
-#: index.docbook:798
+#: index.docbook:805
 #, fuzzy, no-c-format
 msgid ""
 "<guimenuitem>Chapter as plain text</guimenuitem> - a file is created in "
@@ -1545,14 +1564,15 @@ msgstr ""
 "<guimenuitem>Kapitel als normaler Text</guimenuitem> - eine Datei mit &UNIX;-"
 "formatiertem ASCII-Text wird erstellt."
 
-#: index.docbook:798
+#: index.docbook:805
 #, fuzzy, no-c-format
 msgid ""
 "<guimenuitem>Chapter as HTML</guimenuitem> - a file is created formated in "
 "HTML."
-msgstr "<guimenuitem>Kapitel als HTML</guimenuitem> - Eine HTML Datei wird erstellt."
+msgstr ""
+"<guimenuitem>Kapitel als HTML</guimenuitem> - Eine HTML Datei wird erstellt."
 
-#: index.docbook:815
+#: index.docbook:822
 #, no-c-format
 msgid ""
 "Once saved this text can be opened and edited by any text or HTML "
@@ -1560,6 +1580,15 @@ msgid ""
 msgstr ""
 "Wenn der Text gespeichert ist, kann er mit jedem Text- oder HTML-Editor "
 "bearbeitet werden."
+
+#~ msgid ""
+#~ "Drag &amp; Drop Works Here; you can drop verse numbers, and bookmarks "
+#~ "into the custom range entry field. You can also paste text into the entry "
+#~ "field."
+#~ msgstr ""
+#~ "Drag &amp; Drop funktioniert hier; Sie können Versreferenzen und "
+#~ "Lesezeichen in die Bereichsbox fallen lassen, ebenso können Sie normalen "
+#~ "Text einfügen."
 
 #~ msgid ""
 #~ "The tool bar of commentary display windows has another button, with the "
@@ -1648,4 +1677,3 @@ msgstr ""
 #~ "in der der Name für den Bereich eingegeben wird. Geben sie jetzt den "
 #~ "gewünschten Bereich ein und clicken Sie <guibutton>Schließen</guibutton>. "
 #~ "Ihr Bereich wird nun zur Bereichsliste hinzugefügt."
-
