@@ -3,65 +3,66 @@
 >&bibletime; starten</title>
 
 <para
-> &bibletime; ist ein &kde; Programm und ist in den &kde; Arbeitsplatz integriert. Sie können &bibletime; in &kde; <guimenu
+> &bibletime; ist ein &kde; Programm und ist in den &kde; Arbeitsplatz integriert. Sie können &bibletime; vom Untermenü &quot;Anwendungen&quot;des &kde; <guimenu
 >Startmenü</guimenu
-> in der Hauptgruppe finden. <mediaobject
+> starten. <mediaobject
 > <imageobject
 > <imagedata fileref="hi32-app-bibletime.png" format="PNG"/> </imageobject
 > <textobject
 > <phrase
->&bibletime; starten</phrase
+>Das zum starten von &bibletime; benutzte Icon</phrase
 > </textobject
 > </mediaobject
 > </para>
 
 <para
 > &bibletime; kann auch von der Kommandozeile eines Terminals aufgerugfen werden. Um &bibletime; zu starten, öffnen Sie ein Terminal (jedes beliebige Xterminal) und geben Sie <command
->&bibletime;</command
+>bibletime</command
 > ein. </para>
 
 <section id="hdbk-start-otherwm"
 ><title
-></title>
+>Andere Fenstermanager (kein &kde;)</title>
 
 <para
-> &bibletime; kann von anderen Fenstermanagern aufgerufen werden (wie zum Beispiel gnome), voraussgesetzt &kde; ist installiert. SIe müssen ihr eigenes Symbol anlegen, um das Programm zu starten. Schlagen Sie in der Hilfe des Fenstermanagers nach, wie dies funktioniert. </para>
+> &bibletime; kann von anderen Fenstermanagern aufgerufen werden (wie zum Beispiel Gnome), voraussgesetzt &kde; ist installiert. Sie müssen ihr eigenes Symbol anlegen, um das Programm zu starten. Schlagen Sie in der Hilfe des Fenstermanagers nach, wie dies funktioniert. </para>
 
 <para
 > </para>
 <screen>
-
+export KDEDIR=/opt/kde3
+bibletime
 </screen>
 <para
 >  </para>
 <para
-></para>
+>Mit &Linux-Mandrake; 9.0 oder anderen Distributionen, bei denen &kde; 3.x am normalen Ort installiert ist, geben Sie einfach folgendes ein:</para>
 <screen>
-&bibletime; starten
+bibletime
 </screen>
 in any terminal to launch &bibletime;.
 </section>
 <section id="hdbk-start-custom"
 ><title
-></title>
+>Konfiguration des Startverhaltens</title>
 
 <para
-> </para>
+> Von einem XTerminal können Sie &bibletime; so starten, dass ein zufälliger Vers der voreingestellten Bibel geöffnet wird:</para>
 <para
 ><command
->  </command
+> bibletime --open-default-bible "&lt;random&gt;" </command
 ></para>
 
 <para
-> </para
+> Um eine bestimmte Stelle zu öffnen, benutzen Sie bitte folgendes Kommando:</para
 ><para
 > <command
->  </command
+> bibletime --open-default-bible "Johannes 3:16" </command
 ></para>
 
 
 <para
->  </para
+> Sie können die Bibelstellen natürlich in der eingestellten Sprache der Buchnamen angeben. </para
 ></section>
 
 
@@ -75,7 +76,7 @@ in any terminal to launch &bibletime;.
 > <para
 > <interface
 >Keine Module installiert</interface
-> - Dies erscheint, wenn Sie vergessen haben Sword Module zu installieren, oder wenn Sword Module nicht gefunden werden können. </para
+> - Dies erscheint, wenn Sie vergessen haben Sword Module zu installieren, oder wenn die Sword Module nicht gefunden werden konnten. </para
 > </listitem
 > <listitem
 > <para
@@ -87,7 +88,7 @@ in any terminal to launch &bibletime;.
 > <para
 > <interface
 >Tägliche Tipps</interface
-> - Dies wird bei jedem Start angezeigt, es sei denn Sie schalten dies ab. <mediaobject
+> - Diesw werden bei jedem Start angezeigt, es sei denn Sie schalten diese ab. <mediaobject
 > <imageobject
 > <imagedata fileref="hdbk-start-sequence-tips.png" format="PNG"/> </imageobject
 > <textobject

@@ -142,13 +142,19 @@
 >Bearbeiten Sie ihren eigenen Kommentar</title
 > 
 <para
-></para>
+>Wenn der perönliche Kommentar mit dem <mousebutton
+>linken</mousebutton
+> Mausknopf geöffnet wurde, wird er im nur-Lesen Modus geöffnet. Wenn Sie Einträge in den persönlichen Kommentar machen möchten, dann gibt ihnen ein Klick mit dem <mousebutton
+>rechten</mousebutton
+> Mausknopf auf den <menuchoice
+>persönlichen Kommentar</menuchoice
+> ihnen die Auswahl zwischen einem reinen Text- und einem HTML-Editor.</para>
 <tip
 ><para
-></para
+>Wenn der Editor die Einträge nicht abspeichert, überprüfen Sie bitte, ob Sie Schreibrechte für die Dateien des persönlichen Kommentars haben.</para
 ></tip>
 <para
-></para
+>Das Stift-Symbol wird für den Kommentareditor angezeigt.</para
 >.
 <inlinemediaobject
 > <imageobject
@@ -170,17 +176,17 @@ again to return to normal commentary browsing mode.
 
 <tip
 ><para
->Das Personal Commentary ist ein Sword Modul. Wenn Sie es nicht im Hauptindex finden, dann laden Sie es von der<ulink url="http://www.crosswire.org"
+>Der persönliche Kommentar ist ein Sword Modul. Wenn Sie es nicht in der Hauptgruppe findenfinden, dann laden Sie es von der<ulink url="http://www.crosswire.org"
 >Crosswire Bible Society</ulink
 > herunter.</para
 ></tip>
 <tip
 ><para
->Falls Sie nicht in das Modul Persönlicher Kommentar schreiben können, sind die Zugriffsrechte für den persönlichen Kommentar falsch. Setzen Sie die Zugrigffsrechte zurück, um ihrem Benutzer zu erlauben hinein zu schreiben.</para
+>Falls Sie nicht in den persönlichen Kommentar schreiben können, sind die Zugriffsrechte für den persönlichen Kommentar falsch gesetzt. Korrigieren Sie die Zugriffrechte, um ihrem Benutzer zu erlauben hinein zu schreiben.</para
 ></tip>
 <tip
 ><para
->Hier funktioniert Drag&amp;Drop, wie bei anderen Kommentaren und Bibeltexten.</para
+>Hier funktioniert Drag&amp;Drop, wie bei anderen Kommentaren und Bibeltexten auch.</para
 ></tip>
 </section>
 
@@ -191,19 +197,21 @@ again to return to normal commentary browsing mode.
 <title
 >In Dokumenten suchen</title>
 <para
->Teile der Anweisungen zur Benutzung von GCC Regulären Ausdrücken in Dokumente Durchsuchen ist übernommen aus den Hilfedateien der <trademark class="registered"
+>Teile der Erklärungen zur Benutzung der GCC Regulären Ausdrücke für die Suche wurden den Hilfedateien der <trademark class="registered"
 >Microsoft Windows</trademark
-> Version von &sword;</para>
+> Version von &sword; entnommen.</para>
 
 <section id="hdbk-op-search-functions">
 <title
 >Zugriff auf Suchfunktionen</title>
 <para
-> Sie können in einem Dokument suchen indem Sie mit der rechten Maustaste auf den Dokumentennamen innerhalb der <guimenu
+> Sie können in einem Dokument suchen, indem Sie mit der <mousebutton
+>rechten</mousebutton
+> Maustaste auf den Dokumentennamen innerhalb der <guimenu
 >Hauptgruppe</guimenu
 > klicken und dann <guimenuitem
 >Durchsuche gewählte Module</guimenuitem
-> auswählen. Durch drücken von Umschalt- oder Strg währende dem klicken auf andere Modulenamen können Sie mehr als eines auswählen. Gehen Sie in der selben Art und Weise vor, um in allen gewählten Modulen zu suchen. </para>
+> auswählen. Durch gleichzeitiges Drücken von Umschalt- oder Strg  und Auswählen von anderen Modulnamen können mehrer ausgewählt werden. Gehen Sie in der selben Art und Weise vor, um in allen gewählten Modulen zu suchen. </para>
 </section>
 
 
@@ -212,19 +220,23 @@ again to return to normal commentary browsing mode.
 <title
 >Benutzung des Suchdialoges</title>
 <para
-></para>
+>&bibletime; stellt eine gut entwickelte Suchmöglichkeit auf Basis von <application
+>GCC regulären Ausdrücken</application
+> zur Verfügung. Sie erlaubt es ihnen, beinahe <link linkend="hdbk-op-search-dialog-text-regexp"
+>jede denkbare Art einer Suche</link
+> durchzuführen.</para>
 <para
 ></para>
 
 
 <section id="hdbk-op-search-options">
 <title
-></title>
+>Sucheinstellungen - Einstellen der Suche.</title>
 <para
-></para>
+>Benutzen Sie den Sucheinstellungen-Tabulator, um die Eigenschaften der Suche einzustellen.</para>
 <screenshot
 > <screeninfo
->Dialogbox Suchtext</screeninfo
+>Suchtext Einstellungen	</screeninfo
 > <mediaobject
 > <imageobject
 > <imagedata fileref="hdbk-op-search-dialog-options.png" format="PNG"/> </imageobject
@@ -234,13 +246,13 @@ again to return to normal commentary browsing mode.
 
 <section id="hdbk-op-search-choose-modules">
 <title
->Das Modul Auswählen Tab benutzen</title>
+>Benutzung des Module auswählen Knopfes.</title>
 <para
 > </para>
 
 <screenshot
 > <screeninfo
->Dialogbox Suchergebnis</screeninfo
+>Modulauswahl Dialogbox</screeninfo
 > <mediaobject
 > <imageobject
 > <imagedata fileref="hdbk-op-search-dialog-modsel.png" format="PNG"/> </imageobject
@@ -250,7 +262,7 @@ again to return to normal commentary browsing mode.
 
 <section id="hdbk-op-search-properties">
 <title
-></title>
+>Gesuchter Text - was Sie finden möchten.</title>
 
 <para
 >Die Textbox in dem Feld Sucheinstellungen ist der Ort, wo Sie den zu suchenden Text eingeben können. Er kann aus einem oder mehreren Worten bestehen, oder auch aus Wortteilen(trennen Sie Wörter und Wortteile mit Leerzeichen) oder Regulären Ausdrücken bestehen. Sie können die Radio Buttons verwenden, um die Suche im "Mehrere Wörter", "Exakte Suche" oder "Reguläre Ausdrücke" Modus auszuführen. Mit einer Checkbox können Sie die Unterscheidung zwischen Groß- und Kleinbuchstaben an- und ausschalten. </para>
@@ -272,7 +284,7 @@ again to return to normal commentary browsing mode.
 
 <section id="hdbk-op-search-dialog-text-input-multiand">
 <title
->Benutzung des "Mehrere Wörter" Button </title>
+>Benutzung des "Mehrere Wörter (UND)" Knopfes</title>
 <para
 >Wenn "Mehrere Wörter" ausgewählt ist, wird die Suche alle Verse finden, die alle Worte (oder Wortteile) enthalten. Die Position und Reihenfolge der The position Worte spielt keine Rolle. Wenn alle Worte in einem Vers enthalten sind, wird er in der Liste der gefundenen Verse angezeigt. Eine Suche nach &quot;prove cause&quot; wird 1 Mose 21:25 finden, &quot;And Abraham re<emphasis
 >prove</emphasis
