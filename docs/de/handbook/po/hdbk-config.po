@@ -1,12 +1,12 @@
 # translation of hdbk-config.po to Deutsch
-# Copyright (C) 2002 Free Software Foundation, Inc.
-# Martin Gruner <mg.pub@gmx.net>, 2002
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+# Martin Gruner <mg.pub@gmx.net>, 2002,2003
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hdbk-config\n"
 "POT-Creation-Date: 2001-02-09 01:25+0100\n"
-"PO-Revision-Date: 2002-12-15 19:04GMT\n"
+"PO-Revision-Date: 2003-02-13 15:54GMT\n"
 "Last-Translator: Martin Gruner <mg.pub@gmx.net>\n"
 "Language-Team: Deutsch <de@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -66,15 +66,15 @@ msgstr "Der Werkzeugleisten-Konfigurationsdialog."
 #: index.docbook:27
 #, no-c-format
 msgid "Preferences - Bibletime Dialog"
-msgstr ""
+msgstr "Voreinstellungen - BibleTime-Dialog"
 
 #: index.docbook:28
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The preferences dialog allows many &bibletime; and Sword features to be "
 "customized."
 msgstr ""
-"Der Optionendialgo erlaubt Ihnen, viele &bibletime; und Sword Features "
+"Der Konfigurationsdialog erlaubt Ihnen, viele &bibletime;- und Sword-Merkmale "
 "anzupassen."
 
 #: index.docbook:31
@@ -84,8 +84,7 @@ msgstr "Start"
 
 #: index.docbook:32
 #, no-c-format
-msgid ""
-"The startup behavior can be customized. Select from the following options:"
+msgid "The startup behavior can be customized. Select from the following options:"
 msgstr ""
 "Das Startverhalten kann angepasst werden. Wählen Sie aus den folgenden "
 "Optionen aus:"
@@ -121,7 +120,7 @@ msgid "Fonts"
 msgstr "Schriften"
 
 #: index.docbook:52
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The display font used for text can be changed as desired. If you have a "
 "module that requires a special font, check here to see if the font is "
@@ -130,7 +129,8 @@ msgid ""
 msgstr ""
 "Die Anzeigeschrift kann verändert werden. Wenn Sie ein Modul haben, das eine "
 "spezielle Schrift benötigt, überprüfen Sie hier, ob die Schrift für "
-"&bibletime; verfügbar ist."
+"&bibletime; verfügbar ist. Alle Module einer bestimmten Sprache werden jeweils "
+"eine Schrift verwenden."
 
 #: index.docbook:57
 #, no-c-format
@@ -156,6 +156,12 @@ msgid ""
 "installed please consult the <ulink href=\"http://pegasus.rutgers.edu/"
 "~elflord/font_howto\">Font-HOWTO</ulink> or read further."
 msgstr ""
+"Die Auswahl der Unicode-Schriften erfolgt ab sofort automatisch dank neuer Funktionen "
+"in Sword. Sie müssen nicht länger verstehen, wie die iso-8859-1 (Latin-1) "
+"oder iso-10646 (Unicode) Zeichensätze funktinieren. "
+"Wenn die benötigte Schrift nicht installiert ist, dann konsultieren sie bitte das "
+"<ulink href=\"http://pegasus.rutgers.edu/~elflord/font_howto\">Font-HOWTO</ulink> "
+"oder lesen Sie weiter."
 
 #: index.docbook:77
 #, no-c-format
@@ -171,7 +177,7 @@ msgstr ""
 "Schriftart nicht die Zeichen, die in Ihrem Dokument verwendet wurden."
 
 #: index.docbook:82
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "In the options dialog, choose <guilabel>fonts select</guilabel> in the "
 "<guilabel>Unicode area of application</guilabel>. You will need to choose a "
@@ -179,10 +185,10 @@ msgid ""
 "is included with most distributions). If your module still does not display, "
 "you will need to use a more appropriate font."
 msgstr ""
-"Wählen Sie im Optionendialog <guilabel>Schriften auswählen</guilabel> in dem "
+"Wählen Sie im Konfigurationsdialog <guilabel>Schriften auswählen</guilabel> in dem "
 "<guilabel>Unicode Bereich der Anwendung</guilabel>. Sie müssen eine Schrift "
 "auswählen, die den ISO-10646-1 Zeichensatz enthält. Versuchen Sie clearlyu "
-"als einen ersten Schritt. (es ist in den meisten Distibutionen enthalten). "
+"als einen ersten Schritt. (in den meisten Distibutionen enthalten). "
 "Wenn Ihr Modul immer noch nicht korrekt dargestellt wird, dann versuchen Sie "
 "es mit einer geeigneteren Schriftart."
 
@@ -202,9 +208,9 @@ msgid "Font Installation"
 msgstr "Schrift Installation"
 
 #: index.docbook:93
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Installing fonts consists of three steps."
-msgstr "Die Installation von Schriftarten besteht aus drei Schritten"
+msgstr "Die Installation von Schriftarten besteht aus drei Schritten."
 
 #: index.docbook:95
 #, no-c-format
@@ -307,14 +313,14 @@ msgstr ""
 "\"Multilingual Unicode TrueType Fonts in the Internet\" </ulink>."
 
 #: index.docbook:137
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Another Unicode font list can be found at: <ulink url=\"http://www.hclrss."
 "demon.co.uk/unicode/fontsbyrange.html\">Unicode Font List</ulink>."
 msgstr ""
-"Eine andere Liste von Unicode Schriften und den abgedeckten Bereichen finden "
-"sie <ulink url=\"http://www.hclrss.demon.co.uk/unicode/fontsbyrange.html"
-"\">hier</ulink>"
+"Eine andere Liste von Unicode Schriften finden sie "
+"<ulink url=\"http://www.hclrss.demon.co.uk/unicode/fontsbyrange.html\"> "
+"hier</ulink>."
 
 #: index.docbook:142
 #, no-c-format
@@ -464,12 +470,12 @@ msgid "Sword"
 msgstr "Sword"
 
 #: index.docbook:203
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Many features provided by the Sword backend can now be customized in "
 "&bibletime;."
 msgstr ""
-"Viele Funktionen, die von Sword bereitgestellt werden, können in &bibletime; "
+"Viele Funktionen, die von Sword bereitgestellt werden, können jetzt in &bibletime; "
 "angepasst werden."
 
 #: index.docbook:205
@@ -774,3 +780,4 @@ msgstr "Ctrl+T"
 #~ msgid "The 'About this module' window shows what kind of encoding is used."
 #~ msgstr ""
 #~ "Das \"Über dieses Modul\"-Fenster zeigt an, welches Encoding benutzt wird."
+
