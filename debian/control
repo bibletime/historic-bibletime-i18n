@@ -1,12 +1,24 @@
 Source: bibletime-i18n
 Section: kde
-Build-Depends: debhelper
+Build-Depends-Indep: debhelper
 Priority: optional
 Maintainer: Daniel Glassey <wdg@debian.org>
-Standards-Version: 3.5.6.0
+Standards-Version: 3.6.1.0
 
 Package: bibletime-i18n
 Architecture: all
 Section: kde
-Depends: ${shlibs:Depends}, bibletime (>= 1.3.0-1)
+Depends: ${shlibs:Depends}, bibletime (>= 1.3-1)
 Description: Translated messages and documentation of BibleTime.
+ BibleTime is a free and easy to use bible study tool for UNIX systems.
+ It requires a working KDE environment and the SWORD library.
+ BibleTime provides easy handling of digitized texts (Bibles, commentaries
+ and lexicons) and powerful features to work with these texts (search in
+ texts, write own notes, save, print etc.).
+ . 
+ This package contains translated messages for bg, cs, de, en_GB, es, fi,
+ fr, hu, it, ko, nl, no, pl, pt_br, ro, ru, sk, ua.
+ .
+ The howto has been translated into cs, de, fr, it, nl, ru.
+ .
+ The helpdialog and handbook have been translated into de. 
