@@ -1,15 +1,18 @@
+# translation of ko.po to 
+# translation of ko.po to
 # translation of bibletime.po to Korean
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Kim Hanjo <hanjo@hanjo.pe.kr>, 2003.
+# Kim Hanjo <hanjo@hanjo.pe.kr>, 2003, 2004.
+# Kim Hanjo <lordmiss@hanjo.pe.kr>, 2004.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: bibletime\n"
+"Project-Id-Version: ko\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2004-01-13 16:31+0100\n"
-"PO-Revision-Date: 2003-08-28 14:58+0900\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2004-01-16 21:03+0900\n"
+"Last-Translator: Kim Hanjo <hanjo@hanjo.pe.kr>\n"
 "Language-Team:  <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,7 +79,7 @@ msgstr "메뉴와 툴바 초기화"
 
 #: ../bibletime/bibletime_init.cpp:88 ../bibletime/util/cresmgr.cpp:899
 msgid "Clear print queue"
-msgstr "프린트 큐 비우기"
+msgstr "인쇄 대기열 비우기"
 
 #: ../bibletime/bibletime_init.cpp:125
 msgid "Search in open module(s)"
@@ -88,64 +91,63 @@ msgstr "기본 성경에서 찾기"
 
 #: ../bibletime/bibletime_init.cpp:157
 msgid "&Show main index"
-msgstr "&S메인 인덱스 보기"
+msgstr "메인 인덱스 보기&S"
 
 #: ../bibletime/bibletime_init.cpp:175
-#, fuzzy
 msgid "Configure &Sword"
-msgstr "&C세션 설정하기"
+msgstr "세션 설정하기&S"
 
 #: ../bibletime/bibletime_init.cpp:194
 msgid "&Cascade"
-msgstr "&C정렬"
+msgstr "정렬&C"
 
 #: ../bibletime/bibletime_init.cpp:207
 msgid "&Tile"
-msgstr "&T타일식 배열"
+msgstr "타일식 배열&T"
 
 #: ../bibletime/bibletime_init.cpp:220
 msgid "&Auto cascade"
-msgstr "&A자동 계단식 배열"
+msgstr "자동 계단식 배열&A"
 
 #: ../bibletime/bibletime_init.cpp:233
 msgid "A&uto Tile"
-msgstr "&u자동 타일식 배열"
+msgstr "자동 타일식 배열&u"
 
 #: ../bibletime/bibletime_init.cpp:246
 msgid "&Close all"
-msgstr "&C창 모두 닫기"
+msgstr "창 모두 닫기&C"
 
 #: ../bibletime/bibletime_init.cpp:259
 msgid "&Save session"
-msgstr "&S세션 저장하기"
+msgstr "세션 저장하기&S"
 
 #: ../bibletime/bibletime_init.cpp:271
 msgid "&Save as new session"
-msgstr "&S새로운 세션으로 저장하기"
+msgstr "새로운 세션으로 저장하기&S"
 
 #: ../bibletime/bibletime_init.cpp:284
 msgid "&Load session"
-msgstr "&L세션 불러오기"
+msgstr "세션 불러오기&L"
 
 #: ../bibletime/bibletime_init.cpp:296
 msgid "&Configure sessions"
-msgstr "&C세션 설정하기"
+msgstr "세션 설정&C"
 
 #: ../bibletime/bibletime_init.cpp:309
 msgid "&Fullscreen mode"
-msgstr "&F전체화면 모드"
+msgstr "전체화면으로 표시&F"
 
 #: ../bibletime/bibletime_init.cpp:336
 msgid "&Handbook"
-msgstr "&H핸드북"
+msgstr "핸드북&H"
 
 #: ../bibletime/bibletime_init.cpp:348
 msgid "&Bible Study Howto"
-msgstr "&B성경공부 길잡이"
+msgstr "성경공부 길잡이&B"
 
 #: ../bibletime/bibletime_init.cpp:375
 msgid "&Daily tip"
-msgstr "&D오늘의 팁"
+msgstr "오늘의 팁&D"
 
 #: ../bibletime/bibletime_init.cpp:462
 msgid "Initializing Sword"
@@ -153,15 +155,15 @@ msgstr "Sword 시작하기"
 
 #: ../bibletime/bibletime_init.cpp:509
 msgid "Initializing print system"
-msgstr "프린트 시스템 시작하기"
+msgstr "인쇄 시스템 시작하기"
 
 #: ../bibletime/bibletime_slots.cpp:291
 msgid "Abort printing"
-msgstr "프린트 취소"
+msgstr "인쇄 취소"
 
 #: ../bibletime/bibletime_slots.cpp:291
 msgid "Printing..."
-msgstr "프린트 중"
+msgstr "인쇄 중..."
 
 #: ../bibletime/bibletime_slots.cpp:481
 #: ../bibletime/frontend/coptionsdialog.cpp:133
@@ -182,11 +184,11 @@ msgstr "모세/모세5경/토라"
 
 #: ../bibletime/frontend/cbtconfig.cpp:242
 msgid "History"
-msgstr "역사"
+msgstr "역사서"
 
 #: ../bibletime/frontend/cbtconfig.cpp:243
 msgid "Prophets"
-msgstr "선지자"
+msgstr "선지서"
 
 #: ../bibletime/frontend/cbtconfig.cpp:244
 msgid "New testament"
@@ -261,7 +263,7 @@ msgstr "시작 로고 보기"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:205
 msgid "Restore windows from the last BibleTime session"
-msgstr "지난 바이블타임 세션 복구하기"
+msgstr "지난번 바이블타임 세션 복구"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:224
 msgid "Select custom fonts per-language"
@@ -274,7 +276,7 @@ msgid ""
 "displayed correctly."
 msgstr ""
 "설치한 모듈의 모든 언어 목록이 있습니다. 정확히 표현하기 위해 특별한 폰트가 "
-"필요한 언어에 대해 사용자 폰트를 지정할 수 있습니다."
+"필요한 언어의 경우 사용자 폰트를 지정할 수 있습니다."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:260
 msgid "Use custom font"
@@ -298,7 +300,7 @@ msgid ""
 "options like \"Words of Jesus\" only apply to texts which offer special "
 "features."
 msgstr ""
-"화면의 색을 바꾸기 위해 색을 선택하십시오. \"예수님의 말씀\" 같은 옵션은 특별"
+"원하는 색으로 화면 모양을 바꿀 수 있습니다. \"예수님의 말씀\" 같은 옵션은 특별"
 "한 텍스트에만 적용됩니다."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:301
@@ -427,7 +429,7 @@ msgstr "다음 절로 넘어가기 위해 아래 화살표 사용"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:574
 msgid "Specify a language for biblical booknames"
-msgstr "성서의 책이름을 위한 언어 지정"
+msgstr "성서의 책 이름을 위한 언어 지정"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:575
 msgid ""
@@ -436,13 +438,13 @@ msgid ""
 "use. If you want to create a new locale, see http://www.crosswire.org/sword/"
 "develop for details."
 msgstr ""
-"스워드는 성서의 책이름을 번역하는데 사용될 수 있는 여러개의 로케일을 가지고 "
+"스워드는 성서의 책 이름을 번역하는데 사용될 수 있는 여러개의 로케일을 가지고 "
 "있습니다. 사용자는 어떤 로케일을 사용할지 결정할 수 있습니다. 새로운 로케일"
 "을 만들고 싶으면 http://www.crosswire.org/sword/develop 을 참조하십시오."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:582
 msgid "Language for biblical booknames"
-msgstr "성서의 책이름을 위한 언어"
+msgstr "성서의 책 이름을 위한 언어"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:590 clanguagemgr.cpp:216
 msgid "English"
@@ -526,7 +528,7 @@ msgstr "단락 표제 보기"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:810
 msgid "Show Strong's numbers"
-msgstr "Strong's number 보기"
+msgstr "스트롱 넘버 보기"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:817
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:164
@@ -569,16 +571,16 @@ msgstr "미상"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:151
 msgid "Manage installation sources"
-msgstr ""
+msgstr "설치 소스 관리"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:189
 #: ../bibletime/frontend/cswordsetupdialog.cpp:201
 msgid "Local sources"
-msgstr ""
+msgstr "로컬 소스"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:195
 msgid "Manage local sources"
-msgstr ""
+msgstr "로컬 소스 관리"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:196
 msgid ""
@@ -588,46 +590,46 @@ msgid ""
 "make sure you mounted the CD-Rom before you use BibleTime to install from CD-"
 "Rom."
 msgstr ""
+"여기서 Sword CD 등의 로컬 소스로부터 모듈을 설치하도록 설정할 수 있습니다. "
+"많은  리눅스 배포판에서 이 시디의 경로는 <i>/media/cdrom</i> 또는 <i>/cdrom</i> 입니다. "
+"바이블타임을 시디에서 설치할 때 마운트한 시디의 경로가 정확히 설정되었는지 확인하세요."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:204
-#, fuzzy
 msgid "Add new directory"
-msgstr "새 범위 더하기"
+msgstr "새 디렉토리 더하기"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:207
 msgid "Remove directory"
-msgstr ""
+msgstr "디렉토리 지우기"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:258
 msgid "Remote sources"
-msgstr ""
+msgstr "원격 소스"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:264
-#, fuzzy
 msgid "Manage remote sources"
-msgstr "세션 관리"
+msgstr "원격 소스 관리"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:265
 msgid ""
 "Setup remote sources like FTP servers which can be used to download Sword "
 "modules on your computer."
-msgstr ""
+msgstr "FTP 서버 등의 원격 소스를 설정하여 이로부터 Sword 모듈을 다운받아 설치합니다."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:271
 #: ../bibletime/frontend/cswordsetupdialog.cpp:571
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1120
-#, fuzzy
 msgid "Name"
-msgstr "이름:"
+msgstr "이름"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:277
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1076
 msgid "New"
-msgstr ""
+msgstr "새로운..."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:298
 msgid "Edit remote source"
-msgstr ""
+msgstr "원격 소스 편집"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:304
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:607
@@ -638,67 +640,62 @@ msgstr "이름:"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:315
 msgid "Server:"
-msgstr ""
+msgstr "서버:"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:321
 msgid "Path on server:"
-msgstr ""
+msgstr "서버 경로:"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:356
-#, fuzzy
 msgid "New remote source"
-msgstr "세션 관리"
+msgstr "새 원격 소스"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:410
 msgid "Sword configuration"
-msgstr ""
+msgstr "Sword 환경"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:424
-#, fuzzy
 msgid "Sword Path"
-msgstr "스워드"
+msgstr "스워드 경로"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:435
 #: ../bibletime/util/cresmgr.cpp:1009
-#, fuzzy
 msgid "Configure Sword"
-msgstr "&C세션 설정하기"
+msgstr "Sword 설정"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:436
 msgid ""
 "The underlying Sword software uses an own configuration file. This page let "
 "you set up this file."
-msgstr ""
+msgstr "Sword 소프트웨어는 고유의 설정 파일을 사용합니다. 이 페이지에서 이 파일을 설정할 수 있습니다."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:442
 msgid "Your Sword configuration file is <b>%1</b>"
-msgstr ""
+msgstr "이 컴퓨터의 설정파일은 <b>%1</b>입니다"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:447
-#, fuzzy
 msgid "Path to Sword modules"
-msgstr "모듈 선택"
+msgstr "Sword 모듈 경로"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:451
-#, fuzzy
 msgid "Edit Entry"
-msgstr "툴바 편집"
+msgstr "목록 편집"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:456
 msgid "Add Entry"
-msgstr ""
+msgstr "목록 더하기"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:461
 msgid "Remove Entry"
-msgstr ""
+msgstr "목록 지우기"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:470
 msgid "Install/Update Modules"
-msgstr ""
+msgstr "모듈 설치/업데이트"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:492
 msgid "Install/update modules - Step 1"
-msgstr ""
+msgstr "모듈 설치/업데이트 - 1단계"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:493
 msgid ""
@@ -707,43 +704,43 @@ msgid ""
 "not wish to risk detection you should NOT use the module remote installation "
 "feature!</b>"
 msgstr ""
+"소스와 대상 경로를 선택하세요. 이후에 연결 버튼을 누르세요. </br> "
+"<b>주의 : 만약 당신이 박해받는 나라에 살고 있어서 발각될 위험이 있다면 모듈 원격 설치 기능을 사용하지 마세요!</b>"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:497
 msgid "Select source location"
-msgstr ""
+msgstr "소스 위치 선택"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:503
 msgid "Maintain sources"
-msgstr ""
+msgstr "소스 유지"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:511
 msgid "Select target location"
-msgstr ""
+msgstr "목적 위치 선택"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:531
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1294
 msgid "Connect to source"
-msgstr ""
+msgstr "소스에 연결"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:546
-#, fuzzy
 msgid "Remove Modules"
-msgstr "모듈 선택"
+msgstr "모듈 삭제"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:558
-#, fuzzy
 msgid "Remove installed module(s)"
-msgstr "선택된 모듈(들)에서 찾기"
+msgstr "설치된 모듈(들) 삭제"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:559
 msgid ""
 "This dialog lets you remove installed Sword modules from your system. Choose "
 "the modules and then click on the remove button."
-msgstr ""
+msgstr "이 대화창에서 설치된 Sword 모듈을 시스템에서 삭제할 수 있습니다. 모듈을 선택한 후 삭제 버튼을 누르세요."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:563
 msgid "Select modules to be uninstalled"
-msgstr ""
+msgstr "삭제 복구할 모듈 선택"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:572
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:304
@@ -751,21 +748,20 @@ msgid "Location"
 msgstr "위치"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:581
-#, fuzzy
 msgid "Remove selected module(s)"
-msgstr "선택한 항목(들) 지우기"
+msgstr "선택한 모듈(들) 지우기"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:672
 #: ../bibletime/frontend/cswordsetupdialog.cpp:727
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1374
 msgid "[Remote]"
-msgstr ""
+msgstr "[원격]"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:677
 #: ../bibletime/frontend/cswordsetupdialog.cpp:721
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1368
 msgid "[Local]"
-msgstr ""
+msgstr "[로컬]"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:770
 msgid ""
@@ -773,6 +769,9 @@ msgid ""
 "\n"
 "Do you really want to remove them from your system?"
 msgstr ""
+"다음 모듈을 선택했습니다: %1. \n"
+"\n"
+"정말 이 모듈들을 시스템에서 삭제하겠습니까?"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:853
 #: ../bibletime/frontend/cswordsetupdialog.cpp:963
@@ -819,40 +818,37 @@ msgstr "어휘"
 #: ../bibletime/frontend/cswordsetupdialog.cpp:884
 #, c-format
 msgid "Scanning your modules: %1%"
-msgstr ""
+msgstr "설치된 모듈 찾기: %1%"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1076
 msgid "Updated"
-msgstr ""
+msgstr "업데이트됨"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1105
 msgid "Install/update modules - Step 2"
-msgstr ""
+msgstr "모듈 설치/업데이트 - 2단계"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1106
 msgid ""
 "Please choose the modules which should be installed / updated and click the "
 "install button."
-msgstr ""
+msgstr "설치하거나 업데이트할 모듈을 선택하고 설치 버튼을 누르세요."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1121
 msgid "Installed version"
-msgstr ""
+msgstr "설치된 버전"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1122
-#, fuzzy
 msgid "Remote version"
-msgstr "세션 이름 바꾸기"
+msgstr "원격 버전"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1123
-#, fuzzy
 msgid "Status"
-msgstr "시작"
+msgstr "상태"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1139
-#, fuzzy
 msgid "Install modules"
-msgstr "모든 모듈"
+msgstr "설치된 모듈"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1204
 msgid ""
@@ -860,26 +856,33 @@ msgid ""
 "\n"
 "Do you really want to install them on your system?"
 msgstr ""
+"다음 모듈을 선택했습니다: %1. \n"
+"\n"
+"정말 이 모듈들을 시스템에 설치하겠습니까?"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1230
 msgid "Module installation ..."
-msgstr ""
+msgstr "모듈 설치 중..."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1284
 msgid "[%1]: %2% complete"
-msgstr ""
+msgstr "[%1]: %2% 완료"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1310
 msgid ""
 "This directory is not writable, so modules can not be installed here using "
 "BibleTime. Do you want to use this directory instead of the previous value?"
 msgstr ""
+"이 디렉토리에 쓸 수 없습니다. 따라서 이 모듈을 이 디렉토리에 설치할 수 없습니다. "
+"이전 위치 대신 이 디렉토리를 사용하시겠습니까?"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:1328
 msgid ""
 "This directory is not writable, so modules can not be installed here using "
 "BibleTime. Do you want to add it to the list of module directories?"
 msgstr ""
+"이 디렉토리에 쓸 수 없습니다. 따라서 이 모듈을 이 디렉토리에 설치할 수 없습니다. "
+"이 디렉토리를 모듈 설치 리스트에 더하시겠습니까?"
 
 #: ../bibletime/frontend/ctooltipmanager.cpp:52
 msgid "Bible"
@@ -1091,7 +1094,7 @@ msgstr "장을 HTML로"
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:97
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:306
 msgid "Print..."
-msgstr "프린트..."
+msgstr "인쇄..."
 
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:265
 msgid "Copy chapter to clipboard ..."
@@ -1143,7 +1146,7 @@ msgstr "예수님의 말씀 하이라이트"
 
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:148
 msgid "Show Strong's Numbers"
-msgstr "Strong's Number 보기"
+msgstr "스트롱 넘버 보기"
 
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:162
 msgid "Use alternative textual variant"
@@ -1236,9 +1239,8 @@ msgid "Save text before closing?"
 msgstr "닫기 전에 텍스트를 저장할까요?"
 
 #: ../bibletime/frontend/displaywindow/cwritewindow.cpp:172
-#, fuzzy
 msgid "Save changed text?"
-msgstr "텍스트 저장"
+msgstr "바뀐 텍스트를 저장할까요?"
 
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:263
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:335
@@ -1393,7 +1395,7 @@ msgstr "항목 삭제"
 
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:435
 msgid "Do you really want to delete the selected items and child-items?"
-msgstr ""
+msgstr "정말 선택한 항목과 하위 항목들을 삭제하시겠습니까?"
 
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:473
 msgid "BibleTime - Unlock module"
@@ -1578,7 +1580,7 @@ msgstr "여러 단어 (또는)"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:671
 msgid "Exact"
-msgstr "정확"
+msgstr "정확하게 찾기"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:675
 #: ../bibletime/util/cresmgr.cpp:1100
@@ -1587,7 +1589,7 @@ msgstr "정규 표현식"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:682
 msgid "Case sensitive search"
-msgstr "대소문자 구별 찾기"
+msgstr "대소문자 구별하여 찾기"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:688
 msgid "Search scope"
@@ -1603,11 +1605,11 @@ msgstr "찾기 진행"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:706
 msgid "Current module:"
-msgstr "현재 모듈"
+msgstr "현재 모듈:"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:709
 msgid "All modules:"
-msgstr "모든 모듈"
+msgstr "모든 모듈:"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:718
 msgid "Searching in: "
@@ -1615,11 +1617,11 @@ msgstr "찾는 곳: "
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:817
 msgid "Last search result"
-msgstr "마지막 검색 결과"
+msgstr "지난번 검색 결과"
 
 #: ../bibletime/main.cpp:133
 msgid "Enable debug messages"
-msgstr "디버스 메세지 보기"
+msgstr "디버그 메세지 보기"
 
 #: ../bibletime/main.cpp:134
 msgid ""
@@ -1631,8 +1633,7 @@ msgstr "바이블타임이 마지막으로 종료될 때 저장된 시작 세션
 msgid ""
 "Open the default bible with the given key. Use <random> to open at a random "
 "position."
-msgstr ""
-"주어진 키로 기본 성서 열기. 임의의 곳에서 열기 위해 <random>을 사용하세요."
+msgstr "주어진 키로 기본 성서 열기. 임의의 곳에서 열기 위해 <random>을 사용하세요."
 
 #: ../bibletime/main.cpp:144
 msgid "Bible study tool for KDE"
@@ -1672,9 +1673,8 @@ msgid "Icons, startlogo, webpage"
 msgstr "아이콘, 시작로고, 웹페이지"
 
 #: ../bibletime/main.cpp:167
-#, fuzzy
 msgid "Crystal icons, crystal startlogo, webpage"
-msgstr "아이콘, 시작로고, 웹페이지"
+msgstr "크리스탈 아이콘, 크리스탈 시작로고, 웹페이지"
 
 #: ../bibletime/main.cpp:169
 msgid "Documentation"
@@ -1697,13 +1697,17 @@ msgstr "언어 코드와 이름"
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "김 한조"
+msgstr ""
+" : 번역자\n"
+"김 한조"
 
 #: ../bibletime/main.cpp:189
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "hanjo@hanjo.pe.kr"
+msgstr ""
+" : 번역자 이메일\n"
+"hanjo@hanjo.pe.kr"
 
 #: ../bibletime/main.cpp:220
 msgid "Starting BibleTime"
@@ -1720,15 +1724,15 @@ msgstr "여백 (mm)"
 
 #: ../bibletime/printing/cprintdialogpages.cpp:56
 msgid "&Left"
-msgstr "&L왼쪽"
+msgstr "왼쪽&L"
 
 #: ../bibletime/printing/cprintdialogpages.cpp:56
 msgid "&Right"
-msgstr "&R오른쪽"
+msgstr "오른쪽&R"
 
 #: ../bibletime/printing/cprintdialogpages.cpp:56
 msgid "&Top"
-msgstr "&T위쪽"
+msgstr "위쪽&T"
 
 #: ../bibletime/printing/cprintdialogpages.cpp:106
 msgid "Available styles:"
@@ -1748,11 +1752,11 @@ msgstr "인쇄 대기열"
 
 #: ../bibletime/printing/cprintdialogpages.cpp:202
 msgid "Use style:"
-msgstr "스타일 사용"
+msgstr "스타일 사용:"
 
 #: ../bibletime/printing/cprintdialogpages.cpp:214
 msgid "Entries to print:"
-msgstr "인쇄할 목록"
+msgstr "인쇄할 목록:"
 
 #: ../bibletime/printing/cprinter.cpp:80
 msgid "Black&amp;White for larger text portions"
@@ -1831,11 +1835,11 @@ msgstr "선 스타일:"
 
 #: ../bibletime/rc-dummy.cpp:2
 msgid "&Search"
-msgstr "&S찾기"
+msgstr "찾기&S"
 
 #: ../bibletime/rc-dummy.cpp:5
 msgid "&Window"
-msgstr "&W창"
+msgstr "창&W"
 
 #: ../bibletime/tips-dummy.cpp:3
 msgid "The Bible was written so we could believe in Jesus. (John 20:31)\n"
@@ -1859,7 +1863,7 @@ msgstr ""
 
 #: ../bibletime/tips-dummy.cpp:16
 msgid "The Bible is like a mirror. (James 1:23)\n"
-msgstr "성경은 거울과 같다 (야고보서 1:23)\n"
+msgstr "성경은 거울과 같습니다 (야고보서 1:23)\n"
 
 #: ../bibletime/tips-dummy.cpp:20
 msgid ""
@@ -1901,12 +1905,10 @@ msgid ""
 "make bookmarks from your personal commentary.\n"
 msgstr ""
 "만약 당신이 어떤 주제에 대해서 '주님이 여기서 당신에게 무엇을 말씀하시는지를 "
-"포함한 코멘트들의 북마크들을 만들고 싶으면\n"
-"당신의 개인 주석에서 북마크를 만드세요.\n"
+"포함한 코멘트들의 북마크들을 만들고 싶으면 당신의 개인 주석에서 북마크를 만드세요.\n"
 
 #: ../bibletime/tips-dummy.cpp:47
-msgid ""
-"The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
+msgid "The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
 msgstr "성경은 우리에게 구원에 이르는 지혜를 줍니다. (디모데후서 3:15)\n"
 
 #: ../bibletime/tips-dummy.cpp:51
@@ -1920,10 +1922,9 @@ msgid ""
 "Make sure you have set the default modules in the preferences.\n"
 msgstr ""
 "성경에서 히브리어나 그리스어 원어 단어의 뜻을 알고 싶을 경우 이 단어가 "
-"strong's numbers를 지원한다면,\n"
-"단어로 이동 후 strong's number를 클릭하세요. 이제 설명이 들어있는 strong's "
-"number 창이 뜰겁니다.\n"
-"당신이 좋아하는 해석이 strong's number를 지원하지 않는다면 해당 단어 번호의 "
+"스트롱 넘버를 지원한다면,\n"
+"단어로 이동 후 스트롱 넘버를 클릭하세요. 이제 설명이 들어있는 스트롱 넘버 창이 뜰겁니다.\n"
+"당신이 좋아하는 번역판이 스트롱 넘버를 지원하지 않는다면 해당 단어 번호의 "
 "다른 해석을 참조하세요.\n"
 "설정에서 기본 모듈을 설정했는지 확인하세요.\n"
 
@@ -1931,8 +1932,7 @@ msgstr ""
 msgid ""
 "If you want to use a commentary as a topical reference, search it for terms "
 "your topic is about.\n"
-msgstr ""
-"주석을 주제 참조로 사용하고 싶다면, 주제에 관한 단어로 검색을 하세요.\n"
+msgstr "주석을 주제 참조로 사용하고 싶다면, 주제에 관한 단어로 검색을 하세요.\n"
 
 #: ../bibletime/tips-dummy.cpp:62
 msgid ""
@@ -1943,8 +1943,7 @@ msgstr ""
 "시니라 (요한복음 1:1)\n"
 
 #: ../bibletime/tips-dummy.cpp:66
-msgid ""
-"We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
+msgid "We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
 msgstr ""
 "우리는 마지막 날에 예수님의 말씀에 따라 심판을 받을 것입니다. (요한복음 "
 "12:48)\n"
@@ -1989,8 +1988,7 @@ msgstr ""
 msgid ""
 "The Word of God will not return to Him without accomplishing its purpose. "
 "(Isaiah 55:11)\n"
-msgstr ""
-"하나님의 말씀은 헛되이 돌아오지 않고 그 뜻을 이룹니다. (이사야 55:11)\n"
+msgstr "하나님의 말씀은 헛되이 돌아오지 않고 그 뜻을 이룹니다. (이사야 55:11)\n"
 
 #: ../bibletime/tips-dummy.cpp:91
 msgid ""
@@ -2005,15 +2003,14 @@ msgid ""
 "Did you know that the first book ever printed on a printing press was the "
 "Bible (by Johann Gutenberg, in 1492)?\n"
 msgstr ""
-"프린트 프레스에서 처음으로 인쇄된 책이 성경이라는 것을 알고 계십니까? (1492"
+"인쇄기에서 처음으로 인쇄된 책이 성경이라는 것을 알고 계십니까? (1492"
 "년, 요한 구텐베르그)\n"
 
 #: ../bibletime/tips-dummy.cpp:99
 msgid ""
 "God has already given to us everything pertaining to life and godliness. (2 "
 "Peter 1:3)\n"
-msgstr ""
-"하나님은 생명과 경건에 속한 모든 것을 우리에게 주셨습니다. (고린도후서 1:3)\n"
+msgstr "하나님은 생명과 경건에 속한 모든 것을 우리에게 주셨습니다. (고린도후서 1:3)\n"
 
 #: ../bibletime/tips-dummy.cpp:103
 msgid ""
@@ -2045,7 +2042,7 @@ msgstr ""
 
 #: ../bibletime/util/cresmgr.cpp:900
 msgid "Clear the print queue of BibleTime."
-msgstr "바이블타임의 프린트 큐를 비우기."
+msgstr "바이블타임의 인쇄 대기열을 비웁니다."
 
 #: ../bibletime/util/cresmgr.cpp:904
 msgid "Open the printer dialog"
@@ -2056,8 +2053,8 @@ msgid ""
 "Open the printer dialog of BibleTime, where you can edit the print queue, "
 "assign styles to the items and print them."
 msgstr ""
-"바이블 타임의 프린터 대화상자를 열면 프린트 큐를 편집하거나 목록에 스타일을 "
-"적용한 후 프린트 할 수 있습니다."
+"바이블 타임의 프린터 대화상자를 열면 인쇄 대기열을 편집하거나 목록에 스타일을 "
+"적용한 후 인쇄할 수 있습니다."
 
 #: ../bibletime/util/cresmgr.cpp:909
 msgid "Close BibleTime"
@@ -2085,12 +2082,11 @@ msgstr "메인 툴바 보기 전환"
 
 #: ../bibletime/util/cresmgr.cpp:931 ../bibletime/util/cresmgr.cpp:1627
 msgid "Search in open modules"
-msgstr "열린 모듈듈에서 찾기"
+msgstr "열린 모듈에서 찾기"
 
 #: ../bibletime/util/cresmgr.cpp:932
-msgid ""
-"Open the search dialog to search in all modules that are currently open."
-msgstr "현재 열고 있는 모든 묘들에서 찾기 위해서는 찾기 대화상자를 여세요."
+msgid "Open the search dialog to search in all modules that are currently open."
+msgstr "현재 열고 있는 모든 모듈에서 찾기 위해서는 찾기 대화상자를 여세요."
 
 #: ../bibletime/util/cresmgr.cpp:936
 msgid "Search default bible"
@@ -2197,9 +2193,8 @@ msgid "Open the dialog to set most of BibleTime's preferences."
 msgstr "바이블타임의 대부분의 설정을 위한 대화상자를 엽니다."
 
 #: ../bibletime/util/cresmgr.cpp:1010
-msgid ""
-"Open the dialog to configure Sword and install/update/remove Sword modules."
-msgstr ""
+msgid "Open the dialog to configure Sword and install/update/remove Sword modules."
+msgstr "Sword를 설정하고 Sword 모듈을 설치/업데이트하기 위한 대화창을 엽니다."
 
 #: ../bibletime/util/cresmgr.cpp:1019
 msgid "BibleTime's handbook"
@@ -2483,8 +2478,7 @@ msgid "List of chapters"
 msgstr "장 리스트"
 
 #: ../bibletime/util/cresmgr.cpp:1200
-msgid ""
-"This list contains the chapters which are available in the current book."
+msgid "This list contains the chapters which are available in the current book."
 msgstr "이 리스트에는 현재 책에서 사용가능한 장이 들어있습니다."
 
 #: ../bibletime/util/cresmgr.cpp:1204
@@ -2508,8 +2502,7 @@ msgid "List of verses"
 msgstr "절 리스트"
 
 #: ../bibletime/util/cresmgr.cpp:1215
-msgid ""
-"This list contains the verses which are available in the current chapter."
+msgid "This list contains the verses which are available in the current chapter."
 msgstr "이 리스트에는 현재 장에서 사용가능한 절이 들어있습니다."
 
 #: ../bibletime/util/cresmgr.cpp:1219
@@ -2541,8 +2534,7 @@ msgid "Synchronize with Bible windows"
 msgstr "성경 창과 동기화"
 
 #: ../bibletime/util/cresmgr.cpp:1233
-msgid ""
-"Synchronize the displayed entry of this module with the active Bible window."
+msgid "Synchronize the displayed entry of this module with the active Bible window."
 msgstr "이 모듈의 표시된 항목을 활성화된 성경 창과 동기화합니다."
 
 #: ../bibletime/util/cresmgr.cpp:1240
@@ -2643,11 +2635,11 @@ msgstr "텍스트를 페이지의 오른쪽에 맞추어 정렬합니다."
 
 #: ../bibletime/util/cresmgr.cpp:1307
 msgid "Justify"
-msgstr "맞추기"
+msgstr "양쪽 맞춤"
 
 #: ../bibletime/util/cresmgr.cpp:1308
 msgid "Justifies the text on the page."
-msgstr "페이지의 텍스트를 맞춥니다."
+msgstr "페이지의 텍스트를 양쪽으로 맞춥니다."
 
 #: ../bibletime/util/cresmgr.cpp:1313
 msgid "Set the font"
@@ -2675,11 +2667,11 @@ msgstr "선택된 텍스트의 색을 선택합니다."
 
 #: ../bibletime/util/cresmgr.cpp:1334
 msgid "This list contains the available print styles."
-msgstr "이 리스트에는 사용 가능한 프린트 키가 들어있습니다."
+msgstr "이 리스트에는 사용 가능한 인쇄 스타일이 들어있습니다."
 
 #: ../bibletime/util/cresmgr.cpp:1338
 msgid "List of print items"
-msgstr "프린트 항목 리스트"
+msgstr "인쇄 항목 리스트"
 
 #: ../bibletime/util/cresmgr.cpp:1339
 msgid "This is the list which contains the items to be printed."
@@ -2711,35 +2703,34 @@ msgstr "선택된 항목을 삭제합니다."
 
 #: ../bibletime/util/cresmgr.cpp:1362
 msgid "New printing style"
-msgstr "새 프린트 스타일"
+msgstr "새 인쇄 스타일"
 
 #: ../bibletime/util/cresmgr.cpp:1363
 msgid "Create a new printing style."
-msgstr "새 프린트 스타일 만들기"
+msgstr "새 인쇄 스타일 만들기"
 
 #: ../bibletime/util/cresmgr.cpp:1368
 msgid "Delete printing style"
-msgstr "프린트 스타일 삭제"
+msgstr "인쇄 스타일 삭제"
 
 #: ../bibletime/util/cresmgr.cpp:1369
 msgid "Remove the selected printing style from the list."
-msgstr "선택된 프린트 스타일을 리스트에서 제거합니다."
+msgstr "선택된 인쇄 스타일을 리스트에서 제거합니다."
 
 #: ../bibletime/util/cresmgr.cpp:1374
 msgid "Edit printing style"
-msgstr "프린트 스타일 편집"
+msgstr "인쇄 스타일 편집"
 
 #: ../bibletime/util/cresmgr.cpp:1375
 msgid "Change the properties of the selected printing style."
-msgstr "선택된 프린트 스타일의 설정을 바꿉니다."
+msgstr "선택된 인쇄 스타일의 설정을 바꿉니다."
 
 #: ../bibletime/util/cresmgr.cpp:1382
 msgid "Size of page borders"
 msgstr "페이지 여백 크기"
 
 #: ../bibletime/util/cresmgr.cpp:1382
-msgid ""
-"This group contains the page borders of the page measured in millimeters."
+msgid "This group contains the page borders of the page measured in millimeters."
 msgstr "여기에서는 페이지의 여백을 밀리미터 단위로 설정할 수 있습니다."
 
 #: ../bibletime/util/cresmgr.cpp:1385
@@ -2780,7 +2771,7 @@ msgstr "오늘의 팁 보기"
 
 #: ../bibletime/util/cresmgr.cpp:1413
 msgid "Activate this box to see a daily tip on startup."
-msgstr "시작할 때 오늘의 팁을 보려면 활성화하세요."
+msgstr "시작할 때 오늘의 팁을 보려면 이 상자를 활성화하세요."
 
 #: ../bibletime/util/cresmgr.cpp:1417
 msgid "Show startup logo"
@@ -2788,7 +2779,7 @@ msgstr "시작 로고 보기"
 
 #: ../bibletime/util/cresmgr.cpp:1418
 msgid "Activate this to see the BibleTime logo on startup."
-msgstr "시작할 때 로고를 보려면 활성화하세요."
+msgstr "시작할 때 로고를 보려면 이 상자를 활성화하세요."
 
 #: ../bibletime/util/cresmgr.cpp:1422
 msgid "Restore the last BibleTime session on startup"
@@ -2841,8 +2832,7 @@ msgid "This color will be used for all footnotes in the display windows."
 msgstr "창의 모든 각주에 사용되는 색"
 
 #: ../bibletime/util/cresmgr.cpp:1459
-msgid ""
-"This color will be used for every Strong's Number in the display windows."
+msgid "This color will be used for every Strong's Number in the display windows."
 msgstr "창의 모든 스트롱 넘버에 사용되는 색"
 
 #: ../bibletime/util/cresmgr.cpp:1463
@@ -2891,7 +2881,7 @@ msgstr "선택한 세션 이름 바꾸기"
 
 #: ../bibletime/util/cresmgr.cpp:1506
 msgid "Use cache files for the lexicon entries"
-msgstr "렉시콘 항목을 위해 캐쉬 파일 사용"
+msgstr "렉시컨 항목을 위해 캐쉬 파일 사용"
 
 #: ../bibletime/util/cresmgr.cpp:1507
 msgid ""
@@ -2899,8 +2889,8 @@ msgid ""
 "This increases the speed of opening large lexicon modules significantly, but "
 "does consume some disk space. Recommended."
 msgstr ""
-"바이블타임이 렉시콘 항목의 인덱스 파일을 만들도록 하려면 이 항목을 선택하세"
-"요. 이 항목을 선택하면 큰 렉시콘 모듈을 열 때 속도가 매우 빨라지지만 디스크 "
+"바이블타임이 렉시컨 항목의 인덱스 파일을 만들도록 하려면 이 항목을 선택하세"
+"요. 이 항목을 선택하면 큰 렉시컨 모듈을 열 때 속도가 매우 빨라지지만 디스크 "
 "용량을 차지합니다. 추천."
 
 #: ../bibletime/util/cresmgr.cpp:1512
@@ -2928,50 +2918,47 @@ msgid "The default commentary used in the workspace area"
 msgstr "작업 공간 기본 주석"
 
 #: ../bibletime/util/cresmgr.cpp:1530
-msgid ""
-"The default commentary is used when a hyperlink into a commentary is clicked."
+msgid "The default commentary is used when a hyperlink into a commentary is clicked."
 msgstr "주석 하이퍼링크를 클릭하면 기본 주석을 엽니다."
 
 #: ../bibletime/util/cresmgr.cpp:1534
 msgid "The default lexicon used in the workspace area"
-msgstr "작업 공간 기본 렉시콘"
+msgstr "작업 공간 기본 렉시컨"
 
 #: ../bibletime/util/cresmgr.cpp:1535
 msgid "The default lexicon is used when a hyperlink into a lexicon is clicked."
-msgstr "렉시콘 하이퍼링크를 클릭하면 기본 렉시콘을 엽니다."
+msgstr "렉시컨 하이퍼링크를 클릭하면 기본 렉시컨을 엽니다."
 
 #: ../bibletime/util/cresmgr.cpp:1539
 msgid "The default daily devotional module"
 msgstr "기본 매일 경건"
 
 #: ../bibletime/util/cresmgr.cpp:1540
-msgid ""
-"The default devotional will be used to display a short start up devotional."
+msgid "The default devotional will be used to display a short start up devotional."
 msgstr "짧은 묵상을 보여줄 때 기본 경건이 사용됩니다."
 
 #: ../bibletime/util/cresmgr.cpp:1544
 msgid "The default Hebrew lexicon used in the workspace area"
-msgstr "작업공간 기본 히브리 렉시콘"
+msgstr "작업공간 기본 히브리 렉시컨"
 
 #: ../bibletime/util/cresmgr.cpp:1545
 msgid ""
 "The default Hebrew lexicon is used when a hyperlink into a Hebrew lexicon is "
 "clicked."
-msgstr "히브리 렉시콘 하이퍼링크를 클릭하면 기본 히브리 렉시콘을 엽니다."
+msgstr "히브리 렉시컨 하이퍼링크를 클릭하면 기본 히브리 렉시컨을 엽니다."
 
 #: ../bibletime/util/cresmgr.cpp:1549
 msgid "The default Greek lexicon used in the workspace area"
-msgstr "작업공간 기본 그리스 렉시콘"
+msgstr "작업공간 기본 그리스 렉시컨"
 
 #: ../bibletime/util/cresmgr.cpp:1550
 msgid ""
 "The default Greek lexicon is used when a hyperlink into a Greek lexicon is "
 "clicked."
-msgstr "그리스 렉시콘 하이퍼링크를 클릭하면 기본 그리스 렉시콘을 엽니다."
+msgstr "그리스 렉시컨 하이퍼링크를 클릭하면 기본 그리스 렉시컨을 엽니다."
 
 #: ../bibletime/util/cresmgr.cpp:1554
-msgid ""
-"The default Morphological lexicon for Hebrew texts used in the workspace area"
+msgid "The default Morphological lexicon for Hebrew texts used in the workspace area"
 msgstr "작업공간 기본 히브리어 형태학적 태그"
 
 #: ../bibletime/util/cresmgr.cpp:1555
@@ -2983,9 +2970,8 @@ msgstr ""
 "적 태그를 엽니다."
 
 #: ../bibletime/util/cresmgr.cpp:1559
-msgid ""
-"The default Morphological lexicon for Greek texts used in the workspace area"
-msgstr "작업공간 기본 그리스어 형태학적 태그스"
+msgid "The default Morphological lexicon for Greek texts used in the workspace area"
+msgstr "작업공간 기본 그리스어 형태학적 태그"
 
 #: ../bibletime/util/cresmgr.cpp:1560
 msgid ""
@@ -3054,8 +3040,7 @@ msgid "Use different variants from the textual sources."
 msgstr "다른 원문 보기"
 
 #: ../bibletime/util/cresmgr.cpp:1628
-msgid ""
-"Opens the search dialog to search in the modules that are currently open."
+msgid "Opens the search dialog to search in the modules that are currently open."
 msgstr "열린 모듈에서 찾기 대화상자 열기"
 
 #: ../bibletime/util/ctoolclass.cpp:84
@@ -3431,3 +3416,4 @@ msgstr "줄루어"
 #, fuzzy
 #~ msgid "No modules selected."
 #~ msgstr "모듈이 선택되지 않음"
+
