@@ -1,0 +1,470 @@
+<chapter id="hdbk-config"
+><title
+>BibleTime konfigurieren</title>
+
+<para
+>Die &bibletime;-Benutzerschnittstelle kann vielseitig konfiguriert werden. Um den Konfigurationsdialog aufzurufen, wählen Sie in der Hauptwerkzeugleiste <guimenu
+>Einstellungen</guimenu
+>. Von hier aus wählen Sie <guimenuitem
+>Werkzeugleisten konfigurieren</guimenuitem
+>, um den Konfigurationsdialog der Werkzeugleisten aufzurufen, oder Sie wählen <guimenuitem
+>&bibletime; konfigurieren</guimenuitem
+>, um den BibleTime Konfigurationsdialog aufzurufen.</para>
+
+	<section id="hdbk-config-toolbar"
+><title
+>Werkzeugleisten-Konfigurationsdialog</title>
+	<para
+>Der Werkzeugleisten-Konfigurationsdialog ermöglicht das Hinzufügen und Entfernen von Aktionen von der Haupterkzeugleiste von &bibletime;. Die Reihenfolge der Aktionen kann auch verändert werden.</para>
+	<mediaobject
+> <imageobject
+> <imagedata fileref="hdbk-config-toolbar.png" format="PNG"/> </imageobject
+> <textobject
+> <phrase
+>Werkzeugleisten-Konfigurationsdialog</phrase
+> </textobject
+> <caption
+> <para
+>Der Werkzeugleisten-Konfigurationsdialog.</para
+> </caption
+> </mediaobject>
+	</section>
+
+	<section id="hdbk-config-bt"
+><title
+>Optionendialog</title>
+	<para
+>Der Optionendialgo erlaubt Ihnen, viele &bibletime; und Sword Features anzupassen.</para>
+
+		<section id="hdbk-config-bt-startup"
+><title
+>Start</title>
+		<para
+>Das Startverhalten kann angepasst werden. Wählen Sie aus den folgenden Optionen aus:</para>
+		<simplelist
+> <member
+>Tip des Tages anzeigen</member
+> <member
+>Startlogo anzeigen</member
+> <member
+>Fenster im Arbeitsbereich wiederherstellen</member
+> </simplelist>
+		<mediaobject
+> <imageobject
+> <imagedata fileref="hdbk-conf-optdialog-start.png" format="PNG"/> </imageobject
+> <textobject
+> <phrase
+>Optionendialog</phrase
+> </textobject
+> <caption
+> <para
+>Der Optionendialog - Start.</para
+> </caption
+> </mediaobject>
+		</section>
+		<section id="hdbk-config-bt-fonts"
+><title
+>Schriften</title>
+		<para
+>Die Anzeigeschrift kann verändert werden. Wenn Sie ein Modul haben, das eine spezielle Schrift benötigt, überprüfen Sie hier, ob die Schrift für &bibletime; verfügbar ist. </para>
+		<mediaobject
+> <imageobject
+> <imagedata fileref="hdbk-conf-optdialog-fonts.png" format="PNG"/> </imageobject
+> <textobject
+> <phrase
+>Optionendialog - Schriften</phrase
+> </textobject
+> <caption
+> <para
+>Der Optionendialog - Schriften.</para
+> </caption
+> </mediaobject>
+
+			<section id="hdbk-config-bt-Unicode"
+><title
+>Unicode Schriften (ISO10646)</title>
+			<para
+>Sword Module benutzen entweder das ISO-8859-1 (Latin-1) oder das ISO-10646 (Unicode) Encoding. Sie können herausfinden, welches Encoding verwendet wurde, durch &RMB; auf dem Hauptindex, und Auswahl von <guimenuitem
+>Über dieses Modul</guimenuitem
+>.</para>
+			<mediaobject
+> <imageobject
+> <imagedata fileref="hdbk-conf-font-about.png" format="PNG"/> </imageobject
+> <textobject
+> <phrase
+>Über dieses Modul</phrase
+> </textobject
+> <caption
+> <para
+>Das "Über dieses Modul"-Fenster zeigt an, welches Encoding benutzt wird.</para
+> </caption
+> </mediaobject>
+			<para
+>Solange Ihre benötigten Module korrekt angezeigt werden, muss hier nichts unternommen werden. Wenn ein Modul als eine Folge von Fragezeichen (???????????????????) angezeigt wird, dann enthält die eingestellte Schriftart nicht die Zeichen, die in Ihrem Dokument verwendet wurden.</para>
+
+			<para
+>Wählen Sie im Optionendialog <guilabel
+>Schriften auswählen</guilabel
+> in dem <guilabel
+>Unicode Bereich der Anwendung</guilabel
+>. Sie müssen eine Schrift auswählen, die den ISO-10646-1 Zeichensatz enthält. Versuchen Sie clearlyu als einen ersten Schritt. (es ist in den meisten Distibutionen enthalten). Wenn Ihr Modul immer noch nicht korrekt dargestellt wird, dann versuchen Sie es mit einer geeigneteren Schriftart.</para>
+
+			<tip
+><para
+>Wenn Sie eine kleine Unicode-Schriftart wie clearlyu (about 22kb) benutzen, wird &bibletime; schneller laufen, als wenn Sie eine umfangreiche Schriftart wie Bitstream Cyberbit (ungefähr 12Mb) verwenden.</para
+></tip>
+
+			<section id="hdbk-config-bt-addfont"
+><title
+>Schrift Installation</title>
+			<para
+>Die Installation von Schriftarten besteht aus drei Schritten</para>
+
+			<orderedlist numeration="lowerroman"
+> <listitem
+> <para
+><link linkend="hdbk-config-bt-ob-font"
+>Unicode Schriftarten bekommen</link
+></para
+> </listitem
+> <listitem
+> <para
+><link linkend="hdbk-config-bt-ob-font-X"
+>Schriftarten für den &X-Server; installieren</link
+></para
+> </listitem
+> <listitem
+> <para
+><link linkend="hdbk-config-bt-ob-font-print"
+>Schriftarten für das Drucken installieren (funktioniert noch nicht).</link
+></para
+> </listitem
+> </orderedlist>
+			</section>
+
+
+			<section id="hdbk-config-bt-ob-font"
+><title
+>Schriftarten bekommen</title>
+			<para
+>Es gibt eine Anzahl von Schriften, die Unicode unterstützen, und einige von ihnen sind kostenlos verfügbar. Wenige der verfügbaren Schriften enthalten alle Symbole, die im Unicode Standard definiert sind.</para>
+			<para
+>Hier ist eine Liste von einigen verfügbaren Schriften:</para>
+				<table>
+				<title
+>Unicode Schriften</title>
+				<tgroup cols="2">
+				<tbody
+> <row
+><entry
+>Clearlyu</entry
+> <entry
+>Ist in einigen Distributionen enthalten. Enthält Europäisch, Griechisch, Hebräisch, Thai. Enthält keine chinesischen Schriftzeichen oder Arabisch</entry
+></row
+> <row
+><entry
+><ulink url="ftp://ftp.crosswire.org/pub/sword/iso/latest/FONTS"
+>ftp://ftp.crosswire.org/pub/sword/iso/latest/FONTS</ulink
+>.</entry
+> <entry
+>Verschiedene Schriften sind auf der Crosswire FTP Seite verfügbar.</entry
+></row
+> <row
+><entry
+><ulink url="ftp://ftp.netscape.com/pub/communicator/extras/fonts/windows/"
+>Bitstream CyberBit</ulink
+></entry
+> <entry
+>Deckt fast den ganzen Unicode-Bereich ab.</entry
+></row
+> <row
+><entry
+><ulink url="http://bibliofile.mc.duke.edu/gww/fonts/Unicode.html"
+>Caslon, Monospace, Cupola, Caliban</ulink
+></entry
+> <entry
+>Teilweise Abdeckung, siehe die Information auf der angegebenen Seite.</entry
+></row
+> </tbody>
+				</tgroup>
+				</table>
+			<para
+>Das vollständigste Verzeichnis von Unicode-Schriften, das wir kennen, ist <ulink url="http://www.ccss.de/slovo/unifonts.htm"
+> Christoph Singers "Multilingual Unicode TrueType Fonts in the Internet" </ulink
+>.</para>
+			<para
+>Eine andere Liste von Unicode Schriften und den abgedeckten Bereichen finden sie <ulink url="http://www.hclrss.demon.co.uk/unicode/fontsbyrange.html"
+>hier</ulink
+> </para>
+			</section>
+
+			<section id="hdbk-config-bt-ob-font-X"
+><title
+>Schriften für XFree86 installieren (Ihren &X-Server;)</title>
+			<para
+> Wenn Ihre Distribution einen Schriftarten Installer enthält (&Linux-Mandrake; bietet Drake Font), verwenden Sie den Installer. Wenn das nicht funktioniert, oder Sie keinen haben, müssen Sie die Schrift manuell installieren. Anweisungen dafür finden Sie <ulink url="http://www.ibiblio.org/pub/Linux/docs/HOWTO/other-formats/html_single/Unicode-HOWTO.html#toc4"
+>Das Unicode HOWTO</ulink
+>. Das wurde getestet und funktioniert unter &Linux-Mandrake; 7.1.</para>
+
+			</section>
+
+			<section id="hdbk-config-bt-ob-font-print"
+><title
+>Installieren der Schrift für das Drucken</title>
+			<para
+>Ein bekanntes Problem in Qt verhindert das Drucken von Zeichen außerhalb des Bereiches des Latin-1 Zeichensatzes. Das wird mit der Freigabe von Qt3 und KDE 3 gelöst sein. Wenn Sie es trotzdem versuchen möchten, das <ulink url="http://www.ibiblio.org/pub/Linux/docs/HOWTO/other-formats/html_single/Font-HOWTO.html"
+>Font HowTo</ulink
+> beschreibt den Prozess der Installation von Schriften für das Drucksystem.</para>
+			</section>
+
+		</section>
+	</section>
+
+	<section id="hdbk-config-bt-Colors"
+><title
+>Farben</title>
+	<para
+>Die Farben der Objekte in den Anzeigefenstern können angepasst werden. Folgende Objekte können verändert werden:</para>
+	<simplelist
+> <member
+>Text</member
+> <member
+>Hervorgehobener Vers</member
+> <member
+>Fußnoten</member
+> <member
+>Morphologische Tags</member
+> <member
+>Hintergrund</member
+> <member
+>Hyperlinks</member
+> <member
+>Strongnummern</member
+> <member
+>Worte Jesu</member
+> </simplelist>
+
+	<para
+>Einige Optionen, wie die "Worte Jesu" treffen nur für bestimmte Texte zu, die diese speziellen Features unterstützen.</para>
+	<mediaobject
+> <imageobject
+> <imagedata fileref="hdbk-conf-optdialog-color.png" format="PNG"/> </imageobject
+> <textobject
+> <phrase
+>Optionendialog - Farbe </phrase
+> </textobject
+> <caption
+> <para
+>Der Optionendialog - Farbe</para
+> </caption
+> </mediaobject>
+
+	</section>
+
+	<section id="hdbk-config-bt-profiles"
+><title
+>Profile</title>
+	<para
+>Profile definieren die Erscheinung des Arbeitsbereiches, z.B. welche Fenster geöffnet sind, und welche Texte in diesen Fenstern angezeigt werden sollen. Wenn ein Profil einmal erstellt ist, erwenden Sie den Eintrag <guimenu
+>Fenster</guimenu
+> -> <guimenuitem
+>Profil sichern</guimenuitem
+>, um die aktuelle Sitzung in ein Profil zu sichern. Verwenden Sie <guimenu
+>Fenster</guimenu
+> -> <guimenuitem
+>Profil laden</guimenuitem
+>, um ein bereits gespeichertes Profil in &bibletime; zu laden.</para>
+	</section>
+
+	<section id="hdbk-config-bt-sword"
+><title
+>Sword</title>
+	<para
+>Viele Funktionen, die von Sword bereitgestellt werden, können in &bibletime; angepasst werden.</para>
+	<mediaobject
+> <imageobject
+> <imagedata fileref="hdbk-conf-optdialog-sword.png" format="PNG"/> </imageobject
+> <textobject
+> <phrase
+>Optionendialog - Sword</phrase
+> </textobject
+> <caption
+> <para
+>Der Optionendialog - Sword.</para
+> </caption
+> </mediaobject>
+
+		<section id="hdbk-config-bt-sword-gen"
+><title
+>Sword Allgemein</title>
+		<para
+>Schlüsselcache für Lexikons</para>
+		<para
+>Bibletime kann einen Keycache für Lexikons anlegen. Dies beschleunigt das Öffnen großer Lexika. Es verbraucht allerdings etwas Festplattenkapazität, also sollten Sie dieses Feature abschalten, wenn Sie nur über sehr wenig freien Speicher haben.</para>
+
+		<para
+>Scrollverhalten</para>
+		<para
+>Per Voreinstellung bewegt der Pfeil nach unten das Anzeigefenster zum nächsten Vers. Mit dieser Option kann man das Verhalten so ändern, dass es zum vorigen Vers springt.</para>
+
+		<para
+>Wählen Sie eine Sprache für die Bücher der Bibel</para>
+		<para
+>Dieses Feature ermöglicht die Auswahl der Sprache, die für die Buchnamen der Bibel verwendet wird.Z.B. kann die King James Version mit deutschen Buchnamen dargestellt werden.Wenn Ihre Sprache nicht unterstützt wird, und Sie gerne eine Übersetzung anfertigen wollen, dann besuchen Sie bitte die Crosswire Entwicklerseiten.</para>
+		</section>
+
+
+		<section id="hdbk-config-bt-sword-mod"
+><title
+>Sword Standardmodule</title>
+		<para
+>Hier werden Standardmodule festgelegt.</para>
+		</section>
+		<section id="hdbk-config-bt-sword-filter"
+><title
+>Sword Filtereinstellungen</title>
+		<para
+>Filter kontrollieren die Erscheinung des Textes in den Anzeigefenstern. Hier können Sie die Voreinstellungen für verschiedene Filter festlegen.</para>
+		<para
+>Folgendes kann durch Filter kontrolliert werden:</para>
+
+			<itemizedlist
+> <listitem
+><para
+>Zeilenumbruch nach jedem Vers anzeigen</para
+></listitem
+> <listitem
+><para
+>Versnummern anzeigen</para
+></listitem
+> <listitem
+><para
+>Fußnoten anzeigen</para
+></listitem
+> <listitem
+><para
+>Strongnummern anzeigen</para
+></listitem
+> <listitem
+><para
+>Überschriften anzeigen</para
+></listitem
+> <listitem
+><para
+>Morphologische Tags anzeigen</para
+></listitem
+> <listitem
+><para
+>Wurzeln anzeigen</para
+></listitem
+> <listitem
+><para
+>Hebräische Vokalzeichen anzeigen</para
+></listitem
+> <listitem
+><para
+>Hebräische Kantillationszeichen anzeigen</para
+></listitem
+> <listitem
+><para
+>Griechische Akzente anzeigen</para
+></listitem
+> </itemizedlist>
+
+		</section>
+
+	</section>
+
+	<section id="hdbk-config-bt-Accelerators"
+><title
+>Tastenkürzel</title>
+	<para
+>Es handelt sich um spezielle Tastenbefehle, die anstatt der Menüeinträge und Icons verwendet werden können. Eine Anzahl der Kommandos in &bibletime; haben vordefinierte Tastenkürzel. Allen Kommandos in &bibletime; können hier Tastenküzel zugewiesen werden.</para>
+
+		<table>
+		<title
+>Standard-Tastenkürzel</title>
+		<tgroup cols="2">
+		<thead
+> <row
+> <entry
+>Aktion</entry
+> <entry
+>Tastenkombination</entry
+> </row
+> </thead>
+
+		<tbody
+> <row
+> <entry
+>Automatisch Kacheln</entry
+><entry
+>Ctrl+Alt+T</entry
+></row
+> <row
+><entry
+>Automatisch staffeln </entry
+><entry
+>Ctrl+Alt+A </entry
+></row
+> <row
+><entry
+>Staffeln </entry
+><entry
+>Ctrl+A </entry
+></row
+> <row
+><entry
+>Alle schließen </entry
+><entry
+>Shift+Ctrl+A</entry
+></row
+> <row
+><entry
+>Werkzeugleisten konfigurieren</entry
+><entry
+></entry
+></row
+> <row
+><entry
+>Voreinstellungen </entry
+><entry
+></entry
+></row
+> <row
+><entry
+>Verlassen </entry
+><entry
+>Ctrl+Q</entry
+></row
+> <row
+><entry
+>Ausgewählte Einträge entfernen</entry
+><entry
+>Ctrl+Alt+D</entry
+></row
+> <row
+><entry
+>Hauptgruppe zurücksetzen </entry
+><entry
+>Ctrl+Alt+R</entry
+></row
+> <row
+><entry
+>In den ausgewählten Modulen suchen </entry
+><entry
+>Ctrl+Alt+S</entry
+></row
+> <row
+><entry
+>Kacheln </entry
+><entry
+>Ctrl+T </entry
+></row
+> </tbody>
+		</tgroup>
+		</table>
+	</section>
+</section>
+</chapter>
+
