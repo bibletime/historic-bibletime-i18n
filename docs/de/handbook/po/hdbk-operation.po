@@ -338,6 +338,10 @@ msgid ""
 "size, color, italicize, underline and some paragraph formating "
 "possibilities. As with all good modern editors What You See Is What You Get."
 msgstr ""
+"Die Editoren für den persönlichen Kommentar sind mit einer Navigation und einem Speichern-Knopf ausgestattet. "
+"Der HTML Editor stellt auch dir Grundlegenden Funktionen für Schriftnamen, -größe, -farbe, kursiv, unterstreichen und "
+"einiger anderer Möglichkeiten der Absatzformatierung. So wie mit allen modernen Editoren gilt hier hier "
+"&quot;What you see is what you get&quot;."
 
 #: index.docbook:163
 #, no-c-format
@@ -347,6 +351,10 @@ msgid ""
 "\"hdbk-op-delete-verse.png\"/> </imageobject> <textobject> <phrase>Delete "
 "Verse Symbol</phrase> </textobject> </inlinemediaobject>."
 msgstr ""
+"Um die Anmerkungen eines Verses zu löschen, klicken Sie auf den <guibutton>Löschen Knopf</guibutton> "
+"<inlinemediaobject> <imageobject> <imagedata fileref="
+"\"hdbk-op-delete-verse.png\"/> </imageobject> <textobject> <phrase>Anmerkungen Löschen</phrase> "
+"</textobject> </inlinemediaobject>."
 
 #: index.docbook:181
 #, no-c-format
@@ -438,6 +446,10 @@ msgid ""
 "\"PNG\"/> </imageobject> </inlinemediaobject> in the toolbar if you would "
 "prefer."
 msgstr ""
+"Um auf die Suchfunktion zuzugreifen, klicken Sie mit der <mousebutton>rechten</"
+"mousebutton> Maustaste in die Hauptgruppe. Wählen Sie nun das Vergrößerungsglas aus. Sie können &bibletime; "
+"auch so einrichten, dass Suchsymbol <inlinemediaobject> <imageobject> <imagedata fileref=\"find.png\" format="
+"\"PNG\"/> </imageobject> </inlinemediaobject> in die Werkzeugleiste zu setzen."
 
 #: index.docbook:230
 #, no-c-format
@@ -469,6 +481,10 @@ msgid ""
 "searched. Select modules with a click in the checkbox, then click the "
 "<guibutton>Use Selected Modules</guibutton> button."
 msgstr ""
+"Ganz oben im Abschnitt \"Einstellungen\" finden die den Knopf <guibutton>Module wählen</guibutton>, "
+"mit den bereits gewählten Modulen darunter. Wenn Sie weitere Module durchsuchen möchten, klicken Sie auf "
+"<guibutton>Module wählen</guibutton>, es öffnet sich ein Dialog mit allen durchsuchbaren Modulen. Wählen Sie Module "
+"mit einem Klick auf die Box aus, dann klicken Sie auf den Knopf <guibutton>Gewählte Module benutzen</guibutton>."
 
 #: index.docbook:250
 #, no-c-format
@@ -481,7 +497,7 @@ msgid "Searched Text - what you want to find."
 msgstr "Gesuchter Text - was Sie finden möchten."
 
 #: index.docbook:263
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The text box labled Searched Text is where the phrase to be used as the "
 "search key is entered. This phrase may be one or more words, or partial "
@@ -493,11 +509,12 @@ msgid ""
 msgstr ""
 "Die Textbox in dem Feld Sucheinstellungen ist der Ort, wo Sie den zu "
 "suchenden Text eingeben können. Er kann aus einem oder mehreren Worten "
-"bestehen, oder auch aus Wortteilen(trennen Sie Wörter und Wortteile mit "
-"Leerzeichen) oder Regulären Ausdrücken bestehen. Sie können die Radio "
-"Buttons verwenden, um die Suche im \"Mehrere Wörter\", \"Exakte Suche\" oder "
-"\"Reguläre Ausdrücke\" Modus auszuführen. Mit einer Checkbox können Sie die "
-"Unterscheidung zwischen Groß- und Kleinbuchstaben an- und ausschalten."
+"bestehen, aus Wortteilen (trennen Sie Wörter und Wortteile mit "
+"Leerzeichen) oder Mustern <link linkend=\"hdbk-op-search-dialog-text-regexp\">(Regulären Ausdrücken )"
+"</link>bestehen. Sie können die Radio-Buttons "
+"verwenden, um die Suche im \"Mehrere Wörter\", \"Exakte Suche\" oder "
+"\"Regulärer Ausdrück\" Modus auszuführen. Es steht eine Checkbox zur Verfügung, um einzustellen , "
+"ob die Suche zwischen Groß- und Kleinschreibung unterscheiden soll."
 
 #: index.docbook:274
 #, no-c-format
@@ -515,7 +532,7 @@ msgid "Using the Search Text Case Sensitive checkbox"
 msgstr "Benutzung des Knopfes für GROSS/klein Unterscheidung"
 
 #: index.docbook:280
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Click on the Case Sensitive check box to toggle case sensitivity on or off. "
 "If the box is marked a search will only find verse in which the found text "
@@ -525,10 +542,10 @@ msgid ""
 "the check box. To let &quot;LORD&quot; and &quot;Lord&quot; match &quot;"
 "lord&quot; leave the check box unmarked."
 msgstr ""
-"Klicken Sie auf die GROß/klein Box, um die Unterscheidung an oder aus zu "
+"Klicken Sie auf die GROß/klein Box, um die Unterscheidung zwischen beiden an oder aus zu "
 "schalten. Wenn die Box angeschaltet ist, wird die Suche nur Verse finden, in "
 "denen der Text genauso wie in der Texteingabezeile auftaucht. Falls die Box "
-"ausgeschaltet ist, wird die Suche Treffer finden, sie sich auch in der Groß- "
+"ausgeschaltet ist, wird die Suche Treffer finden, die sich auch in der Groß- "
 "und Kleinschreibung unterscheiden. Um &quot;HERR&quot; jedoch nicht &quot;"
 "Herr&quot; oder &quot;herr&quot; zu finden, wählen Sie die Option aus. Um "
 "mit &quot;HERR&quot; und &quot;Herr&quot; &quot;herr&quot; zu finden, lassen "
@@ -540,7 +557,7 @@ msgid "Using the Search Text Multiple Word (AND) Button"
 msgstr "Benutzung des \"Mehrere Wörter (UND)\" Knopfes"
 
 #: index.docbook:295
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "If Multiple Words (AND) radio button is marked the search will locate all "
 "lines (or verses) that have all the words, listed in the Input Field. The "
@@ -552,9 +569,9 @@ msgid ""
 "&quot; This is because a word that is part of another word is considered "
 "found if a word containing it is found."
 msgstr ""
-"Wenn \"Mehrere Wörter\" ausgewählt ist, wird die Suche alle Verse finden, "
-"die alle Worte (oder Wortteile) enthalten. Die Position und Reihenfolge der "
-"The position Worte spielt keine Rolle. Wenn alle Worte in einem Vers "
+"Wenn \"Mehrere Wörter (UND)\" ausgewählt ist, wird die Suche alle Verse finden, "
+"die alle eingegebenen Worte enthalten. Die Position und Reihenfolge der "
+"Worte spielt keine Rolle. Wenn alle Worte in einem Vers "
 "enthalten sind, wird er in der Liste der gefundenen Verse angezeigt. Eine "
 "Suche nach &quot;prove cause&quot; wird 1 Mose 21:25 finden, &quot;And "
 "Abraham re<emphasis>prove</emphasis>d Abimelech be <emphasis>cause</"
@@ -575,6 +592,9 @@ msgid ""
 "was very grievous in Abraham's sight be<emphasis>cause </emphasis> of his "
 "son.&quot;"
 msgstr ""
+"Wenn der Knopf \"Mehrere Wörter (ODER)\" ausgewählt wurde, dass findet die Suche alle Zeilen (oder Verse) die eines "
+"der Wörter des Eingabefeldes enthalten. Eine Suche nach &quote;cause&quote; findet 1. Mose 21:11 &quot;And the thing "
+"was very grievous in Abraham's sight be<emphasis>cause </emphasis> of his son.&quot;."
 
 #: index.docbook:317
 #, no-c-format
@@ -582,7 +602,7 @@ msgid "Using the Exact Search"
 msgstr "Benutzung der Genauen Suche"
 
 #: index.docbook:318
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "If the Exact radio button is marked the search will locate all lines (or "
 "verses) that contain what was entered in the input field, exactly as "
@@ -610,6 +630,9 @@ msgid ""
 "Define the Scope of your search by clicking on the <guibutton>Choose Scope</"
 "guibutton> button. You will be presented a list of predefined scopes."
 msgstr ""
+"Geben Sie die Suche für ihre Suche durch Klick auf den"
+"<guibutton>Suchbereich wählen</guibutton> Knopf. Ihnen wird eine Liste von vordefinierten Suchbereichen "
+"angeboten."
 
 #: index.docbook:333
 #, no-c-format
@@ -630,25 +653,21 @@ msgstr ""
 "innerhalb der Verse suchen, die in der letzten Suche gefunden wurden. "
 
 #: index.docbook:333
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<guibutton>Gospels</guibutton> The new search will be performed within the "
 "range Matthew 1:1 - John 21:25"
-msgstr ""
-"<guibutton>Suchbereich benutzen</guibutton> Die neue Suche wird innerhalb "
-"des angegebenen Suchbereiches ausgeführt."
+msgstr "<guibutton>Evangelien</guibutton> Die neue Suche wird innerhalb der Grenze Matthäus 1:1 und Johannes 21:25 ausgeführt."
 
 #: index.docbook:333
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<guibutton>History</guibutton> The new search will be performed within the "
 "range Joshua 1:1 - Esther 10:3;"
-msgstr ""
-"<guibutton>Suchbereich benutzen</guibutton> Die neue Suche wird innerhalb "
-"des angegebenen Suchbereiches ausgeführt."
+msgstr "<guibutton>Geschichte</guibutton> Die neue Suche wird in den Grenzen von Josua :1 - Esther 10:3 durchgeführt."
 
 #: index.docbook:344
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "If <guibutton>No Scope</guibutton> is checked and a search of the KJV Bible "
 "module is done for the name, Jesus, 939 matches will result. Then if "
@@ -665,9 +684,8 @@ msgstr ""
 "Suche nach \"Christ\", durchgeführt wird, werden 257 Verse der 939 Treffer "
 "der letzten Suche übrigbleiben. Wenn dann noch (<guibutton>Letztes "
 "Suchergebnis</guibutton> bleibt ausgewählt) nach \"Lord\" gesucht wird, "
-"bleiben von den 257 Versen noch 106 übrig. Alle diese 106 Verse enthalten "
-"\"Jesus\", \"Christ\" und \"Lord\". Alle diese Verse enthalten \"Jesus\", "
-"\"Christ\" und \"Lord\"."
+"bleiben von den 257 Versen noch 106 übrig. Alle diese verbleibenden 106 Verse enthalten "
+"\"Jesus\", \"Christ\" und \"Lord\"."
 
 #: index.docbook:354
 #, no-c-format
@@ -675,21 +693,21 @@ msgid "Edit Ranges"
 msgstr "Bereiche bearbeiten"
 
 #: index.docbook:355
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Setup Custom Ranges - You can enter upper and lower boundaries for the "
 "search by clicking on the <guibutton>Setup Custom Ranges</guibutton> button."
 msgstr ""
-"Bereiche bearbeiten - Sie können obere und untere Grenzen für die Suche "
-"eingeben mit &LMB; <guibutton>Bereiche beabeiten</guibutton> Button."
+"Bereiche bearbeiten - Sie können durch Klick auf <guibutton>Suchbereiche einstellen</guibutton> "
+"den oberen und unteren Suchgrenzen für die Suche eingeben."
 
 #: index.docbook:358
 #, no-c-format
 msgid "Change Range Entry Box"
-msgstr "Bereich verändern Box"
+msgstr "Suchbereich ändern Box"
 
 #: index.docbook:367
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The predefined ranges show examples of the required syntax."
 msgstr "Die voreingestellten Einträge zeigen Beispiele der verlangten Syntax."
 
@@ -702,14 +720,18 @@ msgid ""
 "ranges. If you are satisfied you can return to the Search Options tab by "
 "clicking on <guibutton>OK</guibutton>."
 msgstr ""
+"Klicken Sie auf <guibutton>Neuen Suchbereich</guibutton>, geben Sie den Namen in die Eingabezeile ein und geben "
+"Sie den Suchbereich in die Box mit dem Titel \"Suchbereich bearbeiten\" ein. Ihre Liste wird nun zu der Liste der "
+"vordefinierten Suchbereiche hinzugefügt. Wenn Sie zufriedengestellt sind, können Sie durch Klick auf <guibutton>Ok</guibutton> "
+"zu den Sucheinstellungen zurückkehren."
 
 #: index.docbook:376
 #, no-c-format
 msgid "A number of custom ranges have been provided."
-msgstr "Eine Anzahl von angepassten Bereichen wurde zur Verfügung gestellt."
+msgstr "Eine Anzahl von vordefinierten Suchbereichen wird hier zur Verfügung gestellt."
 
 #: index.docbook:378
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The scope of a search can be set to the <emphasis>Entire Module</emphasis> "
 "or the <emphasis>Current Results.</emphasis> If Entire Module is checked and "
@@ -720,20 +742,18 @@ msgid ""
 "title, Lord, 106 matches from the 257 will remain. All the remaining 106 "
 "matches will have the name, Jesus, and both the titles, Christ and Lord."
 msgstr ""
-"Wenn <guibutton>Kein Suchbereich</guibutton> ausgewählt ist, und die KJV "
-"Bible nach \"Jesus\" durchsucht wird, werden 939 Verse gefunden. Wenn dann "
-"<guibutton>Letztes Ergebnis</guibutton> ausgewählt ist, und eine weitere "
-"Suche nach \"Christ\", durchgeführt wird, werden 257 Verse der 939 Treffer "
-"der letzten Suche übrigbleiben. Wenn dann noch (<guibutton>Letztes "
-"Suchergebnis</guibutton> bleibt ausgewählt) nach \"Lord\" gesucht wird, "
-"bleiben von den 257 Versen noch 106 übrig. Alle diese 106 Verse enthalten "
-"\"Jesus\", \"Christ\" und \"Lord\". Alle diese Verse enthalten \"Jesus\", "
-"\"Christ\" und \"Lord\"."
+"Der Suchbereich kann auf das <emphasis>gesamte Modul</emphasis> oder auf das"
+"<emphasis>letzte Suchergebnis</emphasis> gesetzt werden. Wenn das ganze Modul "
+"ausgewählt wurde und eine Suche nach dem Namen Jesus in der KJV Bibel gestartet wird, werden "
+"939 Verse gefunden. Wenn nun \"Letztes Suchergebnis\" ausgewählt wurde und eine weitere Suche "
+"nach dem Titel \"Christ\" durchgeführt wird, bleiben 257 Ergebnisse der 939 übrig. Wenn \"Letztes Suchergebnis \" "
+"ausgewählt bleibt und eine weitere Suche nach \"Lord\" gemacht wird, verbleiben 196 Treffer der 257. Alle dieser "
+"verbleibenden Treffer enthalten den Namen \"Jesus\" und die beiden Titel \"Christ\" und \"Lord\"."
 
 #: index.docbook:394
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Search TextCustom Range Dialog Box"
-msgstr "Dialogbox Suchtext"
+msgstr "Textsuche: Dialogbox Eigener Suchbereich"
 
 #: index.docbook:405
 #, no-c-format
@@ -741,24 +761,24 @@ msgid "Using the Search Text Button"
 msgstr "Benutzung des Knopfes Text Suchen"
 
 #: index.docbook:406
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Click on the <guibutton>Search Button</guibutton> to start the search."
 msgstr "Klicken Sie den Knopf <guibutton>Suchen</guibutton> um die Suche zu starten."
 
 #: index.docbook:408
 #, no-c-format
 msgid "Search Text Dialog Box"
-msgstr "Dialogbox Suchtext"
+msgstr "Suchtext Dialogbox"
 
 #: index.docbook:420
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "The Search Results Tab"
-msgstr "Benutzung des Tabs Suchergebnis"
+msgstr "Der Suchergebnis-Abschnitt"
 
 #: index.docbook:421
 #, no-c-format
 msgid "Under the search results tab you will find the all of your search hits."
-msgstr ""
+msgstr "Im Abschnit \"Suchergebnis\" finden Sie alle Treffer der Suche."
 
 #: index.docbook:425
 #, no-c-format
@@ -766,7 +786,7 @@ msgid "Using the Search Results Tab"
 msgstr "Benutzung des Tabs Suchergebnis"
 
 #: index.docbook:426
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Search Result - This tells you first, by module, how many instances of the "
 "search string were found. In the Module Column, clicking on a document will "
@@ -785,9 +805,9 @@ msgstr ""
 "Stelle zu öffnen."
 
 #: index.docbook:435
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Drag &amp; Drop Works Here in the text display area."
-msgstr "Hier funktioniert Drag&amp;Drop, wie bei anderen Kommentaren und Bibeltexten."
+msgstr "Drag &amp; Drop funktioniert hier im Textanzeigeberich."
 
 #: index.docbook:437
 #, no-c-format
@@ -823,38 +843,38 @@ msgid "Search Result Dialog Box"
 msgstr "Dialogbox Suchergebnis"
 
 #: index.docbook:455
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Using the Search Analysis"
-msgstr "Benutzung des Suchanalyse Teils"
+msgstr "Benutzung der Suchanalyse"
 
 #: index.docbook:456
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Click on <guibutton>Search Analysis</guibutton> to open the search analysis "
 "display."
-msgstr "Klicken Sie den Knopf <guibutton>Suchen</guibutton> um die Suche zu starten."
+msgstr "Klicken Sie auf <guibutton>Suchanalyse</guibutton> um die Suchanalyse anzuzeigen."
 
 #: index.docbook:457
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<guibutton>Search Analysis</guibutton> - This gives a graphic analysis of "
 "the number of instances the search string was found in each book. It can "
 "display results for all documents searched. You have the option of saving "
 "the analysis as an html formated list on your hard drive."
 msgstr ""
-"Suchanalyse - Dies zeigt eine grafische Analyse der Anzahl der Treffer in "
-"jedem Buch. Sie kann das Ergebnis aller Dokumente anzeigen. Sie können den "
-"Graphen auch als Bild auf Festplatte abspeichern."
+"<guibutton>Suchanalyse</guibutton> - Dies gibt eine grafische Übersicht über die Anzahl, die der Suchbegriff "
+"in jedem Buch gefunden wurde. Es können Suchergebnisse für alle durchsuchten Dokumente angezeigt werden. Sie "
+"haben die  Möglichkeit die Analyse als HTML formatierte Liste auf Festplatte abzuspeichern."
 
 #: index.docbook:462
 #, no-c-format
 msgid "Search Analysis Dialog Box"
-msgstr "Dialogbox Suchanalyse"
+msgstr "Suchanalyse Dialogbox"
 
 #: index.docbook:477
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Search Syntax using GCC Regular Expression"
-msgstr "Syntax der Suche bei Benutzung von GCC regulären Ausdrücken"
+msgstr "Suchsyntax bei Benutzung von GCC regulären Ausdrücken"
 
 #: index.docbook:479
 #, no-c-format
@@ -935,7 +955,7 @@ msgstr ""
 "Sonderzeichen ist)."
 
 #: index.docbook:515
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Rules for GCC Regular Expression Search Requests"
 msgstr "Regeln für Suchabfragen mit GCC regulären Ausdrücken"
 
@@ -1395,12 +1415,12 @@ msgid "Exporting and Printing"
 msgstr "Exortieren und Drucken"
 
 #: index.docbook:715
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Bible Window, Lexicon Window, Commentary Window, Book Window."
-msgstr "Bibel-Fenster, Lexikon-Fenster, Kommentar-Fenster"
+msgstr "Bibel-Fenster, Lexikon-Fenster, Kommentar-Fenster, Buch-Fenster"
 
 #: index.docbook:716
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "By clicking with the <mousebutton>right</mousebutton> mouse button on the "
 "index key number, verse number or text the Bible Window, Lexicon Window, "
@@ -1408,23 +1428,21 @@ msgid ""
 "which kind of window is current), providing options to select all, and the "
 "export options copy, add to printing queue, and save."
 msgstr ""
-"Durch &RMB; auf dem Eintrag, der Versnummer oder dem Text des "
-"Anzeigefensters wird eine Auswahlbox erscheininen (je nach Modultyp), die "
-"Zugriff auf Auswahl-, Nachschlage-, Export- und Druckfunktionen bietet."
+"Durck Klick mit der <mousebutton>rechten</mousebutton> Maustaste auf eine Stellenangabe oder auf den Text wird eine "
+"Menü geöffnet, dessen Typ je nach dem Typus des aktuellen Fensters abhängt. Das Menü stellt ihnen die Aktion "
+"\"Alles auswählen\" die Exportoptionen \"Kopieren\", \"Drucken\" und \"Speichern\" zur Verfügung."
 
 #: index.docbook:723
 #, no-c-format
 msgid "Select All"
-msgstr "Alle auswählen"
+msgstr "Alles auswählen"
 
 #: index.docbook:724
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "A mouse click here will select all of the text in the chapter displayed in "
 "the current window."
-msgstr ""
-"Ein &LMB; hier wählt den gesamten text des Kapitels aus, das gerade "
-"dargestellt wird."
+msgstr "Ein Mausklick wählt den gesamten Text des im aktuellen Anzeigefenster angezeigten Kapitels aus."
 
 #: index.docbook:730
 #, no-c-format
@@ -1432,48 +1450,42 @@ msgid "Copy"
 msgstr "Kopieren"
 
 #: index.docbook:731
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "A mouse click here will bring up a sub menu offering to copy to the copy "
 "buffer using the current location of the cursor as the starting point."
-msgstr ""
-"Ein &LMB; hier wird ein Submenü anzeigen, dass die Möglichkeit bietet, den "
-"aktuellen Text in die Zwischenablage zu kopieren."
+msgstr "Ein Mausklick öffnet hier ein Untermenü, das die Möglichkeit bietet, den Text in die Zwischenablage zu kopieren."
 
 #: index.docbook:734
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<guimenuitem>Reference only</guimenuitem> - The number of the current verse "
 "(such as Genesis 1:25)."
-msgstr ""
-"<guimenuitem>Vers</guimenuitem> - Die Nummer des aktuellen Verses (z.B. 1 "
-"Mose 1:25)."
+msgstr "<guimenuitem>Vers</guimenuitem> - Die Nummer des aktuellen Verses (z.B. 1 Mose 1:25)."
 
 #: index.docbook:734
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<guimenuitem>Text of Reference</guimenuitem> - The text of the current verse."
 msgstr "<guimenuitem>Text des Verses</guimenuitem> - Der Text des aktuellen Verses."
 
 #: index.docbook:734
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<guimenuitem>Reference with Text</guimenuitem> - Both the text of the "
 "current verse, and the verse number."
-msgstr ""
-"<guimenuitem>Vers mit Text</guimenuitem> - Sowohl Versnummer und Text des "
-"aktuellen Verses"
+msgstr "<guimenuitem>Vers mit Text</guimenuitem> - Sowohl der Text des aktuellen Verses, als auch die Versnummer."
 
 #: index.docbook:734
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<guimenuitem>Chapter</guimenuitem> - the entire chapter."
-msgstr "<guimenuitem>Kapitel</guimenuitem> - Das ganze Kapitel"
+msgstr "<guimenuitem>Kapitel</guimenuitem> - Das ganze Kapitel."
 
 #: index.docbook:734
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<guimenuitem>Selected Text</guimenuitem> - Only the selected (highlighted) "
 "text."
-msgstr "<guimenuitem>Ausgewählter Text</guimenuitem> - Nur der ausgewählte Text."
+msgstr "<guimenuitem>Ausgewählter Text</guimenuitem> - Nur der ausgewählte (hervorgehobene) Text."
 
 #: index.docbook:761
 #, no-c-format
@@ -1497,16 +1509,19 @@ msgid ""
 "<guimenu>file</guimenu> <guimenuitem>print</guimenuitem> on the "
 "<guilabel>menubar</guilabel>."
 msgstr ""
+"Die Auswahl von Drucken stellt die Druckausgabe in die &bibletime; Druckschlange. Um den Auftrag durch kprinter "
+"an den Drucker zu schicken, müssen Sie <guimenu>Datei</guimenu> <guimenuitem>Drucken</guimenuitem> in der "
+"<guilabel>Menüleiste</guilabel> auswählen."
 
 #: index.docbook:775
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A mouse click here will bring up a submenu with the printing options:"
-msgstr "Ein &LMB; hier zeigt ein Submenü mit den Druckmöglichkeiten an:"
+msgstr "Ein Mausklick öffnet ein Untermenu mit den Druckoptionen:"
 
 #: index.docbook:777
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "reference with text"
-msgstr "Vers mit Text"
+msgstr "Querverweis mit Text"
 
 #: index.docbook:777
 #, no-c-format
@@ -1546,21 +1561,21 @@ msgid "Save"
 msgstr "Speichern"
 
 #: index.docbook:803
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "A mouse click here will bring up a submenu with save options:"
-msgstr "Ein &LMB; hier zeigt ein Submenü mit Speichermöglichkeiten an:"
+msgstr "Ein Mausklick öffnet ein Untermenü mit Optionen zum Abspeichern:"
 
 #: index.docbook:805
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<guimenuitem>Verse with reference</guimenuitem> - a file is created in "
 "&UNIX; formated ASCII text."
 msgstr ""
-"<guimenuitem>Kapitel als normaler Text</guimenuitem> - eine Datei mit &UNIX;-"
+"<guimenuitem>Verse mit Stelle</guimenuitem> - eine Datei mit &UNIX;-"
 "formatiertem ASCII-Text wird erstellt."
 
 #: index.docbook:805
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<guimenuitem>Chapter as plain text</guimenuitem> - a file is created in "
 "&UNIX; formated ASCII text."
@@ -1569,7 +1584,7 @@ msgstr ""
 "formatiertem ASCII-Text wird erstellt."
 
 #: index.docbook:805
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<guimenuitem>Chapter as HTML</guimenuitem> - a file is created formated in "
 "HTML."
