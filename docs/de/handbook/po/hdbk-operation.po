@@ -59,7 +59,7 @@ msgid "Selecting a document to view"
 msgstr "Ein Modul zum Anschauen auswählen"
 
 #: index.docbook:27
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "To select a document, click with the <mousebutton>left</mousebutton> mouse "
 "button on the desired document group (Bibles, Commentaries, Lexicons, Books, "
@@ -68,9 +68,9 @@ msgid ""
 "the desired group. To open a document, click on it's icon."
 msgstr ""
 "Wenn Sie Dokument auswählen wolllen, klicken Sie einfach auf die gewünschte "
-"Dokumentengruppe (Bibeln, Kommentare oder Lexika) um den Inhalt der "
-"Dokumentengruppe anzuzeigen. Um ein Dokument zu öffnen klicken Sie auf "
-"dessen Symbol."
+"Dokumentengruppe (Bibeln, Kommentare, Lexika, Bücher, Andachten oder Wörterbücher) "
+"um den Inhalt der Dokumentengruppe anzuzeigen. "
+"Um ein Dokument zu öffnen klicken Sie auf dessen Symbol."
 
 #: index.docbook:32
 #, no-c-format
@@ -83,7 +83,7 @@ msgid "Drag &amp; Drop Works Here"
 msgstr "Hier funktioniert Drag&amp;Drop"
 
 #: index.docbook:41
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "A document can be opened from an already opened document. Simply click with "
 "the <mousebutton>left</mousebutton> mouse button on the verse number "
@@ -102,7 +102,7 @@ msgstr ""
 "Stelle springen. Dies funktioniert nur für Bibeln und Kommentare."
 
 #: index.docbook:48
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "There are two other functions accessible through clicking with the "
 "<mousebutton>right</mousebutton> mouse button on the document name. \"About "
@@ -116,17 +116,18 @@ msgid ""
 "org/sword/modules/aboutlocked.jsp\"> See information on locked modules on "
 "the Crosswire Bible Society web site.</ulink>"
 msgstr ""
-"Zwei weitere Funktionen sind durch &RMB; auf dem Modul verfügbar. \"Über "
-"dieses ModulA\" öffnet ein Fenster mit Informationen über Copyright und "
-"andere wichtige Eigenschaften dieses Dokumentes. \"Dieses Modul entschlüsseln"
+"Zwei weitere Funktionen sind durch Klicken mit der "
+"<mousebutton>rechten</mousebutton> Maustaste auf den Modulnamen verfügbar. \"Über "
+"dieses Modul\" öffnet ein Fenster mit Informationen über Copyright und "
+"anderen wichtige Eigenschaften dieses Dokumentes. \"Dieses Modul entschlüsseln"
 "\" öffnet einen kleinen Dialog für verschlüsselte Dokumente. Dies erlaubt es "
 "den Besitzern des Schlüssels, diesen einzugeben, um das Modul zu "
 "entschlüssenl und damit lesbar zu machen. Die Crosswire Bible Society muss "
 "Module verschlüsseln, bis entweder der Copyrightinhaber die Erlaubnis für "
 "die Weitergabe des Moduls erteilt, oder der Text in Public Domain "
-"übergegangen ist (Copyright verfallen). <ulink url=\"http://www.crosswire."
-"org/sword/modules/aboutlocked.jsp\">See information on locked modules on the "
-"Crosswire Bible Society web site</ulink>."
+"übergegangen ist (Verfallen des Copyrights). <ulink url=\"http://www.crosswire."
+"org/sword/modules/aboutlocked.jsp\">Lesen Sie die Informationen über verschlüsselte "
+"Module auf den Seiten der Crosswire Bible Society</ulink>."
 
 #: index.docbook:63
 #, no-c-format
@@ -134,7 +135,7 @@ msgid "Accessing the search dialog"
 msgstr "Auf den Suchdialog zugreifen"
 
 #: index.docbook:63
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You can search in a module by clicking with the <mousebutton>right</"
 "mousebutton> mouse button on the module name in the module list and "
@@ -144,9 +145,13 @@ msgid ""
 "complete description of the operation of the search features can be found "
 "<link linkend=\"hdbk-op-search\">here</link>."
 msgstr ""
-"Sie können in einem Modul suchen durch &RMB; auf dem Modulnamen in der "
-"Modulliste und Auswahl von \"Search in module(s)\". Durch Shift-&RMB; auf "
-"anderen Modulnamen können Sie mehrere Module auswählen."
+"Sie können in einem Modul suchen, indem Sie mit der <mousebutton>rechten</mousebutton> "
+"Maustaste auf den Modulnamen in der Liste der Module klicken und "
+"\"Ausgewählte Module durchsuchen...\" auswählen. Durch Drücken von Umschalt- und Klicken "
+"auf andere Module können Sie mehr als eins auswählen. Befolgen Sie die gleiche Prozedur "
+"um die Module zu durchsuchen. Sie suchen dann in allen gewählten Dokumenten. Eine "
+"vollständige Beschreibung der Bedienung der Suchfunktionen kann <link linkend=\"hdbk-op-search\">hier</link> "
+"gefunden werden."
 
 #: index.docbook:73 index.docbook:97
 #, no-c-format
@@ -159,7 +164,7 @@ msgid "Accessing bookmark functions"
 msgstr "Auf Lesezeichen zugreifen"
 
 #: index.docbook:86
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Click with the <mousebutton>right</mousebutton> mouse button on the bookmark "
 "group of the module tree window and select <guimenuitem>&quot;Create new "
@@ -174,18 +179,20 @@ msgid ""
 "the <mousebutton>right</mousebutton> mouse button to change folder names and "
 "bookmark descriptions, and delete folders and bookmarks."
 msgstr ""
-"Klicken Sie mit der rechten Maustaste auf einen leeren Bereich der "
-"Hauptgruppe und wählen Sie <guimenuitem>\"Erzeuge einen neuen Ordner\"</"
-"guimenuitem> um einen neuen Ordner anzulegen. Sie können normale Drag&amp;"
+"Klicken Sie mit der rechten Maustaste auf die Lesezeichengruppe "
+"der Hauptgruppe und wählen Sie <guimenuitem>&quot;Neuen Ordner anlegen&quot;</guimenuitem> "
+"um einen neuen Ordner anzulegen. Sie können normale Drag&amp;"
 "Drop Funktionen benutzen, um Verse aus den Suchdialogsergebnissen in den "
 "Lesezeichen Ordner zu ziehen und um Lesezeichen in Ordnern neu anzuordnen. "
 "Es gibt auch eine Import/Export Funktion für Lesezeichen. Wählen Sie "
-"\"Exportiere Lesezeichen\" im <guimenu>Menü der rechten Maustaste</guimenu>. "
-"Dies wird eine Dialogbox öffnen, in der Sie die Lesezeichen speichern "
+"<guimenuitem>&quot;Lesezeichen exportieren&quot;</guimenuitem> "
+"im <guimenu>Menü der rechten Maustaste</guimenu>. "
+"Dies wird eine Dialogbox öffnen, in der Sie die Sammlung der Lesezeichen speichern "
 "können. Sie können mit anderen Benutzern von BibleTime ausgetauscht werden, "
 "archiviert werden usw. Sie können in der gleichen Art und Weise importiert "
-"werden. Sie können auch rechts-klicken um Ordnernamen und Beschreibungen von "
-"Lesezeichen zu ändern, und um Lesezeichen und Gruppen zu entfernen."
+"werden. Sie können auch mit der <mousebutton>rechten</mousebutton> "
+"Maustaste klicken, um Ordnernamen und Beschreibungen von "
+"Lesezeichen zu ändern, und um Lesezeichen und Ordner zu entfernen."
 
 #: index.docbook:110
 #, no-c-format
@@ -193,17 +200,18 @@ msgid "Multiple Document Interface (MDI) Window"
 msgstr "Multiple Document Interface (MDI) Fenster"
 
 #: index.docbook:111
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "This is where the opened documents are displayed. Documents are displayed in "
 "\"Display Windows\", that are specific to the four types of documents. "
 "Crosswire Bible Society may release other document types for sword in the "
 "future. When they are released, &bibletime; will support them as well."
 msgstr ""
-"Hier werden Dokumente \"Anzegefenstern\" angezeigt, die speziell auf die "
+"Hier werden die geöffneten Dokumente angezeigt. Dokumente werden in \"Anzeigefenstern\" "
+"angezeigt, die speziell auf die "
 "verschiedenen Modultypen abgestimmt sind. Die Crosswire Bible Society wird "
 "möglicherweise andere Dokumenttypen für Sword schaffen. Wenn sie freigegeben "
-"werden, wird &bibletime; sie auch unterstützen."
+"werden, wird &bibletime; sie ebenfalls unterstützen."
 
 #: index.docbook:118
 #, no-c-format
@@ -211,7 +219,7 @@ msgid "Controlling Open Documents"
 msgstr "Geöffnete Fenster verwalten"
 
 #: index.docbook:118
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "Document Windows can be controlled and manipulated with normal &kde; window/"
 "title bar functions. In addition to this, you can tile and cascade open "
@@ -223,7 +231,7 @@ msgstr ""
 "Funktionen kontrolliert und verändert werden. Als Erweiterung zu diesen "
 "können Sie geöffnete Dokumentenfenster kacheln und stapeln. Benutzen Sie die "
 "entsprechenden Knöpfe in der Werkzeugleiste oder die Menüfunktionen im "
-"<guimenu>\"Fenster\"</guimenu> Untermenü der Menüleiste."
+"<guimenu>&quot;Fenste&quot;</guimenu> Untermenü der Menüleiste."
 
 #: index.docbook:126
 #, no-c-format
@@ -502,7 +510,7 @@ msgstr ""
 "in die Eingabezeile einfügen."
 
 #: index.docbook:279
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Using the Search Text Case Sensitive checkbox"
 msgstr "Benutzung des Knopfes für GROSS/klein Unterscheidung"
 
@@ -554,9 +562,9 @@ msgstr ""
 "gesuchten Worte in den Worten des Verses enthalten sind."
 
 #: index.docbook:308
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Using the Search Text Multiple Word (OR) Button"
-msgstr "Benutzung des \"Mehrere Wörter\" Button "
+msgstr "Benutzung des \"Mehrere Wörter\" Knopfes"
 
 #: index.docbook:309
 #, no-c-format
@@ -592,9 +600,9 @@ msgstr ""
 "&quot;"
 
 #: index.docbook:329
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "<guibutton>Choose Search</guibutton> Scope Options"
-msgstr "Klicken Sie den Knopf <guibutton>Suchen</guibutton> um die Suche zu starten."
+msgstr "<guibutton>Suchbereich wählen</guibutton> Einstellungen"
 
 #: index.docbook:330
 #, no-c-format
