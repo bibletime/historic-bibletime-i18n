@@ -5,8 +5,16 @@
 
 merge:
 	for cat in *.po; do \
-	name=../../../bibletime/pot/howto.pot ; \
-		echo $$cat $$name; \
+		name=../../../bibletime/pot/howto.pot ; \
+		lang=`echo $$cat | sed s/\.po//`; \
+		echo $$cat $$lang $$name; \
+		if test -d ../../../bibletime-website/$$lang; then \
+			echo Trying to merge from the website po files; \
+			msgcat --force-po -o $$cat.temp ../../../bibletime-website/$$lang/po/full.po $$cat; \
+			mv $$cat.temp $$cat; \
+		else \
+			echo No merging from the website files possible.; \
+		fi; \
 		msgmerge $$cat $$name > $$cat.new; \
 		mv $$cat.new $$cat ; \
 	done;
