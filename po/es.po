@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-01-28 14:04+0100\n"
+"POT-Creation-Date: 2005-05-31 22:02+0200\n"
 "PO-Revision-Date: 2003-03-29 22:47-0600\n"
 "Last-Translator: William Gifford Totman II <bnctotman@ev1.net>\n"
 "Language-Team: Spanish\n"
@@ -17,179 +17,273 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0\n"
 
-#: ../bibletime/backend/bt_osishtml.cpp:234
+#: ../bibletime/backend/bt_osishtml.cpp:241
 #, fuzzy
 msgid "Alternative text"
 msgstr "Guardar texto"
 
-#: ../bibletime/backend/bt_osishtml.cpp:359
+#: ../bibletime/backend/bt_osishtml.cpp:373
 #, fuzzy
 msgid "Added text"
 msgstr "Texto del módulo"
 
-#: ../bibletime/backend/cswordbackend.cpp:472
+#: ../bibletime/backend/cswordbackend.cpp:468
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:620
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:737
 msgid "Footnotes"
 msgstr "Notas al pie"
 
-#: ../bibletime/backend/cswordbackend.cpp:474
-#: ../bibletime/util/cresmgr.cpp:1341
+#: ../bibletime/backend/cswordbackend.cpp:470
 msgid "Strong's Numbers"
 msgstr "Números de Strong"
 
-#: ../bibletime/backend/cswordbackend.cpp:476
+#: ../bibletime/backend/cswordbackend.cpp:472
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:623
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:738
 msgid "Headings"
 msgstr "Encabeceras"
 
-#: ../bibletime/backend/cswordbackend.cpp:478
+#: ../bibletime/backend/cswordbackend.cpp:474
 msgid "Morphological Tags"
 msgstr "Etiquetas Morfológicas"
 
-#: ../bibletime/backend/cswordbackend.cpp:480
+#: ../bibletime/backend/cswordbackend.cpp:476
 msgid "Lemmas"
 msgstr "Lemas"
 
-#: ../bibletime/backend/cswordbackend.cpp:482
+#: ../bibletime/backend/cswordbackend.cpp:478
 msgid "Hebrew Vowel Points"
 msgstr "Puntos Vocales Hebreos"
 
 # from http://www.qsm.co.il/Hebrew/ab.htm = accents
-#: ../bibletime/backend/cswordbackend.cpp:484
+#: ../bibletime/backend/cswordbackend.cpp:480
 msgid "Hebrew Cantillation"
 msgstr "Accentos de \"cantilación\" hebreos"
 
-#: ../bibletime/backend/cswordbackend.cpp:486
+#: ../bibletime/backend/cswordbackend.cpp:482
 msgid "Greek Accents"
 msgstr "Acentos Griegos"
 
-#: ../bibletime/backend/cswordbackend.cpp:488
+#: ../bibletime/backend/cswordbackend.cpp:484
 msgid "Red letter words"
 msgstr "Palabras en letras rojas"
 
-#: ../bibletime/backend/cswordbackend.cpp:490
+#: ../bibletime/backend/cswordbackend.cpp:486
 msgid "Textual Variants"
 msgstr "Varientes Textuales"
 
-#: ../bibletime/backend/cswordbackend.cpp:492
+#: ../bibletime/backend/cswordbackend.cpp:488
 msgid "Scripture Cross-references"
 msgstr "Referencias cruzadas de las Escricturas"
 
-#: ../bibletime/backend/cswordbackend.cpp:494
-msgid "Transliteration between scripts"
-msgstr "Transcripción entre escrituras"
+#: ../bibletime/backend/cswordmoduleinfo.cpp:369
+#: ../bibletime/util/ctoolclass.cpp:204
+msgid "Version"
+msgstr "Versión"
 
-#: ../bibletime/bibletime_init.cpp:77
+#: ../bibletime/backend/cswordmoduleinfo.cpp:374
+#, fuzzy
+msgid "Markup"
+msgstr "Inicio"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:378
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:65
+msgid "Location"
+msgstr "Localización "
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:382
+#: ../bibletime/util/ctoolclass.cpp:196
+msgid "Language"
+msgstr "Idioma"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:387
+#, fuzzy
+msgid "Category"
+msgstr "Capítulo"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:392
+msgid "LCSH"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:397
+msgid "Writable"
+msgstr "Escribible"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:398
+msgid "yes"
+msgstr "sí"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:402
+#: ../bibletime/util/ctoolclass.cpp:199
+msgid "Unlock key"
+msgstr "Desbloquear clave"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:416
+msgid "Features"
+msgstr "Propiedades"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:423
+#: ../bibletime/util/ctoolclass.cpp:192
+#, fuzzy
+msgid "Take care, this work contains cult / questionable material!"
+msgstr "¡Cuidado, este módulo contiene material culto o sospechoso!"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:433
+msgid "Distribution license"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:438
+msgid "Distribution source"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:443
+#, fuzzy
+msgid "Text source"
+msgstr "Color de texto"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:448
+msgid "Distribution notes"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:456
+msgid "Copyright notes"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:462
+#, fuzzy
+msgid "Copyright holder"
+msgstr "Borde derecho"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:467
+msgid "Copyright date"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:472
+msgid "Copyright contact name"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:480
+msgid "Copyright contact address"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:486
+msgid "Copyright contact email"
+msgstr ""
+
+#: ../bibletime/bibletime_init.cpp:63
 msgid "Creating BibleTime's GUI"
 msgstr "Creando el GUI de BibleTime"
 
-#: ../bibletime/bibletime_init.cpp:85
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:148
-msgid "Main index"
-msgstr "Índice principal"
+#: ../bibletime/bibletime_init.cpp:71
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:116
+#, fuzzy
+msgid "Bookshelf"
+msgstr "Libros"
 
-#: ../bibletime/bibletime_init.cpp:104
+#: ../bibletime/bibletime_init.cpp:89
 msgid "Initializing menu- and toolbars"
 msgstr "Iniciando menu- y barras de herramientas"
 
-#: ../bibletime/bibletime_init.cpp:114
-msgid "Search in open module(s)"
+#: ../bibletime/bibletime_init.cpp:99
+#, fuzzy
+msgid "Search in open work(s)"
 msgstr "Buscar en módulo(s)"
 
-#: ../bibletime/bibletime_init.cpp:126
-msgid "Search in default bible"
+#: ../bibletime/bibletime_init.cpp:111
+#, fuzzy
+msgid "Search in standard Bible"
 msgstr "Buscar en la Biblia predeterminada"
 
-#: ../bibletime/bibletime_init.cpp:146
-msgid "&Show main index"
-msgstr "&Mostrar índice principal"
-
-#: ../bibletime/bibletime_init.cpp:157
-msgid "Show &info display"
+#: ../bibletime/bibletime_init.cpp:131
+msgid "&Show bookshelf"
 msgstr ""
 
-#: ../bibletime/bibletime_init.cpp:175
+#: ../bibletime/bibletime_init.cpp:142
 #, fuzzy
-msgid "Configure &Sword"
-msgstr "&Configurar sesiónes"
+msgid "Show &mag"
+msgstr "Mostrar lemas"
 
-#: ../bibletime/bibletime_init.cpp:195
+#: ../bibletime/bibletime_init.cpp:160
+msgid "&Bookshelf Manager"
+msgstr ""
+
+#: ../bibletime/bibletime_init.cpp:184
 #, fuzzy
 msgid "&Arrangement mode"
 msgstr "Módulo actual:"
 
-#: ../bibletime/bibletime_init.cpp:201
+#: ../bibletime/bibletime_init.cpp:190
 #, fuzzy
 msgid "Manual mode"
 msgstr "Módulos predeterminados"
 
-#: ../bibletime/bibletime_init.cpp:219
+#: ../bibletime/bibletime_init.cpp:205
 msgid "Tile vertical"
 msgstr ""
 
-#: ../bibletime/bibletime_init.cpp:237
+#: ../bibletime/bibletime_init.cpp:220
 msgid "Tile horizontal"
 msgstr ""
 
-#: ../bibletime/bibletime_init.cpp:255 ../bibletime/bibletime_init.cpp:272
+#: ../bibletime/bibletime_init.cpp:235 ../bibletime/bibletime_init.cpp:250
 msgid "&Cascade"
 msgstr "&En cascada"
 
-#: ../bibletime/bibletime_init.cpp:285
+#: ../bibletime/bibletime_init.cpp:263
 msgid "&Tile vertical"
 msgstr ""
 
-#: ../bibletime/bibletime_init.cpp:299
+#: ../bibletime/bibletime_init.cpp:274
+msgid "&Tile horizontal"
+msgstr ""
+
+#: ../bibletime/bibletime_init.cpp:287
 #, fuzzy
 msgid "Cl&ose all"
 msgstr "&Cerrar todo"
 
-#: ../bibletime/bibletime_init.cpp:312
+#: ../bibletime/bibletime_init.cpp:299
 msgid "&Save session"
 msgstr "&Guardar sesión"
 
-#: ../bibletime/bibletime_init.cpp:324
+#: ../bibletime/bibletime_init.cpp:310
 #, fuzzy
 msgid "Sa&ve as new session"
 msgstr "Guardar como sesión nueva"
 
-#: ../bibletime/bibletime_init.cpp:337
+#: ../bibletime/bibletime_init.cpp:322
 msgid "&Load session"
 msgstr "&Cargar sesión"
 
-#: ../bibletime/bibletime_init.cpp:349
-#, fuzzy
-msgid "Co&nfigure sessions"
-msgstr "&Configurar sesiónes"
-
-#: ../bibletime/bibletime_init.cpp:362
+#: ../bibletime/bibletime_init.cpp:332
 msgid "&Fullscreen mode"
 msgstr "&Modo de pantalla completa"
 
-#: ../bibletime/bibletime_init.cpp:389
+#: ../bibletime/bibletime_init.cpp:362
 msgid "&Handbook"
 msgstr "&Manual"
 
-#: ../bibletime/bibletime_init.cpp:401
+#: ../bibletime/bibletime_init.cpp:374
 msgid "&Bible Study Howto"
 msgstr "&Como estudiar la Biblia"
 
-#: ../bibletime/bibletime_init.cpp:432
+#: ../bibletime/bibletime_init.cpp:401
 msgid "&Daily tip"
 msgstr "&Sugerencia diaria"
 
-#: ../bibletime/bibletime_init.cpp:519
+#: ../bibletime/bibletime_init.cpp:462
 msgid "Initializing Sword"
 msgstr "Iniciando Sword"
 
-#: ../bibletime/bibletime_init.cpp:570
+#: ../bibletime/bibletime_init.cpp:513
 msgid "Initializing print system"
 msgstr "Iniciando sistema de imprimir"
 
-#: ../bibletime/bibletime_slots.cpp:504
-#: ../bibletime/frontend/coptionsdialog.cpp:137
+#: ../bibletime/bibletime_slots.cpp:518
 msgid "Please enter a name for the new session."
 msgstr "Por favor, introduzca un nombre para la sesión nueva."
 
-#: ../bibletime/bibletime_slots.cpp:504
+#: ../bibletime/bibletime_slots.cpp:518
 msgid "Session name:"
 msgstr "Nombre de la sesión"
 
@@ -198,51 +292,47 @@ msgstr "Nombre de la sesión"
 msgid "Blue"
 msgstr "Biblia"
 
-#: ../bibletime/display-templates/template-init.cpp:345
-msgid "Crazy"
-msgstr ""
-
-#: ../bibletime/display-templates/template-init.cpp:988
+#: ../bibletime/display-templates/template-init.cpp:643
 msgid "High contrast"
 msgstr ""
 
-#: ../bibletime/display-templates/template-init.cpp:1289
+#: ../bibletime/display-templates/template-init.cpp:957
 msgid "Simple "
 msgstr ""
 
-#: ../bibletime/frontend/cbtconfig.cpp:235
+#: ../bibletime/frontend/cbtconfig.cpp:225
 msgid "Old testament"
 msgstr "Testamento Antiguo"
 
-#: ../bibletime/frontend/cbtconfig.cpp:236
+#: ../bibletime/frontend/cbtconfig.cpp:226
 msgid "Moses/Pentateuch/Torah"
 msgstr "Moisés/Pentateuco/Torah"
 
-#: ../bibletime/frontend/cbtconfig.cpp:237
+#: ../bibletime/frontend/cbtconfig.cpp:227
 msgid "History"
 msgstr "Historia"
 
-#: ../bibletime/frontend/cbtconfig.cpp:238
+#: ../bibletime/frontend/cbtconfig.cpp:228
 msgid "Prophets"
 msgstr "Profetas"
 
-#: ../bibletime/frontend/cbtconfig.cpp:239
+#: ../bibletime/frontend/cbtconfig.cpp:229
 msgid "New testament"
 msgstr "Nuevo Testamento"
 
-#: ../bibletime/frontend/cbtconfig.cpp:240
+#: ../bibletime/frontend/cbtconfig.cpp:230
 msgid "Gospels"
 msgstr "Evangelios"
 
-#: ../bibletime/frontend/cbtconfig.cpp:241
+#: ../bibletime/frontend/cbtconfig.cpp:231
 msgid "Letters/Epistles"
 msgstr "Cartas/Epístolas"
 
-#: ../bibletime/frontend/cbtconfig.cpp:242
+#: ../bibletime/frontend/cbtconfig.cpp:232
 msgid "Paul's Epistles"
 msgstr "Las Epístolas de Pablo"
 
-#: ../bibletime/frontend/cexportmanager.cpp:461
+#: ../bibletime/frontend/cexportmanager.cpp:440
 msgid ""
 "*.html *.htm | HTML files\n"
 " *.* | All files (*.*)"
@@ -250,7 +340,7 @@ msgstr ""
 "*.html *.htm | archivos de HTML\n"
 " *.* | Todos archivos (*.*)"
 
-#: ../bibletime/frontend/cexportmanager.cpp:463
+#: ../bibletime/frontend/cexportmanager.cpp:442
 msgid ""
 "*.txt | Text files\n"
 " *.* | All files (*.*)"
@@ -258,1032 +348,973 @@ msgstr ""
 "*.txt | Archivos de texto\n"
 " *.* | Todos archivos (*.*)"
 
-#: ../bibletime/frontend/cexportmanager.cpp:465
+#: ../bibletime/frontend/cexportmanager.cpp:444
 msgid "All files (*.*)"
 msgstr "Todos archivos (*.*)"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:45
-msgid "Info display (\"shift\" to freeze)"
+#: ../bibletime/frontend/cinfodisplay.cpp:49
+msgid "Mag (\"shift\" to lock)"
 msgstr ""
 
-#: ../bibletime/frontend/cinfodisplay.cpp:120
+#: ../bibletime/frontend/cinfodisplay.cpp:132
 #, fuzzy
 msgid "Abbreviation"
 msgstr "Armenio"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:130
-#: ../bibletime/frontend/cinfodisplay.cpp:182
+#: ../bibletime/frontend/cinfodisplay.cpp:142
+#: ../bibletime/frontend/cinfodisplay.cpp:219
 #, fuzzy
 msgid "Cross references"
 msgstr "Preferencias"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:219
+#: ../bibletime/frontend/cinfodisplay.cpp:256
 #, fuzzy
 msgid "Footnote"
 msgstr "Notas al pie"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:245
+#: ../bibletime/frontend/cinfodisplay.cpp:282
 #, fuzzy
 msgid "Strongs"
 msgstr "Números de Strong"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:309
+#: ../bibletime/frontend/cinfodisplay.cpp:344
 #, fuzzy
 msgid "Morphology"
 msgstr "Etiquetas morfológicas"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:331
+#: ../bibletime/frontend/cinfodisplay.cpp:366
 msgid "Word lookup"
 msgstr ""
 
-#: ../bibletime/frontend/cinputdialog.cpp:72
+#: ../bibletime/frontend/cinputdialog.cpp:57
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:66
 msgid "Ok"
 msgstr "Aceptar"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:79
+#: ../bibletime/frontend/coptionsdialog.cpp:65
 msgid "Preferences"
 msgstr "Preferencias"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:137
-#: ../bibletime/frontend/coptionsdialog.cpp:343
-#: ../bibletime/util/cresmgr.cpp:1369
-msgid "Create new session"
-msgstr "Crear sesión nueva"
+#: ../bibletime/frontend/coptionsdialog.cpp:130
+#, fuzzy
+msgid "Display"
+msgstr "Opciones de pantalla"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:160
-msgid "Please enter a new name for the session."
-msgstr "Por favor introduzca un nombre nuevo para la sesión."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:160
-#: ../bibletime/util/cresmgr.cpp:1379
-msgid "Rename session"
-msgstr "Renombrar la sesión"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:184
-msgid "Startup"
-msgstr "Inicio"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:189
+#: ../bibletime/frontend/coptionsdialog.cpp:136
 msgid "Show tip of the day"
 msgstr "Mostrar sugerencia del día"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:199
+#: ../bibletime/frontend/coptionsdialog.cpp:147
 msgid "Show startuplogo"
 msgstr "Mostrar logotipo"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:209
-msgid "Restore windows from the last BibleTime session"
-msgstr "Restaurar las ventanas de la sesión última de BibleTime"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:228
-msgid "Select custom fonts per-language"
-msgstr "Seleccionar fuentes personales para cada idioma"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:229
-msgid ""
-"Here you find a list of all languages of the installed modules. You can "
-"specify a custom font for each language that needs a special font to be "
-"displayed correctly."
-msgstr ""
-"Aqu se puede encontrar la lista de todas las idiomas de los módulos "
-"instalados. Se puede especificar una fuente personal para cada idioma que "
-"necesita una fuente especial para visualizar correctamente."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:264
-msgid "Use custom font"
-msgstr "Usar fuente personal"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:273
-msgid "The quick brown fox jumps over the lazy dog."
-msgstr ""
-"El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el "
-"saxofón detrás del palenque de paja. 123456789 ¿?¡!"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:287
-#: ../bibletime/frontend/coptionsdialog.cpp:293
+#: ../bibletime/frontend/coptionsdialog.cpp:157
 #, fuzzy
 msgid "Display templates"
 msgstr "Opciones de pantalla"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:294
+#: ../bibletime/frontend/coptionsdialog.cpp:158
 msgid ""
-"Display templates define how the text of modules is displayed. Please choose "
-"a template you like."
+"Display templates define how text is displayed. Please choose a template you "
+"like."
 msgstr ""
 
-#: ../bibletime/frontend/coptionsdialog.cpp:307
+#: ../bibletime/frontend/coptionsdialog.cpp:171
 #, fuzzy
 msgid "Available display styles:"
 msgstr "Estilos disponibles"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:311
+#: ../bibletime/frontend/coptionsdialog.cpp:179
 #, fuzzy
-msgid "Style preview:"
+msgid "Style preview"
 msgstr "Vista preliminar de fuente"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:326
-msgid "Sessions"
-msgstr "Sesiones"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:331
-msgid "Manage sessions"
-msgstr "Manejar sesiones"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:332
-msgid ""
-"Sessions define the appereance of the work area, for example which windows "
-"are open and which texts should displayed in these windows. New sessions "
-"only work after you've saved something into them."
-msgstr ""
-"Sesiónes definan el aspecto del entorno de trabajo. Por ejemplo: cuales "
-"ventanas están abiertas y cuales textos deben estar visualizados encímalas. "
-"Nuevos sesiones solo funcionan después que usted se ha guardado algo "
-"adéntrolas."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:347
-msgid "Delete selected session"
-msgstr "Eliminar el perfil seleccionado"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:351
-msgid "Rename selected session"
-msgstr "Renombrar el perfil seleccionado"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:369
+#: ../bibletime/frontend/coptionsdialog.cpp:195
 #, fuzzy
-msgid "HotKeys"
-msgstr "Clave"
+msgid "Languages"
+msgstr "Idioma"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:376
-msgid "Application-wide"
-msgstr "Por toda la aplicación"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:389
-msgid "All display windows"
-msgstr "Todas ventanas de visitas"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:403
-msgid "Bible windows"
-msgstr "Ventanas de la Biblia"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:417
-msgid "Commentary windows"
-msgstr "Ventanas de comentarios"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:432
-msgid "Lexicon windows"
-msgstr "Ventanas de léxicos"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:448
-msgid "Book windows"
-msgstr "Ventanas de libros "
-
-#: ../bibletime/frontend/coptionsdialog.cpp:463
-msgid "Sword"
-msgstr "Sword"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:466
-msgid "General"
-msgstr "General"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:472
-#: ../bibletime/frontend/coptionsdialog.cpp:481
-msgid "Use key cache for lexicons"
-msgstr "Usar la caché clave para léxicos"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:473
-msgid ""
-"BibleTime can create a key cache for lexicons. This increases the speed of "
-"opening large lexicon modules significantly. Note: These files consume some "
-"disk space (usually not much), and reside in $KDEHOME/share/apps/bibletime/"
-"cache."
-msgstr ""
-"BibleTime puede crear una caché clave para léxicos. Esto se hace mucho más "
-"rapido abrir los módulos grandes de léxicos. Nota: Estos archivos ocupan "
-"algún espacio de disco (usualmente no mucho), y quedan en $KDEHOME/share/"
-"apps/bibletime/cache."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:489
-msgid "Scrolling behaviour"
-msgstr "Configuración de desplazando"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:490
-msgid ""
-"The down arrow moves to the <i>next</i> verse by default. Uncheck this box "
-"if you want it to move to the <i>previous</i> verse."
-msgstr ""
-"La flecha hacia abajo se mueve al verso <i>siguiente</i> por "
-"predeterminación. Quite la marca de esta casilla si usted quisiera mover al "
-"verso <i>anterior</i>."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:496
-#: ../bibletime/util/cresmgr.cpp:1394
-msgid "Use down arrow to scroll to next verse"
-msgstr "Use la flecha hacia abajo para desplazar al verso siguiente"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:503
+#: ../bibletime/frontend/coptionsdialog.cpp:201
 msgid "Specify a language for biblical booknames"
 msgstr "Especificar una idioma para los nombres de los libros biblicos"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:504
+#: ../bibletime/frontend/coptionsdialog.cpp:202
+#, fuzzy
 msgid ""
 "Sword has a number of locales available which can be used to "
-"internationalize the booknames of the bible. You can specify which locale to "
-"use. If you want to create a new locale, see http://www.crosswire.org/sword/"
-"develop for details."
+"internationalize the \tbooknames of the bible. You can specify which locale "
+"to use. If you want to \tcreate a new locale, see http://www.crosswire.org/"
+"sword/develop for details."
 msgstr ""
 "Sword tiene algunos locales disponibles que se puede usar para "
 "internacionalizar los nombres de los libros biblicos. Se puede especificar "
 "cual local usar. Si usted quiera crear un nuevo local, vease http://www."
 "crosswire.org/sword/develop para detalles."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:511
+#: ../bibletime/frontend/coptionsdialog.cpp:208
 msgid "Language for biblical booknames"
 msgstr "Idioma para los nombres de los libros biblicos"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:520
-#: ../bibletime/frontend/coptionsdialog.cpp:558 clanguagemgr.cpp:233
+#: ../bibletime/frontend/coptionsdialog.cpp:219
+#: ../bibletime/frontend/coptionsdialog.cpp:257 clanguagemgr.cpp:218
 msgid "English"
 msgstr "Inglés"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:572
-#: ../bibletime/frontend/coptionsdialog.cpp:577
-msgid "Default modules"
-msgstr "Módulos predeterminados"
+#: ../bibletime/frontend/coptionsdialog.cpp:274
+msgid "Select custom fonts per-language"
+msgstr "Seleccionar fuentes personales para cada idioma"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:578
+#: ../bibletime/frontend/coptionsdialog.cpp:275
+#, fuzzy
 msgid ""
-"Default modules are used when no module is specified, for example when a "
-"hyperlink into a Bible or Lexicon was clicked ."
+"Here you find a list of all languages of the installed works. \tYou can "
+"specify a custom font for each language that needs a special font \tto be "
+"displayed correctly."
+msgstr ""
+"Aqu se puede encontrar la lista de todas las idiomas de los módulos "
+"instalados. Se puede especificar una fuente personal para cada idioma que "
+"necesita una fuente especial para visualizar correctamente."
+
+#: ../bibletime/frontend/coptionsdialog.cpp:306
+msgid "Use custom font"
+msgstr "Usar fuente personal"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:314
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr ""
+"El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el "
+"saxofón detrás del palenque de paja. 123456789 ¿?¡!"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:330
+#, fuzzy
+msgid "HotKeys"
+msgstr "Clave"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:338
+#, fuzzy
+msgid "Choose type:"
+msgstr "Elegir fuente"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:357
+#, fuzzy
+msgid "BibleTime"
+msgstr "Cerrar BibleTime"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:358
+#, fuzzy
+msgid "All text windows"
+msgstr "Poner las ventanas en mosaico"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:359
+msgid "Bible windows"
+msgstr "Ventanas de la Biblia"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:360
+msgid "Commentary windows"
+msgstr "Ventanas de comentarios"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:361
+msgid "Lexicon windows"
+msgstr "Ventanas de léxicos"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:362
+msgid "Book windows"
+msgstr "Ventanas de libros "
+
+#: ../bibletime/frontend/coptionsdialog.cpp:427
+msgid "Desk"
+msgstr ""
+
+#: ../bibletime/frontend/coptionsdialog.cpp:432
+#: ../bibletime/frontend/coptionsdialog.cpp:437
+#, fuzzy
+msgid "Standard works"
+msgstr "Estándar"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:438
+#, fuzzy
+msgid ""
+"Standard works are used when no particular work is specified, \tfor example "
+"when a hyperlink into a Bible or lexicon was clicked ."
 msgstr ""
 "Se usa módulos predeterminados cuando no hay módulo especificado, por "
 "ejemplo cuando un hiperenlace a una Biblia o un Léxico es pulsado."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:584
-msgid "Default Bible"
-msgstr "Biblia Predeterminada"
+#: ../bibletime/frontend/coptionsdialog.cpp:444
+#, fuzzy
+msgid "Standard Bible"
+msgstr "Estándar"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:592
-msgid "Default Commentary"
-msgstr "Comentario Predeterminado"
+#: ../bibletime/frontend/coptionsdialog.cpp:452
+#, fuzzy
+msgid "Standard Commentary"
+msgstr "Comentario"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:601
-msgid "Default Lexicon"
-msgstr "Léxico Predeterminado"
+#: ../bibletime/frontend/coptionsdialog.cpp:461
+#, fuzzy
+msgid "Standard Lexicon"
+msgstr "Estándar"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:609
-msgid "Default Daily Devotional"
-msgstr "Devoto Diario Predeterminado"
+#: ../bibletime/frontend/coptionsdialog.cpp:469
+#, fuzzy
+msgid "Standard Daily Devotional"
+msgstr "Devotos Diarios"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:617
-msgid "Default Hebrew Strong's Lexicon"
-msgstr "Léxico Predeterminado de Hebreo de Strong"
+#: ../bibletime/frontend/coptionsdialog.cpp:477
+#, fuzzy
+msgid "Standard Hebrew Strong's Lexicon"
+msgstr "Léxico Hebreo de Strong"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:625
-msgid "Default Greek Strong's Lexicon"
-msgstr "Léxico Predeterminado de Griego de Strong"
+#: ../bibletime/frontend/coptionsdialog.cpp:485
+#, fuzzy
+msgid "Standard Greek Strong's Lexicon"
+msgstr "Léxico Griego de Strong"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:633
-msgid "Default Hebrew Morphological Lexicon"
+#: ../bibletime/frontend/coptionsdialog.cpp:493
+#, fuzzy
+msgid "Standard Hebrew Morphological Lexicon"
 msgstr "Léxico Morfológico Predeterminado de Hebreo"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:640
-msgid "Default Greek Morphological Lexicon"
+#: ../bibletime/frontend/coptionsdialog.cpp:500
+#, fuzzy
+msgid "Standard Greek Morphological Lexicon"
 msgstr "Léxico  Morfológico Predeterminado de Griego"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:764
-#: ../bibletime/frontend/coptionsdialog.cpp:767
-msgid "Filter settings"
-msgstr "Preferencias del filtro"
+#: ../bibletime/frontend/coptionsdialog.cpp:621
+#: ../bibletime/frontend/coptionsdialog.cpp:624
+#, fuzzy
+msgid "Text filters"
+msgstr "Archivos de texto"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:768
+#: ../bibletime/frontend/coptionsdialog.cpp:625
+#, fuzzy
 msgid ""
-"Filters control the appereance of the text in the display windows. Here you "
-"can specify default settings for all filters. You can change the filter "
-"settings in each display window, of course."
+"Filters control the appearance of text. \t\t\t\tHere you can specify default "
+"settings for all filters. \t\t\t\tYou can change the filter settings in each "
+"display window, of course."
 msgstr ""
 "Filtros controlan la aparencia del texto on las ventanas de vista.  Aquí "
 "usted se puede especificar los parámetros predeterminados para todos "
 "filtros. Se puede cambiar los parámetros de filtros en cada ventana de "
 "visto, por supuesto."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:775
+#: ../bibletime/frontend/coptionsdialog.cpp:632
 msgid "Insert line break after each verse"
 msgstr "Insertar salto de línea después de cada versiculo."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:782
+#: ../bibletime/frontend/coptionsdialog.cpp:637
 msgid "Show verse numbers"
 msgstr "Mostrar números de versos"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:797
+#: ../bibletime/frontend/coptionsdialog.cpp:642
 msgid "Show section headings"
 msgstr "Mostrar encabeceras de las secciones"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:811
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:164
+#: ../bibletime/frontend/coptionsdialog.cpp:648
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:153
 msgid "Show scripture cross-references"
 msgstr "Mostrar las referencias cruzadas de las escrituras"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:834
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:159
+#: ../bibletime/frontend/coptionsdialog.cpp:653
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:148
 msgid "Show Greek accents"
 msgstr "Mostrar acentos griegos"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:841
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:155
+#: ../bibletime/frontend/coptionsdialog.cpp:658
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:144
 msgid "Show Hebrew vowel points"
 msgstr "Mostrar acentos de vocales hebreas"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:848
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:157
+#: ../bibletime/frontend/coptionsdialog.cpp:663
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:146
 msgid "Show Hebrew cantillation marks"
 msgstr "Mostrar los accentos de \"cantilación\" hebreas"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:855
+#: ../bibletime/frontend/coptionsdialog.cpp:668
 msgid "Use textual variants"
 msgstr "Usar varientes textuales"
 
-#: ../bibletime/frontend/cprofile.cpp:34
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:400
+#: ../bibletime/frontend/cprofile.cpp:19
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:298
 msgid "unknown"
 msgstr "desconocido(a)"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:153
-msgid "Manage installation sources"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:48
+msgid "Bookshelf Manager"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:191
-#: ../bibletime/frontend/cswordsetupdialog.cpp:203
-msgid "Local sources"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:64
+msgid "Bookshelf path(s)"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:197
-#, fuzzy
-msgid "Manage local sources"
-msgstr "Administrar los perfiles de usted"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:75
+msgid "Configure bookshelf path(s)"
+msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:198
+#: ../bibletime/frontend/cswordsetupdialog.cpp:76
 msgid ""
-"Here you can setup the local sources for module installation, e.g. the path "
-"to your CD-Rom to install from a Sword CD.<br>On many Linux distributions "
-"the path to your cdrom is either <i>/media/cdrom</i> or <i>/cdrom</i> Please "
-"make sure you mounted the CD-Rom before you use BibleTime to install from CD-"
-"Rom."
+"You can store your bookshelfs in one or more directories, which you can "
+"specify here."
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:206
+#: ../bibletime/frontend/cswordsetupdialog.cpp:82
+msgid "Your bookshelf configuration file is <b>%1</b>"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:87
 #, fuzzy
-msgid "Add new directory"
-msgstr "Añadir nueva gama"
+msgid "Path to bookshelf"
+msgstr "Lista de libros"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:209
-msgid "Remove directory"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:260
-msgid "Remote sources"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:266
-#, fuzzy
-msgid "Manage remote sources"
-msgstr "Manejar sesiones"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:267
-msgid ""
-"Setup remote sources like FTP servers which can be used to download Sword "
-"modules on your computer."
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:273
-#: ../bibletime/frontend/cswordsetupdialog.cpp:575
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1153
-#, fuzzy
-msgid "Name"
-msgstr "Nombre:"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:279
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1109
-msgid "New"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:300
-msgid "Edit remote source"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:306
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:625
-msgid "Name:"
-msgstr "Nombre:"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:317
-msgid "Server:"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:323
-msgid "Path on server:"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:358
-#, fuzzy
-msgid "New remote source"
-msgstr "Manejar sesiones"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:412
-msgid "Sword configuration"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:428
-#, fuzzy
-msgid "Sword Path"
-msgstr "Sword"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:439
-#: ../bibletime/util/cresmgr.cpp:972
-#, fuzzy
-msgid "Configure Sword"
-msgstr "&Configurar sesiónes"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:440
-msgid ""
-"The underlying Sword software uses an own configuration file. This page let "
-"you set up this file."
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:446
-msgid "Your Sword configuration file is <b>%1</b>"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:451
-#, fuzzy
-msgid "Path to Sword modules"
-msgstr "Eligir módulos"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:455
+#: ../bibletime/frontend/cswordsetupdialog.cpp:91
 #, fuzzy
 msgid "Edit Entry"
 msgstr "Editar entrada..."
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:460
+#: ../bibletime/frontend/cswordsetupdialog.cpp:96
 #, fuzzy
 msgid "Add Entry"
 msgstr "Entrada"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:465
+#: ../bibletime/frontend/cswordsetupdialog.cpp:101
 msgid "Remove Entry"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:474
-msgid "Install/Update Modules"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:110
+msgid "Install/Update works"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:496
-msgid "Install/update modules - Step 1"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:133
+msgid "Install/update works - Step 1"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:497
+#: ../bibletime/frontend/cswordsetupdialog.cpp:134
 msgid ""
-"Please choose a source and a destination. After that step click on the "
-"connect button.<br/><b>WARNING: If you live in a persecuted country and do "
-"not wish to risk detection you should NOT use the module remote installation "
-"feature!</b>"
+"Please choose a (local or remote) library and a bookshelf path to install "
+"the work(s) to. \t\tAfter that step click on the connect button.<br/>\t"
+"\t<b>WARNING: If you live in a persecuted country and do not wish to risk "
+"detection you should NOT use \t\tthe module remote installation feature!</b>"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:501
-msgid "Select source location"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:507
-msgid "Maintain sources"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:515
-msgid "Select target location"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:535
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1327
-msgid "Connect to source"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:550
+#: ../bibletime/frontend/cswordsetupdialog.cpp:141
 #, fuzzy
-msgid "Remove Modules"
+msgid "Select library"
+msgstr "Seleccionar todo"
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:147
+#, fuzzy
+msgid "Add library"
+msgstr "Entrada"
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:152
+#, fuzzy
+msgid "Delete library"
+msgstr "Eliminar los elementos"
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:160
+msgid "Select bookshelf path"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:180
+#: ../bibletime/frontend/cswordsetupdialog.cpp:759
+msgid "Connect to library"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:195
+#, fuzzy
+msgid "Remove works"
 msgstr "Módulos"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:562
+#: ../bibletime/frontend/cswordsetupdialog.cpp:207
 #, fuzzy
-msgid "Remove installed module(s)"
+msgid "Remove installed work(s)"
 msgstr "Buscar en módulo(s) seleccionado(s)"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:563
+#: ../bibletime/frontend/cswordsetupdialog.cpp:208
 msgid ""
-"This dialog lets you remove installed Sword modules from your system. Choose "
-"the modules and then click on the remove button."
+"This dialog lets you remove installed works from your system. Choose the "
+"modules and then click on the remove button."
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:567
+#: ../bibletime/frontend/cswordsetupdialog.cpp:212
 #, fuzzy
-msgid "Select modules to be uninstalled"
+msgid "Select works to be uninstalled"
 msgstr "Añadir el módulo seleccionado a la lista"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:576
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:307
-msgid "Location"
-msgstr "Localización "
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:585
+#: ../bibletime/frontend/cswordsetupdialog.cpp:218
 #, fuzzy
-msgid "Remove selected module(s)"
+msgid "Remove selected work(s)"
 msgstr "Elimimar elemento(s) seleccionado(s)"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:676
-#: ../bibletime/frontend/cswordsetupdialog.cpp:731
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1412
+#: ../bibletime/frontend/cswordsetupdialog.cpp:297
+#: ../bibletime/frontend/cswordsetupdialog.cpp:349
+#: ../bibletime/frontend/cswordsetupdialog.cpp:843
 msgid "[Remote]"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:681
-#: ../bibletime/frontend/cswordsetupdialog.cpp:725
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1406
+#: ../bibletime/frontend/cswordsetupdialog.cpp:302
+#: ../bibletime/frontend/cswordsetupdialog.cpp:344
+#: ../bibletime/frontend/cswordsetupdialog.cpp:838
 msgid "[Local]"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:774
+#: ../bibletime/frontend/cswordsetupdialog.cpp:385
 msgid ""
-"You selected the following modules: %1.\n"
+"You selected the following work(s): %1.\n"
 "\n"
 "Do you really want to remove them from your system?"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:858
-#: ../bibletime/frontend/cswordsetupdialog.cpp:977
-#: ../bibletime/frontend/cswordsetupdialog.cpp:985
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:698
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:356
-msgid "Bibles"
-msgstr "Biblias"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:859
-#: ../bibletime/frontend/cswordsetupdialog.cpp:978
-#: ../bibletime/frontend/cswordsetupdialog.cpp:986
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:701
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:357
-msgid "Commentaries"
-msgstr "Comentarios"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:860
-#: ../bibletime/frontend/cswordsetupdialog.cpp:979
-#: ../bibletime/frontend/cswordsetupdialog.cpp:987
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:704
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:358
-msgid "Lexicons"
-msgstr "Léxicos"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:861
-#: ../bibletime/frontend/cswordsetupdialog.cpp:980
-#: ../bibletime/frontend/cswordsetupdialog.cpp:988
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:707
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:359
-msgid "Books"
-msgstr "Libros"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:862
-#: ../bibletime/frontend/cswordsetupdialog.cpp:981
-#: ../bibletime/frontend/cswordsetupdialog.cpp:989
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:397
-msgid "Daily Devotionals"
-msgstr "Devotos Diarios"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:863
-#: ../bibletime/frontend/cswordsetupdialog.cpp:982
-#: ../bibletime/frontend/cswordsetupdialog.cpp:990
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:713
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1288
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:408
-msgid "Glossaries"
-msgstr "Glosarios"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:893
-#, c-format
-msgid "Scanning your modules: %1%"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:462
+msgid "Download"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1109
-msgid "Updated"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:475
+#, fuzzy
+msgid "Downloading library information..."
+msgstr "Mostrar."
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:575
+msgid "Install/update works - Step 2"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1138
-msgid "Install/update modules - Step 2"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1139
+#: ../bibletime/frontend/cswordsetupdialog.cpp:576
 msgid ""
-"Please choose the modules which should be installed / updated and click the "
-"install button."
+"Please choose the works which should be installed and/or updated and click "
+"the install button."
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1154
+#: ../bibletime/frontend/cswordsetupdialog.cpp:601
 #, fuzzy
-msgid "Installed version"
-msgstr "&Instalación"
+msgid "Install works"
+msgstr "Todos módulos:"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1155
+#: ../bibletime/frontend/cswordsetupdialog.cpp:651
+msgid ""
+"You selected the following works: %1.\n"
+"\n"
+"\t\tDo you really want to install them on your system?"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:678
+msgid "Download of work(s)"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:750
+msgid "[%1]: %2% complete"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:771
+msgid ""
+"This directory is not writable, so works \t\t\t\t\tcan not be installed here "
+"using BibleTime. \t\t\t\t\tDo you want to use this directory instead of the "
+"previous value?"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:792
+msgid ""
+"This directory is not writable, \t\t\tso works can not be installed here "
+"using BibleTime. \t\t\tDo you want to add it to the list of module "
+"directories?"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:16
 #, fuzzy
-msgid "Remote version"
+msgid "Local"
+msgstr "Localización "
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:17
+#, fuzzy
+msgid "Remote"
 msgstr "Renombrar la sesión"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1156
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:31
+#, fuzzy
+msgid "Caption"
+msgstr "Latino"
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:42
+msgid "Type"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:44
+msgid "Server"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:46
+msgid "Path"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:79
+msgid "Please provide a caption."
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:86
+msgid ""
+"A source with this caption already exists.<br>Please provide a different "
+"caption."
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:92
+msgid "Please provide a server name."
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:97
+msgid "Please provide a valid, readable path."
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:52
+#, fuzzy
+msgid "Name"
+msgstr "Nombre:"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:56
 #, fuzzy
 msgid "Status"
 msgstr "Inicio"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1172
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:58
 #, fuzzy
-msgid "Install modules"
-msgstr "Todos módulos:"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1237
-msgid ""
-"You selected the following modules: %1.\n"
-"\n"
-"Do you really want to install them on your system?"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1263
-#, fuzzy
-msgid "Module installation ..."
+msgid "Installed version"
 msgstr "&Instalación"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1317
-msgid "[%1]: %2% complete"
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:62
+#, fuzzy
+msgid "Remote version"
+msgstr "Renombrar la sesión"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:86
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:94
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:582
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:341
+msgid "Bibles"
+msgstr "Biblias"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:87
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:95
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:585
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:342
+msgid "Commentaries"
+msgstr "Comentarios"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:88
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:96
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:588
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:343
+msgid "Lexicons"
+msgstr "Léxicos"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:89
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:97
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:591
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:344
+msgid "Books"
+msgstr "Libros"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:90
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:98
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:382
+msgid "Daily Devotionals"
+msgstr "Devotos Diarios"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:91
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:99
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:597
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:1179
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:393
+msgid "Glossaries"
+msgstr "Glosarios"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:211
+msgid "New"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1344
-msgid ""
-"This directory is not writable, so modules can not be installed here using "
-"BibleTime. Do you want to use this directory instead of the previous value?"
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:211
+msgid "Updated"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1364
-msgid ""
-"This directory is not writable, so modules can not be installed here using "
-"BibleTime. Do you want to add it to the list of module directories?"
-msgstr ""
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:214
+#, fuzzy
+msgid "Installed"
+msgstr "&Instalación"
 
-#: ../bibletime/frontend/display/cdisplay.cpp:151
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1229
+#: ../bibletime/frontend/display/cdisplay.cpp:144
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1214
 msgid "HTML files"
 msgstr "Archivos HTML"
 
-#: ../bibletime/frontend/display/cdisplay.cpp:154
+#: ../bibletime/frontend/display/cdisplay.cpp:147
 msgid "Text files"
 msgstr "Archivos de texto"
 
-#: ../bibletime/frontend/display/cdisplay.cpp:158
+#: ../bibletime/frontend/display/cdisplay.cpp:151
 msgid "Save document ..."
 msgstr "Guardar el documento..."
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:137
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:121
 msgid "Choose a font"
 msgstr "Elegir una fuente"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:148
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:132
 msgid "Choose a font size"
 msgstr "Eleja un tamaño de fuente"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:167
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:151
 msgid "Bold"
 msgstr "Negrilla"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:189
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:173
 msgid "Underline"
 msgstr "Subrayar"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:261
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:143
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:106
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:245
 msgid "Select all"
 msgstr "Seleccionar todo"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:265
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:249
 msgid "HTML editor window"
 msgstr "Ventana de editar de HTML"
 
-#: ../bibletime/frontend/display/creaddisplay.cpp:77
+#: ../bibletime/frontend/display/creaddisplay.cpp:62
 msgid "Print keys"
 msgstr "Imprimir claves"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:87
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:84
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:189
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:73
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:124
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:28
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:100
 msgid "Next book"
 msgstr "Libro siguiente"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:89
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:85
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:190
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:77
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:130
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:32
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:106
 msgid "Previous book"
 msgstr "Libro anterior"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:91
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:86
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:191
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:81
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:136
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:36
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:112
 msgid "Next chapter"
 msgstr "Capítulo siguiente"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:93
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:87
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:192
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:85
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:142
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:40
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:118
 msgid "Previous chapter"
 msgstr "Capítulo anterior"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:95
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:88
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:193
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:89
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:148
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:44
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:124
 msgid "Next verse"
 msgstr "Verso siguiente"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:97
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:89
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:194
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:93
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:154
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:48
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:130
 msgid "Previous verse"
 msgstr "Verso anterior"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:141
-msgid "Bible window"
-msgstr "Ventana de Biblia"
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:104
+#, fuzzy
+msgid "Copy chapter"
+msgstr "Capítulo"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:148
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:111
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:87
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:297
-msgid "Copy..."
-msgstr "Copiar..."
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:109
+#, fuzzy
+msgid "Save chapter as plain text"
+msgstr "Capítulo como texto simple"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:149
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:113
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:130
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:88
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:95
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:298
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:305
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:110
+#, fuzzy
+msgid "Save chapter as HTML"
+msgstr "Capítulo como HTML"
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:114
+#, fuzzy
+msgid "Print chapter"
+msgstr "Capítulo anterior"
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:163
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:97
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:108
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:72
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:79
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:282
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:289
 msgid "Reference only"
 msgstr "Referencia solomente"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:151
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:165
 msgid "Text of reference"
 msgstr "Texto de referencia"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:153
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:163
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:172
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:90
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:97
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:102
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:300
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:307
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:312
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:167
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:174
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:180
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:74
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:81
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:86
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:284
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:291
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:296
 msgid "Reference with text"
 msgstr "Referencia con texto"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:155
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:174
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:169
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:182
 msgid "Chapter"
 msgstr "Capítulo"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:158
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:118
-msgid "Selected text"
-msgstr "Texto seleccionado"
-
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:162
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:122
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:94
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:304
-msgid "Save..."
-msgstr "Guardar..."
-
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:165
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:176
 msgid "Chapter as plain text"
 msgstr "Capítulo como texto simple"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:167
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:178
 msgid "Chapter as HTML"
 msgstr "Capítulo como HTML"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:171
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:129
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:101
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:311
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:207
+msgid "Bible window"
+msgstr "Ventana de Biblia"
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:213
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:174
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:71
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:281
+msgid "Copy..."
+msgstr "Copiar..."
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:222
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:182
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:78
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:288
+msgid "Save..."
+msgstr "Guardar..."
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:228
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:187
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:85
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:295
 msgid "Print..."
 msgstr "Imprimir..."
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:264
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:304
 msgid "Copy chapter to clipboard ..."
 msgstr "Copiar el capítulo al portapapeles"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:264
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:304
 msgid "Copying"
 msgstr "Copiando"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:285
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:303
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:162
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:168
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:325
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:343
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:218
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:224
 msgid "Saving"
 msgstr "Guardando"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:285
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:303
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:325
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:343
 msgid "Saving chapter ..."
 msgstr "Guardando el capítulo..."
 
-#: ../bibletime/frontend/displaywindow/cbookreadwindow.cpp:98
-msgid "Toggle tree..."
-msgstr "Conmutar árbol..."
+#: ../bibletime/frontend/displaywindow/cbookreadwindow.cpp:56
+#: ../bibletime/frontend/displaywindow/cbookreadwindow.cpp:69
+#, fuzzy
+msgid "Toggle tree view"
+msgstr "Conmutar árbol"
 
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:134
-msgid "Display options"
-msgstr "Opciones de pantalla"
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:102
+msgid "Display settings: No options available"
+msgstr ""
 
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:137
-msgid "Use linebreaks after each verse"
-msgstr "Usar saltos de línea después de cada verso"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:140
-msgid "Show versenumbers"
-msgstr "Mostrar números de versos"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:142
-msgid "Show headings"
-msgstr "Mostrar encabeceras"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:146
-msgid "Highlight words of Jesus"
-msgstr "Marcar las palabras de Cristo"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:162
-msgid "Use alternative textual variant"
-msgstr "Usar variente textual alternative"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:167
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:106
 msgid "Display settings"
 msgstr "Preferencias de pantalla"
 
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:54
-#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:63
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:57
-msgid "Sync with active bible"
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:123
+msgid "Display options"
+msgstr "Opciones de pantalla"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:126
+msgid "Use linebreaks after each verse"
+msgstr "Usar saltos de línea después de cada verso"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:129
+msgid "Show versenumbers"
+msgstr "Mostrar números de versos"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:131
+msgid "Show headings"
+msgstr "Mostrar encabeceras"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:135
+msgid "Highlight words of Jesus"
+msgstr "Marcar las palabras de Cristo"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:151
+msgid "Use alternative textual variant"
+msgstr "Usar variente textual alternative"
+
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:67
+#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:53
+#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:45
+#, fuzzy
+msgid "Sync with active Bible"
 msgstr "Sincronizar con Biblia activa"
 
-#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:72
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:67
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:196
+#: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:143
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
+msgid "Search"
+msgstr "Buscar"
+
+#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:62
+#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:55
 msgid "Save text"
 msgstr "Guardar texto"
 
-#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:83
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:79
+#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:72
+#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:66
 msgid "Delete current entry"
 msgstr "Borrar entrada actual"
 
-#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:95
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:91
+#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:82
+#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:77
 msgid "Restore original text"
 msgstr "Restaurar texto original"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:61
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:40
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:84
 msgid "Next entry"
 msgstr "Entrada siguiente"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:62
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:44
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:89
 msgid "Previous entry"
 msgstr "Entrada anterior"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:104
-msgid "Lexicon window"
-msgstr "Ventana del léxico"
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:49
+#, fuzzy
+msgid "Copy entry with text"
+msgstr "Entrada con texto"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:115
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:132
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:51
+#, fuzzy
+msgid "Save entry as plain text"
+msgstr "Entrada como texto simple"
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:52
+#, fuzzy
+msgid "Save entry as HTML"
+msgstr "Guardar como HTML"
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:54
+#, fuzzy
+msgid "Print entry with text"
+msgstr "Entrada con texto"
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:61
+msgid "Back in history"
+msgstr ""
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:72
+msgid "Forward in history"
+msgstr ""
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:99
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:110
 msgid "Entry with text"
 msgstr "Entrada con texto"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:123
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:104
 msgid "Entry as plain text"
 msgstr "Entrada como texto simple"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:125
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:106
 msgid "Entry as HTML"
 msgstr "Entrada como HTML"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:162
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:168
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:166
+msgid "Lexicon window"
+msgstr "Ventana del léxico"
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:218
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:224
 msgid "Saving entry ..."
 msgstr "Guardando entrada."
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:119
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:164
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:104
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:149
 msgid "NONE"
 msgstr "NINGUNO"
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:135
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:136
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:156
-msgid "Select a module"
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:120
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:121
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:141
+#, fuzzy
+msgid "Select a work"
 msgstr "Seleccionar un módulo"
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:159
-msgid "Select an additional module"
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:144
+#, fuzzy
+msgid "Select an additional work"
 msgstr "Seleccionar un módulo adicional"
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:230
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:214
 msgid "[locked]"
 msgstr "[cerrado]"
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:247
-msgid "No module selected"
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:231
+#, fuzzy
+msgid "No work selected"
 msgstr "No hay módulo seleccionado"
 
-#: ../bibletime/frontend/displaywindow/creadwindow.cpp:159
-msgid "Copy selected text"
-msgstr "Copiar texto seleccionado"
-
-#: ../bibletime/frontend/displaywindow/cwritewindow.cpp:151
+#: ../bibletime/frontend/displaywindow/cwritewindow.cpp:141
 msgid "Save text before closing?"
 msgstr "¿Guardar texto antes de cerrar?"
 
-#: ../bibletime/frontend/displaywindow/cwritewindow.cpp:175
+#: ../bibletime/frontend/displaywindow/cwritewindow.cpp:165
 #, fuzzy
 msgid "Save changed text?"
 msgstr "¿Guardar cambios al módulo?"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:263
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:338
-msgid "Take care, this module contains cult / questionable material!"
-msgstr "¡Cuidado, este módulo contiene material culto o sospechoso!"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:267
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:309
-msgid "Language"
-msgstr "Idioma"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:270
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:319
-msgid "Unlock key"
-msgstr "Desbloquear clave"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:271
-msgid "not set"
-msgstr "sin asignar"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:273
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:303
-msgid "Version"
-msgstr "Versión"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:314
-msgid "Writable"
-msgstr "Escribible"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:315
-msgid "yes"
-msgstr "sí"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:333
-msgid "Features"
-msgstr "Propiedades"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:485
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:387
 msgid "Change description ..."
 msgstr "Cambiar descripción."
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:485
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:387
 msgid "Enter a new description for the chosen bookmark."
 msgstr "Introducir una nueva descripción para el marcador escojido."
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:600
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:485
 msgid "New folder"
 msgstr "Nueva carpeta"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:710
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:594
 msgid "Daily devotionals"
 msgstr "Devotos diarios."
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:719
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:603
 msgid "Old bookmarks"
 msgstr "Marcadores viejos"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:722
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:606
 msgid "Unknown"
 msgstr "Desconocido(a)"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:729
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:613
 msgid "Unknown language"
 msgstr "Idioma desconocida"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1076
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1084
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:960
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:968
 msgid ""
 "*.btb | BibleTime bookmark files (*.btb)\n"
 "*.* | All files (*.*)"
@@ -1291,312 +1322,343 @@ msgstr ""
 "*.btb | Archivos de marcadores de BibleTime (*.btb)\n"
 "*.* | Todos archivos"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1076
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:960
 msgid "BibleTime - Export bookmarks"
 msgstr "BibleTime - Exportar marcadores"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1084
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:968
 msgid "BibleTime - Import bookmarks"
 msgstr "BibleTime - Importar marcadores"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:150
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:118
 msgid "Create a new folder"
 msgstr "Crear una nueva carpeta"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:151
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:119
 msgid "Change this folder"
 msgstr "Cambiar esta carpeta"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:153
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:121
 msgid "Change this bookmark"
 msgstr "Cambiar este marcador"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:154
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:122
 msgid "Import bookmarks"
 msgstr "Importar marcadores"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:155
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:123
 msgid "Export bookmarks"
 msgstr "Exportar marcadores"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:156
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:124
 msgid "Print bookmarks"
 msgstr "Imprimir marcadores"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:158
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:126
 msgid "Remove selected item(s)"
 msgstr "Elimimar elemento(s) seleccionado(s)"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:160
-msgid "Edit this module"
-msgstr "Editar este módulo"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:128
+#, fuzzy
+msgid "Edit this work"
+msgstr "Editar esta entrada"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:161
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:129
 msgid "Plain text"
 msgstr "Texto simple"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:162
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:130
 msgid "HTML"
 msgstr "HTML"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:164
-msgid "Search in selected module(s)"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:132
+#, fuzzy
+msgid "Search in selected work(s)"
 msgstr "Buscar en módulo(s) seleccionado(s)"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:165
-msgid "Unlock this module"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:133
+#, fuzzy
+msgid "Unlock this work"
 msgstr "Desbloquear este módulo"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:166
-msgid "About this module"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:134
+#, fuzzy
+msgid "About this work"
 msgstr "Acerca de este módulo"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:465
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:482
 #, fuzzy
 msgid "Delete Items"
 msgstr "Eliminar los elementos"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:465
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:482
 msgid "Do you really want to delete the selected items and child-items?"
 msgstr ""
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:504
-msgid "BibleTime - Unlock module"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:521
+#, fuzzy
+msgid "BibleTime - Unlock work"
 msgstr "BibleTime - Desbloquear módulo"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:504
-msgid "Enter the unlock key for this module."
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:522
+#, fuzzy
+msgid "Enter the unlock key for this work."
 msgstr "Introduzca la clave para desbloquear este módulo."
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:100
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
 msgid "Interrupt"
 msgstr "Interrupción"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:100
-msgid "Search"
-msgstr "Buscar"
-
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:100
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
 msgid "Search dialog"
 msgstr "Diálogo de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:200
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:716
-msgid "Search options"
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:185
+#, fuzzy
+msgid "Search &options"
 msgstr "Opciones de busqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:204
-msgid "Search result"
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:189
+#, fuzzy
+msgid "Search &result"
 msgstr "Resultado de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:517
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:665
-#: ../bibletime/util/cresmgr.cpp:1036
-msgid "Choose modules"
-msgstr "Eligir módulos"
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:503
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:670
+#, fuzzy
+msgid "Choose work(s)"
+msgstr "Elegir colores"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:530
-msgid "Use chosen modules"
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:516
+#, fuzzy
+msgid "Use chosen work(s)"
 msgstr "Usar módulos escojidos"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:580
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:566
 msgid "Search range editor"
 msgstr "Editor de gama de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:607
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:593
 msgid "Search range"
 msgstr "Gama de busqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:615
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:601
 msgid "Add new range"
 msgstr "Añadir nueva gama"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:619
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:605
 msgid "Delete current range"
 msgstr "Borrar gama actual"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:630
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:611
+msgid "Name:"
+msgstr "Nombre:"
+
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:616
 msgid "Edit current search range:"
 msgstr "Editar gama de busqueda actual:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:640
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:626
 msgid "Parsed search range:"
 msgstr "Gama de búsqueda procesada"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:669
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:655
 msgid "New range"
 msgstr "Gama nueva"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:732
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:718
 msgid "<invalid name of search range>"
 msgstr "<nombre invalido de gama de búsqueda>"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:788
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:774
 msgid "Search analysis"
 msgstr "Análisis de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:806
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:792
 msgid "Save search analysis as HTML"
 msgstr "Guardar análisis de búsqueda como HTML"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1229
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1216
 msgid "Save Search Analysis"
 msgstr "Guardar Análisis de Búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1257
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1244
 msgid "BibleTime Search Analysis"
 msgstr "Análisis de Búsqueda de BibleTime"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1258
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1245
 msgid "Search text :"
 msgstr "Búsqueda de Texto:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1259
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1246
 msgid "Search type :"
 msgstr "Tipo de Búsqueda:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1260
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:852
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1247
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:885
 msgid "No search scope"
 msgstr "No ámbito de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1260
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1247
 msgid "Search scope:"
 msgstr "Ámbito de Búsqueda:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1263
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1250
 msgid "Book"
 msgstr "Libro"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1264
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1251
 msgid "Total hits"
 msgstr "Accesos totales"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1300
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1287
 msgid "Created by"
 msgstr "Creado por"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:77
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:285
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:62
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:269
 msgid "Found items"
 msgstr "Cosas encontradas"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:162
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:411
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:147
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:395
 msgid "Print search result..."
 msgstr "Imprimir resultos de las búsqueda..."
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:162
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:411
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:147
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:395
 msgid "Printing search result"
 msgstr "Imprimiendo resultos de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:173
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:192
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:393
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:402
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:158
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:177
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:377
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:386
 msgid "Save search result..."
 msgstr "Guardar resulto de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:173
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:192
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:393
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:402
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:158
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:177
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:377
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:386
 msgid "Saving search result"
 msgstr "Guardando el resultado de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:211
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:231
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:375
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:384
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:196
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:215
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:359
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:368
 msgid "Copy search result..."
 msgstr "Copiar resultado de búsqueda..."
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:211
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:231
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:375
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:384
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:196
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:215
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:359
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:368
 msgid "Copying search result"
 msgstr "Copiando resultado de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:284
-msgid "Module"
-msgstr "Módulo"
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:268
+msgid "Work"
+msgstr ""
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:448
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:432
 msgid "Show search analysis"
 msgstr "Mostrar análisis de las búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:658
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:626
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:739
+msgid "Strong's numbers"
+msgstr "Números de Strong"
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:629
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:742
+msgid "Morph codes"
+msgstr ""
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:663
 msgid "Main search parameters"
 msgstr "Parámetros principales de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:672
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:677
 msgid "Search text:"
 msgstr "Texto de búsqueda:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:690
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:697
 msgid "Search type"
 msgstr "Tipo de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:692
-#: ../bibletime/util/cresmgr.cpp:1048
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:699
 msgid "Multiple words (AND)"
 msgstr "Palabras múltiples (AND)"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:698
-#: ../bibletime/util/cresmgr.cpp:1053
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:705
 msgid "Multiple words (OR)"
 msgstr "Palabras Múltiples (OR)"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:702
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:709
 msgid "Exact"
 msgstr "Exacto"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:706
-#: ../bibletime/util/cresmgr.cpp:1063
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:714
 msgid "Regular expression"
 msgstr "Expresión regular"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:717
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:725
+msgid "Search options"
+msgstr "Opciones de busqueda"
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:727
 #, fuzzy
 msgid "Case sensitive"
 msgstr "Búsqueda sensible a mayúsculas"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:724
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:733
+#, fuzzy
+msgid "Text type"
+msgstr "Vista preliminar del texto"
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:736
+#, fuzzy
+msgid "Main text"
+msgstr "Texto simple"
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:750
 msgid "Search scope"
 msgstr "Ámbito de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:733
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:758
 #, fuzzy
 msgid "Setup ranges"
 msgstr "Configurar gamas personales"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:739
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:766
 msgid "Search progress"
 msgstr "Progreso de búsqueda"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:743
-msgid "Current module:"
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:770
+#, fuzzy
+msgid "Current work:"
 msgstr "Módulo actual:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:746
-msgid "All modules:"
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:773
+#, fuzzy
+msgid "All works:"
 msgstr "Todos módulos:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:755
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:783
 msgid "Searching in: "
 msgstr "Buscando en: "
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:853
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:886
 msgid "Last search result"
 msgstr "Resultado de la última búsqueda"
 
-#: ../bibletime/main.cpp:133
+#: ../bibletime/main.cpp:118
 msgid "Enable debug messages"
 msgstr "Activar los mensajes de depuración"
 
-#: ../bibletime/main.cpp:134
+#: ../bibletime/main.cpp:119
 msgid ""
 "Ignore the startup session that was saved when BibleTime was closed the last "
 "time."
@@ -1604,24 +1666,25 @@ msgstr ""
 "Ignorar el sésion del inicio guardado cuando BibleTime fue cerrado la última "
 "vez."
 
-#: ../bibletime/main.cpp:135
+#: ../bibletime/main.cpp:120
+#, fuzzy
 msgid ""
-"Open the default bible with the given key. Use <random> to open at a random "
+"Open the standard Bible with the given key. Use <random> to open at a random "
 "position."
 msgstr ""
 "Abrir la Biblia predeterminado con la llave dada.  Use <al azar> para abrir "
 "una posión al azar."
 
-#: ../bibletime/main.cpp:144
+#: ../bibletime/main.cpp:129
 msgid "Bible study tool for KDE"
 msgstr "Herramienta del estudio de la Biblia para KDE"
 
-#: ../bibletime/main.cpp:146
+#: ../bibletime/main.cpp:131
 #, fuzzy
-msgid "(c)1999-2004, The BibleTime Team"
+msgid "(c)1999-2005, The BibleTime Team"
 msgstr "(c)1999-2003, El Equipo de BibleTime"
 
-#: ../bibletime/main.cpp:147
+#: ../bibletime/main.cpp:132
 msgid ""
 "BibleTime is an easy to use but powerful Bible study tool for KDE.\n"
 "\n"
@@ -1635,63 +1698,92 @@ msgstr ""
 "Si usted le gustaría juntar nuestro equipo, por favor envie un correo "
 "electronico a info@bibletime.info.."
 
-#: ../bibletime/main.cpp:158
+#: ../bibletime/main.cpp:143
 msgid "Project coordinator"
 msgstr "Coordinador del proyecto"
 
-#: ../bibletime/main.cpp:160
+#: ../bibletime/main.cpp:145
 msgid "Frontend, backend"
 msgstr "Entorno, terminal"
 
-#: ../bibletime/main.cpp:162
+#: ../bibletime/main.cpp:147
 #, fuzzy
 msgid "Crystal icons, crystal startlogo, webpage"
 msgstr "Iconos, logotipo, página del red"
 
-#: ../bibletime/main.cpp:174
+#: ../bibletime/main.cpp:155
+msgid "High contrast template"
+msgstr ""
+
+#: ../bibletime/main.cpp:156
+msgid "Installation manager"
+msgstr ""
+
+#: ../bibletime/main.cpp:157
 #, fuzzy
 msgid "Icons, startlogo"
 msgstr "Iconos, logotipo, página del red"
 
-#: ../bibletime/main.cpp:176
+#: ../bibletime/main.cpp:159
+msgid "Founder of the Sword project"
+msgstr ""
+
+#: ../bibletime/main.cpp:160
 #, fuzzy
 msgid "Sponsored our internet domain for many years"
 msgstr "Apoyaba nuestro dominio del Internet por muchos años"
 
-#: ../bibletime/main.cpp:178
+#: ../bibletime/main.cpp:162
 msgid "Bible Study HowTo"
 msgstr "Como estudiar la Biblia"
 
-#: ../bibletime/main.cpp:180 ../bibletime/main.cpp:186
+#: ../bibletime/main.cpp:164 ../bibletime/main.cpp:176
 #, fuzzy
 msgid "Search dialog enhancements"
 msgstr "Diálogo de búsqueda"
 
-#: ../bibletime/main.cpp:182
+#: ../bibletime/main.cpp:166
 msgid "Language codes and names"
 msgstr "Códigos y nombres de idiomas"
 
-#: ../bibletime/main.cpp:184
+#: ../bibletime/main.cpp:168 ../bibletime/main.cpp:172
+msgid "Frontend"
+msgstr "Entorno"
+
+#: ../bibletime/main.cpp:170
+#, fuzzy
+msgid "Searchdialog"
+msgstr "Diálogo de búsqueda"
+
+#: ../bibletime/main.cpp:174
 msgid "Documentation"
 msgstr "Documentación"
 
-#: ../bibletime/main.cpp:188
+#: ../bibletime/main.cpp:178
+msgid "Very helpful and detailed testing"
+msgstr ""
+
+#: ../bibletime/main.cpp:180
 msgid "The first lead developer"
 msgstr ""
 
-#: ../bibletime/main.cpp:191
+#: ../bibletime/main.cpp:182
+msgid "Helpful source code additions"
+msgstr ""
+
+#: ../bibletime/main.cpp:185
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
 msgstr "William Gifford Totman II"
 
-#: ../bibletime/main.cpp:192
+#: ../bibletime/main.cpp:186
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "bnctotman@ev1.net"
 
-#: ../bibletime/main.cpp:217
+#: ../bibletime/main.cpp:211
 msgid "Starting BibleTime"
 msgstr "Iniciando BibleTime"
 
@@ -1925,11 +2017,7 @@ msgstr ""
 "Usted está utilizando un programa que fue escrito para la gloria de Dios."
 "<BR> ¡Qué él lo bendiga a usted mientras que usted estudia su Palabra!\n"
 
-#: ../bibletime/util/cresmgr.cpp:854
-msgid "Open the printer dialog"
-msgstr "Abrir el diálogo de impresora"
-
-#: ../bibletime/util/cresmgr.cpp:855
+#: ../bibletime/util/cresmgr.cpp:754
 msgid ""
 "Open the printer dialog of BibleTime, where you can edit the print queue, "
 "assign styles to the items and print them."
@@ -1937,185 +2025,115 @@ msgstr ""
 "Abre el diálogo de imprimir de BibleTime, donde se puede editar la cola de "
 "imprimir, asignar estilos para elementos, y imprimirlos."
 
-#: ../bibletime/util/cresmgr.cpp:859
-msgid "Close BibleTime"
-msgstr "Cerrar BibleTime"
-
-#: ../bibletime/util/cresmgr.cpp:860
+#: ../bibletime/util/cresmgr.cpp:758
 msgid "Close BibleTime and save the settings."
 msgstr "Cerrar BibleTime y guardar las preferencias."
 
-#: ../bibletime/util/cresmgr.cpp:867
-msgid "Show main index"
-msgstr "Mostrar índice principal"
+#: ../bibletime/util/cresmgr.cpp:765
+#, fuzzy
+msgid "Show or hide the bookshelf."
+msgstr "Mostrar el próximo libro"
 
-#: ../bibletime/util/cresmgr.cpp:868
-msgid "Toggle the main index view."
-msgstr "Conmutar la vista del índice principal."
-
-#: ../bibletime/util/cresmgr.cpp:872
-msgid "Show main toolbar"
-msgstr "Mostrar la barra de herramientas"
-
-#: ../bibletime/util/cresmgr.cpp:873
+#: ../bibletime/util/cresmgr.cpp:769
 msgid "Toggle the main toolbar view."
 msgstr "Conmutar la vista de la barra de herramientas."
 
-#: ../bibletime/util/cresmgr.cpp:881 ../bibletime/util/cresmgr.cpp:1510
-msgid "Search in open modules"
-msgstr "Buscar en módulos abiertos"
-
-#: ../bibletime/util/cresmgr.cpp:882
-msgid ""
-"Open the search dialog to search in all modules that are currently open."
+#: ../bibletime/util/cresmgr.cpp:777
+#, fuzzy
+msgid "Open the search dialog to search in all works that are currently open."
 msgstr ""
 "Abrir el diálogo de búsqueda para buscar en todos los módulos que están "
 "abiertos."
 
-#: ../bibletime/util/cresmgr.cpp:886
-msgid "Search default bible"
-msgstr "Buscar en la Biblia predeterminada"
-
-#: ../bibletime/util/cresmgr.cpp:887
-msgid "Open the search dialog to search in the default bible."
+#: ../bibletime/util/cresmgr.cpp:781
+#, fuzzy
+msgid "Open the search dialog to search in the standard Bible."
 msgstr "Abrir el diálogo de búsqueda para buscar en la Biblia predeterminada."
 
-#: ../bibletime/util/cresmgr.cpp:895
-msgid "Load a session"
-msgstr "Cargar una sesión"
-
-#: ../bibletime/util/cresmgr.cpp:896
+#: ../bibletime/util/cresmgr.cpp:789
 msgid "Restore a saved BibleTime session."
 msgstr "Restaurar una sesión guardado de BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:900
-msgid "Save current session"
-msgstr "Guardar la sesión actual"
-
-#: ../bibletime/util/cresmgr.cpp:901
+#: ../bibletime/util/cresmgr.cpp:793
 msgid "Save current BibleTime session so that it can be reused later."
 msgstr "Guardar la sesión actual de BibleTime para reusarla más tarde."
 
-#: ../bibletime/util/cresmgr.cpp:905
-msgid "Save as new session"
-msgstr "Guardar como sesión nueva"
-
-#: ../bibletime/util/cresmgr.cpp:906
+#: ../bibletime/util/cresmgr.cpp:797
 msgid "Create and save a new session."
 msgstr "Crear y guardar una nueva sesión."
 
-#: ../bibletime/util/cresmgr.cpp:910
-msgid "Edit sessions"
-msgstr "Editar sesiones"
+#: ../bibletime/util/cresmgr.cpp:801
+#, fuzzy
+msgid "Delete a BibleTime sesison."
+msgstr "Restaurar una sesión guardado de BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:911
-msgid "Create new, delete or rename existing sessions."
-msgstr "Crear nuevo, eliminar o renombrar las sesiones existentes."
-
-#: ../bibletime/util/cresmgr.cpp:915
-msgid "Toggle fullscreen mode"
-msgstr "Conmutar el modo de pantalla completa"
-
-#: ../bibletime/util/cresmgr.cpp:916
+#: ../bibletime/util/cresmgr.cpp:805
 msgid "Toggle fullscreen mode of the main window."
 msgstr "Conmutar el modo de pantalla completa de la pantalla principal."
 
-#: ../bibletime/util/cresmgr.cpp:920
-msgid "Tile windows"
-msgstr "Poner las ventanas en mosaico"
-
-#: ../bibletime/util/cresmgr.cpp:921
-msgid "Tile the open display windows."
-msgstr "Poner las ventanas abiertas en mosaico."
-
-#: ../bibletime/util/cresmgr.cpp:925
-msgid "Cascade windows"
-msgstr "Ventanas en cascada"
-
-#: ../bibletime/util/cresmgr.cpp:926
-msgid "Cascade the open display windows."
-msgstr "Poner las ventanas abiertas en cascada."
-
-#: ../bibletime/util/cresmgr.cpp:932
-msgid "Choose the window arrangement mode"
-msgstr ""
-
-#: ../bibletime/util/cresmgr.cpp:933
+#: ../bibletime/util/cresmgr.cpp:809
 #, fuzzy
-msgid "Choose the way that is used to arrange the display windows."
-msgstr "El color usado para texto normal en las pantallas de vista."
-
-#: ../bibletime/util/cresmgr.cpp:937
-#, fuzzy
-msgid "Automatically tile windows vertical"
-msgstr "Poner las ventanas en mosaico automáticamente"
-
-#: ../bibletime/util/cresmgr.cpp:938 ../bibletime/util/cresmgr.cpp:943
-msgid "Automatically tile the open display windows."
+msgid "Vertically tile the open windows."
 msgstr "Poner en mosaico automáticamente las ventanas mostradas abiertas."
 
-#: ../bibletime/util/cresmgr.cpp:942
+#: ../bibletime/util/cresmgr.cpp:813
 #, fuzzy
-msgid "Automatically tile windows horizontal"
+msgid "Horizontally tile the open windows."
+msgstr "Poner en mosaico automáticamente las ventanas mostradas abiertas."
+
+#: ../bibletime/util/cresmgr.cpp:817
+#, fuzzy
+msgid "Cascade the open windows."
+msgstr "Poner las ventanas abiertas en cascada."
+
+#: ../bibletime/util/cresmgr.cpp:823
+#, fuzzy
+msgid "Choose the way that is used to arrange the windows."
+msgstr "El color usado para texto normal en las pantallas de vista."
+
+#: ../bibletime/util/cresmgr.cpp:827
+#, fuzzy
+msgid "Automatically tile the open windows vertically."
 msgstr "Poner las ventanas en mosaico automáticamente"
 
-#: ../bibletime/util/cresmgr.cpp:947
-msgid "Automatically cascade windows"
-msgstr "Ventanas en cascada automáticamente"
+#: ../bibletime/util/cresmgr.cpp:831
+#, fuzzy
+msgid "Automatically tile the open windows horizontally."
+msgstr "Poner las ventanas en mosaico automáticamente"
 
-#: ../bibletime/util/cresmgr.cpp:948
-msgid "Automatically cascade the open display windows."
+#: ../bibletime/util/cresmgr.cpp:835
+#, fuzzy
+msgid "Automatically cascade the open windows."
 msgstr "Poner en cascada automáticamente las ventanas mostradas abiertas."
 
-#: ../bibletime/util/cresmgr.cpp:953
-msgid "Close all windows"
-msgstr "Cerrar todas ventanas"
-
-#: ../bibletime/util/cresmgr.cpp:954
-msgid "Close all open display windows."
+#: ../bibletime/util/cresmgr.cpp:840
+#, fuzzy
+msgid "Close all open windows."
 msgstr "Cerrar todas las ventanas abiertas."
 
-#: ../bibletime/util/cresmgr.cpp:962
-msgid "Edit toolbar"
-msgstr "Editar la barra de herramientas"
-
-#: ../bibletime/util/cresmgr.cpp:963
+#: ../bibletime/util/cresmgr.cpp:848
 msgid "Open BibleTime's toolbar editor."
 msgstr "Abrir el editor de barras de herramientas de BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:967
-msgid "Configure BibleTime"
-msgstr "Configurar BibleTime"
-
-#: ../bibletime/util/cresmgr.cpp:968
+#: ../bibletime/util/cresmgr.cpp:852
 msgid "Open the dialog to set most of BibleTime's preferences."
 msgstr ""
 "Abra el diálogo para asignar la mayoría de las preferencias de BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:973
+#: ../bibletime/util/cresmgr.cpp:856
 msgid ""
-"Open the dialog to configure Sword and install/update/remove Sword modules."
+"Open the dialog to configure your bookshelf and install/update/remove works."
 msgstr ""
 
-#: ../bibletime/util/cresmgr.cpp:982
-msgid "BibleTime's handbook"
-msgstr "Manual de BibleTime"
+#: ../bibletime/util/cresmgr.cpp:865
+#, fuzzy
+msgid "Open BibleTime's handbook in the KDE helpbrowser."
+msgstr "Abrir el editor de barras de herramientas de BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:983
+#: ../bibletime/util/cresmgr.cpp:869
+#, fuzzy
 msgid ""
-"Open BibleTime's handbook in the KDE helpbrowser.<BR>The handbook explains "
-"how to use BibleTime in the best way."
-msgstr ""
-"Abrir el manual de BibleTime en el explorador de ayuda de KDE.<BR>El Manual "
-"exlica como usar BibleTime en la manera mejor."
-
-#: ../bibletime/util/cresmgr.cpp:987
-msgid "BibleTime's Bible study HowTo"
-msgstr "Como estudiar la Bible de BibleTime"
-
-#: ../bibletime/util/cresmgr.cpp:988
-msgid ""
-"Open the Bible study HowTo included with BibleTime in the KDE helpbrowser."
+"Open the Bible study HowTo included with BibleTime in the KDE helpbrowser. "
 "<BR>This HowTo is an introduction on how to study the Bible in an efficient "
 "way."
 msgstr ""
@@ -2123,86 +2141,49 @@ msgstr ""
 "ayuda de KDE.<BR>Este Como estudiar la Biblia es una introducción a como "
 "estudiar la Biblia en una manera eficiente."
 
-#: ../bibletime/util/cresmgr.cpp:992
-msgid "Enter \"What's this?\" mode"
-msgstr "Iniciar modo de \"¿Qué es ésto?\""
-
-#: ../bibletime/util/cresmgr.cpp:993
-msgid ""
-"Switch into the <B>\"What's this?\"</B> mode.<BR>All important elements of "
-"BibleTime's GUI offer a \"What's this?\" help message."
-msgstr ""
-"Cambiar al modo de <B>\"¿Qué es ésto?\"</B> <BR>Todos los elementos "
-"importantes de la GUI de BibleTime ofecen un mensaje de ayuda de \"¿Qué es "
-"ésto?\""
-
-#: ../bibletime/util/cresmgr.cpp:997
-msgid "Send bugreport"
-msgstr "Enviar el informe de fallos."
-
-#: ../bibletime/util/cresmgr.cpp:998
+#: ../bibletime/util/cresmgr.cpp:873
 msgid "Send a bugreport to the developers of BibleTime."
 msgstr "Enviar un informe de fallo a los desarrolladores de BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:1002
-msgid "Show daily tips at startup"
-msgstr "Mostrar sugerencias diarias al inicio"
-
-#: ../bibletime/util/cresmgr.cpp:1003
+#: ../bibletime/util/cresmgr.cpp:877
+#, fuzzy
 msgid ""
-"Show a daily tip each time BibleTime starts.<BR>The tips contain important "
+"Show a daily tip each time BibleTime starts. <BR>The tips contain important "
 "Bible quotations and helpful tips for using BibleTime."
 msgstr ""
 "Mostrar la sugerencia diaria cada vez BibleTime empieza.<BR>Las sugerencias "
 "contienen citas importantes de la Biblia y sugerencias ayudosas para el uso "
 "de BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:1007
-msgid "About BibleTime"
-msgstr "Acerca de BibleTime"
-
-#: ../bibletime/util/cresmgr.cpp:1008
+#: ../bibletime/util/cresmgr.cpp:881
 msgid "Show detailed information about BibleTime."
 msgstr "Mostrar información detallada sobre BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:1012
-msgid "About KDE"
-msgstr "Acerca de KDE"
-
-#: ../bibletime/util/cresmgr.cpp:1013
+#: ../bibletime/util/cresmgr.cpp:885
 msgid "Show detailed information about the KDE project."
 msgstr "Mostrar información detallada del proyecto de KDE."
 
-#: ../bibletime/util/cresmgr.cpp:1023
-msgid "Start the search"
-msgstr "Empezar la búsqueda"
-
-#: ../bibletime/util/cresmgr.cpp:1024
-msgid "Start to search the text in each of the chosen modules."
+#: ../bibletime/util/cresmgr.cpp:895
+#, fuzzy
+msgid "Start to search the text in each of the chosen work(s)."
 msgstr "Empieza la búsqueda de texto en cada módulo escojido."
 
-#: ../bibletime/util/cresmgr.cpp:1028
-msgid "Stop search"
-msgstr "Parar la búsqueda."
-
-#: ../bibletime/util/cresmgr.cpp:1029
+#: ../bibletime/util/cresmgr.cpp:899
 msgid "Stop the active search."
 msgstr "Parar la búsqueda activa."
 
-#: ../bibletime/util/cresmgr.cpp:1037
-msgid "Open a dialog to choose modules for the search."
+#: ../bibletime/util/cresmgr.cpp:906
+#, fuzzy
+msgid "Open a dialog to choose work(s) for the search."
 msgstr "Abra un diálogo para elegir los módulos para la búsqueda"
 
-#: ../bibletime/util/cresmgr.cpp:1041
-msgid "Search text"
-msgstr "Texto de búsqueda"
-
-#: ../bibletime/util/cresmgr.cpp:1042
-msgid "Enter the text you want to search in the chosen modules here."
+#: ../bibletime/util/cresmgr.cpp:910
+#, fuzzy
+msgid "Enter the text you want to search in the chosen work(s) here."
 msgstr ""
 "Entre aquí el texto que quisiera buscar para de entre los módulos escojidos."
 
-#: ../bibletime/util/cresmgr.cpp:1049
+#: ../bibletime/util/cresmgr.cpp:916
 msgid ""
 "Treat the search text as multiple words. A text must contain all of the "
 "words to match. The order of the words is unimportant."
@@ -2211,7 +2192,7 @@ msgstr ""
 "contener todas las palabras para estar en concordancia.  No importa el orden "
 "de las palabras."
 
-#: ../bibletime/util/cresmgr.cpp:1054
+#: ../bibletime/util/cresmgr.cpp:920
 msgid ""
 "Treat the search text as multiple words. A text must contain one or more "
 "words of to match. The order is unimportant."
@@ -2220,15 +2201,11 @@ msgstr ""
 "contener una o más de las palabras para estar en concordancia.  No importa "
 "el orden de las palabras."
 
-#: ../bibletime/util/cresmgr.cpp:1058
-msgid "Exact match"
-msgstr "Concordancia exacta"
-
-#: ../bibletime/util/cresmgr.cpp:1059
+#: ../bibletime/util/cresmgr.cpp:924
 msgid "The search text will be used exactly as entered."
 msgstr "El texto de búsqueda será usado exactamento como entrado."
 
-#: ../bibletime/util/cresmgr.cpp:1064
+#: ../bibletime/util/cresmgr.cpp:928
 msgid ""
 "Treat the search string as a GNU regular expression. The BibleTime handbook "
 "contains an introduction to regular expressions."
@@ -2236,11 +2213,7 @@ msgstr ""
 "Trate el texto de la búsqueda como una expresión regular de GNU. <BR>El "
 "manual de BibleTime contiene una introducción a expresiones regulares."
 
-#: ../bibletime/util/cresmgr.cpp:1072
-msgid "Case sensitive matching"
-msgstr "Sensibles a las mayúsculas"
-
-#: ../bibletime/util/cresmgr.cpp:1073
+#: ../bibletime/util/cresmgr.cpp:936
 msgid ""
 "If you choose this option the search will distinguish between upper and "
 "lowercase characters."
@@ -2248,42 +2221,27 @@ msgstr ""
 "Si escoje esta opción la búsqueda será sensibles a las mayúsculas y "
 "minúsculas."
 
-#: ../bibletime/util/cresmgr.cpp:1078
-msgid "Choose a search scope"
-msgstr "Elegir ámbito de búsqueda"
-
-#: ../bibletime/util/cresmgr.cpp:1079
+#: ../bibletime/util/cresmgr.cpp:941
+#, fuzzy
 msgid ""
-"Choose a scope from the list. Select the first item to use no scope, the "
-"second one is to use each module's last search result as search scope. The "
-"others are user defined search scopes."
+"Choose a scope from the list. \t\t\t\t\t\tSelect the first item to use no "
+"scope, the second one is to use each work's last search result as search "
+"scope. \t\t\t\t\t\tThe others are user defined search scopes."
 msgstr ""
 "Elije un ámbito de la lista.  Seleccione el elemento primero para no usar un "
 "ámbito, el segundo es para usar como ámbito de búsqueta el resultado de la "
 "última búsqueta de cada módulo.  Los otros son ámbitos de búsqueta definidos "
 "por usarios."
 
-#: ../bibletime/util/cresmgr.cpp:1085
-msgid "Available search scopes"
-msgstr "Ámbitos de búsqueda disponibles."
-
-#: ../bibletime/util/cresmgr.cpp:1086
+#: ../bibletime/util/cresmgr.cpp:949
 msgid "Select an item from the list to edit the search scope."
 msgstr "Seleccionar un elemento de la lista para editar el ámbito de búsqueda."
 
-#: ../bibletime/util/cresmgr.cpp:1090
-msgid "Search scope name"
-msgstr "Nombre del ámbito de búsqueda"
-
-#: ../bibletime/util/cresmgr.cpp:1091
+#: ../bibletime/util/cresmgr.cpp:953
 msgid "Change the name of the selected search scope."
 msgstr "Cambiar el nombre del ámbito de búsqueda seleccionado."
 
-#: ../bibletime/util/cresmgr.cpp:1095
-msgid "Edit search scope ranges"
-msgstr "Editar las gamas del ámbito de búsqueda"
-
-#: ../bibletime/util/cresmgr.cpp:1096
+#: ../bibletime/util/cresmgr.cpp:957
 msgid ""
 "Change the search ranges of the selected search scope item. Have a look at "
 "the predefined search scopes to see how search ranges are constructed."
@@ -2292,19 +2250,11 @@ msgstr ""
 "seleccionado.  Mire al ámbitos de búsqueda predeterminados para ver como se "
 "construye los ámbitos de búsqueda."
 
-#: ../bibletime/util/cresmgr.cpp:1100
-msgid "Parsed search ranges"
-msgstr "Gamas de búsqueda procesadas"
-
-#: ../bibletime/util/cresmgr.cpp:1101
+#: ../bibletime/util/cresmgr.cpp:961
 msgid "Contains the search ranges which will be used for the search."
 msgstr "Contiene las gamas de búsqueda que serán usados para la búsqueda."
 
-#: ../bibletime/util/cresmgr.cpp:1105
-msgid "Add a new search scope"
-msgstr "Añadir un nuevo ámbito de búsqueda"
-
-#: ../bibletime/util/cresmgr.cpp:1106
+#: ../bibletime/util/cresmgr.cpp:965
 msgid ""
 "Add a new search scope. First enter an appropriate name, then edit the "
 "search ranges."
@@ -2312,11 +2262,7 @@ msgstr ""
 "Añadir un nuevo ámbito de búsqueda.  Primeramente entre un nombre "
 "apropriado, entonces editar las gamas de búsqueda."
 
-#: ../bibletime/util/cresmgr.cpp:1110
-msgid "Delete current search scope"
-msgstr "Borrar ámbito de búsqueda actual"
-
-#: ../bibletime/util/cresmgr.cpp:1111
+#: ../bibletime/util/cresmgr.cpp:969
 msgid ""
 "Deletes the selected search scope. If you close the dialog using Cancel the "
 "settings won't be saved."
@@ -2324,35 +2270,21 @@ msgstr ""
 "Borrar el ámbito de búsqueda seleccionado.  Si se cierre el diálogo usando "
 "Cancelar los preferencias no serán guardados."
 
-#: ../bibletime/util/cresmgr.cpp:1119
-msgid "Used modules"
-msgstr "Módulos usados"
-
-#: ../bibletime/util/cresmgr.cpp:1120
-msgid "The list of modules chosen for the search."
+#: ../bibletime/util/cresmgr.cpp:977
+#, fuzzy
+msgid "The list of works chosen for the search."
 msgstr "La lista de módulos escojidos para la búsqueda."
 
-#: ../bibletime/util/cresmgr.cpp:1124
-msgid "Found items of selected module"
-msgstr "Los elementos encontrados del módulo seleccionado."
-
-#: ../bibletime/util/cresmgr.cpp:1125
-msgid "This list contains the search result of the selected module."
+#: ../bibletime/util/cresmgr.cpp:981
+#, fuzzy
+msgid "This list contains the search result of the selected work."
 msgstr "Esta lista contiene el resultado del módulo seleccionado."
 
-#: ../bibletime/util/cresmgr.cpp:1129
-msgid "Text preview"
-msgstr "Vista preliminar del texto"
-
-#: ../bibletime/util/cresmgr.cpp:1130
+#: ../bibletime/util/cresmgr.cpp:985
 msgid "The text preview of the selected search result item."
 msgstr "La vista preliminar del texto del resultado de búqueda seleccinado."
 
-#: ../bibletime/util/cresmgr.cpp:1141
-msgid "Scroll through the list"
-msgstr "Desplazar por la lista"
-
-#: ../bibletime/util/cresmgr.cpp:1142
+#: ../bibletime/util/cresmgr.cpp:997
 msgid ""
 "This button is useful to scroll through the entries of the list. Press the "
 "button and move the mouse to increase or decrease the item."
@@ -2360,69 +2292,54 @@ msgstr ""
 "Este botón es útil para desplazar por las entradas de la lista. Pulse el "
 "botón y mueva el ratón para aumentar o desminuir el elemento."
 
-#: ../bibletime/util/cresmgr.cpp:1147
-msgid "List of books"
-msgstr "Lista de libros"
+#: ../bibletime/util/cresmgr.cpp:1001
+msgid "This button opens the search dialog with the work(s) of this window."
+msgstr ""
 
-#: ../bibletime/util/cresmgr.cpp:1148
-msgid "This list contains the books which are available in this module."
+#: ../bibletime/util/cresmgr.cpp:1006
+msgid "Go back one item in the display history."
+msgstr ""
+
+#: ../bibletime/util/cresmgr.cpp:1010
+msgid "Go forward one item in the display history."
+msgstr ""
+
+#: ../bibletime/util/cresmgr.cpp:1017
+#, fuzzy
+msgid "This list contains the books which are available in this work."
 msgstr "Esta lista contiene los libros disponibles en este módulo."
 
-#: ../bibletime/util/cresmgr.cpp:1152
-msgid "Show the next book"
-msgstr "Mostrar el próximo libro"
-
-#: ../bibletime/util/cresmgr.cpp:1153
-msgid "Show the next book of this module."
+#: ../bibletime/util/cresmgr.cpp:1021
+#, fuzzy
+msgid "Show the next book of this work."
 msgstr "Mostrar el próximo libro de este módulo."
 
-#: ../bibletime/util/cresmgr.cpp:1157
-msgid "Show the previous book"
-msgstr "Mostrar el libro anterior"
-
-#: ../bibletime/util/cresmgr.cpp:1158
-msgid "Show the previous book of this module."
+#: ../bibletime/util/cresmgr.cpp:1025
+#, fuzzy
+msgid "Show the previous book of this work."
 msgstr "Mostrar el libro anterior de este módulo."
 
-#: ../bibletime/util/cresmgr.cpp:1162
-msgid "List of chapters"
-msgstr "Lista de capítulos"
-
-#: ../bibletime/util/cresmgr.cpp:1163
+#: ../bibletime/util/cresmgr.cpp:1029
 msgid ""
 "This list contains the chapters which are available in the current book."
 msgstr "Esta lista contiene los capítulos disponibles en el libro actual."
 
-#: ../bibletime/util/cresmgr.cpp:1167
-msgid "Show the next chapter"
-msgstr "Mostrar el próximo capítulo"
-
-#: ../bibletime/util/cresmgr.cpp:1168
-msgid "Show the previous chapter of the module."
+#: ../bibletime/util/cresmgr.cpp:1033
+#, fuzzy
+msgid "Show the previous chapter of the work."
 msgstr "Mostrar el capítulo anterior del módulo."
 
-#: ../bibletime/util/cresmgr.cpp:1172
-msgid "Show the previous chapter"
-msgstr "Mostrar el capítulo anterior"
-
-#: ../bibletime/util/cresmgr.cpp:1173
-msgid "Show the next chapter of the module."
+#: ../bibletime/util/cresmgr.cpp:1037
+#, fuzzy
+msgid "Show the next chapter of the work."
 msgstr "Mostrar el próximo capítulo de este módulo."
 
-#: ../bibletime/util/cresmgr.cpp:1177
-msgid "List of verses"
-msgstr "Lista de versos"
-
-#: ../bibletime/util/cresmgr.cpp:1178
+#: ../bibletime/util/cresmgr.cpp:1041
 msgid ""
 "This list contains the verses which are available in the current chapter."
 msgstr "Esta lista contiene los versos disponibles en el capítulo actual."
 
-#: ../bibletime/util/cresmgr.cpp:1182
-msgid "Jump to the next verse"
-msgstr "Saltar al próximo verso"
-
-#: ../bibletime/util/cresmgr.cpp:1183
+#: ../bibletime/util/cresmgr.cpp:1045
 msgid ""
 "In  Bible texts, the next verse will be highlighted. In commentaries, the "
 "next entry will be shown."
@@ -2430,11 +2347,7 @@ msgstr ""
 "En textos de la Biblia, el verso próximo será iluminado.  En comentarios, la "
 "entrada próxima será mostrado."
 
-#: ../bibletime/util/cresmgr.cpp:1187
-msgid "Jump to the previous verse"
-msgstr "Saltar al verso anterior"
-
-#: ../bibletime/util/cresmgr.cpp:1188
+#: ../bibletime/util/cresmgr.cpp:1049
 msgid ""
 "In Bible texts, the previous verse will be highlighted. In commentaries, the "
 "previous entry will be shown."
@@ -2442,166 +2355,97 @@ msgstr ""
 "En textos de la Biblia, el verso anterior será iluminado.  En comentarios, "
 "la entrada anterior será mostrado."
 
-#: ../bibletime/util/cresmgr.cpp:1195
-msgid "Synchronize with Bible windows"
-msgstr "Sincronizar con ventanas de la Biblia"
-
-#: ../bibletime/util/cresmgr.cpp:1196
+#: ../bibletime/util/cresmgr.cpp:1056
+#, fuzzy
 msgid ""
-"Synchronize the displayed entry of this module with the active Bible window."
+"Synchronize the displayed entry of this work with the active Bible window."
 msgstr ""
 "Sincronizar el verso mostrado de este módulo con la ventana de la Biblia "
 "activa."
 
-#: ../bibletime/util/cresmgr.cpp:1203
-msgid "List of entries"
-msgstr "Lista de entradas"
-
-#: ../bibletime/util/cresmgr.cpp:1204
-msgid "This list contains the entries of the current module."
+#: ../bibletime/util/cresmgr.cpp:1063
+#, fuzzy
+msgid "This list contains the entries of the current work."
 msgstr "Esta lista contiene las entradas del módulo actual."
 
-#: ../bibletime/util/cresmgr.cpp:1208
-msgid "Show the next entry"
-msgstr "Mostrar la próxima entrada"
-
-#: ../bibletime/util/cresmgr.cpp:1209
-msgid "The next entry of the module will be shown."
+#: ../bibletime/util/cresmgr.cpp:1067
+#, fuzzy
+msgid "The next entry of the work will be shown."
 msgstr "La entrada próxima del módulo será mostrada."
 
-#: ../bibletime/util/cresmgr.cpp:1213
-msgid "Show the previous entry"
-msgstr "Mostrar la entrada anterior"
-
-#: ../bibletime/util/cresmgr.cpp:1214
-msgid "The previous entry of the module will be shown."
+#: ../bibletime/util/cresmgr.cpp:1071
+#, fuzzy
+msgid "The previous entry of the work will be shown."
 msgstr "La entrada anterior del módulo será mostrado."
 
-#: ../bibletime/util/cresmgr.cpp:1222
-msgid "Save the current text"
-msgstr "Guardar el texto activo"
-
-#: ../bibletime/util/cresmgr.cpp:1223
-msgid "Save the curent text into the module. The old text will be overwritten."
+#: ../bibletime/util/cresmgr.cpp:1079
+#, fuzzy
+msgid "Save the curent text into the work. The old text will be overwritten."
 msgstr "Guardar el texto activo al módulo.  El texto viejo será sobrescribido."
 
-#: ../bibletime/util/cresmgr.cpp:1227
-msgid "Restore the old text"
-msgstr "Restaurar el texto viejo"
-
-#: ../bibletime/util/cresmgr.cpp:1228
+#: ../bibletime/util/cresmgr.cpp:1083
+#, fuzzy
 msgid ""
-"Loads the old text from the module and loads it into the edit area. The "
+"Loads the old text from the work and loads it into the edit area. The "
 "unsaved text will be lost."
 msgstr ""
 "Se carga el texto viejo del módulo y se cárgalo al entorno de editar.  El "
 "texto no guardado será perdido."
 
-#: ../bibletime/util/cresmgr.cpp:1232
-msgid "Delete the current entry"
-msgstr "Borrar la entrada activa"
-
-#: ../bibletime/util/cresmgr.cpp:1233
-msgid "Deletes the current entry out of the module. The text will be lost."
+#: ../bibletime/util/cresmgr.cpp:1087
+#, fuzzy
+msgid "Deletes the current entry out of the work. The text will be lost."
 msgstr "Se borra la entrada activa del módulo.  El texto será perdido."
 
-#: ../bibletime/util/cresmgr.cpp:1239
-msgid "Bold text"
-msgstr "Negrita"
-
-#: ../bibletime/util/cresmgr.cpp:1240
+#: ../bibletime/util/cresmgr.cpp:1093
 msgid "Toggle bold formatting of the selected text."
 msgstr "Conmutar formato negrita del texto seleccionado."
 
-#: ../bibletime/util/cresmgr.cpp:1244
-msgid "Italic text"
-msgstr "Cursiva"
-
-#: ../bibletime/util/cresmgr.cpp:1245
+#: ../bibletime/util/cresmgr.cpp:1097
 msgid "Toggle italic formatting of the selected text."
 msgstr "Conmutar formato cursiva del texto seleccionado."
 
-#: ../bibletime/util/cresmgr.cpp:1249
-msgid "Underline text"
-msgstr "Subrayado"
-
-#: ../bibletime/util/cresmgr.cpp:1250
+#: ../bibletime/util/cresmgr.cpp:1101
 msgid "Toggle underlined formatting of the selected text."
 msgstr "Conmutar formato subrayado del texto seleccionado."
 
-#: ../bibletime/util/cresmgr.cpp:1255
-msgid "Align left"
-msgstr "Alinear a la izquierda"
-
-#: ../bibletime/util/cresmgr.cpp:1256
+#: ../bibletime/util/cresmgr.cpp:1106
 msgid "The text will be aligned on the left side of the page."
 msgstr "El texto será alineado al lado izquierda de la página."
 
-#: ../bibletime/util/cresmgr.cpp:1261
+#: ../bibletime/util/cresmgr.cpp:1110
 msgid "Centers the text horizontally."
 msgstr "Se centra el texto horizontalmente."
 
-#: ../bibletime/util/cresmgr.cpp:1265
-msgid "Align right"
-msgstr "Alinear al derecho"
-
-#: ../bibletime/util/cresmgr.cpp:1266
+#: ../bibletime/util/cresmgr.cpp:1114
 msgid "Aligns the text on the right side of the page."
 msgstr "El texto será alineado al lado derecho de la página."
 
-#: ../bibletime/util/cresmgr.cpp:1270
-msgid "Justify"
-msgstr "Justificado"
-
-#: ../bibletime/util/cresmgr.cpp:1271
+#: ../bibletime/util/cresmgr.cpp:1118
 msgid "Justifies the text on the page."
 msgstr "Se justifica el texto en la página."
 
-#: ../bibletime/util/cresmgr.cpp:1276
-msgid "Set the font"
-msgstr "Asignar la fuente"
-
-#: ../bibletime/util/cresmgr.cpp:1277
+#: ../bibletime/util/cresmgr.cpp:1123
 msgid "Choose a new font for the selected text."
 msgstr "Elija una nueva fuente para el texto seleccionado."
 
-#: ../bibletime/util/cresmgr.cpp:1280
-msgid "Set the font size"
-msgstr "Asignar el tamaño de fuente"
-
-#: ../bibletime/util/cresmgr.cpp:1281
+#: ../bibletime/util/cresmgr.cpp:1126
 msgid "Choose a new font size for the selected text."
 msgstr "Elija un nuevo tamaño de fuente para el texto seleccionado."
 
-#: ../bibletime/util/cresmgr.cpp:1284
-msgid "Set the color"
-msgstr "Asignar el color"
-
-#: ../bibletime/util/cresmgr.cpp:1285
+#: ../bibletime/util/cresmgr.cpp:1129
 msgid "Choose a new color for the selected text."
 msgstr "Elija un nuevo color para el texto seleccionado."
 
-#: ../bibletime/util/cresmgr.cpp:1295
-msgid "Show daily tip"
-msgstr "Mostrar sugerencia diaria"
-
-#: ../bibletime/util/cresmgr.cpp:1296
+#: ../bibletime/util/cresmgr.cpp:1139
 msgid "Activate this box to see a daily tip on startup."
 msgstr "Active esta caja para ver la sugerencia diaria al inicio."
 
-#: ../bibletime/util/cresmgr.cpp:1300
-msgid "Show startup logo"
-msgstr "Mostrar logotipo de inicio"
-
-#: ../bibletime/util/cresmgr.cpp:1301
+#: ../bibletime/util/cresmgr.cpp:1143
 msgid "Activate this to see the BibleTime logo on startup."
 msgstr "Activar esto para ver el logotipo al inicio."
 
-#: ../bibletime/util/cresmgr.cpp:1305
-msgid "Restore the last BibleTime session on startup"
-msgstr "Restaurar la última sésion de BibleTime al inicio"
-
-#: ../bibletime/util/cresmgr.cpp:1306
+#: ../bibletime/util/cresmgr.cpp:1147
 msgid ""
 "Save the user's session when BibleTime is closed and restore it on the next "
 "startup."
@@ -2609,206 +2453,67 @@ msgstr ""
 "Guardar la sésion del usario cuando BibleTime se cierra y restaurarla al "
 "proximo inicio."
 
-#: ../bibletime/util/cresmgr.cpp:1313
-msgid "Choose a language"
-msgstr "Elija una idioma"
-
-#: ../bibletime/util/cresmgr.cpp:1314
+#: ../bibletime/util/cresmgr.cpp:1154
 msgid "The font selection below will apply to all texts in this language."
 msgstr ""
 "La selección de fuente de abajo aplicará a todos textos en esta idioma."
 
-#: ../bibletime/util/cresmgr.cpp:1321
-msgid "Text color"
-msgstr "Color de texto"
-
-#: ../bibletime/util/cresmgr.cpp:1322
-msgid "The color used for normal text in the display windows."
-msgstr "El color usado para texto normal en las pantallas de vista."
-
-#: ../bibletime/util/cresmgr.cpp:1326
-msgid "Color of the background"
-msgstr "Color de fondo"
-
-#: ../bibletime/util/cresmgr.cpp:1327
-msgid "This is the background color used in display windows."
-msgstr "Esto es el color del fondo usado en las ventanas de vista."
-
-#: ../bibletime/util/cresmgr.cpp:1331
-msgid "Link color"
-msgstr "Color de enlace"
-
-#: ../bibletime/util/cresmgr.cpp:1332
-msgid "The color used for all references into Sword modules."
-msgstr "El color usado para todas referencias a módulos de Sword."
-
-#: ../bibletime/util/cresmgr.cpp:1336
-msgid "Footnote color"
-msgstr "Color de nota al pie"
-
-#: ../bibletime/util/cresmgr.cpp:1337
-msgid "This color will be used for all footnotes in the display windows."
-msgstr ""
-"Este color será usado para todas notas al pie en las pantallas de vista."
-
-#: ../bibletime/util/cresmgr.cpp:1342
-msgid ""
-"This color will be used for every Strong's Number in the display windows."
-msgstr ""
-"Este color será usado para cada Número de Strong en las pantallas de vista."
-
-#: ../bibletime/util/cresmgr.cpp:1346
-msgid "Color of the highlighted verse"
-msgstr "Color del verso iluminado"
-
-#: ../bibletime/util/cresmgr.cpp:1347
-msgid "This is the color of the highlighted verse used in display windows."
-msgstr "Esto es el color del verso iluminado usado en las ventanas de vista."
-
-#: ../bibletime/util/cresmgr.cpp:1351
-msgid "Words of Jesus"
-msgstr "Palabras de Cristo"
-
-#: ../bibletime/util/cresmgr.cpp:1352
-msgid "All words spoken by Jesus will appear in this color."
-msgstr "Todas palabras hablado por Cristo aparecerán en este color."
-
-#: ../bibletime/util/cresmgr.cpp:1356
-msgid "Morphological tags"
-msgstr "Etiquetas morfológicas"
-
-#: ../bibletime/util/cresmgr.cpp:1357
-msgid "All morphological tags will appear in this color."
-msgstr "Todas etiquetas morfológicas aparecerá en este color."
-
-#: ../bibletime/util/cresmgr.cpp:1364
-msgid "List of sessions"
-msgstr "Lista de sésiones"
-
-#: ../bibletime/util/cresmgr.cpp:1365
-msgid "The list of available sessions."
-msgstr "Lista de sésiones disponibles."
-
-#: ../bibletime/util/cresmgr.cpp:1370
-msgid "Create a new, empty session with default settings."
-msgstr "Crear una nueva sésion vacia con preferencias predeterminadas."
-
-#: ../bibletime/util/cresmgr.cpp:1374
-msgid "Delete session"
-msgstr "Eliminar sésion"
-
-#: ../bibletime/util/cresmgr.cpp:1375
-msgid "Delete the selected session."
-msgstr "Eliminar la sésion seleccionada."
-
-#: ../bibletime/util/cresmgr.cpp:1380
-msgid "Rename the selected session."
-msgstr "Renombrar la sésion seleccionada."
-
-#: ../bibletime/util/cresmgr.cpp:1389
-msgid "Use cache files for the lexicon entries"
-msgstr "Usar archivos en el caché para las entradas del léxico"
-
-#: ../bibletime/util/cresmgr.cpp:1390
-msgid ""
-"Activate this to let BibleTime create index files for the lexicon entries. "
-"This increases the speed of opening large lexicon modules significantly, but "
-"does consume some disk space. Recommended."
-msgstr ""
-"Active esto para permitir que BibleTime cree archivos de ídice para las "
-"entradas léxicas.  Se aumenta notablemente la velocidad de abrir módulos de "
-"léxicos grandes, pero se ocupa algún espacio de disco.  Es recomendado "
-"hacerlo."
-
-#: ../bibletime/util/cresmgr.cpp:1395
-msgid "Check this to use the down arrow to scroll to the next verse."
-msgstr ""
-"Seleccionar esto para usar la flecha hacia bajo para desplazar al verso "
-"siguiente."
-
-#: ../bibletime/util/cresmgr.cpp:1399
-msgid "List of languages"
-msgstr "Lista de idiomas"
-
-#: ../bibletime/util/cresmgr.cpp:1400
+#: ../bibletime/util/cresmgr.cpp:1163
 msgid "Contains the languages which can be used for the biblical booknames."
 msgstr ""
 "Contiene las idiomas que es puede usar para los nombres biblicos de los "
 "libros."
 
-#: ../bibletime/util/cresmgr.cpp:1407
-msgid "The default bible used in the workspace area"
-msgstr "La Biblia predeterminada usada en el entorno de trabajo"
-
-#: ../bibletime/util/cresmgr.cpp:1408
-msgid "The default Bible is used when a hyperlink into a Bible is clicked."
+#: ../bibletime/util/cresmgr.cpp:1170
+#, fuzzy
+msgid "The standard Bible is used when a hyperlink into a Bible is clicked."
 msgstr ""
 "La Biblia predeterminada es usada cuando un hiperenlace a una Biblia es "
 "pulsado."
 
-#: ../bibletime/util/cresmgr.cpp:1412
-msgid "The default commentary used in the workspace area"
-msgstr "El comentario predeterminado usado en el entorno de trabajo"
-
-#: ../bibletime/util/cresmgr.cpp:1413
+#: ../bibletime/util/cresmgr.cpp:1174
+#, fuzzy
 msgid ""
-"The default commentary is used when a hyperlink into a commentary is clicked."
+"The standard commentary is used when a hyperlink into a commentary is "
+"clicked."
 msgstr ""
 "El comentario predeterminado es usado cuando un hiperenlace a un commentario "
 "es pulsado."
 
-#: ../bibletime/util/cresmgr.cpp:1417
-msgid "The default lexicon used in the workspace area"
-msgstr "El léxico predeterminado usado en el entorno de trabajo"
-
-#: ../bibletime/util/cresmgr.cpp:1418
-msgid "The default lexicon is used when a hyperlink into a lexicon is clicked."
+#: ../bibletime/util/cresmgr.cpp:1178
+#, fuzzy
+msgid ""
+"The standard lexicon is used when a hyperlink into a lexicon is clicked."
 msgstr ""
 "El léxico predeterminado es usado cuando un hiperenlace a un léxico es "
 "pulsado."
 
-#: ../bibletime/util/cresmgr.cpp:1422
-msgid "The default daily devotional module"
-msgstr "El módulo del devoto diario predeterminado"
-
-#: ../bibletime/util/cresmgr.cpp:1423
+#: ../bibletime/util/cresmgr.cpp:1182
+#, fuzzy
 msgid ""
-"The default devotional will be used to display a short start up devotional."
+"The standard devotional will be used to display a short start up devotional."
 msgstr ""
 "El devoto predeterminado será usado para mostrar un devoto breve al inicio."
 
-#: ../bibletime/util/cresmgr.cpp:1427
-msgid "The default Hebrew lexicon used in the workspace area"
-msgstr "El léxico hebreo predeterminado usado en el entorno de trabajo"
-
-#: ../bibletime/util/cresmgr.cpp:1428
+#: ../bibletime/util/cresmgr.cpp:1186
+#, fuzzy
 msgid ""
-"The default Hebrew lexicon is used when a hyperlink into a Hebrew lexicon is "
-"clicked."
+"The standard Hebrew lexicon is used when a hyperlink into a Hebrew lexicon "
+"is clicked."
 msgstr ""
 "El léxico Hebreo predeterminado es usado cuando un hiperenlace a un léxico "
 "Hebreo es pulsado."
 
-#: ../bibletime/util/cresmgr.cpp:1432
-msgid "The default Greek lexicon used in the workspace area"
-msgstr "El léxico griego predeterminado usado en el entorno de trabajo"
-
-#: ../bibletime/util/cresmgr.cpp:1433
+#: ../bibletime/util/cresmgr.cpp:1190
+#, fuzzy
 msgid ""
-"The default Greek lexicon is used when a hyperlink into a Greek lexicon is "
+"The standard Greek lexicon is used when a hyperlink into a Greek lexicon is "
 "clicked."
 msgstr ""
 "El léxico Griego predeterminado es usado cuando un hiperenlace a un léxico "
 "Griego es pulsado."
 
-#: ../bibletime/util/cresmgr.cpp:1437
-msgid ""
-"The default Morphological lexicon for Hebrew texts used in the workspace area"
-msgstr ""
-"El léxico morfológico predeterminado para textos de Hebreo usado en el "
-"entorno de trabajo"
-
-#: ../bibletime/util/cresmgr.cpp:1438
+#: ../bibletime/util/cresmgr.cpp:1194
 msgid ""
 "The standard morphological lexicon for Hebrew texts is used when a hyperlink "
 "of a morphological tag in a Hebrew text is clicked."
@@ -2816,14 +2521,7 @@ msgstr ""
 "El léxico morfológico estándar para textos de Hebreo es usado cuando un "
 "hiperenlace de un etiquete morfológico en Hebreo es pulsado."
 
-#: ../bibletime/util/cresmgr.cpp:1442
-msgid ""
-"The default Morphological lexicon for Greek texts used in the workspace area"
-msgstr ""
-"El léxico morfológico predeterminado para textos de Giega usado en el "
-"entorno de trabajo"
-
-#: ../bibletime/util/cresmgr.cpp:1443
+#: ../bibletime/util/cresmgr.cpp:1198
 msgid ""
 "The standard morphological lexicon for Greek texts is used when a hyperlink "
 "of a morphological tag in a Greek text is clicked."
@@ -2831,477 +2529,972 @@ msgstr ""
 "El léxico morfológico estándar para textos de Griego es usado cuando un "
 "hiperenlace de un etiquete morfológico en Griego es pulsado."
 
-#: ../bibletime/util/cresmgr.cpp:1450
-msgid "Line breaks"
-msgstr "Saltos de línea"
-
-#: ../bibletime/util/cresmgr.cpp:1451
-msgid "Insert line breaks after each verse."
-msgstr "Insertar saltos de línea despues cada verso."
-
-#: ../bibletime/util/cresmgr.cpp:1455
-msgid "Verse numbers"
-msgstr "Números de verso"
-
-#: ../bibletime/util/cresmgr.cpp:1456
-msgid "Show the verse number before each verse in Bibles."
-msgstr "Mostrar los números de versos antes cada verso en las Biblias."
-
-#: ../bibletime/util/cresmgr.cpp:1461
-msgid "Show footnotes embedded in the module's text."
-msgstr "Mostrar las notas al pie implantadas en el texto del módulo."
-
-#: ../bibletime/util/cresmgr.cpp:1466
+#: ../bibletime/util/cresmgr.cpp:1207
+#, fuzzy
 msgid ""
-"Show Strong's Numbers embedded in the text of modules which support this "
-"feature."
-msgstr ""
-"Mostrar los Números de Strong implantados en el texto de los módulos que "
-"soportan esta característica."
-
-#: ../bibletime/util/cresmgr.cpp:1471
-msgid ""
-"Show tags providing morphological information in the text of modules which "
-"support this feature."
-msgstr ""
-"Mostrar las etiquetas de información mofológica en el texto de los módulos "
-"que soportan esta característica."
-
-#: ../bibletime/util/cresmgr.cpp:1476
-msgid ""
-"Show section headings in the text in the text of modules which support this "
-"feature."
-msgstr ""
-"Mostrar los encabezamientos de las secciones en el texto de los módulos que "
-"soportan esta característica."
-
-#: ../bibletime/util/cresmgr.cpp:1481
-msgid "Show root words."
-msgstr "Mostrar las palabras de la raíz."
-
-#: ../bibletime/util/cresmgr.cpp:1486
-msgid "Show hebrew vowel points in the text."
-msgstr "Mostrar los puntos de vocales en el texto."
-
-#: ../bibletime/util/cresmgr.cpp:1491
-msgid "Show hebrew cantillation marks in the text."
-msgstr "Mostrar en el texto los acentos hebreos de cantilación."
-
-#: ../bibletime/util/cresmgr.cpp:1496
-msgid "Show greek accents in the text."
-msgstr "Mostrar los acentos griegos en el texto."
-
-#: ../bibletime/util/cresmgr.cpp:1501
-msgid "Use different variants from the textual sources."
-msgstr "Usar varientes diferentes de los textos."
-
-#: ../bibletime/util/cresmgr.cpp:1511
-msgid ""
-"Opens the search dialog to search in the modules that are currently open."
+"Opens the search dialog to search in the work(s) that are currently open."
 msgstr ""
 "Se abre el diálogo de búsqueda para buscar en los módulos que ya están "
 "abiertos."
 
-#: ../bibletime/util/ctoolclass.cpp:84
+#: ../bibletime/util/ctoolclass.cpp:69
 msgid "The file already exists."
 msgstr "¡El archivo ya existe!"
 
-#: ../bibletime/util/ctoolclass.cpp:85
+#: ../bibletime/util/ctoolclass.cpp:70
 msgid "Do you want to overwrite it?"
 msgstr "¿Desea sobreescribirlo ?"
 
-#: ../bibletime/util/ctoolclass.cpp:105
+#: ../bibletime/util/ctoolclass.cpp:90
 msgid "The file couldn't be saved."
 msgstr "El archivo no se puede ser guardado."
 
-#: ../bibletime/util/ctoolclass.cpp:106
+#: ../bibletime/util/ctoolclass.cpp:91
 msgid "Please check permissions etc."
 msgstr "¡Por favor, compruebe los permisos, etc.!"
 
-#: clanguagemgr.cpp:200
+#: ../bibletime/util/ctoolclass.cpp:200
+msgid "not set"
+msgstr "sin asignar"
+
+#: clanguagemgr.cpp:185
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
-#: clanguagemgr.cpp:202
+#: clanguagemgr.cpp:187
 msgid "English, Old (ca.450-1100)"
 msgstr "Inglés, Viejo (circa 450-1100)"
 
-#: clanguagemgr.cpp:203
+#: clanguagemgr.cpp:188
 msgid "Arabic"
 msgstr "Árabe"
 
-#: clanguagemgr.cpp:205
+#: clanguagemgr.cpp:190
 msgid "Azerbaijani"
 msgstr "Azerbaiyaní"
 
-#: clanguagemgr.cpp:208
+#: clanguagemgr.cpp:193
 msgid "Belarusian"
 msgstr "Bieloruso"
 
-#: clanguagemgr.cpp:209
+#: clanguagemgr.cpp:194
 msgid "Bulgarian"
 msgstr "Búlgaro"
 
-#: clanguagemgr.cpp:214
+#: clanguagemgr.cpp:199
 msgid "Breton"
 msgstr "Bretón"
 
-#: clanguagemgr.cpp:215
+#: clanguagemgr.cpp:200
 msgid "Bosnian"
 msgstr "Bosnio"
 
-#: clanguagemgr.cpp:217
+#: clanguagemgr.cpp:202
 msgid "Catalan"
 msgstr "Catalán"
 
-#: clanguagemgr.cpp:219
+#: clanguagemgr.cpp:204
 msgid "Cebuano"
 msgstr "Cebuano"
 
-#: clanguagemgr.cpp:220
+#: clanguagemgr.cpp:205
 msgid "Chamorro"
 msgstr ""
 
-#: clanguagemgr.cpp:222
+#: clanguagemgr.cpp:207
 msgid "Coptic"
 msgstr "Título"
 
-#: clanguagemgr.cpp:223
+#: clanguagemgr.cpp:208
 msgid "Czech"
 msgstr "Checo"
 
-#: clanguagemgr.cpp:224
+#: clanguagemgr.cpp:209
 msgid "Church Slavic"
 msgstr "Church Eslavo"
 
-#: clanguagemgr.cpp:226
+#: clanguagemgr.cpp:211
 msgid "Welsh"
 msgstr "Galés"
 
-#: clanguagemgr.cpp:228
+#: clanguagemgr.cpp:213
 msgid "Danish"
 msgstr "Danes"
 
-#: clanguagemgr.cpp:229
+#: clanguagemgr.cpp:214
 msgid "German"
 msgstr "Alemán"
 
-#: clanguagemgr.cpp:232
+#: clanguagemgr.cpp:217
 msgid "Greek, Modern (1453-)"
 msgstr "Griego, Moderno (1453- )"
 
-#: clanguagemgr.cpp:234
+#: clanguagemgr.cpp:219
 msgid "American English"
 msgstr "Inglés Americano"
 
-#: clanguagemgr.cpp:235
+#: clanguagemgr.cpp:220
 msgid "English, Middle (1100-1500)"
 msgstr "Inglés, Medio (1100-1500)"
 
-#: clanguagemgr.cpp:236
+#: clanguagemgr.cpp:221
 msgid "Esperanto"
 msgstr "Esperanto"
 
-#: clanguagemgr.cpp:237
+#: clanguagemgr.cpp:222
 msgid "Spanish"
 msgstr "Español"
 
-#: clanguagemgr.cpp:238
+#: clanguagemgr.cpp:223
 msgid "Estonian"
 msgstr "Estoniano"
 
-#: clanguagemgr.cpp:239
+#: clanguagemgr.cpp:224
 msgid "Basque"
 msgstr "Vasco"
 
-#: clanguagemgr.cpp:242
+#: clanguagemgr.cpp:227
 msgid "Finnish"
 msgstr "Finlandés"
 
-#: clanguagemgr.cpp:245
+#: clanguagemgr.cpp:230
 msgid "French"
 msgstr "Francés"
 
-#: clanguagemgr.cpp:246
+#: clanguagemgr.cpp:231
 msgid "Frisian"
 msgstr "Frisio"
 
-#: clanguagemgr.cpp:248
+#: clanguagemgr.cpp:233
 msgid "Irish"
 msgstr "Irlandés"
 
-#: clanguagemgr.cpp:249
+#: clanguagemgr.cpp:234
 msgid "Gaelic (Scots)"
 msgstr "Gaélicoh (Escocés)"
 
-#: clanguagemgr.cpp:253
+#: clanguagemgr.cpp:238
 msgid "Gothic"
 msgstr "Gótico"
 
-#: clanguagemgr.cpp:254
+#: clanguagemgr.cpp:239
 msgid "Manx"
 msgstr "Manx"
 
-#: clanguagemgr.cpp:255
+#: clanguagemgr.cpp:240
 msgid "Greek, Ancient (to 1453)"
 msgstr "Griego, Anciano (hasta 1453)"
 
-#: clanguagemgr.cpp:257
+#: clanguagemgr.cpp:242
 msgid "Hebrew"
 msgstr "Hebreo"
 
-#: clanguagemgr.cpp:258
+#: clanguagemgr.cpp:243
 msgid "Hausa"
 msgstr ""
 
-#: clanguagemgr.cpp:259
+#: clanguagemgr.cpp:244
 msgid "Hawaiian"
 msgstr "Hawaiano"
 
-#: clanguagemgr.cpp:262
+#: clanguagemgr.cpp:247
 #, fuzzy
 msgid "Croatian"
 msgstr "Título"
 
-#: clanguagemgr.cpp:263
+#: clanguagemgr.cpp:248
 msgid "Hungarian"
 msgstr "Húngaro"
 
-#: clanguagemgr.cpp:264
+#: clanguagemgr.cpp:249
 msgid "Armenian"
 msgstr "Armenio"
 
-#: clanguagemgr.cpp:268
+#: clanguagemgr.cpp:253
 msgid "Indonesian"
 msgstr "Indonesio"
 
-#: clanguagemgr.cpp:271
+#: clanguagemgr.cpp:256
 msgid "Icelandic"
 msgstr "Islándico"
 
-#: clanguagemgr.cpp:272
+#: clanguagemgr.cpp:257
 msgid "Italian"
 msgstr "Italiano"
 
-#: clanguagemgr.cpp:275
+#: clanguagemgr.cpp:260
 msgid "Japanese"
 msgstr "Japonés"
 
-#: clanguagemgr.cpp:277
+#: clanguagemgr.cpp:262
 msgid "Georgian"
 msgstr "Georgiano"
 
-#: clanguagemgr.cpp:278
-msgid "Kabyle"
-msgstr ""
-
-#: clanguagemgr.cpp:285
+#: clanguagemgr.cpp:270
 msgid "Korean"
 msgstr "Coreano"
 
-#: clanguagemgr.cpp:287
+#: clanguagemgr.cpp:272
 msgid "Kurdish"
 msgstr "Kurdo"
 
-#: clanguagemgr.cpp:290
+#: clanguagemgr.cpp:275
 msgid "Kirghiz"
 msgstr "Kirghiz"
 
-#: clanguagemgr.cpp:292
+#: clanguagemgr.cpp:277
 msgid "Latin"
 msgstr "Latino"
 
-#: clanguagemgr.cpp:296
+#: clanguagemgr.cpp:281
 msgid "Lithuanian"
 msgstr ""
 
-#: clanguagemgr.cpp:297
+#: clanguagemgr.cpp:282
 msgid "Latvian"
 msgstr "Latvio"
 
-#: clanguagemgr.cpp:301
+#: clanguagemgr.cpp:286
 msgid "Maori"
 msgstr "Maorí"
 
-#: clanguagemgr.cpp:302 clanguagemgr.cpp:400
+#: clanguagemgr.cpp:287 clanguagemgr.cpp:387
 msgid "Macedonian"
 msgstr "Macedonio"
 
-#: clanguagemgr.cpp:306
+#: clanguagemgr.cpp:291
 #, fuzzy
 msgid "More"
 msgstr "Maorí"
 
-#: clanguagemgr.cpp:308
+#: clanguagemgr.cpp:293
 msgid "Malay"
 msgstr "Malayo"
 
-#: clanguagemgr.cpp:309
+#: clanguagemgr.cpp:294
 msgid "Maltese"
 msgstr "Maltés"
 
-#: clanguagemgr.cpp:315
+#: clanguagemgr.cpp:300
 msgid "Low German; Low Saxon"
 msgstr "Alemán Bajo, Sajón Bajo"
 
-#: clanguagemgr.cpp:318
+#: clanguagemgr.cpp:303
 msgid "Dutch"
 msgstr "Holandés"
 
-#: clanguagemgr.cpp:320
+#: clanguagemgr.cpp:305
 msgid "Norwegian"
 msgstr "Noruego"
 
-#: clanguagemgr.cpp:331
+#: clanguagemgr.cpp:316
 msgid "Papiamento"
 msgstr "Papiamento"
 
-#: clanguagemgr.cpp:333
+#: clanguagemgr.cpp:318
 msgid "Polish"
 msgstr "Polaco"
 
-#: clanguagemgr.cpp:335
+#: clanguagemgr.cpp:320
 msgid "Portuguese"
 msgstr "Portugués"
 
-#: clanguagemgr.cpp:336
+#: clanguagemgr.cpp:321
 #, fuzzy
 msgid "Brasilian Portuguese"
 msgstr "Traducción a Portugués"
 
-#: clanguagemgr.cpp:343
+#: clanguagemgr.cpp:328
 msgid "Romanian"
 msgstr "Rumano"
 
-#: clanguagemgr.cpp:344
+#: clanguagemgr.cpp:329
 msgid "Russian"
 msgstr "Ruso"
 
-#: clanguagemgr.cpp:349
+#: clanguagemgr.cpp:334
 msgid "Scots"
 msgstr "Escocés"
 
-#: clanguagemgr.cpp:354
+#: clanguagemgr.cpp:339
 msgid "Slovak"
 msgstr "Eslovaco"
 
-#: clanguagemgr.cpp:355
+#: clanguagemgr.cpp:340
 msgid "Slovenian"
 msgstr "Esloveno"
 
-#: clanguagemgr.cpp:358
+#: clanguagemgr.cpp:343
 msgid "Somali"
 msgstr "Somalí"
 
-#: clanguagemgr.cpp:359
+#: clanguagemgr.cpp:344
 msgid "Albanian"
 msgstr "Albanés"
 
-#: clanguagemgr.cpp:364
+#: clanguagemgr.cpp:349
 msgid "Swedish"
 msgstr "Sueco"
 
-#: clanguagemgr.cpp:365
+#: clanguagemgr.cpp:350
 msgid "Swahili"
 msgstr "Swahili"
 
-#: clanguagemgr.cpp:366
+#: clanguagemgr.cpp:351
 msgid "Syriac"
 msgstr "Siriaco"
 
-#: clanguagemgr.cpp:368
+#: clanguagemgr.cpp:353
 msgid "Tamil"
 msgstr "Tamil"
 
-#: clanguagemgr.cpp:371
+#: clanguagemgr.cpp:356
 msgid "Thai"
 msgstr "Tailandés"
 
-#: clanguagemgr.cpp:373
+#: clanguagemgr.cpp:358
 msgid "Tagalog"
 msgstr "Tagalog"
 
-#: clanguagemgr.cpp:374
+#: clanguagemgr.cpp:359
 msgid "Tswana"
 msgstr "Tswana"
 
-#: clanguagemgr.cpp:375
+#: clanguagemgr.cpp:360
 msgid "Turkish"
 msgstr "Turco"
 
-#: clanguagemgr.cpp:379
+#: clanguagemgr.cpp:364
 msgid "Tahitian"
 msgstr "Tahitiano"
 
-#: clanguagemgr.cpp:382
+#: clanguagemgr.cpp:367
 msgid "Ukrainian"
 msgstr "Ucraniano"
 
-#: clanguagemgr.cpp:386
+#: clanguagemgr.cpp:371
 msgid "Vietnamese"
 msgstr "Vietnamita"
 
-#: clanguagemgr.cpp:391
+#: clanguagemgr.cpp:376
 msgid "Xhosa"
 msgstr "Xhosa"
 
-#: clanguagemgr.cpp:393
+#: clanguagemgr.cpp:378
 msgid "Bavarian"
 msgstr "Bávaro"
 
-#: clanguagemgr.cpp:394
+#: clanguagemgr.cpp:379
+msgid "Zarma"
+msgstr ""
+
+#: clanguagemgr.cpp:380
 msgid "Alemannisch"
 msgstr "Alemanich"
 
-#: clanguagemgr.cpp:395
+#: clanguagemgr.cpp:381
 msgid "Haitian Creole French"
 msgstr "Francés Criollo de Haití"
 
-#: clanguagemgr.cpp:396
+#: clanguagemgr.cpp:382
 #, fuzzy
 msgid "Itzá"
 msgstr "Itz"
 
-#: clanguagemgr.cpp:397
+#: clanguagemgr.cpp:383
 msgid "Shuar"
 msgstr "Shuar"
 
-#: clanguagemgr.cpp:398
+#: clanguagemgr.cpp:384
 #, fuzzy
 msgid "Kekchí"
 msgstr "Kekch"
 
-#: clanguagemgr.cpp:399
+#: clanguagemgr.cpp:385
+msgid "Kabyle"
+msgstr ""
+
+#: clanguagemgr.cpp:386
 msgid "Lombard"
 msgstr "Lombard"
 
-#: clanguagemgr.cpp:401
+#: clanguagemgr.cpp:388
 msgid "Tok Pisin"
 msgstr "Tok Pisin"
 
-#: clanguagemgr.cpp:402
+#: clanguagemgr.cpp:389
 msgid "Uma"
 msgstr "Uma"
 
-#: clanguagemgr.cpp:403
+#: clanguagemgr.cpp:390
 msgid "Romani, Vlax"
 msgstr "Romani, Vlax"
 
-#: clanguagemgr.cpp:404
+#: clanguagemgr.cpp:391
 msgid "Sango"
 msgstr "Sango"
 
-#: clanguagemgr.cpp:405
+#: clanguagemgr.cpp:392
 msgid "Sranan"
 msgstr "Sranan"
 
-#: clanguagemgr.cpp:410
+#: clanguagemgr.cpp:397
 msgid "Chinese"
 msgstr "Chino"
 
-#: clanguagemgr.cpp:411
+#: clanguagemgr.cpp:398
 msgid "Zulu"
 msgstr "Zulú"
+
+#~ msgid "Transliteration between scripts"
+#~ msgstr "Transcripción entre escrituras"
+
+#~ msgid "Main index"
+#~ msgstr "Índice principal"
+
+#~ msgid "&Show main index"
+#~ msgstr "&Mostrar índice principal"
+
+#, fuzzy
+#~ msgid "Configure &Sword"
+#~ msgstr "&Configurar sesiónes"
+
+#, fuzzy
+#~ msgid "Co&nfigure sessions"
+#~ msgstr "&Configurar sesiónes"
+
+#~ msgid "Create new session"
+#~ msgstr "Crear sesión nueva"
+
+#~ msgid "Please enter a new name for the session."
+#~ msgstr "Por favor introduzca un nombre nuevo para la sesión."
+
+#~ msgid "Rename session"
+#~ msgstr "Renombrar la sesión"
+
+#~ msgid "Restore windows from the last BibleTime session"
+#~ msgstr "Restaurar las ventanas de la sesión última de BibleTime"
+
+#~ msgid "Sessions"
+#~ msgstr "Sesiones"
+
+#~ msgid "Manage sessions"
+#~ msgstr "Manejar sesiones"
+
+#~ msgid ""
+#~ "Sessions define the appereance of the work area, for example which "
+#~ "windows are open and which texts should displayed in these windows. New "
+#~ "sessions only work after you've saved something into them."
+#~ msgstr ""
+#~ "Sesiónes definan el aspecto del entorno de trabajo. Por ejemplo: cuales "
+#~ "ventanas están abiertas y cuales textos deben estar visualizados "
+#~ "encímalas. Nuevos sesiones solo funcionan después que usted se ha "
+#~ "guardado algo adéntrolas."
+
+#~ msgid "Delete selected session"
+#~ msgstr "Eliminar el perfil seleccionado"
+
+#~ msgid "Rename selected session"
+#~ msgstr "Renombrar el perfil seleccionado"
+
+#~ msgid "Application-wide"
+#~ msgstr "Por toda la aplicación"
+
+#~ msgid "All display windows"
+#~ msgstr "Todas ventanas de visitas"
+
+#~ msgid "Sword"
+#~ msgstr "Sword"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Use key cache for lexicons"
+#~ msgstr "Usar la caché clave para léxicos"
+
+#~ msgid ""
+#~ "BibleTime can create a key cache for lexicons. This increases the speed "
+#~ "of opening large lexicon modules significantly. Note: These files consume "
+#~ "some disk space (usually not much), and reside in $KDEHOME/share/apps/"
+#~ "bibletime/cache."
+#~ msgstr ""
+#~ "BibleTime puede crear una caché clave para léxicos. Esto se hace mucho "
+#~ "más rapido abrir los módulos grandes de léxicos. Nota: Estos archivos "
+#~ "ocupan algún espacio de disco (usualmente no mucho), y quedan en $KDEHOME/"
+#~ "share/apps/bibletime/cache."
+
+#~ msgid "Scrolling behaviour"
+#~ msgstr "Configuración de desplazando"
+
+#~ msgid ""
+#~ "The down arrow moves to the <i>next</i> verse by default. Uncheck this "
+#~ "box if you want it to move to the <i>previous</i> verse."
+#~ msgstr ""
+#~ "La flecha hacia abajo se mueve al verso <i>siguiente</i> por "
+#~ "predeterminación. Quite la marca de esta casilla si usted quisiera mover "
+#~ "al verso <i>anterior</i>."
+
+#~ msgid "Use down arrow to scroll to next verse"
+#~ msgstr "Use la flecha hacia abajo para desplazar al verso siguiente"
+
+#~ msgid "Default modules"
+#~ msgstr "Módulos predeterminados"
+
+#~ msgid "Default Bible"
+#~ msgstr "Biblia Predeterminada"
+
+#~ msgid "Default Commentary"
+#~ msgstr "Comentario Predeterminado"
+
+#~ msgid "Default Lexicon"
+#~ msgstr "Léxico Predeterminado"
+
+#~ msgid "Default Daily Devotional"
+#~ msgstr "Devoto Diario Predeterminado"
+
+#~ msgid "Default Hebrew Strong's Lexicon"
+#~ msgstr "Léxico Predeterminado de Hebreo de Strong"
+
+#~ msgid "Default Greek Strong's Lexicon"
+#~ msgstr "Léxico Predeterminado de Griego de Strong"
+
+#~ msgid "Filter settings"
+#~ msgstr "Preferencias del filtro"
+
+#, fuzzy
+#~ msgid "Manage local sources"
+#~ msgstr "Administrar los perfiles de usted"
+
+#, fuzzy
+#~ msgid "Add new directory"
+#~ msgstr "Añadir nueva gama"
+
+#, fuzzy
+#~ msgid "Manage remote sources"
+#~ msgstr "Manejar sesiones"
+
+#, fuzzy
+#~ msgid "New remote source"
+#~ msgstr "Manejar sesiones"
+
+#, fuzzy
+#~ msgid "Sword Path"
+#~ msgstr "Sword"
+
+#, fuzzy
+#~ msgid "Configure Sword"
+#~ msgstr "&Configurar sesiónes"
+
+#, fuzzy
+#~ msgid "Path to Sword modules"
+#~ msgstr "Eligir módulos"
+
+#, fuzzy
+#~ msgid "Module installation ..."
+#~ msgstr "&Instalación"
+
+#~ msgid "Selected text"
+#~ msgstr "Texto seleccionado"
+
+#~ msgid "Toggle tree..."
+#~ msgstr "Conmutar árbol..."
+
+#~ msgid "Copy selected text"
+#~ msgstr "Copiar texto seleccionado"
+
+#~ msgid "Edit this module"
+#~ msgstr "Editar este módulo"
+
+#~ msgid "Choose modules"
+#~ msgstr "Eligir módulos"
+
+#~ msgid "Module"
+#~ msgstr "Módulo"
+
+#~ msgid "Open the printer dialog"
+#~ msgstr "Abrir el diálogo de impresora"
+
+#~ msgid "Show main index"
+#~ msgstr "Mostrar índice principal"
+
+#~ msgid "Toggle the main index view."
+#~ msgstr "Conmutar la vista del índice principal."
+
+#~ msgid "Show main toolbar"
+#~ msgstr "Mostrar la barra de herramientas"
+
+#~ msgid "Search in open modules"
+#~ msgstr "Buscar en módulos abiertos"
+
+#~ msgid "Search default bible"
+#~ msgstr "Buscar en la Biblia predeterminada"
+
+#~ msgid "Load a session"
+#~ msgstr "Cargar una sesión"
+
+#~ msgid "Save current session"
+#~ msgstr "Guardar la sesión actual"
+
+#~ msgid "Save as new session"
+#~ msgstr "Guardar como sesión nueva"
+
+#~ msgid "Edit sessions"
+#~ msgstr "Editar sesiones"
+
+#~ msgid "Create new, delete or rename existing sessions."
+#~ msgstr "Crear nuevo, eliminar o renombrar las sesiones existentes."
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "Conmutar el modo de pantalla completa"
+
+#~ msgid "Tile the open display windows."
+#~ msgstr "Poner las ventanas abiertas en mosaico."
+
+#~ msgid "Cascade windows"
+#~ msgstr "Ventanas en cascada"
+
+#~ msgid "Automatically cascade windows"
+#~ msgstr "Ventanas en cascada automáticamente"
+
+#~ msgid "Close all windows"
+#~ msgstr "Cerrar todas ventanas"
+
+#~ msgid "Edit toolbar"
+#~ msgstr "Editar la barra de herramientas"
+
+#~ msgid "Configure BibleTime"
+#~ msgstr "Configurar BibleTime"
+
+#~ msgid "BibleTime's handbook"
+#~ msgstr "Manual de BibleTime"
+
+#~ msgid ""
+#~ "Open BibleTime's handbook in the KDE helpbrowser.<BR>The handbook "
+#~ "explains how to use BibleTime in the best way."
+#~ msgstr ""
+#~ "Abrir el manual de BibleTime en el explorador de ayuda de KDE.<BR>El "
+#~ "Manual exlica como usar BibleTime en la manera mejor."
+
+#~ msgid "BibleTime's Bible study HowTo"
+#~ msgstr "Como estudiar la Bible de BibleTime"
+
+#~ msgid "Enter \"What's this?\" mode"
+#~ msgstr "Iniciar modo de \"¿Qué es ésto?\""
+
+#~ msgid ""
+#~ "Switch into the <B>\"What's this?\"</B> mode.<BR>All important elements "
+#~ "of BibleTime's GUI offer a \"What's this?\" help message."
+#~ msgstr ""
+#~ "Cambiar al modo de <B>\"¿Qué es ésto?\"</B> <BR>Todos los elementos "
+#~ "importantes de la GUI de BibleTime ofecen un mensaje de ayuda de \"¿Qué "
+#~ "es ésto?\""
+
+#~ msgid "Send bugreport"
+#~ msgstr "Enviar el informe de fallos."
+
+#~ msgid "Show daily tips at startup"
+#~ msgstr "Mostrar sugerencias diarias al inicio"
+
+#~ msgid "About BibleTime"
+#~ msgstr "Acerca de BibleTime"
+
+#~ msgid "About KDE"
+#~ msgstr "Acerca de KDE"
+
+#~ msgid "Start the search"
+#~ msgstr "Empezar la búsqueda"
+
+#~ msgid "Stop search"
+#~ msgstr "Parar la búsqueda."
+
+#~ msgid "Search text"
+#~ msgstr "Texto de búsqueda"
+
+#~ msgid "Exact match"
+#~ msgstr "Concordancia exacta"
+
+#~ msgid "Case sensitive matching"
+#~ msgstr "Sensibles a las mayúsculas"
+
+#~ msgid "Choose a search scope"
+#~ msgstr "Elegir ámbito de búsqueda"
+
+#~ msgid "Available search scopes"
+#~ msgstr "Ámbitos de búsqueda disponibles."
+
+#~ msgid "Search scope name"
+#~ msgstr "Nombre del ámbito de búsqueda"
+
+#~ msgid "Edit search scope ranges"
+#~ msgstr "Editar las gamas del ámbito de búsqueda"
+
+#~ msgid "Parsed search ranges"
+#~ msgstr "Gamas de búsqueda procesadas"
+
+#~ msgid "Add a new search scope"
+#~ msgstr "Añadir un nuevo ámbito de búsqueda"
+
+#~ msgid "Delete current search scope"
+#~ msgstr "Borrar ámbito de búsqueda actual"
+
+#~ msgid "Used modules"
+#~ msgstr "Módulos usados"
+
+#~ msgid "Found items of selected module"
+#~ msgstr "Los elementos encontrados del módulo seleccionado."
+
+#~ msgid "Scroll through the list"
+#~ msgstr "Desplazar por la lista"
+
+#~ msgid "Show the previous book"
+#~ msgstr "Mostrar el libro anterior"
+
+#~ msgid "List of chapters"
+#~ msgstr "Lista de capítulos"
+
+#~ msgid "Show the next chapter"
+#~ msgstr "Mostrar el próximo capítulo"
+
+#~ msgid "Show the previous chapter"
+#~ msgstr "Mostrar el capítulo anterior"
+
+#~ msgid "List of verses"
+#~ msgstr "Lista de versos"
+
+#~ msgid "Jump to the next verse"
+#~ msgstr "Saltar al próximo verso"
+
+#~ msgid "Jump to the previous verse"
+#~ msgstr "Saltar al verso anterior"
+
+#~ msgid "Synchronize with Bible windows"
+#~ msgstr "Sincronizar con ventanas de la Biblia"
+
+#~ msgid "List of entries"
+#~ msgstr "Lista de entradas"
+
+#~ msgid "Show the next entry"
+#~ msgstr "Mostrar la próxima entrada"
+
+#~ msgid "Show the previous entry"
+#~ msgstr "Mostrar la entrada anterior"
+
+#~ msgid "Save the current text"
+#~ msgstr "Guardar el texto activo"
+
+#~ msgid "Restore the old text"
+#~ msgstr "Restaurar el texto viejo"
+
+#~ msgid "Delete the current entry"
+#~ msgstr "Borrar la entrada activa"
+
+#~ msgid "Bold text"
+#~ msgstr "Negrita"
+
+#~ msgid "Italic text"
+#~ msgstr "Cursiva"
+
+#~ msgid "Underline text"
+#~ msgstr "Subrayado"
+
+#~ msgid "Align left"
+#~ msgstr "Alinear a la izquierda"
+
+#~ msgid "Align right"
+#~ msgstr "Alinear al derecho"
+
+#~ msgid "Justify"
+#~ msgstr "Justificado"
+
+#~ msgid "Set the font"
+#~ msgstr "Asignar la fuente"
+
+#~ msgid "Set the font size"
+#~ msgstr "Asignar el tamaño de fuente"
+
+#~ msgid "Set the color"
+#~ msgstr "Asignar el color"
+
+#~ msgid "Show daily tip"
+#~ msgstr "Mostrar sugerencia diaria"
+
+#~ msgid "Show startup logo"
+#~ msgstr "Mostrar logotipo de inicio"
+
+#~ msgid "Restore the last BibleTime session on startup"
+#~ msgstr "Restaurar la última sésion de BibleTime al inicio"
+
+#~ msgid "Choose a language"
+#~ msgstr "Elija una idioma"
+
+#~ msgid "The color used for normal text in the display windows."
+#~ msgstr "El color usado para texto normal en las pantallas de vista."
+
+#~ msgid "Color of the background"
+#~ msgstr "Color de fondo"
+
+#~ msgid "This is the background color used in display windows."
+#~ msgstr "Esto es el color del fondo usado en las ventanas de vista."
+
+#~ msgid "Link color"
+#~ msgstr "Color de enlace"
+
+#~ msgid "The color used for all references into Sword modules."
+#~ msgstr "El color usado para todas referencias a módulos de Sword."
+
+#~ msgid "Footnote color"
+#~ msgstr "Color de nota al pie"
+
+#~ msgid "This color will be used for all footnotes in the display windows."
+#~ msgstr ""
+#~ "Este color será usado para todas notas al pie en las pantallas de vista."
+
+#~ msgid ""
+#~ "This color will be used for every Strong's Number in the display windows."
+#~ msgstr ""
+#~ "Este color será usado para cada Número de Strong en las pantallas de "
+#~ "vista."
+
+#~ msgid "Color of the highlighted verse"
+#~ msgstr "Color del verso iluminado"
+
+#~ msgid "This is the color of the highlighted verse used in display windows."
+#~ msgstr ""
+#~ "Esto es el color del verso iluminado usado en las ventanas de vista."
+
+#~ msgid "Words of Jesus"
+#~ msgstr "Palabras de Cristo"
+
+#~ msgid "All words spoken by Jesus will appear in this color."
+#~ msgstr "Todas palabras hablado por Cristo aparecerán en este color."
+
+#~ msgid "Morphological tags"
+#~ msgstr "Etiquetas morfológicas"
+
+#~ msgid "All morphological tags will appear in this color."
+#~ msgstr "Todas etiquetas morfológicas aparecerá en este color."
+
+#~ msgid "List of sessions"
+#~ msgstr "Lista de sésiones"
+
+#~ msgid "The list of available sessions."
+#~ msgstr "Lista de sésiones disponibles."
+
+#~ msgid "Create a new, empty session with default settings."
+#~ msgstr "Crear una nueva sésion vacia con preferencias predeterminadas."
+
+#~ msgid "Delete session"
+#~ msgstr "Eliminar sésion"
+
+#~ msgid "Delete the selected session."
+#~ msgstr "Eliminar la sésion seleccionada."
+
+#~ msgid "Rename the selected session."
+#~ msgstr "Renombrar la sésion seleccionada."
+
+#~ msgid "Use cache files for the lexicon entries"
+#~ msgstr "Usar archivos en el caché para las entradas del léxico"
+
+#~ msgid ""
+#~ "Activate this to let BibleTime create index files for the lexicon "
+#~ "entries. This increases the speed of opening large lexicon modules "
+#~ "significantly, but does consume some disk space. Recommended."
+#~ msgstr ""
+#~ "Active esto para permitir que BibleTime cree archivos de ídice para las "
+#~ "entradas léxicas.  Se aumenta notablemente la velocidad de abrir módulos "
+#~ "de léxicos grandes, pero se ocupa algún espacio de disco.  Es recomendado "
+#~ "hacerlo."
+
+#~ msgid "Check this to use the down arrow to scroll to the next verse."
+#~ msgstr ""
+#~ "Seleccionar esto para usar la flecha hacia bajo para desplazar al verso "
+#~ "siguiente."
+
+#~ msgid "List of languages"
+#~ msgstr "Lista de idiomas"
+
+#~ msgid "The default bible used in the workspace area"
+#~ msgstr "La Biblia predeterminada usada en el entorno de trabajo"
+
+#~ msgid "The default commentary used in the workspace area"
+#~ msgstr "El comentario predeterminado usado en el entorno de trabajo"
+
+#~ msgid "The default lexicon used in the workspace area"
+#~ msgstr "El léxico predeterminado usado en el entorno de trabajo"
+
+#~ msgid "The default daily devotional module"
+#~ msgstr "El módulo del devoto diario predeterminado"
+
+#~ msgid "The default Hebrew lexicon used in the workspace area"
+#~ msgstr "El léxico hebreo predeterminado usado en el entorno de trabajo"
+
+#~ msgid "The default Greek lexicon used in the workspace area"
+#~ msgstr "El léxico griego predeterminado usado en el entorno de trabajo"
+
+#~ msgid ""
+#~ "The default Morphological lexicon for Hebrew texts used in the workspace "
+#~ "area"
+#~ msgstr ""
+#~ "El léxico morfológico predeterminado para textos de Hebreo usado en el "
+#~ "entorno de trabajo"
+
+#~ msgid ""
+#~ "The default Morphological lexicon for Greek texts used in the workspace "
+#~ "area"
+#~ msgstr ""
+#~ "El léxico morfológico predeterminado para textos de Giega usado en el "
+#~ "entorno de trabajo"
+
+#~ msgid "Line breaks"
+#~ msgstr "Saltos de línea"
+
+#~ msgid "Insert line breaks after each verse."
+#~ msgstr "Insertar saltos de línea despues cada verso."
+
+#~ msgid "Verse numbers"
+#~ msgstr "Números de verso"
+
+#~ msgid "Show the verse number before each verse in Bibles."
+#~ msgstr "Mostrar los números de versos antes cada verso en las Biblias."
+
+#~ msgid "Show footnotes embedded in the module's text."
+#~ msgstr "Mostrar las notas al pie implantadas en el texto del módulo."
+
+#~ msgid ""
+#~ "Show Strong's Numbers embedded in the text of modules which support this "
+#~ "feature."
+#~ msgstr ""
+#~ "Mostrar los Números de Strong implantados en el texto de los módulos que "
+#~ "soportan esta característica."
+
+#~ msgid ""
+#~ "Show tags providing morphological information in the text of modules "
+#~ "which support this feature."
+#~ msgstr ""
+#~ "Mostrar las etiquetas de información mofológica en el texto de los "
+#~ "módulos que soportan esta característica."
+
+#~ msgid ""
+#~ "Show section headings in the text in the text of modules which support "
+#~ "this feature."
+#~ msgstr ""
+#~ "Mostrar los encabezamientos de las secciones en el texto de los módulos "
+#~ "que soportan esta característica."
+
+#~ msgid "Show root words."
+#~ msgstr "Mostrar las palabras de la raíz."
+
+#~ msgid "Show hebrew vowel points in the text."
+#~ msgstr "Mostrar los puntos de vocales en el texto."
+
+#~ msgid "Show hebrew cantillation marks in the text."
+#~ msgstr "Mostrar en el texto los acentos hebreos de cantilación."
+
+#~ msgid "Show greek accents in the text."
+#~ msgstr "Mostrar los acentos griegos en el texto."
+
+#~ msgid "Use different variants from the textual sources."
+#~ msgstr "Usar varientes diferentes de los textos."
 
 #~ msgid "&Tile"
 #~ msgstr "&Mosaico"
@@ -3347,9 +3540,6 @@ msgstr "Zulú"
 
 #~ msgid "Move the selected item down one line."
 #~ msgstr "Mover el elemento seleccionado hacia abajo por una línea."
-
-#~ msgid "Delete items"
-#~ msgstr "Eliminar los elementos"
 
 #~ msgid "Delete the selected items."
 #~ msgstr "Eliminar los elementos seleccionados."
@@ -3397,9 +3587,6 @@ msgstr "Zulú"
 #~ msgid "The size of the border on the left side of the paper."
 #~ msgstr "El tamaño del borde del papel izquierdo."
 
-#~ msgid "Right border"
-#~ msgstr "Borde derecho"
-
 #~ msgid "The size of the border on the right side of the paper."
 #~ msgstr "El tamaño del borde del papel derecho."
 
@@ -3411,9 +3598,6 @@ msgstr "Zulú"
 
 #~ msgid "Colors"
 #~ msgstr "Colores"
-
-#~ msgid "Choose colors"
-#~ msgstr "Elegir colores"
 
 #~ msgid ""
 #~ "Choose custom colors to alter the apperance of the display windows. Some "
@@ -3436,9 +3620,6 @@ msgstr "Zulú"
 #~ msgid "Hyperlinks"
 #~ msgstr "Hiperenlaces"
 
-#~ msgid "Strong's numbers"
-#~ msgstr "Números de Strong"
-
 #~ msgid "Show footnotes"
 #~ msgstr "Mostrar notas al pie"
 
@@ -3448,12 +3629,6 @@ msgstr "Zulú"
 #~ msgid "Show morphologic tags"
 #~ msgstr "Mostrar etiquetas morfológicas"
 
-#~ msgid "Show lemmas"
-#~ msgstr "Mostrar lemas"
-
-#~ msgid "Commentary"
-#~ msgstr "Comentario"
-
 #~ msgid "Lexicon"
 #~ msgstr "Léxico"
 
@@ -3462,12 +3637,6 @@ msgstr "Zulú"
 
 #~ msgid "Greek morphological lexicon"
 #~ msgstr "Léxico Morfológico de Griego"
-
-#~ msgid "Hebrew Strong's lexicon"
-#~ msgstr "Léxico Hebreo de Strong"
-
-#~ msgid "Greek Strong's lexicon"
-#~ msgstr "Léxico Griego de Strong"
 
 #~ msgid "Configuration problem!"
 #~ msgstr "¡Problema de Configuración!"
@@ -3507,9 +3676,6 @@ msgstr "Zulú"
 #~ msgid "Bookmarks"
 #~ msgstr "Marcadores"
 
-#~ msgid "Frontend"
-#~ msgstr "Entorno"
-
 #~ msgid "Margins (mm)"
 #~ msgstr "Márgenes [milímetros]"
 
@@ -3521,9 +3687,6 @@ msgstr "Zulú"
 
 #~ msgid "&Top"
 #~ msgstr "&Arriba"
-
-#~ msgid "Standard"
-#~ msgstr "Estándar"
 
 #~ msgid "Print queue"
 #~ msgstr "Imprimir cola"
@@ -3566,9 +3729,6 @@ msgstr "Zulú"
 
 #~ msgid "Background:"
 #~ msgstr "Fondo:"
-
-#~ msgid "Choose font"
-#~ msgstr "Elegir fuente"
 
 #~ msgid "Use frame"
 #~ msgstr "Usar marco"
@@ -3771,10 +3931,6 @@ msgstr "Zulú"
 #, fuzzy
 #~ msgid "Show line breaks in the module's texts."
 #~ msgstr "Mostrar línea pl módulo s."
-
-#, fuzzy
-#~ msgid "Show tags providing morphological information."
-#~ msgstr "Mostrar."
 
 #, fuzzy
 #~ msgid "Show section headings in the text."
@@ -3998,9 +4154,6 @@ msgstr "Zulú"
 #~ msgid "Book window"
 #~ msgstr "Ventana del libro"
 
-#~ msgid "Toggle tree"
-#~ msgstr "Conmutar árbol"
-
 #~ msgid "Toggle the tree on the left side of the book window on or off."
 #~ msgstr "Conmutar activo o desactivo el árbol en el lado izquierdo."
 
@@ -4099,9 +4252,6 @@ msgstr "Zulú"
 #~ msgid "The working area"
 #~ msgstr "El entorno de trabajo"
 
-#~ msgid "Edit this entry"
-#~ msgstr "Editar esta entrada"
-
 #~ msgid "Save this comment"
 #~ msgstr "Guardar este comentario"
 
@@ -4122,9 +4272,6 @@ msgstr "Zulú"
 
 #~ msgid "Set font"
 #~ msgstr "Asignir fuentes "
-
-#~ msgid "Save as HTML"
-#~ msgstr "Guardar como HTML"
 
 #~ msgid "Choose the modules to search in"
 #~ msgstr "Elijir los módulos a buscar en"

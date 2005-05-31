@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ua\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-01-28 14:04+0100\n"
+"POT-Creation-Date: 2005-05-31 22:02+0200\n"
 "PO-Revision-Date: 2003-07-03 01:05+0300\n"
 "Last-Translator: Vlad Savitsky <vlad_savitsky@mail.ru>\n"
 "Language-Team: ukrainian <uk@li.org>\n"
@@ -15,178 +15,274 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.1\n"
 
-#: ../bibletime/backend/bt_osishtml.cpp:234
+#: ../bibletime/backend/bt_osishtml.cpp:241
 #, fuzzy
 msgid "Alternative text"
 msgstr "Зберегти текст"
 
-#: ../bibletime/backend/bt_osishtml.cpp:359
+#: ../bibletime/backend/bt_osishtml.cpp:373
 #, fuzzy
 msgid "Added text"
 msgstr "Текст модуля"
 
-#: ../bibletime/backend/cswordbackend.cpp:472
+#: ../bibletime/backend/cswordbackend.cpp:468
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:620
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:737
 msgid "Footnotes"
 msgstr "Зноски"
 
-#: ../bibletime/backend/cswordbackend.cpp:474
-#: ../bibletime/util/cresmgr.cpp:1341
+#: ../bibletime/backend/cswordbackend.cpp:470
 msgid "Strong's Numbers"
 msgstr "Номери Стронга"
 
-#: ../bibletime/backend/cswordbackend.cpp:476
+#: ../bibletime/backend/cswordbackend.cpp:472
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:623
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:738
 msgid "Headings"
 msgstr "Заголовки"
 
-#: ../bibletime/backend/cswordbackend.cpp:478
+#: ../bibletime/backend/cswordbackend.cpp:474
 msgid "Morphological Tags"
 msgstr "Морфологічні теги"
 
-#: ../bibletime/backend/cswordbackend.cpp:480
+#: ../bibletime/backend/cswordbackend.cpp:476
 msgid "Lemmas"
 msgstr "Леми"
 
-#: ../bibletime/backend/cswordbackend.cpp:482
+#: ../bibletime/backend/cswordbackend.cpp:478
 msgid "Hebrew Vowel Points"
 msgstr "Риси Єврейських голосних"
 
-#: ../bibletime/backend/cswordbackend.cpp:484
+#: ../bibletime/backend/cswordbackend.cpp:480
 msgid "Hebrew Cantillation"
 msgstr "Єврейська кантіляція"
 
-#: ../bibletime/backend/cswordbackend.cpp:486
+#: ../bibletime/backend/cswordbackend.cpp:482
 msgid "Greek Accents"
 msgstr "Грецькі наголоси"
 
-#: ../bibletime/backend/cswordbackend.cpp:488
+#: ../bibletime/backend/cswordbackend.cpp:484
 msgid "Red letter words"
 msgstr "Слова, позначені червоним"
 
-#: ../bibletime/backend/cswordbackend.cpp:490
+#: ../bibletime/backend/cswordbackend.cpp:486
 msgid "Textual Variants"
 msgstr "Варіанти текстів"
 
-#: ../bibletime/backend/cswordbackend.cpp:492
+#: ../bibletime/backend/cswordbackend.cpp:488
 msgid "Scripture Cross-references"
 msgstr "Перехресні посилання у Писанні"
 
-#: ../bibletime/backend/cswordbackend.cpp:494
-msgid "Transliteration between scripts"
-msgstr "Транслітерація між Писаннями"
+#: ../bibletime/backend/cswordmoduleinfo.cpp:369
+#: ../bibletime/util/ctoolclass.cpp:204
+msgid "Version"
+msgstr "Версія"
 
-#: ../bibletime/bibletime_init.cpp:77
+#: ../bibletime/backend/cswordmoduleinfo.cpp:374
+#, fuzzy
+msgid "Markup"
+msgstr "Старт"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:378
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:65
+msgid "Location"
+msgstr "Місцезнаходження"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:382
+#: ../bibletime/util/ctoolclass.cpp:196
+msgid "Language"
+msgstr "Мова"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:387
+#, fuzzy
+msgid "Category"
+msgstr "Розділ"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:392
+msgid "LCSH"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:397
+msgid "Writable"
+msgstr "Може бути записаний"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:398
+msgid "yes"
+msgstr "так"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:402
+#: ../bibletime/util/ctoolclass.cpp:199
+msgid "Unlock key"
+msgstr "Клавіша зняття блокування"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:416
+msgid "Features"
+msgstr "Спеціальні можливості"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:423
+#: ../bibletime/util/ctoolclass.cpp:192
+#, fuzzy
+msgid "Take care, this work contains cult / questionable material!"
+msgstr ""
+"Будьте уважні! Цей модуль містить матеріали, що є спірними або мають "
+"відношення до культів!"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:433
+msgid "Distribution license"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:438
+msgid "Distribution source"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:443
+#, fuzzy
+msgid "Text source"
+msgstr "Колір тексту"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:448
+msgid "Distribution notes"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:456
+msgid "Copyright notes"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:462
+#, fuzzy
+msgid "Copyright holder"
+msgstr "Праве поле"
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:467
+msgid "Copyright date"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:472
+msgid "Copyright contact name"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:480
+msgid "Copyright contact address"
+msgstr ""
+
+#: ../bibletime/backend/cswordmoduleinfo.cpp:486
+msgid "Copyright contact email"
+msgstr ""
+
+#: ../bibletime/bibletime_init.cpp:63
 msgid "Creating BibleTime's GUI"
 msgstr "Створення GUI для BibleTime"
 
-#: ../bibletime/bibletime_init.cpp:85
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:148
-msgid "Main index"
-msgstr "Панель навігації"
+#: ../bibletime/bibletime_init.cpp:71
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:116
+#, fuzzy
+msgid "Bookshelf"
+msgstr "Книги"
 
-#: ../bibletime/bibletime_init.cpp:104
+#: ../bibletime/bibletime_init.cpp:89
 msgid "Initializing menu- and toolbars"
 msgstr "Ініціалізація меню та панелей інструментів"
 
-#: ../bibletime/bibletime_init.cpp:114
-msgid "Search in open module(s)"
+#: ../bibletime/bibletime_init.cpp:99
+#, fuzzy
+msgid "Search in open work(s)"
 msgstr "Пошук у відкритих модулях"
 
-#: ../bibletime/bibletime_init.cpp:126
-msgid "Search in default bible"
+#: ../bibletime/bibletime_init.cpp:111
+#, fuzzy
+msgid "Search in standard Bible"
 msgstr "Пошук у типовій Біблії"
 
-#: ../bibletime/bibletime_init.cpp:146
-msgid "&Show main index"
-msgstr "&Показати панель навігації"
-
-#: ../bibletime/bibletime_init.cpp:157
-msgid "Show &info display"
+#: ../bibletime/bibletime_init.cpp:131
+msgid "&Show bookshelf"
 msgstr ""
 
-#: ../bibletime/bibletime_init.cpp:175
+#: ../bibletime/bibletime_init.cpp:142
 #, fuzzy
-msgid "Configure &Sword"
-msgstr "&Налаштувати сесію"
+msgid "Show &mag"
+msgstr "Показувати леми"
 
-#: ../bibletime/bibletime_init.cpp:195
+#: ../bibletime/bibletime_init.cpp:160
+msgid "&Bookshelf Manager"
+msgstr ""
+
+#: ../bibletime/bibletime_init.cpp:184
 #, fuzzy
 msgid "&Arrangement mode"
 msgstr "Поточний модуль:"
 
-#: ../bibletime/bibletime_init.cpp:201
+#: ../bibletime/bibletime_init.cpp:190
 #, fuzzy
 msgid "Manual mode"
 msgstr "Типові модулі"
 
-#: ../bibletime/bibletime_init.cpp:219
+#: ../bibletime/bibletime_init.cpp:205
 msgid "Tile vertical"
 msgstr ""
 
-#: ../bibletime/bibletime_init.cpp:237
+#: ../bibletime/bibletime_init.cpp:220
 msgid "Tile horizontal"
 msgstr ""
 
-#: ../bibletime/bibletime_init.cpp:255 ../bibletime/bibletime_init.cpp:272
+#: ../bibletime/bibletime_init.cpp:235 ../bibletime/bibletime_init.cpp:250
 msgid "&Cascade"
 msgstr "&Каскад"
 
-#: ../bibletime/bibletime_init.cpp:285
+#: ../bibletime/bibletime_init.cpp:263
 msgid "&Tile vertical"
 msgstr ""
 
-#: ../bibletime/bibletime_init.cpp:299
+#: ../bibletime/bibletime_init.cpp:274
+msgid "&Tile horizontal"
+msgstr ""
+
+#: ../bibletime/bibletime_init.cpp:287
 #, fuzzy
 msgid "Cl&ose all"
 msgstr "&Закрити усе"
 
-#: ../bibletime/bibletime_init.cpp:312
+#: ../bibletime/bibletime_init.cpp:299
 msgid "&Save session"
 msgstr "&Зберегти сесію"
 
-#: ../bibletime/bibletime_init.cpp:324
+#: ../bibletime/bibletime_init.cpp:310
 #, fuzzy
 msgid "Sa&ve as new session"
 msgstr "Зберегти як нову сесію"
 
-#: ../bibletime/bibletime_init.cpp:337
+#: ../bibletime/bibletime_init.cpp:322
 msgid "&Load session"
 msgstr "&Завантажити сесію"
 
-#: ../bibletime/bibletime_init.cpp:349
-#, fuzzy
-msgid "Co&nfigure sessions"
-msgstr "&Налаштувати сесію"
-
-#: ../bibletime/bibletime_init.cpp:362
+#: ../bibletime/bibletime_init.cpp:332
 msgid "&Fullscreen mode"
 msgstr "&На весь екран"
 
-#: ../bibletime/bibletime_init.cpp:389
+#: ../bibletime/bibletime_init.cpp:362
 msgid "&Handbook"
 msgstr "&Подручник"
 
-#: ../bibletime/bibletime_init.cpp:401
+#: ../bibletime/bibletime_init.cpp:374
 msgid "&Bible Study Howto"
 msgstr "&Як вивчати Біблію"
 
-#: ../bibletime/bibletime_init.cpp:432
+#: ../bibletime/bibletime_init.cpp:401
 msgid "&Daily tip"
 msgstr "&Щоденні поради"
 
-#: ../bibletime/bibletime_init.cpp:519
+#: ../bibletime/bibletime_init.cpp:462
 msgid "Initializing Sword"
 msgstr "Стартує Sword"
 
-#: ../bibletime/bibletime_init.cpp:570
+#: ../bibletime/bibletime_init.cpp:513
 msgid "Initializing print system"
 msgstr "Стартує система друку"
 
-#: ../bibletime/bibletime_slots.cpp:504
-#: ../bibletime/frontend/coptionsdialog.cpp:137
+#: ../bibletime/bibletime_slots.cpp:518
 msgid "Please enter a name for the new session."
 msgstr "Будьласка зазначте назву нової сесії."
 
-#: ../bibletime/bibletime_slots.cpp:504
+#: ../bibletime/bibletime_slots.cpp:518
 msgid "Session name:"
 msgstr "Назва сесії:"
 
@@ -195,51 +291,47 @@ msgstr "Назва сесії:"
 msgid "Blue"
 msgstr "Біблія"
 
-#: ../bibletime/display-templates/template-init.cpp:345
-msgid "Crazy"
-msgstr ""
-
-#: ../bibletime/display-templates/template-init.cpp:988
+#: ../bibletime/display-templates/template-init.cpp:643
 msgid "High contrast"
 msgstr ""
 
-#: ../bibletime/display-templates/template-init.cpp:1289
+#: ../bibletime/display-templates/template-init.cpp:957
 msgid "Simple "
 msgstr ""
 
-#: ../bibletime/frontend/cbtconfig.cpp:235
+#: ../bibletime/frontend/cbtconfig.cpp:225
 msgid "Old testament"
 msgstr "Старий Заповіт"
 
-#: ../bibletime/frontend/cbtconfig.cpp:236
+#: ../bibletime/frontend/cbtconfig.cpp:226
 msgid "Moses/Pentateuch/Torah"
 msgstr "Мойсей/П'ятикнижжя/Тора"
 
-#: ../bibletime/frontend/cbtconfig.cpp:237
+#: ../bibletime/frontend/cbtconfig.cpp:227
 msgid "History"
 msgstr "Історичні"
 
-#: ../bibletime/frontend/cbtconfig.cpp:238
+#: ../bibletime/frontend/cbtconfig.cpp:228
 msgid "Prophets"
 msgstr "Пророки"
 
-#: ../bibletime/frontend/cbtconfig.cpp:239
+#: ../bibletime/frontend/cbtconfig.cpp:229
 msgid "New testament"
 msgstr "Новий Заповіт"
 
-#: ../bibletime/frontend/cbtconfig.cpp:240
+#: ../bibletime/frontend/cbtconfig.cpp:230
 msgid "Gospels"
 msgstr "Євангелія"
 
-#: ../bibletime/frontend/cbtconfig.cpp:241
+#: ../bibletime/frontend/cbtconfig.cpp:231
 msgid "Letters/Epistles"
 msgstr "Листи/Післання"
 
-#: ../bibletime/frontend/cbtconfig.cpp:242
+#: ../bibletime/frontend/cbtconfig.cpp:232
 msgid "Paul's Epistles"
 msgstr "Послання Павла"
 
-#: ../bibletime/frontend/cexportmanager.cpp:461
+#: ../bibletime/frontend/cexportmanager.cpp:440
 msgid ""
 "*.html *.htm | HTML files\n"
 " *.* | All files (*.*)"
@@ -247,7 +339,7 @@ msgstr ""
 "*.html *.htm | HTML файли\n"
 " *.* | Усі файли (*.*)"
 
-#: ../bibletime/frontend/cexportmanager.cpp:463
+#: ../bibletime/frontend/cexportmanager.cpp:442
 msgid ""
 "*.txt | Text files\n"
 " *.* | All files (*.*)"
@@ -255,234 +347,103 @@ msgstr ""
 "*.txt | Текстові файли\n"
 " *.* | Усі файли (*.*)"
 
-#: ../bibletime/frontend/cexportmanager.cpp:465
+#: ../bibletime/frontend/cexportmanager.cpp:444
 msgid "All files (*.*)"
 msgstr "Усі файли (*.*)"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:45
-msgid "Info display (\"shift\" to freeze)"
+#: ../bibletime/frontend/cinfodisplay.cpp:49
+msgid "Mag (\"shift\" to lock)"
 msgstr ""
 
-#: ../bibletime/frontend/cinfodisplay.cpp:120
+#: ../bibletime/frontend/cinfodisplay.cpp:132
 #, fuzzy
 msgid "Abbreviation"
 msgstr "Вірменська"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:130
-#: ../bibletime/frontend/cinfodisplay.cpp:182
+#: ../bibletime/frontend/cinfodisplay.cpp:142
+#: ../bibletime/frontend/cinfodisplay.cpp:219
 #, fuzzy
 msgid "Cross references"
 msgstr "Властивості "
 
-#: ../bibletime/frontend/cinfodisplay.cpp:219
+#: ../bibletime/frontend/cinfodisplay.cpp:256
 #, fuzzy
 msgid "Footnote"
 msgstr "Зноски"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:245
+#: ../bibletime/frontend/cinfodisplay.cpp:282
 #, fuzzy
 msgid "Strongs"
 msgstr "Номери Стронга"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:309
+#: ../bibletime/frontend/cinfodisplay.cpp:344
 #, fuzzy
 msgid "Morphology"
 msgstr "Морфологічні теги"
 
-#: ../bibletime/frontend/cinfodisplay.cpp:331
+#: ../bibletime/frontend/cinfodisplay.cpp:366
 msgid "Word lookup"
 msgstr ""
 
-#: ../bibletime/frontend/cinputdialog.cpp:72
+#: ../bibletime/frontend/cinputdialog.cpp:57
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:66
 msgid "Ok"
 msgstr "Гаразд"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:79
+#: ../bibletime/frontend/coptionsdialog.cpp:65
 msgid "Preferences"
 msgstr "Властивості "
 
-#: ../bibletime/frontend/coptionsdialog.cpp:137
-#: ../bibletime/frontend/coptionsdialog.cpp:343
-#: ../bibletime/util/cresmgr.cpp:1369
-msgid "Create new session"
-msgstr "Створити нову сесію"
+#: ../bibletime/frontend/coptionsdialog.cpp:130
+#, fuzzy
+msgid "Display"
+msgstr "Налаштування показу"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:160
-msgid "Please enter a new name for the session."
-msgstr "Будьласка, введіть нову назву сесії"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:160
-#: ../bibletime/util/cresmgr.cpp:1379
-msgid "Rename session"
-msgstr "Змінити назву сесії"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:184
-msgid "Startup"
-msgstr "Старт"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:189
+#: ../bibletime/frontend/coptionsdialog.cpp:136
 msgid "Show tip of the day"
 msgstr "Показувати пораду дня"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:199
+#: ../bibletime/frontend/coptionsdialog.cpp:147
 msgid "Show startuplogo"
 msgstr "Показувати логотип при старті"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:209
-msgid "Restore windows from the last BibleTime session"
-msgstr "Відновлювати вікна останньої сесії BibleTime"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:228
-msgid "Select custom fonts per-language"
-msgstr "Вибрати особливий шрифт для кожної мови"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:229
-msgid ""
-"Here you find a list of all languages of the installed modules. You can "
-"specify a custom font for each language that needs a special font to be "
-"displayed correctly."
-msgstr ""
-"Тут ви знайдете перелік усіх мов тих модулів, які вже встановлено. Ви можете "
-"визначити особливий шрифт для кожної мови, яка потребує особливого шрифту "
-"для вірного відображення ."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:264
-msgid "Use custom font"
-msgstr "Використовувати особливий шрифт"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:273
-msgid "The quick brown fox jumps over the lazy dog."
-msgstr "З'їшь ще ціх м'яких французських булочок."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:287
-#: ../bibletime/frontend/coptionsdialog.cpp:293
+#: ../bibletime/frontend/coptionsdialog.cpp:157
 #, fuzzy
 msgid "Display templates"
 msgstr "Налаштування показу"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:294
+#: ../bibletime/frontend/coptionsdialog.cpp:158
 msgid ""
-"Display templates define how the text of modules is displayed. Please choose "
-"a template you like."
+"Display templates define how text is displayed. Please choose a template you "
+"like."
 msgstr ""
 
-#: ../bibletime/frontend/coptionsdialog.cpp:307
+#: ../bibletime/frontend/coptionsdialog.cpp:171
 #, fuzzy
 msgid "Available display styles:"
 msgstr "Доступні стилі:"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:311
+#: ../bibletime/frontend/coptionsdialog.cpp:179
 #, fuzzy
-msgid "Style preview:"
+msgid "Style preview"
 msgstr "Попередній перегляд шрифтів"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:326
-msgid "Sessions"
-msgstr "Сесії"
+#: ../bibletime/frontend/coptionsdialog.cpp:195
+#, fuzzy
+msgid "Languages"
+msgstr "Мова"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:331
-msgid "Manage sessions"
-msgstr "Впорядкувати сесії"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:332
-msgid ""
-"Sessions define the appereance of the work area, for example which windows "
-"are open and which texts should displayed in these windows. New sessions "
-"only work after you've saved something into them."
-msgstr ""
-"Сесії визначають вигляд робочого місця. Наприклад, які вікна відкриті та "
-"який текст повинен бути у цих вікнах. Нові сесії діють тільки після того, як "
-"ви щось у них зберегли."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:347
-msgid "Delete selected session"
-msgstr "Вилучити сесію, що виділена"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:351
-msgid "Rename selected session"
-msgstr "Змінити назву сесії, що виділена"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:369
-msgid "HotKeys"
-msgstr ""
-
-#: ../bibletime/frontend/coptionsdialog.cpp:376
-msgid "Application-wide"
-msgstr "Застосовується будь-де"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:389
-msgid "All display windows"
-msgstr "Усі вікна"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:403
-msgid "Bible windows"
-msgstr "Вікно Біблії"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:417
-msgid "Commentary windows"
-msgstr "Вікно коментарів"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:432
-msgid "Lexicon windows"
-msgstr "Вікно лексиконів"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:448
-msgid "Book windows"
-msgstr "Вікно книг"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:463
-msgid "Sword"
-msgstr "Sword"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:466
-msgid "General"
-msgstr "Узагалі"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:472
-#: ../bibletime/frontend/coptionsdialog.cpp:481
-msgid "Use key cache for lexicons"
-msgstr "Використовувати кеш ключів для лексиконів"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:473
-msgid ""
-"BibleTime can create a key cache for lexicons. This increases the speed of "
-"opening large lexicon modules significantly. Note: These files consume some "
-"disk space (usually not much), and reside in $KDEHOME/share/apps/bibletime/"
-"cache."
-msgstr ""
-"BibleTime може створити кеш ключів для лексиконів. Це зробить відчутно "
-"більшою швидкість відкриття великих модулів лексиконів. Майте на увазі: ці "
-"файли потребують місця на диску (за звичай не багато), та розміщуються у "
-"$KDEHOME/share/apps/bibletime/cache."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:489
-msgid "Scrolling behaviour"
-msgstr "Поведінка при прокрутці"
-
-#: ../bibletime/frontend/coptionsdialog.cpp:490
-msgid ""
-"The down arrow moves to the <i>next</i> verse by default. Uncheck this box "
-"if you want it to move to the <i>previous</i> verse."
-msgstr ""
-"Стрілка до низу типово веде до <i>наступного</i> вірша. Потрібно зняти "
-"помітку з цього пункту, якщо ви хочете, щоб перехід був до <i>попереднього</"
-"i> вірша."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:496
-#: ../bibletime/util/cresmgr.cpp:1394
-msgid "Use down arrow to scroll to next verse"
-msgstr "Використовувати стрілку до низу, щоб перейти до наступного вірша."
-
-#: ../bibletime/frontend/coptionsdialog.cpp:503
+#: ../bibletime/frontend/coptionsdialog.cpp:201
 msgid "Specify a language for biblical booknames"
 msgstr "Визначьте мову для назв книжок Біблії"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:504
+#: ../bibletime/frontend/coptionsdialog.cpp:202
+#, fuzzy
 msgid ""
 "Sword has a number of locales available which can be used to "
-"internationalize the booknames of the bible. You can specify which locale to "
-"use. If you want to create a new locale, see http://www.crosswire.org/sword/"
-"develop for details."
+"internationalize the \tbooknames of the bible. You can specify which locale "
+"to use. If you want to \tcreate a new locale, see http://www.crosswire.org/"
+"sword/develop for details."
 msgstr ""
 "Sword має велику кількість локалей, що доступні та можуть бути використані "
 "для переводу на інші мови назв книжок Біблії. Ви можете визначити яку локаль "
@@ -490,790 +451,861 @@ msgstr ""
 "сторінку http://www.crosswire.org/sword/develop , щоб отримати більше "
 "інформації."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:511
+#: ../bibletime/frontend/coptionsdialog.cpp:208
 msgid "Language for biblical booknames"
 msgstr "Мова для назв книжок Біблії"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:520
-#: ../bibletime/frontend/coptionsdialog.cpp:558 clanguagemgr.cpp:233
+#: ../bibletime/frontend/coptionsdialog.cpp:219
+#: ../bibletime/frontend/coptionsdialog.cpp:257 clanguagemgr.cpp:218
 msgid "English"
 msgstr "Англійська"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:572
-#: ../bibletime/frontend/coptionsdialog.cpp:577
-msgid "Default modules"
-msgstr "Типові модулі"
+#: ../bibletime/frontend/coptionsdialog.cpp:274
+msgid "Select custom fonts per-language"
+msgstr "Вибрати особливий шрифт для кожної мови"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:578
+#: ../bibletime/frontend/coptionsdialog.cpp:275
+#, fuzzy
 msgid ""
-"Default modules are used when no module is specified, for example when a "
-"hyperlink into a Bible or Lexicon was clicked ."
+"Here you find a list of all languages of the installed works. \tYou can "
+"specify a custom font for each language that needs a special font \tto be "
+"displayed correctly."
+msgstr ""
+"Тут ви знайдете перелік усіх мов тих модулів, які вже встановлено. Ви можете "
+"визначити особливий шрифт для кожної мови, яка потребує особливого шрифту "
+"для вірного відображення ."
+
+#: ../bibletime/frontend/coptionsdialog.cpp:306
+msgid "Use custom font"
+msgstr "Використовувати особливий шрифт"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:314
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr "З'їшь ще ціх м'яких французських булочок."
+
+#: ../bibletime/frontend/coptionsdialog.cpp:330
+msgid "HotKeys"
+msgstr ""
+
+#: ../bibletime/frontend/coptionsdialog.cpp:338
+#, fuzzy
+msgid "Choose type:"
+msgstr "Визначте шрифт"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:357
+#, fuzzy
+msgid "BibleTime"
+msgstr "Закрити BibleTime"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:358
+#, fuzzy
+msgid "All text windows"
+msgstr "Розмістити вікна плиткою"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:359
+msgid "Bible windows"
+msgstr "Вікно Біблії"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:360
+msgid "Commentary windows"
+msgstr "Вікно коментарів"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:361
+msgid "Lexicon windows"
+msgstr "Вікно лексиконів"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:362
+msgid "Book windows"
+msgstr "Вікно книг"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:427
+msgid "Desk"
+msgstr ""
+
+#: ../bibletime/frontend/coptionsdialog.cpp:432
+#: ../bibletime/frontend/coptionsdialog.cpp:437
+#, fuzzy
+msgid "Standard works"
+msgstr "Стандарт"
+
+#: ../bibletime/frontend/coptionsdialog.cpp:438
+#, fuzzy
+msgid ""
+"Standard works are used when no particular work is specified, \tfor example "
+"when a hyperlink into a Bible or lexicon was clicked ."
 msgstr ""
 "Типові модулі, використовуються коли жоден з модулів не визначений. "
 "Наприклад коли було клацнуте посилання до Біблії або Словника."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:584
-msgid "Default Bible"
-msgstr "Типова Біблія"
+#: ../bibletime/frontend/coptionsdialog.cpp:444
+#, fuzzy
+msgid "Standard Bible"
+msgstr "Стандарт"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:592
-msgid "Default Commentary"
-msgstr "Типовий Коментар"
+#: ../bibletime/frontend/coptionsdialog.cpp:452
+#, fuzzy
+msgid "Standard Commentary"
+msgstr "Коментар"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:601
-msgid "Default Lexicon"
-msgstr "Типовий Словник"
+#: ../bibletime/frontend/coptionsdialog.cpp:461
+#, fuzzy
+msgid "Standard Lexicon"
+msgstr "Стандарт"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:609
-msgid "Default Daily Devotional"
-msgstr "Типовий Щоденний роздум"
+#: ../bibletime/frontend/coptionsdialog.cpp:469
+#, fuzzy
+msgid "Standard Daily Devotional"
+msgstr "Щоденні читання"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:617
-msgid "Default Hebrew Strong's Lexicon"
-msgstr "Типовий Єврейський Словник Стронга"
+#: ../bibletime/frontend/coptionsdialog.cpp:477
+#, fuzzy
+msgid "Standard Hebrew Strong's Lexicon"
+msgstr "Єврейський лексикон Стронга"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:625
-msgid "Default Greek Strong's Lexicon"
-msgstr "Типовий Грецький Словник Стронга"
+#: ../bibletime/frontend/coptionsdialog.cpp:485
+#, fuzzy
+msgid "Standard Greek Strong's Lexicon"
+msgstr "Грецький лексикон Стронга"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:633
-msgid "Default Hebrew Morphological Lexicon"
+#: ../bibletime/frontend/coptionsdialog.cpp:493
+#, fuzzy
+msgid "Standard Hebrew Morphological Lexicon"
 msgstr "Типовий Єврейський Морфологічний Словник"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:640
-msgid "Default Greek Morphological Lexicon"
+#: ../bibletime/frontend/coptionsdialog.cpp:500
+#, fuzzy
+msgid "Standard Greek Morphological Lexicon"
 msgstr "Типовий Грецький Морфологічний Словник"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:764
-#: ../bibletime/frontend/coptionsdialog.cpp:767
-msgid "Filter settings"
-msgstr "Налаштування фільтрів"
+#: ../bibletime/frontend/coptionsdialog.cpp:621
+#: ../bibletime/frontend/coptionsdialog.cpp:624
+#, fuzzy
+msgid "Text filters"
+msgstr "Text файли"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:768
+#: ../bibletime/frontend/coptionsdialog.cpp:625
+#, fuzzy
 msgid ""
-"Filters control the appereance of the text in the display windows. Here you "
-"can specify default settings for all filters. You can change the filter "
-"settings in each display window, of course."
+"Filters control the appearance of text. \t\t\t\tHere you can specify default "
+"settings for all filters. \t\t\t\tYou can change the filter settings in each "
+"display window, of course."
 msgstr ""
 "Фільтри контролюють вигляд тексту у вікні. Тут ви можете визначити типові "
 "для усіх фільтрів установки. Ви, звичайно, можете змінити налаштування "
 "фільтрів у кожному вікні."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:775
+#: ../bibletime/frontend/coptionsdialog.cpp:632
 msgid "Insert line break after each verse"
 msgstr "Вставляти розрив рядка після кожного вірша"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:782
+#: ../bibletime/frontend/coptionsdialog.cpp:637
 msgid "Show verse numbers"
 msgstr "Показувати номери віршів"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:797
+#: ../bibletime/frontend/coptionsdialog.cpp:642
 msgid "Show section headings"
 msgstr "Показувати назви підрозділів"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:811
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:164
+#: ../bibletime/frontend/coptionsdialog.cpp:648
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:153
 msgid "Show scripture cross-references"
 msgstr "Показувати перехресні посиланні у Писанні"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:834
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:159
+#: ../bibletime/frontend/coptionsdialog.cpp:653
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:148
 msgid "Show Greek accents"
 msgstr "Показувати Грецькі наголоси"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:841
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:155
+#: ../bibletime/frontend/coptionsdialog.cpp:658
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:144
 msgid "Show Hebrew vowel points"
 msgstr "Показувати риси Єврейських голосних"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:848
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:157
+#: ../bibletime/frontend/coptionsdialog.cpp:663
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:146
 msgid "Show Hebrew cantillation marks"
 msgstr "Показувати єврейські знаки кантіляції"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:855
+#: ../bibletime/frontend/coptionsdialog.cpp:668
 msgid "Use textual variants"
 msgstr "Використовувати варіанти текстів"
 
-#: ../bibletime/frontend/cprofile.cpp:34
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:400
+#: ../bibletime/frontend/cprofile.cpp:19
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:298
 msgid "unknown"
 msgstr "невідомо що"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:153
-msgid "Manage installation sources"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:48
+msgid "Bookshelf Manager"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:191
-#: ../bibletime/frontend/cswordsetupdialog.cpp:203
-msgid "Local sources"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:64
+msgid "Bookshelf path(s)"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:197
-msgid "Manage local sources"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:75
+msgid "Configure bookshelf path(s)"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:198
+#: ../bibletime/frontend/cswordsetupdialog.cpp:76
 msgid ""
-"Here you can setup the local sources for module installation, e.g. the path "
-"to your CD-Rom to install from a Sword CD.<br>On many Linux distributions "
-"the path to your cdrom is either <i>/media/cdrom</i> or <i>/cdrom</i> Please "
-"make sure you mounted the CD-Rom before you use BibleTime to install from CD-"
-"Rom."
+"You can store your bookshelfs in one or more directories, which you can "
+"specify here."
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:206
+#: ../bibletime/frontend/cswordsetupdialog.cpp:82
+msgid "Your bookshelf configuration file is <b>%1</b>"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:87
 #, fuzzy
-msgid "Add new directory"
-msgstr "Додати нову межу"
+msgid "Path to bookshelf"
+msgstr "Список книг"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:209
-msgid "Remove directory"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:260
-msgid "Remote sources"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:266
-#, fuzzy
-msgid "Manage remote sources"
-msgstr "Впорядкувати сесії"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:267
-msgid ""
-"Setup remote sources like FTP servers which can be used to download Sword "
-"modules on your computer."
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:273
-#: ../bibletime/frontend/cswordsetupdialog.cpp:575
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1153
-#, fuzzy
-msgid "Name"
-msgstr "Назва:"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:279
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1109
-msgid "New"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:300
-msgid "Edit remote source"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:306
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:625
-msgid "Name:"
-msgstr "Назва:"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:317
-msgid "Server:"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:323
-msgid "Path on server:"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:358
-#, fuzzy
-msgid "New remote source"
-msgstr "Впорядкувати сесії"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:412
-msgid "Sword configuration"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:428
-#, fuzzy
-msgid "Sword Path"
-msgstr "Sword"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:439
-#: ../bibletime/util/cresmgr.cpp:972
-#, fuzzy
-msgid "Configure Sword"
-msgstr "&Налаштувати сесію"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:440
-msgid ""
-"The underlying Sword software uses an own configuration file. This page let "
-"you set up this file."
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:446
-msgid "Your Sword configuration file is <b>%1</b>"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:451
-#, fuzzy
-msgid "Path to Sword modules"
-msgstr "Виберіть модулі"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:455
+#: ../bibletime/frontend/cswordsetupdialog.cpp:91
 #, fuzzy
 msgid "Edit Entry"
 msgstr "Редагувати панель інструментів"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:460
+#: ../bibletime/frontend/cswordsetupdialog.cpp:96
 msgid "Add Entry"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:465
+#: ../bibletime/frontend/cswordsetupdialog.cpp:101
 msgid "Remove Entry"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:474
-msgid "Install/Update Modules"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:110
+msgid "Install/Update works"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:496
-msgid "Install/update modules - Step 1"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:133
+msgid "Install/update works - Step 1"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:497
+#: ../bibletime/frontend/cswordsetupdialog.cpp:134
 msgid ""
-"Please choose a source and a destination. After that step click on the "
-"connect button.<br/><b>WARNING: If you live in a persecuted country and do "
-"not wish to risk detection you should NOT use the module remote installation "
-"feature!</b>"
+"Please choose a (local or remote) library and a bookshelf path to install "
+"the work(s) to. \t\tAfter that step click on the connect button.<br/>\t"
+"\t<b>WARNING: If you live in a persecuted country and do not wish to risk "
+"detection you should NOT use \t\tthe module remote installation feature!</b>"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:501
-msgid "Select source location"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:507
-msgid "Maintain sources"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:515
-msgid "Select target location"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:535
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1327
-msgid "Connect to source"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:550
+#: ../bibletime/frontend/cswordsetupdialog.cpp:141
 #, fuzzy
-msgid "Remove Modules"
+msgid "Select library"
+msgstr "Вибрати усе"
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:147
+msgid "Add library"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:152
+#, fuzzy
+msgid "Delete library"
+msgstr "Вилучити пункти"
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:160
+msgid "Select bookshelf path"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:180
+#: ../bibletime/frontend/cswordsetupdialog.cpp:759
+msgid "Connect to library"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:195
+#, fuzzy
+msgid "Remove works"
 msgstr "Виберіть модулі"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:562
+#: ../bibletime/frontend/cswordsetupdialog.cpp:207
 #, fuzzy
-msgid "Remove installed module(s)"
+msgid "Remove installed work(s)"
 msgstr "Пошук у вибраних модул(ях)"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:563
+#: ../bibletime/frontend/cswordsetupdialog.cpp:208
 msgid ""
-"This dialog lets you remove installed Sword modules from your system. Choose "
-"the modules and then click on the remove button."
+"This dialog lets you remove installed works from your system. Choose the "
+"modules and then click on the remove button."
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:567
-msgid "Select modules to be uninstalled"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:212
+msgid "Select works to be uninstalled"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:576
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:307
-msgid "Location"
-msgstr "Місцезнаходження"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:585
+#: ../bibletime/frontend/cswordsetupdialog.cpp:218
 #, fuzzy
-msgid "Remove selected module(s)"
+msgid "Remove selected work(s)"
 msgstr "Вилучити вибране"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:676
-#: ../bibletime/frontend/cswordsetupdialog.cpp:731
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1412
+#: ../bibletime/frontend/cswordsetupdialog.cpp:297
+#: ../bibletime/frontend/cswordsetupdialog.cpp:349
+#: ../bibletime/frontend/cswordsetupdialog.cpp:843
 msgid "[Remote]"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:681
-#: ../bibletime/frontend/cswordsetupdialog.cpp:725
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1406
+#: ../bibletime/frontend/cswordsetupdialog.cpp:302
+#: ../bibletime/frontend/cswordsetupdialog.cpp:344
+#: ../bibletime/frontend/cswordsetupdialog.cpp:838
 msgid "[Local]"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:774
+#: ../bibletime/frontend/cswordsetupdialog.cpp:385
 msgid ""
-"You selected the following modules: %1.\n"
+"You selected the following work(s): %1.\n"
 "\n"
 "Do you really want to remove them from your system?"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:858
-#: ../bibletime/frontend/cswordsetupdialog.cpp:977
-#: ../bibletime/frontend/cswordsetupdialog.cpp:985
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:698
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:356
-msgid "Bibles"
-msgstr "Біблії"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:859
-#: ../bibletime/frontend/cswordsetupdialog.cpp:978
-#: ../bibletime/frontend/cswordsetupdialog.cpp:986
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:701
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:357
-msgid "Commentaries"
-msgstr "Коментарі"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:860
-#: ../bibletime/frontend/cswordsetupdialog.cpp:979
-#: ../bibletime/frontend/cswordsetupdialog.cpp:987
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:704
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:358
-msgid "Lexicons"
-msgstr "Словники"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:861
-#: ../bibletime/frontend/cswordsetupdialog.cpp:980
-#: ../bibletime/frontend/cswordsetupdialog.cpp:988
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:707
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:359
-msgid "Books"
-msgstr "Книги"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:862
-#: ../bibletime/frontend/cswordsetupdialog.cpp:981
-#: ../bibletime/frontend/cswordsetupdialog.cpp:989
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:397
-msgid "Daily Devotionals"
-msgstr "Щоденні читання"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:863
-#: ../bibletime/frontend/cswordsetupdialog.cpp:982
-#: ../bibletime/frontend/cswordsetupdialog.cpp:990
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:713
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1288
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:408
-msgid "Glossaries"
-msgstr "Глосарії"
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:893
-#, c-format
-msgid "Scanning your modules: %1%"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:462
+msgid "Download"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1109
-msgid "Updated"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:475
+msgid "Downloading library information..."
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1138
-msgid "Install/update modules - Step 2"
+#: ../bibletime/frontend/cswordsetupdialog.cpp:575
+msgid "Install/update works - Step 2"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1139
+#: ../bibletime/frontend/cswordsetupdialog.cpp:576
 msgid ""
-"Please choose the modules which should be installed / updated and click the "
-"install button."
+"Please choose the works which should be installed and/or updated and click "
+"the install button."
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1154
-msgid "Installed version"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1155
+#: ../bibletime/frontend/cswordsetupdialog.cpp:601
 #, fuzzy
-msgid "Remote version"
+msgid "Install works"
+msgstr "Усі модулі:"
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:651
+msgid ""
+"You selected the following works: %1.\n"
+"\n"
+"\t\tDo you really want to install them on your system?"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:678
+msgid "Download of work(s)"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:750
+msgid "[%1]: %2% complete"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:771
+msgid ""
+"This directory is not writable, so works \t\t\t\t\tcan not be installed here "
+"using BibleTime. \t\t\t\t\tDo you want to use this directory instead of the "
+"previous value?"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupdialog.cpp:792
+msgid ""
+"This directory is not writable, \t\t\tso works can not be installed here "
+"using BibleTime. \t\t\tDo you want to add it to the list of module "
+"directories?"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:16
+#, fuzzy
+msgid "Local"
+msgstr "Місцезнаходження"
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:17
+#, fuzzy
+msgid "Remote"
 msgstr "Змінити назву сесії"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1156
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:31
+#, fuzzy
+msgid "Caption"
+msgstr "Латинська"
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:42
+msgid "Type"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:44
+msgid "Server"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:46
+msgid "Path"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:79
+msgid "Please provide a caption."
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:86
+msgid ""
+"A source with this caption already exists.<br>Please provide a different "
+"caption."
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:92
+msgid "Please provide a server name."
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:97
+msgid "Please provide a valid, readable path."
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:52
+#, fuzzy
+msgid "Name"
+msgstr "Назва:"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:56
 #, fuzzy
 msgid "Status"
 msgstr "Старт"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1172
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:58
+msgid "Installed version"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:62
 #, fuzzy
-msgid "Install modules"
+msgid "Remote version"
+msgstr "Змінити назву сесії"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:86
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:94
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:582
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:341
+msgid "Bibles"
+msgstr "Біблії"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:87
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:95
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:585
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:342
+msgid "Commentaries"
+msgstr "Коментарі"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:88
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:96
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:588
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:343
+msgid "Lexicons"
+msgstr "Словники"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:89
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:97
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:591
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:344
+msgid "Books"
+msgstr "Книги"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:90
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:98
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:382
+msgid "Daily Devotionals"
+msgstr "Щоденні читання"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:91
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:99
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:597
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:1179
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:393
+msgid "Glossaries"
+msgstr "Глосарії"
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:211
+msgid "New"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:211
+msgid "Updated"
+msgstr ""
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:214
+#, fuzzy
+msgid "Installed"
 msgstr "Усі модулі:"
 
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1237
-msgid ""
-"You selected the following modules: %1.\n"
-"\n"
-"Do you really want to install them on your system?"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1263
-msgid "Module installation ..."
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1317
-msgid "[%1]: %2% complete"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1344
-msgid ""
-"This directory is not writable, so modules can not be installed here using "
-"BibleTime. Do you want to use this directory instead of the previous value?"
-msgstr ""
-
-#: ../bibletime/frontend/cswordsetupdialog.cpp:1364
-msgid ""
-"This directory is not writable, so modules can not be installed here using "
-"BibleTime. Do you want to add it to the list of module directories?"
-msgstr ""
-
-#: ../bibletime/frontend/display/cdisplay.cpp:151
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1229
+#: ../bibletime/frontend/display/cdisplay.cpp:144
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1214
 msgid "HTML files"
 msgstr "HTML файли"
 
-#: ../bibletime/frontend/display/cdisplay.cpp:154
+#: ../bibletime/frontend/display/cdisplay.cpp:147
 msgid "Text files"
 msgstr "Text файли"
 
-#: ../bibletime/frontend/display/cdisplay.cpp:158
+#: ../bibletime/frontend/display/cdisplay.cpp:151
 msgid "Save document ..."
 msgstr "Зберегти документ ..."
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:137
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:121
 msgid "Choose a font"
 msgstr "Вибрати шрифт"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:148
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:132
 msgid "Choose a font size"
 msgstr "Вибрати розмір шрифту"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:167
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:151
 msgid "Bold"
 msgstr "Жирний"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:189
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:173
 msgid "Underline"
 msgstr "Підкреслений"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:261
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:143
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:106
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:245
 msgid "Select all"
 msgstr "Вибрати усе"
 
-#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:265
+#: ../bibletime/frontend/display/chtmlwritedisplay.cpp:249
 msgid "HTML editor window"
 msgstr "вікно HTML-редактора"
 
-#: ../bibletime/frontend/display/creaddisplay.cpp:77
+#: ../bibletime/frontend/display/creaddisplay.cpp:62
 msgid "Print keys"
 msgstr "Друкувати клавіші"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:87
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:84
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:189
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:73
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:124
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:28
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:100
 msgid "Next book"
 msgstr "Наступна книга"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:89
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:85
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:190
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:77
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:130
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:32
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:106
 msgid "Previous book"
 msgstr "Попередня книга"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:91
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:86
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:191
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:81
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:136
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:36
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:112
 msgid "Next chapter"
 msgstr "Наступний розділ"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:93
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:87
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:192
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:85
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:142
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:40
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:118
 msgid "Previous chapter"
 msgstr "Попередній розділ"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:95
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:88
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:193
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:89
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:148
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:44
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:124
 msgid "Next verse"
 msgstr "Наступний вірш"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:97
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:89
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:194
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:93
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:154
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:48
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:130
 msgid "Previous verse"
 msgstr "Попередній вірш"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:141
-msgid "Bible window"
-msgstr "Вікно Біблії"
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:104
+#, fuzzy
+msgid "Copy chapter"
+msgstr "Розділ"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:148
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:111
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:87
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:297
-msgid "Copy..."
-msgstr "Копіювати..."
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:109
+#, fuzzy
+msgid "Save chapter as plain text"
+msgstr "Розділ як звичайний текст"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:149
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:113
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:130
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:88
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:95
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:298
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:305
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:110
+#, fuzzy
+msgid "Save chapter as HTML"
+msgstr "Розділ як HTML"
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:114
+#, fuzzy
+msgid "Print chapter"
+msgstr "Попередній розділ"
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:163
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:97
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:108
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:72
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:79
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:282
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:289
 msgid "Reference only"
 msgstr "Посилання тільки"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:151
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:165
 msgid "Text of reference"
 msgstr "Текст посилання"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:153
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:163
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:172
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:90
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:97
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:102
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:300
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:307
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:312
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:167
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:174
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:180
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:74
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:81
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:86
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:284
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:291
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:296
 msgid "Reference with text"
 msgstr "Посилання та текст"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:155
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:174
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:169
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:182
 msgid "Chapter"
 msgstr "Розділ"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:158
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:118
-msgid "Selected text"
-msgstr "Вибраний текст"
-
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:162
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:122
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:94
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:304
-msgid "Save..."
-msgstr "Зберегти..."
-
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:165
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:176
 msgid "Chapter as plain text"
 msgstr "Розділ як звичайний текст"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:167
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:178
 msgid "Chapter as HTML"
 msgstr "Розділ як HTML"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:171
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:129
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:101
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:311
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:207
+msgid "Bible window"
+msgstr "Вікно Біблії"
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:213
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:174
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:71
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:281
+msgid "Copy..."
+msgstr "Копіювати..."
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:222
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:182
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:78
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:288
+msgid "Save..."
+msgstr "Зберегти..."
+
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:228
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:187
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:85
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:295
 msgid "Print..."
 msgstr "Друкувати..."
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:264
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:304
 msgid "Copy chapter to clipboard ..."
 msgstr "Копіювати розділ до кишені..."
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:264
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:304
 msgid "Copying"
 msgstr "Копіювання"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:285
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:303
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:162
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:168
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:325
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:343
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:218
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:224
 msgid "Saving"
 msgstr "Збереження"
 
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:285
-#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:303
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:325
+#: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:343
 msgid "Saving chapter ..."
 msgstr "Збереження розділу ..."
 
-#: ../bibletime/frontend/displaywindow/cbookreadwindow.cpp:98
-msgid "Toggle tree..."
+#: ../bibletime/frontend/displaywindow/cbookreadwindow.cpp:56
+#: ../bibletime/frontend/displaywindow/cbookreadwindow.cpp:69
+#, fuzzy
+msgid "Toggle tree view"
 msgstr "Вмикає дерево"
 
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:134
-msgid "Display options"
-msgstr "Налаштування показу"
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:102
+msgid "Display settings: No options available"
+msgstr ""
 
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:137
-msgid "Use linebreaks after each verse"
-msgstr "Використовувати розриви рядків після кожного вірша"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:140
-msgid "Show versenumbers"
-msgstr "Показувати номери віршів"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:142
-msgid "Show headings"
-msgstr "показувати заголовки"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:146
-msgid "Highlight words of Jesus"
-msgstr "Виділяти слова Ісуса"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:162
-msgid "Use alternative textual variant"
-msgstr "Використати альтернативний текстуальний варіант"
-
-#: ../bibletime/frontend/displaywindow/cbuttons.cpp:167
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:106
 msgid "Display settings"
 msgstr "Установки показу"
 
-#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:54
-#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:63
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:57
-msgid "Sync with active bible"
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:123
+msgid "Display options"
+msgstr "Налаштування показу"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:126
+msgid "Use linebreaks after each verse"
+msgstr "Використовувати розриви рядків після кожного вірша"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:129
+msgid "Show versenumbers"
+msgstr "Показувати номери віршів"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:131
+msgid "Show headings"
+msgstr "показувати заголовки"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:135
+msgid "Highlight words of Jesus"
+msgstr "Виділяти слова Ісуса"
+
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:151
+msgid "Use alternative textual variant"
+msgstr "Використати альтернативний текстуальний варіант"
+
+#: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:67
+#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:53
+#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:45
+#, fuzzy
+msgid "Sync with active Bible"
 msgstr "Сінхронізувати з активною Біблією"
 
-#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:72
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:67
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:196
+#: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:143
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
+msgid "Search"
+msgstr "Пошук"
+
+#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:62
+#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:55
 msgid "Save text"
 msgstr "Зберегти текст"
 
-#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:83
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:79
+#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:72
+#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:66
 msgid "Delete current entry"
 msgstr "Вилучити поточний запис"
 
-#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:95
-#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:91
+#: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:82
+#: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:77
 msgid "Restore original text"
 msgstr "Відновити оригінальний текст"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:61
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:40
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:84
 msgid "Next entry"
 msgstr "Наступний запис"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:62
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:44
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:89
 msgid "Previous entry"
 msgstr "Попередній запис"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:104
-msgid "Lexicon window"
-msgstr "Вікно Словника"
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:49
+#, fuzzy
+msgid "Copy entry with text"
+msgstr "Запис та текст"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:115
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:132
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:51
+#, fuzzy
+msgid "Save entry as plain text"
+msgstr "Запис як звичайний текст"
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:52
+#, fuzzy
+msgid "Save entry as HTML"
+msgstr "Запис як HTML"
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:54
+#, fuzzy
+msgid "Print entry with text"
+msgstr "Запис та текст"
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:61
+msgid "Back in history"
+msgstr ""
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:72
+msgid "Forward in history"
+msgstr ""
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:99
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:110
 msgid "Entry with text"
 msgstr "Запис та текст"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:123
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:104
 msgid "Entry as plain text"
 msgstr "Запис як звичайний текст"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:125
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:106
 msgid "Entry as HTML"
 msgstr "Запис як HTML"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:162
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:168
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:166
+msgid "Lexicon window"
+msgstr "Вікно Словника"
+
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:218
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:224
 msgid "Saving entry ..."
 msgstr "Збереження запису..."
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:119
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:164
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:104
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:149
 msgid "NONE"
 msgstr "НІЧОГО"
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:135
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:136
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:156
-msgid "Select a module"
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:120
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:121
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:141
+#, fuzzy
+msgid "Select a work"
 msgstr "Вибрати модуль"
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:159
-msgid "Select an additional module"
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:144
+#, fuzzy
+msgid "Select an additional work"
 msgstr "Вибрати додатковий модуль"
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:230
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:214
 msgid "[locked]"
 msgstr "[заблоковано]"
 
-#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:247
-msgid "No module selected"
+#: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:231
+#, fuzzy
+msgid "No work selected"
 msgstr "Не вибрано жодного модуля"
 
-#: ../bibletime/frontend/displaywindow/creadwindow.cpp:159
-msgid "Copy selected text"
-msgstr "Копіювати вибраний текст"
-
-#: ../bibletime/frontend/displaywindow/cwritewindow.cpp:151
+#: ../bibletime/frontend/displaywindow/cwritewindow.cpp:141
 msgid "Save text before closing?"
 msgstr "Зберегти текст перед закриттям?"
 
-#: ../bibletime/frontend/displaywindow/cwritewindow.cpp:175
+#: ../bibletime/frontend/displaywindow/cwritewindow.cpp:165
 #, fuzzy
 msgid "Save changed text?"
 msgstr "Зберегти текст"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:263
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:338
-msgid "Take care, this module contains cult / questionable material!"
-msgstr ""
-"Будьте уважні! Цей модуль містить матеріали, що є спірними або мають "
-"відношення до культів!"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:267
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:309
-msgid "Language"
-msgstr "Мова"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:270
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:319
-msgid "Unlock key"
-msgstr "Клавіша зняття блокування"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:271
-msgid "not set"
-msgstr "Не встановлено"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:273
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:303
-msgid "Version"
-msgstr "Версія"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:314
-msgid "Writable"
-msgstr "Може бути записаний"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:315
-msgid "yes"
-msgstr "так"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:333
-msgid "Features"
-msgstr "Спеціальні можливості"
-
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:485
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:387
 msgid "Change description ..."
 msgstr "Змінити опис ..."
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:485
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:387
 msgid "Enter a new description for the chosen bookmark."
 msgstr "Введіть новий опис для вибраної закладки."
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:600
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:485
 msgid "New folder"
 msgstr "Нова тека"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:710
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:594
 msgid "Daily devotionals"
 msgstr "Щоденні читання"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:719
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:603
 msgid "Old bookmarks"
 msgstr "Старі закладки"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:722
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:606
 msgid "Unknown"
 msgstr "Невідоме"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:729
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:613
 msgid "Unknown language"
 msgstr "Невідома мова"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1076
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1084
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:960
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:968
 msgid ""
 "*.btb | BibleTime bookmark files (*.btb)\n"
 "*.* | All files (*.*)"
@@ -1281,312 +1313,343 @@ msgstr ""
 "*.btb | файл закладок BibleTime (*.btb)\n"
 "*.* | Усі файли (*.*)"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1076
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:960
 msgid "BibleTime - Export bookmarks"
 msgstr "BibleTime - Експорт закладок"
 
-#: ../bibletime/frontend/mainindex/cindexitem.cpp:1084
+#: ../bibletime/frontend/mainindex/cindexitem.cpp:968
 msgid "BibleTime - Import bookmarks"
 msgstr "BibleTime - Імпорт закладок"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:150
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:118
 msgid "Create a new folder"
 msgstr "Створити нову теку"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:151
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:119
 msgid "Change this folder"
 msgstr "Змінити цю теку"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:153
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:121
 msgid "Change this bookmark"
 msgstr "Змінити цю закладку"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:154
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:122
 msgid "Import bookmarks"
 msgstr "Імпортувати закладки"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:155
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:123
 msgid "Export bookmarks"
 msgstr "Експортувати закладки"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:156
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:124
 msgid "Print bookmarks"
 msgstr "Друкувати закладки"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:158
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:126
 msgid "Remove selected item(s)"
 msgstr "Вилучити вибране"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:160
-msgid "Edit this module"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:128
+#, fuzzy
+msgid "Edit this work"
 msgstr "Редагувати цей модуль"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:161
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:129
 msgid "Plain text"
 msgstr "Звичайний текст"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:162
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:130
 msgid "HTML"
 msgstr "HTML"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:164
-msgid "Search in selected module(s)"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:132
+#, fuzzy
+msgid "Search in selected work(s)"
 msgstr "Пошук у вибраних модул(ях)"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:165
-msgid "Unlock this module"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:133
+#, fuzzy
+msgid "Unlock this work"
 msgstr "Разблокувати цей модуль"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:166
-msgid "About this module"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:134
+#, fuzzy
+msgid "About this work"
 msgstr "Про цей модуль"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:465
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:482
 #, fuzzy
 msgid "Delete Items"
 msgstr "Вилучити пункти"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:465
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:482
 msgid "Do you really want to delete the selected items and child-items?"
 msgstr ""
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:504
-msgid "BibleTime - Unlock module"
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:521
+#, fuzzy
+msgid "BibleTime - Unlock work"
 msgstr "BibleTime - Разблокування модуля"
 
-#: ../bibletime/frontend/mainindex/cmainindex.cpp:504
-msgid "Enter the unlock key for this module."
+#: ../bibletime/frontend/mainindex/cmainindex.cpp:522
+#, fuzzy
+msgid "Enter the unlock key for this work."
 msgstr "Введіть ключ для разблокування цього модуля"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:100
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
 msgid "Interrupt"
 msgstr "Перервати"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:100
-msgid "Search"
-msgstr "Пошук"
-
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:100
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
 msgid "Search dialog"
 msgstr "Пошуковий діалог"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:200
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:716
-msgid "Search options"
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:185
+#, fuzzy
+msgid "Search &options"
 msgstr "Пошукові установки"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:204
-msgid "Search result"
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:189
+#, fuzzy
+msgid "Search &result"
 msgstr "Результат пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:517
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:665
-#: ../bibletime/util/cresmgr.cpp:1036
-msgid "Choose modules"
-msgstr "Виберіть модулі"
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:503
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:670
+#, fuzzy
+msgid "Choose work(s)"
+msgstr "Вибрати кольори"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:530
-msgid "Use chosen modules"
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:516
+#, fuzzy
+msgid "Use chosen work(s)"
 msgstr "Використовувати вибрані модулі"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:580
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:566
 msgid "Search range editor"
 msgstr "Редактор меж пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:607
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:593
 msgid "Search range"
 msgstr "Межі пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:615
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:601
 msgid "Add new range"
 msgstr "Додати нову межу"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:619
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:605
 msgid "Delete current range"
 msgstr "Вилучити діючу межу"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:630
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:611
+msgid "Name:"
+msgstr "Назва:"
+
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:616
 msgid "Edit current search range:"
 msgstr "Редагувати діючу межу пошуку:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:640
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:626
 msgid "Parsed search range:"
 msgstr "Визначені межі пошуку:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:669
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:655
 msgid "New range"
 msgstr "Нова межа"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:732
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:718
 msgid "<invalid name of search range>"
 msgstr "<невірна назва межі пошуку>"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:788
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:774
 msgid "Search analysis"
 msgstr "Аналіз пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:806
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:792
 msgid "Save search analysis as HTML"
 msgstr "Зберегти аналіз пошуку як HTML"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1229
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1216
 msgid "Save Search Analysis"
 msgstr "Зберегти Аналіз пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1257
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1244
 msgid "BibleTime Search Analysis"
 msgstr "Аналіз пошуку BibleTime"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1258
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1245
 msgid "Search text :"
 msgstr "Шукати текст :"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1259
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1246
 msgid "Search type :"
 msgstr "Тип пошуку :"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1260
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:852
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1247
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:885
 msgid "No search scope"
 msgstr "Немає діапазону пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1260
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1247
 msgid "Search scope:"
 msgstr "Діапазон пошуку:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1263
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1250
 msgid "Book"
 msgstr "Книга"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1264
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1251
 msgid "Total hits"
 msgstr "Усього"
 
-#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1300
+#: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1287
 msgid "Created by"
 msgstr "Створено"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:77
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:285
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:62
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:269
 msgid "Found items"
 msgstr "Знайдено"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:162
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:411
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:147
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:395
 msgid "Print search result..."
 msgstr "Друкувати результати пошуку..."
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:162
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:411
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:147
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:395
 msgid "Printing search result"
 msgstr "Друкування результатів пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:173
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:192
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:393
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:402
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:158
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:177
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:377
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:386
 msgid "Save search result..."
 msgstr "Зберегти результати пошуку..."
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:173
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:192
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:393
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:402
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:158
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:177
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:377
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:386
 msgid "Saving search result"
 msgstr "Збереження результатів пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:211
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:231
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:375
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:384
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:196
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:215
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:359
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:368
 msgid "Copy search result..."
 msgstr "Копіювати результати пошуку..."
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:211
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:231
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:375
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:384
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:196
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:215
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:359
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:368
 msgid "Copying search result"
 msgstr "Копіювання результатів пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:284
-msgid "Module"
-msgstr "Модуль"
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:268
+msgid "Work"
+msgstr ""
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:448
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:432
 msgid "Show search analysis"
 msgstr "Показати Аналіз пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:658
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:626
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:739
+msgid "Strong's numbers"
+msgstr "Номери Стронга"
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:629
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:742
+msgid "Morph codes"
+msgstr ""
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:663
 msgid "Main search parameters"
 msgstr "Головні пошукові параметри"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:672
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:677
 msgid "Search text:"
 msgstr "Шукати текст:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:690
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:697
 msgid "Search type"
 msgstr "Тип пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:692
-#: ../bibletime/util/cresmgr.cpp:1048
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:699
 msgid "Multiple words (AND)"
 msgstr "Декілька слів (AND)"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:698
-#: ../bibletime/util/cresmgr.cpp:1053
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:705
 msgid "Multiple words (OR)"
 msgstr "Декілька слів (OR)"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:702
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:709
 msgid "Exact"
 msgstr "Точно"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:706
-#: ../bibletime/util/cresmgr.cpp:1063
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:714
 msgid "Regular expression"
 msgstr "Регулярний вираз"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:717
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:725
+msgid "Search options"
+msgstr "Пошукові установки"
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:727
 #, fuzzy
 msgid "Case sensitive"
 msgstr "Пошук чутливий до регістру"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:724
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:733
+#, fuzzy
+msgid "Text type"
+msgstr "Попередній перегляд тексту"
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:736
+#, fuzzy
+msgid "Main text"
+msgstr "Звичайний текст"
+
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:750
 msgid "Search scope"
 msgstr "Діапазон пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:733
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:758
 #, fuzzy
 msgid "Setup ranges"
 msgstr "Встановити особливі межі"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:739
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:766
 msgid "Search progress"
 msgstr "Успіх пошуку"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:743
-msgid "Current module:"
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:770
+#, fuzzy
+msgid "Current work:"
 msgstr "Поточний модуль:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:746
-msgid "All modules:"
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:773
+#, fuzzy
+msgid "All works:"
 msgstr "Усі модулі:"
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:755
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:783
 msgid "Searching in: "
 msgstr "Пошук у: "
 
-#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:853
+#: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:886
 msgid "Last search result"
 msgstr "Результат останнього пошуку"
 
-#: ../bibletime/main.cpp:133
+#: ../bibletime/main.cpp:118
 msgid "Enable debug messages"
 msgstr "Увімкнути налагоджувальні повідомлення"
 
-#: ../bibletime/main.cpp:134
+#: ../bibletime/main.cpp:119
 msgid ""
 "Ignore the startup session that was saved when BibleTime was closed the last "
 "time."
@@ -1594,24 +1657,25 @@ msgstr ""
 "Відкинути при старті сесію, що була збережена коли BibleTime була в останнє "
 "закрита."
 
-#: ../bibletime/main.cpp:135
+#: ../bibletime/main.cpp:120
+#, fuzzy
 msgid ""
-"Open the default bible with the given key. Use <random> to open at a random "
+"Open the standard Bible with the given key. Use <random> to open at a random "
 "position."
 msgstr ""
 "Відкрити типову Біблію із вказаним ключем. Використовуйте <random> щоб "
 "відкрити навмання."
 
-#: ../bibletime/main.cpp:144
+#: ../bibletime/main.cpp:129
 msgid "Bible study tool for KDE"
 msgstr "Інструмент для вивчення Біблії для KDE"
 
-#: ../bibletime/main.cpp:146
+#: ../bibletime/main.cpp:131
 #, fuzzy
-msgid "(c)1999-2004, The BibleTime Team"
+msgid "(c)1999-2005, The BibleTime Team"
 msgstr "(c)1999-2003, Команда BibleTime"
 
-#: ../bibletime/main.cpp:147
+#: ../bibletime/main.cpp:132
 msgid ""
 "BibleTime is an easy to use but powerful Bible study tool for KDE.\n"
 "\n"
@@ -1625,63 +1689,92 @@ msgstr ""
 "Якщо ви хотіли би приєднатися до нашої команди, будь ласка надішліть листа "
 "на info@bibletime.info."
 
-#: ../bibletime/main.cpp:158
+#: ../bibletime/main.cpp:143
 msgid "Project coordinator"
 msgstr "Координатор проекту"
 
-#: ../bibletime/main.cpp:160
+#: ../bibletime/main.cpp:145
 msgid "Frontend, backend"
 msgstr "Інтерфейс, движок"
 
-#: ../bibletime/main.cpp:162
+#: ../bibletime/main.cpp:147
 #, fuzzy
 msgid "Crystal icons, crystal startlogo, webpage"
 msgstr "Піктограми, логотип, веб-сторінка"
 
-#: ../bibletime/main.cpp:174
+#: ../bibletime/main.cpp:155
+msgid "High contrast template"
+msgstr ""
+
+#: ../bibletime/main.cpp:156
+msgid "Installation manager"
+msgstr ""
+
+#: ../bibletime/main.cpp:157
 #, fuzzy
 msgid "Icons, startlogo"
 msgstr "Піктограми, логотип, веб-сторінка"
 
-#: ../bibletime/main.cpp:176
+#: ../bibletime/main.cpp:159
+msgid "Founder of the Sword project"
+msgstr ""
+
+#: ../bibletime/main.cpp:160
 #, fuzzy
 msgid "Sponsored our internet domain for many years"
 msgstr "Спонсорування нашого інтернет-домену у продовж багатьох років"
 
-#: ../bibletime/main.cpp:178
+#: ../bibletime/main.cpp:162
 msgid "Bible Study HowTo"
 msgstr "Як вивчати Біблію"
 
-#: ../bibletime/main.cpp:180 ../bibletime/main.cpp:186
+#: ../bibletime/main.cpp:164 ../bibletime/main.cpp:176
 #, fuzzy
 msgid "Search dialog enhancements"
 msgstr "Пошуковий діалог"
 
-#: ../bibletime/main.cpp:182
+#: ../bibletime/main.cpp:166
 msgid "Language codes and names"
 msgstr "Коди та назви мов"
 
-#: ../bibletime/main.cpp:184
+#: ../bibletime/main.cpp:168 ../bibletime/main.cpp:172
+msgid "Frontend"
+msgstr "Інтерфейс"
+
+#: ../bibletime/main.cpp:170
+#, fuzzy
+msgid "Searchdialog"
+msgstr "Пошуковий діалог"
+
+#: ../bibletime/main.cpp:174
 msgid "Documentation"
 msgstr "Документація"
 
-#: ../bibletime/main.cpp:188
+#: ../bibletime/main.cpp:178
+msgid "Very helpful and detailed testing"
+msgstr ""
+
+#: ../bibletime/main.cpp:180
 msgid "The first lead developer"
 msgstr ""
 
-#: ../bibletime/main.cpp:191
+#: ../bibletime/main.cpp:182
+msgid "Helpful source code additions"
+msgstr ""
+
+#: ../bibletime/main.cpp:185
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
 msgstr "Vlad Savitsky"
 
-#: ../bibletime/main.cpp:192
+#: ../bibletime/main.cpp:186
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "vlad_savitsky@mail.ru"
 
-#: ../bibletime/main.cpp:217
+#: ../bibletime/main.cpp:211
 msgid "Starting BibleTime"
 msgstr "BibleTime стартує"
 
@@ -1907,11 +2000,7 @@ msgstr ""
 "Ви використовуєте програму, що була написана для слави Божої.<BR>Нехай Він "
 "благословить вас вивчати Його Слово!\n"
 
-#: ../bibletime/util/cresmgr.cpp:854
-msgid "Open the printer dialog"
-msgstr "Відкрити діалог принтера"
-
-#: ../bibletime/util/cresmgr.cpp:855
+#: ../bibletime/util/cresmgr.cpp:754
 msgid ""
 "Open the printer dialog of BibleTime, where you can edit the print queue, "
 "assign styles to the items and print them."
@@ -1919,184 +2008,114 @@ msgstr ""
 "Відкрити діалог принтера, де ви зможете редагувати чергу на друк, визначити "
 "стилі для усього та надрукувати."
 
-#: ../bibletime/util/cresmgr.cpp:859
-msgid "Close BibleTime"
-msgstr "Закрити BibleTime"
-
-#: ../bibletime/util/cresmgr.cpp:860
+#: ../bibletime/util/cresmgr.cpp:758
 msgid "Close BibleTime and save the settings."
 msgstr "Закрити BibleTime та зберегти установки."
 
-#: ../bibletime/util/cresmgr.cpp:867
-msgid "Show main index"
-msgstr "Показати панель навігації"
+#: ../bibletime/util/cresmgr.cpp:765
+#, fuzzy
+msgid "Show or hide the bookshelf."
+msgstr "Показати наступну книгу"
 
-#: ../bibletime/util/cresmgr.cpp:868
-msgid "Toggle the main index view."
-msgstr "Вмикає вигляд панелі навігації."
-
-#: ../bibletime/util/cresmgr.cpp:872
-msgid "Show main toolbar"
-msgstr "Показати головну панель інструментів"
-
-#: ../bibletime/util/cresmgr.cpp:873
+#: ../bibletime/util/cresmgr.cpp:769
 msgid "Toggle the main toolbar view."
 msgstr "Вмикає головну панель інструментів."
 
-#: ../bibletime/util/cresmgr.cpp:881 ../bibletime/util/cresmgr.cpp:1510
-msgid "Search in open modules"
-msgstr "Шукати у відкритих модулях"
-
-#: ../bibletime/util/cresmgr.cpp:882
-msgid ""
-"Open the search dialog to search in all modules that are currently open."
+#: ../bibletime/util/cresmgr.cpp:777
+#, fuzzy
+msgid "Open the search dialog to search in all works that are currently open."
 msgstr ""
 "Відкрити пошуковий діалог для пошуку в усіх модулях, що зараз відкриті."
 
-#: ../bibletime/util/cresmgr.cpp:886
-msgid "Search default bible"
-msgstr "Шукати у типовій Біблії"
-
-#: ../bibletime/util/cresmgr.cpp:887
-msgid "Open the search dialog to search in the default bible."
+#: ../bibletime/util/cresmgr.cpp:781
+#, fuzzy
+msgid "Open the search dialog to search in the standard Bible."
 msgstr "Відкрити пошуковий діалог для пошуку в типовій Біблії."
 
-#: ../bibletime/util/cresmgr.cpp:895
-msgid "Load a session"
-msgstr "Завантажити сесію"
-
-#: ../bibletime/util/cresmgr.cpp:896
+#: ../bibletime/util/cresmgr.cpp:789
 msgid "Restore a saved BibleTime session."
 msgstr "Відновити сесію BibleTime, що збережена."
 
-#: ../bibletime/util/cresmgr.cpp:900
-msgid "Save current session"
-msgstr "Зберегти діючу сесію"
-
-#: ../bibletime/util/cresmgr.cpp:901
+#: ../bibletime/util/cresmgr.cpp:793
 msgid "Save current BibleTime session so that it can be reused later."
 msgstr ""
 "Зберегти діючу сесію BibleTime, щоб потім можна було її знову використати."
 
-#: ../bibletime/util/cresmgr.cpp:905
-msgid "Save as new session"
-msgstr "Зберегти як нову сесію"
-
-#: ../bibletime/util/cresmgr.cpp:906
+#: ../bibletime/util/cresmgr.cpp:797
 msgid "Create and save a new session."
 msgstr "Створити та зберегти нову сесію."
 
-#: ../bibletime/util/cresmgr.cpp:910
-msgid "Edit sessions"
-msgstr "Редагувати сесії"
+#: ../bibletime/util/cresmgr.cpp:801
+#, fuzzy
+msgid "Delete a BibleTime sesison."
+msgstr "Відновити сесію BibleTime, що збережена."
 
-#: ../bibletime/util/cresmgr.cpp:911
-msgid "Create new, delete or rename existing sessions."
-msgstr "Створити нову, вилучити або змінити назву існуючих сесій."
-
-#: ../bibletime/util/cresmgr.cpp:915
-msgid "Toggle fullscreen mode"
-msgstr "На весь екран"
-
-#: ../bibletime/util/cresmgr.cpp:916
+#: ../bibletime/util/cresmgr.cpp:805
 msgid "Toggle fullscreen mode of the main window."
 msgstr "Повноекранний режим головного вікна."
 
-#: ../bibletime/util/cresmgr.cpp:920
-msgid "Tile windows"
-msgstr "Розмістити вікна плиткою"
-
-#: ../bibletime/util/cresmgr.cpp:921
-msgid "Tile the open display windows."
-msgstr "Розмістити відкриті вікна плиткою."
-
-#: ../bibletime/util/cresmgr.cpp:925
-msgid "Cascade windows"
-msgstr "Розмістити вікна каскадом"
-
-#: ../bibletime/util/cresmgr.cpp:926
-msgid "Cascade the open display windows."
-msgstr "Розмістити відкриті вікна каскадом."
-
-#: ../bibletime/util/cresmgr.cpp:932
-msgid "Choose the window arrangement mode"
-msgstr ""
-
-#: ../bibletime/util/cresmgr.cpp:933
+#: ../bibletime/util/cresmgr.cpp:809
 #, fuzzy
-msgid "Choose the way that is used to arrange the display windows."
-msgstr "Колір використовується для звичайного тексту у вікні."
-
-#: ../bibletime/util/cresmgr.cpp:937
-#, fuzzy
-msgid "Automatically tile windows vertical"
-msgstr "Автоматично розмістити вікна плиткою"
-
-#: ../bibletime/util/cresmgr.cpp:938 ../bibletime/util/cresmgr.cpp:943
-msgid "Automatically tile the open display windows."
+msgid "Vertically tile the open windows."
 msgstr "Автоматично розмістити відкриті вікна плиткою."
 
-#: ../bibletime/util/cresmgr.cpp:942
+#: ../bibletime/util/cresmgr.cpp:813
 #, fuzzy
-msgid "Automatically tile windows horizontal"
+msgid "Horizontally tile the open windows."
+msgstr "Автоматично розмістити відкриті вікна плиткою."
+
+#: ../bibletime/util/cresmgr.cpp:817
+#, fuzzy
+msgid "Cascade the open windows."
+msgstr "Розмістити відкриті вікна каскадом."
+
+#: ../bibletime/util/cresmgr.cpp:823
+#, fuzzy
+msgid "Choose the way that is used to arrange the windows."
+msgstr "Колір використовується для звичайного тексту у вікні."
+
+#: ../bibletime/util/cresmgr.cpp:827
+#, fuzzy
+msgid "Automatically tile the open windows vertically."
 msgstr "Автоматично розмістити вікна плиткою"
 
-#: ../bibletime/util/cresmgr.cpp:947
-msgid "Automatically cascade windows"
-msgstr "Автоматично розмістити вікна каскадом"
+#: ../bibletime/util/cresmgr.cpp:831
+#, fuzzy
+msgid "Automatically tile the open windows horizontally."
+msgstr "Автоматично розмістити вікна плиткою"
 
-#: ../bibletime/util/cresmgr.cpp:948
-msgid "Automatically cascade the open display windows."
+#: ../bibletime/util/cresmgr.cpp:835
+#, fuzzy
+msgid "Automatically cascade the open windows."
 msgstr "Автоматично розмістити відкриті вікна каскадом."
 
-#: ../bibletime/util/cresmgr.cpp:953
-msgid "Close all windows"
-msgstr "Закрити усі вікна"
-
-#: ../bibletime/util/cresmgr.cpp:954
-msgid "Close all open display windows."
+#: ../bibletime/util/cresmgr.cpp:840
+#, fuzzy
+msgid "Close all open windows."
 msgstr "Закрити усі відкриті вікна."
 
-#: ../bibletime/util/cresmgr.cpp:962
-msgid "Edit toolbar"
-msgstr "Редагувати панель інструментів"
-
-#: ../bibletime/util/cresmgr.cpp:963
+#: ../bibletime/util/cresmgr.cpp:848
 msgid "Open BibleTime's toolbar editor."
 msgstr "Відкрити BibleTime-редактор для панелей інструментів."
 
-#: ../bibletime/util/cresmgr.cpp:967
-msgid "Configure BibleTime"
-msgstr "Налаштувати BibleTime"
-
-#: ../bibletime/util/cresmgr.cpp:968
+#: ../bibletime/util/cresmgr.cpp:852
 msgid "Open the dialog to set most of BibleTime's preferences."
 msgstr "Відкрити діалог, щоб встановити більшість властивостей BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:973
+#: ../bibletime/util/cresmgr.cpp:856
 msgid ""
-"Open the dialog to configure Sword and install/update/remove Sword modules."
+"Open the dialog to configure your bookshelf and install/update/remove works."
 msgstr ""
 
-#: ../bibletime/util/cresmgr.cpp:982
-msgid "BibleTime's handbook"
-msgstr "Підручник BibleTime"
+#: ../bibletime/util/cresmgr.cpp:865
+#, fuzzy
+msgid "Open BibleTime's handbook in the KDE helpbrowser."
+msgstr "Відкрити BibleTime-редактор для панелей інструментів."
 
-#: ../bibletime/util/cresmgr.cpp:983
+#: ../bibletime/util/cresmgr.cpp:869
+#, fuzzy
 msgid ""
-"Open BibleTime's handbook in the KDE helpbrowser.<BR>The handbook explains "
-"how to use BibleTime in the best way."
-msgstr ""
-"Відкрити підручник BibleTime у довідковій системі KDE.<BR>Підручник пояснює "
-"як найкраще використовувати BibleTime."
-
-#: ../bibletime/util/cresmgr.cpp:987
-msgid "BibleTime's Bible study HowTo"
-msgstr "Як вивчати Біблію - BibleTime"
-
-#: ../bibletime/util/cresmgr.cpp:988
-msgid ""
-"Open the Bible study HowTo included with BibleTime in the KDE helpbrowser."
+"Open the Bible study HowTo included with BibleTime in the KDE helpbrowser. "
 "<BR>This HowTo is an introduction on how to study the Bible in an efficient "
 "way."
 msgstr ""
@@ -2104,84 +2123,48 @@ msgstr ""
 "системі KDE. <BR>Цей документ є поясненням як вивчати Біблію найбільш "
 "ефективно."
 
-#: ../bibletime/util/cresmgr.cpp:992
-msgid "Enter \"What's this?\" mode"
-msgstr "Увійти у режим \"Що це?\""
-
-#: ../bibletime/util/cresmgr.cpp:993
-msgid ""
-"Switch into the <B>\"What's this?\"</B> mode.<BR>All important elements of "
-"BibleTime's GUI offer a \"What's this?\" help message."
-msgstr ""
-"Переключитися у режим <B>\"Що це?\"</B>.<BR>Усі важливі елементи графічного "
-"інтерфейсуBibleTime мають підказки \"Що це?\"."
-
-#: ../bibletime/util/cresmgr.cpp:997
-msgid "Send bugreport"
-msgstr "Надіслати звіт про помилки"
-
-#: ../bibletime/util/cresmgr.cpp:998
+#: ../bibletime/util/cresmgr.cpp:873
 msgid "Send a bugreport to the developers of BibleTime."
 msgstr "Надіслати звіт про помилки до розробників BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:1002
-msgid "Show daily tips at startup"
-msgstr "Показувати щоденні поради при старті"
-
-#: ../bibletime/util/cresmgr.cpp:1003
+#: ../bibletime/util/cresmgr.cpp:877
+#, fuzzy
 msgid ""
-"Show a daily tip each time BibleTime starts.<BR>The tips contain important "
+"Show a daily tip each time BibleTime starts. <BR>The tips contain important "
 "Bible quotations and helpful tips for using BibleTime."
 msgstr ""
 "Показувати щоденні поради кожен раз, коли BibleTime стартує.<BR>Підказки "
 "містять важливі біблійні цитати та корисні поради щодо використання "
 "BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:1007
-msgid "About BibleTime"
-msgstr "Про BibleTime"
-
-#: ../bibletime/util/cresmgr.cpp:1008
+#: ../bibletime/util/cresmgr.cpp:881
 msgid "Show detailed information about BibleTime."
 msgstr "Показати докладну інформацію про BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:1012
-msgid "About KDE"
-msgstr "Про KDE"
-
-#: ../bibletime/util/cresmgr.cpp:1013
+#: ../bibletime/util/cresmgr.cpp:885
 msgid "Show detailed information about the KDE project."
 msgstr "Показати докладну інформацію про проект KDE."
 
-#: ../bibletime/util/cresmgr.cpp:1023
-msgid "Start the search"
-msgstr "Розпочати пошук"
-
-#: ../bibletime/util/cresmgr.cpp:1024
-msgid "Start to search the text in each of the chosen modules."
+#: ../bibletime/util/cresmgr.cpp:895
+#, fuzzy
+msgid "Start to search the text in each of the chosen work(s)."
 msgstr "Розпочати пошук тексту у кожному з вибраних модулів."
 
-#: ../bibletime/util/cresmgr.cpp:1028
-msgid "Stop search"
-msgstr "Припинити пошук"
-
-#: ../bibletime/util/cresmgr.cpp:1029
+#: ../bibletime/util/cresmgr.cpp:899
 msgid "Stop the active search."
 msgstr "Припинити поточний пошук."
 
-#: ../bibletime/util/cresmgr.cpp:1037
-msgid "Open a dialog to choose modules for the search."
+#: ../bibletime/util/cresmgr.cpp:906
+#, fuzzy
+msgid "Open a dialog to choose work(s) for the search."
 msgstr "Відкрити діалог, де можна вибрати модуль для пошуку."
 
-#: ../bibletime/util/cresmgr.cpp:1041
-msgid "Search text"
-msgstr "Шукати текст"
-
-#: ../bibletime/util/cresmgr.cpp:1042
-msgid "Enter the text you want to search in the chosen modules here."
+#: ../bibletime/util/cresmgr.cpp:910
+#, fuzzy
+msgid "Enter the text you want to search in the chosen work(s) here."
 msgstr "Тут введіть текст, який ви хочете знайти у вибраних модулях."
 
-#: ../bibletime/util/cresmgr.cpp:1049
+#: ../bibletime/util/cresmgr.cpp:916
 msgid ""
 "Treat the search text as multiple words. A text must contain all of the "
 "words to match. The order of the words is unimportant."
@@ -2189,7 +2172,7 @@ msgstr ""
 "Обробляти текст для пошуку як декілька слів. Текст повинен містити у собі "
 "усі слова. Розташування слів значення не має."
 
-#: ../bibletime/util/cresmgr.cpp:1054
+#: ../bibletime/util/cresmgr.cpp:920
 msgid ""
 "Treat the search text as multiple words. A text must contain one or more "
 "words of to match. The order is unimportant."
@@ -2197,15 +2180,11 @@ msgstr ""
 "Обробляти текст для пошуку як декілька слів. Текст повинен містити у собі "
 "одне або більше слів. Розташування слів значення не має."
 
-#: ../bibletime/util/cresmgr.cpp:1058
-msgid "Exact match"
-msgstr "Точне влучання"
-
-#: ../bibletime/util/cresmgr.cpp:1059
+#: ../bibletime/util/cresmgr.cpp:924
 msgid "The search text will be used exactly as entered."
 msgstr "Текст для пошуку буде використаний саме так, як він введений."
 
-#: ../bibletime/util/cresmgr.cpp:1064
+#: ../bibletime/util/cresmgr.cpp:928
 msgid ""
 "Treat the search string as a GNU regular expression. The BibleTime handbook "
 "contains an introduction to regular expressions."
@@ -2213,11 +2192,7 @@ msgstr ""
 "Обробити пошуковий рядок як регулярний вираз GNU. Посібник BibleTime містить "
 "пояснення щодо регулярних виразів."
 
-#: ../bibletime/util/cresmgr.cpp:1072
-msgid "Case sensitive matching"
-msgstr "Чутливе до регістру порівняння"
-
-#: ../bibletime/util/cresmgr.cpp:1073
+#: ../bibletime/util/cresmgr.cpp:936
 msgid ""
 "If you choose this option the search will distinguish between upper and "
 "lowercase characters."
@@ -2225,42 +2200,27 @@ msgstr ""
 "Якщо ви зазначите цю опцію, пошук буде робити різницю між знаками у "
 "верхньому та нижньому регістрі."
 
-#: ../bibletime/util/cresmgr.cpp:1078
-msgid "Choose a search scope"
-msgstr "Вибрати діапазон пошуку"
-
-#: ../bibletime/util/cresmgr.cpp:1079
+#: ../bibletime/util/cresmgr.cpp:941
+#, fuzzy
 msgid ""
-"Choose a scope from the list. Select the first item to use no scope, the "
-"second one is to use each module's last search result as search scope. The "
-"others are user defined search scopes."
+"Choose a scope from the list. \t\t\t\t\t\tSelect the first item to use no "
+"scope, the second one is to use each work's last search result as search "
+"scope. \t\t\t\t\t\tThe others are user defined search scopes."
 msgstr ""
 "Виберіть діапазон із списку. Виберіть перший пункт, щоб не використовувати "
 "діапазони, другий - щоб використовувати останній результат пошуку кожного "
 "модуля, щоб задати діапазону пошуку. Інші діапазони - це діапазони, які "
 "встановлює користувач."
 
-#: ../bibletime/util/cresmgr.cpp:1085
-msgid "Available search scopes"
-msgstr "Доступні діапазони пошуку"
-
-#: ../bibletime/util/cresmgr.cpp:1086
+#: ../bibletime/util/cresmgr.cpp:949
 msgid "Select an item from the list to edit the search scope."
 msgstr "Виберіть пункт із списку, щоб редагувати діапазон пошуку. "
 
-#: ../bibletime/util/cresmgr.cpp:1090
-msgid "Search scope name"
-msgstr "Назва діапазону пошуку"
-
-#: ../bibletime/util/cresmgr.cpp:1091
+#: ../bibletime/util/cresmgr.cpp:953
 msgid "Change the name of the selected search scope."
 msgstr "Змінити назву вибраного діапазону пошуку."
 
-#: ../bibletime/util/cresmgr.cpp:1095
-msgid "Edit search scope ranges"
-msgstr "Редагувати межі діапазону пошуку"
-
-#: ../bibletime/util/cresmgr.cpp:1096
+#: ../bibletime/util/cresmgr.cpp:957
 msgid ""
 "Change the search ranges of the selected search scope item. Have a look at "
 "the predefined search scopes to see how search ranges are constructed."
@@ -2268,19 +2228,11 @@ msgstr ""
 "Змінити межі вибраного діапазону пошуку. Переглянути попередньо визначені "
 "діапазони пошуку, щоб побачити як межі пошуку визначаються."
 
-#: ../bibletime/util/cresmgr.cpp:1100
-msgid "Parsed search ranges"
-msgstr "Визначені межі пошуку"
-
-#: ../bibletime/util/cresmgr.cpp:1101
+#: ../bibletime/util/cresmgr.cpp:961
 msgid "Contains the search ranges which will be used for the search."
 msgstr "Містить межі пошуку, які будуть використані при пошуку."
 
-#: ../bibletime/util/cresmgr.cpp:1105
-msgid "Add a new search scope"
-msgstr "Додати новий діапазон пошуку"
-
-#: ../bibletime/util/cresmgr.cpp:1106
+#: ../bibletime/util/cresmgr.cpp:965
 msgid ""
 "Add a new search scope. First enter an appropriate name, then edit the "
 "search ranges."
@@ -2288,11 +2240,7 @@ msgstr ""
 "Додайте новий діапазон пошуку. Спочатку введіть гідну назву, а тоді "
 "відредагуйте межі пошуку."
 
-#: ../bibletime/util/cresmgr.cpp:1110
-msgid "Delete current search scope"
-msgstr "Вилучити поточний діапазон пошуку"
-
-#: ../bibletime/util/cresmgr.cpp:1111
+#: ../bibletime/util/cresmgr.cpp:969
 msgid ""
 "Deletes the selected search scope. If you close the dialog using Cancel the "
 "settings won't be saved."
@@ -2300,35 +2248,21 @@ msgstr ""
 "Вилучає вибраний діапазон пошуку. Якщо ви закриєте діалог за допомогою "
 "Cancel установки не будуть збережені."
 
-#: ../bibletime/util/cresmgr.cpp:1119
-msgid "Used modules"
-msgstr "Використані модулі"
-
-#: ../bibletime/util/cresmgr.cpp:1120
-msgid "The list of modules chosen for the search."
+#: ../bibletime/util/cresmgr.cpp:977
+#, fuzzy
+msgid "The list of works chosen for the search."
 msgstr "Список модулів, що вибрані для пошуку."
 
-#: ../bibletime/util/cresmgr.cpp:1124
-msgid "Found items of selected module"
-msgstr "Знайдено у вибраному модулі"
-
-#: ../bibletime/util/cresmgr.cpp:1125
-msgid "This list contains the search result of the selected module."
+#: ../bibletime/util/cresmgr.cpp:981
+#, fuzzy
+msgid "This list contains the search result of the selected work."
 msgstr "Цей список містить результат пошуку у вибраному модулі."
 
-#: ../bibletime/util/cresmgr.cpp:1129
-msgid "Text preview"
-msgstr "Попередній перегляд тексту"
-
-#: ../bibletime/util/cresmgr.cpp:1130
+#: ../bibletime/util/cresmgr.cpp:985
 msgid "The text preview of the selected search result item."
 msgstr "Попередній перегляд тексту вибраного результату пошуку."
 
-#: ../bibletime/util/cresmgr.cpp:1141
-msgid "Scroll through the list"
-msgstr "Прокрутити весь список"
-
-#: ../bibletime/util/cresmgr.cpp:1142
+#: ../bibletime/util/cresmgr.cpp:997
 msgid ""
 "This button is useful to scroll through the entries of the list. Press the "
 "button and move the mouse to increase or decrease the item."
@@ -2336,69 +2270,54 @@ msgstr ""
 "гЦя кнопка корисна, щоб прокрутити весь список. Натисніть кнопку та "
 "пересувайте мишу, щоб прокрутити вгору чи донизу."
 
-#: ../bibletime/util/cresmgr.cpp:1147
-msgid "List of books"
-msgstr "Список книг"
+#: ../bibletime/util/cresmgr.cpp:1001
+msgid "This button opens the search dialog with the work(s) of this window."
+msgstr ""
 
-#: ../bibletime/util/cresmgr.cpp:1148
-msgid "This list contains the books which are available in this module."
+#: ../bibletime/util/cresmgr.cpp:1006
+msgid "Go back one item in the display history."
+msgstr ""
+
+#: ../bibletime/util/cresmgr.cpp:1010
+msgid "Go forward one item in the display history."
+msgstr ""
+
+#: ../bibletime/util/cresmgr.cpp:1017
+#, fuzzy
+msgid "This list contains the books which are available in this work."
 msgstr "Цей список містить книги, які є у цьому модулі."
 
-#: ../bibletime/util/cresmgr.cpp:1152
-msgid "Show the next book"
-msgstr "Показати наступну книгу"
-
-#: ../bibletime/util/cresmgr.cpp:1153
-msgid "Show the next book of this module."
+#: ../bibletime/util/cresmgr.cpp:1021
+#, fuzzy
+msgid "Show the next book of this work."
 msgstr "Показати наступну книгу цього модуля."
 
-#: ../bibletime/util/cresmgr.cpp:1157
-msgid "Show the previous book"
-msgstr "Показати попередню книгу"
-
-#: ../bibletime/util/cresmgr.cpp:1158
-msgid "Show the previous book of this module."
+#: ../bibletime/util/cresmgr.cpp:1025
+#, fuzzy
+msgid "Show the previous book of this work."
 msgstr "Показати попередню книгу у цьому модулі."
 
-#: ../bibletime/util/cresmgr.cpp:1162
-msgid "List of chapters"
-msgstr "Список розділів"
-
-#: ../bibletime/util/cresmgr.cpp:1163
+#: ../bibletime/util/cresmgr.cpp:1029
 msgid ""
 "This list contains the chapters which are available in the current book."
 msgstr "Цей список містить розділи, які є у поточній книзі."
 
-#: ../bibletime/util/cresmgr.cpp:1167
-msgid "Show the next chapter"
-msgstr "Показати наступний розділ"
-
-#: ../bibletime/util/cresmgr.cpp:1168
-msgid "Show the previous chapter of the module."
+#: ../bibletime/util/cresmgr.cpp:1033
+#, fuzzy
+msgid "Show the previous chapter of the work."
 msgstr "Показати попередній розділ модуля."
 
-#: ../bibletime/util/cresmgr.cpp:1172
-msgid "Show the previous chapter"
-msgstr "Показати попередній розділ"
-
-#: ../bibletime/util/cresmgr.cpp:1173
-msgid "Show the next chapter of the module."
+#: ../bibletime/util/cresmgr.cpp:1037
+#, fuzzy
+msgid "Show the next chapter of the work."
 msgstr "Показати наступний розділ модуля."
 
-#: ../bibletime/util/cresmgr.cpp:1177
-msgid "List of verses"
-msgstr "Список віршів"
-
-#: ../bibletime/util/cresmgr.cpp:1178
+#: ../bibletime/util/cresmgr.cpp:1041
 msgid ""
 "This list contains the verses which are available in the current chapter."
 msgstr "Цей список містить вірші, які є діючому розділі."
 
-#: ../bibletime/util/cresmgr.cpp:1182
-msgid "Jump to the next verse"
-msgstr "Перейти до наступного вірша"
-
-#: ../bibletime/util/cresmgr.cpp:1183
+#: ../bibletime/util/cresmgr.cpp:1045
 msgid ""
 "In  Bible texts, the next verse will be highlighted. In commentaries, the "
 "next entry will be shown."
@@ -2406,11 +2325,7 @@ msgstr ""
 "У біблійних текстах, наступний вірш буде виділений. У коментарях, наступний "
 "запис буде показаний."
 
-#: ../bibletime/util/cresmgr.cpp:1187
-msgid "Jump to the previous verse"
-msgstr "Перейти до попереднього вірша"
-
-#: ../bibletime/util/cresmgr.cpp:1188
+#: ../bibletime/util/cresmgr.cpp:1049
 msgid ""
 "In Bible texts, the previous verse will be highlighted. In commentaries, the "
 "previous entry will be shown."
@@ -2418,165 +2333,96 @@ msgstr ""
 "У біблійних текстах, попередній вірш буде виділений. У коментарях, "
 "попередній запис буде показаний."
 
-#: ../bibletime/util/cresmgr.cpp:1195
-msgid "Synchronize with Bible windows"
-msgstr "Синхронізувати вікна Біблії"
-
-#: ../bibletime/util/cresmgr.cpp:1196
+#: ../bibletime/util/cresmgr.cpp:1056
+#, fuzzy
 msgid ""
-"Synchronize the displayed entry of this module with the active Bible window."
+"Synchronize the displayed entry of this work with the active Bible window."
 msgstr ""
 "Синхронізувати відображений запис цього модуля з активним вікном Біблії."
 
-#: ../bibletime/util/cresmgr.cpp:1203
-msgid "List of entries"
-msgstr "Список записів"
-
-#: ../bibletime/util/cresmgr.cpp:1204
-msgid "This list contains the entries of the current module."
+#: ../bibletime/util/cresmgr.cpp:1063
+#, fuzzy
+msgid "This list contains the entries of the current work."
 msgstr "Цей список містить записи діючого модуля."
 
-#: ../bibletime/util/cresmgr.cpp:1208
-msgid "Show the next entry"
-msgstr "Показати наступний запис"
-
-#: ../bibletime/util/cresmgr.cpp:1209
-msgid "The next entry of the module will be shown."
+#: ../bibletime/util/cresmgr.cpp:1067
+#, fuzzy
+msgid "The next entry of the work will be shown."
 msgstr "Наступний запис модуля буде показаний."
 
-#: ../bibletime/util/cresmgr.cpp:1213
-msgid "Show the previous entry"
-msgstr "Показати попередній запис"
-
-#: ../bibletime/util/cresmgr.cpp:1214
-msgid "The previous entry of the module will be shown."
+#: ../bibletime/util/cresmgr.cpp:1071
+#, fuzzy
+msgid "The previous entry of the work will be shown."
 msgstr "Попередній запис модуля буде показаний."
 
-#: ../bibletime/util/cresmgr.cpp:1222
-msgid "Save the current text"
-msgstr "Зберегти поточний текст"
-
-#: ../bibletime/util/cresmgr.cpp:1223
-msgid "Save the curent text into the module. The old text will be overwritten."
+#: ../bibletime/util/cresmgr.cpp:1079
+#, fuzzy
+msgid "Save the curent text into the work. The old text will be overwritten."
 msgstr "Зберегти поточний текст у модулі. Старий текст буде перезаписано."
 
-#: ../bibletime/util/cresmgr.cpp:1227
-msgid "Restore the old text"
-msgstr "Відновити старий текст"
-
-#: ../bibletime/util/cresmgr.cpp:1228
+#: ../bibletime/util/cresmgr.cpp:1083
+#, fuzzy
 msgid ""
-"Loads the old text from the module and loads it into the edit area. The "
+"Loads the old text from the work and loads it into the edit area. The "
 "unsaved text will be lost."
 msgstr ""
 "Завантажує старий текст з модуля та вставляє його у область для редагування. "
 "Незбережений текст буде втрачено."
 
-#: ../bibletime/util/cresmgr.cpp:1232
-msgid "Delete the current entry"
-msgstr "Вилучити поточний запис"
-
-#: ../bibletime/util/cresmgr.cpp:1233
-msgid "Deletes the current entry out of the module. The text will be lost."
+#: ../bibletime/util/cresmgr.cpp:1087
+#, fuzzy
+msgid "Deletes the current entry out of the work. The text will be lost."
 msgstr "Вилучити поточний запис з модуля. Текст буде втрачено."
 
-#: ../bibletime/util/cresmgr.cpp:1239
-msgid "Bold text"
-msgstr "Жирний текст"
-
-#: ../bibletime/util/cresmgr.cpp:1240
+#: ../bibletime/util/cresmgr.cpp:1093
 msgid "Toggle bold formatting of the selected text."
 msgstr "Вмикає форматування жирним вибраного тексту."
 
-#: ../bibletime/util/cresmgr.cpp:1244
-msgid "Italic text"
-msgstr "Курсивний текст"
-
-#: ../bibletime/util/cresmgr.cpp:1245
+#: ../bibletime/util/cresmgr.cpp:1097
 msgid "Toggle italic formatting of the selected text."
 msgstr "Вмикає форматування вибраного тексту курсивом."
 
-#: ../bibletime/util/cresmgr.cpp:1249
-msgid "Underline text"
-msgstr "Підкреслений текст"
-
-#: ../bibletime/util/cresmgr.cpp:1250
+#: ../bibletime/util/cresmgr.cpp:1101
 msgid "Toggle underlined formatting of the selected text."
 msgstr "Вмикає форматування вибраного тексту підкресленням."
 
-#: ../bibletime/util/cresmgr.cpp:1255
-msgid "Align left"
-msgstr "Вирівняти по лівому боку"
-
-#: ../bibletime/util/cresmgr.cpp:1256
+#: ../bibletime/util/cresmgr.cpp:1106
 msgid "The text will be aligned on the left side of the page."
 msgstr "Рівняє текст по лівому боку сторінки."
 
-#: ../bibletime/util/cresmgr.cpp:1261
+#: ../bibletime/util/cresmgr.cpp:1110
 msgid "Centers the text horizontally."
 msgstr "Центрує текст по горизонталі."
 
-#: ../bibletime/util/cresmgr.cpp:1265
-msgid "Align right"
-msgstr "Вирівняти по правому боку"
-
-#: ../bibletime/util/cresmgr.cpp:1266
+#: ../bibletime/util/cresmgr.cpp:1114
 msgid "Aligns the text on the right side of the page."
 msgstr "Рівняє текст по правому боку сторінки."
 
-#: ../bibletime/util/cresmgr.cpp:1270
-msgid "Justify"
-msgstr "Рівняти по ширині"
-
-#: ../bibletime/util/cresmgr.cpp:1271
+#: ../bibletime/util/cresmgr.cpp:1118
 msgid "Justifies the text on the page."
 msgstr "Рівняти текст по ширині сторінки."
 
-#: ../bibletime/util/cresmgr.cpp:1276
-msgid "Set the font"
-msgstr "Встановити шрифт"
-
-#: ../bibletime/util/cresmgr.cpp:1277
+#: ../bibletime/util/cresmgr.cpp:1123
 msgid "Choose a new font for the selected text."
 msgstr "Виберати новий шрифт для вибраного тексту."
 
-#: ../bibletime/util/cresmgr.cpp:1280
-msgid "Set the font size"
-msgstr "Встановити розмір шрифту"
-
-#: ../bibletime/util/cresmgr.cpp:1281
+#: ../bibletime/util/cresmgr.cpp:1126
 msgid "Choose a new font size for the selected text."
 msgstr "Вибрати новий розмір шрифту для виділеного тексту."
 
-#: ../bibletime/util/cresmgr.cpp:1284
-msgid "Set the color"
-msgstr "Встановити колір"
-
-#: ../bibletime/util/cresmgr.cpp:1285
+#: ../bibletime/util/cresmgr.cpp:1129
 msgid "Choose a new color for the selected text."
 msgstr "Виберіть новий колір для виділеного тексту."
 
-#: ../bibletime/util/cresmgr.cpp:1295
-msgid "Show daily tip"
-msgstr "Показувати щоденну пораду"
-
-#: ../bibletime/util/cresmgr.cpp:1296
+#: ../bibletime/util/cresmgr.cpp:1139
 msgid "Activate this box to see a daily tip on startup."
 msgstr "Активуйте цей пункт, щоб бачити щоденні поради при старті."
 
-#: ../bibletime/util/cresmgr.cpp:1300
-msgid "Show startup logo"
-msgstr "показувати логотип при старті"
-
-#: ../bibletime/util/cresmgr.cpp:1301
+#: ../bibletime/util/cresmgr.cpp:1143
 msgid "Activate this to see the BibleTime logo on startup."
 msgstr "Активуйте цей пункт, щоб бачити логотип BibleTime при старті."
 
-#: ../bibletime/util/cresmgr.cpp:1305
-msgid "Restore the last BibleTime session on startup"
-msgstr "Відновлювати останню сесію BibleTime при старті"
-
-#: ../bibletime/util/cresmgr.cpp:1306
+#: ../bibletime/util/cresmgr.cpp:1147
 msgid ""
 "Save the user's session when BibleTime is closed and restore it on the next "
 "startup."
@@ -2584,200 +2430,64 @@ msgstr ""
 "Зберегти сесію користувача, коли BibleTime закривається та відновити її при "
 "наступному старті."
 
-#: ../bibletime/util/cresmgr.cpp:1313
-msgid "Choose a language"
-msgstr "Вибрати мову"
-
-#: ../bibletime/util/cresmgr.cpp:1314
+#: ../bibletime/util/cresmgr.cpp:1154
 msgid "The font selection below will apply to all texts in this language."
 msgstr ""
 "Шрифти, що вибрані знизу, будуть використані для усіх текстів цієї мови."
 
-#: ../bibletime/util/cresmgr.cpp:1321
-msgid "Text color"
-msgstr "Колір тексту"
-
-#: ../bibletime/util/cresmgr.cpp:1322
-msgid "The color used for normal text in the display windows."
-msgstr "Колір використовується для звичайного тексту у вікні."
-
-#: ../bibletime/util/cresmgr.cpp:1326
-msgid "Color of the background"
-msgstr "Колір тла"
-
-#: ../bibletime/util/cresmgr.cpp:1327
-msgid "This is the background color used in display windows."
-msgstr "Це колір тла, що використовується у вікні."
-
-#: ../bibletime/util/cresmgr.cpp:1331
-msgid "Link color"
-msgstr "Колір посилання"
-
-#: ../bibletime/util/cresmgr.cpp:1332
-msgid "The color used for all references into Sword modules."
-msgstr "Колір, що використовується для усіх посилань у модулях Sword."
-
-#: ../bibletime/util/cresmgr.cpp:1336
-msgid "Footnote color"
-msgstr "Колір зносок"
-
-#: ../bibletime/util/cresmgr.cpp:1337
-msgid "This color will be used for all footnotes in the display windows."
-msgstr "Цей колір буде використаний для усіх зносок у вікні."
-
-#: ../bibletime/util/cresmgr.cpp:1342
-msgid ""
-"This color will be used for every Strong's Number in the display windows."
-msgstr "Цей колір буде використаний для кожного Номера Стронга у вікні."
-
-#: ../bibletime/util/cresmgr.cpp:1346
-msgid "Color of the highlighted verse"
-msgstr "Колір виділених віршів"
-
-#: ../bibletime/util/cresmgr.cpp:1347
-msgid "This is the color of the highlighted verse used in display windows."
-msgstr "Це колір виділених віршів, що використовується у вікні."
-
-#: ../bibletime/util/cresmgr.cpp:1351
-msgid "Words of Jesus"
-msgstr "Слова Ісуса"
-
-#: ../bibletime/util/cresmgr.cpp:1352
-msgid "All words spoken by Jesus will appear in this color."
-msgstr "Усі слова, що їх сказав Ісус, будуть мати цей колір."
-
-#: ../bibletime/util/cresmgr.cpp:1356
-msgid "Morphological tags"
-msgstr "Морфологічні теги"
-
-#: ../bibletime/util/cresmgr.cpp:1357
-msgid "All morphological tags will appear in this color."
-msgstr "Усі морфологічні теги будуть мати цей колір."
-
-#: ../bibletime/util/cresmgr.cpp:1364
-msgid "List of sessions"
-msgstr "Список сесій"
-
-#: ../bibletime/util/cresmgr.cpp:1365
-msgid "The list of available sessions."
-msgstr "Список доступних сесій."
-
-#: ../bibletime/util/cresmgr.cpp:1370
-msgid "Create a new, empty session with default settings."
-msgstr "Створити нову, пусту сесію з типовими установками."
-
-#: ../bibletime/util/cresmgr.cpp:1374
-msgid "Delete session"
-msgstr "Вилучити сесію"
-
-#: ../bibletime/util/cresmgr.cpp:1375
-msgid "Delete the selected session."
-msgstr "Вилучити вибрану сесію."
-
-#: ../bibletime/util/cresmgr.cpp:1380
-msgid "Rename the selected session."
-msgstr "Змінити назву вибраної сесії."
-
-#: ../bibletime/util/cresmgr.cpp:1389
-msgid "Use cache files for the lexicon entries"
-msgstr "Використовувати кеш-файли для записів лексиконів"
-
-#: ../bibletime/util/cresmgr.cpp:1390
-msgid ""
-"Activate this to let BibleTime create index files for the lexicon entries. "
-"This increases the speed of opening large lexicon modules significantly, but "
-"does consume some disk space. Recommended."
-msgstr ""
-"Активуйте, щоб дозволити BibleTime створити індексні файли для записів "
-"лексиконів. Це значно підвищує швидкість відкриття великих модулів "
-"лексиконів, але потребує деякого місця на диску. Рекомендується."
-
-#: ../bibletime/util/cresmgr.cpp:1395
-msgid "Check this to use the down arrow to scroll to the next verse."
-msgstr ""
-"Виберіть цей пункт, щоб використовувати стрілку донизу для прокручування до "
-"наступного вірша."
-
-#: ../bibletime/util/cresmgr.cpp:1399
-msgid "List of languages"
-msgstr "Список мов"
-
-#: ../bibletime/util/cresmgr.cpp:1400
+#: ../bibletime/util/cresmgr.cpp:1163
 msgid "Contains the languages which can be used for the biblical booknames."
 msgstr "Містить мови, що можуть бути використані для назв книжок Біблії."
 
-#: ../bibletime/util/cresmgr.cpp:1407
-msgid "The default bible used in the workspace area"
-msgstr "Типова Біблія, що використовується у робочій області"
-
-#: ../bibletime/util/cresmgr.cpp:1408
-msgid "The default Bible is used when a hyperlink into a Bible is clicked."
+#: ../bibletime/util/cresmgr.cpp:1170
+#, fuzzy
+msgid "The standard Bible is used when a hyperlink into a Bible is clicked."
 msgstr ""
 "Типова Біблія, що використовується коли було клацнуте посилання на Біблію."
 
-#: ../bibletime/util/cresmgr.cpp:1412
-msgid "The default commentary used in the workspace area"
-msgstr "Типовий коментар, що використовується у робочій області"
-
-#: ../bibletime/util/cresmgr.cpp:1413
+#: ../bibletime/util/cresmgr.cpp:1174
+#, fuzzy
 msgid ""
-"The default commentary is used when a hyperlink into a commentary is clicked."
+"The standard commentary is used when a hyperlink into a commentary is "
+"clicked."
 msgstr ""
 "Типовий коментар, що використовується коли було клацнуте посилання на "
 "коментар."
 
-#: ../bibletime/util/cresmgr.cpp:1417
-msgid "The default lexicon used in the workspace area"
-msgstr "Типовий лексикон, що використовується у робочій області"
-
-#: ../bibletime/util/cresmgr.cpp:1418
-msgid "The default lexicon is used when a hyperlink into a lexicon is clicked."
+#: ../bibletime/util/cresmgr.cpp:1178
+#, fuzzy
+msgid ""
+"The standard lexicon is used when a hyperlink into a lexicon is clicked."
 msgstr ""
 "Типовий лексикон, що використовується коли було клацнуте посилання на "
 "лексикон."
 
-#: ../bibletime/util/cresmgr.cpp:1422
-msgid "The default daily devotional module"
-msgstr "Типовий модуль щоденних читань"
-
-#: ../bibletime/util/cresmgr.cpp:1423
+#: ../bibletime/util/cresmgr.cpp:1182
+#, fuzzy
 msgid ""
-"The default devotional will be used to display a short start up devotional."
+"The standard devotional will be used to display a short start up devotional."
 msgstr ""
 "Типове читання буде використане при показі короткого читання при старті."
 
-#: ../bibletime/util/cresmgr.cpp:1427
-msgid "The default Hebrew lexicon used in the workspace area"
-msgstr "Типовий єврейський лексикон, що використовується у робочій області"
-
-#: ../bibletime/util/cresmgr.cpp:1428
+#: ../bibletime/util/cresmgr.cpp:1186
+#, fuzzy
 msgid ""
-"The default Hebrew lexicon is used when a hyperlink into a Hebrew lexicon is "
-"clicked."
+"The standard Hebrew lexicon is used when a hyperlink into a Hebrew lexicon "
+"is clicked."
 msgstr ""
 "Типовий Єврейський лексикон, що використовується коли було клацнуте "
 "посилання на Єврейський лексикон."
 
-#: ../bibletime/util/cresmgr.cpp:1432
-msgid "The default Greek lexicon used in the workspace area"
-msgstr "Типовий Грецький лексикон, що використовується у робочій області"
-
-#: ../bibletime/util/cresmgr.cpp:1433
+#: ../bibletime/util/cresmgr.cpp:1190
+#, fuzzy
 msgid ""
-"The default Greek lexicon is used when a hyperlink into a Greek lexicon is "
+"The standard Greek lexicon is used when a hyperlink into a Greek lexicon is "
 "clicked."
 msgstr ""
 "Типовий Грецький лексикон, що використовується коли було клацнуте посилання "
 "на Грецький лексикон."
 
-#: ../bibletime/util/cresmgr.cpp:1437
-msgid ""
-"The default Morphological lexicon for Hebrew texts used in the workspace area"
-msgstr ""
-"Типовий Морфологічний лексикон для єврейських текстів, що використовується у "
-"робочій області"
-
-#: ../bibletime/util/cresmgr.cpp:1438
+#: ../bibletime/util/cresmgr.cpp:1194
 msgid ""
 "The standard morphological lexicon for Hebrew texts is used when a hyperlink "
 "of a morphological tag in a Hebrew text is clicked."
@@ -2786,14 +2496,7 @@ msgstr ""
 "використовується коли було клацнуте посилання на морфологічний тег у "
 "Єврейському тексті."
 
-#: ../bibletime/util/cresmgr.cpp:1442
-msgid ""
-"The default Morphological lexicon for Greek texts used in the workspace area"
-msgstr ""
-"Типовий Морфологічний лексикон для Грецьких текстів, що використовується у "
-"робочій області"
-
-#: ../bibletime/util/cresmgr.cpp:1443
+#: ../bibletime/util/cresmgr.cpp:1198
 msgid ""
 "The standard morphological lexicon for Greek texts is used when a hyperlink "
 "of a morphological tag in a Greek text is clicked."
@@ -2801,470 +2504,945 @@ msgstr ""
 "Стандартний морфологічний лексикон для Грецьких текстів, що використовується "
 "коли було клацнуте посилання на морфологічний тег у Грецькому тексті."
 
-#: ../bibletime/util/cresmgr.cpp:1450
-msgid "Line breaks"
-msgstr "Розриви рядків"
-
-#: ../bibletime/util/cresmgr.cpp:1451
-msgid "Insert line breaks after each verse."
-msgstr "Вставляти розриви рядків після кожного вірша."
-
-#: ../bibletime/util/cresmgr.cpp:1455
-msgid "Verse numbers"
-msgstr "Номери віршів"
-
-#: ../bibletime/util/cresmgr.cpp:1456
-msgid "Show the verse number before each verse in Bibles."
-msgstr "Показувати номери віршів перед кожним віршем у Бібліях."
-
-#: ../bibletime/util/cresmgr.cpp:1461
-msgid "Show footnotes embedded in the module's text."
-msgstr "Показувати зноски, що вбудовані у текст модуля."
-
-#: ../bibletime/util/cresmgr.cpp:1466
+#: ../bibletime/util/cresmgr.cpp:1207
+#, fuzzy
 msgid ""
-"Show Strong's Numbers embedded in the text of modules which support this "
-"feature."
-msgstr ""
-"Показувати Номери Стронга, що вбудовані у текст модулів, які це підтримують."
-
-#: ../bibletime/util/cresmgr.cpp:1471
-msgid ""
-"Show tags providing morphological information in the text of modules which "
-"support this feature."
-msgstr ""
-"Показувати теги, використовуючи морфологічну інформацію з текстів модулів, "
-"які це підтримують."
-
-#: ../bibletime/util/cresmgr.cpp:1476
-msgid ""
-"Show section headings in the text in the text of modules which support this "
-"feature."
-msgstr "Показувати назви підрозділів у текстах модулів, які це підтримують."
-
-#: ../bibletime/util/cresmgr.cpp:1481
-msgid "Show root words."
-msgstr "Показати однокореневі слова."
-
-#: ../bibletime/util/cresmgr.cpp:1486
-msgid "Show hebrew vowel points in the text."
-msgstr "Показати риси єврейський голосних у тексті."
-
-#: ../bibletime/util/cresmgr.cpp:1491
-msgid "Show hebrew cantillation marks in the text."
-msgstr "Показати знаки єврейської кантіляції у тексті."
-
-#: ../bibletime/util/cresmgr.cpp:1496
-msgid "Show greek accents in the text."
-msgstr "Показати грецькі наголоси у тексті."
-
-#: ../bibletime/util/cresmgr.cpp:1501
-msgid "Use different variants from the textual sources."
-msgstr "Використовувати різні варіанти з текстових джерел."
-
-#: ../bibletime/util/cresmgr.cpp:1511
-msgid ""
-"Opens the search dialog to search in the modules that are currently open."
+"Opens the search dialog to search in the work(s) that are currently open."
 msgstr "Відкриває пошуковий діалог для пошуку у модулях, що зараз відкриті."
 
-#: ../bibletime/util/ctoolclass.cpp:84
+#: ../bibletime/util/ctoolclass.cpp:69
 msgid "The file already exists."
 msgstr "Файл вже існує."
 
-#: ../bibletime/util/ctoolclass.cpp:85
+#: ../bibletime/util/ctoolclass.cpp:70
 msgid "Do you want to overwrite it?"
 msgstr "Чи ви хочете його перезаписати?"
 
-#: ../bibletime/util/ctoolclass.cpp:105
+#: ../bibletime/util/ctoolclass.cpp:90
 msgid "The file couldn't be saved."
 msgstr "Файл не може бути збережений."
 
-#: ../bibletime/util/ctoolclass.cpp:106
+#: ../bibletime/util/ctoolclass.cpp:91
 msgid "Please check permissions etc."
 msgstr "Будь ласка, перевірте права доступу і таке інше."
 
-#: clanguagemgr.cpp:200
+#: ../bibletime/util/ctoolclass.cpp:200
+msgid "not set"
+msgstr "Не встановлено"
+
+#: clanguagemgr.cpp:185
 msgid "Afrikaans"
 msgstr "Африканський"
 
-#: clanguagemgr.cpp:202
+#: clanguagemgr.cpp:187
 msgid "English, Old (ca.450-1100)"
 msgstr "Англійська, Стара (450-1100)"
 
-#: clanguagemgr.cpp:203
+#: clanguagemgr.cpp:188
 msgid "Arabic"
 msgstr "Арабська"
 
-#: clanguagemgr.cpp:205
+#: clanguagemgr.cpp:190
 msgid "Azerbaijani"
 msgstr "Азербайджанська"
 
-#: clanguagemgr.cpp:208
+#: clanguagemgr.cpp:193
 msgid "Belarusian"
 msgstr "Білоруська"
 
-#: clanguagemgr.cpp:209
+#: clanguagemgr.cpp:194
 msgid "Bulgarian"
 msgstr "Болгарська"
 
-#: clanguagemgr.cpp:214
+#: clanguagemgr.cpp:199
 msgid "Breton"
 msgstr "Бретонська"
 
-#: clanguagemgr.cpp:215
+#: clanguagemgr.cpp:200
 msgid "Bosnian"
 msgstr "Боснійська"
 
-#: clanguagemgr.cpp:217
+#: clanguagemgr.cpp:202
 msgid "Catalan"
 msgstr "Каталонська"
 
-#: clanguagemgr.cpp:219
+#: clanguagemgr.cpp:204
 msgid "Cebuano"
 msgstr ""
 
-#: clanguagemgr.cpp:220
+#: clanguagemgr.cpp:205
 msgid "Chamorro"
 msgstr ""
 
-#: clanguagemgr.cpp:222
+#: clanguagemgr.cpp:207
 msgid "Coptic"
 msgstr ""
 
-#: clanguagemgr.cpp:223
+#: clanguagemgr.cpp:208
 msgid "Czech"
 msgstr "Чеська"
 
-#: clanguagemgr.cpp:224
+#: clanguagemgr.cpp:209
 msgid "Church Slavic"
 msgstr "Церковно-слов'янська"
 
-#: clanguagemgr.cpp:226
+#: clanguagemgr.cpp:211
 msgid "Welsh"
 msgstr ""
 
-#: clanguagemgr.cpp:228
+#: clanguagemgr.cpp:213
 msgid "Danish"
 msgstr "Датська"
 
-#: clanguagemgr.cpp:229
+#: clanguagemgr.cpp:214
 msgid "German"
 msgstr "Німецька"
 
-#: clanguagemgr.cpp:232
+#: clanguagemgr.cpp:217
 msgid "Greek, Modern (1453-)"
 msgstr "Грецька, сучасна (1453-)"
 
-#: clanguagemgr.cpp:234
+#: clanguagemgr.cpp:219
 msgid "American English"
 msgstr "Американська Англійська"
 
-#: clanguagemgr.cpp:235
+#: clanguagemgr.cpp:220
 msgid "English, Middle (1100-1500)"
 msgstr "Англійська, середньовічна (1100-1500)"
 
-#: clanguagemgr.cpp:236
+#: clanguagemgr.cpp:221
 msgid "Esperanto"
 msgstr "Есперанто"
 
-#: clanguagemgr.cpp:237
+#: clanguagemgr.cpp:222
 msgid "Spanish"
 msgstr "Іспанська"
 
-#: clanguagemgr.cpp:238
+#: clanguagemgr.cpp:223
 msgid "Estonian"
 msgstr "Естонська"
 
-#: clanguagemgr.cpp:239
+#: clanguagemgr.cpp:224
 msgid "Basque"
 msgstr ""
 
-#: clanguagemgr.cpp:242
+#: clanguagemgr.cpp:227
 msgid "Finnish"
 msgstr "Фінська"
 
-#: clanguagemgr.cpp:245
+#: clanguagemgr.cpp:230
 msgid "French"
 msgstr "Французька"
 
-#: clanguagemgr.cpp:246
+#: clanguagemgr.cpp:231
 msgid "Frisian"
 msgstr ""
 
-#: clanguagemgr.cpp:248
+#: clanguagemgr.cpp:233
 msgid "Irish"
 msgstr ""
 
-#: clanguagemgr.cpp:249
+#: clanguagemgr.cpp:234
 msgid "Gaelic (Scots)"
 msgstr ""
 
-#: clanguagemgr.cpp:253
+#: clanguagemgr.cpp:238
 msgid "Gothic"
 msgstr ""
 
-#: clanguagemgr.cpp:254
+#: clanguagemgr.cpp:239
 msgid "Manx"
 msgstr ""
 
-#: clanguagemgr.cpp:255
+#: clanguagemgr.cpp:240
 msgid "Greek, Ancient (to 1453)"
 msgstr "Грецька, Антична ( до 1453)"
 
-#: clanguagemgr.cpp:257
+#: clanguagemgr.cpp:242
 msgid "Hebrew"
 msgstr "Єврейська"
 
-#: clanguagemgr.cpp:258
+#: clanguagemgr.cpp:243
 msgid "Hausa"
 msgstr ""
 
-#: clanguagemgr.cpp:259
+#: clanguagemgr.cpp:244
 msgid "Hawaiian"
 msgstr "Гавайська"
 
-#: clanguagemgr.cpp:262
+#: clanguagemgr.cpp:247
 #, fuzzy
 msgid "Croatian"
 msgstr "Латвійська"
 
-#: clanguagemgr.cpp:263
+#: clanguagemgr.cpp:248
 msgid "Hungarian"
 msgstr "Венгерська"
 
-#: clanguagemgr.cpp:264
+#: clanguagemgr.cpp:249
 msgid "Armenian"
 msgstr "Вірменська"
 
-#: clanguagemgr.cpp:268
+#: clanguagemgr.cpp:253
 msgid "Indonesian"
 msgstr "Індонезійська"
 
-#: clanguagemgr.cpp:271
+#: clanguagemgr.cpp:256
 msgid "Icelandic"
 msgstr "Ісландська"
 
-#: clanguagemgr.cpp:272
+#: clanguagemgr.cpp:257
 msgid "Italian"
 msgstr "Італійська"
 
-#: clanguagemgr.cpp:275
+#: clanguagemgr.cpp:260
 msgid "Japanese"
 msgstr "Японська"
 
-#: clanguagemgr.cpp:277
+#: clanguagemgr.cpp:262
 msgid "Georgian"
 msgstr ""
 
-#: clanguagemgr.cpp:278
-msgid "Kabyle"
-msgstr ""
-
-#: clanguagemgr.cpp:285
+#: clanguagemgr.cpp:270
 msgid "Korean"
 msgstr "Корейська"
 
-#: clanguagemgr.cpp:287
+#: clanguagemgr.cpp:272
 msgid "Kurdish"
 msgstr "Курдська"
 
-#: clanguagemgr.cpp:290
+#: clanguagemgr.cpp:275
 msgid "Kirghiz"
 msgstr "Киргизька"
 
-#: clanguagemgr.cpp:292
+#: clanguagemgr.cpp:277
 msgid "Latin"
 msgstr "Латинська"
 
-#: clanguagemgr.cpp:296
+#: clanguagemgr.cpp:281
 msgid "Lithuanian"
 msgstr ""
 
-#: clanguagemgr.cpp:297
+#: clanguagemgr.cpp:282
 msgid "Latvian"
 msgstr "Латвійська"
 
-#: clanguagemgr.cpp:301
+#: clanguagemgr.cpp:286
 msgid "Maori"
 msgstr ""
 
-#: clanguagemgr.cpp:302 clanguagemgr.cpp:400
+#: clanguagemgr.cpp:287 clanguagemgr.cpp:387
 msgid "Macedonian"
 msgstr ""
 
-#: clanguagemgr.cpp:306
+#: clanguagemgr.cpp:291
 #, fuzzy
 msgid "More"
 msgstr "Корейська"
 
-#: clanguagemgr.cpp:308
+#: clanguagemgr.cpp:293
 msgid "Malay"
 msgstr "Малайська"
 
-#: clanguagemgr.cpp:309
+#: clanguagemgr.cpp:294
 msgid "Maltese"
 msgstr ""
 
-#: clanguagemgr.cpp:315
+#: clanguagemgr.cpp:300
 msgid "Low German; Low Saxon"
 msgstr "Германо-саксонська"
 
-#: clanguagemgr.cpp:318
+#: clanguagemgr.cpp:303
 msgid "Dutch"
 msgstr "Датська"
 
-#: clanguagemgr.cpp:320
+#: clanguagemgr.cpp:305
 msgid "Norwegian"
 msgstr "Норвезька"
 
-#: clanguagemgr.cpp:331
+#: clanguagemgr.cpp:316
 msgid "Papiamento"
 msgstr ""
 
-#: clanguagemgr.cpp:333
+#: clanguagemgr.cpp:318
 msgid "Polish"
 msgstr "Польська"
 
-#: clanguagemgr.cpp:335
+#: clanguagemgr.cpp:320
 msgid "Portuguese"
 msgstr "Португальська"
 
-#: clanguagemgr.cpp:336
+#: clanguagemgr.cpp:321
 #, fuzzy
 msgid "Brasilian Portuguese"
 msgstr "Португальська"
 
-#: clanguagemgr.cpp:343
+#: clanguagemgr.cpp:328
 msgid "Romanian"
 msgstr "Римська"
 
-#: clanguagemgr.cpp:344
+#: clanguagemgr.cpp:329
 msgid "Russian"
 msgstr "Російська"
 
-#: clanguagemgr.cpp:349
+#: clanguagemgr.cpp:334
 msgid "Scots"
 msgstr ""
 
-#: clanguagemgr.cpp:354
+#: clanguagemgr.cpp:339
 msgid "Slovak"
 msgstr "Словацька"
 
-#: clanguagemgr.cpp:355
+#: clanguagemgr.cpp:340
 msgid "Slovenian"
 msgstr "Словенська"
 
-#: clanguagemgr.cpp:358
+#: clanguagemgr.cpp:343
 msgid "Somali"
 msgstr "Сомалійська"
 
-#: clanguagemgr.cpp:359
+#: clanguagemgr.cpp:344
 msgid "Albanian"
 msgstr "Албанська"
 
-#: clanguagemgr.cpp:364
+#: clanguagemgr.cpp:349
 msgid "Swedish"
 msgstr ""
 
-#: clanguagemgr.cpp:365
+#: clanguagemgr.cpp:350
 msgid "Swahili"
 msgstr ""
 
-#: clanguagemgr.cpp:366
+#: clanguagemgr.cpp:351
 msgid "Syriac"
 msgstr ""
 
-#: clanguagemgr.cpp:368
+#: clanguagemgr.cpp:353
 msgid "Tamil"
 msgstr ""
 
-#: clanguagemgr.cpp:371
+#: clanguagemgr.cpp:356
 msgid "Thai"
 msgstr "Тайська"
 
-#: clanguagemgr.cpp:373
+#: clanguagemgr.cpp:358
 msgid "Tagalog"
 msgstr ""
 
-#: clanguagemgr.cpp:374
+#: clanguagemgr.cpp:359
 msgid "Tswana"
 msgstr ""
 
-#: clanguagemgr.cpp:375
+#: clanguagemgr.cpp:360
 msgid "Turkish"
 msgstr "Турецька"
 
-#: clanguagemgr.cpp:379
+#: clanguagemgr.cpp:364
 msgid "Tahitian"
 msgstr ""
 
-#: clanguagemgr.cpp:382
+#: clanguagemgr.cpp:367
 msgid "Ukrainian"
 msgstr "Українська"
 
-#: clanguagemgr.cpp:386
+#: clanguagemgr.cpp:371
 msgid "Vietnamese"
 msgstr "В'єтнамська"
 
-#: clanguagemgr.cpp:391
+#: clanguagemgr.cpp:376
 msgid "Xhosa"
 msgstr ""
 
-#: clanguagemgr.cpp:393
+#: clanguagemgr.cpp:378
 msgid "Bavarian"
 msgstr "Баварська"
 
-#: clanguagemgr.cpp:394
+#: clanguagemgr.cpp:379
+msgid "Zarma"
+msgstr ""
+
+#: clanguagemgr.cpp:380
 msgid "Alemannisch"
 msgstr ""
 
-#: clanguagemgr.cpp:395
+#: clanguagemgr.cpp:381
 msgid "Haitian Creole French"
 msgstr ""
 
-#: clanguagemgr.cpp:396
+#: clanguagemgr.cpp:382
 msgid "Itzá"
 msgstr ""
 
-#: clanguagemgr.cpp:397
+#: clanguagemgr.cpp:383
 msgid "Shuar"
 msgstr ""
 
-#: clanguagemgr.cpp:398
+#: clanguagemgr.cpp:384
 msgid "Kekchí"
 msgstr ""
 
-#: clanguagemgr.cpp:399
+#: clanguagemgr.cpp:385
+msgid "Kabyle"
+msgstr ""
+
+#: clanguagemgr.cpp:386
 msgid "Lombard"
 msgstr ""
 
-#: clanguagemgr.cpp:401
+#: clanguagemgr.cpp:388
 msgid "Tok Pisin"
 msgstr ""
 
-#: clanguagemgr.cpp:402
+#: clanguagemgr.cpp:389
 msgid "Uma"
 msgstr ""
 
-#: clanguagemgr.cpp:403
+#: clanguagemgr.cpp:390
 msgid "Romani, Vlax"
 msgstr ""
 
-#: clanguagemgr.cpp:404
+#: clanguagemgr.cpp:391
 msgid "Sango"
 msgstr ""
 
-#: clanguagemgr.cpp:405
+#: clanguagemgr.cpp:392
 msgid "Sranan"
 msgstr ""
 
-#: clanguagemgr.cpp:410
+#: clanguagemgr.cpp:397
 msgid "Chinese"
 msgstr "Китайська"
 
-#: clanguagemgr.cpp:411
+#: clanguagemgr.cpp:398
 msgid "Zulu"
 msgstr "Зулуська"
+
+#~ msgid "Transliteration between scripts"
+#~ msgstr "Транслітерація між Писаннями"
+
+#~ msgid "Main index"
+#~ msgstr "Панель навігації"
+
+#~ msgid "&Show main index"
+#~ msgstr "&Показати панель навігації"
+
+#, fuzzy
+#~ msgid "Configure &Sword"
+#~ msgstr "&Налаштувати сесію"
+
+#, fuzzy
+#~ msgid "Co&nfigure sessions"
+#~ msgstr "&Налаштувати сесію"
+
+#~ msgid "Create new session"
+#~ msgstr "Створити нову сесію"
+
+#~ msgid "Please enter a new name for the session."
+#~ msgstr "Будьласка, введіть нову назву сесії"
+
+#~ msgid "Rename session"
+#~ msgstr "Змінити назву сесії"
+
+#~ msgid "Restore windows from the last BibleTime session"
+#~ msgstr "Відновлювати вікна останньої сесії BibleTime"
+
+#~ msgid "Sessions"
+#~ msgstr "Сесії"
+
+#~ msgid "Manage sessions"
+#~ msgstr "Впорядкувати сесії"
+
+#~ msgid ""
+#~ "Sessions define the appereance of the work area, for example which "
+#~ "windows are open and which texts should displayed in these windows. New "
+#~ "sessions only work after you've saved something into them."
+#~ msgstr ""
+#~ "Сесії визначають вигляд робочого місця. Наприклад, які вікна відкриті та "
+#~ "який текст повинен бути у цих вікнах. Нові сесії діють тільки після того, "
+#~ "як ви щось у них зберегли."
+
+#~ msgid "Delete selected session"
+#~ msgstr "Вилучити сесію, що виділена"
+
+#~ msgid "Rename selected session"
+#~ msgstr "Змінити назву сесії, що виділена"
+
+#~ msgid "Application-wide"
+#~ msgstr "Застосовується будь-де"
+
+#~ msgid "All display windows"
+#~ msgstr "Усі вікна"
+
+#~ msgid "Sword"
+#~ msgstr "Sword"
+
+#~ msgid "General"
+#~ msgstr "Узагалі"
+
+#~ msgid "Use key cache for lexicons"
+#~ msgstr "Використовувати кеш ключів для лексиконів"
+
+#~ msgid ""
+#~ "BibleTime can create a key cache for lexicons. This increases the speed "
+#~ "of opening large lexicon modules significantly. Note: These files consume "
+#~ "some disk space (usually not much), and reside in $KDEHOME/share/apps/"
+#~ "bibletime/cache."
+#~ msgstr ""
+#~ "BibleTime може створити кеш ключів для лексиконів. Це зробить відчутно "
+#~ "більшою швидкість відкриття великих модулів лексиконів. Майте на увазі: "
+#~ "ці файли потребують місця на диску (за звичай не багато), та розміщуються "
+#~ "у $KDEHOME/share/apps/bibletime/cache."
+
+#~ msgid "Scrolling behaviour"
+#~ msgstr "Поведінка при прокрутці"
+
+#~ msgid ""
+#~ "The down arrow moves to the <i>next</i> verse by default. Uncheck this "
+#~ "box if you want it to move to the <i>previous</i> verse."
+#~ msgstr ""
+#~ "Стрілка до низу типово веде до <i>наступного</i> вірша. Потрібно зняти "
+#~ "помітку з цього пункту, якщо ви хочете, щоб перехід був до "
+#~ "<i>попереднього</i> вірша."
+
+#~ msgid "Use down arrow to scroll to next verse"
+#~ msgstr "Використовувати стрілку до низу, щоб перейти до наступного вірша."
+
+#~ msgid "Default modules"
+#~ msgstr "Типові модулі"
+
+#~ msgid "Default Bible"
+#~ msgstr "Типова Біблія"
+
+#~ msgid "Default Commentary"
+#~ msgstr "Типовий Коментар"
+
+#~ msgid "Default Lexicon"
+#~ msgstr "Типовий Словник"
+
+#~ msgid "Default Daily Devotional"
+#~ msgstr "Типовий Щоденний роздум"
+
+#~ msgid "Default Hebrew Strong's Lexicon"
+#~ msgstr "Типовий Єврейський Словник Стронга"
+
+#~ msgid "Default Greek Strong's Lexicon"
+#~ msgstr "Типовий Грецький Словник Стронга"
+
+#~ msgid "Filter settings"
+#~ msgstr "Налаштування фільтрів"
+
+#, fuzzy
+#~ msgid "Add new directory"
+#~ msgstr "Додати нову межу"
+
+#, fuzzy
+#~ msgid "Manage remote sources"
+#~ msgstr "Впорядкувати сесії"
+
+#, fuzzy
+#~ msgid "New remote source"
+#~ msgstr "Впорядкувати сесії"
+
+#, fuzzy
+#~ msgid "Sword Path"
+#~ msgstr "Sword"
+
+#, fuzzy
+#~ msgid "Configure Sword"
+#~ msgstr "&Налаштувати сесію"
+
+#, fuzzy
+#~ msgid "Path to Sword modules"
+#~ msgstr "Виберіть модулі"
+
+#~ msgid "Selected text"
+#~ msgstr "Вибраний текст"
+
+#~ msgid "Copy selected text"
+#~ msgstr "Копіювати вибраний текст"
+
+#~ msgid "Choose modules"
+#~ msgstr "Виберіть модулі"
+
+#~ msgid "Module"
+#~ msgstr "Модуль"
+
+#~ msgid "Open the printer dialog"
+#~ msgstr "Відкрити діалог принтера"
+
+#~ msgid "Show main index"
+#~ msgstr "Показати панель навігації"
+
+#~ msgid "Toggle the main index view."
+#~ msgstr "Вмикає вигляд панелі навігації."
+
+#~ msgid "Show main toolbar"
+#~ msgstr "Показати головну панель інструментів"
+
+#~ msgid "Search in open modules"
+#~ msgstr "Шукати у відкритих модулях"
+
+#~ msgid "Search default bible"
+#~ msgstr "Шукати у типовій Біблії"
+
+#~ msgid "Load a session"
+#~ msgstr "Завантажити сесію"
+
+#~ msgid "Save current session"
+#~ msgstr "Зберегти діючу сесію"
+
+#~ msgid "Save as new session"
+#~ msgstr "Зберегти як нову сесію"
+
+#~ msgid "Edit sessions"
+#~ msgstr "Редагувати сесії"
+
+#~ msgid "Create new, delete or rename existing sessions."
+#~ msgstr "Створити нову, вилучити або змінити назву існуючих сесій."
+
+#~ msgid "Toggle fullscreen mode"
+#~ msgstr "На весь екран"
+
+#~ msgid "Tile the open display windows."
+#~ msgstr "Розмістити відкриті вікна плиткою."
+
+#~ msgid "Cascade windows"
+#~ msgstr "Розмістити вікна каскадом"
+
+#~ msgid "Automatically cascade windows"
+#~ msgstr "Автоматично розмістити вікна каскадом"
+
+#~ msgid "Close all windows"
+#~ msgstr "Закрити усі вікна"
+
+#~ msgid "Edit toolbar"
+#~ msgstr "Редагувати панель інструментів"
+
+#~ msgid "Configure BibleTime"
+#~ msgstr "Налаштувати BibleTime"
+
+#~ msgid "BibleTime's handbook"
+#~ msgstr "Підручник BibleTime"
+
+#~ msgid ""
+#~ "Open BibleTime's handbook in the KDE helpbrowser.<BR>The handbook "
+#~ "explains how to use BibleTime in the best way."
+#~ msgstr ""
+#~ "Відкрити підручник BibleTime у довідковій системі KDE.<BR>Підручник "
+#~ "пояснює як найкраще використовувати BibleTime."
+
+#~ msgid "BibleTime's Bible study HowTo"
+#~ msgstr "Як вивчати Біблію - BibleTime"
+
+#~ msgid "Enter \"What's this?\" mode"
+#~ msgstr "Увійти у режим \"Що це?\""
+
+#~ msgid ""
+#~ "Switch into the <B>\"What's this?\"</B> mode.<BR>All important elements "
+#~ "of BibleTime's GUI offer a \"What's this?\" help message."
+#~ msgstr ""
+#~ "Переключитися у режим <B>\"Що це?\"</B>.<BR>Усі важливі елементи "
+#~ "графічного інтерфейсуBibleTime мають підказки \"Що це?\"."
+
+#~ msgid "Send bugreport"
+#~ msgstr "Надіслати звіт про помилки"
+
+#~ msgid "Show daily tips at startup"
+#~ msgstr "Показувати щоденні поради при старті"
+
+#~ msgid "About BibleTime"
+#~ msgstr "Про BibleTime"
+
+#~ msgid "About KDE"
+#~ msgstr "Про KDE"
+
+#~ msgid "Start the search"
+#~ msgstr "Розпочати пошук"
+
+#~ msgid "Stop search"
+#~ msgstr "Припинити пошук"
+
+#~ msgid "Search text"
+#~ msgstr "Шукати текст"
+
+#~ msgid "Exact match"
+#~ msgstr "Точне влучання"
+
+#~ msgid "Case sensitive matching"
+#~ msgstr "Чутливе до регістру порівняння"
+
+#~ msgid "Choose a search scope"
+#~ msgstr "Вибрати діапазон пошуку"
+
+#~ msgid "Available search scopes"
+#~ msgstr "Доступні діапазони пошуку"
+
+#~ msgid "Search scope name"
+#~ msgstr "Назва діапазону пошуку"
+
+#~ msgid "Edit search scope ranges"
+#~ msgstr "Редагувати межі діапазону пошуку"
+
+#~ msgid "Parsed search ranges"
+#~ msgstr "Визначені межі пошуку"
+
+#~ msgid "Add a new search scope"
+#~ msgstr "Додати новий діапазон пошуку"
+
+#~ msgid "Delete current search scope"
+#~ msgstr "Вилучити поточний діапазон пошуку"
+
+#~ msgid "Used modules"
+#~ msgstr "Використані модулі"
+
+#~ msgid "Found items of selected module"
+#~ msgstr "Знайдено у вибраному модулі"
+
+#~ msgid "Scroll through the list"
+#~ msgstr "Прокрутити весь список"
+
+#~ msgid "Show the previous book"
+#~ msgstr "Показати попередню книгу"
+
+#~ msgid "List of chapters"
+#~ msgstr "Список розділів"
+
+#~ msgid "Show the next chapter"
+#~ msgstr "Показати наступний розділ"
+
+#~ msgid "Show the previous chapter"
+#~ msgstr "Показати попередній розділ"
+
+#~ msgid "List of verses"
+#~ msgstr "Список віршів"
+
+#~ msgid "Jump to the next verse"
+#~ msgstr "Перейти до наступного вірша"
+
+#~ msgid "Jump to the previous verse"
+#~ msgstr "Перейти до попереднього вірша"
+
+#~ msgid "Synchronize with Bible windows"
+#~ msgstr "Синхронізувати вікна Біблії"
+
+#~ msgid "List of entries"
+#~ msgstr "Список записів"
+
+#~ msgid "Show the next entry"
+#~ msgstr "Показати наступний запис"
+
+#~ msgid "Show the previous entry"
+#~ msgstr "Показати попередній запис"
+
+#~ msgid "Save the current text"
+#~ msgstr "Зберегти поточний текст"
+
+#~ msgid "Restore the old text"
+#~ msgstr "Відновити старий текст"
+
+#~ msgid "Delete the current entry"
+#~ msgstr "Вилучити поточний запис"
+
+#~ msgid "Bold text"
+#~ msgstr "Жирний текст"
+
+#~ msgid "Italic text"
+#~ msgstr "Курсивний текст"
+
+#~ msgid "Underline text"
+#~ msgstr "Підкреслений текст"
+
+#~ msgid "Align left"
+#~ msgstr "Вирівняти по лівому боку"
+
+#~ msgid "Align right"
+#~ msgstr "Вирівняти по правому боку"
+
+#~ msgid "Justify"
+#~ msgstr "Рівняти по ширині"
+
+#~ msgid "Set the font"
+#~ msgstr "Встановити шрифт"
+
+#~ msgid "Set the font size"
+#~ msgstr "Встановити розмір шрифту"
+
+#~ msgid "Set the color"
+#~ msgstr "Встановити колір"
+
+#~ msgid "Show daily tip"
+#~ msgstr "Показувати щоденну пораду"
+
+#~ msgid "Show startup logo"
+#~ msgstr "показувати логотип при старті"
+
+#~ msgid "Restore the last BibleTime session on startup"
+#~ msgstr "Відновлювати останню сесію BibleTime при старті"
+
+#~ msgid "Choose a language"
+#~ msgstr "Вибрати мову"
+
+#~ msgid "The color used for normal text in the display windows."
+#~ msgstr "Колір використовується для звичайного тексту у вікні."
+
+#~ msgid "Color of the background"
+#~ msgstr "Колір тла"
+
+#~ msgid "This is the background color used in display windows."
+#~ msgstr "Це колір тла, що використовується у вікні."
+
+#~ msgid "Link color"
+#~ msgstr "Колір посилання"
+
+#~ msgid "The color used for all references into Sword modules."
+#~ msgstr "Колір, що використовується для усіх посилань у модулях Sword."
+
+#~ msgid "Footnote color"
+#~ msgstr "Колір зносок"
+
+#~ msgid "This color will be used for all footnotes in the display windows."
+#~ msgstr "Цей колір буде використаний для усіх зносок у вікні."
+
+#~ msgid ""
+#~ "This color will be used for every Strong's Number in the display windows."
+#~ msgstr "Цей колір буде використаний для кожного Номера Стронга у вікні."
+
+#~ msgid "Color of the highlighted verse"
+#~ msgstr "Колір виділених віршів"
+
+#~ msgid "This is the color of the highlighted verse used in display windows."
+#~ msgstr "Це колір виділених віршів, що використовується у вікні."
+
+#~ msgid "Words of Jesus"
+#~ msgstr "Слова Ісуса"
+
+#~ msgid "All words spoken by Jesus will appear in this color."
+#~ msgstr "Усі слова, що їх сказав Ісус, будуть мати цей колір."
+
+#~ msgid "Morphological tags"
+#~ msgstr "Морфологічні теги"
+
+#~ msgid "All morphological tags will appear in this color."
+#~ msgstr "Усі морфологічні теги будуть мати цей колір."
+
+#~ msgid "List of sessions"
+#~ msgstr "Список сесій"
+
+#~ msgid "The list of available sessions."
+#~ msgstr "Список доступних сесій."
+
+#~ msgid "Create a new, empty session with default settings."
+#~ msgstr "Створити нову, пусту сесію з типовими установками."
+
+#~ msgid "Delete session"
+#~ msgstr "Вилучити сесію"
+
+#~ msgid "Delete the selected session."
+#~ msgstr "Вилучити вибрану сесію."
+
+#~ msgid "Rename the selected session."
+#~ msgstr "Змінити назву вибраної сесії."
+
+#~ msgid "Use cache files for the lexicon entries"
+#~ msgstr "Використовувати кеш-файли для записів лексиконів"
+
+#~ msgid ""
+#~ "Activate this to let BibleTime create index files for the lexicon "
+#~ "entries. This increases the speed of opening large lexicon modules "
+#~ "significantly, but does consume some disk space. Recommended."
+#~ msgstr ""
+#~ "Активуйте, щоб дозволити BibleTime створити індексні файли для записів "
+#~ "лексиконів. Це значно підвищує швидкість відкриття великих модулів "
+#~ "лексиконів, але потребує деякого місця на диску. Рекомендується."
+
+#~ msgid "Check this to use the down arrow to scroll to the next verse."
+#~ msgstr ""
+#~ "Виберіть цей пункт, щоб використовувати стрілку донизу для прокручування "
+#~ "до наступного вірша."
+
+#~ msgid "List of languages"
+#~ msgstr "Список мов"
+
+#~ msgid "The default bible used in the workspace area"
+#~ msgstr "Типова Біблія, що використовується у робочій області"
+
+#~ msgid "The default commentary used in the workspace area"
+#~ msgstr "Типовий коментар, що використовується у робочій області"
+
+#~ msgid "The default lexicon used in the workspace area"
+#~ msgstr "Типовий лексикон, що використовується у робочій області"
+
+#~ msgid "The default daily devotional module"
+#~ msgstr "Типовий модуль щоденних читань"
+
+#~ msgid "The default Hebrew lexicon used in the workspace area"
+#~ msgstr "Типовий єврейський лексикон, що використовується у робочій області"
+
+#~ msgid "The default Greek lexicon used in the workspace area"
+#~ msgstr "Типовий Грецький лексикон, що використовується у робочій області"
+
+#~ msgid ""
+#~ "The default Morphological lexicon for Hebrew texts used in the workspace "
+#~ "area"
+#~ msgstr ""
+#~ "Типовий Морфологічний лексикон для єврейських текстів, що "
+#~ "використовується у робочій області"
+
+#~ msgid ""
+#~ "The default Morphological lexicon for Greek texts used in the workspace "
+#~ "area"
+#~ msgstr ""
+#~ "Типовий Морфологічний лексикон для Грецьких текстів, що використовується "
+#~ "у робочій області"
+
+#~ msgid "Line breaks"
+#~ msgstr "Розриви рядків"
+
+#~ msgid "Insert line breaks after each verse."
+#~ msgstr "Вставляти розриви рядків після кожного вірша."
+
+#~ msgid "Verse numbers"
+#~ msgstr "Номери віршів"
+
+#~ msgid "Show the verse number before each verse in Bibles."
+#~ msgstr "Показувати номери віршів перед кожним віршем у Бібліях."
+
+#~ msgid "Show footnotes embedded in the module's text."
+#~ msgstr "Показувати зноски, що вбудовані у текст модуля."
+
+#~ msgid ""
+#~ "Show Strong's Numbers embedded in the text of modules which support this "
+#~ "feature."
+#~ msgstr ""
+#~ "Показувати Номери Стронга, що вбудовані у текст модулів, які це "
+#~ "підтримують."
+
+#~ msgid ""
+#~ "Show tags providing morphological information in the text of modules "
+#~ "which support this feature."
+#~ msgstr ""
+#~ "Показувати теги, використовуючи морфологічну інформацію з текстів "
+#~ "модулів, які це підтримують."
+
+#~ msgid ""
+#~ "Show section headings in the text in the text of modules which support "
+#~ "this feature."
+#~ msgstr "Показувати назви підрозділів у текстах модулів, які це підтримують."
+
+#~ msgid "Show root words."
+#~ msgstr "Показати однокореневі слова."
+
+#~ msgid "Show hebrew vowel points in the text."
+#~ msgstr "Показати риси єврейський голосних у тексті."
+
+#~ msgid "Show hebrew cantillation marks in the text."
+#~ msgstr "Показати знаки єврейської кантіляції у тексті."
+
+#~ msgid "Show greek accents in the text."
+#~ msgstr "Показати грецькі наголоси у тексті."
+
+#~ msgid "Use different variants from the textual sources."
+#~ msgstr "Використовувати різні варіанти з текстових джерел."
 
 #~ msgid "&Tile"
 #~ msgstr "&Плитка"
@@ -3310,9 +3488,6 @@ msgstr "Зулуська"
 
 #~ msgid "Move the selected item down one line."
 #~ msgstr "Переміщає вибраний пункт донизу на однин рядок."
-
-#~ msgid "Delete items"
-#~ msgstr "Вилучити пункти"
 
 #~ msgid "Delete the selected items."
 #~ msgstr "Вилучає вибрані пункти."
@@ -3360,9 +3535,6 @@ msgstr "Зулуська"
 #~ msgid "The size of the border on the left side of the paper."
 #~ msgstr "Розмір поля, що з лівого боку сторінки."
 
-#~ msgid "Right border"
-#~ msgstr "Праве поле"
-
 #~ msgid "The size of the border on the right side of the paper."
 #~ msgstr "Розмір поля, що з правого боку сторінки."
 
@@ -3374,9 +3546,6 @@ msgstr "Зулуська"
 
 #~ msgid "Colors"
 #~ msgstr "Кольори"
-
-#~ msgid "Choose colors"
-#~ msgstr "Вибрати кольори"
 
 #~ msgid ""
 #~ "Choose custom colors to alter the apperance of the display windows. Some "
@@ -3399,9 +3568,6 @@ msgstr "Зулуська"
 #~ msgid "Hyperlinks"
 #~ msgstr "Посилання"
 
-#~ msgid "Strong's numbers"
-#~ msgstr "Номери Стронга"
-
 #~ msgid "Show footnotes"
 #~ msgstr "Показувати зноски"
 
@@ -3411,12 +3577,6 @@ msgstr "Зулуська"
 #~ msgid "Show morphologic tags"
 #~ msgstr "Показувати морфологічні теги"
 
-#~ msgid "Show lemmas"
-#~ msgstr "Показувати леми"
-
-#~ msgid "Commentary"
-#~ msgstr "Коментар"
-
 #~ msgid "Lexicon"
 #~ msgstr "Словник"
 
@@ -3425,12 +3585,6 @@ msgstr "Зулуська"
 
 #~ msgid "Greek morphological lexicon"
 #~ msgstr "Грецький морфологічний лексикон"
-
-#~ msgid "Hebrew Strong's lexicon"
-#~ msgstr "Єврейський лексикон Стронга"
-
-#~ msgid "Greek Strong's lexicon"
-#~ msgstr "Грецький лексикон Стронга"
 
 #~ msgid "Configuration problem!"
 #~ msgstr "Проблема налаштування!"
@@ -3468,9 +3622,6 @@ msgstr "Зулуська"
 #~ msgid "Bookmarks"
 #~ msgstr "Закладки"
 
-#~ msgid "Frontend"
-#~ msgstr "Інтерфейс"
-
 #~ msgid "Margins (mm)"
 #~ msgstr "Границі (мм)"
 
@@ -3482,9 +3633,6 @@ msgstr "Зулуська"
 
 #~ msgid "&Top"
 #~ msgstr "&Нагору"
-
-#~ msgid "Standard"
-#~ msgstr "Стандарт"
 
 #~ msgid "Print queue"
 #~ msgstr "Черга друку"
@@ -3527,9 +3675,6 @@ msgstr "Зулуська"
 
 #~ msgid "Background:"
 #~ msgstr "Тло:"
-
-#~ msgid "Choose font"
-#~ msgstr "Визначте шрифт"
 
 #~ msgid "Use frame"
 #~ msgstr "Використовувати фрейм"
