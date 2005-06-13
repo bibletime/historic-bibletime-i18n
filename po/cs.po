@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bibletime-1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-05-31 22:02+0200\n"
+"POT-Creation-Date: 2005-06-13 11:20+0200\n"
 "PO-Revision-Date: 2003-03-13 12:44+0100\n"
 "Last-Translator: Michal Rovnanik <Michal.Rovnanik@seznam.cz>\n"
 "Language-Team:  <cs@li.org>\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: ../bibletime/backend/bt_osishtml.cpp:241
+#: ../bibletime/backend/bt_osishtml.cpp:244
 #, fuzzy
 msgid "Alternative text"
 msgstr "Uložit text"
 
-#: ../bibletime/backend/bt_osishtml.cpp:373
+#: ../bibletime/backend/bt_osishtml.cpp:406
 #, fuzzy
 msgid "Added text"
 msgstr "Text modulu"
@@ -84,7 +84,7 @@ msgid "Markup"
 msgstr "Při spuštění"
 
 #: ../bibletime/backend/cswordmoduleinfo.cpp:378
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:65
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:80
 msgid "Location"
 msgstr "Umístění"
 
@@ -115,55 +115,55 @@ msgstr "ano"
 msgid "Unlock key"
 msgstr "Odemykací klíč"
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:416
+#: ../bibletime/backend/cswordmoduleinfo.cpp:417
 msgid "Features"
 msgstr "Obsahuje"
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:423
+#: ../bibletime/backend/cswordmoduleinfo.cpp:424
 #: ../bibletime/util/ctoolclass.cpp:192
 #, fuzzy
 msgid "Take care, this work contains cult / questionable material!"
 msgstr "Pozor, tento modul obsahuje kultovní / diskutabilní informace!"
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:433
+#: ../bibletime/backend/cswordmoduleinfo.cpp:434
 msgid "Distribution license"
 msgstr ""
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:438
+#: ../bibletime/backend/cswordmoduleinfo.cpp:439
 msgid "Distribution source"
 msgstr ""
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:443
+#: ../bibletime/backend/cswordmoduleinfo.cpp:444
 #, fuzzy
 msgid "Text source"
 msgstr "Barva textu"
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:448
+#: ../bibletime/backend/cswordmoduleinfo.cpp:449
 msgid "Distribution notes"
 msgstr ""
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:456
+#: ../bibletime/backend/cswordmoduleinfo.cpp:457
 msgid "Copyright notes"
 msgstr ""
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:462
+#: ../bibletime/backend/cswordmoduleinfo.cpp:463
 #, fuzzy
 msgid "Copyright holder"
 msgstr "Pravý okraj"
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:467
+#: ../bibletime/backend/cswordmoduleinfo.cpp:468
 msgid "Copyright date"
 msgstr ""
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:472
+#: ../bibletime/backend/cswordmoduleinfo.cpp:473
 msgid "Copyright contact name"
 msgstr ""
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:480
+#: ../bibletime/backend/cswordmoduleinfo.cpp:481
 msgid "Copyright contact address"
 msgstr ""
 
-#: ../bibletime/backend/cswordmoduleinfo.cpp:486
+#: ../bibletime/backend/cswordmoduleinfo.cpp:487
 msgid "Copyright contact email"
 msgstr ""
 
@@ -253,35 +253,40 @@ msgstr "Uložit jako novou relaci"
 msgid "&Load session"
 msgstr "&Otevřít relaci"
 
-#: ../bibletime/bibletime_init.cpp:332
+#: ../bibletime/bibletime_init.cpp:334
+#, fuzzy
+msgid "&Delete session"
+msgstr "Smazat relaci"
+
+#: ../bibletime/bibletime_init.cpp:346
 msgid "&Fullscreen mode"
 msgstr "Celoobrazovkový mód"
 
-#: ../bibletime/bibletime_init.cpp:362
+#: ../bibletime/bibletime_init.cpp:373
 msgid "&Handbook"
 msgstr "&Příručka"
 
-#: ../bibletime/bibletime_init.cpp:374
+#: ../bibletime/bibletime_init.cpp:385
 msgid "&Bible Study Howto"
 msgstr "Návod, jak studovat &Bibli"
 
-#: ../bibletime/bibletime_init.cpp:401
+#: ../bibletime/bibletime_init.cpp:412
 msgid "&Daily tip"
 msgstr "&Tip dne"
 
-#: ../bibletime/bibletime_init.cpp:462
+#: ../bibletime/bibletime_init.cpp:473
 msgid "Initializing Sword"
 msgstr "Inicializuji Sword"
 
-#: ../bibletime/bibletime_init.cpp:513
+#: ../bibletime/bibletime_init.cpp:524
 msgid "Initializing print system"
 msgstr "Inicializuji tiskový systém"
 
-#: ../bibletime/bibletime_slots.cpp:518
+#: ../bibletime/bibletime_slots.cpp:517
 msgid "Please enter a name for the new session."
 msgstr "Vložte prosím název pro novou relaci"
 
-#: ../bibletime/bibletime_slots.cpp:518
+#: ../bibletime/bibletime_slots.cpp:517
 msgid "Session name:"
 msgstr "Název relace:"
 
@@ -290,11 +295,11 @@ msgstr "Název relace:"
 msgid "Blue"
 msgstr "Bible"
 
-#: ../bibletime/display-templates/template-init.cpp:643
+#: ../bibletime/display-templates/template-init.cpp:665
 msgid "High contrast"
 msgstr ""
 
-#: ../bibletime/display-templates/template-init.cpp:957
+#: ../bibletime/display-templates/template-init.cpp:987
 msgid "Simple "
 msgstr ""
 
@@ -393,50 +398,50 @@ msgstr "Ok"
 msgid "Preferences"
 msgstr "Nastavení"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:130
+#: ../bibletime/frontend/coptionsdialog.cpp:129
 #, fuzzy
 msgid "Display"
 msgstr "Okno prohlížeče"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:136
+#: ../bibletime/frontend/coptionsdialog.cpp:135
 msgid "Show tip of the day"
 msgstr "Zobrazovat tip dne"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:147
+#: ../bibletime/frontend/coptionsdialog.cpp:146
 msgid "Show startuplogo"
 msgstr "Zobrazovat logo"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:157
+#: ../bibletime/frontend/coptionsdialog.cpp:156
 #, fuzzy
 msgid "Display templates"
 msgstr "Vlastnosti zobrazení"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:158
+#: ../bibletime/frontend/coptionsdialog.cpp:157
 msgid ""
 "Display templates define how text is displayed. Please choose a template you "
 "like."
 msgstr ""
 
-#: ../bibletime/frontend/coptionsdialog.cpp:171
+#: ../bibletime/frontend/coptionsdialog.cpp:170
 #, fuzzy
 msgid "Available display styles:"
 msgstr "Dostupné styly:"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:179
+#: ../bibletime/frontend/coptionsdialog.cpp:180
 #, fuzzy
 msgid "Style preview"
 msgstr "Náhled písma"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:195
+#: ../bibletime/frontend/coptionsdialog.cpp:201
 #, fuzzy
 msgid "Languages"
 msgstr "Jazyk"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:201
+#: ../bibletime/frontend/coptionsdialog.cpp:207
 msgid "Specify a language for biblical booknames"
 msgstr "Vyberte jazyk pro názvy biblických knih"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:202
+#: ../bibletime/frontend/coptionsdialog.cpp:208
 #, fuzzy
 msgid ""
 "Sword has a number of locales available which can be used to "
@@ -449,20 +454,20 @@ msgstr ""
 "lokalizaci, naleznete bližší informace na http://www.crosswire.org/sword/"
 "develop."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:208
+#: ../bibletime/frontend/coptionsdialog.cpp:214
 msgid "Language for biblical booknames"
 msgstr "Jazyk pro názvy biblických knih"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:219
-#: ../bibletime/frontend/coptionsdialog.cpp:257 clanguagemgr.cpp:218
+#: ../bibletime/frontend/coptionsdialog.cpp:225
+#: ../bibletime/frontend/coptionsdialog.cpp:263 clanguagemgr.cpp:218
 msgid "English"
 msgstr "Angličtina"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:274
+#: ../bibletime/frontend/coptionsdialog.cpp:280
 msgid "Select custom fonts per-language"
 msgstr "Nastavení vlastních písem pro různé jazyky"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:275
+#: ../bibletime/frontend/coptionsdialog.cpp:281
 #, fuzzy
 msgid ""
 "Here you find a list of all languages of the installed works. \tYou can "
@@ -473,61 +478,61 @@ msgstr ""
 "jaké písmo (font) se má pro který jazyk použít, aby byl text zobrazen "
 "správně."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:306
+#: ../bibletime/frontend/coptionsdialog.cpp:312
 msgid "Use custom font"
 msgstr "Použít vlastní písmo"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:314
+#: ../bibletime/frontend/coptionsdialog.cpp:320
 msgid "The quick brown fox jumps over the lazy dog."
 msgstr "Žluťoučký kůň úpěl ďábelské ódy."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:330
+#: ../bibletime/frontend/coptionsdialog.cpp:336
 #, fuzzy
 msgid "HotKeys"
 msgstr "Odkaz"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:338
+#: ../bibletime/frontend/coptionsdialog.cpp:344
 #, fuzzy
 msgid "Choose type:"
 msgstr "Zvolte písmo"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:357
+#: ../bibletime/frontend/coptionsdialog.cpp:363
 #, fuzzy
 msgid "BibleTime"
 msgstr "Ukončit BibleTime"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:358
+#: ../bibletime/frontend/coptionsdialog.cpp:364
 #, fuzzy
 msgid "All text windows"
 msgstr "Uspořádat okna"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:359
+#: ../bibletime/frontend/coptionsdialog.cpp:365
 msgid "Bible windows"
 msgstr "Biblická okna"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:360
+#: ../bibletime/frontend/coptionsdialog.cpp:366
 msgid "Commentary windows"
 msgstr "Komentářová okna"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:361
+#: ../bibletime/frontend/coptionsdialog.cpp:367
 msgid "Lexicon windows"
 msgstr "Slovníková okna"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:362
+#: ../bibletime/frontend/coptionsdialog.cpp:368
 msgid "Book windows"
 msgstr "Knižní okna"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:427
+#: ../bibletime/frontend/coptionsdialog.cpp:433
 msgid "Desk"
 msgstr ""
 
-#: ../bibletime/frontend/coptionsdialog.cpp:432
-#: ../bibletime/frontend/coptionsdialog.cpp:437
+#: ../bibletime/frontend/coptionsdialog.cpp:438
+#: ../bibletime/frontend/coptionsdialog.cpp:443
 #, fuzzy
 msgid "Standard works"
 msgstr "Standard"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:438
+#: ../bibletime/frontend/coptionsdialog.cpp:444
 #, fuzzy
 msgid ""
 "Standard works are used when no particular work is specified, \tfor example "
@@ -536,53 +541,53 @@ msgstr ""
 "Standardní moduly se použijí, pokud není zvolen konkrétní modul. K tomu může "
 "dojít při kliknutí na odkaz do textu Bible nebo slovníku."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:444
+#: ../bibletime/frontend/coptionsdialog.cpp:450
 #, fuzzy
 msgid "Standard Bible"
 msgstr "Standard"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:452
+#: ../bibletime/frontend/coptionsdialog.cpp:458
 #, fuzzy
 msgid "Standard Commentary"
 msgstr "Komentář"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:461
+#: ../bibletime/frontend/coptionsdialog.cpp:467
 #, fuzzy
 msgid "Standard Lexicon"
 msgstr "Standard"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:469
+#: ../bibletime/frontend/coptionsdialog.cpp:475
 #, fuzzy
 msgid "Standard Daily Devotional"
 msgstr "Denní liturgie"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:477
+#: ../bibletime/frontend/coptionsdialog.cpp:483
 #, fuzzy
 msgid "Standard Hebrew Strong's Lexicon"
 msgstr "Strongův hebrejský slovník"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:485
+#: ../bibletime/frontend/coptionsdialog.cpp:491
 #, fuzzy
 msgid "Standard Greek Strong's Lexicon"
 msgstr "Strongův řecký slovník"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:493
+#: ../bibletime/frontend/coptionsdialog.cpp:499
 #, fuzzy
 msgid "Standard Hebrew Morphological Lexicon"
 msgstr "Standardní hebrejský morfologický slovník"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:500
+#: ../bibletime/frontend/coptionsdialog.cpp:506
 #, fuzzy
 msgid "Standard Greek Morphological Lexicon"
 msgstr "Standardní řecký morfologický slovník"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:621
-#: ../bibletime/frontend/coptionsdialog.cpp:624
+#: ../bibletime/frontend/coptionsdialog.cpp:627
+#: ../bibletime/frontend/coptionsdialog.cpp:630
 #, fuzzy
 msgid "Text filters"
 msgstr "Textové soubory"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:625
+#: ../bibletime/frontend/coptionsdialog.cpp:631
 #, fuzzy
 msgid ""
 "Filters control the appearance of text. \t\t\t\tHere you can specify default "
@@ -593,39 +598,39 @@ msgstr ""
 "chování různých filtrů. V jednotlivých oknech si můžete nastavení upravit "
 "podle potřeby."
 
-#: ../bibletime/frontend/coptionsdialog.cpp:632
+#: ../bibletime/frontend/coptionsdialog.cpp:638
 msgid "Insert line break after each verse"
 msgstr "Zalomit řádek po každém verši"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:637
+#: ../bibletime/frontend/coptionsdialog.cpp:643
 msgid "Show verse numbers"
 msgstr "Zobrazit čísla veršů"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:642
+#: ../bibletime/frontend/coptionsdialog.cpp:648
 msgid "Show section headings"
 msgstr "Zobrazit nadpisy částí"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:648
+#: ../bibletime/frontend/coptionsdialog.cpp:654
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:153
 msgid "Show scripture cross-references"
 msgstr ""
 
-#: ../bibletime/frontend/coptionsdialog.cpp:653
+#: ../bibletime/frontend/coptionsdialog.cpp:659
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:148
 msgid "Show Greek accents"
 msgstr "Zobrazit řecké značky přízvuku"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:658
+#: ../bibletime/frontend/coptionsdialog.cpp:664
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:144
 msgid "Show Hebrew vowel points"
 msgstr "Zobrazit hebrejské značky samohlásek"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:663
+#: ../bibletime/frontend/coptionsdialog.cpp:669
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:146
 msgid "Show Hebrew cantillation marks"
 msgstr "Zobrazit hebrejské značky přízvuku"
 
-#: ../bibletime/frontend/coptionsdialog.cpp:668
+#: ../bibletime/frontend/coptionsdialog.cpp:674
 msgid "Use textual variants"
 msgstr "Použít textové varianty"
 
@@ -857,76 +862,76 @@ msgstr ""
 msgid "Please provide a valid, readable path."
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:52
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:67
 #, fuzzy
 msgid "Name"
 msgstr "Název:"
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:56
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:71
 #, fuzzy
 msgid "Status"
 msgstr "Při spuštění"
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:58
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:73
 msgid "Installed version"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:62
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:77
 #, fuzzy
 msgid "Remote version"
 msgstr "Přejmenovat relaci"
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:86
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:94
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:101
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:109
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:582
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:341
 msgid "Bibles"
 msgstr "Bible"
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:87
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:95
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:102
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:110
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:585
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:342
 msgid "Commentaries"
 msgstr "Komentáře"
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:88
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:96
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:103
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:111
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:588
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:343
 msgid "Lexicons"
 msgstr "Slovníky"
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:89
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:97
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:104
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:112
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:591
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:344
 msgid "Books"
 msgstr "Knihy"
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:90
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:98
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:105
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:113
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:382
 msgid "Daily Devotionals"
 msgstr "Denní liturgie"
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:91
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:99
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:106
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:114
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:597
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:1179
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:393
 msgid "Glossaries"
 msgstr "Glosáře"
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:211
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:226
 msgid "New"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:211
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:226
 msgid "Updated"
 msgstr ""
 
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:214
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:229
 #, fuzzy
 msgid "Installed"
 msgstr "Všechny moduly:"
@@ -1035,8 +1040,8 @@ msgid "Print chapter"
 msgstr "Předchozí kapitola"
 
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:163
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:97
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:108
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:89
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:100
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:72
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:79
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:282
@@ -1078,21 +1083,21 @@ msgid "Bible window"
 msgstr "Bible"
 
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:213
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:174
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:186
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:71
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:281
 msgid "Copy..."
 msgstr "Kopírovat..."
 
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:222
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:182
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:194
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:78
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:288
 msgid "Save..."
 msgstr "Uložit..."
 
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:228
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:187
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:199
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:85
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:295
 msgid "Print..."
@@ -1108,8 +1113,8 @@ msgstr "Kopíruji"
 
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:325
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:343
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:218
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:224
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:230
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:236
 msgid "Saving"
 msgstr "Ukládám"
 
@@ -1163,7 +1168,17 @@ msgstr "Použít alternativní varianty textu"
 msgid "Sync with active Bible"
 msgstr "Synchronizovat s aktivní Biblí"
 
-#: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:143
+#: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:142
+#: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:188
+msgid "Back in history"
+msgstr ""
+
+#: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:149
+#: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:194
+msgid "Forward in history"
+msgstr ""
+
+#: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:157
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
 msgid "Search"
 msgstr "Hledat"
@@ -1184,12 +1199,12 @@ msgid "Restore original text"
 msgstr "Obnovit původní text"
 
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:40
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:84
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:76
 msgid "Next entry"
 msgstr "Další záznam"
 
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:44
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:89
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:81
 msgid "Previous entry"
 msgstr "Předchozí záznam"
 
@@ -1213,33 +1228,25 @@ msgstr "Uložit jako HTML"
 msgid "Print entry with text"
 msgstr "Záznam s textem"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:61
-msgid "Back in history"
-msgstr ""
-
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:72
-msgid "Forward in history"
-msgstr ""
-
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:99
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:110
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:91
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:102
 msgid "Entry with text"
 msgstr "Záznam s textem"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:104
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:96
 msgid "Entry as plain text"
 msgstr "Záznam jako obyčejný text"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:106
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:98
 msgid "Entry as HTML"
 msgstr "Záznam jako HTML"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:166
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:178
 msgid "Lexicon window"
 msgstr "Slovník"
 
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:218
-#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:224
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:230
+#: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:236
 msgid "Saving entry ..."
 msgstr "Ukládám položku ..."
 
@@ -1993,7 +2000,7 @@ msgstr ""
 "Používáte program, který byl vytvořen k Boží slávě.<BR> Kéž vám Bůh požehná "
 "při studiu Jeho Slova!\n"
 
-#: ../bibletime/util/cresmgr.cpp:754
+#: ../bibletime/util/cresmgr.cpp:723
 msgid ""
 "Open the printer dialog of BibleTime, where you can edit the print queue, "
 "assign styles to the items and print them."
@@ -2001,109 +2008,109 @@ msgstr ""
 "Otevření dialogu pro tisk z programu BibleTime, kde můžete upravovat "
 "tiskovou frontu a nastavovat jednotlivým položkám styl tisku."
 
-#: ../bibletime/util/cresmgr.cpp:758
+#: ../bibletime/util/cresmgr.cpp:727
 msgid "Close BibleTime and save the settings."
 msgstr "Ukončení BibleTime a uložení nastavení."
 
-#: ../bibletime/util/cresmgr.cpp:765
+#: ../bibletime/util/cresmgr.cpp:734
 #, fuzzy
 msgid "Show or hide the bookshelf."
 msgstr "Další kniha"
 
-#: ../bibletime/util/cresmgr.cpp:769
+#: ../bibletime/util/cresmgr.cpp:738
 msgid "Toggle the main toolbar view."
 msgstr "Přepíná zobrazení hlavní nástrojové lišty."
 
-#: ../bibletime/util/cresmgr.cpp:777
+#: ../bibletime/util/cresmgr.cpp:746
 #, fuzzy
 msgid "Open the search dialog to search in all works that are currently open."
 msgstr "Otevření dialogového okna pro hledání textu v otevřených modulech."
 
-#: ../bibletime/util/cresmgr.cpp:781
+#: ../bibletime/util/cresmgr.cpp:750
 #, fuzzy
 msgid "Open the search dialog to search in the standard Bible."
 msgstr "Otevření dialogového okna pro hledání textu v standardní Bibli."
 
-#: ../bibletime/util/cresmgr.cpp:789
+#: ../bibletime/util/cresmgr.cpp:758
 msgid "Restore a saved BibleTime session."
 msgstr "Obnovení dříve uložené relace BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:793
+#: ../bibletime/util/cresmgr.cpp:762
 msgid "Save current BibleTime session so that it can be reused later."
 msgstr "Uložení současné relace, takže může být později znovu použita."
 
-#: ../bibletime/util/cresmgr.cpp:797
+#: ../bibletime/util/cresmgr.cpp:766
 msgid "Create and save a new session."
 msgstr "Vytvoření a uložení nové relace."
 
-#: ../bibletime/util/cresmgr.cpp:801
+#: ../bibletime/util/cresmgr.cpp:770
 #, fuzzy
-msgid "Delete a BibleTime sesison."
+msgid "Delete a BibleTime session."
 msgstr "Obnovení dříve uložené relace BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:805
+#: ../bibletime/util/cresmgr.cpp:774
 msgid "Toggle fullscreen mode of the main window."
 msgstr "Přepínání mezi celoobrazovkovým a normálním zobrazením."
 
-#: ../bibletime/util/cresmgr.cpp:809
+#: ../bibletime/util/cresmgr.cpp:778
 #, fuzzy
 msgid "Vertically tile the open windows."
 msgstr "Automatické uspořádávání otevřených oken vedle sebe."
 
-#: ../bibletime/util/cresmgr.cpp:813
+#: ../bibletime/util/cresmgr.cpp:782
 #, fuzzy
 msgid "Horizontally tile the open windows."
 msgstr "Automatické uspořádávání otevřených oken vedle sebe."
 
-#: ../bibletime/util/cresmgr.cpp:817
+#: ../bibletime/util/cresmgr.cpp:786
 #, fuzzy
 msgid "Cascade the open windows."
 msgstr "Uspořádá všechna otevřená okna za sebe (kaskáda)."
 
-#: ../bibletime/util/cresmgr.cpp:823
+#: ../bibletime/util/cresmgr.cpp:791
 #, fuzzy
 msgid "Choose the way that is used to arrange the windows."
 msgstr "Barva pro normální text v okně."
 
-#: ../bibletime/util/cresmgr.cpp:827
+#: ../bibletime/util/cresmgr.cpp:795
 #, fuzzy
 msgid "Automatically tile the open windows vertically."
 msgstr "Automaticky uspořádávat okna"
 
-#: ../bibletime/util/cresmgr.cpp:831
+#: ../bibletime/util/cresmgr.cpp:799
 #, fuzzy
 msgid "Automatically tile the open windows horizontally."
 msgstr "Automaticky uspořádávat okna"
 
-#: ../bibletime/util/cresmgr.cpp:835
+#: ../bibletime/util/cresmgr.cpp:803
 #, fuzzy
 msgid "Automatically cascade the open windows."
 msgstr "Automatické uspořádávání otevřených oken za sebe (kaskáda)."
 
-#: ../bibletime/util/cresmgr.cpp:840
+#: ../bibletime/util/cresmgr.cpp:808
 #, fuzzy
 msgid "Close all open windows."
 msgstr "Zavře všechna otevřená okna."
 
-#: ../bibletime/util/cresmgr.cpp:848
+#: ../bibletime/util/cresmgr.cpp:816
 msgid "Open BibleTime's toolbar editor."
 msgstr "Otevření editoru nástrojové lišty programu BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:852
+#: ../bibletime/util/cresmgr.cpp:820
 msgid "Open the dialog to set most of BibleTime's preferences."
 msgstr "Otevření dialogového okna, ve kterém můžete měnit většinu nastavení."
 
-#: ../bibletime/util/cresmgr.cpp:856
+#: ../bibletime/util/cresmgr.cpp:824
 msgid ""
 "Open the dialog to configure your bookshelf and install/update/remove works."
 msgstr ""
 
-#: ../bibletime/util/cresmgr.cpp:865
+#: ../bibletime/util/cresmgr.cpp:833
 #, fuzzy
 msgid "Open BibleTime's handbook in the KDE helpbrowser."
 msgstr "Otevření editoru nástrojové lišty programu BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:869
+#: ../bibletime/util/cresmgr.cpp:837
 #, fuzzy
 msgid ""
 "Open the Bible study HowTo included with BibleTime in the KDE helpbrowser. "
@@ -2113,11 +2120,11 @@ msgstr ""
 "Otevření příručky ke studiu Bible.<BR> Příručka vysvětluje principy studia "
 "Bible."
 
-#: ../bibletime/util/cresmgr.cpp:873
+#: ../bibletime/util/cresmgr.cpp:841
 msgid "Send a bugreport to the developers of BibleTime."
 msgstr "Poslání chybového hlášení vývojářům programu BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:877
+#: ../bibletime/util/cresmgr.cpp:845
 #, fuzzy
 msgid ""
 "Show a daily tip each time BibleTime starts. <BR>The tips contain important "
@@ -2126,34 +2133,34 @@ msgstr ""
 "Zobrazení tipu dne při každém spuštění programu BibleTime.<BR> Tipy obsahují "
 "důležité biblické citace a užitečné tipy pro používání programu BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:881
+#: ../bibletime/util/cresmgr.cpp:849
 msgid "Show detailed information about BibleTime."
 msgstr "Zobrazení detailní informace o programu BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:885
+#: ../bibletime/util/cresmgr.cpp:853
 msgid "Show detailed information about the KDE project."
 msgstr "Zobrazení informací o projektu KDE."
 
-#: ../bibletime/util/cresmgr.cpp:895
+#: ../bibletime/util/cresmgr.cpp:863
 #, fuzzy
 msgid "Start to search the text in each of the chosen work(s)."
 msgstr "Spuštění hledání ve všech vybraných modulech."
 
-#: ../bibletime/util/cresmgr.cpp:899
+#: ../bibletime/util/cresmgr.cpp:867
 msgid "Stop the active search."
 msgstr "Ukončení běžícího hledání."
 
-#: ../bibletime/util/cresmgr.cpp:906
+#: ../bibletime/util/cresmgr.cpp:874
 #, fuzzy
 msgid "Open a dialog to choose work(s) for the search."
 msgstr "Otevření okna pro výběr modulů, které se mají prohledávat."
 
-#: ../bibletime/util/cresmgr.cpp:910
+#: ../bibletime/util/cresmgr.cpp:878
 #, fuzzy
 msgid "Enter the text you want to search in the chosen work(s) here."
 msgstr "Vložte text, který chcete vyhledat ve vybraných modulech."
 
-#: ../bibletime/util/cresmgr.cpp:916
+#: ../bibletime/util/cresmgr.cpp:884
 msgid ""
 "Treat the search text as multiple words. A text must contain all of the "
 "words to match. The order of the words is unimportant."
@@ -2161,7 +2168,7 @@ msgstr ""
 "Chápat hledaný text jako několik samostatných slov. Nalezené místo musí "
 "obsahovat všechna slova. Pořadí slov není důležité."
 
-#: ../bibletime/util/cresmgr.cpp:920
+#: ../bibletime/util/cresmgr.cpp:888
 msgid ""
 "Treat the search text as multiple words. A text must contain one or more "
 "words of to match. The order is unimportant."
@@ -2169,11 +2176,11 @@ msgstr ""
 "Chápat hledaný text jako několik samostatných slov. Nalezené místo musí "
 "obsahovat alespoň jedno ze zadaných slov. Pořadí slov není důležité."
 
-#: ../bibletime/util/cresmgr.cpp:924
+#: ../bibletime/util/cresmgr.cpp:892
 msgid "The search text will be used exactly as entered."
 msgstr "Bude se hledat text přesně tak, jak byl zadán."
 
-#: ../bibletime/util/cresmgr.cpp:928
+#: ../bibletime/util/cresmgr.cpp:896
 msgid ""
 "Treat the search string as a GNU regular expression. The BibleTime handbook "
 "contains an introduction to regular expressions."
@@ -2181,7 +2188,7 @@ msgstr ""
 "Tato volba slouží pro hledání pomocí standardních GNU regulárních výrazů."
 "Bližší popis regulárních výrazů naleznete v příručce."
 
-#: ../bibletime/util/cresmgr.cpp:936
+#: ../bibletime/util/cresmgr.cpp:904
 msgid ""
 "If you choose this option the search will distinguish between upper and "
 "lowercase characters."
@@ -2189,7 +2196,7 @@ msgstr ""
 "Pokud zaškrtnete tuto volbu, bude při hledání brán ohled i na velká a malá "
 "písmena."
 
-#: ../bibletime/util/cresmgr.cpp:941
+#: ../bibletime/util/cresmgr.cpp:909
 #, fuzzy
 msgid ""
 "Choose a scope from the list. \t\t\t\t\t\tSelect the first item to use no "
@@ -2200,15 +2207,15 @@ msgstr ""
 "druhá umožňuje hledat v dřívějším výsledku hledání v jednotlivých modulech. "
 "Ostatní jsou uživatelem definované rozsahy."
 
-#: ../bibletime/util/cresmgr.cpp:949
+#: ../bibletime/util/cresmgr.cpp:917
 msgid "Select an item from the list to edit the search scope."
 msgstr "Vyberte ze seznamu rozsah, který chcete upravit."
 
-#: ../bibletime/util/cresmgr.cpp:953
+#: ../bibletime/util/cresmgr.cpp:921
 msgid "Change the name of the selected search scope."
 msgstr "Změna názvu vybraného rozsahu."
 
-#: ../bibletime/util/cresmgr.cpp:957
+#: ../bibletime/util/cresmgr.cpp:925
 msgid ""
 "Change the search ranges of the selected search scope item. Have a look at "
 "the predefined search scopes to see how search ranges are constructed."
@@ -2216,18 +2223,18 @@ msgstr ""
 "Úprava vybraného rozsahu. Jak se definuje rozsah zjistíte z již "
 "předdefinovaných rozsahů."
 
-#: ../bibletime/util/cresmgr.cpp:961
+#: ../bibletime/util/cresmgr.cpp:929
 msgid "Contains the search ranges which will be used for the search."
 msgstr "Obsahuje rozsahy, které se použijí při hledání."
 
-#: ../bibletime/util/cresmgr.cpp:965
+#: ../bibletime/util/cresmgr.cpp:933
 msgid ""
 "Add a new search scope. First enter an appropriate name, then edit the "
 "search ranges."
 msgstr ""
 "Pridání nového rozsahu. Nejdříve zadejde vhodný název, pak jeho parametry."
 
-#: ../bibletime/util/cresmgr.cpp:969
+#: ../bibletime/util/cresmgr.cpp:937
 msgid ""
 "Deletes the selected search scope. If you close the dialog using Cancel the "
 "settings won't be saved."
@@ -2235,21 +2242,21 @@ msgstr ""
 "Smazání vybraného rozsahu. Pokud zavřete toto okno tlačítkem \"Zrušit\", "
 "změny nebudou uloženy."
 
-#: ../bibletime/util/cresmgr.cpp:977
+#: ../bibletime/util/cresmgr.cpp:945
 #, fuzzy
 msgid "The list of works chosen for the search."
 msgstr "Seznam modulů, vybraných pro hledání."
 
-#: ../bibletime/util/cresmgr.cpp:981
+#: ../bibletime/util/cresmgr.cpp:949
 #, fuzzy
 msgid "This list contains the search result of the selected work."
 msgstr "Tento seznam obsahuje výsledky hledání v tomto modulu."
 
-#: ../bibletime/util/cresmgr.cpp:985
+#: ../bibletime/util/cresmgr.cpp:953
 msgid "The text preview of the selected search result item."
 msgstr "Náhled nalezeného textu."
 
-#: ../bibletime/util/cresmgr.cpp:997
+#: ../bibletime/util/cresmgr.cpp:965
 msgid ""
 "This button is useful to scroll through the entries of the list. Press the "
 "button and move the mouse to increase or decrease the item."
@@ -2257,54 +2264,54 @@ msgstr ""
 "Toto tlačítko umožnuje jednoduše procházet položkami seznamu. Stiskněte "
 "tlačítko a pohybem myši vyberte požadovanou položku."
 
-#: ../bibletime/util/cresmgr.cpp:1001
+#: ../bibletime/util/cresmgr.cpp:969
 msgid "This button opens the search dialog with the work(s) of this window."
 msgstr ""
 
-#: ../bibletime/util/cresmgr.cpp:1006
+#: ../bibletime/util/cresmgr.cpp:974
 msgid "Go back one item in the display history."
 msgstr ""
 
-#: ../bibletime/util/cresmgr.cpp:1010
+#: ../bibletime/util/cresmgr.cpp:978
 msgid "Go forward one item in the display history."
 msgstr ""
 
-#: ../bibletime/util/cresmgr.cpp:1017
+#: ../bibletime/util/cresmgr.cpp:985
 #, fuzzy
 msgid "This list contains the books which are available in this work."
 msgstr "Tento seznam obsahuje knihy dostupné v tomto modulu."
 
-#: ../bibletime/util/cresmgr.cpp:1021
+#: ../bibletime/util/cresmgr.cpp:989
 #, fuzzy
 msgid "Show the next book of this work."
 msgstr "Zobrazit další knihu tohoto modulu."
 
-#: ../bibletime/util/cresmgr.cpp:1025
+#: ../bibletime/util/cresmgr.cpp:993
 #, fuzzy
 msgid "Show the previous book of this work."
 msgstr "Zobrazit předchozí knihu tohoto modulu."
 
-#: ../bibletime/util/cresmgr.cpp:1029
+#: ../bibletime/util/cresmgr.cpp:997
 msgid ""
 "This list contains the chapters which are available in the current book."
 msgstr "Tento seznam obsahuje kapitoly dostupné v této knize."
 
-#: ../bibletime/util/cresmgr.cpp:1033
+#: ../bibletime/util/cresmgr.cpp:1001
 #, fuzzy
 msgid "Show the previous chapter of the work."
 msgstr "Zobrazit předchozí kapitolu tohoto modulu."
 
-#: ../bibletime/util/cresmgr.cpp:1037
+#: ../bibletime/util/cresmgr.cpp:1005
 #, fuzzy
 msgid "Show the next chapter of the work."
 msgstr "Zobrazit další kapitolu tohoto modulu."
 
-#: ../bibletime/util/cresmgr.cpp:1041
+#: ../bibletime/util/cresmgr.cpp:1009
 msgid ""
 "This list contains the verses which are available in the current chapter."
 msgstr "Tento seznam obsahuje verše dostupné v této kapitole."
 
-#: ../bibletime/util/cresmgr.cpp:1045
+#: ../bibletime/util/cresmgr.cpp:1013
 msgid ""
 "In  Bible texts, the next verse will be highlighted. In commentaries, the "
 "next entry will be shown."
@@ -2312,7 +2319,7 @@ msgstr ""
 "Při práci s  textem Bible se zvýrazní následující verš. Při práci s "
 "komentářem se zobrazí další záznam."
 
-#: ../bibletime/util/cresmgr.cpp:1049
+#: ../bibletime/util/cresmgr.cpp:1017
 msgid ""
 "In Bible texts, the previous verse will be highlighted. In commentaries, the "
 "previous entry will be shown."
@@ -2320,7 +2327,7 @@ msgstr ""
 "Při práci s  textem Bible se zvýrazní předchozí verš. Při práci s komentářem "
 "se zobrazí předchozí záznam."
 
-#: ../bibletime/util/cresmgr.cpp:1056
+#: ../bibletime/util/cresmgr.cpp:1024
 #, fuzzy
 msgid ""
 "Synchronize the displayed entry of this work with the active Bible window."
@@ -2328,27 +2335,27 @@ msgstr ""
 "Synchronizovat zobrazenou položku tohoto modulu podle verše v aktivním "
 "biblickém okně."
 
-#: ../bibletime/util/cresmgr.cpp:1063
+#: ../bibletime/util/cresmgr.cpp:1031
 #, fuzzy
 msgid "This list contains the entries of the current work."
 msgstr "Tento seznam obsahuje záznamy v tomto modulu."
 
-#: ../bibletime/util/cresmgr.cpp:1067
+#: ../bibletime/util/cresmgr.cpp:1035
 #, fuzzy
 msgid "The next entry of the work will be shown."
 msgstr "Zobrazí se další záznam v modulu."
 
-#: ../bibletime/util/cresmgr.cpp:1071
+#: ../bibletime/util/cresmgr.cpp:1039
 #, fuzzy
 msgid "The previous entry of the work will be shown."
 msgstr "Zobrazí se předchozí záznam v modulu."
 
-#: ../bibletime/util/cresmgr.cpp:1079
+#: ../bibletime/util/cresmgr.cpp:1047
 #, fuzzy
 msgid "Save the curent text into the work. The old text will be overwritten."
 msgstr "Uložení současného textu do modulu. Starý text bude přepsán."
 
-#: ../bibletime/util/cresmgr.cpp:1083
+#: ../bibletime/util/cresmgr.cpp:1051
 #, fuzzy
 msgid ""
 "Loads the old text from the work and loads it into the edit area. The "
@@ -2357,60 +2364,60 @@ msgstr ""
 "Obnoví původní text z modulu do editovacího okna. Neuložený text bude "
 "ztracen."
 
-#: ../bibletime/util/cresmgr.cpp:1087
+#: ../bibletime/util/cresmgr.cpp:1055
 #, fuzzy
 msgid "Deletes the current entry out of the work. The text will be lost."
 msgstr "Vymazání současné položky z modulu. Text bude ztracen."
 
-#: ../bibletime/util/cresmgr.cpp:1093
+#: ../bibletime/util/cresmgr.cpp:1061
 msgid "Toggle bold formatting of the selected text."
 msgstr "Přepínání mezi tučným a ne-tučným písmem vybraného textu."
 
-#: ../bibletime/util/cresmgr.cpp:1097
+#: ../bibletime/util/cresmgr.cpp:1065
 msgid "Toggle italic formatting of the selected text."
 msgstr "Přepínání mezi kurzívou a ne-kurzívou vybraného textu."
 
-#: ../bibletime/util/cresmgr.cpp:1101
+#: ../bibletime/util/cresmgr.cpp:1069
 msgid "Toggle underlined formatting of the selected text."
 msgstr "Přepínání mezi podtrženým a ne-podtrženým písmem vybraného textu."
 
-#: ../bibletime/util/cresmgr.cpp:1106
+#: ../bibletime/util/cresmgr.cpp:1074
 msgid "The text will be aligned on the left side of the page."
 msgstr "Text bude zarovnán k levému okraji."
 
-#: ../bibletime/util/cresmgr.cpp:1110
+#: ../bibletime/util/cresmgr.cpp:1078
 msgid "Centers the text horizontally."
 msgstr "Text bude vycentrován."
 
-#: ../bibletime/util/cresmgr.cpp:1114
+#: ../bibletime/util/cresmgr.cpp:1082
 msgid "Aligns the text on the right side of the page."
 msgstr "Text bude zarovnán k pravému okraji."
 
-#: ../bibletime/util/cresmgr.cpp:1118
+#: ../bibletime/util/cresmgr.cpp:1086
 msgid "Justifies the text on the page."
 msgstr "Text bude naformátován do bloku."
 
-#: ../bibletime/util/cresmgr.cpp:1123
+#: ../bibletime/util/cresmgr.cpp:1091
 msgid "Choose a new font for the selected text."
 msgstr "Nastavení jiného písma pro vybraný text."
 
-#: ../bibletime/util/cresmgr.cpp:1126
+#: ../bibletime/util/cresmgr.cpp:1094
 msgid "Choose a new font size for the selected text."
 msgstr "Nastavení jiné velikosti písma pro vybraný text."
 
-#: ../bibletime/util/cresmgr.cpp:1129
+#: ../bibletime/util/cresmgr.cpp:1097
 msgid "Choose a new color for the selected text."
 msgstr "Nastavení jiné barvy pro vybraný text."
 
-#: ../bibletime/util/cresmgr.cpp:1139
+#: ../bibletime/util/cresmgr.cpp:1107
 msgid "Activate this box to see a daily tip on startup."
 msgstr "Zapněte, pokud máte zájem o zobrazení tipu při spuštění BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:1143
+#: ../bibletime/util/cresmgr.cpp:1111
 msgid "Activate this to see the BibleTime logo on startup."
 msgstr "Zapněte, pokud máte zájem o zobrazení loga při spuštění BibleTime."
 
-#: ../bibletime/util/cresmgr.cpp:1147
+#: ../bibletime/util/cresmgr.cpp:1115
 msgid ""
 "Save the user's session when BibleTime is closed and restore it on the next "
 "startup."
@@ -2418,33 +2425,33 @@ msgstr ""
 "Uložení relace při ukončení BibleTime a její obnovení při dalším spuštění "
 "programu."
 
-#: ../bibletime/util/cresmgr.cpp:1154
+#: ../bibletime/util/cresmgr.cpp:1122
 msgid "The font selection below will apply to all texts in this language."
 msgstr "Tento výběr písma se použije na všechny texty v tomto jazyce."
 
-#: ../bibletime/util/cresmgr.cpp:1163
+#: ../bibletime/util/cresmgr.cpp:1131
 msgid "Contains the languages which can be used for the biblical booknames."
 msgstr "Seznam jazyků, ve kterých si můžete nechat zobrazovat názvy knih."
 
-#: ../bibletime/util/cresmgr.cpp:1170
+#: ../bibletime/util/cresmgr.cpp:1138
 #, fuzzy
 msgid "The standard Bible is used when a hyperlink into a Bible is clicked."
 msgstr "Standardní Bible se použije při kliknutí na odkaz do Bible."
 
-#: ../bibletime/util/cresmgr.cpp:1174
+#: ../bibletime/util/cresmgr.cpp:1142
 #, fuzzy
 msgid ""
 "The standard commentary is used when a hyperlink into a commentary is "
 "clicked."
 msgstr "Standardní komentář se použije při kliknutí na odkaz na komentář."
 
-#: ../bibletime/util/cresmgr.cpp:1178
+#: ../bibletime/util/cresmgr.cpp:1146
 #, fuzzy
 msgid ""
 "The standard lexicon is used when a hyperlink into a lexicon is clicked."
 msgstr "Standardní slovník se použije při kliknutí na odkaz do slovníku."
 
-#: ../bibletime/util/cresmgr.cpp:1182
+#: ../bibletime/util/cresmgr.cpp:1150
 #, fuzzy
 msgid ""
 "The standard devotional will be used to display a short start up devotional."
@@ -2452,7 +2459,7 @@ msgstr ""
 "Standardní denní liturgie obsahuje většinou Biblické verše a další texty pro "
 "konkrétní den."
 
-#: ../bibletime/util/cresmgr.cpp:1186
+#: ../bibletime/util/cresmgr.cpp:1154
 #, fuzzy
 msgid ""
 "The standard Hebrew lexicon is used when a hyperlink into a Hebrew lexicon "
@@ -2461,7 +2468,7 @@ msgstr ""
 "Standardní slovník hebrejštiny se použije při kliknutí na odkaz do slovníku "
 "hebrejštiny."
 
-#: ../bibletime/util/cresmgr.cpp:1190
+#: ../bibletime/util/cresmgr.cpp:1158
 #, fuzzy
 msgid ""
 "The standard Greek lexicon is used when a hyperlink into a Greek lexicon is "
@@ -2470,7 +2477,7 @@ msgstr ""
 "Standardní slovník řečtiny se použije při kliknutí na odkaz do slovníku "
 "řečtiny."
 
-#: ../bibletime/util/cresmgr.cpp:1194
+#: ../bibletime/util/cresmgr.cpp:1162
 msgid ""
 "The standard morphological lexicon for Hebrew texts is used when a hyperlink "
 "of a morphological tag in a Hebrew text is clicked."
@@ -2478,7 +2485,7 @@ msgstr ""
 "Standardní morfologický slovník pro texty v hebrejštině se použije při "
 "kliknutí na odkaz u morfologické značky v hebrejském textu."
 
-#: ../bibletime/util/cresmgr.cpp:1198
+#: ../bibletime/util/cresmgr.cpp:1166
 msgid ""
 "The standard morphological lexicon for Greek texts is used when a hyperlink "
 "of a morphological tag in a Greek text is clicked."
@@ -2486,7 +2493,7 @@ msgstr ""
 "Standardní morfologický slovník pro texty v řečtině se použije při kliknutí "
 "na odkaz u morfologické značky v řeckém textu."
 
-#: ../bibletime/util/cresmgr.cpp:1207
+#: ../bibletime/util/cresmgr.cpp:1175
 #, fuzzy
 msgid ""
 "Opens the search dialog to search in the work(s) that are currently open."
@@ -3321,9 +3328,6 @@ msgstr "Zulu"
 
 #~ msgid "Create a new, empty session with default settings."
 #~ msgstr "Vytvořit novou, prázdnou relaci se standardním nastavením."
-
-#~ msgid "Delete session"
-#~ msgstr "Smazat relaci"
 
 #~ msgid "Delete the selected session."
 #~ msgstr "Smazání vybrané relace."
