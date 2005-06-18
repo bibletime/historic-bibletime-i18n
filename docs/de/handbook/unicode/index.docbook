@@ -6,7 +6,8 @@
   <!ENTITY sword '<application
 >Sword</application
 >'>
-  <!ENTITY % addindex "IGNORE">
+  <!--<!ENTITY % addindex "IGNORE"
+> -->
   <!ENTITY % English "INCLUDE"
 ><!-- change language only here -->
 
@@ -15,7 +16,7 @@
   <!ENTITY hdbkchap2 SYSTEM "hdbk-start.docbook">
   <!ENTITY hdbkchap3 SYSTEM "hdbk-operation.docbook">
   <!ENTITY hdbkchap4 SYSTEM "hdbk-config.docbook">
-  <!ENTITY hdbkchap5 SYSTEM "hdbk-toolbars.docbook">
+  <!ENTITY hdbkchap5 SYSTEM "hdbk-reference.docbook">
 
 ]>
 
@@ -24,97 +25,76 @@
 
 <bookinfo>
 <title
-></title
-> <authorgroup>
+>The &bibletime; handbook</title>
+
+<authorgroup>
 
 <author
->  </author>
+><firstname
+>Fred</firstname
+> <surname
+>Saalbach</surname
+> </author>
 
 <author
->  </author>
+><firstname
+>Jeffrey</firstname
+> <surname
+>Hoyt</surname
+> </author>
+
+<author
+><firstname
+>Martin</firstname
+> <surname
+>Gruner</surname
+> </author>
 
 </authorgroup>
 
-<!-- TRANS:ROLES_OF_TRANSLATORS -->
+<firstname
+>Joachim</firstname
+> <surname
+>Ansorg</surname
+> 
 
 <copyright>
-<year
->1999</year>
-<year
->2000</year>
-<year
->2001</year>
-<year
->2002</year>
-<year
->2003</year>
-<holder
-></holder
-> </copyright>
+	<year
+>1999-2005</year>
+	<holder
+>the &bibletime; team, <email
+>info@bibletime.info</email
+></holder>
+</copyright>
 
 <legalnotice>
-
-<para
-> </para>
-
-<para
->  </para>
-
-<para
->  </para>
-
-<para
->  </para
-></legalnotice>
+	<para
+>Der &bibletime;-Hilfedialog ist ein Teil von &bibletime;. </para>
+</legalnotice>
 
 <date
->13/February/2002</date>
+>2005-06</date>
 <releaseinfo
->1.3</releaseinfo>
+>1.5</releaseinfo>
 
 <abstract>
 <para
->  </para>
+>&bibletime; is a powerful Bible study tool for &kde;. </para>
 </abstract>
 
 <keywordset>
-
 <keyword
-></keyword>
+>KDE</keyword>
 <keyword
-></keyword
-> <keyword
+>bibletime</keyword>
+<keyword
+>&bibletime;</keyword>
+<keyword
 >sword</keyword>
 <keyword
 >crosswire</keyword>
 <keyword
->help dialog</keyword>
-</keywordset>
-
-</bookinfo>
-
-&hdbkchap1;
-&hdbkchap2;
-&hdbkchap3;
-&hdbkchap4;
-&hdbkchap5;
-
-</book>
-<!--
-Local Variables:
-mode: sgml
-sgml-minimize-attributes:nil
-sgml-general-insert-case:lower
-sgml-indent-step:0
-sgml-indent-data:nil
-End:
--->
-<keyword
-></keyword>
-<keyword
-></keyword>
-<keyword
-></keyword>
+>Hilfedialog</keyword>
 </keywordset>
 
 </bookinfo>
