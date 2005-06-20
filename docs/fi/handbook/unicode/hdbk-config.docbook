@@ -1,0 +1,308 @@
+<chapter id="hdbk-config"
+><title
+>Aseta &bibletime;</title>
+
+<para
+>In this section you find a description of the different possibilities to configure &bibletime;: The <link linkend="hdbk-config-bt"
+>Preferences Dialog </link
+> and the <link linkend="hdbk-config-toolbar"
+>Configure Toolbars</link
+> dialog.</para>
+
+<sect1 id="hdbk-config-bt"
+><title
+>Preferences Dialog</title>
+
+	<para
+>The &bibletime; user interface can be customized in many ways depending on your needs. You can access the configuration dialog by selecting <menuchoice
+><guimenu
+>Settings</guimenu
+></menuchoice
+> <guimenuitem
+>Configure &bibletime;</guimenuitem
+>.</para>
+
+	<sect2 id="hdbk-config-bt-startup"
+><title
+><guimenu
+>Käynnistys</guimenu
+></title>
+	
+		<para
+>Käynnistyskäyttäytymistä voidaan säätää. Valitse seuraavista valinnoista:</para>
+		<itemizedlist>
+		<listitem
+>Näytä päivän vihje</listitem>
+		<listitem
+>Näytä aloituskuva</listitem>
+		<listitem
+>Palauta ikkunat edellisen &bibletime; istuntokerran mukaisiksi</listitem>
+		</itemizedlist>
+	</sect2>
+	
+	<sect2 id="hdbk-config-bt-fonts"
+><title
+><guimenu
+>Kirjasimet</guimenu
+></title>
+	<para
+>Oletuksena &bibletime; käyttää &kde;:n yleisiä näyttökirjasimia, jotka voidaan asettaa  &kcontrolcenter; (Ohjauskeskuksessa). Voit korvata tarvittaessa tämän kirjasimen. Jotkut kielet tarvitsevat erikoiskirjasimia näkyäkseen oikein, ja tällä ikkunalla voit määrittää omat kirjasimet kullekin kielelle.</para>
+	
+	<mediaobject
+><imageobject>
+	<imagedata fileref="ss_configfonts.png" format="PNG"/>
+	</imageobject>
+	<textobject
+><phrase
+>Asetusikkuna - kirjasimet</phrase
+></textobject>
+	<caption
+><para
+>The Options dialog - Fonts.</para
+></caption>
+	</mediaobject>
+
+		<para
+>&bibletime; can now use all fonts supported by KDE/QT. These may be Bitmap Fonts, <trademark class="registered"
+>Adobe</trademark
+> Type1 Fonts, <trademark class="registered"
+>Adobe</trademark
+> Type3 fonts, or <trademark class="registered"
+>TrueType</trademark
+>.</para>
+	
+		<para
+>As long as the modules you are interested in display correctly nothing needs to be done here. If a module only displays as a series of question marks (??????) or empty boxes, then you know that the standard KDE display font does not contain the characters used in this module.</para>
+	
+		<para
+>To correct this, choose this module`s language from the drop down menu. Select the use custom font checkbox. Now select a font. For example, a font that supports many languages is Code2000. If no installed font can display the module you are interested in, try installing the &kde; localization package for that language.</para>
+		
+		<sect3 id="hdbk-config-bt-addfont"
+><title
+>Kirjasimien asennus</title>
+			<para
+>Detailed font installation instructions are outside the scope of this handbook. &kde;`s <ulink url="help:/kcontrol/index.html"
+>KControl Center</ulink
+> contains an excellent and easy to use font installation module. Please read <ulink url="help:/kcontrol/kcmfontinst/index.html"
+> its documentation</ulink
+>. For further information you might want to refer to the <ulink url="http://www.ibiblio.org/pub/Linux/docs/HOWTO/other-formats/html_single/Unicode-HOWTO.html#toc4"
+> Unicode HOWTO</ulink
+>.</para>
+	
+			<tip
+><para
+>If you use a small font like Clearlyu (about 22kb), &bibletime; will run faster than with a large font like <trademark class="registered"
+> Bitstream Cyberbit</trademark
+> (about 12Mb).</para
+></tip>
+		</sect3>
+
+		<sect3 id="hdbk-config-bt-ob-font"
+><title
+>Obtaining Fonts</title>
+			<para
+>Fonts can be obtained from a number of sources:</para>
+			<itemizedlist>
+			<listitem
+>Distribuutiosi.</listitem>
+			<listitem
+>Distribuutiosi lokalisointipaketit.</listitem>
+			<listitem
+>Olemassaoleva &Microsoft; &Windows; asennus samalla tietokoneella.</listitem>
+			<listitem
+>A font collection, such as are available from <trademark class="registered"
+>Adobe</trademark
+> or <trademark class="registered"
+>Bitstream</trademark
+>.</listitem>
+			<listitem
+>Online font collections.</listitem>
+			</itemizedlist>
+	
+			<para
+>Unicode fonts support more characters than other fonts, and some of these fonts are available at no charge. None of available fonts includes all characters defined in the Unicode standard, so you may want to use different fonts for different languages.</para>
+			
+			<table>
+				<title
+>Unicode-kirjasimet</title>
+				<tgroup cols="2">
+				<tbody>
+				
+				<row
+><entry
+><ulink url="http://home.att.net/~jameskass/CODE2000.ZIP"
+>Code2000</ulink
+></entry>
+				<entry
+>Ehkä paras ilmainen Unicode-kirjasin, käsittää laajan joukon merkkejä.</entry
+></row>
+				
+				<row
+><entry
+><ulink url="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;cat_id=FontDownloads"
+>SIL-'unicode -kirjasin</ulink
+></entry>
+				<entry
+>Erinomainen lingvistiikan kesäinstituutin unicode-kirjasin.</entry
+></row>
+	
+				<row
+><entry
+><ulink url="http://www.nongnu.org/freefont/"
+>FreeFont</ulink
+></entry>
+				<entry
+>A new free unicode font initiative.</entry
+></row>
+				
+				<row
+><entry
+><ulink url="ftp://ftp.crosswire.org/pub/sword/iso/latest/FONTS"
+>Crossire's font directory</ulink
+></entry>
+				<entry
+>Several fonts available from the Crosswire Bible Society Ftp site.</entry
+></row>
+	
+				<row
+><entry
+><ulink url="ftp://ftp.netscape.com/pub/communicator/extras/fonts/windows/"
+>Bitstream CyberBit</ulink
+></entry>
+				<entry
+>Covers almost the entire range of Unicode, but might slow &bibletime; down because of its size.</entry
+></row>
+	
+				<row
+><entry
+>Clearlyu</entry>
+				<entry
+>Included in some distributions. Contains European, Greek, Hebrew, Thai.</entry
+></row>
+				
+				<row
+><entry
+><ulink url="http://bibliofile.mc.duke.edu/gww/fonts/Unicode.html"
+>Caslon, Monospace, Cupola, Caliban</ulink
+></entry>
+				<entry
+>Osittainen peittävyys, katso tietoja linkitetyltä sivulta.</entry
+></row>
+				</tbody>
+				</tgroup>
+			</table>
+				
+			<para
+>There are good Unicode font lists on the net, as the one by Christoph Singer (<ulink url="http://www.slovo.info/unifonts.htm"
+>Multilingual Unicode TrueType Fonts in the Internet</ulink
+>), or the one by Alan Wood (<ulink url="http://www.alanwood.net/unicode/fontsbyrange.html"
+> Unicode character ranges and the Unicode fonts that support them</ulink
+>). </para>
+			
+		</sect3>
+	</sect2>
+	
+	<sect2 id="hdbk-config-bt-profiles"
+><title
+><guimenu
+>Näytä mallipohjat</guimenu
+></title>
+	
+		<para
+>Display templates define the rendering of text (colors, size etc.). Various built-in templates are available. If you select one, you will see a preview on the right pane.</para>
+		
+	</sect2>
+	
+	<sect2 id="hdbk-config-bt-profiles"
+><title
+><guimenu
+>Istunnot</guimenu
+></title>
+	
+		<para
+>Sessions define the appearance of the work area, for example which windows are open and which texts should be displayed in these windows. Once a session is created, you can use the menu item <menuchoice
+><guimenu
+>Window</guimenu
+> <guimenuitem
+>Save session</guimenuitem
+></menuchoice
+> to save the current session into an existing session file. Use <menuchoice
+><guimenu
+>Window</guimenu
+><guimenuitem
+>Load session </guimenuitem
+></menuchoice
+> to load a an existing session into &bibletime;. Play around with this helpful feature to see what you can do with it. For example, you might want to create one session with modules that you use for Bible study, and another one for devotional reading. Once you created and saved those sessions, you can switch between them quickly.</para>
+		
+	</sect2>
+
+	<sect2 id="hdbk-config-bt-sword"
+><title
+><guimenu
+>Sword</guimenu
+></title>
+	
+		<para
+>Many features provided by the Sword backend can now be customized in &bibletime;. These features are documented right in the dialog.</para>
+		
+	</sect2>
+	
+	<sect2 id="hdbk-config-bt-Accelerators"
+><title
+><guimenu
+>HotKeys</guimenu
+></title>
+	
+	<!-- TODO: RECREATE FONTCONFIG SCREENSHOT-->
+	
+		<para
+>HotKeys are special key commands that can be used in the place of the menu items and icons. A number of &bibletime;'s commands have predefined HotKeys (see <link linkend="hdbk-reference-hotkeys"
+>this section</link
+> for a complete listing). All of &bibletime;'s commands can be assigned HotKeys here. This is very helpful to quickly access the functions that you need the most.</para>
+	
+	</sect2>
+
+</sect1>
+	
+		
+	<sect1 id="hdbk-config-toolbar"
+><title
+>Toolbar configuration dialog</title>
+	<!-- THIS SECTION IS FINISHED -->
+	<para
+>You can adapt the toolbar to your needs. Please use the following entry in the main menu: <variablelist
+> <varlistentry
+> <term
+><menuchoice
+><guimenu
+> <inlinemediaobject
+><imageobject
+> <imagedata fileref="i_configuretoolbars.png" format="PNG"/></imageobject
+></inlinemediaobject
+> Settings</guimenu
+> <guimenuitem
+>Configure toolbars</guimenuitem
+></menuchoice
+></term
+> 
+		</varlistentry>
+	</variablelist>
+	</para>
+	<para
+>You will see this dialog, which allows adding and removing buttons from the main toolbar of &bibletime;. The order of the can also be changed. </para>
+	<mediaobject>
+		<imageobject>
+		<imagedata fileref="ss_configtoolbar.png" format="PNG"/>
+		</imageobject>
+		<textobject
+><phrase
+>Toolbar configuration dialog</phrase
+></textobject>
+		<caption
+>The Toolbar configuration dialog.</caption>
+	</mediaobject>
+	<para
+>Use the 4 buttons in the middle of the window to move buttons to the toolbar, away from the toolbar or to sort them on the toolbar according to your preference. </para>
+	</sect1>
+
+</chapter>

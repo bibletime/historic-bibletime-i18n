@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.1-Based Variant V1.0//EN" "dtd/kdex.dtd" [
+  <!ENTITY bibletime '<application
+>BibleTime</application
+>'>
+  <!ENTITY kapp "&bibletimehandbook;">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % English "INCLUDE"
+><!-- change language only here -->
+
+  <!-- user entities -->
+
+  <!ENTITY how2-chap1 SYSTEM "how2-importance.docbook">
+  <!ENTITY how2-chap2 SYSTEM "how2-basics.docbook">
+  <!ENTITY how2-chap3 SYSTEM "how2-interpretation.docbook">
+
+]>
+
+<book lang="&language;">
+
+<bookinfo>
+<title
+>Raamatuntutkimisen HowTo</title>
+
+<authorgroup>
+<author
+><firstname
+>Bob</firstname
+> <surname
+>Harman</surname
+> </author>
+</authorgroup>
+
+ROLES_OF_TRANSLATORS 
+
+<copyright>
+<year
+>2001</year
+><year
+>2002</year
+><year
+>2003</year
+><year
+>2004</year>
+<holder
+>&bibletime-työryhmä;, info@bibletime.info</holder>
+</copyright
+><copyright>
+<year
+>2001</year
+><year
+>2002</year
+><year
+>2003</year
+><year
+>2004</year>
+<holder
+>Bob Harman</holder>
+</copyright>
+
+<legalnotice
+><para
+>Tämän tekstin tekijänoikeudet ovat Bob Harmanilla. Fred Saalbach mukautti tekstit julkaistavaksi BibleTimen mukana.</para>
+
+<para
+>Non exclusive serial rights for this distribution of this document with the &bibletime; software have been made. Redistribution as part of the Bibletime software without modification and limited reproduction as provided by the "fair use" provisions of the US copyright code are also permitted.</para>
+
+<para
+>Ota yhteyttä Bob Harman c/o New Covenant Church 1079 Big Bethel Rd. Hampton VA 23666 USA <email
+>ncc@ncchampton.org</email
+> tämän materiaalin .</para>
+
+<para
+>Tekstien lainausmerkit ovat peräisin uudesta amerikkalaisesta Raamattu-standardista, jos ei muuta ole sanottu</para>
+</legalnotice>
+
+
+<date
+>06/16/2004</date>
+<releaseinfo
+>1.02.00</releaseinfo>
+
+
+<abstract>
+<title
+>Abstrakti</title>
+<para
+><application
+>Raamatuntutkimisen HowTo</application
+> on opas Raamatun tutkimiseen. </para>
+<para
+>&bibletime;-työryhmän toiveena on, että tämä HowTo johdattaisi lukijoita oppimaan näkemään kirjoituksista, mitä ne sanovat. Tämä yksityiskohtainen opiskeluopas on valittu sen perusteella, ettei se johdattaisi mihinkään oppirakennelmaan. Oletamme, että luet ja opiskelet tekstejä ymmärtääksesi, mitä ne sanovat. Jos aloitat asenteella, että haluat Herran kylvävän Hänen sanojaan sydämeesi, Hän ei tuota sinulle pettymystä.</para>
+</abstract>
+
+<keywordset>
+<keyword
+>Raamattu</keyword>
+<keyword
+>Tutkimus</keyword>
+<keyword
+>Kuinka teen</keyword>
+</keywordset>
+
+</bookinfo>
+
+&how2-chap1;
+&how2-chap2;
+&how2-chap3;
+
+</book>
+<!--
+Local Variables:
+mode: sgml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+-->
