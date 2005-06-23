@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ko\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-06-17 14:48+0200\n"
+"POT-Creation-Date: 2005-06-23 09:50+0200\n"
 "PO-Revision-Date: 2005-06-17 14:21+0900\n"
 "Last-Translator: Kim Hanjo <lordmiss@moldb>\n"
 "Language-Team:  <ko@li.org>\n"
@@ -16,404 +16,323 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.9.1\n"
 
-#: ../bibletime-1.5rc2/_build/bibletime/display-templates/template-init.cpp:2
-#: ../bibletime-1.5rc2/bibletime/display-templates/template-init.cpp:2
-#: ../bibletime/display-templates/template-init.cpp:2
-msgid "Blue"
-msgstr "파란색"
-
-#: ../bibletime-1.5rc2/_build/bibletime/display-templates/template-init.cpp:673
-#: ../bibletime-1.5rc2/bibletime/display-templates/template-init.cpp:673
-#: ../bibletime/display-templates/template-init.cpp:673
-msgid "High contrast"
-msgstr "고대비"
-
-#: ../bibletime-1.5rc2/_build/bibletime/display-templates/template-init.cpp:995
-#: ../bibletime-1.5rc2/bibletime/display-templates/template-init.cpp:995
-#: ../bibletime/display-templates/template-init.cpp:995
-msgid "Simple "
-msgstr "간단한"
-
-#: ../bibletime-1.5rc2/bibletime/backend/bt_osishtml.cpp:244
-#: ../bibletime/backend/bt_osishtml.cpp:244
+#: ../bibletime/backend/bt_osishtml.cpp:246
 msgid "Alternative text"
 msgstr "다른 텍스트"
 
-#: ../bibletime-1.5rc2/bibletime/backend/bt_osishtml.cpp:406
-#: ../bibletime/backend/bt_osishtml.cpp:406
+#: ../bibletime/backend/bt_osishtml.cpp:404
 msgid "Added text"
 msgstr "첨가된 텍스트"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:468
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:620
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:737
-#: ../bibletime/backend/cswordbackend.cpp:468
+#: ../bibletime/backend/cswordbackend.cpp:479
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:620
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:737
 msgid "Footnotes"
 msgstr "각주"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:470
-#: ../bibletime/backend/cswordbackend.cpp:470
+#: ../bibletime/backend/cswordbackend.cpp:481
 msgid "Strong's Numbers"
 msgstr "스트롱 넘버"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:472
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:623
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:738
-#: ../bibletime/backend/cswordbackend.cpp:472
+#: ../bibletime/backend/cswordbackend.cpp:483
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:623
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:738
 msgid "Headings"
 msgstr "표제"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:474
-#: ../bibletime/backend/cswordbackend.cpp:474
+#: ../bibletime/backend/cswordbackend.cpp:485
 msgid "Morphological Tags"
 msgstr "형태학적 태그"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:476
-#: ../bibletime/backend/cswordbackend.cpp:476
+#: ../bibletime/backend/cswordbackend.cpp:487
 msgid "Lemmas"
 msgstr "부제"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:478
-#: ../bibletime/backend/cswordbackend.cpp:478
+#: ../bibletime/backend/cswordbackend.cpp:489
 msgid "Hebrew Vowel Points"
 msgstr "히브리어 모음부호"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:480
-#: ../bibletime/backend/cswordbackend.cpp:480
+#: ../bibletime/backend/cswordbackend.cpp:491
 msgid "Hebrew Cantillation"
 msgstr "히브리어 영창"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:482
-#: ../bibletime/backend/cswordbackend.cpp:482
+#: ../bibletime/backend/cswordbackend.cpp:493
 msgid "Greek Accents"
 msgstr "그리스어 강세"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:484
-#: ../bibletime/backend/cswordbackend.cpp:484
+#: ../bibletime/backend/cswordbackend.cpp:495
 msgid "Red letter words"
 msgstr "붉은 글씨 단어"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:486
-#: ../bibletime/backend/cswordbackend.cpp:486
+#: ../bibletime/backend/cswordbackend.cpp:497
 msgid "Textual Variants"
 msgstr "다른 원문"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordbackend.cpp:488
-#: ../bibletime/backend/cswordbackend.cpp:488
+#: ../bibletime/backend/cswordbackend.cpp:499
 msgid "Scripture Cross-references"
 msgstr "성서 상호 참조"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:369
-#: ../bibletime-1.5rc2/bibletime/util/ctoolclass.cpp:204
+#: ../bibletime/backend/cswordbackend.cpp:501
+#, fuzzy
+msgid "Morph Segmentation"
+msgstr "문서 작업"
+
 #: ../bibletime/backend/cswordmoduleinfo.cpp:369
 #: ../bibletime/util/ctoolclass.cpp:204
 msgid "Version"
 msgstr "버전"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:374
 #: ../bibletime/backend/cswordmoduleinfo.cpp:374
 msgid "Markup"
 msgstr "마크업"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:378
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:80
 #: ../bibletime/backend/cswordmoduleinfo.cpp:378
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:80
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:81
 msgid "Location"
 msgstr "위치"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:382
-#: ../bibletime-1.5rc2/bibletime/util/ctoolclass.cpp:196
 #: ../bibletime/backend/cswordmoduleinfo.cpp:382
 #: ../bibletime/util/ctoolclass.cpp:196
 msgid "Language"
 msgstr "언어"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:387
 #: ../bibletime/backend/cswordmoduleinfo.cpp:387
 msgid "Category"
 msgstr "분류"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:392
 #: ../bibletime/backend/cswordmoduleinfo.cpp:392
 msgid "LCSH"
 msgstr "LCSH"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:397
 #: ../bibletime/backend/cswordmoduleinfo.cpp:397
 msgid "Writable"
 msgstr "쓸수 있음"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:398
 #: ../bibletime/backend/cswordmoduleinfo.cpp:398
 msgid "yes"
 msgstr "예"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:402
-#: ../bibletime-1.5rc2/bibletime/util/ctoolclass.cpp:199
 #: ../bibletime/backend/cswordmoduleinfo.cpp:402
 #: ../bibletime/util/ctoolclass.cpp:199
 msgid "Unlock key"
 msgstr "키 풀기"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:417
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:422
 #: ../bibletime/backend/cswordmoduleinfo.cpp:417
 #: ../bibletime/backend/cswordmoduleinfo.cpp:422
 msgid "Features"
 msgstr "특징"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:418
 #: ../bibletime/backend/cswordmoduleinfo.cpp:418
 msgid "No features included"
 msgstr ""
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:430
-#: ../bibletime-1.5rc2/bibletime/util/ctoolclass.cpp:192
 #: ../bibletime/backend/cswordmoduleinfo.cpp:430
 #: ../bibletime/util/ctoolclass.cpp:192
 msgid "Take care, this work contains cult / questionable material!"
 msgstr "조심하세요. 이 모듈은 이교적으로 의심되는 내용을 포함하고 있습니다!"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:440
 #: ../bibletime/backend/cswordmoduleinfo.cpp:440
 msgid "Distribution license"
 msgstr "배포 라이센스"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:445
 #: ../bibletime/backend/cswordmoduleinfo.cpp:445
 msgid "Distribution source"
 msgstr "배포 소스"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:450
 #: ../bibletime/backend/cswordmoduleinfo.cpp:450
 msgid "Text source"
 msgstr "텍스트 소스"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:455
 #: ../bibletime/backend/cswordmoduleinfo.cpp:455
 msgid "Distribution notes"
 msgstr "배포 노트"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:463
 #: ../bibletime/backend/cswordmoduleinfo.cpp:463
 msgid "Copyright notes"
 msgstr "저작권 노트"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:469
 #: ../bibletime/backend/cswordmoduleinfo.cpp:469
 msgid "Copyright holder"
 msgstr "저작권 소유자"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:474
 #: ../bibletime/backend/cswordmoduleinfo.cpp:474
 msgid "Copyright date"
 msgstr "저작권 날짜"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:479
 #: ../bibletime/backend/cswordmoduleinfo.cpp:479
 msgid "Copyright contact name"
 msgstr "저작권 연락 이름"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:487
 #: ../bibletime/backend/cswordmoduleinfo.cpp:487
 msgid "Copyright contact address"
 msgstr "저작권 연락처"
 
-#: ../bibletime-1.5rc2/bibletime/backend/cswordmoduleinfo.cpp:493
 #: ../bibletime/backend/cswordmoduleinfo.cpp:493
 msgid "Copyright contact email"
 msgstr "저작권 연락 이메일"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:63
 #: ../bibletime/bibletime_init.cpp:63
 msgid "Creating BibleTime's GUI"
 msgstr "바이블타임의 GUI 만들기"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:71
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:133
 #: ../bibletime/bibletime_init.cpp:71
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:133
 msgid "Bookshelf"
 msgstr "책꽂이"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:89
 #: ../bibletime/bibletime_init.cpp:89
 msgid "Initializing menu- and toolbars"
 msgstr "메뉴와 툴바 초기화"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:99
 #: ../bibletime/bibletime_init.cpp:99
 msgid "Search in open work(s)"
 msgstr "열린 작업에서 찾기"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:111
 #: ../bibletime/bibletime_init.cpp:111
 msgid "Search in standard Bible"
 msgstr "기본 성경에서 찾기"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:131
 #: ../bibletime/bibletime_init.cpp:131
 msgid "&Show bookshelf"
 msgstr "책꽂이 보기"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:142
 #: ../bibletime/bibletime_init.cpp:142
 #, fuzzy
 msgid "Show &mag"
 msgstr "부제 보기"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:160
 #: ../bibletime/bibletime_init.cpp:160
 msgid "&Bookshelf Manager"
 msgstr "책꽂이 관리자"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:184
 #: ../bibletime/bibletime_init.cpp:184
 msgid "&Arrangement mode"
 msgstr "정렬 모드"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:190
 #: ../bibletime/bibletime_init.cpp:190
 msgid "Manual mode"
 msgstr "수동 모드"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:205
 #: ../bibletime/bibletime_init.cpp:205
 msgid "Tile vertical"
 msgstr "수직으로 정렬"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:220
 #: ../bibletime/bibletime_init.cpp:220
 msgid "Tile horizontal"
 msgstr "수평으로 정렬"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:235
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:250
 #: ../bibletime/bibletime_init.cpp:235 ../bibletime/bibletime_init.cpp:250
 msgid "&Cascade"
 msgstr "정렬&C"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:263
 #: ../bibletime/bibletime_init.cpp:263
 msgid "&Tile vertical"
 msgstr "수직으로 정렬"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:274
 #: ../bibletime/bibletime_init.cpp:274
 msgid "&Tile horizontal"
 msgstr "수평으로 정렬"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:287
 #: ../bibletime/bibletime_init.cpp:287
 msgid "Cl&ose all"
 msgstr "창 모두 닫기"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:299
 #: ../bibletime/bibletime_init.cpp:299
 msgid "&Save session"
 msgstr "세션 저장하기&S"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:310
 #: ../bibletime/bibletime_init.cpp:310
 msgid "Sa&ve as new session"
 msgstr "새 세션으로 저장"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:322
 #: ../bibletime/bibletime_init.cpp:322
 msgid "&Load session"
 msgstr "세션 불러오기&L"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:334
 #: ../bibletime/bibletime_init.cpp:334
 msgid "&Delete session"
 msgstr "세션 삭제"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:346
 #: ../bibletime/bibletime_init.cpp:346
 msgid "&Fullscreen mode"
 msgstr "전체화면으로 표시&F"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:373
 #: ../bibletime/bibletime_init.cpp:373
 msgid "&Handbook"
 msgstr "핸드북&H"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:385
 #: ../bibletime/bibletime_init.cpp:385
 msgid "&Bible Study Howto"
 msgstr "성경공부 길잡이&B"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:412
 #: ../bibletime/bibletime_init.cpp:412
 msgid "&Daily tip"
 msgstr "오늘의 팁&D"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:473
-#: ../bibletime/bibletime_init.cpp:473
+#: ../bibletime/bibletime_init.cpp:472
 msgid "Initializing Sword"
 msgstr "Sword 시작하기"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_init.cpp:524
-#: ../bibletime/bibletime_init.cpp:524
+#: ../bibletime/bibletime_init.cpp:523
 msgid "Initializing print system"
 msgstr "인쇄 시스템 시작하기"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_slots.cpp:518
 #: ../bibletime/bibletime_slots.cpp:518
 msgid "Please enter a name for the new session."
 msgstr "새로운 세션의 이름을 입력하세요"
 
-#: ../bibletime-1.5rc2/bibletime/bibletime_slots.cpp:518
 #: ../bibletime/bibletime_slots.cpp:518
 msgid "Session name:"
 msgstr "세션 이름:"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cbtconfig.cpp:225
-#: ../bibletime/frontend/cbtconfig.cpp:225
+#: ../bibletime/display-templates/template-init.cpp:2
+msgid "Blue"
+msgstr "파란색"
+
+#: ../bibletime/display-templates/template-init.cpp:361
+msgid "Crazy"
+msgstr ""
+
+#: ../bibletime/display-templates/template-init.cpp:966
+msgid "High contrast"
+msgstr "고대비"
+
+#: ../bibletime/display-templates/template-init.cpp:1288
+msgid "Simple "
+msgstr "간단한"
+
+#: ../bibletime/frontend/cbtconfig.cpp:227
 msgid "Old testament"
 msgstr "구약 성서"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cbtconfig.cpp:226
-#: ../bibletime/frontend/cbtconfig.cpp:226
+#: ../bibletime/frontend/cbtconfig.cpp:228
 msgid "Moses/Pentateuch/Torah"
 msgstr "모세/모세5경/토라"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cbtconfig.cpp:227
-#: ../bibletime/frontend/cbtconfig.cpp:227
+#: ../bibletime/frontend/cbtconfig.cpp:229
 msgid "History"
 msgstr "역사서"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cbtconfig.cpp:228
-#: ../bibletime/frontend/cbtconfig.cpp:228
+#: ../bibletime/frontend/cbtconfig.cpp:230
 msgid "Prophets"
 msgstr "선지서"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cbtconfig.cpp:229
-#: ../bibletime/frontend/cbtconfig.cpp:229
+#: ../bibletime/frontend/cbtconfig.cpp:231
 msgid "New testament"
 msgstr "신약 성서"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cbtconfig.cpp:230
-#: ../bibletime/frontend/cbtconfig.cpp:230
+#: ../bibletime/frontend/cbtconfig.cpp:232
 msgid "Gospels"
 msgstr "복음서"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cbtconfig.cpp:231
-#: ../bibletime/frontend/cbtconfig.cpp:231
+#: ../bibletime/frontend/cbtconfig.cpp:233
 msgid "Letters/Epistles"
 msgstr "편지/서신서"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cbtconfig.cpp:232
-#: ../bibletime/frontend/cbtconfig.cpp:232
+#: ../bibletime/frontend/cbtconfig.cpp:234
 msgid "Paul's Epistles"
 msgstr "바울서신"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cexportmanager.cpp:440
 #: ../bibletime/frontend/cexportmanager.cpp:440
 msgid ""
 "*.html *.htm | HTML files\n"
@@ -422,7 +341,6 @@ msgstr ""
 "*.html *.htm | HTML 파일\n"
 " *.* | 모든 파일 (*.*)"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cexportmanager.cpp:442
 #: ../bibletime/frontend/cexportmanager.cpp:442
 msgid ""
 "*.txt | Text files\n"
@@ -431,87 +349,70 @@ msgstr ""
 "*.txt | 텍스트 파일\n"
 " *.* | 모든 파일 (*.*)"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cexportmanager.cpp:444
 #: ../bibletime/frontend/cexportmanager.cpp:444
 msgid "All files (*.*)"
 msgstr "모든 파일 (*.*)"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cinfodisplay.cpp:50
 #: ../bibletime/frontend/cinfodisplay.cpp:50
 msgid "Mag (\"shift\" to lock)"
 msgstr ""
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cinfodisplay.cpp:134
 #: ../bibletime/frontend/cinfodisplay.cpp:134
 msgid "Abbreviation"
 msgstr "단축"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cinfodisplay.cpp:145
-#: ../bibletime-1.5rc2/bibletime/frontend/cinfodisplay.cpp:237
 #: ../bibletime/frontend/cinfodisplay.cpp:145
 #: ../bibletime/frontend/cinfodisplay.cpp:237
 msgid "Cross references"
 msgstr "상호 참조"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cinfodisplay.cpp:275
 #: ../bibletime/frontend/cinfodisplay.cpp:275
 msgid "Footnote"
 msgstr "각주"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cinfodisplay.cpp:301
 #: ../bibletime/frontend/cinfodisplay.cpp:301
 msgid "Strongs"
 msgstr "스트롱 넘버"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cinfodisplay.cpp:363
 #: ../bibletime/frontend/cinfodisplay.cpp:363
 msgid "Morphology"
 msgstr "형태학"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cinfodisplay.cpp:385
 #: ../bibletime/frontend/cinfodisplay.cpp:385
 msgid "Word lookup"
 msgstr "단어 찾기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cinputdialog.cpp:50
 #: ../bibletime/frontend/cinputdialog.cpp:50
 #, fuzzy
 msgid "C&lear"
 msgstr "찾기&S"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cinputdialog.cpp:57
 #: ../bibletime/frontend/cinputdialog.cpp:57
 #, fuzzy
 msgid "&Ok"
 msgstr "예"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:65
 #: ../bibletime/frontend/coptionsdialog.cpp:65
 #, fuzzy
 msgid "Configure BibleTime"
 msgstr "바이블타임 시작"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:128
 #: ../bibletime/frontend/coptionsdialog.cpp:128
 msgid "Display"
 msgstr "표시 옵션"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:134
 #: ../bibletime/frontend/coptionsdialog.cpp:134
 msgid "Show tip of the day"
 msgstr "오늘의 팁 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:145
 #: ../bibletime/frontend/coptionsdialog.cpp:145
 msgid "Show startuplogo"
 msgstr "시작 로고 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:155
 #: ../bibletime/frontend/coptionsdialog.cpp:155
 msgid "Display templates"
 msgstr "화면 템플레이트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:156
 #: ../bibletime/frontend/coptionsdialog.cpp:156
 msgid ""
 "Display templates define how text is displayed. Please choose a template you "
@@ -520,27 +421,22 @@ msgstr ""
 "화면 템플레이트는 모듈 텍스트를 어떻게 보여줄지를 정의합니다. 원하는 템플레이"
 "트를 선택하세요."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:169
 #: ../bibletime/frontend/coptionsdialog.cpp:169
 msgid "Available display styles:"
 msgstr "사용가능한 스타일:"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:179
 #: ../bibletime/frontend/coptionsdialog.cpp:179
 msgid "Style preview"
 msgstr "스타일 미리보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:200
 #: ../bibletime/frontend/coptionsdialog.cpp:200
 msgid "Languages"
 msgstr "언어"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:206
 #: ../bibletime/frontend/coptionsdialog.cpp:206
 msgid "Specify a language for biblical booknames"
 msgstr "성서의 책 이름을 위한 언어 지정"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:207
 #: ../bibletime/frontend/coptionsdialog.cpp:207
 msgid ""
 "Sword has a number of locales available which can be used to "
@@ -552,25 +448,15 @@ msgstr ""
 "있습니다. 사용자는 어떤 로케일을 사용할지 결정할 수 있습니다. 새로운 로케일"
 "을 만들고 싶으면 http://www.crosswire.org/sword/develop 을 참조하십시오."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:213
 #: ../bibletime/frontend/coptionsdialog.cpp:213
 msgid "Language for biblical booknames"
 msgstr "성서의 책 이름을 위한 언어"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:224
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:262
-#: ../bibletime/frontend/coptionsdialog.cpp:224
-#: ../bibletime/frontend/coptionsdialog.cpp:262 clanguagemgr.cpp:218
-msgid "English"
-msgstr "영어"
-
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:279
-#: ../bibletime/frontend/coptionsdialog.cpp:279
+#: ../bibletime/frontend/coptionsdialog.cpp:286
 msgid "Select custom fonts per-language"
 msgstr "언어별 폰트 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:280
-#: ../bibletime/frontend/coptionsdialog.cpp:280
+#: ../bibletime/frontend/coptionsdialog.cpp:287
 msgid ""
 "Here you find a list of all languages of the installed works. \tYou can "
 "specify a custom font for each language that needs a special font \tto be "
@@ -579,70 +465,56 @@ msgstr ""
 "설치한 모듈의 모든 언어 목록이 있습니다. 정확히 표현하기 위해 특별한 폰트가 "
 "필요한 언어의 경우 사용자 폰트를 지정할 수 있습니다."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:311
-#: ../bibletime/frontend/coptionsdialog.cpp:311
+#: ../bibletime/frontend/coptionsdialog.cpp:318
 msgid "Use custom font"
 msgstr "사용자 폰트 사용"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:319
-#: ../bibletime/frontend/coptionsdialog.cpp:319
+#: ../bibletime/frontend/coptionsdialog.cpp:326
 msgid "The quick brown fox jumps over the lazy dog."
 msgstr "The quick brown fox jumps over the lazy dog. 무궁화꽃이 피었습니다."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:335
-#: ../bibletime/frontend/coptionsdialog.cpp:335
+#: ../bibletime/frontend/coptionsdialog.cpp:342
 msgid "HotKeys"
 msgstr "단축키"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:343
-#: ../bibletime/frontend/coptionsdialog.cpp:343
+#: ../bibletime/frontend/coptionsdialog.cpp:350
 msgid "Choose type:"
 msgstr "타입 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:362
-#: ../bibletime/frontend/coptionsdialog.cpp:362
+#: ../bibletime/frontend/coptionsdialog.cpp:369
 msgid "BibleTime"
 msgstr "바이블타임"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:363
-#: ../bibletime/frontend/coptionsdialog.cpp:363
+#: ../bibletime/frontend/coptionsdialog.cpp:370
 msgid "All text windows"
 msgstr "모든 텍스트 창"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:364
-#: ../bibletime/frontend/coptionsdialog.cpp:364
+#: ../bibletime/frontend/coptionsdialog.cpp:371
 msgid "Bible windows"
 msgstr "성서 창"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:365
-#: ../bibletime/frontend/coptionsdialog.cpp:365
+#: ../bibletime/frontend/coptionsdialog.cpp:372
 msgid "Commentary windows"
 msgstr "주석 창"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:366
-#: ../bibletime/frontend/coptionsdialog.cpp:366
+#: ../bibletime/frontend/coptionsdialog.cpp:373
 msgid "Lexicon windows"
 msgstr "렉시컨 창"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:367
-#: ../bibletime/frontend/coptionsdialog.cpp:367
+#: ../bibletime/frontend/coptionsdialog.cpp:374
 msgid "Book windows"
 msgstr "책 창"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:432
-#: ../bibletime/frontend/coptionsdialog.cpp:432
+#: ../bibletime/frontend/coptionsdialog.cpp:439
 msgid "Desk"
 msgstr "데스크"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:437
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:442
-#: ../bibletime/frontend/coptionsdialog.cpp:437
-#: ../bibletime/frontend/coptionsdialog.cpp:442
+#: ../bibletime/frontend/coptionsdialog.cpp:444
+#: ../bibletime/frontend/coptionsdialog.cpp:449
 msgid "Standard works"
 msgstr "표준 작업"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:443
-#: ../bibletime/frontend/coptionsdialog.cpp:443
+#: ../bibletime/frontend/coptionsdialog.cpp:450
 msgid ""
 "Standard works are used when no particular work is specified, \tfor example "
 "when a hyperlink into a Bible or lexicon was clicked ."
@@ -650,55 +522,44 @@ msgstr ""
 "표준 작업은 작업이 지정되어 있지 않을 때, 예를 들어 '성서'나 '렉시컨' 등의 하"
 "이퍼링크를 누를 경우에 사용됩니다."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:449
-#: ../bibletime/frontend/coptionsdialog.cpp:449
+#: ../bibletime/frontend/coptionsdialog.cpp:456
 msgid "Standard Bible"
 msgstr "기본 성경"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:457
-#: ../bibletime/frontend/coptionsdialog.cpp:457
+#: ../bibletime/frontend/coptionsdialog.cpp:464
 msgid "Standard Commentary"
 msgstr "기본 주석"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:466
-#: ../bibletime/frontend/coptionsdialog.cpp:466
+#: ../bibletime/frontend/coptionsdialog.cpp:473
 msgid "Standard Lexicon"
 msgstr "기본 렉시컨"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:474
-#: ../bibletime/frontend/coptionsdialog.cpp:474
+#: ../bibletime/frontend/coptionsdialog.cpp:481
 msgid "Standard Daily Devotional"
 msgstr "기본 매일 경건"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:482
-#: ../bibletime/frontend/coptionsdialog.cpp:482
+#: ../bibletime/frontend/coptionsdialog.cpp:489
 msgid "Standard Hebrew Strong's Lexicon"
 msgstr "기본 히브리어 스트롱 렉시컨"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:490
-#: ../bibletime/frontend/coptionsdialog.cpp:490
+#: ../bibletime/frontend/coptionsdialog.cpp:497
 msgid "Standard Greek Strong's Lexicon"
 msgstr "기본 그리스어 스트롱 렉시컨"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:498
-#: ../bibletime/frontend/coptionsdialog.cpp:498
+#: ../bibletime/frontend/coptionsdialog.cpp:505
 msgid "Standard Hebrew Morphological Lexicon"
 msgstr "기본 히브리어 형태학적 렉시컨"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:505
-#: ../bibletime/frontend/coptionsdialog.cpp:505
+#: ../bibletime/frontend/coptionsdialog.cpp:512
 msgid "Standard Greek Morphological Lexicon"
 msgstr "기본 그리스어 형태학적 렉시컨"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:626
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:629
-#: ../bibletime/frontend/coptionsdialog.cpp:626
-#: ../bibletime/frontend/coptionsdialog.cpp:629
+#: ../bibletime/frontend/coptionsdialog.cpp:633
+#: ../bibletime/frontend/coptionsdialog.cpp:636
 msgid "Text filters"
 msgstr "텍스트 필터"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:630
-#: ../bibletime/frontend/coptionsdialog.cpp:630
+#: ../bibletime/frontend/coptionsdialog.cpp:637
 msgid ""
 "Filters control the appearance of text. \t\t\t\tHere you can specify default "
 "settings for all filters. \t\t\t\tYou can change the filter settings in each "
@@ -707,77 +568,98 @@ msgstr ""
 "필터는 화면 창에 나타난 텍스트의 외양을 제어합니다. 여기서 모든 필터의 기본 "
 "설정을 할 수 있습니다. 물론 각 창에서 필터 설정을 바꿀 수도 있습니다."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:637
-#: ../bibletime/frontend/coptionsdialog.cpp:637
+#: ../bibletime/frontend/coptionsdialog.cpp:644
 msgid "Insert line break after each verse"
 msgstr "각 절의 끝에서 줄바꾸기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:642
-#: ../bibletime/frontend/coptionsdialog.cpp:642
+#: ../bibletime/frontend/coptionsdialog.cpp:649
 msgid "Show verse numbers"
 msgstr "절 번호 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:647
-#: ../bibletime/frontend/coptionsdialog.cpp:647
+#: ../bibletime/frontend/coptionsdialog.cpp:654
 msgid "Show section headings"
 msgstr "단락 표제 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:653
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:153
-#: ../bibletime/frontend/coptionsdialog.cpp:653
+#: ../bibletime/frontend/coptionsdialog.cpp:660
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:153
 msgid "Show scripture cross-references"
 msgstr "성서 상호 참조 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:658
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:148
-#: ../bibletime/frontend/coptionsdialog.cpp:658
+#: ../bibletime/frontend/coptionsdialog.cpp:665
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:148
 msgid "Show Greek accents"
 msgstr "그리스어 강세 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:663
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:144
-#: ../bibletime/frontend/coptionsdialog.cpp:663
+#: ../bibletime/frontend/coptionsdialog.cpp:670
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:144
 msgid "Show Hebrew vowel points"
 msgstr "히브리어 모음기호 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:668
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:146
-#: ../bibletime/frontend/coptionsdialog.cpp:668
+#: ../bibletime/frontend/coptionsdialog.cpp:675
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:146
 msgid "Show Hebrew cantillation marks"
 msgstr "히브리어 영창 표시 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/coptionsdialog.cpp:673
-#: ../bibletime/frontend/coptionsdialog.cpp:673
+#: ../bibletime/frontend/coptionsdialog.cpp:680
+msgid "Show Moprh Segmentation"
+msgstr ""
+
+#: ../bibletime/frontend/coptionsdialog.cpp:685
 msgid "Use textual variants"
 msgstr "다른 원문 사용"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cprofile.cpp:19
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:298
+#: ../bibletime/frontend/coptionsdialog.cpp:878
+msgid "John 3:16"
+msgstr ""
+
+#: ../bibletime/frontend/coptionsdialog.cpp:883
+msgid ""
+"For God didn't send his Son into the world to judge the world, but that the "
+"world should be saved through him."
+msgstr ""
+
+#: ../bibletime/frontend/coptionsdialog.cpp:890
+msgid ""
+"He who believes in him is not judged. He who doesn't believe has been judged "
+"already, because he has not believed in the name of the one and only Son of "
+"God."
+msgstr ""
+
+#: ../bibletime/frontend/coptionsdialog.cpp:897
+msgid ""
+"This is the judgment, that the light has come into the world, and men loved "
+"the darkness rather than the light; for their works were evil."
+msgstr ""
+
+#: ../bibletime/frontend/coptionsdialog.cpp:902
+msgid ""
+"For everyone who does evil hates the light, and doesn't come to the light, "
+"lest his works would be exposed."
+msgstr ""
+
+#: ../bibletime/frontend/coptionsdialog.cpp:907
+msgid ""
+"But he who does the truth comes to the light, that his works may be "
+"revealed, that they have been done in God."
+msgstr ""
+
 #: ../bibletime/frontend/cprofile.cpp:19
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:298
 msgid "unknown"
 msgstr "미상"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:48
 #: ../bibletime/frontend/cswordsetupdialog.cpp:48
 msgid "Bookshelf Manager"
 msgstr "책꽂이 관리자"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:64
 #: ../bibletime/frontend/cswordsetupdialog.cpp:64
 msgid "Bookshelf path(s)"
 msgstr "책꽂이 경로"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:75
 #: ../bibletime/frontend/cswordsetupdialog.cpp:75
 msgid "Configure bookshelf path(s)"
 msgstr "책꽂이 경로 지정"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:76
 #: ../bibletime/frontend/cswordsetupdialog.cpp:76
 msgid ""
 "You can store your bookshelfs in one or more directories, which you can "
@@ -785,42 +667,34 @@ msgid ""
 msgstr ""
 "책꽂이는 여기에서 지정하는 하나 혹은 그 이상의 디렉토리에 저장할 수 있습니다."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:82
 #: ../bibletime/frontend/cswordsetupdialog.cpp:82
 msgid "Your bookshelf configuration file is <b>%1</b>"
 msgstr "당신의 책꽂이 설정파일은 <b>%1</b>입니다"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:87
 #: ../bibletime/frontend/cswordsetupdialog.cpp:87
 msgid "Path to bookshelf"
 msgstr "책꽂이 경로"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:91
 #: ../bibletime/frontend/cswordsetupdialog.cpp:91
 msgid "Edit Entry"
 msgstr "목록 편집"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:96
 #: ../bibletime/frontend/cswordsetupdialog.cpp:96
 msgid "Add Entry"
 msgstr "목록 더하기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:101
 #: ../bibletime/frontend/cswordsetupdialog.cpp:101
 msgid "Remove Entry"
 msgstr "목록 지우기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:110
 #: ../bibletime/frontend/cswordsetupdialog.cpp:110
 msgid "Install/Update works"
 msgstr "작업 설치/업데이트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:133
 #: ../bibletime/frontend/cswordsetupdialog.cpp:133
 msgid "Install/update works - Step 1"
 msgstr "작업 설치/업데이트 - 1단계"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:134
 #: ../bibletime/frontend/cswordsetupdialog.cpp:134
 msgid ""
 "Please choose a (local or remote) library and a bookshelf path to install "
@@ -832,44 +706,35 @@ msgstr ""
 "만약 당신이 박해받는 나라에 살고 있어서 발각될 위험이 있다면 모듈 원격 설치 "
 "기능을 사용하지 마세요!</b>"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:141
 #: ../bibletime/frontend/cswordsetupdialog.cpp:141
 msgid "Select library"
 msgstr "라이브러리 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:147
 #: ../bibletime/frontend/cswordsetupdialog.cpp:147
 msgid "Add library"
 msgstr "라이브러리 더하기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:152
 #: ../bibletime/frontend/cswordsetupdialog.cpp:152
 msgid "Delete library"
 msgstr "라이브러리 삭제"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:160
 #: ../bibletime/frontend/cswordsetupdialog.cpp:160
 msgid "Select bookshelf path"
 msgstr "책꽂이 경로 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:180
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:759
 #: ../bibletime/frontend/cswordsetupdialog.cpp:180
-#: ../bibletime/frontend/cswordsetupdialog.cpp:759
+#: ../bibletime/frontend/cswordsetupdialog.cpp:779
 msgid "Connect to library"
 msgstr "라이브러리에 연결"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:195
 #: ../bibletime/frontend/cswordsetupdialog.cpp:195
 msgid "Remove works"
 msgstr "작업 삭제"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:207
 #: ../bibletime/frontend/cswordsetupdialog.cpp:207
 msgid "Remove installed work(s)"
 msgstr "설치된 작업 삭제"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:208
 #: ../bibletime/frontend/cswordsetupdialog.cpp:208
 msgid ""
 "This dialog lets you remove installed works from your system. Choose the "
@@ -878,35 +743,26 @@ msgstr ""
 "이 대화창에서 설치된 작업을 시스템에서 삭제할 수 있습니다. 모듈을 선택한 후 "
 "삭제 버튼을 누르세요."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:212
 #: ../bibletime/frontend/cswordsetupdialog.cpp:212
 msgid "Select works to be uninstalled"
 msgstr "삭제할 작업 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:218
 #: ../bibletime/frontend/cswordsetupdialog.cpp:218
 msgid "Remove selected work(s)"
 msgstr "선택한 작업 지우기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:297
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:349
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:843
 #: ../bibletime/frontend/cswordsetupdialog.cpp:297
 #: ../bibletime/frontend/cswordsetupdialog.cpp:349
-#: ../bibletime/frontend/cswordsetupdialog.cpp:843
+#: ../bibletime/frontend/cswordsetupdialog.cpp:863
 msgid "[Remote]"
 msgstr "[원격]"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:302
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:344
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:838
 #: ../bibletime/frontend/cswordsetupdialog.cpp:302
 #: ../bibletime/frontend/cswordsetupdialog.cpp:344
-#: ../bibletime/frontend/cswordsetupdialog.cpp:838
+#: ../bibletime/frontend/cswordsetupdialog.cpp:858
 msgid "[Local]"
 msgstr "[로컬]"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:385
 #: ../bibletime/frontend/cswordsetupdialog.cpp:385
 msgid ""
 "You selected the following work(s): %1.\n"
@@ -917,35 +773,29 @@ msgstr ""
 "\n"
 "정말 이 작업들을 시스템에서 삭제하겠습니까?"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:462
 #: ../bibletime/frontend/cswordsetupdialog.cpp:462
 msgid "Download"
 msgstr "다운로드"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:475
 #: ../bibletime/frontend/cswordsetupdialog.cpp:475
 msgid "Downloading library information..."
 msgstr "라이브러리 정보를 다운로드중..."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:575
-#: ../bibletime/frontend/cswordsetupdialog.cpp:575
+#: ../bibletime/frontend/cswordsetupdialog.cpp:595
 msgid "Install/update works - Step 2"
 msgstr "작업 설치/업데이트 - 2단계"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:576
-#: ../bibletime/frontend/cswordsetupdialog.cpp:576
+#: ../bibletime/frontend/cswordsetupdialog.cpp:596
 msgid ""
 "Please choose the works which should be installed and/or updated and click "
 "the install button."
 msgstr "설치하거나 업데이트할 작업을 선택하고 설치 버튼을 누르세요."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:601
-#: ../bibletime/frontend/cswordsetupdialog.cpp:601
+#: ../bibletime/frontend/cswordsetupdialog.cpp:621
 msgid "Install works"
 msgstr "설치된 작업"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:651
-#: ../bibletime/frontend/cswordsetupdialog.cpp:651
+#: ../bibletime/frontend/cswordsetupdialog.cpp:671
 msgid ""
 "You selected the following works: %1.\n"
 "\n"
@@ -955,18 +805,15 @@ msgstr ""
 "\n"
 "정말 이 작업들을 시스템에 설치하겠습니까?"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:678
-#: ../bibletime/frontend/cswordsetupdialog.cpp:678
+#: ../bibletime/frontend/cswordsetupdialog.cpp:698
 msgid "Download of work(s)"
 msgstr "작업 다운로드"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:750
-#: ../bibletime/frontend/cswordsetupdialog.cpp:750
+#: ../bibletime/frontend/cswordsetupdialog.cpp:770
 msgid "[%1]: %2% complete"
 msgstr "[%1]: %2% 완료"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:771
-#: ../bibletime/frontend/cswordsetupdialog.cpp:771
+#: ../bibletime/frontend/cswordsetupdialog.cpp:791
 msgid ""
 "This directory is not writable, so works \t\t\t\t\tcan not be installed here "
 "using BibleTime. \t\t\t\t\tDo you want to use this directory instead of the "
@@ -975,8 +822,7 @@ msgstr ""
 "이 디렉토리에 쓸 수 없습니다. 따라서 이 작업을 이 디렉토리에 설치할 수 없습니"
 "다. 이전 위치 대신 이 디렉토리를 사용하시겠습니까?"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupdialog.cpp:792
-#: ../bibletime/frontend/cswordsetupdialog.cpp:792
+#: ../bibletime/frontend/cswordsetupdialog.cpp:812
 msgid ""
 "This directory is not writable, \t\t\tso works can not be installed here "
 "using BibleTime. \t\t\tDo you want to add it to the list of module "
@@ -985,220 +831,168 @@ msgstr ""
 "이 디렉토리에 쓸 수 없습니다. 따라서 이 작업을 이 디렉토리에 설치할 수 없습니"
 "다. 이 디렉토리를 작업 설치 리스트에 더하시겠습니까?"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:16
 #: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:16
 msgid "Local"
 msgstr "로컬"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:17
 #: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:17
 msgid "Remote"
 msgstr "원격"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:31
 #: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:31
 msgid "Caption"
 msgstr "설명"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:42
 #: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:42
 msgid "Type"
 msgstr "타입"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:44
 #: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:44
 msgid "Server"
 msgstr "서버"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:46
 #: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:46
 msgid "Path"
 msgstr "경로"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:66
 #: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:66
 msgid "Ok"
 msgstr "예"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:79
-#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:79
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:80
 msgid "Please provide a caption."
 msgstr "설명을 더해주세요."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:86
-#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:86
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:87
 msgid ""
 "A source with this caption already exists.<br>Please provide a different "
 "caption."
 msgstr "이 설명을 가진 소스가 이미 존재합니다. 다른 설명을 입력해 주세요."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:92
-#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:92
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:93
 msgid "Please provide a server name."
 msgstr "서버 이름을 입력하세요."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:97
-#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:97
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:99
 msgid "Please provide a valid, readable path."
 msgstr "읽을 수 있는 유효한 경로를 입력하세요."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:67
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:67
+#: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:103
+#, fuzzy
+msgid "Please provide a path."
+msgstr "설명을 더해주세요."
+
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:68
 msgid "Name"
 msgstr "이름"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:71
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:71
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:72
 msgid "Status"
 msgstr "상태"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:73
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:73
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:74
 msgid "Installed version"
 msgstr "설치된 버전"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:77
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:77
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:78
 msgid "Remote version"
 msgstr "원격 버전"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:101
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:109
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:596
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:341
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:101
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:109
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:102
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:110
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:596
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:341
 msgid "Bibles"
 msgstr "성서"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:102
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:110
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:599
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:342
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:102
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:110
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:103
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:111
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:599
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:342
 msgid "Commentaries"
 msgstr "주석"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:103
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:111
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:602
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:343
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:103
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:111
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:104
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:112
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:602
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:343
 msgid "Lexicons"
 msgstr "렉시컨"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:104
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:112
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:605
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:344
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:104
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:112
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:105
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:113
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:605
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:344
 msgid "Books"
 msgstr "책"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:105
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:113
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:382
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:105
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:113
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:106
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:114
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:382
 msgid "Daily Devotionals"
 msgstr "매일 경건"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:106
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:114
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:611
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:1193
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:393
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:106
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:114
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:107
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:115
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:611
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:1193
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:393
 msgid "Glossaries"
 msgstr "어휘"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:226
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:226
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:227
 msgid "New"
 msgstr "새로운..."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:226
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:226
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:227
 msgid "Updated"
 msgstr "업데이트됨"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/cswordsetupmodulelistview.cpp:229
-#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:229
+#: ../bibletime/frontend/cswordsetupmodulelistview.cpp:230
 msgid "Installed"
 msgstr "설치됨"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/cdisplay.cpp:144
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1214
 #: ../bibletime/frontend/display/cdisplay.cpp:144
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1214
 msgid "HTML files"
 msgstr "HTML 파일"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/cdisplay.cpp:147
 #: ../bibletime/frontend/display/cdisplay.cpp:147
 msgid "Text files"
 msgstr "텍스트 파일"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/cdisplay.cpp:151
 #: ../bibletime/frontend/display/cdisplay.cpp:151
 msgid "Save document ..."
 msgstr "문서 저장 ..."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/chtmlwritedisplay.cpp:121
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:121
 msgid "Choose a font"
 msgstr "폰트 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/chtmlwritedisplay.cpp:132
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:132
 msgid "Choose a font size"
 msgstr "폰트 크기 지정"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/chtmlwritedisplay.cpp:151
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:151
 msgid "Bold"
 msgstr "굵게"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/chtmlwritedisplay.cpp:173
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:173
 msgid "Underline"
 msgstr "밑줄"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/chtmlwritedisplay.cpp:245
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:245
 msgid "Select all"
 msgstr "모두 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/chtmlwritedisplay.cpp:249
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:249
 msgid "HTML editor window"
 msgstr "HTML 편집 창"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/display/creaddisplay.cpp:62
 #: ../bibletime/frontend/display/creaddisplay.cpp:62
 msgid "Print keys"
 msgstr "키 인쇄"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:73
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:124
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:28
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:100
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:73
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:124
 #: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:28
@@ -1206,10 +1000,6 @@ msgstr "키 인쇄"
 msgid "Next book"
 msgstr "다음 책"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:77
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:130
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:32
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:106
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:77
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:130
 #: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:32
@@ -1217,10 +1007,6 @@ msgstr "다음 책"
 msgid "Previous book"
 msgstr "이전 책"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:81
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:136
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:36
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:112
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:81
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:136
 #: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:36
@@ -1228,10 +1014,6 @@ msgstr "이전 책"
 msgid "Next chapter"
 msgstr "다음 장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:85
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:142
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:40
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:118
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:85
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:142
 #: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:40
@@ -1239,10 +1021,6 @@ msgstr "다음 장"
 msgid "Previous chapter"
 msgstr "이전 장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:89
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:148
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:44
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:124
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:89
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:148
 #: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:44
@@ -1250,10 +1028,6 @@ msgstr "이전 장"
 msgid "Next verse"
 msgstr "다음 절"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:93
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:154
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:48
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:130
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:93
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:154
 #: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:48
@@ -1261,33 +1035,22 @@ msgstr "다음 절"
 msgid "Previous verse"
 msgstr "이전 절 "
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:104
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:104
 msgid "Copy chapter"
 msgstr "장 복사"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:109
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:109
 msgid "Save chapter as plain text"
 msgstr "장을 일반 텍스트로 저장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:110
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:110
 msgid "Save chapter as HTML"
 msgstr "장을 HTML로 저장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:114
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:114
 msgid "Print chapter"
 msgstr "장 인쇄"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:163
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:89
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:100
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:72
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:79
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:282
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:289
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:163
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:89
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:100
@@ -1298,20 +1061,10 @@ msgstr "장 인쇄"
 msgid "Reference only"
 msgstr "참조만"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:165
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:165
 msgid "Text of reference"
 msgstr "참조의 텍스트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:167
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:174
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:180
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:74
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:81
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:86
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:284
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:291
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:296
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:167
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:174
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:180
@@ -1324,32 +1077,23 @@ msgstr "참조의 텍스트"
 msgid "Reference with text"
 msgstr "참조와 텍스트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:169
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:182
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:169
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:182
 msgid "Chapter"
 msgstr "장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:176
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:176
 msgid "Chapter as plain text"
 msgstr "장을 일반 텍스트로"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:178
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:178
 msgid "Chapter as HTML"
 msgstr "장을 HTML로"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:207
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:207
 msgid "Bible window"
 msgstr "성서 창"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:213
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:188
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:71
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:281
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:213
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:188
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:71
@@ -1357,10 +1101,6 @@ msgstr "성서 창"
 msgid "Copy..."
 msgstr "복사..."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:222
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:196
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:78
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:288
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:222
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:196
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:78
@@ -1368,10 +1108,6 @@ msgstr "복사..."
 msgid "Save..."
 msgstr "저장..."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:228
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:201
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:85
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:295
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:228
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:201
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:85
@@ -1379,20 +1115,14 @@ msgstr "저장..."
 msgid "Print..."
 msgstr "인쇄..."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:304
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:304
 msgid "Copy chapter to clipboard ..."
 msgstr "장을 클립보드에 복사"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:304
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:304
 msgid "Copying"
 msgstr "복사 중"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:325
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:343
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:232
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:238
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:325
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:343
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:232
@@ -1400,252 +1130,195 @@ msgstr "복사 중"
 msgid "Saving"
 msgstr "저장 중"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:325
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbiblereadwindow.cpp:343
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:325
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:343
 msgid "Saving chapter ..."
 msgstr "장 저장 중 ..."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbookreadwindow.cpp:56
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbookreadwindow.cpp:69
 #: ../bibletime/frontend/displaywindow/cbookreadwindow.cpp:56
 #: ../bibletime/frontend/displaywindow/cbookreadwindow.cpp:69
 msgid "Toggle tree view"
 msgstr "트리 보기 전환"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:102
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:102
 msgid "Display settings: No options available"
 msgstr "셋팅 표시: 사용 가능한 옵션 없음"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:106
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:106
 msgid "Display settings"
 msgstr "화면 설정"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:123
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:123
 msgid "Display options"
 msgstr "화면 옵션"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:126
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:126
 msgid "Use linebreaks after each verse"
 msgstr "각 절의 끝에서 줄바꾸기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:129
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:129
 msgid "Show versenumbers"
 msgstr "절 번호 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:131
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:131
 msgid "Show headings"
 msgstr "표제 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:135
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:135
 msgid "Highlight words of Jesus"
 msgstr "예수님의 말씀 하이라이트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cbuttons.cpp:151
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:151
 msgid "Use alternative textual variant"
 msgstr "다른 원문 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:67
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/chtmlwritewindow.cpp:53
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cplainwritewindow.cpp:45
+#: ../bibletime/frontend/displaywindow/cbuttons.cpp:155
+msgid "Show morph segmentation"
+msgstr ""
+
 #: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:67
 #: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:53
 #: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:45
 msgid "Sync with active Bible"
 msgstr "활성화된 성서와 동기화"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cdisplaywindow.cpp:142
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cdisplaywindow.cpp:188
 #: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:142
 #: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:188
 msgid "Back in history"
 msgstr "히스토리 이전으로"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cdisplaywindow.cpp:149
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cdisplaywindow.cpp:194
 #: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:149
 #: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:194
 msgid "Forward in history"
 msgstr "히스토리 앞으로"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cdisplaywindow.cpp:157
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:84
 #: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:157
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
 msgid "Search"
 msgstr "찾기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/chtmlwritewindow.cpp:62
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cplainwritewindow.cpp:55
 #: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:62
 #: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:55
 msgid "Save text"
 msgstr "텍스트 저장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/chtmlwritewindow.cpp:72
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cplainwritewindow.cpp:66
 #: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:72
 #: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:66
 msgid "Delete current entry"
 msgstr "현재 목록 지우기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/chtmlwritewindow.cpp:82
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cplainwritewindow.cpp:77
 #: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:82
 #: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:77
 msgid "Restore original text"
 msgstr "원래 텍스트 복구"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:40
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:76
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:40
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:76
 msgid "Next entry"
 msgstr "다음 목록"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:44
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:81
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:44
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:81
 msgid "Previous entry"
 msgstr "이전 목록"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:49
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:49
 msgid "Copy entry with text"
 msgstr "목록과 텍스트 복사"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:51
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:51
 msgid "Save entry as plain text"
 msgstr "목록을 일반 텍스트로 저장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:52
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:52
 msgid "Save entry as HTML"
 msgstr "목록을 HTML로 저장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:54
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:54
 msgid "Print entry with text"
 msgstr "목록과 텍스트 인쇄"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:91
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:102
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:91
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:102
 msgid "Entry with text"
 msgstr "목록과 텍스트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:96
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:96
 msgid "Entry as plain text"
 msgstr "목록을 일반 텍스트로"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:98
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:98
 msgid "Entry as HTML"
 msgstr "목록을 HTML로"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:180
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:180
 msgid "Lexicon window"
 msgstr "렉시컨 창"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:232
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/clexiconreadwindow.cpp:238
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:232
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:238
 msgid "Saving entry ..."
 msgstr "목록 저장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:104
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:149
 #: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:104
 #: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:149
 msgid "NONE"
 msgstr "없음"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:120
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:121
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:141
 #: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:120
 #: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:121
 #: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:141
 msgid "Select a work"
 msgstr "작업 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:144
 #: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:144
 msgid "Select an additional work"
 msgstr "추가 작업 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:214
 #: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:214
 msgid "[locked]"
 msgstr "[잠김]"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:231
 #: ../bibletime/frontend/displaywindow/cmodulechooserbutton.cpp:231
 msgid "No work selected"
 msgstr "작업이 선택되지 않음"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cwritewindow.cpp:132
 #: ../bibletime/frontend/displaywindow/cwritewindow.cpp:132
 msgid "Save text before closing?"
 msgstr "닫기 전에 텍스트를 저장할까요?"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/displaywindow/cwritewindow.cpp:156
 #: ../bibletime/frontend/displaywindow/cwritewindow.cpp:156
 msgid "Save changed text?"
 msgstr "바뀐 텍스트를 저장할까요?"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:401
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:401
 msgid "Change description ..."
 msgstr "설명 바꾸기 ..."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:401
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:401
 msgid "Enter a new description for the chosen bookmark."
 msgstr "선택한 북마크의 새로운 설명을 입력하세요."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:499
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:499
 msgid "New folder"
 msgstr "새 폴더"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:608
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:608
 msgid "Daily devotionals"
 msgstr "매일 경건"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:617
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:617
 msgid "Old bookmarks"
 msgstr "이전 북마크"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:620
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:620
 msgid "Unknown"
 msgstr "모름"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:627
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:627
 msgid "Unknown language"
 msgstr "알려지지 않은 언어"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:974
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:982
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:974
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:982
 msgid ""
@@ -1655,261 +1328,204 @@ msgstr ""
 "*.btb | 바이블타임 북마크 파일 (*.btb)\n"
 "*.* | 모든 파일 (*.*)"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:974
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:974
 msgid "BibleTime - Export bookmarks"
 msgstr "바이블타임 - 북마크 내보내기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cindexitem.cpp:982
 #: ../bibletime/frontend/mainindex/cindexitem.cpp:982
 msgid "BibleTime - Import bookmarks"
 msgstr "바이블타임 - 북마크 가져오기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:135
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:135
 msgid "Create a new folder"
 msgstr "새 폴더 만들기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:136
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:136
 msgid "Change this folder"
 msgstr "이 폴더 바꾸기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:138
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:138
 #, fuzzy
 msgid "Change bookmark description"
 msgstr "설명 바꾸기 ..."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:139
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:139
 msgid "Import bookmarks"
 msgstr "북마크 가져오기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:140
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:140
 msgid "Export bookmarks"
 msgstr "북마크 내보내기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:141
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:141
 msgid "Print bookmarks"
 msgstr "북마크 인쇄"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:143
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:143
 msgid "Remove selected item(s)"
 msgstr "선택한 항목(들) 지우기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:145
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:145
 msgid "Edit this work"
 msgstr "이 작업 편집"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:146
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:146
 msgid "Plain text"
 msgstr "단순 텍스트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:147
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:147
 msgid "HTML"
 msgstr "HTML"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:149
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:149
 msgid "Search in selected work(s)"
 msgstr "선택된 작업(들)에서 찾기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:150
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:150
 msgid "Unlock this work"
 msgstr "이 작업 풀기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:151
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:151
 msgid "About this work"
 msgstr "이 작업에 대해"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:493
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:493
 msgid "Delete Items"
 msgstr "항목 삭제"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:493
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:493
 msgid "Do you really want to delete the selected items and child-items?"
 msgstr "정말 선택한 항목과 하위 항목들을 삭제하시겠습니까?"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:532
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:532
 msgid "BibleTime - Unlock work"
 msgstr "바이블타임 - 작업 풀기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/mainindex/cmainindex.cpp:533
 #: ../bibletime/frontend/mainindex/cmainindex.cpp:533
 msgid "Enter the unlock key for this work."
 msgstr "이 작업의 해제 키를 입력하세요."
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:84
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
 msgid "Interrupt"
 msgstr "인터럽트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:84
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:84
 msgid "Search dialog"
 msgstr "찾기 대화"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:185
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:185
 msgid "Search &options"
 msgstr "찾기 옵션"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:189
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:189
 msgid "Search &result"
 msgstr "찾기 결과"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:503
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:670
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:503
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:670
 msgid "Choose work(s)"
 msgstr "작업 선택"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:516
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:516
 msgid "Use chosen work(s)"
 msgstr "선택된 작업 사용"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:566
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:566
 msgid "Search range editor"
 msgstr "찾기 범위 설정"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:593
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:593
 msgid "Search range"
 msgstr "찾기 범위"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:601
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:601
 msgid "Add new range"
 msgstr "새 범위 더하기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:605
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:605
 msgid "Delete current range"
 msgstr "현재 범위 지우기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:611
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:611
 msgid "Name:"
 msgstr "이름:"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:616
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:616
 msgid "Edit current search range:"
 msgstr "현재 찾기 범위 편집"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:626
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:626
 msgid "Parsed search range:"
 msgstr "처리된 찾기 범위"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:655
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:655
 msgid "New range"
 msgstr "새 범위"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:718
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:718
 msgid "<invalid name of search range>"
 msgstr "<잘못된 찾기 범위 이름>"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:774
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:774
 msgid "Search analysis"
 msgstr "찾기 분석"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:792
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:792
 msgid "Save search analysis as HTML"
 msgstr "찾기 분석을 HTML로 저장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1216
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1216
 msgid "Save Search Analysis"
 msgstr "찾기 분석 저장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1244
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1244
 msgid "BibleTime Search Analysis"
 msgstr "바이블타임 찾기 분석"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1245
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1245
 msgid "Search text :"
 msgstr "찾는 텍스트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1246
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1246
 msgid "Search type :"
 msgstr "찾는 형태"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1247
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:885
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1247
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:885
 msgid "No search scope"
 msgstr "찾기 영역 없음"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1247
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1247
 msgid "Search scope:"
 msgstr "찾기 영역"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1250
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1250
 msgid "Book"
 msgstr "책"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1251
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1251
 msgid "Total hits"
 msgstr "총 검색수"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialog.cpp:1287
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:1287
 msgid "Created by"
 msgstr "만든 사람"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:62
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:269
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:62
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:269
 msgid "Found items"
 msgstr "찾은 아이템"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:147
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:395
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:147
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:395
 msgid "Print search result..."
 msgstr "찾기 결과 인쇄"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:147
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:395
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:147
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:395
 msgid "Printing search result"
 msgstr "찾기 결과 인쇄 중"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:158
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:177
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:377
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:386
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:158
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:177
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:377
@@ -1917,10 +1533,6 @@ msgstr "찾기 결과 인쇄 중"
 msgid "Save search result..."
 msgstr "찾기 결과 저장"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:158
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:177
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:377
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:386
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:158
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:177
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:377
@@ -1928,10 +1540,6 @@ msgstr "찾기 결과 저장"
 msgid "Saving search result"
 msgstr "찾기 결과 저장 중"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:196
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:215
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:359
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:368
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:196
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:215
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:359
@@ -1939,10 +1547,6 @@ msgstr "찾기 결과 저장 중"
 msgid "Copy search result..."
 msgstr "찾기 결과 복사"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:196
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:215
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:359
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:368
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:196
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:215
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:359
@@ -1950,146 +1554,122 @@ msgstr "찾기 결과 복사"
 msgid "Copying search result"
 msgstr "찾기 결과 복사 중"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:268
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:268
 msgid "Work"
 msgstr "작업"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:432
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:432
 msgid "Show search analysis"
 msgstr "찾기 분석 보기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:626
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:739
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:626
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:739
 msgid "Strong's numbers"
 msgstr "스트롱 넘버"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:629
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:742
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:629
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:742
 msgid "Morph codes"
 msgstr "형태학적 코드"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:663
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:663
 msgid "Main search parameters"
 msgstr "중요 찾기 변수"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:677
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:677
 msgid "Search text:"
 msgstr "찾을 텍스트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:697
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:697
 msgid "Search type"
 msgstr "찾을 형태"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:699
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:699
 msgid "Multiple words (AND)"
 msgstr "여러 단어 (그리고)"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:705
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:705
 msgid "Multiple words (OR)"
 msgstr "여러 단어 (또는)"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:709
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:709
 msgid "Exact"
 msgstr "정확하게 찾기"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:714
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:714
 msgid "Regular expression"
 msgstr "정규 표현식"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:725
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:725
 msgid "Search options"
 msgstr "찾기 옵션"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:727
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:727
 msgid "Case sensitive"
 msgstr "대소문자 구별"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:733
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:733
 msgid "Text type"
 msgstr "텍스트 형태"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:736
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:736
 msgid "Main text"
 msgstr "메인 텍스트"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:750
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:750
 msgid "Search scope"
 msgstr "찾기 영역"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:758
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:758
 msgid "Setup ranges"
 msgstr "제위 설정"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:766
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:766
 msgid "Search progress"
 msgstr "찾기 진행"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:770
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:770
 msgid "Current work:"
 msgstr "현재 작업:"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:773
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:773
 msgid "All works:"
 msgstr "모든 작업:"
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:783
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:783
 msgid "Searching in: "
 msgstr "찾는 곳: "
 
-#: ../bibletime-1.5rc2/bibletime/frontend/searchdialog/csearchdialogpages.cpp:886
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:886
 msgid "Last search result"
 msgstr "지난번 검색 결과"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:118 ../bibletime/main.cpp:118
+#: ../bibletime/main.cpp:118
 msgid "Enable debug messages"
 msgstr "디버그 메세지 보기"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:119 ../bibletime/main.cpp:119
+#: ../bibletime/main.cpp:119
 msgid ""
 "Ignore the startup session that was saved when BibleTime was closed the last "
 "time."
 msgstr "바이블타임이 마지막으로 종료될 때 저장된 시작 세션 무시"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:120 ../bibletime/main.cpp:120
+#: ../bibletime/main.cpp:120
 msgid ""
 "Open the standard Bible with the given key. Use <random> to open at a random "
 "position."
 msgstr ""
 "주어진 키로 기본 성서 열기. 임의의 곳에서 열기 위해 <random>을 사용하세요."
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:129 ../bibletime/main.cpp:129
+#: ../bibletime/main.cpp:129
 msgid "Bible study tool for KDE"
 msgstr "KDE의 성경 공부 도구"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:131 ../bibletime/main.cpp:131
+#: ../bibletime/main.cpp:131
 msgid "(c)1999-2005, The BibleTime Team"
 msgstr "(c)1999-2005, 바이블타임 팀"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:132 ../bibletime/main.cpp:132
+#: ../bibletime/main.cpp:132
 msgid ""
 "BibleTime is an easy to use but powerful Bible study tool for KDE.\n"
 "\n"
@@ -2102,79 +1682,75 @@ msgstr ""
 "만약 우리 팀에 합류하고 싶으시다면 info@bibletime.info 로 이메일을 보내 주세"
 "요."
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:143 ../bibletime/main.cpp:143
+#: ../bibletime/main.cpp:143
 msgid "Project coordinator"
 msgstr "프로젝트 진행자"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:145 ../bibletime/main.cpp:145
+#: ../bibletime/main.cpp:145
 msgid "Frontend, backend"
 msgstr "전반부, 후반부"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:147 ../bibletime/main.cpp:147
+#: ../bibletime/main.cpp:147
 msgid "Crystal icons, crystal startlogo, webpage"
 msgstr "크리스탈 아이콘, 크리스탈 시작로고, 웹페이지"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:155 ../bibletime/main.cpp:155
+#: ../bibletime/main.cpp:155
 msgid "High contrast template"
 msgstr "고대비 템플레이트"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:156 ../bibletime/main.cpp:156
+#: ../bibletime/main.cpp:156
 msgid "Installation manager"
 msgstr "설치 관리자"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:157 ../bibletime/main.cpp:157
+#: ../bibletime/main.cpp:157
 msgid "Icons, startlogo"
 msgstr "아이콘, 시작로고"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:159 ../bibletime/main.cpp:159
+#: ../bibletime/main.cpp:159
 msgid "Founder of the Sword project"
 msgstr "스워드 프로젝트의 창립자"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:160 ../bibletime/main.cpp:160
+#: ../bibletime/main.cpp:160
 msgid "Sponsored our internet domain for many years"
 msgstr "우리 인터넷 도메인을 수년간 지원해 주었습니다"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:162 ../bibletime/main.cpp:162
+#: ../bibletime/main.cpp:162
 msgid "Bible Study HowTo"
 msgstr "성경공부 길잡이"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:164
-#: ../bibletime-1.5rc2/bibletime/main.cpp:176 ../bibletime/main.cpp:164
-#: ../bibletime/main.cpp:176
+#: ../bibletime/main.cpp:164 ../bibletime/main.cpp:176
 msgid "Search dialog enhancements"
 msgstr "찾기 대화 강화"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:166 ../bibletime/main.cpp:166
+#: ../bibletime/main.cpp:166
 msgid "Language codes and names"
 msgstr "언어 코드와 이름"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:168
-#: ../bibletime-1.5rc2/bibletime/main.cpp:172 ../bibletime/main.cpp:168
-#: ../bibletime/main.cpp:172
+#: ../bibletime/main.cpp:168 ../bibletime/main.cpp:172
 msgid "Frontend"
 msgstr "전반부"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:170 ../bibletime/main.cpp:170
+#: ../bibletime/main.cpp:170
 msgid "Searchdialog"
 msgstr "찾기 대화창"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:174 ../bibletime/main.cpp:174
+#: ../bibletime/main.cpp:174
 msgid "Documentation"
 msgstr "문서 작업"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:178 ../bibletime/main.cpp:178
+#: ../bibletime/main.cpp:178
 msgid "Very helpful and detailed testing"
 msgstr "매우 유용하고 자세한 테스트"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:180 ../bibletime/main.cpp:180
+#: ../bibletime/main.cpp:180
 msgid "The first lead developer"
 msgstr "제일수석개발자"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:182 ../bibletime/main.cpp:182
+#: ../bibletime/main.cpp:182
 msgid "Helpful source code additions"
 msgstr "유용한 소스 코드 첨가"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:185 ../bibletime/main.cpp:185
+#: ../bibletime/main.cpp:185
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
@@ -2182,7 +1758,7 @@ msgstr ""
 " : 번역자\n"
 "김 한조"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:186 ../bibletime/main.cpp:186
+#: ../bibletime/main.cpp:186
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
@@ -2190,574 +1766,9 @@ msgstr ""
 " : 번역자 이메일\n"
 "hanjo@hanjo.pe.kr"
 
-#: ../bibletime-1.5rc2/bibletime/main.cpp:211 ../bibletime/main.cpp:211
+#: ../bibletime/main.cpp:211
 msgid "Starting BibleTime"
 msgstr "바이블타임 시작"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:723
-#: ../bibletime/util/cresmgr.cpp:723
-msgid ""
-"Open the printer dialog of BibleTime, where you can edit the print queue, "
-"assign styles to the items and print them."
-msgstr ""
-"바이블 타임의 프린터 대화상자를 열면 인쇄 대기열을 편집하거나 목록에 스타일"
-"을 적용한 후 인쇄할 수 있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:727
-#: ../bibletime/util/cresmgr.cpp:727
-msgid "Close BibleTime and save the settings."
-msgstr "바이블타임 닫고 설정 저장하기"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:734
-#: ../bibletime/util/cresmgr.cpp:734
-msgid "Show or hide the bookshelf."
-msgstr "책꽂이 보기 또는 감추기"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:738
-#: ../bibletime/util/cresmgr.cpp:738
-msgid "Toggle the main toolbar view."
-msgstr "메인 툴바 보기 전환"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:746
-#: ../bibletime/util/cresmgr.cpp:746
-msgid "Open the search dialog to search in all works that are currently open."
-msgstr "현재 열고 있는 모든 작업에서 찾기 위해서는 찾기 대화상자를 여세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:750
-#: ../bibletime/util/cresmgr.cpp:750
-msgid "Open the search dialog to search in the standard Bible."
-msgstr "기본 성경에서 찾기 위해서는 찾기 대화상자를 여세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:758
-#: ../bibletime/util/cresmgr.cpp:758
-msgid "Restore a saved BibleTime session."
-msgstr "바이블타임의 저장된 세션 복구"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:762
-#: ../bibletime/util/cresmgr.cpp:762
-msgid "Save current BibleTime session so that it can be reused later."
-msgstr "나중에 다시 사용할 수 있도록 현재 바이블타임 세션을 저장합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:766
-#: ../bibletime/util/cresmgr.cpp:766
-msgid "Create and save a new session."
-msgstr "새 세션을 만들어 저장합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:770
-#: ../bibletime/util/cresmgr.cpp:770
-msgid "Delete a BibleTime session."
-msgstr "바이블타임 세션 삭제"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:774
-#: ../bibletime/util/cresmgr.cpp:774
-msgid "Toggle fullscreen mode of the main window."
-msgstr "메인 윈도우의 전체 화면 모드를 전환합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:778
-#: ../bibletime/util/cresmgr.cpp:778
-msgid "Vertically tile the open windows."
-msgstr "열려진 창을 수직 배열."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:782
-#: ../bibletime/util/cresmgr.cpp:782
-msgid "Horizontally tile the open windows."
-msgstr "열려진 창을 수평 배열."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:786
-#: ../bibletime/util/cresmgr.cpp:786
-msgid "Cascade the open windows."
-msgstr "열려진 창을 순서대로 정렬."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:791
-#: ../bibletime/util/cresmgr.cpp:791
-msgid "Choose the way that is used to arrange the windows."
-msgstr "창들을 배열하는 방식을 선택하세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:795
-#: ../bibletime/util/cresmgr.cpp:795
-msgid "Automatically tile the open windows vertically."
-msgstr "자동 수직 타일식 배열"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:799
-#: ../bibletime/util/cresmgr.cpp:799
-msgid "Automatically tile the open windows horizontally."
-msgstr "자동 수평 타일식 배열"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:803
-#: ../bibletime/util/cresmgr.cpp:803
-msgid "Automatically cascade the open windows."
-msgstr "열려진 창을 자동으로 정렬합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:808
-#: ../bibletime/util/cresmgr.cpp:808
-msgid "Close all open windows."
-msgstr "열려진 모든 창을 닫습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:816
-#: ../bibletime/util/cresmgr.cpp:816
-msgid "Open BibleTime's toolbar editor."
-msgstr "바이블타임의 툴바 편집기를 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:820
-#: ../bibletime/util/cresmgr.cpp:820
-msgid "Open the dialog to set most of BibleTime's preferences."
-msgstr "바이블타임의 대부분의 설정을 위한 대화상자를 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:824
-#: ../bibletime/util/cresmgr.cpp:824
-msgid ""
-"Open the dialog to configure your bookshelf and install/update/remove works."
-msgstr ""
-"스워드를 설정하고 스워드 작업을 설치/업데이트하기 위한 대화창을 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:833
-#: ../bibletime/util/cresmgr.cpp:833
-msgid "Open BibleTime's handbook in the KDE helpbrowser."
-msgstr "바이블타임 핸드북을 KDE 도움말 프로그램에서 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:837
-#: ../bibletime/util/cresmgr.cpp:837
-msgid ""
-"Open the Bible study HowTo included with BibleTime in the KDE helpbrowser. "
-"<BR>This HowTo is an introduction on how to study the Bible in an efficient "
-"way."
-msgstr ""
-"바이블타임의 성경 공부 길잡이를 KDE 도움말 프로그램에서 엽니다.<BR> 이 길잡이"
-"는 성경을 어떻게 효과적으로 공부할 수 있을지에 대한 간단한 안내입니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:841
-#: ../bibletime/util/cresmgr.cpp:841
-msgid "Send a bugreport to the developers of BibleTime."
-msgstr "바이블타임의 개발자에게 버그리포트를 보냅니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:845
-#: ../bibletime/util/cresmgr.cpp:845
-msgid ""
-"Show a daily tip each time BibleTime starts. <BR>The tips contain important "
-"Bible quotations and helpful tips for using BibleTime."
-msgstr ""
-"바이블타임이 시작할 때 오늘의 팁을 보여줍니다.<BR> 여기에는 성경의 여러 인용"
-"구와 바이블타임을 사용하는데 유용한 팁들이 들어있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:849
-#: ../bibletime/util/cresmgr.cpp:849
-msgid "Show detailed information about BibleTime."
-msgstr "바이블타임에 대한 자세한 정보를 보여줍니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:853
-#: ../bibletime/util/cresmgr.cpp:853
-msgid "Show detailed information about the KDE project."
-msgstr "KDE 프로젝트에 관한 자세한 정보를 보여줍니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:863
-#: ../bibletime/util/cresmgr.cpp:863
-msgid "Start to search the text in each of the chosen work(s)."
-msgstr "각 선택된 작업에서 찾기를 시작합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:867
-#: ../bibletime/util/cresmgr.cpp:867
-msgid "Stop the active search."
-msgstr "현재 찾기를 중단합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:874
-#: ../bibletime/util/cresmgr.cpp:874
-msgid "Open a dialog to choose work(s) for the search."
-msgstr "찾기에 사용될 작업 선택 대화상자를 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:878
-#: ../bibletime/util/cresmgr.cpp:878
-msgid "Enter the text you want to search in the chosen work(s) here."
-msgstr "선택된 작업에서 찾고자 하는 단어를 여기에 입력하세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:884
-#: ../bibletime/util/cresmgr.cpp:884
-msgid ""
-"Treat the search text as multiple words. A text must contain all of the "
-"words to match. The order of the words is unimportant."
-msgstr ""
-"찾기 텍스트를 여러 단어로 취급합니다. 검색되려면 모든 단어를 포함하고 있어야 "
-"합니다. 단어들의 순서는 중요하지 않습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:888
-#: ../bibletime/util/cresmgr.cpp:888
-msgid ""
-"Treat the search text as multiple words. A text must contain one or more "
-"words of to match. The order is unimportant."
-msgstr ""
-"찾기 텍스트를 여러 단어로 취급합니다. 검색되려면 한개 이상의 단어가 들어있어"
-"야 합니다. 단어의 순서는 중요하지 않습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:892
-#: ../bibletime/util/cresmgr.cpp:892
-msgid "The search text will be used exactly as entered."
-msgstr "찾기 텍스트는 입력된대로 사용됩니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:896
-#: ../bibletime/util/cresmgr.cpp:896
-msgid ""
-"Treat the search string as a GNU regular expression. The BibleTime handbook "
-"contains an introduction to regular expressions."
-msgstr ""
-"찾기 문자열을 GNU의 정규 표현식으로 취급합니다. 바이블타임 핸드북에는 정규 표"
-"현식에 대한 소개가 들어있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:904
-#: ../bibletime/util/cresmgr.cpp:904
-msgid ""
-"If you choose this option the search will distinguish between upper and "
-"lowercase characters."
-msgstr "이 옵션을 선택하면 대문자와 소문자를 구별하여 찾습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:909
-#: ../bibletime/util/cresmgr.cpp:909
-msgid ""
-"Choose a scope from the list. \t\t\t\t\t\tSelect the first item to use no "
-"scope, the second one is to use each work's last search result as search "
-"scope. \t\t\t\t\t\tThe others are user defined search scopes."
-msgstr ""
-"리스트에서 찾기 영역을 선택합니다. 영역을 사용하지 않으려면 첫번째 항목을 선"
-"택하세요. 두번째 항목은 각 작업의 마지막 찾기 결과를 찾기 영역으로 사용합니"
-"다. 다른 항목들은 사용자 지정 찾기 영역입니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:917
-#: ../bibletime/util/cresmgr.cpp:917
-msgid "Select an item from the list to edit the search scope."
-msgstr "찾기 영역을 편집하려면 리스트에서 항목을 선택하세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:921
-#: ../bibletime/util/cresmgr.cpp:921
-msgid "Change the name of the selected search scope."
-msgstr "선택된 찾기 영역의 이름을 바꿉니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:925
-#: ../bibletime/util/cresmgr.cpp:925
-msgid ""
-"Change the search ranges of the selected search scope item. Have a look at "
-"the predefined search scopes to see how search ranges are constructed."
-msgstr ""
-"선택된 찾기 영역 항목의 찾기 범위를 변경합니다. 미리 정의된 찾기 영역을 보면 "
-"찾기 범위가 어떻게 구성되는지 알 수 있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:929
-#: ../bibletime/util/cresmgr.cpp:929
-msgid "Contains the search ranges which will be used for the search."
-msgstr "찾기에 사용될 찾기 범위를 포함하고 있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:933
-#: ../bibletime/util/cresmgr.cpp:933
-msgid ""
-"Add a new search scope. First enter an appropriate name, then edit the "
-"search ranges."
-msgstr ""
-"새로운 찾기 영역을 더합니다. 먼저 적절한 이름을 입력하고, 찾기 범위를 편집하"
-"세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:937
-#: ../bibletime/util/cresmgr.cpp:937
-msgid ""
-"Deletes the selected search scope. If you close the dialog using Cancel the "
-"settings won't be saved."
-msgstr ""
-"선택된 찾기 영역을 삭제합니다. 만약 취소 버튼을 이용해 창을 닫으면 설정이 저"
-"장되지 않습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:945
-#: ../bibletime/util/cresmgr.cpp:945
-msgid "The list of works chosen for the search."
-msgstr "찾기를 위해 선택된 작업 리스트"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:949
-#: ../bibletime/util/cresmgr.cpp:949
-msgid "This list contains the search result of the selected work."
-msgstr "이 리스트에는 선택된 작업에서 찾은 결과가 들어있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:953
-#: ../bibletime/util/cresmgr.cpp:953
-msgid "The text preview of the selected search result item."
-msgstr "선택된 찾기 결과 항목의 텍스트 미리보기"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:965
-#: ../bibletime/util/cresmgr.cpp:965
-msgid ""
-"This button is useful to scroll through the entries of the list. Press the "
-"button and move the mouse to increase or decrease the item."
-msgstr ""
-"이 버튼은 리스트의 항목을 보두 보는데 유용합니다. 버튼을 누르고 마우스를 움직"
-"이면 항목이 증가하거나 감소합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:969
-#: ../bibletime/util/cresmgr.cpp:969
-msgid "This button opens the search dialog with the work(s) of this window."
-msgstr "이 버튼을 누르면 이 창의 작업으로 찾기 대화상자를 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:974
-#: ../bibletime/util/cresmgr.cpp:974
-msgid "Go back one item in the display history."
-msgstr "표시 히스토리에서 한 항목만 뒤로 가세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:978
-#: ../bibletime/util/cresmgr.cpp:978
-msgid "Go forward one item in the display history."
-msgstr "표시 히스토리에서 한 항목만 앞으로 가세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:985
-#: ../bibletime/util/cresmgr.cpp:985
-msgid "This list contains the books which are available in this work."
-msgstr "이 리스트에는 이 작업에서 사용 가능한 책이 들어있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:989
-#: ../bibletime/util/cresmgr.cpp:989
-msgid "Show the next book of this work."
-msgstr "이 작업의 다음 책을 봅니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:993
-#: ../bibletime/util/cresmgr.cpp:993
-msgid "Show the previous book of this work."
-msgstr "이 작업의 이전 책을 봅니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:997
-#: ../bibletime/util/cresmgr.cpp:997
-msgid ""
-"This list contains the chapters which are available in the current book."
-msgstr "이 리스트에는 현재 책에서 사용가능한 장이 들어있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1001
-#: ../bibletime/util/cresmgr.cpp:1001
-msgid "Show the previous chapter of the work."
-msgstr "이 작업의 이전 장을 보여줍니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1005
-#: ../bibletime/util/cresmgr.cpp:1005
-msgid "Show the next chapter of the work."
-msgstr "이 작업의 다음 장을 보여줍니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1009
-#: ../bibletime/util/cresmgr.cpp:1009
-msgid ""
-"This list contains the verses which are available in the current chapter."
-msgstr "이 리스트에는 현재 장에서 사용가능한 절이 들어있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1013
-#: ../bibletime/util/cresmgr.cpp:1013
-msgid ""
-"In  Bible texts, the next verse will be highlighted. In commentaries, the "
-"next entry will be shown."
-msgstr ""
-"성경 본문에서는 다음 절이 하이라이트됩니다. 주석에서는 다음 항목이 표시됩니"
-"다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1017
-#: ../bibletime/util/cresmgr.cpp:1017
-msgid ""
-"In Bible texts, the previous verse will be highlighted. In commentaries, the "
-"previous entry will be shown."
-msgstr ""
-"성경 본문에서는 이전 절이 하이라이트됩니다. 주석에서는 이전 항목이 표시됩니"
-"다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1024
-#: ../bibletime/util/cresmgr.cpp:1024
-msgid ""
-"Synchronize the displayed entry of this work with the active Bible window."
-msgstr "이 작업의 표시된 항목을 활성화된 성경 창과 동기화합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1031
-#: ../bibletime/util/cresmgr.cpp:1031
-msgid "This list contains the entries of the current work."
-msgstr "이 리스트에는 현재 작업의 항목이 들어있습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1035
-#: ../bibletime/util/cresmgr.cpp:1035
-msgid "The next entry of the work will be shown."
-msgstr "이 작업의 다음 항목이 나타납니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1039
-#: ../bibletime/util/cresmgr.cpp:1039
-msgid "The previous entry of the work will be shown."
-msgstr "이 작업의 이전 항목이 나타납니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1047
-#: ../bibletime/util/cresmgr.cpp:1047
-msgid "Save the curent text into the work. The old text will be overwritten."
-msgstr "현재 텍스트를 작업에 저장합니다. 이전 텍스트는 지워집니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1051
-#: ../bibletime/util/cresmgr.cpp:1051
-msgid ""
-"Loads the old text from the work and loads it into the edit area. The "
-"unsaved text will be lost."
-msgstr ""
-"작업에서 이전 텍스트를 불러와 편집 영역으로 옮깁니다. 저장되지 않은 텍스트는 "
-"삭제됩니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1055
-#: ../bibletime/util/cresmgr.cpp:1055
-msgid "Deletes the current entry out of the work. The text will be lost."
-msgstr "현재 항목을 작업에서 삭제합니다. 텍스트는 삭제됩니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1061
-#: ../bibletime/util/cresmgr.cpp:1061
-msgid "Toggle bold formatting of the selected text."
-msgstr "선택된 텍스트의 굵기 지정을 전환합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1065
-#: ../bibletime/util/cresmgr.cpp:1065
-msgid "Toggle italic formatting of the selected text."
-msgstr "선택된 텍스트의 기울기 지정을 전환합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1069
-#: ../bibletime/util/cresmgr.cpp:1069
-msgid "Toggle underlined formatting of the selected text."
-msgstr "선택된 텍스트의 밑줄 긋기 지정을 전환합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1074
-#: ../bibletime/util/cresmgr.cpp:1074
-msgid "The text will be aligned on the left side of the page."
-msgstr "텍스트를 페이지의 왼쪽에 맞추어 정렬합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1078
-#: ../bibletime/util/cresmgr.cpp:1078
-msgid "Centers the text horizontally."
-msgstr "텍스트를 가로 방향 가운데로"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1082
-#: ../bibletime/util/cresmgr.cpp:1082
-msgid "Aligns the text on the right side of the page."
-msgstr "텍스트를 페이지의 오른쪽에 맞추어 정렬합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1086
-#: ../bibletime/util/cresmgr.cpp:1086
-msgid "Justifies the text on the page."
-msgstr "페이지의 텍스트를 양쪽으로 맞춥니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1091
-#: ../bibletime/util/cresmgr.cpp:1091
-msgid "Choose a new font for the selected text."
-msgstr "선택된 텍스트에 새 폰트를 선택합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1094
-#: ../bibletime/util/cresmgr.cpp:1094
-msgid "Choose a new font size for the selected text."
-msgstr "선택된 텍스트의 폰트 크기를 선택합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1097
-#: ../bibletime/util/cresmgr.cpp:1097
-msgid "Choose a new color for the selected text."
-msgstr "선택된 텍스트의 색을 선택합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1107
-#: ../bibletime/util/cresmgr.cpp:1107
-msgid "Activate this box to see a daily tip on startup."
-msgstr "시작할 때 오늘의 팁을 보려면 이 상자를 활성화하세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1111
-#: ../bibletime/util/cresmgr.cpp:1111
-msgid "Activate this to see the BibleTime logo on startup."
-msgstr "시작할 때 로고를 보려면 이 상자를 활성화하세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1115
-#: ../bibletime/util/cresmgr.cpp:1115
-msgid ""
-"Save the user's session when BibleTime is closed and restore it on the next "
-"startup."
-msgstr "바이블타임을 종료할 때 세션을 저장하고 다음번 시작 때 복구합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1122
-#: ../bibletime/util/cresmgr.cpp:1122
-msgid "The font selection below will apply to all texts in this language."
-msgstr "아래의 폰트 선택은 이 언어의 모든 텍스트에 적용됩니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1131
-#: ../bibletime/util/cresmgr.cpp:1131
-msgid "Contains the languages which can be used for the biblical booknames."
-msgstr "성경 이름을 위해 사용할 수 있는 언어 리스트"
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1138
-#: ../bibletime/util/cresmgr.cpp:1138
-msgid "The standard Bible is used when a hyperlink into a Bible is clicked."
-msgstr "성경 하이퍼링크를 클릭하면 기본 성경을 사용합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1142
-#: ../bibletime/util/cresmgr.cpp:1142
-msgid ""
-"The standard commentary is used when a hyperlink into a commentary is "
-"clicked."
-msgstr "주석 하이퍼링크를 클릭하면 기본 주석을 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1146
-#: ../bibletime/util/cresmgr.cpp:1146
-msgid ""
-"The standard lexicon is used when a hyperlink into a lexicon is clicked."
-msgstr "렉시컨 하이퍼링크를 클릭하면 기본 렉시컨을 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1150
-#: ../bibletime/util/cresmgr.cpp:1150
-msgid ""
-"The standard devotional will be used to display a short start up devotional."
-msgstr "짧은 묵상을 보여줄 때 기본 경건이 사용됩니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1154
-#: ../bibletime/util/cresmgr.cpp:1154
-msgid ""
-"The standard Hebrew lexicon is used when a hyperlink into a Hebrew lexicon "
-"is clicked."
-msgstr "히브리 렉시컨 하이퍼링크를 클릭하면 기본 히브리 렉시컨을 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1158
-#: ../bibletime/util/cresmgr.cpp:1158
-msgid ""
-"The standard Greek lexicon is used when a hyperlink into a Greek lexicon is "
-"clicked."
-msgstr "그리스 렉시컨 하이퍼링크를 클릭하면 기본 그리스 렉시컨을 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1162
-#: ../bibletime/util/cresmgr.cpp:1162
-msgid ""
-"The standard morphological lexicon for Hebrew texts is used when a hyperlink "
-"of a morphological tag in a Hebrew text is clicked."
-msgstr ""
-"히브리어 텍스트에서 형태학적 태그 하이퍼링크를 클릭하면 기본 히브리어 형태학"
-"적 태그를 엽니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1166
-#: ../bibletime/util/cresmgr.cpp:1166
-msgid ""
-"The standard morphological lexicon for Greek texts is used when a hyperlink "
-"of a morphological tag in a Greek text is clicked."
-msgstr ""
-"그리스어 형태학적 태그 하이퍼링크를 클릭하면 기본 그리스어 형태학적 태그를 엽"
-"니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/cresmgr.cpp:1175
-#: ../bibletime/util/cresmgr.cpp:1175
-msgid ""
-"Opens the search dialog to search in the work(s) that are currently open."
-msgstr "열린 작업에서 찾기 대화상자 열기"
-
-#: ../bibletime-1.5rc2/bibletime/util/ctoolclass.cpp:69
-#: ../bibletime/util/ctoolclass.cpp:69
-msgid "The file already exists."
-msgstr "파일이 이미 존재합니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/ctoolclass.cpp:70
-#: ../bibletime/util/ctoolclass.cpp:70
-msgid "Do you want to overwrite it?"
-msgstr "덮어쓸까요?"
-
-#: ../bibletime-1.5rc2/bibletime/util/ctoolclass.cpp:90
-#: ../bibletime/util/ctoolclass.cpp:90
-msgid "The file couldn't be saved."
-msgstr "파일을 저장할 수 없습니다."
-
-#: ../bibletime-1.5rc2/bibletime/util/ctoolclass.cpp:91
-#: ../bibletime/util/ctoolclass.cpp:91
-msgid "Please check permissions etc."
-msgstr "퍼미션 등을 점검하세요."
-
-#: ../bibletime-1.5rc2/bibletime/util/ctoolclass.cpp:200
-#: ../bibletime/util/ctoolclass.cpp:200
-msgid "not set"
-msgstr "설정 없음"
 
 #: ../bibletime/rc-dummy.cpp:2
 msgid "&Search"
@@ -2973,6 +1984,475 @@ msgstr ""
 "당신은 하나님의 영광을 위해 만들어진 프로그램을 사용하고 있습니다.<BR> 당신"
 "이 하나님의 말씀을 연구할 때 하나님이 복 주시기를 기원합니다!\n"
 
+#: ../bibletime/util/cresmgr.cpp:723
+msgid ""
+"Open the printer dialog of BibleTime, where you can edit the print queue, "
+"assign styles to the items and print them."
+msgstr ""
+"바이블 타임의 프린터 대화상자를 열면 인쇄 대기열을 편집하거나 목록에 스타일"
+"을 적용한 후 인쇄할 수 있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:727
+msgid "Close BibleTime and save the settings."
+msgstr "바이블타임 닫고 설정 저장하기"
+
+#: ../bibletime/util/cresmgr.cpp:734
+msgid "Show or hide the bookshelf."
+msgstr "책꽂이 보기 또는 감추기"
+
+#: ../bibletime/util/cresmgr.cpp:738
+msgid "Toggle the main toolbar view."
+msgstr "메인 툴바 보기 전환"
+
+#: ../bibletime/util/cresmgr.cpp:746
+msgid "Open the search dialog to search in all works that are currently open."
+msgstr "현재 열고 있는 모든 작업에서 찾기 위해서는 찾기 대화상자를 여세요."
+
+#: ../bibletime/util/cresmgr.cpp:750
+msgid "Open the search dialog to search in the standard Bible."
+msgstr "기본 성경에서 찾기 위해서는 찾기 대화상자를 여세요."
+
+#: ../bibletime/util/cresmgr.cpp:758
+msgid "Restore a saved BibleTime session."
+msgstr "바이블타임의 저장된 세션 복구"
+
+#: ../bibletime/util/cresmgr.cpp:762
+msgid "Save current BibleTime session so that it can be reused later."
+msgstr "나중에 다시 사용할 수 있도록 현재 바이블타임 세션을 저장합니다."
+
+#: ../bibletime/util/cresmgr.cpp:766
+msgid "Create and save a new session."
+msgstr "새 세션을 만들어 저장합니다."
+
+#: ../bibletime/util/cresmgr.cpp:770
+msgid "Delete a BibleTime session."
+msgstr "바이블타임 세션 삭제"
+
+#: ../bibletime/util/cresmgr.cpp:774
+msgid "Toggle fullscreen mode of the main window."
+msgstr "메인 윈도우의 전체 화면 모드를 전환합니다."
+
+#: ../bibletime/util/cresmgr.cpp:778
+msgid "Vertically tile the open windows."
+msgstr "열려진 창을 수직 배열."
+
+#: ../bibletime/util/cresmgr.cpp:782
+msgid "Horizontally tile the open windows."
+msgstr "열려진 창을 수평 배열."
+
+#: ../bibletime/util/cresmgr.cpp:786
+msgid "Cascade the open windows."
+msgstr "열려진 창을 순서대로 정렬."
+
+#: ../bibletime/util/cresmgr.cpp:791
+msgid "Choose the way that is used to arrange the windows."
+msgstr "창들을 배열하는 방식을 선택하세요."
+
+#: ../bibletime/util/cresmgr.cpp:795
+msgid "Automatically tile the open windows vertically."
+msgstr "자동 수직 타일식 배열"
+
+#: ../bibletime/util/cresmgr.cpp:799
+msgid "Automatically tile the open windows horizontally."
+msgstr "자동 수평 타일식 배열"
+
+#: ../bibletime/util/cresmgr.cpp:803
+msgid "Automatically cascade the open windows."
+msgstr "열려진 창을 자동으로 정렬합니다."
+
+#: ../bibletime/util/cresmgr.cpp:808
+msgid "Close all open windows."
+msgstr "열려진 모든 창을 닫습니다."
+
+#: ../bibletime/util/cresmgr.cpp:816
+msgid "Open BibleTime's toolbar editor."
+msgstr "바이블타임의 툴바 편집기를 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:820
+msgid "Open the dialog to set most of BibleTime's preferences."
+msgstr "바이블타임의 대부분의 설정을 위한 대화상자를 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:824
+msgid ""
+"Open the dialog to configure your bookshelf and install/update/remove works."
+msgstr ""
+"스워드를 설정하고 스워드 작업을 설치/업데이트하기 위한 대화창을 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:833
+msgid "Open BibleTime's handbook in the KDE helpbrowser."
+msgstr "바이블타임 핸드북을 KDE 도움말 프로그램에서 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:837
+msgid ""
+"Open the Bible study HowTo included with BibleTime in the KDE helpbrowser. "
+"<BR>This HowTo is an introduction on how to study the Bible in an efficient "
+"way."
+msgstr ""
+"바이블타임의 성경 공부 길잡이를 KDE 도움말 프로그램에서 엽니다.<BR> 이 길잡이"
+"는 성경을 어떻게 효과적으로 공부할 수 있을지에 대한 간단한 안내입니다."
+
+#: ../bibletime/util/cresmgr.cpp:841
+msgid "Send a bugreport to the developers of BibleTime."
+msgstr "바이블타임의 개발자에게 버그리포트를 보냅니다."
+
+#: ../bibletime/util/cresmgr.cpp:845
+msgid ""
+"Show a daily tip each time BibleTime starts. <BR>The tips contain important "
+"Bible quotations and helpful tips for using BibleTime."
+msgstr ""
+"바이블타임이 시작할 때 오늘의 팁을 보여줍니다.<BR> 여기에는 성경의 여러 인용"
+"구와 바이블타임을 사용하는데 유용한 팁들이 들어있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:849
+msgid "Show detailed information about BibleTime."
+msgstr "바이블타임에 대한 자세한 정보를 보여줍니다."
+
+#: ../bibletime/util/cresmgr.cpp:853
+msgid "Show detailed information about the KDE project."
+msgstr "KDE 프로젝트에 관한 자세한 정보를 보여줍니다."
+
+#: ../bibletime/util/cresmgr.cpp:863
+msgid "Start to search the text in each of the chosen work(s)."
+msgstr "각 선택된 작업에서 찾기를 시작합니다."
+
+#: ../bibletime/util/cresmgr.cpp:867
+msgid "Stop the active search."
+msgstr "현재 찾기를 중단합니다."
+
+#: ../bibletime/util/cresmgr.cpp:874
+msgid "Open a dialog to choose work(s) for the search."
+msgstr "찾기에 사용될 작업 선택 대화상자를 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:878
+msgid "Enter the text you want to search in the chosen work(s) here."
+msgstr "선택된 작업에서 찾고자 하는 단어를 여기에 입력하세요."
+
+#: ../bibletime/util/cresmgr.cpp:884
+msgid ""
+"Treat the search text as multiple words. A text must contain all of the "
+"words to match. The order of the words is unimportant."
+msgstr ""
+"찾기 텍스트를 여러 단어로 취급합니다. 검색되려면 모든 단어를 포함하고 있어야 "
+"합니다. 단어들의 순서는 중요하지 않습니다."
+
+#: ../bibletime/util/cresmgr.cpp:888
+msgid ""
+"Treat the search text as multiple words. A text must contain one or more "
+"words of to match. The order is unimportant."
+msgstr ""
+"찾기 텍스트를 여러 단어로 취급합니다. 검색되려면 한개 이상의 단어가 들어있어"
+"야 합니다. 단어의 순서는 중요하지 않습니다."
+
+#: ../bibletime/util/cresmgr.cpp:892
+msgid "The search text will be used exactly as entered."
+msgstr "찾기 텍스트는 입력된대로 사용됩니다."
+
+#: ../bibletime/util/cresmgr.cpp:896
+msgid ""
+"Treat the search string as a GNU regular expression. The BibleTime handbook "
+"contains an introduction to regular expressions."
+msgstr ""
+"찾기 문자열을 GNU의 정규 표현식으로 취급합니다. 바이블타임 핸드북에는 정규 표"
+"현식에 대한 소개가 들어있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:904
+msgid ""
+"If you choose this option the search will distinguish between upper and "
+"lowercase characters."
+msgstr "이 옵션을 선택하면 대문자와 소문자를 구별하여 찾습니다."
+
+#: ../bibletime/util/cresmgr.cpp:909
+msgid ""
+"Choose a scope from the list. \t\t\t\t\t\tSelect the first item to use no "
+"scope, the second one is to use each work's last search result as search "
+"scope. \t\t\t\t\t\tThe others are user defined search scopes."
+msgstr ""
+"리스트에서 찾기 영역을 선택합니다. 영역을 사용하지 않으려면 첫번째 항목을 선"
+"택하세요. 두번째 항목은 각 작업의 마지막 찾기 결과를 찾기 영역으로 사용합니"
+"다. 다른 항목들은 사용자 지정 찾기 영역입니다."
+
+#: ../bibletime/util/cresmgr.cpp:917
+msgid "Select an item from the list to edit the search scope."
+msgstr "찾기 영역을 편집하려면 리스트에서 항목을 선택하세요."
+
+#: ../bibletime/util/cresmgr.cpp:921
+msgid "Change the name of the selected search scope."
+msgstr "선택된 찾기 영역의 이름을 바꿉니다."
+
+#: ../bibletime/util/cresmgr.cpp:925
+msgid ""
+"Change the search ranges of the selected search scope item. Have a look at "
+"the predefined search scopes to see how search ranges are constructed."
+msgstr ""
+"선택된 찾기 영역 항목의 찾기 범위를 변경합니다. 미리 정의된 찾기 영역을 보면 "
+"찾기 범위가 어떻게 구성되는지 알 수 있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:929
+msgid "Contains the search ranges which will be used for the search."
+msgstr "찾기에 사용될 찾기 범위를 포함하고 있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:933
+msgid ""
+"Add a new search scope. First enter an appropriate name, then edit the "
+"search ranges."
+msgstr ""
+"새로운 찾기 영역을 더합니다. 먼저 적절한 이름을 입력하고, 찾기 범위를 편집하"
+"세요."
+
+#: ../bibletime/util/cresmgr.cpp:937
+msgid ""
+"Deletes the selected search scope. If you close the dialog using Cancel the "
+"settings won't be saved."
+msgstr ""
+"선택된 찾기 영역을 삭제합니다. 만약 취소 버튼을 이용해 창을 닫으면 설정이 저"
+"장되지 않습니다."
+
+#: ../bibletime/util/cresmgr.cpp:945
+msgid "The list of works chosen for the search."
+msgstr "찾기를 위해 선택된 작업 리스트"
+
+#: ../bibletime/util/cresmgr.cpp:949
+msgid "This list contains the search result of the selected work."
+msgstr "이 리스트에는 선택된 작업에서 찾은 결과가 들어있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:953
+msgid "The text preview of the selected search result item."
+msgstr "선택된 찾기 결과 항목의 텍스트 미리보기"
+
+#: ../bibletime/util/cresmgr.cpp:965
+msgid ""
+"This button is useful to scroll through the entries of the list. Press the "
+"button and move the mouse to increase or decrease the item."
+msgstr ""
+"이 버튼은 리스트의 항목을 보두 보는데 유용합니다. 버튼을 누르고 마우스를 움직"
+"이면 항목이 증가하거나 감소합니다."
+
+#: ../bibletime/util/cresmgr.cpp:969
+msgid "This button opens the search dialog with the work(s) of this window."
+msgstr "이 버튼을 누르면 이 창의 작업으로 찾기 대화상자를 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:974
+msgid "Go back one item in the display history."
+msgstr "표시 히스토리에서 한 항목만 뒤로 가세요."
+
+#: ../bibletime/util/cresmgr.cpp:978
+msgid "Go forward one item in the display history."
+msgstr "표시 히스토리에서 한 항목만 앞으로 가세요."
+
+#: ../bibletime/util/cresmgr.cpp:985
+msgid "This list contains the books which are available in this work."
+msgstr "이 리스트에는 이 작업에서 사용 가능한 책이 들어있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:989
+msgid "Show the next book of this work."
+msgstr "이 작업의 다음 책을 봅니다."
+
+#: ../bibletime/util/cresmgr.cpp:993
+msgid "Show the previous book of this work."
+msgstr "이 작업의 이전 책을 봅니다."
+
+#: ../bibletime/util/cresmgr.cpp:997
+msgid ""
+"This list contains the chapters which are available in the current book."
+msgstr "이 리스트에는 현재 책에서 사용가능한 장이 들어있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:1001
+msgid "Show the previous chapter of the work."
+msgstr "이 작업의 이전 장을 보여줍니다."
+
+#: ../bibletime/util/cresmgr.cpp:1005
+msgid "Show the next chapter of the work."
+msgstr "이 작업의 다음 장을 보여줍니다."
+
+#: ../bibletime/util/cresmgr.cpp:1009
+msgid ""
+"This list contains the verses which are available in the current chapter."
+msgstr "이 리스트에는 현재 장에서 사용가능한 절이 들어있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:1013
+msgid ""
+"In  Bible texts, the next verse will be highlighted. In commentaries, the "
+"next entry will be shown."
+msgstr ""
+"성경 본문에서는 다음 절이 하이라이트됩니다. 주석에서는 다음 항목이 표시됩니"
+"다."
+
+#: ../bibletime/util/cresmgr.cpp:1017
+msgid ""
+"In Bible texts, the previous verse will be highlighted. In commentaries, the "
+"previous entry will be shown."
+msgstr ""
+"성경 본문에서는 이전 절이 하이라이트됩니다. 주석에서는 이전 항목이 표시됩니"
+"다."
+
+#: ../bibletime/util/cresmgr.cpp:1024
+msgid ""
+"Synchronize the displayed entry of this work with the active Bible window."
+msgstr "이 작업의 표시된 항목을 활성화된 성경 창과 동기화합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1031
+msgid "This list contains the entries of the current work."
+msgstr "이 리스트에는 현재 작업의 항목이 들어있습니다."
+
+#: ../bibletime/util/cresmgr.cpp:1035
+msgid "The next entry of the work will be shown."
+msgstr "이 작업의 다음 항목이 나타납니다."
+
+#: ../bibletime/util/cresmgr.cpp:1039
+msgid "The previous entry of the work will be shown."
+msgstr "이 작업의 이전 항목이 나타납니다."
+
+#: ../bibletime/util/cresmgr.cpp:1047
+msgid "Save the curent text into the work. The old text will be overwritten."
+msgstr "현재 텍스트를 작업에 저장합니다. 이전 텍스트는 지워집니다."
+
+#: ../bibletime/util/cresmgr.cpp:1051
+msgid ""
+"Loads the old text from the work and loads it into the edit area. The "
+"unsaved text will be lost."
+msgstr ""
+"작업에서 이전 텍스트를 불러와 편집 영역으로 옮깁니다. 저장되지 않은 텍스트는 "
+"삭제됩니다."
+
+#: ../bibletime/util/cresmgr.cpp:1055
+msgid "Deletes the current entry out of the work. The text will be lost."
+msgstr "현재 항목을 작업에서 삭제합니다. 텍스트는 삭제됩니다."
+
+#: ../bibletime/util/cresmgr.cpp:1061
+msgid "Toggle bold formatting of the selected text."
+msgstr "선택된 텍스트의 굵기 지정을 전환합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1065
+msgid "Toggle italic formatting of the selected text."
+msgstr "선택된 텍스트의 기울기 지정을 전환합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1069
+msgid "Toggle underlined formatting of the selected text."
+msgstr "선택된 텍스트의 밑줄 긋기 지정을 전환합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1074
+msgid "The text will be aligned on the left side of the page."
+msgstr "텍스트를 페이지의 왼쪽에 맞추어 정렬합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1078
+msgid "Centers the text horizontally."
+msgstr "텍스트를 가로 방향 가운데로"
+
+#: ../bibletime/util/cresmgr.cpp:1082
+msgid "Aligns the text on the right side of the page."
+msgstr "텍스트를 페이지의 오른쪽에 맞추어 정렬합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1086
+msgid "Justifies the text on the page."
+msgstr "페이지의 텍스트를 양쪽으로 맞춥니다."
+
+#: ../bibletime/util/cresmgr.cpp:1091
+msgid "Choose a new font for the selected text."
+msgstr "선택된 텍스트에 새 폰트를 선택합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1094
+msgid "Choose a new font size for the selected text."
+msgstr "선택된 텍스트의 폰트 크기를 선택합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1097
+msgid "Choose a new color for the selected text."
+msgstr "선택된 텍스트의 색을 선택합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1107
+msgid "Activate this box to see a daily tip on startup."
+msgstr "시작할 때 오늘의 팁을 보려면 이 상자를 활성화하세요."
+
+#: ../bibletime/util/cresmgr.cpp:1111
+msgid "Activate this to see the BibleTime logo on startup."
+msgstr "시작할 때 로고를 보려면 이 상자를 활성화하세요."
+
+#: ../bibletime/util/cresmgr.cpp:1115
+msgid ""
+"Save the user's session when BibleTime is closed and restore it on the next "
+"startup."
+msgstr "바이블타임을 종료할 때 세션을 저장하고 다음번 시작 때 복구합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1122
+msgid "The font selection below will apply to all texts in this language."
+msgstr "아래의 폰트 선택은 이 언어의 모든 텍스트에 적용됩니다."
+
+#: ../bibletime/util/cresmgr.cpp:1131
+msgid "Contains the languages which can be used for the biblical booknames."
+msgstr "성경 이름을 위해 사용할 수 있는 언어 리스트"
+
+#: ../bibletime/util/cresmgr.cpp:1138
+msgid "The standard Bible is used when a hyperlink into a Bible is clicked."
+msgstr "성경 하이퍼링크를 클릭하면 기본 성경을 사용합니다."
+
+#: ../bibletime/util/cresmgr.cpp:1142
+msgid ""
+"The standard commentary is used when a hyperlink into a commentary is "
+"clicked."
+msgstr "주석 하이퍼링크를 클릭하면 기본 주석을 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:1146
+msgid ""
+"The standard lexicon is used when a hyperlink into a lexicon is clicked."
+msgstr "렉시컨 하이퍼링크를 클릭하면 기본 렉시컨을 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:1150
+msgid ""
+"The standard devotional will be used to display a short start up devotional."
+msgstr "짧은 묵상을 보여줄 때 기본 경건이 사용됩니다."
+
+#: ../bibletime/util/cresmgr.cpp:1154
+msgid ""
+"The standard Hebrew lexicon is used when a hyperlink into a Hebrew lexicon "
+"is clicked."
+msgstr "히브리 렉시컨 하이퍼링크를 클릭하면 기본 히브리 렉시컨을 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:1158
+msgid ""
+"The standard Greek lexicon is used when a hyperlink into a Greek lexicon is "
+"clicked."
+msgstr "그리스 렉시컨 하이퍼링크를 클릭하면 기본 그리스 렉시컨을 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:1162
+msgid ""
+"The standard morphological lexicon for Hebrew texts is used when a hyperlink "
+"of a morphological tag in a Hebrew text is clicked."
+msgstr ""
+"히브리어 텍스트에서 형태학적 태그 하이퍼링크를 클릭하면 기본 히브리어 형태학"
+"적 태그를 엽니다."
+
+#: ../bibletime/util/cresmgr.cpp:1166
+msgid ""
+"The standard morphological lexicon for Greek texts is used when a hyperlink "
+"of a morphological tag in a Greek text is clicked."
+msgstr ""
+"그리스어 형태학적 태그 하이퍼링크를 클릭하면 기본 그리스어 형태학적 태그를 엽"
+"니다."
+
+#: ../bibletime/util/cresmgr.cpp:1175
+msgid ""
+"Opens the search dialog to search in the work(s) that are currently open."
+msgstr "열린 작업에서 찾기 대화상자 열기"
+
+#: ../bibletime/util/ctoolclass.cpp:69
+msgid "The file already exists."
+msgstr "파일이 이미 존재합니다."
+
+#: ../bibletime/util/ctoolclass.cpp:70
+msgid "Do you want to overwrite it?"
+msgstr "덮어쓸까요?"
+
+#: ../bibletime/util/ctoolclass.cpp:90
+msgid "The file couldn't be saved."
+msgstr "파일을 저장할 수 없습니다."
+
+#: ../bibletime/util/ctoolclass.cpp:91
+msgid "Please check permissions etc."
+msgstr "퍼미션 등을 점검하세요."
+
+#: ../bibletime/util/ctoolclass.cpp:200
+msgid "not set"
+msgstr "설정 없음"
+
 #: clanguagemgr.cpp:185
 msgid "Afrikaans"
 msgstr "아프리카어"
@@ -3044,6 +2524,10 @@ msgstr "독일어"
 #: clanguagemgr.cpp:217
 msgid "Greek, Modern (1453-)"
 msgstr "현대 그리스어 (1453-)"
+
+#: clanguagemgr.cpp:218
+msgid "English"
+msgstr "영어"
 
 #: clanguagemgr.cpp:219
 msgid "American English"
