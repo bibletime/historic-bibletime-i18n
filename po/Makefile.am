@@ -5,7 +5,7 @@
 
 SUBDIRS = handbook howto
 
-POFILES = af.po bg.po cs.po de.po en_GB.po es.po fr.po fi.po hu.po it.po nl.po no.po nn_NO.po pl.po pt_br.po ro.po ru.po sk.po ua.po 
+POFILES = af.po bg.po cs.po de.po en_GB.po es.po fi.po fr.po hu.po it.po ko.po nl.po no.po nn_NO.po pl.po pt_br.po ro.po ru.po sk.po ua.po 
 
 GMOFILES = $(POFILES:.po=.gmo)
 

@@ -1,6 +1,6 @@
 <chapter id="hdbk-reference">
 <title
->Viittaus</title>
+>Referenz</title>
 
 <sect1 id="hdbk-reference-menus"
 ><title
@@ -14,7 +14,7 @@
 	<sect2 id="hdbk-reference-menus-file"
 ><title
 ><guimenu
->Tiedosto</guimenu
+>Datei</guimenu
 ></title>
 	
 	<para>
@@ -34,16 +34,16 @@
 ><imageobject
 > <imagedata fileref="i_exit.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Tiedosto</guimenu
+> File</guimenu
 > <guimenuitem
->Lopeta</guimenuitem
+>Quit</guimenuitem
 ></menuchoice
 ></term>
 		<listitem
 ><para
 ><action
->Sulkee BibleTime-ohjelman.</action
-> BibleTime kysyy sinulta, haluatko tallettaa tallentamattomat muutokset levylle.</para
+>Closes BibleTime.</action
+> BibleTime will ask you if you want to write unsaved changes to disk.</para
 ></listitem
 > 
 </varlistentry>
@@ -55,7 +55,7 @@
 	<sect2 id="hdbk-reference-menus-view"
 ><title
 ><guimenu
->Näytä</guimenu
+>Ansicht</guimenu
 ></title>
 	
 	<variablelist>
@@ -63,9 +63,9 @@
 			<term
 ><menuchoice
 ><guimenu
->Näytä</guimenu
+>View</guimenu
 > <guimenuitem
->Näytä työkalupalkki</guimenuitem
+>Show Toolbar</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
@@ -139,7 +139,7 @@
 	<sect2 id="hdbk-reference-menus-search"
 ><title
 ><guimenu
->Etsi</guimenu
+>Suchen</guimenu
 ></title>
 		<variablelist>
 
@@ -206,7 +206,7 @@
 	<sect2 id="hdbk-reference-menus-window"
 ><title
 ><guimenu
->Ikkuna</guimenu
+>Fenster</guimenu
 ></title>
 		<variablelist>
 
@@ -254,8 +254,8 @@
 			<listitem
 ><para
 ><action
->Tallettaa nykyisen istunnon uudella nimellä</action
->. Tämä kysyy uutta istunnontalletuksen nimeä.</para
+>Saves the current session under a new name</action
+>. This will ask for a new name to save the session to.</para
 ></listitem
 > 
 		</varlistentry>
@@ -473,7 +473,7 @@
 	<sect2 id="hdbk-reference-menus-settings"
 ><title
 ><guimenu
->Asetukset</guimenu
+>Einstellungen</guimenu
 ></title>
 		<variablelist>
 		
@@ -562,7 +562,7 @@
 	<sect2 id="hdbk-reference-menus-help"
 ><title
 ><guimenu
->Help</guimenu
+>Hilfe</guimenu
 ></title
 > &help.menu.documentation; </sect2>
 	
@@ -624,7 +624,7 @@
   <entry
 >Hotkey</entry>
   <entry
->Kuvaus</entry>
+>Description</entry>
 </row>
 </thead>
 <tbody>
@@ -924,7 +924,7 @@
 > </keycombo
 ></entry>
   <entry
->Siirtää Raamatun tai kommentaarin lukuikkunan seuraavaan lukuun.</entry>
+>Moves a bible or commentary read window to the next chapter.</entry>
 </row>
 <row>
   <entry
@@ -934,7 +934,7 @@
 > </keycombo
 ></entry>
   <entry
->Siirtää Raamatun tai kommentaarin lukuikkunan seuraavaan kirjaan.</entry>
+>Moves a bible or commentary read window to the next book.</entry>
 </row>
 <row>
   <entry
@@ -944,7 +944,7 @@
 > </keycombo
 ></entry>
   <entry
->Siirtää lukuikkunan seuraavaan jakeeseen tai kohtaan.</entry>
+>Moves a read window to the next verse or entry.</entry>
 </row>
 
 
@@ -984,7 +984,7 @@
 > </keycombo
 ></entry>
   <entry
->Siirtää Raamatun tai kommentaarin lukuikkunan edelliseen kirjaan.</entry>
+>Moves a bible or commentary read window to the previous book.</entry>
 </row>
 <row>
   <entry
@@ -994,7 +994,7 @@
 > </keycombo
 ></entry>
   <entry
->Siirtää lukuikkunan edelliseen jakeeseen tai kohtaan.</entry>
+>Moves a read window to the previous verse or entry.</entry>
 </row>
 
 <row>
@@ -1113,7 +1113,7 @@
 
 <sect2 id="hdbk-reference-regexp-introduction">
 <title
->Johdanto</title>
+>Einleitung</title>
 
 <para
 >Regular expression searches provide a way to do simple or complex searches for strings that match a pattern or set of patterns (branches) separated by vertical bars "|". While a pattern can be built to look for a word or phrase, a simple pattern that consists of a word does not look for only that word but for any place where that word is found. A search for "right" will return verses that contain the word "right", but also "<emphasis
@@ -1151,7 +1151,7 @@
 
 <sect2 id="hdbk-reference-regexp-characters">
 <title
->Erikoismerkit</title>
+>Special characters</title>
 
 <itemizedlist>
 <listitem
@@ -1210,8 +1210,8 @@
 ></listitem>
 <listitem
 ><para
->( ) Parentheses enclose expressions for grouping. <emphasis
->Not supported!</emphasis
+>( ) Runde Klammern gruppieren Ausdrücke. <emphasis
+>Wird nicht unterstützt!</emphasis
 ></para
 ></listitem>
 <listitem
@@ -1325,19 +1325,19 @@
 <title
 >The question mark ?</title>
 <para
->The Question Mark matches zero or one character of the preceding: set, character or indicated character. <emphasis
+>Das Fragezeichen findet 0 oder mehr Zeichen des vorhergehenden Sets, Zeichens oder besonderen Zeichens. <emphasis
 >be?n</emphasis
-> matches <emphasis
+> findet <emphasis
 >ben</emphasis
-> and <emphasis
+> und <emphasis
 >bn</emphasis
-> but not <emphasis
+> jedoch nicht <emphasis
 >been</emphasis
 >. <emphasis
 >trees?</emphasis
-> matches <emphasis
+> findet <emphasis
 >trees</emphasis
-> or <emphasis
+> oder <emphasis
 >tree</emphasis
 >.</para>
 </sect3>
@@ -1377,15 +1377,15 @@
 <title
 >The caret first in square brackets [^xxx]</title>
 <para
->If the Caret is the first character after the left bracket it means NOT. <emphasis
+>Wenn das Hochzeichen das erste Zeichen nach der linken Klammer ist, hat es die Bedeutung von NICHT. <emphasis
 >s[^io]t</emphasis
-> matches <emphasis
+> findet <emphasis
 >set, sat</emphasis
->, etc., but not <emphasis
+>, usw., jedoch nicht <emphasis
 >s</emphasis
 >i<emphasis
 >t</emphasis
-> and <emphasis
+> und <emphasis
 >s</emphasis
 >o<emphasis
 >t</emphasis
@@ -1458,7 +1458,7 @@
 >The parentheses ( ) </title>
 <para
 ><emphasis
->The use of Parentheses ( ) is not supported!</emphasis
+>Die Benutzung der runden Klammern () wird nicht unterstützt.</emphasis
 ></para>
 </sect3>
 
@@ -1480,7 +1480,7 @@
 >The backslash prior to an ordinary character \s</title>
 
 <para
->The Backslash prior to an ordinary character indicates that the character is not being used to match itself, but has special meaning.</para>
+>Der Backslash vor einem normalen Zeichen bedeutet, dass dieses statt der normalen Bedeutung eine besondere haben soll.</para>
 
 <itemizedlist>
 <listitem
@@ -1497,27 +1497,27 @@
 ></listitem>
 <listitem
 ><para
->\B means non-word boundary. <emphasis
+>\B steht für keine Wortgrenze. <emphasis
 >\Brighteous\B</emphasis
-> matches un<emphasis
+> findet un<emphasis
 >righteous</emphasis
->ness and un<emphasis
+>ness und un<emphasis
 >righteous</emphasis
->ly but not <emphasis
+>ly, jedoch nicht <emphasis
 >righteous</emphasis
 >, un<emphasis
 >righteous</emphasis
-> or <emphasis
+> oder <emphasis
 > righteous</emphasis
 >ness.</para
 ></listitem>
 <listitem
 ><para
->\d means digit; same as [0-9].</para
+>\d steht für Zahlen; das Gleiche wie [0-9].</para
 ></listitem>
 <listitem
 ><para
->\D means non-digit, same as [^0-9].</para
+>\D steht für nicht-Zahlen; das Gleiche wie [^0-9].</para
 ></listitem>
 <listitem
 ><para
@@ -1529,11 +1529,11 @@
 ></listitem>
 <listitem
 ><para
->\w means alphanumeric; same as [a-zA-Z0-9_].</para
+>\w bedeutet alphanumerisch; das Gleiche wie [a-zA-Z0-9_].</para
 ></listitem>
 <listitem
 ><para
->\W means not alphanumeric; same as [^a-zA-Z0-9_].</para
+>\W bedeutet nicht-alphanumerisch; das Gleiche wie [^a-zA-Z0-9_].</para
 ></listitem>
 </itemizedlist>
 </sect3>

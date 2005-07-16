@@ -42,9 +42,9 @@
 >Hier funktioniert Drag&amp;Drop</para
 ></tip>
 <para
->There is a shortcut for opening a work at the same place of another work that you are already reading. Simply click with the <mousebutton
+>If you are reading a certain work, and want to open another work at the passage you are reading, you can use a shortcut. Simply click with the <mousebutton
 >left mouse button</mousebutton
-> on the verse reference (pointer changes to hand) and drag it to the Bookshelf. Drop it on the work you want to open, and it will be opened for reading at the specified location. You can also drag a verse reference into an existing read window, then it will jump to the specified location.</para>
+> on the verse/passage reference (pointer changes to hand) and drag it to the Bookshelf. Drop it on the work you want to open, and it will be opened for reading at the specified location. You can also drag a verse reference into an existing read window, then it will jump to the specified location.</para>
 </sect3>
 
 <sect3 id="hdbk-op-parts-bookshelf-metainfo">
@@ -55,9 +55,9 @@
 >right</mousebutton
 > mouse button on the symbol of a work, you will see a menu with additional entries that are relevant for this work. <guimenuitem
 >"About this work"</guimenuitem
-> opens a window with information about copyright andother pertinent things about the selected document. <guimenuitem
+> opens a window with lots of interesting information about the selected work. <guimenuitem
 >"Unlock this work"</guimenuitem
-> opens a small dialog for encrypted documents, where you can enter the unlock key to access the module. For additional information on locked modules, please see <ulink url="http://www.crosswire.org/sword/modules/aboutlocked.jsp"
+> opens a small dialog for encrypted documents, where you can enter the unlock key to access the work. For additional information on locked works, please see <ulink url="http://www.crosswire.org/sword/modules/aboutlocked.jsp"
 >this page</ulink
 > on the Crosswire Bible Society web site. </para>
 </sect3>
@@ -107,7 +107,7 @@
 <title
 >The Mag(nifying glass)</title>
 <para
->This little window in the lower left corner of the &bibletime; window is purely passive. Whenever you mouse cursor is located over some text with additional information (e.g., Strong`s numbers), then this additional information will be displayed in the Mag, and not in the text itself. Just try it out.</para>
+>This little window in the lower left corner of the &bibletime; window is purely passive. Whenever your mouse cursor is located over some text with additional information (e.g., Strong's numbers), then this additional information will be displayed in the Mag, and not in the text itself. Just try it out.</para>
 </sect2>
 
 
@@ -117,7 +117,9 @@
 <para
 >The Desk is where the real work with &bibletime; takes place. Here you can open works from the Bookshelf, read them, <link linkend="hdbk-op-search"
 >search</link
-> in them, and even save your annotations in the personal commentary module.</para>
+> in them, and even save your annotations in the personal commentary module (see <link linkend="hdbk-op-parts-desk-write"
+>below</link
+>).</para>
 
 <sect3 id="hdbk-op-parts-desk-read">
 <title
@@ -126,7 +128,7 @@
 <para
 >As we have <link linkend="hdbk-op-parts-bookshelf-open"
 >already seen</link
->, you can open works for reading simply by clicking on their symbol in the Bookshelf. A read window will open in the Desk`s area. Every read window has a toolbar. There you can find facilities to navigate in the work that this read window is connected to, as well as history buttons like the ones that you know from your browser.</para>
+>, you can open works for reading simply by clicking on their symbol in the Bookshelf. A read window will open in the Desk's area. Every read window has a toolbar. There you can find tools to navigate in the work that this read window is connected to, as well as history buttons like the ones that you know from your browser.</para>
 </sect3>
 
 <sect3 id="hdbk-op-parts-desk-placement">
@@ -134,7 +136,7 @@
 >Read window placement</title
 > 
 <para
->Of course, you open multiple works at the same time. There are several possibilities for arranging the read windows on the desk. Please have a look at the entry <guimenu
+>Of course, you can open multiple works at the same time. There are several possibilities for arranging the read windows on the desk. Please have a look at the entry <guimenu
 >Window</guimenu
 > in the main menu. There you can see that you can either control the placement of the read windows completely yourself, or have &bibletime; handle the placement automatically. To achieve this, you have to select one of the automatic placement modes available at <menuchoice
 ><guimenu
@@ -142,7 +144,7 @@
 ><guimenuitem
 >Arrangement mode</guimenuitem
 ></menuchoice
->. Just try it out, it`s simple and works. </para>
+>. Just try it out, it's simple and works. </para>
 </sect3>
 
 <sect3 id="hdbk-op-parts-desk-write">
@@ -150,27 +152,27 @@
 >Bearbeiten Sie ihren eigenen Kommentar</title
 > 
 <para
->To be able to store your own comments about parts of the Bible, you have to work with a certain work from the library of the <ulink url="http://www.crosswire.org"
+>To be able to store your own comments about parts of the Bible, you have install a certain work from the library of the <ulink url="http://www.crosswire.org"
 >Crosswire Bible Society</ulink
 >. This work is called "Personal commentary".</para>
 <para
 >If you open the personal commentary by clicking on its symbol in the Bookshelf with a <mousebutton
 >left</mousebutton
-> mouse button, it opens in read mode. You will not be able to edit it in this mode. Should you wish write comments into the personal commentary, you have to open it with the <mousebutton
+> mouse button, it opens in read mode. You will not be able to edit it in this mode. Should you wish to write annotations into the personal commentary, you have to open it with the <mousebutton
 >right</mousebutton
 > mouse button and then select <guimenu
->Edit this module</guimenu
+>Edit this work</guimenu
 > and then either <guimenuitem
 >Plain text</guimenuitem
 >(source code editor) or <guimenuitem
->HTML </guimenuitem
+>HTML</guimenuitem
 >(basic gui wysiwyg editor).</para>
 
 <tip
 ><para
 >If <menuchoice
 ><guimenu
->Edit this module</guimenu
+>Edit this work</guimenu
 ></menuchoice
 > is deactivated, please check if you have write permission for the files of the personal commentary.</para
 ></tip>
@@ -197,17 +199,19 @@
 <para
 >You can search in a work by clicking with the <mousebutton
 >right</mousebutton
-> mouse button it symbol in the <guimenu
+> mouse button on its symbol in the <guimenu
 >Bookshelf</guimenu
 > and selecting <guimenuitem
 >Search in work(s)</guimenuitem
->. By holding &Shift; or &Ctrl; and clicking on other module names you can select more than one. Then follow the same procedure to open the search dialog. You will be searching in all of these works at the same time.</para>
+>. By holding &Shift; or &Ctrl; and clicking on other work's names you can select more than one. Then follow the same procedure to open the search dialog. You will be searching in all of these works at the same time.</para>
 <para
 >You can also access the search dialog by clicking on <menuchoice
 ><guimenu
 >Search</guimenu
 ></menuchoice
 > from the main menu, and selecting the appropriate entry.</para>
+<para
+>A third possibility to start searches is to click on the search symbol in an open read window.</para>
 </sect2>
 
 <sect2 id="hdbk-op-search-config">
@@ -225,7 +229,7 @@
 </mediaobject>
 </screenshot>
 
-<sect3 id="hdbk-op-search-config-modules">
+<sect3 id="hdbk-op-search-config-works">
 <title
 >Selecting works</title>
 <para
@@ -327,10 +331,12 @@
 <para
 >With the <guimenu
 >Text type</guimenu
-> selector you can narrow your search according to the kind of text you want to search in. Thus you can limit your search to include only headings, footnotes, Strong`s numbers or morphological codes. Of course, this will only function if the work you want to search in has these features. You can test this with the KJV, a richly marked up English Bible.</para>
+> selector you can narrow your search according to the kind of text you want to search in. Thus you can limit your search to include only headings, footnotes, Strong's numbers or morphological codes. Of course, this will only function if the work you want to search in has these features. You can test this with the KJV, a richly marked up English Bible.</para>
 
 <tip
->A neat side-effect of this feature is that it enables you to search for all places where a certain word in the greek or hebrew text occurs, and study the usage of that word. E.g., if you want to look for all occurrences of the word "oikos" (house) in the New Testament, first locate a verse where the word "oikos" is found (search for "house" in the New Testament). Find out the Strong`s number of "oikos", which in this case is "G3624". Then you can limit your search to Strong`s numbers, and search for "G3624". You will find all verses where this word is found in the original greek text.</tip>
+><para
+>A neat side-effect of this feature is that it enables you to search for all places where a certain word in the greek or hebrew text occurs, and study the usage of that word. E.g., if you want to look for all occurrences of the word "oikos" (house) in the New Testament, first locate a verse where the word "oikos" is found (search for "house" in the New Testament). Find out the Strong's number of "oikos", which in this case is "G3624". Then you can limit your search to Strong's numbers, and search for "G3624". You will find all verses where this word is found in the original greek text.</para
+></tip>
 
 </sect3>
 
@@ -360,11 +366,17 @@
 > mouse button allows you to copy, save, or print all verses that were found in a certain work at once. This also works when you click on one or more of the references to copy, save or print them. Clicking on a particular reference opens that verse up in context in the preview window below.</para>
 
 <tip
->Drag a reference and drop it on a work symbol on the Bookshelf to open the work at that verse in a new read window.</tip>
+><para
+>Drag a reference and drop it on a work symbol on the Bookshelf to open the work at that verse in a new read window.</para
+></tip>
 <tip
->Drag a reference and drop it on an open read window, and it will jump to that verse.</tip>
+><para
+>Drag a reference and drop it on an open read window, and it will jump to that verse.</para
+></tip>
 <tip
->Select references and drag them to the Bookshelf to create bookmarks.</tip>
+><para
+>Select references and drag them to the Bookshelf to create bookmarks.</para
+></tip>
 
 <sect3 id="hdbk-op-search-analysis">
 <title
@@ -398,7 +410,13 @@
 <para
 >The <guimenuitem
 >Bookshelf Manager</guimenuitem
-> is a tool to manage your Bookshelf. You can install new works to your Bookshelf, and update or remove existing works from your Bookshelf.</para>
+> is a tool to manage your Bookshelf. You can install new works to your Bookshelf, and update or remove existing works from your Bookshelf. Access it by clicking <menuchoice
+><guimenu
+>Settings</guimenu
+><guimenuitem
+>Bookshelf Manager</guimenuitem
+></menuchoice
+> in the main menu.</para>
 
 <sect2 id="hdbk-op-bookshelfmanager-path">
 <title
@@ -408,7 +426,9 @@
 >Here you can specify where &bibletime; may store your Bookshelf on the harddrive. You can even store it in multiple directories. Default is "~/.sword/".</para>
 
 <tip
->If you have a sword CD, but do not want to install all the works on the harddisk, but use them directly from the CD, then you can add the path to the CD as one of your bookshelf paths. When you start &bibletime;, it will show all works on the CD if it is present.</tip>
+><para
+>If you have a sword CD, but do not want to install all the works on the harddisk, but use them directly from the CD, then you can add the path to the CD as one of your bookshelf paths. When you start &bibletime;, it will show all works on the CD if it is present.</para
+></tip>
 </sect2>
 
 <sect2 id="hdbk-op-bookshelfmanager-installupdate">
@@ -416,7 +436,7 @@
 >Install/update work(s)</title>
 
 <para
->With this facility, you can connect to a repository of works (called "library"), and transfer one or more works to your local Bookshelf. These libraries may be local (e.g. a Sword CD), or remote (e.g. Crosswire`s online repository of Sword modules, or another site offering Sword modules). You can manage your libraries with <guibutton
+>With this facility, you can connect to a repository of works (called "library"), and transfer one or more works to your local Bookshelf. These libraries may be local (e.g. a Sword CD), or remote (e.g. Crosswire's online repository of Sword modules, or another site offering Sword modules). You can manage your libraries with <guibutton
 >Add library</guibutton
 > and <guibutton
 >Delete library</guibutton

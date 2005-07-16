@@ -4,14 +4,16 @@
 
 <para
 >In this section you find a description of the different possibilities to configure &bibletime;: The <link linkend="hdbk-config-bt"
->Preferences Dialog </link
+>Configure BibleTime Dialog </link
 > and the <link linkend="hdbk-config-toolbar"
 >Configure Toolbars</link
-> dialog.</para>
+> dialog. Both can be accessed under <guimenu
+>Settings</guimenu
+> in the main menu.</para>
 
 <sect1 id="hdbk-config-bt"
 ><title
->Preferences Dialog</title>
+>Configure BibleTime Dialog</title>
 
 	<para
 >The &bibletime; user interface can be customized in many ways depending on your needs. You can access the configuration dialog by selecting <menuchoice
@@ -22,29 +24,38 @@
 >Configure &bibletime;</guimenuitem
 >.</para>
 
-	<sect2 id="hdbk-config-bt-startup"
+	<sect2 id="hdbk-config-bt-display"
 ><title
 ><guimenu
->Käynnistys</guimenu
+>Display</guimenu
 ></title>
 	
 		<para
->Käynnistyskäyttäytymistä voidaan säätää. Valitse seuraavista valinnoista:</para>
-		<itemizedlist>
-		<listitem
->Näytä päivän vihje</listitem>
-		<listitem
->Näytä aloituskuva</listitem>
-		<listitem
->Palauta ikkunat edellisen &bibletime; istuntokerran mukaisiksi</listitem>
-		</itemizedlist>
+>Käynnistyskäyttäytymistä voidaan säätää. Valitse seuraavista valinnoista: <itemizedlist>
+				<listitem
+><para
+>Näytä päivän vihje</para
+></listitem>
+				<listitem
+><para
+>Näytä aloituskuva</para
+></listitem>
+			</itemizedlist>
+		</para>
+		<para
+>Display templates define the rendering of text (colors, size etc.). Various built-in templates are available. If you select one, you will see a preview on the right pane.</para>
+
 	</sect2>
 	
-	<sect2 id="hdbk-config-bt-fonts"
+	<sect2 id="hdbk-config-bt-languages"
 ><title
 ><guimenu
->Kirjasimet</guimenu
+>Languages</guimenu
 ></title>
+	
+	<para
+>Here you can specify which language should be used for the biblical booknames. Set this to your native language, if it is available, and you'll feel at home.</para>
+	
 	<para
 >Oletuksena &bibletime; käyttää &kde;:n yleisiä näyttökirjasimia, jotka voidaan asettaa  &kcontrolcenter; (Ohjauskeskuksessa). Voit korvata tarvittaessa tämän kirjasimen. Jotkut kielet tarvitsevat erikoiskirjasimia näkyäkseen oikein, ja tällä ikkunalla voit määrittää omat kirjasimet kullekin kielelle.</para>
 	
@@ -63,25 +74,16 @@
 	</mediaobject>
 
 		<para
->&bibletime; can now use all fonts supported by KDE/QT. These may be Bitmap Fonts, <trademark class="registered"
->Adobe</trademark
-> Type1 Fonts, <trademark class="registered"
->Adobe</trademark
-> Type3 fonts, or <trademark class="registered"
->TrueType</trademark
->.</para>
+>&bibletime; can now use all fonts supported by KDE/QT. As long as the works you are interested in display correctly nothing needs to be done here. If a work only displays as a series of question marks (??????) or empty boxes, then you know that the standard KDE display font does not contain the characters used in this work.</para>
 	
 		<para
->As long as the modules you are interested in display correctly nothing needs to be done here. If a module only displays as a series of question marks (??????) or empty boxes, then you know that the standard KDE display font does not contain the characters used in this module.</para>
-	
-		<para
->To correct this, choose this module`s language from the drop down menu. Select the use custom font checkbox. Now select a font. For example, a font that supports many languages is Code2000. If no installed font can display the module you are interested in, try installing the &kde; localization package for that language.</para>
+>To correct this, choose this work's language from the drop down menu. Select the use custom font checkbox. Now select a font. For example, a font that supports many languages is Code2000. If no installed font can display the work you are interested in, try installing the &kde; localization package for that language.</para>
 		
 		<sect3 id="hdbk-config-bt-addfont"
 ><title
 >Kirjasimien asennus</title>
 			<para
->Detailed font installation instructions are outside the scope of this handbook. &kde;`s <ulink url="help:/kcontrol/index.html"
+>Detailed font installation instructions are outside the scope of this handbook. &kde;'s <ulink url="help:/kcontrol/index.html"
 >KControl Center</ulink
 > contains an excellent and easy to use font installation module. Please read <ulink url="help:/kcontrol/kcmfontinst/index.html"
 > its documentation</ulink
@@ -104,19 +106,27 @@
 >Fonts can be obtained from a number of sources:</para>
 			<itemizedlist>
 			<listitem
->Distribuutiosi.</listitem>
+><para
+>Your Linux distribution.</para
+></listitem>
 			<listitem
->Distribuutiosi lokalisointipaketit.</listitem>
+><para
+>Distribuutiosi lokalisointipaketit.</para
+></listitem>
 			<listitem
->Olemassaoleva &Microsoft; &Windows; asennus samalla tietokoneella.</listitem>
+><para
+>An existing <trademark class="registered"
+>Microsoft Windows</trademark
+> installation on the same computer.</para
+></listitem>
 			<listitem
->A font collection, such as are available from <trademark class="registered"
->Adobe</trademark
-> or <trademark class="registered"
->Bitstream</trademark
->.</listitem>
+><para
+>A font collection, such as are available from Adobe or Bitstream.</para
+></listitem>
 			<listitem
->Online font collections.</listitem>
+><para
+>Online font collections.</para
+></listitem>
 			</itemizedlist>
 	
 			<para
@@ -202,63 +212,28 @@
 		</sect3>
 	</sect2>
 	
-	<sect2 id="hdbk-config-bt-profiles"
-><title
-><guimenu
->Näytä mallipohjat</guimenu
-></title>
-	
-		<para
->Display templates define the rendering of text (colors, size etc.). Various built-in templates are available. If you select one, you will see a preview on the right pane.</para>
-		
-	</sect2>
-	
-	<sect2 id="hdbk-config-bt-profiles"
-><title
-><guimenu
->Istunnot</guimenu
-></title>
-	
-		<para
->Sessions define the appearance of the work area, for example which windows are open and which texts should be displayed in these windows. Once a session is created, you can use the menu item <menuchoice
-><guimenu
->Window</guimenu
-> <guimenuitem
->Save session</guimenuitem
-></menuchoice
-> to save the current session into an existing session file. Use <menuchoice
-><guimenu
->Window</guimenu
-><guimenuitem
->Load session </guimenuitem
-></menuchoice
-> to load a an existing session into &bibletime;. Play around with this helpful feature to see what you can do with it. For example, you might want to create one session with modules that you use for Bible study, and another one for devotional reading. Once you created and saved those sessions, you can switch between them quickly.</para>
-		
-	</sect2>
 
-	<sect2 id="hdbk-config-bt-sword"
+	<sect2 id="hdbk-config-bt-desk"
 ><title
 ><guimenu
->Sword</guimenu
+>Desk</guimenu
 ></title>
 	
 		<para
->Many features provided by the Sword backend can now be customized in &bibletime;. These features are documented right in the dialog.</para>
+>Many features provided by the Sword backend can now be customized in &bibletime;. These features are documented right in the dialog. You also have the possibility to specify standard works that should be used when no specific work is specified in a reference. An example: The standard Bible is used to display the content of crossreferences in the Bible. When you hover over then, the Mag will show the content of the verses referred to, according to the standard Bible you specified.</para>
 		
 	</sect2>
 	
-	<sect2 id="hdbk-config-bt-Accelerators"
+	<sect2 id="hdbk-config-bt-hotkeys"
 ><title
 ><guimenu
 >HotKeys</guimenu
 ></title>
 	
-	<!-- TODO: RECREATE FONTCONFIG SCREENSHOT-->
-	
 		<para
 >HotKeys are special key commands that can be used in the place of the menu items and icons. A number of &bibletime;'s commands have predefined HotKeys (see <link linkend="hdbk-reference-hotkeys"
 >this section</link
-> for a complete listing). All of &bibletime;'s commands can be assigned HotKeys here. This is very helpful to quickly access the functions that you need the most.</para>
+> for a complete listing). Most of &bibletime;'s commands can be assigned HotKeys here. This is very helpful to quickly access the functions that you need the most.</para>
 	
 	</sect2>
 
@@ -267,24 +242,27 @@
 		
 	<sect1 id="hdbk-config-toolbar"
 ><title
->Toolbar configuration dialog</title>
-	<!-- THIS SECTION IS FINISHED -->
+>Configure Toolbars dialog</title>
 	<para
 >You can adapt the toolbar to your needs. Please use the following entry in the main menu: <variablelist
-> <varlistentry
-> <term
+> <varlistentry>
+			<term
 ><menuchoice
 ><guimenu
 > <inlinemediaobject
 ><imageobject
 > <imagedata fileref="i_configuretoolbars.png" format="PNG"/></imageobject
-></inlinemediaobject
-> Settings</guimenu
+> </inlinemediaobject
+>Settings </guimenu
 > <guimenuitem
 >Configure toolbars</guimenuitem
 ></menuchoice
 ></term
 > 
+			<listitem
+><para
+>Configure toolbars</para
+></listitem>
 		</varlistentry>
 	</variablelist>
 	</para>
@@ -299,10 +277,16 @@
 >Toolbar configuration dialog</phrase
 ></textobject>
 		<caption
->The Toolbar configuration dialog.</caption>
+><para
+>The Toolbar configuration dialog.</para
+></caption>
 	</mediaobject>
 	<para
 >Use the 4 buttons in the middle of the window to move buttons to the toolbar, away from the toolbar or to sort them on the toolbar according to your preference. </para>
+	<para
+>Please see <link linkend="hdbk-reference-menus-settings-toolbars"
+>this section</link
+> for further information.</para>
 	</sect1>
 
 </chapter>
