@@ -16,6 +16,12 @@
 # Ilpo Kantonen <ilpo@iki.fi>, 2005.
 #
 # #-#-#-#-#  fi.po (handbook)  #-#-#-#-#
+# #-#-#-#-#  full.po (full)  #-#-#-#-#
+# translation of full.po to finnish
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Ilpo Kantonen <ilpo@iki.fi>, 2005.
+#
+# #-#-#-#-#  fi.po (handbook)  #-#-#-#-#
 # translation of handbook.po to finnish
 # Copyright (C) 2005 Free Software Foundation, Inc.
 # Ilpo Kantonen <ilpo@iki.fi>, 2005.
@@ -32,6 +38,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-xml2pot; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  full.po (full)  #-#-#-#-#\n"
+"X-Generator: KBabel 1.10.1\n"
+"#-#-#-#-#  fi.po (handbook)  #-#-#-#-#\n"
 "#-#-#-#-#  full.po (full)  #-#-#-#-#\n"
 "X-Generator: KBabel 1.10.1\n"
 "#-#-#-#-#  fi.po (handbook)  #-#-#-#-#\n"
@@ -1333,236 +1342,6 @@ msgid ""
 "editing tools on your system to format your document, rather than printing "
 "from &bibletime; directly."
 msgstr ""
-
-#. Tag: title
-#: hdbk-start.docbook:1
-#, no-c-format
-msgid "Starting &bibletime;"
-msgstr "&bibletime;n käynnistys"
-
-#. Tag: title
-#: hdbk-start.docbook:3
-#, no-c-format
-msgid "How to start &bibletime;"
-msgstr "Kuinka &bibletime; käynnistetään"
-
-#. Tag: title
-#: hdbk-start.docbook:5
-#, no-c-format
-msgid "Starting &bibletime; from KDE"
-msgstr "&bibletime;n käynnistys KDE:stä"
-
-#. Tag: para
-#: hdbk-start.docbook:7
-#, no-c-format
-msgid ""
-"&bibletime; is a &kde; program and is integrated with the &kde; desktop. You "
-"can launch &bibletime; from the &kde; Start Menu in the Applications group "
-"with this icon:"
-msgstr ""
-
-#. Tag: phrase
-#: hdbk-start.docbook:13
-#, no-c-format
-msgid "&bibletime; start icon"
-msgstr "&bibletime; käynnistyskuvake"
-
-#. Tag: para
-#: hdbk-start.docbook:17
-#, no-c-format
-msgid ""
-"&bibletime; can also be launched from a terminal command prompt. To launch "
-"&bibletime;, open a terminal window and type:"
-msgstr ""
-
-#. #-#-#-#-#  hdbk-start.docbook.pot (PACKAGE VERSION)  #-#-#-#-#
-#. Tag: screen
-#. #-#-#-#-#  index.docbook.pot (PACKAGE VERSION)  #-#-#-#-#
-#. Tag: keyword
-#: hdbk-start.docbook:19 index.docbook:66
-#, no-c-format
-msgid "bibletime"
-msgstr "bibletime"
-
-#. Tag: title
-#: hdbk-start.docbook:24
-#, no-c-format
-msgid "Other window managers"
-msgstr "Muut ikkunamanagerit"
-
-#. Tag: para
-#: hdbk-start.docbook:26
-#, no-c-format
-msgid ""
-"&bibletime; can be used with other window managers such as Gnome, BlackBox "
-"or Sawfish, providing &kde; is already installed on your computer. If your "
-"&kde; is installed in /opt/kde, then the start-up command in a terminal "
-"would be:"
-msgstr ""
-
-#. Tag: screen
-#: hdbk-start.docbook:30
-#, no-c-format
-msgid ""
-"export KDEDIR=/opt/kde  #your KDE directory\n"
-"bibletime"
-msgstr ""
-"export KDEDIR=/opt/kde  #Sinun KDE-kansiosi\n"
-"bibletime"
-
-#. Tag: title
-#: hdbk-start.docbook:34
-#, no-c-format
-msgid "Startup customization"
-msgstr "Käynnistyksen säätäminen"
-
-#. Tag: para
-#: hdbk-start.docbook:36
-#, no-c-format
-msgid ""
-"From a terminal you can use &bibletime; to open a random verse in the "
-"default bible: <screen>\n"
-"bibletime --open-default-bible \"&lt;random&gt;\"\n"
-"</screen> To open at a given passage like John 3:16, use: <screen>\n"
-"bibletime --open-default-bible \"John 3:16\"\n"
-"</screen> You can also use booknames in your current bookname language."
-msgstr ""
-
-#. Tag: title
-#: hdbk-start.docbook:48
-#, no-c-format
-msgid "Startup sequence"
-msgstr "Käynnistyssarja"
-
-#. Tag: para
-#: hdbk-start.docbook:50
-#, no-c-format
-msgid ""
-"As &bibletime; launches you may see the following screens before the main "
-"&bibletime; window opens:"
-msgstr ""
-
-#. Tag: interface
-#: hdbk-start.docbook:56
-#, no-c-format
-msgid "Bookshelf Manager"
-msgstr ""
-
-#. Tag: para
-#: hdbk-start.docbook:57
-#, no-c-format
-msgid ""
-"<action>Modifies your Bookshelf.</action> This dialog lets you modify your "
-"Bookshelf, add or delete works from your system. It will only be shown if no "
-"default Bookshelf can be found. Please see <link linkend=\"hdbk-op-"
-"bookshelfmanager\">this section</link>for further details. If you start off "
-"with an empty Bookshelf, it will be helpful to install at least one Bible, "
-"Commentary, Lexicon and one Book to get to know &bibletime;'s basic features "
-"quickly."
-msgstr ""
-
-#. Tag: interface
-#: hdbk-start.docbook:66
-#, fuzzy, no-c-format
-msgid "Configure &bibletime; dialog"
-msgstr "Aseta &bibletime;"
-
-#. Tag: para
-#: hdbk-start.docbook:67
-#, no-c-format
-msgid ""
-"<action>Customizes &bibletime;.</action> This dialog lets you adapt "
-"&bibletime; to your needs. Please see <link linkend=\"hdbk-config-bt\"> the "
-"detailed description</link> of this dialog."
-msgstr ""
-
-#. Tag: interface
-#: hdbk-start.docbook:73
-#, no-c-format
-msgid "Tip of the Day"
-msgstr "Päivän vihje"
-
-#. Tag: para
-#: hdbk-start.docbook:74
-#, no-c-format
-msgid ""
-"These nifty little tips give you helpful hints for working more efficiently "
-"with &bibletime;, and also a few quotations from the Bible."
-msgstr ""
-"Nämä pienet vihjeet antavat sinulle auttavia vihjeitä työskennelläksesi "
-"tehokkaammin &bibletime;-ohjelmalla, ja myös muutamia Raamatunkohtia."
-
-#. Tag: title
-#: index.docbook:21
-#, no-c-format
-msgid "The &bibletime; handbook"
-msgstr "&bibletime;-käsikirja"
-
-#. Tag: author
-#: index.docbook:25
-#, no-c-format
-msgid "<firstname>Fred</firstname> <surname>Saalbach</surname>"
-msgstr "<firstname>Fred</firstname> <surname>Saalbach</surname>"
-
-#. Tag: author
-#: index.docbook:30
-#, no-c-format
-msgid "<firstname>Jeffrey</firstname> <surname>Hoyt</surname>"
-msgstr "<firstname>Jeffrey</firstname> <surname>Hoyt</surname>"
-
-#. Tag: author
-#: index.docbook:35
-#, no-c-format
-msgid "<firstname>Martin</firstname> <surname>Gruner</surname>"
-msgstr "<firstname>Martin</firstname> <surname>Gruner</surname>"
-
-#. Tag: trans_comment
-#: index.docbook:42
-#, no-c-format
-msgid "ROLES_OF_TRANSLATORS"
-msgstr "ROLES_OF_TRANSLATORS"
-
-#. Tag: holder
-#: index.docbook:46
-#, fuzzy, no-c-format
-msgid "the &bibletime; team"
-msgstr "Liity BibleTime-työryhmään"
-
-#. Tag: para
-#: index.docbook:50
-#, no-c-format
-msgid "The &bibletime; handbook is part of &bibletime;."
-msgstr "&bibletime;-käsikirja on osa &bibletime;-ohjelmaa."
-
-#. Tag: para
-#: index.docbook:59
-#, no-c-format
-msgid "&bibletime; is a powerful Bible study tool for &kde;."
-msgstr "&bibletime; on tehokas Raamatun tutkimistyökalu &kde;:lle."
-
-#. Tag: keyword
-#: index.docbook:65
-#, no-c-format
-msgid "<keyword>KDE</keyword>"
-msgstr "<keyword>KDE</keyword>"
-
-#. Tag: keyword
-#: index.docbook:67
-#, no-c-format
-msgid "sword"
-msgstr "sword"
-
-#. Tag: keyword
-#: index.docbook:68
-#, no-c-format
-msgid "crosswire"
-msgstr "crosswire"
-
-#. Tag: keyword
-#: index.docbook:69
-#, no-c-format
-msgid "help dialog"
-msgstr "Avusteikkuna"
 
 #. Tag: title
 #: hdbk-reference.docbook:2
@@ -2967,6 +2746,236 @@ msgstr ""
 msgid "\\W means not alphanumeric; same as [^a-zA-Z0-9_]."
 msgstr ""
 
+#. Tag: title
+#: hdbk-start.docbook:1
+#, no-c-format
+msgid "Starting &bibletime;"
+msgstr "&bibletime;n käynnistys"
+
+#. Tag: title
+#: hdbk-start.docbook:3
+#, no-c-format
+msgid "How to start &bibletime;"
+msgstr "Kuinka &bibletime; käynnistetään"
+
+#. Tag: title
+#: hdbk-start.docbook:5
+#, no-c-format
+msgid "Starting &bibletime; from KDE"
+msgstr "&bibletime;n käynnistys KDE:stä"
+
+#. Tag: para
+#: hdbk-start.docbook:7
+#, no-c-format
+msgid ""
+"&bibletime; is a &kde; program and is integrated with the &kde; desktop. You "
+"can launch &bibletime; from the &kde; Start Menu in the Applications group "
+"with this icon:"
+msgstr ""
+
+#. Tag: phrase
+#: hdbk-start.docbook:13
+#, no-c-format
+msgid "&bibletime; start icon"
+msgstr "&bibletime; käynnistyskuvake"
+
+#. Tag: para
+#: hdbk-start.docbook:17
+#, no-c-format
+msgid ""
+"&bibletime; can also be launched from a terminal command prompt. To launch "
+"&bibletime;, open a terminal window and type:"
+msgstr ""
+
+#. #-#-#-#-#  hdbk-start.docbook.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Tag: screen
+#. #-#-#-#-#  index.docbook.pot (PACKAGE VERSION)  #-#-#-#-#
+#. Tag: keyword
+#: hdbk-start.docbook:19 index.docbook:66
+#, no-c-format
+msgid "bibletime"
+msgstr "bibletime"
+
+#. Tag: title
+#: hdbk-start.docbook:24
+#, no-c-format
+msgid "Other window managers"
+msgstr "Muut ikkunamanagerit"
+
+#. Tag: para
+#: hdbk-start.docbook:26
+#, no-c-format
+msgid ""
+"&bibletime; can be used with other window managers such as Gnome, BlackBox "
+"or Sawfish, providing &kde; is already installed on your computer. If your "
+"&kde; is installed in /opt/kde, then the start-up command in a terminal "
+"would be:"
+msgstr ""
+
+#. Tag: screen
+#: hdbk-start.docbook:30
+#, no-c-format
+msgid ""
+"export KDEDIR=/opt/kde  #your KDE directory\n"
+"bibletime"
+msgstr ""
+"export KDEDIR=/opt/kde  #Sinun KDE-kansiosi\n"
+"bibletime"
+
+#. Tag: title
+#: hdbk-start.docbook:34
+#, no-c-format
+msgid "Startup customization"
+msgstr "Käynnistyksen säätäminen"
+
+#. Tag: para
+#: hdbk-start.docbook:36
+#, no-c-format
+msgid ""
+"From a terminal you can use &bibletime; to open a random verse in the "
+"default bible: <screen>\n"
+"bibletime --open-default-bible \"&lt;random&gt;\"\n"
+"</screen> To open at a given passage like John 3:16, use: <screen>\n"
+"bibletime --open-default-bible \"John 3:16\"\n"
+"</screen> You can also use booknames in your current bookname language."
+msgstr ""
+
+#. Tag: title
+#: hdbk-start.docbook:48
+#, no-c-format
+msgid "Startup sequence"
+msgstr "Käynnistyssarja"
+
+#. Tag: para
+#: hdbk-start.docbook:50
+#, no-c-format
+msgid ""
+"As &bibletime; launches you may see the following screens before the main "
+"&bibletime; window opens:"
+msgstr ""
+
+#. Tag: interface
+#: hdbk-start.docbook:56
+#, no-c-format
+msgid "Bookshelf Manager"
+msgstr ""
+
+#. Tag: para
+#: hdbk-start.docbook:57
+#, no-c-format
+msgid ""
+"<action>Modifies your Bookshelf.</action> This dialog lets you modify your "
+"Bookshelf, add or delete works from your system. It will only be shown if no "
+"default Bookshelf can be found. Please see <link linkend=\"hdbk-op-"
+"bookshelfmanager\">this section</link>for further details. If you start off "
+"with an empty Bookshelf, it will be helpful to install at least one Bible, "
+"Commentary, Lexicon and one Book to get to know &bibletime;'s basic features "
+"quickly."
+msgstr ""
+
+#. Tag: interface
+#: hdbk-start.docbook:66
+#, fuzzy, no-c-format
+msgid "Configure &bibletime; dialog"
+msgstr "Aseta &bibletime;"
+
+#. Tag: para
+#: hdbk-start.docbook:67
+#, no-c-format
+msgid ""
+"<action>Customizes &bibletime;.</action> This dialog lets you adapt "
+"&bibletime; to your needs. Please see <link linkend=\"hdbk-config-bt\"> the "
+"detailed description</link> of this dialog."
+msgstr ""
+
+#. Tag: interface
+#: hdbk-start.docbook:73
+#, no-c-format
+msgid "Tip of the Day"
+msgstr "Päivän vihje"
+
+#. Tag: para
+#: hdbk-start.docbook:74
+#, no-c-format
+msgid ""
+"These nifty little tips give you helpful hints for working more efficiently "
+"with &bibletime;, and also a few quotations from the Bible."
+msgstr ""
+"Nämä pienet vihjeet antavat sinulle auttavia vihjeitä työskennelläksesi "
+"tehokkaammin &bibletime;-ohjelmalla, ja myös muutamia Raamatunkohtia."
+
+#. Tag: title
+#: index.docbook:21
+#, no-c-format
+msgid "The &bibletime; handbook"
+msgstr "&bibletime;-käsikirja"
+
+#. Tag: author
+#: index.docbook:25
+#, no-c-format
+msgid "<firstname>Fred</firstname> <surname>Saalbach</surname>"
+msgstr "<firstname>Fred</firstname> <surname>Saalbach</surname>"
+
+#. Tag: author
+#: index.docbook:30
+#, no-c-format
+msgid "<firstname>Jeffrey</firstname> <surname>Hoyt</surname>"
+msgstr "<firstname>Jeffrey</firstname> <surname>Hoyt</surname>"
+
+#. Tag: author
+#: index.docbook:35
+#, no-c-format
+msgid "<firstname>Martin</firstname> <surname>Gruner</surname>"
+msgstr "<firstname>Martin</firstname> <surname>Gruner</surname>"
+
+#. Tag: trans_comment
+#: index.docbook:42
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr "ROLES_OF_TRANSLATORS"
+
+#. Tag: holder
+#: index.docbook:46
+#, fuzzy, no-c-format
+msgid "the &bibletime; team"
+msgstr "Liity BibleTime-työryhmään"
+
+#. Tag: para
+#: index.docbook:50
+#, no-c-format
+msgid "The &bibletime; handbook is part of &bibletime;."
+msgstr "&bibletime;-käsikirja on osa &bibletime;-ohjelmaa."
+
+#. Tag: para
+#: index.docbook:59
+#, no-c-format
+msgid "&bibletime; is a powerful Bible study tool for &kde;."
+msgstr "&bibletime; on tehokas Raamatun tutkimistyökalu &kde;:lle."
+
+#. Tag: keyword
+#: index.docbook:65
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:67
+#, no-c-format
+msgid "sword"
+msgstr "sword"
+
+#. Tag: keyword
+#: index.docbook:68
+#, no-c-format
+msgid "crosswire"
+msgstr "crosswire"
+
+#. Tag: keyword
+#: index.docbook:69
+#, no-c-format
+msgid "help dialog"
+msgstr "Avusteikkuna"
+
 #~ msgid "The BibleTime developers"
 #~ msgstr "BibleTime-kehittäjät"
 
@@ -3105,8 +3114,13 @@ msgstr ""
 #~ msgid "Bible"
 #~ msgstr "Raamattu"
 
+#, fuzzy
 #~ msgid "Study"
-#~ msgstr "Tutkimus"
+#~ msgstr ""
+#~ "#-#-#-#-#  full.po (full)  #-#-#-#-#\n"
+#~ "Tutki\n"
+#~ "#-#-#-#-#  fi.po (handbook)  #-#-#-#-#\n"
+#~ "Tutkimus"
 
 #~ msgid "HowTo"
 #~ msgstr "Kuinka teen"
@@ -3430,7 +3444,6 @@ msgstr ""
 #~ "John R.W. Stott, <emphasis>Christ the Controversialist</emphasis>, "
 #~ "InterVarsity Press 1978, s. 97, 104."
 
-#, fuzzy
 #~ msgid ""
 #~ "The Jews to whom Jesus spoke [...] imagined that to possess Scripture was "
 #~ "tantamount to possessing life. Hillel used to say, &quot;He who has "
@@ -3439,13 +3452,35 @@ msgstr ""
 #~ "grievously deceived. [...]"
 #~ msgstr ""
 #~ "Juutalaiset, joille Jeesus puhui [...] kuvittelivat, että kirjoitusten "
-#~ "omistaminen oli tantamount elämän prosessille. Hillel piti tapana sanoa, "
-#~ "&quot;Hän, kuka on ymmärtänyt Torahin sanat, hänellä on tulevan maailman "
-#~ "elämä itsellään.&quot; Heidän tutkiminen oli lopussa. Tässä he olivat "
-#~ "grievously petkutettuja. [...]"
+#~ "omistaminen oli yhtä hyvä kuin elämän omistaminen. Hillel piti tapana "
+#~ "sanoa, &quot;Hän, kuka on ymmärtänyt Torahin sanat, hänellä on tulevan "
+#~ "maailman elämä itsellään.&quot; Heidän tutkiminen oli lopussa. Tässä he "
+#~ "olivat kauheasti petkutettuja. [...]"
+
+#~ msgid ""
+#~ "There is neither merit nor profit in the reading of Scripture for its own "
+#~ "sake, but only if it effectively introduces us to Jesus Christ. Whenever "
+#~ "the Bible is read, what is needed is an eager expectation that through it "
+#~ "we may meet Christ."
+#~ msgstr ""
+#~ "Kirjoitusten lukemisessa ei ole ansiota eikä hyötyä itsensä takia, mutta "
+#~ "vain jos se tehokkaasti tuo esiin Jeesus Kristusta. Milloin tahansa "
+#~ "Raamattua luetaan, tarvitaan innostunutta odotusta, että sen kautta "
+#~ "tapaamme Kristuksen."
 
 #~ msgid "Approaches to God's Word"
 #~ msgstr "Lähestyminen Jumalan Sanaan"
+
+#~ msgid ""
+#~ "Hearing and reading provide a telescopic view of the scripture while "
+#~ "study and memorization provide a microscopic view of scripture. "
+#~ "Meditating on the scriptures brings hearing, reading, studying and "
+#~ "memorization together and cements the word in our minds."
+#~ msgstr ""
+#~ "Kuuleminen ja lukeminen tarjoavat kaukonäköisen kuvan kirjoituksista. "
+#~ "Tutkiminen ja muistiinpaneminen tarjoavat mikroskooppisen kuvan "
+#~ "kirjoituksista. Kirjoitusten mietiskely liittää kuulemisen, lukemisen, "
+#~ "tutkimisen ja muistiinpanemisen yhteen ja sementoi Sanan meidän mieliimme."
 
 #~ msgid "Hear"
 #~ msgstr "Kuuntele"
@@ -3515,16 +3550,39 @@ msgstr ""
 #~ "ajallaan, eivätkä sen lehdet lakastu. Hän menestyy kaikissa toimissaan.</"
 #~ "quote>"
 
+#, fuzzy
 #~ msgid "Types of Bible Studies"
-#~ msgstr "Raamatuntutkimisen tyypit"
+#~ msgstr ""
+#~ "#-#-#-#-#  full.po (full)  #-#-#-#-#\n"
+#~ "Raamatuntutkimisen tavat\n"
+#~ "#-#-#-#-#  fi.po (handbook)  #-#-#-#-#\n"
+#~ "Raamatuntutkimisen tyypit"
 
+#, fuzzy
 #~ msgid "Topical Study"
-#~ msgstr "Ajankohtainen tutkiminen"
+#~ msgstr ""
+#~ "#-#-#-#-#  full.po (full)  #-#-#-#-#\n"
+#~ "Aiheenmukainen tutkiminen\n"
+#~ "#-#-#-#-#  fi.po (handbook)  #-#-#-#-#\n"
+#~ "Ajankohtainen tutkiminen"
+
+#~ msgid ""
+#~ "Pick out a certain topic and follow it through, using cross-references or "
+#~ "a concordance."
+#~ msgstr ""
+#~ "Ota jokin yksittäinen aihe ja seuraa sitä käyttäen viittauksia tai "
+#~ "sanahakemistoa."
+
+#~ msgid "Character Study"
+#~ msgstr "Henkilöiden tutkiminen"
 
 #~ msgid ""
 #~ "Studying the life of a Bible character, e.g. Joseph's life in Gen.37-50."
 #~ msgstr ""
 #~ "Raamatun henkilön elämän tutkiminen, esim. Joosefin elämä 1. Moos 37-50."
+
+#~ msgid "Expository Study"
+#~ msgstr "Selittävä tutkiminen"
 
 #~ msgid "Studying a certain passage: paragraph, chapter, or book."
 #~ msgstr ""
@@ -3568,6 +3626,9 @@ msgstr ""
 #~ "itseään vastaan, tulkintamme tulee perustua kirjoitusten vertailulla "
 #~ "muihin kirjoituksiin."
 
+#~ msgid "An Expository Study of Matthew 6:1-18"
+#~ msgstr "Matt. 6:1-18 selittävä tutkiminen"
+
 #~ msgid "When you give"
 #~ msgstr "Kun annat"
 
@@ -3577,11 +3638,21 @@ msgstr ""
 #~ msgid "When you pray"
 #~ msgstr "Kun rukoilet"
 
+#~ msgid ""
+#~ "don't sound a trumpet. (how might someone <quote>sound a trumpet</quote> "
+#~ "today?)"
+#~ msgstr ""
+#~ "älä ole äänekäs trumpetti. (kuinka joku voi <quote>kuulostaa trumpetilta</"
+#~ "quote> tänäpäivänä?)"
+
 #~ msgid "do it secretly."
 #~ msgstr "tee se salaisesti."
 
 #~ msgid "etc."
 #~ msgstr "jne."
+
+#~ msgid "Worksheet: How to Use a Concordance"
+#~ msgstr "Tehtävä: Kuinka käytän sanahakemistoa"
 
 #~ msgid "To Find a Particular Verse"
 #~ msgstr "Löydä erityinen jae"
@@ -3589,17 +3660,32 @@ msgstr ""
 #~ msgid "Pick out a key word or most-unusual word of the verse."
 #~ msgstr "Ota jakeen avainsana tai epätavallisin sana."
 
+#, fuzzy
+#~ msgid "Turn to this word alphabetically."
+#~ msgstr "Käännä tähän sanaan aakkosellisesti"
+
 #~ msgid "Go down the column of listings until you find your verse."
 #~ msgstr "Etene listausta alaspäin kunnes löydät jakeesi."
 
 #~ msgid "Find these verses:"
 #~ msgstr "Etsi nämä jakeet:"
 
+#~ msgid "Faithful are the wounds of a friend"
+#~ msgstr "Rakastavan lyöntikin on rakkautta"
+
+#, fuzzy
 #~ msgid "We are ambassadors of Christ."
-#~ msgstr "Olemme Kristuksen lähettiläitä."
+#~ msgstr ""
+#~ "#-#-#-#-#  full.po (full)  #-#-#-#-#\n"
+#~ "Olemme Kristuksen lähettiläitä\n"
+#~ "#-#-#-#-#  fi.po (handbook)  #-#-#-#-#\n"
+#~ "Olemme Kristuksen lähettiläitä."
 
 #~ msgid "The story of the rich man and Lazarus."
 #~ msgstr "Kertomus rikkaasta miehestä ja Lasaruksesta."
+
+#~ msgid "To Do a Topical Study"
+#~ msgstr "Tee aiheen tutkiminen"
 
 #~ msgid "To Clarify Word Meanings in the Greek and Hebrew"
 #~ msgstr "Kreikkalaisten ja heprealaisten sanojen merkityksen selvittäminen"
@@ -3613,6 +3699,12 @@ msgstr ""
 #~ msgstr ""
 #~ "Etene lukua alas jaken  Matt.7:1 kohdalle. Oikealla on luku, 2919. Tämä "
 #~ "viittaa käytettyyn kreikkalaiseen sanaan. Kirjoita se ylös."
+
+#~ msgid "Now look up &quot;judgeth&quot;."
+#~ msgstr "Nyt katso &quot;tuomio&quot;."
+
+#~ msgid "Go down the column to 1 Cor.2:15 . . . . . 350."
+#~ msgstr "Siirry alas saraketta pitkin 1 Kor. 2:15 . . . . . 350."
 
 #~ msgid "To Find Meanings of Names"
 #~ msgstr "Etsi nimien merkityksiä"
@@ -4195,6 +4287,19 @@ msgstr ""
 #~ msgid "Rule 3 - Interpret within the historical and cultural context"
 #~ msgstr "Rule 3 - Tulkitse historiallisia ja kultturellisia yhteyksiä"
 
+#~ msgid ""
+#~ "At first we are not asking <quote>What does it mean to me?</quote> but "
+#~ "<quote>What did it mean to the original readers?</quote>; later we can "
+#~ "ask, <quote>What does it mean to me?</quote>. We have to take into "
+#~ "account the historical and cultural background of the author and the "
+#~ "recipients."
+#~ msgstr ""
+#~ "Emme kysy ensiksi <quote>Mitä se merkitsee minulle?</quote> vaan "
+#~ "<quote>Mitä se merkitsi alkuperäisille lukijoille?</quote>; myöhemmin "
+#~ "voimme kysyä, <quote>Mitä se merkitsee minulle?</quote>. Meidän tulee "
+#~ "ottaa huomioon kirjoittajan ja saajien historiallinen ja kuturellinen "
+#~ "tausta."
+
 #~ msgid "Example 3A"
 #~ msgstr "Esimerkki 3A"
 
@@ -4450,6 +4555,13 @@ msgstr ""
 #~ msgstr ""
 #~ "BibleTime 1.1 ja 1.2 seurasivat myöhemmin. BibleTime 1.2 on ensimmäinen "
 #~ "BibleTimen verio KDE 3.0:lle."
+
+#~ msgid ""
+#~ "BibleTime version 1.5 has been released in july 2005 after a long time of "
+#~ "development."
+#~ msgstr ""
+#~ "BibleTime versio 1.5 on julkistettu heinäkuussa 2005 pitkän kehitystyön "
+#~ "jälkeen."
 
 #~ msgid "How to contact us"
 #~ msgstr "Kuinka tavoitat meidät"
@@ -5025,22 +5137,12 @@ msgstr ""
 #~ "Vähintään kirjastot ja kdebase-paketti. KDE 3 jaetaan monen linux-"
 #~ "distribuution mukana. Hyvin usein se on jo asennettuna oletuksena."
 
-#~ msgid "<ulink url=\"http://curl.sourceforge.net/\">Curl >= 7.9</ulink>."
-#~ msgstr "<ulink url=\"http://curl.sourceforge.net/\">Curl >= 7.9</ulink>."
-
-#~ msgid ""
-#~ "This is necessary for the remote installation features of the new Sword "
-#~ "Setup Dialog. Curl has to be installed before Sword."
-#~ msgstr ""
-#~ "Tämä on tarpeellinen uuden Swordin asetusikkunan etäasennukselle. Curl "
-#~ "pitää asentaa ennen Swordia."
-
 #~ msgid ""
 #~ "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword "
-#~ "1.5.7</ulink>."
+#~ "1.5.8</ulink>."
 #~ msgstr ""
 #~ "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword "
-#~ "1.5.7</ulink>."
+#~ "1.5.8</ulink>."
 
 #~ msgid ""
 #~ "Installation instructions are available on <ulink url=\"http://www."
@@ -5052,8 +5154,7 @@ msgstr ""
 #~ "software</ulink>. Asennuksen perustoimenpiteet ovat"
 
 #~ msgid ""
-#~ "<command>./usrinst.sh --enable-shared --with-curl --without-clucene</"
-#~ "command>\n"
+#~ "<command>./usrinst.sh --enable-shared --without-clucene</command>\n"
 #~ "                                                                <command>make</"
 #~ "command>\n"
 #~ "                                                                <command>make "
@@ -5061,8 +5162,7 @@ msgstr ""
 #~ "                                                                <command>make "
 #~ "install_config</command>"
 #~ msgstr ""
-#~ "<command>./usrinst.sh --enable-shared --with-curl --without-clucene</"
-#~ "command>\n"
+#~ "<command>./usrinst.sh --enable-shared --without-clucene</command>\n"
 #~ "                                                                <command>make</"
 #~ "command>\n"
 #~ "                                                                <command>make "
@@ -6142,6 +6242,28 @@ msgstr ""
 #~ msgid "News about BibleTime"
 #~ msgstr "Uutiset BibleTimestä"
 
+#~ msgid "2005-07-16: BibleTime 1.5"
+#~ msgstr "2005-07-16: BibleTime 1.5"
+
+#~ msgid ""
+#~ "BibleTime 1.5 is available now. It contains many new features and "
+#~ "improvements. The source code of BibleTime 1.5 and Sword 1.5.8 is "
+#~ "available in the download section. We hope to provide binary and "
+#~ "translation packages for the most important Linux distributions in the "
+#~ "next few weeks."
+#~ msgstr ""
+#~ "BibleTime 1.5 on saatavilla nyt. Siinä on monta uutta omainisuutta ja "
+#~ "parannusta. BibleTime 1.5:n ja Sword 1.5.8:n lähdekoodit ovat saatavilla "
+#~ "latausosiosta. Toivomme voivamme tarjota binääri- ja käännöspaketit "
+#~ "tärkeimmille Linux-distribuutiolle lähiviikkojen aikana."
+
+#~ msgid ""
+#~ "Please use our new forums to discuss about this new release. Translators "
+#~ "are encouraged to update their translations."
+#~ msgstr ""
+#~ "Ole hyvä, käytä uutta keskustelufoorumiamme keskustellaksesi tästä "
+#~ "uudesta julkistuksesta. Kääntäjiä rohkaistaan päivittämään käännöksensä."
+
 #~ msgid "2005-06-17: BibleTime 1.5 release candidate 2"
 #~ msgstr "2005-06-17: BibleTime 1.5 julkistuskandidaatti 2"
 
@@ -6688,6 +6810,42 @@ msgstr ""
 #~ "käännösmallipohjasta</ulink>. Jos haluat päivittää olemassaolevaa "
 #~ "käännöstä, käytä linkkiä allaolevassa taulukossa ladataksesi vastaavan "
 #~ "tiedoston."
+
+#~ msgid "<ulink url=\"http://curl.sourceforge.net/\">Curl >= 7.9</ulink>."
+#~ msgstr "<ulink url=\"http://curl.sourceforge.net/\">Curl >= 7.9</ulink>."
+
+#~ msgid ""
+#~ "This is necessary for the remote installation features of the new Sword "
+#~ "Setup Dialog. Curl has to be installed before Sword."
+#~ msgstr ""
+#~ "Tämä on tarpeellinen uuden Swordin asetusikkunan etäasennukselle. Curl "
+#~ "pitää asentaa ennen Swordia."
+
+#~ msgid ""
+#~ "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword "
+#~ "1.5.7</ulink>."
+#~ msgstr ""
+#~ "<ulink url=\"http://www.crosswire.org/sword/software/swordapi.jsp\">Sword "
+#~ "1.5.7</ulink>."
+
+#~ msgid ""
+#~ "<command>./usrinst.sh --enable-shared --with-curl --without-clucene</"
+#~ "command>\n"
+#~ "                                                                <command>make</"
+#~ "command>\n"
+#~ "                                                                <command>make "
+#~ "install</command>\n"
+#~ "                                                                <command>make "
+#~ "install_config</command>"
+#~ msgstr ""
+#~ "<command>./usrinst.sh --enable-shared --with-curl --without-clucene</"
+#~ "command>\n"
+#~ "                                                                <command>make</"
+#~ "command>\n"
+#~ "                                                                <command>make "
+#~ "install</command>\n"
+#~ "                                                                <command>make "
+#~ "install_config</command>"
 
 #~ msgid "Startup"
 #~ msgstr "Käynnistys"
