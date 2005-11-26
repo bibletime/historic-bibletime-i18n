@@ -24,10 +24,9 @@ msgstr ""
 "Project-Id-Version: fi\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-10-17 14:30+0200\n"
-"PO-Revision-Date: 2005-09-28 06:27+0300\n"
+"PO-Revision-Date: 2005-11-08 13:22+0200\n"
 "Last-Translator: Ilpo Kantonen <ilpo@iki.fi>\n"
-"Language-Team: finnish <Finnish <kde-i18n-fi-discussion@lists.sourceforge."
-"net>>\n"
+"Language-Team: finnish <Finnish <kde-i18n-fi-discussion@lists.sourceforge.net>>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,9 +41,8 @@ msgid "Added text"
 msgstr "Lisätty teksti"
 
 #: ../bibletime/backend/cdisplaytemplatemgr.cpp:189
-#, fuzzy
 msgid "(user template)"
-msgstr "Näyttömallit"
+msgstr "(käyttäjämallipohja)"
 
 #: ../bibletime/backend/cswordbackend.cpp:527
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:617
@@ -323,7 +321,7 @@ msgstr "Hullu"
 
 #: ../bibletime/display-templates/template-init.cpp:658
 msgid "Green"
-msgstr ""
+msgstr "Vihreä"
 
 #: ../bibletime/display-templates/template-init.cpp:969
 msgid "High contrast"
@@ -467,17 +465,15 @@ msgid "Specify a language for names of Bible books"
 msgstr "Määritä Raamatun kirjojen nimien kieli"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:211
-#, fuzzy
 msgid ""
 "Sword has a number of locales available which can be used to "
 "internationalize the   names of books of the Bible. You can specify which "
 "locale to use. If you want to   create a new locale, see http://www."
 "crosswire.org/sword/develop for details."
 msgstr ""
-"Sword:ssa on useampia kieliä joita voidaan käyttää raamatun kirjojen nimien "
+"Sword:ssa on useampia kieliä joita voidaan käyttää Raamatun kirjojen nimien "
 "näyttämiseen. Voit määrittää mitä kieltä haluat käyttää. Jos haluat luoda "
-"uuden kansallisen kielimäärityksen, niin katso ohjeita paikasta http://www."
-"crosswire.org/sword/develop."
+"uuden kansallisen kielimäärityksen, niin katso yksityiskohtaisia ohjeita paikasta  http://www.crosswire.org/sword/develop."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:217
 msgid "Language for names of Bible books"
@@ -488,13 +484,12 @@ msgid "Select custom fonts per-language"
 msgstr "Valitse omat kirjasimet joka kielelle"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:294
-#, fuzzy
 msgid ""
 "Here you find a list of all languages of the installed works.  You can "
 "specify a custom font for each language that needs a special font  to be "
 "displayed correctly."
 msgstr ""
-"Tässä on lista asennettujen teosten kielistä. Voit määrittää oman kirjasimen "
+"Tässä on luettelo asennettujen teosten kielistä. Voit määrittää oman kirjasimen "
 "jokaiselle kielelle, joka tarvitsee erikoista kirjasinta näkyäkseen oikein."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:327
@@ -547,13 +542,12 @@ msgid "Standard works"
 msgstr "Oletusteokset"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:459
-#, fuzzy
 msgid ""
 "Standard works are used when no particular work is specified,   for example "
 "when a hyperlink into a Bible or lexicon was clicked ."
 msgstr ""
-"Oletusteoksia käytetään kun mitään tiettyä teosta ei ole määritetty, "
-"esimerkiksi kun on painettu linkkiä raamattuun tai sanakirjaan."
+"Oletusteoksia käytetään kun mitään tiettyä teosta ei ole määritetty. "
+"Esimerkiksi kun on painettu linkkiä Raamattuun tai sanakirjaan."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:465
 msgid "Standard Bible"
@@ -593,7 +587,6 @@ msgid "Text filters"
 msgstr "Tekstisuotimet"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:654
-#, fuzzy
 msgid ""
 "Filters control the appearance of text. Here you can specify default "
 "settings for all filters. You can change the filter settings in each display "
@@ -601,7 +594,7 @@ msgid ""
 msgstr ""
 "Suotimet vaikuttavat tekstin näyttämiseen ikkunoissa. Tässä voit määritellä "
 "oletusasetukset kaikille suotimille. Voit myös muuttaa ikkunakohtaisesti "
-"suotimen asetuksia jokaisessa ikkunassa erikseen."
+"suotimen asetuksia jokaisessa ikkunassa erikseen tietenkin."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:661
 msgid "Insert line break after each verse"
@@ -657,8 +650,7 @@ msgstr ""
 msgid ""
 "For God didn't send his Son into the world to judge the world, but that the "
 "world should be saved through him."
-msgstr ""
-"Ei Jumala lähettänyt Poikaansa tuomitsemaan maailmaa, vaan pelastamaan sen."
+msgstr "Ei Jumala lähettänyt Poikaansa tuomitsemaan maailmaa, vaan pelastamaan sen."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:927
 msgid ""
@@ -743,14 +735,13 @@ msgid "Install/update works - Step 1"
 msgstr "Asenna/päivitä teoksia - Askel 1"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:133
-#, fuzzy
 msgid ""
 "Please choose a (local or remote) library and a bookshelf path to install "
 "the work(s) to. After that step click on the connect button.<br/><b>WARNING: "
 "If you live in a persecuted country and do not wish to risk detection you "
 "should NOT use the module remote installation feature!</b>"
 msgstr ""
-"Valitse lähdekirjasto (paikallinen tai verkko) ja polku kirjahyllyyn, johon "
+"Valitse lähdekirjasto (paikallinen tai verkkokirjasto) ja polku kirjahyllyyn, johon "
 "teokset asennetaan. Seuraavaksi paina yhdistä-nappia.<br/><b>VAROITUS: Jos "
 "asut maassa, jossa on vainoa etkä halua tulla havaituksi, sinun EI tule "
 "käyttää teosten verkkoasennusominaisuutta!</b>"
@@ -845,15 +836,14 @@ msgid "Install works"
 msgstr "Asenna teokset"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:670
-#, fuzzy
 msgid ""
 "You selected the following works: %1.\n"
 "\n"
 " Do you really want to install them on your system?"
 msgstr ""
-"Valitut teokset: %1.\n"
+"Valitsit seuraavat teokset: %1.\n"
 "\n"
-"Asennetaanko ne tietokoneelle?"
+" Haluatko todella asentaa ne tietokoneellesi?"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:697
 msgid "Download of work(s)"
@@ -864,23 +854,21 @@ msgid "[%1]: %2% complete"
 msgstr "[%1]: %2% valmiina"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:789
-#, fuzzy
 msgid ""
 "This directory is not writable, so works    can not be installed here using "
 "BibleTime.    Do you want to use this directory instead of the previous "
 "value?"
 msgstr ""
-"Hakemistoon ei ole kirjoitusoikeutta, joten BibleTime ei voi asentaa teoksia "
-"tänne. Haluatko kuitenkin käyttää tätä hakemistoa alkuperäisen sijaan?"
+"Kansioon ei ole kirjoitusoikeutta, joten BibleTime ei voi asentaa teoksia "
+"tänne. Haluatko kuitenkin käyttää tätä kansiota edellisen sijaan?"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:810
-#, fuzzy
 msgid ""
 "This directory is not writable,    so works can not be installed here using "
 "BibleTime.    Do you want to add it to the list of module directories?"
 msgstr ""
-"Hakemistoon ei ole kirjoitusoikeutta, joten BibleTime ei voi asentaa teoksia "
-"tänne. Haluatko lisätä tämän hakemiston teoshakemistojen listaan?"
+"Kansioon ei ole kirjoitusoikeutta, joten BibleTime ei voi asentaa teoksia "
+"tänne. Haluatko lisätä sen moduulikansioiden luetteloon?"
 
 #: ../bibletime/frontend/cswordsetupinstallsourcesdialog.cpp:22
 msgid "Local"
@@ -1826,8 +1814,7 @@ msgstr "&Ikkuna"
 
 #: ../bibletime/tips-dummy.cpp:3
 msgid "The Bible was written so we could believe in Jesus. (John 20:31)\n"
-msgstr ""
-"Raamattu on kirjoitettu jotta me voisimme uskoa Jeesukseen. (Joh.20:31)\n"
+msgstr "Raamattu on kirjoitettu jotta me voisimme uskoa Jeesukseen. (Joh.20:31)\n"
 
 #: ../bibletime/tips-dummy.cpp:7
 msgid ""
@@ -1896,8 +1883,7 @@ msgstr ""
 "tehdä kirjanmerkit henkilökohtaisesta kommentaaristasi.\n"
 
 #: ../bibletime/tips-dummy.cpp:47
-msgid ""
-"The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
+msgid "The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
 msgstr ""
 "Kirjoitukset antavat meille sitä viisautta joka vie pelastukseen. (2 Tim. "
 "3:15)\n"
@@ -1932,12 +1918,10 @@ msgstr ""
 msgid ""
 "In the beginning was the Word, the Word was with God, and the Word was God. "
 "(John 1:1)\n"
-msgstr ""
-"Alussa oli Sana, Sana oli Jumalan luona, ja Sana oli Jumala. (Joh. 1:1)\n"
+msgstr "Alussa oli Sana, Sana oli Jumalan luona, ja Sana oli Jumala. (Joh. 1:1)\n"
 
 #: ../bibletime/tips-dummy.cpp:66
-msgid ""
-"We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
+msgid "We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
 msgstr ""
 "Viimeisenä päivänä meidät tuomitaan sen sanan, jonka Jeesus on puhunut, "
 "mukaan. (Joh. 12:48)\n"
@@ -2133,8 +2117,7 @@ msgstr ""
 "asetuksista."
 
 #: ../bibletime/util/cresmgr.cpp:822
-msgid ""
-"Open the dialog to configure your bookshelf and install/update/remove works."
+msgid "Open the dialog to configure your bookshelf and install/update/remove works."
 msgstr ""
 "Avaa asetusikkunan, josta voidaan muokata kirjahyllyn asetuksia ja asentaa/"
 "päivittää/poistaa teoksia."
@@ -2220,17 +2203,15 @@ msgstr ""
 msgid ""
 "If you choose this option the search will distinguish between upper and "
 "lowercase characters."
-msgstr ""
-"Jos valitset tämän kohdan, niin haku eroittelee isot ja pienet kirjaimet."
+msgstr "Jos valitset tämän kohdan, niin haku eroittelee isot ja pienet kirjaimet."
 
 #: ../bibletime/util/cresmgr.cpp:907
-#, fuzzy
 msgid ""
 "Choose a scope from the list. Select the first item to use no scope, the "
 "second one is to use each work's last search result as search scope. The "
 "others are user defined search scopes."
 msgstr ""
-"Määritä laajuus listalta. Ensimmäinen valinta ei käytä haun rajausta, toinen "
+"Määritä laajuus luettelosta. Ensimmäinen valinta ei käytä haun rajausta, toinen "
 "valinta käyttää jokaisen teoksen viimeisintä hakutulosta laajuutena. Muut "
 "ovat käyttäjän määrittelemiä hakulaajuuksia."
 
@@ -2315,8 +2296,7 @@ msgid "Show the previous book of this work."
 msgstr "Näytä tämän teoksen edellinen kirja."
 
 #: ../bibletime/util/cresmgr.cpp:995
-msgid ""
-"This list contains the chapters which are available in the current book."
+msgid "This list contains the chapters which are available in the current book."
 msgstr "Tämä luettelo sisältää nykyisestä kirjasta löytyvät kappaleet."
 
 #: ../bibletime/util/cresmgr.cpp:999
@@ -2328,8 +2308,7 @@ msgid "Show the next chapter of the work."
 msgstr "Näytä teoksen seuraava kappale."
 
 #: ../bibletime/util/cresmgr.cpp:1007
-msgid ""
-"This list contains the verses which are available in the current chapter."
+msgid "This list contains the verses which are available in the current chapter."
 msgstr "Tämä luettelo sisältää nykyisen kappaleen jakeet."
 
 #: ../bibletime/util/cresmgr.cpp:1011
@@ -2349,8 +2328,7 @@ msgstr ""
 "tietue näytetään."
 
 #: ../bibletime/util/cresmgr.cpp:1023
-msgid ""
-"Synchronize the displayed entry of this work with the active Bible window."
+msgid "Synchronize the displayed entry of this work with the active Bible window."
 msgstr "Synkronoi teoksen näkyvä tietue aktiivisen Raamattu-ikkunan kanssa."
 
 #: ../bibletime/util/cresmgr.cpp:1030
@@ -2460,13 +2438,11 @@ msgid ""
 msgstr "Oletuskommentaaria käytetään kun linkkiä kommentaariin painetaan."
 
 #: ../bibletime/util/cresmgr.cpp:1145
-msgid ""
-"The standard lexicon is used when a hyperlink into a lexicon is clicked."
+msgid "The standard lexicon is used when a hyperlink into a lexicon is clicked."
 msgstr "Oletussanakirjaa käytetään kun linkkiä sanakirjaan painetaan."
 
 #: ../bibletime/util/cresmgr.cpp:1149
-msgid ""
-"The standard devotional will be used to display a short start up devotional."
+msgid "The standard devotional will be used to display a short start up devotional."
 msgstr "Oletushartauskirjaa käytetään näyttämään lyhyt aloitushartausteksti."
 
 #: ../bibletime/util/cresmgr.cpp:1153
@@ -2502,8 +2478,7 @@ msgstr ""
 "morfologisen tunnisteen linkkiä kreikankielisessä tekstissä on painettu."
 
 #: ../bibletime/util/cresmgr.cpp:1174
-msgid ""
-"Opens the search dialog to search in the work(s) that are currently open."
+msgid "Opens the search dialog to search in the work(s) that are currently open."
 msgstr "Avaa hakuikkunan etsiäksesi avoimista teoksista."
 
 #: ../bibletime/util/ctoolclass.cpp:69
@@ -2913,3 +2888,4 @@ msgstr "Kiina"
 #: clanguagemgr.cpp:489
 msgid "Zulu"
 msgstr "Zulu"
+
