@@ -4,22 +4,22 @@
 
 <sect1 id="hdbk-reference-menus"
 ><title
->Main menu reference</title>
+>Päävalikon käyttöopas</title>
 
 	<para
 >In this section you can find detailed descriptions of all entries in the main menu of &bibletime;. They are ordered in just the way they appear in &bibletime;, with all the sub-items listed under the major menu item they belong to. You can also see the hotkey of each item;a complete listing of all hotkeys can be found in <link linkend="hdbk-reference-hotkeys"
 >this section</link
 >.</para>
-	
+
 	<sect2 id="hdbk-reference-menus-file"
 ><title
 ><guimenu
 >Tiedosto</guimenu
 ></title>
-	
+
 	<para>
 	<variablelist>
-	
+
 	<varlistentry id="hdbk-reference-menus-file-quit">
 		<term
 ><menuchoice
@@ -44,8 +44,7 @@
 ><action
 >Sulkee BibleTime-ohjelman.</action
 > BibleTime kysyy sinulta, haluatko tallettaa tallentamattomat muutokset levylle.</para
-></listitem
-> 
+></listitem>
 </varlistentry>
 
 	</variablelist>
@@ -57,7 +56,7 @@
 ><guimenu
 >Näytä</guimenu
 ></title>
-	
+
 	<variablelist>
 		<varlistentry id="hdbk-reference-menus-view-showtoolbar">
 			<term
@@ -73,8 +72,7 @@
 ><action
 >Toggles Toolbar display.</action
 > Toggle this setting to turn the main toolbar on or off.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-view-showbookshelf">
@@ -91,9 +89,9 @@
 ><imageobject
 > <imagedata fileref="i_sidetree.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> View</guimenu
+> Näytä</guimenu
 > <guimenuitem
->Show Bookshelf</guimenuitem
+>Näytä kirjahylly</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
@@ -101,8 +99,7 @@
 ><action
 >Toggles display of the Bookshelf.</action
 > Toggle this setting to turn the Bookshelf on the left pane on or off. This can be handy if you need more space for the Mag.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-view-showmag">
@@ -129,13 +126,12 @@
 ><action
 >Toggles display of the Mag(nifying glass).</action
 > Toggle this setting to turn the Mag on the left pane on or off.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		</variablelist>
 	</sect2>
-	
+
 	<sect2 id="hdbk-reference-menus-search"
 ><title
 ><guimenu
@@ -157,18 +153,17 @@
 ><imageobject
 > <imagedata fileref="i_find.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Search</guimenu
+> Etsi</guimenu
 > <guimenuitem
->Search in standard bible</guimenuitem
+>Etsi oletusraamatusta</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
 ><para
 ><action
->Opens the Search Dialog to search in the standard Bible only</action
->. More works can be added in the Search Dialog.</para
-></listitem
-> 
+>Avaa etsintäikkunan vain etsintään oletusraamatusta</action
+>. Lisää teoksia voidaan lisätä etsintä-ikkunassa.</para
+></listitem>
 		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-search-openworks">
@@ -177,7 +172,7 @@
 ><shortcut
 ><keycombo action="simul"
 >&Ctrl;<keycap
->F</keycap
+>O</keycap
 ></keycombo
 ></shortcut
 > <guimenu
@@ -195,8 +190,7 @@
 ><action
 >Opens the Search Dialog to search in all open works</action
 >. More works can be added in the Search Dialog.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		</variablelist>
@@ -218,9 +212,9 @@
 ><imageobject
 > <imagedata fileref="i_sidetree.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Window</guimenu
+> Ikkuna</guimenu
 > <guimenuitem
->Save session</guimenuitem
+>Talleta istunto</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
@@ -228,10 +222,9 @@
 ><action
 >Directly saves the current session</action
 >. This will open a context menu where you can select an existing session to save to. It will be overwritten with your current session. See the next item on how to save to a new session.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
-		
+
 		<varlistentry id="hdbk-reference-menus-window-savenewsession">
 			<term
 ><menuchoice
@@ -246,9 +239,9 @@
 ><imageobject
 > <imagedata fileref="i_sidetree.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Window</guimenu
+> Ikkuna</guimenu
 > <guimenuitem
->Save as new Session</guimenuitem
+>Talleta uutena istuntona</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
@@ -256,8 +249,7 @@
 ><action
 >Tallettaa nykyisen istunnon uudella nimellä</action
 >. Tämä kysyy uutta istunnontalletuksen nimeä.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-window-loadsession">
@@ -268,18 +260,17 @@
 ><imageobject
 > <imagedata fileref="i_sidetree.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Window</guimenu
+> Ikkuna</guimenu
 > <guimenuitem
->Load session</guimenuitem
+>Lataa istunto</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
 ><para
 ><action
->Loads an existing session</action
->. This will open a context menu where you can select an existing session to load.</para
-></listitem
-> 
+>Lataa olemassaolevan istunnon</action
+>. Tämä avaa kontekstivalikon, josta voit valita olemassaolevan istunnon ladattavaksi.</para
+></listitem>
 		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-window-deletesession">
@@ -290,20 +281,18 @@
 ><imageobject
 > <imagedata fileref="i_sidetree.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Window</guimenu
+> Ikkuna</guimenu
 > <guimenuitem
->Delete session</guimenuitem
+>Poista istunto</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
 ><para
 ><action
->Deletes an existing session</action
->. This will open a context menu where you can select an existing session that should be deleted.</para
-></listitem
-> 
-		</varlistentry
->	
+>Poistaa olemassaolevan istunnon</action
+>. Tämä avaa kontekstivalikon, jossa voit valita olemassaolevan istunnon poistettavaksi.</para
+></listitem>
+		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-window-fullscreen">
 			<term
@@ -319,9 +308,9 @@
 ><imageobject
 > <imagedata fileref="i_fullscreen.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Window</guimenu
+> Ikkuna</guimenu
 > <guimenuitem
->Fullscreen Mode</guimenuitem
+>Kokoruutu-tila</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
@@ -329,10 +318,9 @@
 ><action
 >Toggles fullscreen mode</action
 >. Here you can turn fullscreen mode on or off. In fullscreen mode, &bibletime; will expand to the full size of your monitor screen, using as much space as possible.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
-		
+
 		<varlistentry id="hdbk-reference-menus-window-arrangement_mode">
 			<term
 ><menuchoice
@@ -351,10 +339,9 @@
 ><action
 >Controls the basic window arrangement behaviour</action
 >. In the opening context menu, you can either specify that you want to take care of the window arrangement yourself (Manual mode) or have &bibletime; handle it for you (Automatical modes, just try them out!).</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
-		
+
 		<varlistentry id="hdbk-reference-menus-window-tile-vertically">
 			<term
 ><menuchoice
@@ -379,8 +366,7 @@
 ><action
 >Tiles all open read windows vertically</action
 >.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-window-tile-horizontally">
@@ -407,10 +393,9 @@
 ><action
 >Tiles all open windows horizontally</action
 >.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
-		
+
 		<varlistentry id="hdbk-reference-menus-window-cascade">
 			<term
 ><menuchoice
@@ -435,8 +420,7 @@
 ><action
 >Cascades all open windows</action
 >.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-window-closeall">
@@ -453,9 +437,9 @@
 ><imageobject
 > <imagedata fileref="i_fileclose.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Window</guimenu
+> Ikkuna</guimenu
 > <guimenuitem
->Close all</guimenuitem
+>Sulje kaikki</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
@@ -463,10 +447,9 @@
 ><action
 >Closes all open windows</action
 >.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
-	
+
 		</variablelist>
 	</sect2>
 
@@ -476,7 +459,7 @@
 >Asetukset</guimenu
 ></title>
 		<variablelist>
-		
+
 		<varlistentry id="hdbk-reference-menus-settings-toolbars">
 			<term
 ><menuchoice
@@ -485,9 +468,9 @@
 ><imageobject
 > <imagedata fileref="i_configuretoolbars.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Settings</guimenu
+> Asetukset</guimenu
 > <guimenuitem
->Configure toolbars</guimenuitem
+>Aseta työkalupalkit</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
@@ -497,8 +480,7 @@
 >. Just try it out, you can move around the toolbar buttons and even add new ones. Most of the entries available from the main menu can be put on the toolbar as buttons. If you need a certain feature often, you might want to put a button on the main menu, so that you can access it with only one click. Please see <link linkend="hdbk-config-toolbar"
 >this section</link
 > for further information.</para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-settings-bibletime">
@@ -509,9 +491,9 @@
 ><imageobject
 > <imagedata fileref="i_configure.png" format="PNG"/></imageobject
 ></inlinemediaobject
-> Settings</guimenu
+> Asetukset</guimenu
 > <guimenuitem
->Configure &bibletime;</guimenuitem
+>Aseta &bibletime;</guimenuitem
 ></menuchoice
 ></term>
 			<listitem
@@ -521,8 +503,7 @@
 >. You can configure all kinds of nice settings there to adapt &bibletime; to your needs. Please see <link linkend="hdbk-config-bt"
 >this section</link
 > for details. </para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		<varlistentry id="hdbk-reference-menus-settings-bookshelf_manager">
@@ -551,23 +532,21 @@
 >. Please see <link linkend="hdbk-op-bookshelfmanager"
 >this section</link
 > for details. </para
-></listitem
-> 
+></listitem>
 		</varlistentry>
 
 		</variablelist>
 	</sect2>
-	
+
 
 	<sect2 id="hdbk-reference-menus-help"
 ><title
 ><guimenu
->Help</guimenu
+>Ohje</guimenu
 ></title
 > &help.menu.documentation; </sect2>
-	
-</sect1
->	
+
+</sect1>
 
 <sect1 id="hdbk-reference-toolbar"
 ><title
@@ -603,12 +582,12 @@
 > Please see <link linkend="hdbk-reference-menus-settings-toolbars"
 >this section</link
 > for detailed instructions. </para>
-	
+
 </sect1>
 
 <sect1 id="hdbk-reference-hotkeys">
 <title
->HotKeys index</title>
+>Pikanäppäinten luettelo</title>
 
 <para
 >This is index of all hotkeys and their corresponding description in the handbook. The hotkeys are sorted (roughly) alphabetical. If you want to directly find out which hotkey a certain menu item has, you can either look at the entry itelf in &bibletime; (as it always shows the hotkey), or you can look it up in <link linkend="hdbk-reference-menus"
@@ -622,7 +601,7 @@
 <thead>
 <row>
   <entry
->Hotkey</entry>
+>Pikanäppäin</entry>
   <entry
 >Kuvaus</entry>
 </row>
@@ -782,7 +761,7 @@
 > </keycombo
 ></entry>
   <entry
->Zoom out. This decreases the font size of read windows.</entry>
+>Loitonna. Tämä pienentää kirjasimen kokoa lukuikkunoissa.</entry>
 </row>
 <row>
   <entry
@@ -792,7 +771,7 @@
 > </keycombo
 ></entry>
   <entry
->Zoom in. This increases the font size of read windows.</entry>
+>Lähennä. Tämä suurentaa kirjasimen kokoa lukuikkunoissa.</entry>
 </row>
 <row>
   <entry
@@ -802,7 +781,7 @@
 > </keycombo
 ></entry>
   <entry
->Select all. This selects all text in read windows.</entry>
+>Valitse kaikki. Tämä valitsee kaikki tekstit lukuikkunassa.</entry>
 </row>
 <row>
   <entry
@@ -812,10 +791,8 @@
 > </keycombo
 ></entry>
   <entry
->Copy. This copies the selected text to the clipboard.</entry>
+>Kopioi. Tämä kopioi valitun tekstin leikepöydälle.</entry>
 </row>
-
-
 <row>
   <entry
 ><keycombo action="simul"
@@ -824,15 +801,7 @@
 > </keycombo
 ></entry>
   <entry
-><link linkend="hdbk-reference-menus-search-openworks"
-><menuchoice
-> <guimenu
->Search</guimenu
-> <guimenuitem
->Search in open work(s)</guimenuitem
-></menuchoice
-></link
-> equivalent; opens the search dialog to search in all currently opened works.</entry>
+>Search. This lets you search within the text of a read window.</entry>
 </row>
 <row>
   <entry
@@ -892,6 +861,24 @@
   <entry
 ><keycombo action="simul"
 >&Ctrl;<keycap
+>O</keycap
+> </keycombo
+></entry>
+  <entry
+><link linkend="hdbk-reference-menus-search-openworks"
+><menuchoice
+> <guimenu
+>Search</guimenu
+> <guimenuitem
+>Search in open work(s)</guimenuitem
+></menuchoice
+></link
+> equivalent; opens the search dialog to search in all currently opened works.</entry>
+</row>
+<row>
+  <entry
+><keycombo action="simul"
+>&Ctrl;<keycap
 >Q</keycap
 > </keycombo
 ></entry>
@@ -914,7 +901,7 @@
 > </keycombo
 ></entry>
   <entry
->Closes the current window.</entry>
+>Sulkee nykyisen ikkunan.</entry>
 </row>
 <row>
   <entry
@@ -1109,7 +1096,7 @@
 
 <sect1 id="hdbk-reference-regexp">
 <title
->GCC Regular Expression Reference</title>
+>GCC säännöllisten lausekkeiden käsikirja</title>
 
 <sect2 id="hdbk-reference-regexp-introduction">
 <title
@@ -1230,7 +1217,7 @@
 
 <sect3 id="period">
 <title
->The period .</title>
+>Jakso .</title>
 
 <para
 >The Period "." will match any single character even a space or other non-alphabet character. <emphasis
@@ -1284,7 +1271,7 @@
 
 <sect3 id="asterisk">
 <title
->The asterisk *</title>
+>Tähtimerkki *</title>
 
 <para
 >The asterisk matches zero or more characters of the preceding: set, character or indicated character. Using a period asterisk combination ".*" is a common method to match any combination of characters. <emphasis
@@ -1308,7 +1295,7 @@
 
 <sect3 id="plus">
 <title
->The plus sign +</title>
+>Plus-merkki +</title>
 <para
 >The Plus Sign matches one or more characters of the preceding: set, character or indicated character. Using a period and plus sign combination ".+" is similar to ".*" (see above), but the string has to contain at least one string to match. <emphasis
 >be+n</emphasis
@@ -1323,7 +1310,7 @@
 
 <sect3 id="question">
 <title
->The question mark ?</title>
+>Kysymysmerkki ?</title>
 <para
 >The Question Mark matches zero or one character of the preceding: set, character or indicated character. <emphasis
 >be?n</emphasis
@@ -1344,7 +1331,7 @@
 
 <sect3 id="bracket">
 <title
->The square brackets [ ]</title>
+>Hakasulut [ ]</title>
 <para
 >The Square Brackets enclose a set of characters that can match. The period, asterisk, plus sign and question mark are not special inside the brackets. A minus sign can be used to indicate a range. If you want a caret "^" to be part of the range do not place it first after the left bracket or it will be a special character. To include a "]" in the set make it the first (or second after a special "^") character in the set. To include a minus sign in the set make it the first (or second after a special "^") or last character in the set. <emphasis
 >s[eia]t</emphasis
@@ -1375,7 +1362,7 @@
 
 <sect3 id="caret">
 <title
->The caret first in square brackets [^xxx]</title>
+>Hattu hakasulkujen alussa [^xxx]</title>
 <para
 >If the Caret is the first character after the left bracket it means NOT. <emphasis
 >s[^io]t</emphasis
@@ -1426,7 +1413,7 @@
 
 <sect3 id="bar">
 <title
->The vertical bar |</title>
+>Pystyviiva (putkimerkki) |</title>
 <para
 >The Vertical Bar between patterns means OR. <emphasis
 >John|Peter</emphasis
@@ -1455,10 +1442,10 @@
 
 <sect3 id="parenth">
 <title
->The parentheses ( ) </title>
+>Sulkumerkit ( ) </title>
 <para
 ><emphasis
->The use of Parentheses ( ) is not supported!</emphasis
+>Sulkumerkkien ( ) käyttöä ei tueta!</emphasis
 ></para>
 </sect3>
 
@@ -1513,15 +1500,15 @@
 ></listitem>
 <listitem
 ><para
->\d means digit; same as [0-9].</para
+>\d merkitsee numeroa; sama kuin [0-9].</para
 ></listitem>
 <listitem
 ><para
->\D means non-digit, same as [^0-9].</para
+>\D merkitsee ei-numeroa, sama kuin [^0-9].</para
 ></listitem>
 <listitem
 ><para
->\s means whitespace character.</para
+>\s merkitsee tyhjää tai tabulaattoria (whitespace).</para
 ></listitem>
 <listitem
 ><para
@@ -1529,11 +1516,11 @@
 ></listitem>
 <listitem
 ><para
->\w means alphanumeric; same as [a-zA-Z0-9_].</para
+>\w merkitsee alfanumeerista merkkiä, sama kuin [a-zA-Z0-9_].</para
 ></listitem>
 <listitem
 ><para
->\W means not alphanumeric; same as [^a-zA-Z0-9_].</para
+>\W merkitsee ei-alfanumeerista merkkiä, sama kuin [^a-zA-Z0-9_].</para
 ></listitem>
 </itemizedlist>
 </sect3>

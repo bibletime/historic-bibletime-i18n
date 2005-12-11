@@ -11,7 +11,7 @@
 >&bibletime;n käynnistys KDE:stä</title>
 	
 		<para
->&bibletime; is a &kde; program and is integrated with the &kde; desktop. You can launch &bibletime; from the &kde; Start Menu in the Applications group with this icon: <mediaobject>
+>&bibletime; on &kde;-ohjelma ja se on integroitu &kde;-työpöydän kanssa. Voit käynnistää  &bibletime;n &kde; K-valikosta tämän kuvakkeen sovellusryhmässä: <mediaobject>
 		<imageobject
 ><imagedata fileref="i_bibletime.png" format="PNG"/></imageobject>
 		<textobject>
@@ -22,7 +22,7 @@
 		</para>
 		
 		<para
->&bibletime; can also be launched from a terminal command prompt. To launch &bibletime;, open a terminal window and type: <screen
+>&bibletime;-ohjelman voi käynnistää terminaali-ikkunan komentoriviltä. Käynnistääksesi&bibletime;-ohjelman, avaa terminaali-ikkuna ja kirjoita: <screen
 >bibletime
 </screen>
 		</para>
@@ -34,7 +34,7 @@
 >Muut ikkunamanagerit</title>
 	
 		<para
->&bibletime; can be used with other window managers such as Gnome, BlackBox or Sawfish, providing &kde; is already installed on your computer. If your &kde; is installed in /opt/kde, then the start-up command in a terminal would be:</para>
+>Voit käyttää &bibletime;-ohjelmaa muilla ikkunointiohjelmilla kuten Gnomella, BlackBoxilla tai Sawfishillä edellyttäen, että &kde; on jo asennettu koneelle. Jos &kde; on asennettu kansioon /opt/kde, käynnistyskomento terminaalissa on:</para>
 		
 <screen
 >export KDEDIR=/opt/kde  #Sinun KDE-kansiosi
@@ -48,15 +48,13 @@ bibletime
 >Käynnistyksen säätäminen</title>
 		
 		<para
->From a terminal you can use &bibletime; to open a random verse in the default bible: <screen
->
+>Voit avata &bibletime;n satunnaisen jakeen oletusraamatusta terminaali-ikkunassa: <screen>
 bibletime --open-default-bible "&lt;random&gt;"
 </screen
-> To open at a given passage like John 3:16, use: <screen
->
-bibletime --open-default-bible "John 3:16"
+> Avataksesi tietyn kohdan kuten John 3:16, käytä: <screen>
+bibletime --open-default-bible "Joh 3:16"
 </screen
-> You can also use booknames in your current bookname language. </para>
+> Voit käyttää myös kirjannimiä nykyisellä kirjannimien kielellä. </para>
 		
 	</sect2>
 
@@ -67,14 +65,14 @@ bibletime --open-default-bible "John 3:16"
 >Käynnistyssarja</title>
 
 	<para
->As &bibletime; launches you may see the following screens before the main &bibletime; window opens:</para>
+>Kun &bibletime; käynnistyy, näet seuraavat ikkunat ennenkuin &bibletime;n pääikkuna avautuu:</para>
 	
 	<variablelist>
 	
 		<varlistentry>
 			<term
 ><interface
->Bookshelf Manager</interface
+>Kirjahyllyn hallinta</interface
 ></term>
 			<listitem
 ><para
@@ -90,7 +88,7 @@ bibletime --open-default-bible "John 3:16"
 		<varlistentry>
 			<term
 ><interface
->Configure &bibletime; dialog</interface
+>Aseta &bibletime; -ikkuna</interface
 ></term>
 			<listitem
 ><para

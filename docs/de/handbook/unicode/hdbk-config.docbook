@@ -1,49 +1,49 @@
 <chapter id="hdbk-config"
 ><title
->&bibletime; konfigurieren</title>
+>&bibletime; einrichten</title>
 
 <para
->In this section you find a description of the different possibilities to configure &bibletime;: The <link linkend="hdbk-config-bt"
->Configure BibleTime Dialog </link
-> and the <link linkend="hdbk-config-toolbar"
->Configure Toolbars</link
-> dialog. Both can be accessed under <guimenu
->Settings</guimenu
-> in the main menu.</para>
+>In diesem Abschnitt finden Sie eine Beschreibung der verschiedenen Möglichkeiten &bibletime; einzurichten. Der Dialog <link linkend="hdbk-config-bt"
+>BibleTime einrichten</link
+> und der <link linkend="hdbk-config-toolbar"
+>Werkzeugleisten einrichten</link
+> Dialog. Auf beide kann mittels <guimenu
+>Einstellungen</guimenu
+> im Hauptmenü zugegriffen werden.</para>
 
 <sect1 id="hdbk-config-bt"
 ><title
->Configure BibleTime Dialog</title>
+>BibleTime-Konfigurationsdialog</title>
 
 	<para
->The &bibletime; user interface can be customized in many ways depending on your needs. You can access the configuration dialog by selecting <menuchoice
+>Die &bibletime; Benutzeroberfläche kann auf vielfältige Art ihren Ansprüchen angepasst werden. Sie können auf den Konfigurationsdialog über die Auswahl von <menuchoice
 ><guimenu
->Settings</guimenu
+>Einstellungen</guimenu
 ></menuchoice
 > <guimenuitem
->Configure &bibletime;</guimenuitem
->.</para>
+>&bibletime; einrichten</guimenuitem
+>. gelangen.</para>
 
 	<sect2 id="hdbk-config-bt-display"
 ><title
 ><guimenu
->Display</guimenu
+>Anzeige</guimenu
 ></title>
 	
 		<para
->Das Startverhalten kann angepasst werden. Wählen Sie aus den folgenden Optionen aus: <itemizedlist>
+>Das Startverhalten kann angepasst werden. WÃ€hlen Sie aus den folgenden Optionen aus: <itemizedlist>
 				<listitem
 ><para
 >Tipp des Tages anzeigen</para
 ></listitem>
 				<listitem
 ><para
->Show startup logo</para
+>Startlogo anzeigen</para
 ></listitem>
 			</itemizedlist>
 		</para>
 		<para
->Display templates define the rendering of text (colors, size etc.). Various built-in templates are available. If you select one, you will see a preview on the right pane.</para>
+>Anzeigenstile definieren das Aussehen des Textes (Farben, Größe, usw.). Es sind mehrere eingebaute Stile verfügbar. Nach Auswahl eines Stiles wird im rechten Abschnitt eine Vorschau angezeigt,</para>
 
 	</sect2>
 	
@@ -74,67 +74,67 @@
 	</mediaobject>
 
 		<para
->&bibletime; can now use all fonts supported by KDE/QT. As long as the works you are interested in display correctly nothing needs to be done here. If a work only displays as a series of question marks (??????) or empty boxes, then you know that the standard KDE display font does not contain the characters used in this work.</para>
+>&bibletime; kann alle von KDE/Qt unterstützten Schriftarten benutzen. Solange die für sie relevanten Werke korrekt dargestellt werden muss nichts unternommen werden. Wenn ein Werk jedoch nur als Folge von Fragezeichen (??????) oder leeren Kästchen dargestellt wird, dann wissen Sie nun, dass die Standard-Schriftart von KDE die in diesem Werk benutzten Zeichen nicht enthält.</para>
 	
 		<para
->To correct this, choose this work's language from the drop down menu. Select the use custom font checkbox. Now select a font. For example, a font that supports many languages is Code2000. If no installed font can display the work you are interested in, try installing the &kde; localization package for that language.</para>
+>Um dies zu korrigieren wählen Sie bitte die Sprache dieses Werkes aus der Aufklappbox aus. Wählen Sie die &quot;Benutzerdefinierte Schriftart verwende&quot; Box aus und wählen Sie anschließend eine Schriftart aus. So ist zum Beispiel die Schriftart Code2000 eine, die viele verschiedene Sprachen unterstützt. Wenn keiner der installierten Schriftarten das für sie interessante Werk darstellen kann, so versuchen Sie bitte, das entsprechende &kde; Sprach-Lokalisierungspaket zu installieren.</para>
 		
 		<sect3 id="hdbk-config-bt-addfont"
 ><title
 >Schriftarten installieren</title>
 			<para
->Detailed font installation instructions are outside the scope of this handbook. &kde;'s <ulink url="help:/kcontrol/index.html"
->KControl Center</ulink
-> contains an excellent and easy to use font installation module. Please read <ulink url="help:/kcontrol/kcmfontinst/index.html"
-> its documentation</ulink
->. For further information you might want to refer to the <ulink url="http://www.ibiblio.org/pub/Linux/docs/HOWTO/other-formats/html_single/Unicode-HOWTO.html#toc4"
+>Detaillierte Anweisungen zur Schriftarten-Installation gehen über den Umfang dieses Handbuches hinaus. &kde;s <ulink url="help:/kcontrol/index.html"
+>Kontrollzentrum</ulink
+> enthält ein exzellentes und einfach zu benutzendes Modul zur Installation von Schriftarten. Bitte lesen Sie <ulink url="help:/kcontrol/kcmfontinst/index.html"
+>dessen Dokumentation</ulink
+>. Für weitergehende Informationen könnten Sie auch das<ulink url="http://www.ibiblio.org/pub/Linux/docs/HOWTO/other-formats/html_single/Unicode-HOWTO.html#toc4"
 > Unicode HOWTO</ulink
->.</para>
+> lesen.</para>
 	
 			<tip
 ><para
->If you use a small font like Clearlyu (about 22kb), &bibletime; will run faster than with a large font like <trademark class="registered"
-> Bitstream Cyberbit</trademark
-> (about 12Mb).</para
+>Wenn Sie eine kleine Schriftart wie Clearlyu (etwa 22kb) verwenden, wird &bibletime; schneller laufen als mit einer großen Schriftart wie <trademark class="registered"
+>Bitstream Cyberbit</trademark
+> (etwa 12Mb).</para
 ></tip>
 		</sect3>
 
 		<sect3 id="hdbk-config-bt-ob-font"
 ><title
->Schriftarten bekommen</title>
+>Schriftarten beziehen</title>
 			<para
->Fonts can be obtained from a number of sources:</para>
+>Schriftarten können von unterschiedlichen Quellen bezogen werden:</para>
 			<itemizedlist>
 			<listitem
 ><para
->Your Linux distribution.</para
+>Ihre Linux-Distribution</para
 ></listitem>
 			<listitem
 ><para
->Das jeweilige Sprachpaket ihrer Distribution.</para
+>Die Sprachpakete ihrer Distribution.</para
 ></listitem>
 			<listitem
 ><para
->An existing <trademark class="registered"
+>Eine bestehende <trademark class="registered"
 >Microsoft Windows</trademark
-> installation on the same computer.</para
+> Installation auf dem gleichen Computer.</para
 ></listitem>
 			<listitem
 ><para
->A font collection, such as are available from Adobe or Bitstream.</para
+>Eine Sammlung von Schriftarten, wie sie z.B. von Adobe oder Bitstream erhältlich sind.</para
 ></listitem>
 			<listitem
 ><para
->Online font collections.</para
+>Sammlungen von Schriftarten im Internet.</para
 ></listitem>
 			</itemizedlist>
 	
 			<para
->Unicode fonts support more characters than other fonts, and some of these fonts are available at no charge. None of available fonts includes all characters defined in the Unicode standard, so you may want to use different fonts for different languages.</para>
+>Unicode Schriftarten unterstützen mehr Zeichen als andere, und einige dieser Schriftarten sind kostenlos erhältlich. Keine verfügbare Schriftart enthält alle Zeichen des Unicode Standards. Sie müssen also evtl. verschiedene Schriftarten für verschiedene Sprachen benutzen.</para>
 			
 			<table>
 				<title
->Unicode Schriften</title>
+>Unicode Schriftarten</title>
 				<tgroup cols="2">
 				<tbody>
 				
@@ -144,16 +144,16 @@
 >Code2000</ulink
 ></entry>
 				<entry
->Perhaps the best free Unicode font, covering a wide range of characters.</entry
+>Vielleicht die beste Unicode-Schriftart, sie deckt einen großen Zeichenbereich ab.</entry
 ></row>
 				
 				<row
 ><entry
 ><ulink url="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;cat_id=FontDownloads"
->SIL unicode fonts</ulink
+>Unicode Schriftarten von SIL</ulink
 ></entry>
 				<entry
->Excellent unicode fonts from the Summer Institute of Linguistics.</entry
+>Exzellente Schriftarten des Summer Institute of Linguistics.</entry
 ></row>
 	
 				<row
@@ -162,16 +162,16 @@
 >FreeFont</ulink
 ></entry>
 				<entry
->A new free unicode font initiative.</entry
+>Eine neue Initiative für eine freie Unicode-Schriftart.</entry
 ></row>
 				
 				<row
 ><entry
 ><ulink url="ftp://ftp.crosswire.org/pub/sword/iso/latest/FONTS"
->Crossire's font directory</ulink
+>Crosswire's font directory</ulink
 ></entry>
 				<entry
->Several fonts available from the Crosswire Bible Society Ftp site.</entry
+>Verschiedene Schriften sind auf der FTP-Seite von Crosswire verfÃŒgbar.</entry
 ></row>
 	
 				<row
@@ -180,14 +180,14 @@
 >Bitstream CyberBit</ulink
 ></entry>
 				<entry
->Covers almost the entire range of Unicode, but might slow &bibletime; down because of its size.</entry
+>Deckt fast den ganzen Unicode-Bereich ab, kÃ¶nnte aber &bibletime; durch seine GrÃ¶Ãe verlangsamen.</entry
 ></row>
 	
 				<row
 ><entry
 >Clearlyu</entry>
 				<entry
->Included in some distributions. Contains European, Greek, Hebrew, Thai.</entry
+>Ist in einigen Distributionen enthalten. EnthÃ€lt EuropÃ€isch, Griechisch, HebrÃ€isch, Thai.</entry
 ></row>
 				
 				<row
@@ -216,7 +216,7 @@
 	<sect2 id="hdbk-config-bt-desk"
 ><title
 ><guimenu
->Desk</guimenu
+>Schreibtisch</guimenu
 ></title>
 	
 		<para
@@ -227,13 +227,13 @@
 	<sect2 id="hdbk-config-bt-hotkeys"
 ><title
 ><guimenu
->HotKeys</guimenu
+>Tastenkürzel</guimenu
 ></title>
 	
 		<para
->HotKeys are special key commands that can be used in the place of the menu items and icons. A number of &bibletime;'s commands have predefined HotKeys (see <link linkend="hdbk-reference-hotkeys"
->this section</link
-> for a complete listing). Most of &bibletime;'s commands can be assigned HotKeys here. This is very helpful to quickly access the functions that you need the most.</para>
+>Tastenkürzel sind spezielle Tastenbefehle, die an Stelle der Menüeinträge oder Symbole verwendet werden können. Eine Anzahl von &bibletime;s Befehlen hat bereits vordefinierte Tastenkürzel (<link linkend="hdbk-reference-hotkeys"
+>dieser Abschnitt</link
+> enthält eine komplette Auflistung. Den meisten Befehlen von &bibletime; kann hier ein Tastenkürzel zugewieseen werden. Dies ist sehr hilfreich, um die oftbenutzten Funktionen schnell zu erreichen.</para>
 	
 	</sect2>
 
@@ -242,9 +242,9 @@
 		
 	<sect1 id="hdbk-config-toolbar"
 ><title
->Configure Toolbars dialog</title>
+>&quot;erkzeugleiste einrichten&quot; Dialog</title>
 	<para
->You can adapt the toolbar to your needs. Please use the following entry in the main menu: <variablelist
+>Sie können die Werkzeugleiste ihren Bedürfnissen anpassen. Bitte benutzen Sie den folgenden Eintrag aus dem Hauptmenü: <variablelist
 > <varlistentry>
 			<term
 ><menuchoice
@@ -253,40 +253,40 @@
 ><imageobject
 > <imagedata fileref="i_configuretoolbars.png" format="PNG"/></imageobject
 > </inlinemediaobject
->Settings </guimenu
+>Einstellungen </guimenu
 > <guimenuitem
->Configure toolbars</guimenuitem
+>Werkzeugleisten einrichten</guimenuitem
 ></menuchoice
 ></term
 > 
 			<listitem
 ><para
->Configure toolbars</para
+>Werkzeugleisten einrichten</para
 ></listitem>
 		</varlistentry>
 	</variablelist>
 	</para>
 	<para
->You will see this dialog, which allows adding and removing buttons from the main toolbar of &bibletime;. The order of the can also be changed. </para>
+>Sie werden diesen Dialog sehen, der ihnen erlaubt Knöpfe von  &bibletime;s Werkzeugleiste zu entfernen und auch wieder hinzuzufügen. Die Reihenfolge kann ebenfalls verändert werden. </para>
 	<mediaobject>
 		<imageobject>
 		<imagedata fileref="ss_configtoolbar.png" format="PNG"/>
 		</imageobject>
 		<textobject
 ><phrase
->Toolbar configuration dialog</phrase
+>Werkzeugleisten-Konfigurationsdialog</phrase
 ></textobject>
 		<caption
 ><para
->The Toolbar configuration dialog.</para
+>Der Werkzeugleisten-Konfigurationsdialog.</para
 ></caption>
 	</mediaobject>
 	<para
->Use the 4 buttons in the middle of the window to move buttons to the toolbar, away from the toolbar or to sort them on the toolbar according to your preference. </para>
+>Benutzen Sie die vier Knöpfe in der Mitte des Fensters, um die Knöpfe auf die Werkzeugleiste hin oder von ihr weg zu bewegen oder um die Reihenfolge ihren Vorlieben anzupassen. </para>
 	<para
->Please see <link linkend="hdbk-reference-menus-settings-toolbars"
->this section</link
-> for further information.</para>
+>Bitte lesen Sie <link linkend="hdbk-reference-menus-settings-toolbars"
+>diesen Abschnitt</link
+> für weitergehenden Informationen.</para>
 	</sect1>
 
 </chapter>
