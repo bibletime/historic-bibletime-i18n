@@ -1,6 +1,6 @@
 SUBDIRS = docs po .
 
-EXTRA_DIST = configure.in.in configure.in Makefile.cvs bibletime.m4
+EXTRA_DIST = configure.in.in configure.in Makefile.cvs bibletime.m4 README
 
 btadmindir = $(top_srcdir)/admin
 
