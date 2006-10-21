@@ -3,7 +3,6 @@
 # translation of fi.po to
 # translation of fi.po to
 # translation of fi.po to
-# translation of fi.po to Finnish
 # translation of fi.po to
 # translation of fi.po to
 # translation of fi.po to
@@ -12,26 +11,25 @@
 # translation of fi.po to
 # translation of fi.po to
 # translation of fi.po to
-# translation of fi.po to suomi
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
 # Tapio Mattila <tapio.mattila@mbnet.fi>, 2003,2004, 2005.
 # Tapio Mattila <tapio.mattila@kde-fi.org>, 2004.
-# Ilpo Kantonen <ilpo@iki.fi>, 2005.
-#
+# Ilpo Kantonen <ilpo@iki.fi>, 2005, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: fi\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-08-23 18:18+0200\n"
-"PO-Revision-Date: 2005-11-08 13:22+0200\n"
+"PO-Revision-Date: 2006-10-03 17:13+0300\n"
 "Last-Translator: Ilpo Kantonen <ilpo@iki.fi>\n"
-"Language-Team: finnish <Finnish <kde-i18n-fi-discussion@lists.sourceforge."
-"net>>\n"
+"Language-Team: finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.1\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: ../bibletime/backend/bt_osishtml.cpp:327
 msgid "Alternative text"
@@ -300,7 +298,7 @@ msgstr "Alustetaan Swordia"
 
 #: ../bibletime/bibletime_init.cpp:570
 msgid "Checking indices"
-msgstr ""
+msgstr "Tarkistaa hakemistoluettelot"
 
 #: ../bibletime/bibletime_slots.cpp:539
 msgid "Please enter a name for the new session."
@@ -417,44 +415,42 @@ msgstr "&Ok"
 
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:62
 msgid "Manage module search indices"
-msgstr ""
+msgstr "Moduulihakemistojen etsinnän hallinta"
 
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:63
 msgid ""
 "You can use the list below to create and/or delete search indices for your "
 "installed works."
-msgstr ""
+msgstr "Allaolevaa luetteloa voi käyttää hakuhakemistojen luontiin/poistoihin asennetuille teoksille."
 
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:67
-#, fuzzy
 msgid "Module"
-msgstr "More"
+msgstr "Moduuli"
 
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:68
-#, fuzzy
 msgid "Index size"
-msgstr "Indonesia"
+msgstr "Hakemiston koko"
 
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:90
 msgid "Modules with indices"
-msgstr ""
+msgstr "Hakemistomoduulit"
 
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:94
 msgid "Modules without indices"
-msgstr ""
+msgstr "Hakemistottomat moduulit"
 
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:106
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:111
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: ../bibletime/frontend/cmoduleindexdialog.cpp:41
 msgid "Preparing instant search"
-msgstr ""
+msgstr "Valmistelee pikahakua"
 
 #: ../bibletime/frontend/cmoduleindexdialog.cpp:53
 msgid "Creating index for work %1"
-msgstr ""
+msgstr "Luo hakemistoa teokselle %1"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:74
 msgid "Configure BibleTime"
@@ -688,8 +684,7 @@ msgstr ""
 msgid ""
 "For God didn't send his Son into the world to judge the world, but that the "
 "world should be saved through him."
-msgstr ""
-"Ei Jumala lähettänyt Poikaansa tuomitsemaan maailmaa, vaan pelastamaan sen."
+msgstr "Ei Jumala lähettänyt Poikaansa tuomitsemaan maailmaa, vaan pelastamaan sen."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:936
 msgid ""
@@ -831,9 +826,8 @@ msgid "Remove selected work(s)"
 msgstr "Poista valitut teokset"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:241
-#, fuzzy
 msgid "Manage search indicies"
-msgstr "Tallennetaan hakutulosta"
+msgstr "Hakuhakemistojen hallinta"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:319
 #: ../bibletime/frontend/cswordsetupdialog.cpp:371
@@ -1137,9 +1131,8 @@ msgstr "Tulosta luku"
 
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:177
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:101
-#, fuzzy
 msgid "Strong's Search"
-msgstr "Strongin numerot"
+msgstr "Strongien haku"
 
 #: ../bibletime/frontend/displaywindow/cbiblereadwindow.cpp:185
 #: ../bibletime/frontend/displaywindow/clexiconreadwindow.cpp:108
@@ -1231,9 +1224,8 @@ msgid "Toggle tree view"
 msgstr "Näytä/piilota puu..."
 
 #: ../bibletime/frontend/displaywindow/cbookreadwindow.cpp:167
-#, fuzzy
 msgid "Book window"
-msgstr "Kirjaikkunat"
+msgstr "Kirjaikkuna"
 
 #: ../bibletime/frontend/displaywindow/cbuttons.cpp:111
 msgid "Display settings: No options available"
@@ -1274,9 +1266,8 @@ msgid "Sync with active Bible"
 msgstr "Synkronoi aktiivisen raamatun kanssa"
 
 #: ../bibletime/frontend/displaywindow/ccommentaryreadwindow.cpp:197
-#, fuzzy
 msgid "Commentary window"
-msgstr "Kommentaari-ikkunat"
+msgstr "Kommentaari-ikkuna"
 
 #: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:158
 #: ../bibletime/frontend/displaywindow/cdisplaywindow.cpp:209
@@ -1381,16 +1372,15 @@ msgstr "Ei teosta valittuna"
 
 #: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:138
 msgid "Module is not writable."
-msgstr ""
+msgstr "Moduuliin ei voi kirjoittaa."
 
 #: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:139
-msgid ""
-"Either the module may not be edited, or you do not have write permission."
-msgstr ""
+msgid "Either the module may not be edited, or you do not have write permission."
+msgstr "Joko moduulia ei ole muokattu tai sinulla ei ole kirjoitusoikeuksia siihen."
 
 #: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:141
 msgid "Module not writable"
-msgstr ""
+msgstr "Moduuliin ei voi kirjoittaa"
 
 #: ../bibletime/frontend/displaywindow/cwritewindow.cpp:141
 msgid "Save text before closing?"
@@ -1528,7 +1518,7 @@ msgstr "Käytä valittuja moduuleja"
 
 #: ../bibletime/frontend/searchdialog/cmoduleresultview.cpp:50
 msgid "Hits"
-msgstr ""
+msgstr "Osumat"
 
 #: ../bibletime/frontend/searchdialog/cmoduleresultview.cpp:227
 #: ../bibletime/frontend/searchdialog/cmoduleresultview.cpp:236
@@ -1642,22 +1632,23 @@ msgstr "Hakuikkuna"
 
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:111
 msgid "Missing indices"
-msgstr ""
+msgstr "Puuttuvat hakemistot"
 
 #: ../bibletime/frontend/searchdialog/csearchdialog.cpp:112
 msgid ""
 "One or more modules need indexing before they can be searched.\n"
 "This could take a long time. Proceed with indexing?"
 msgstr ""
+"Yksi tai useampi mouduuli pitää indeksoida ennenkuin niitä voidaan etsiä.\n"
+"Tämä voi viedä pitkän ajan. Haluatko indeksoida?"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:80
-#, fuzzy
 msgid "Parsing Stong's Numbers"
-msgstr "Strongin numerot"
+msgstr "Jäsentää Strongin numeroita"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:80
 msgid "Parsing Stong's numbers for translations."
-msgstr ""
+msgstr "Jäsentää Strongin numeroita käännöksiä varten."
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:617
 msgid "Searching in: "
@@ -1668,7 +1659,7 @@ msgid ""
 "<p>Enter search terms separated by spaces.  By default the search function "
 "will return results that match any of the search terms (OR). To search for "
 "all the terms separate the terms by AND.</p>"
-msgstr ""
+msgstr "<p>Anna hakusanat välilyönnein eroteltuna.  Oletuksena hakutoiminto palauttaa tulokset, jotka täsmäävät mihin tahansa termiin (TAI). (JA) etsii siten, että hakutulos täsmää jokaiseen haettuun sanaan.</p>"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:693
 msgid ""
@@ -1676,13 +1667,15 @@ msgid ""
 "matches any single character. The use of brackets allows you to group your "
 "search terms, e.g. '(Jesus OR spirit) AND God'.</p>"
 msgstr ""
+"<p>Käytössä olevat Jokerimerkit: '*' täsmää mihin tahansa tekstipalaseen, '?' "
+"täsmää yhteen merkkiin. Sulkujen käytöllä voi ryhmitellä hakutermejä, esim. '(Jeesus TAI henki) JA Jumala'.</p>"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:696
 msgid ""
 "<p>To search text other than the main text, enter the text type followed by "
 "\":\", and then the search term.  For example, to search for the Strong's "
 "number H8077, use 'strong:H8077'.</p>"
-msgstr ""
+msgstr "<p>Muun kuin päätekstin etsintä tapahtuu kirjoittamalla hakusanan eteen tekstin tyyppi ja sen jälkeen \":\". Esimerkiksi etsiäksesi Strongin numeron H8077, kirjoita 'strong:H8077'.</p>"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:699
 msgid ""
@@ -1691,6 +1684,9 @@ msgid ""
 "tr><tr><td>strong:</td><td>searches Strong's Numbers</td></tr><tr><td>morph:"
 "</td><td>searches morphology codes</td></tr></table></p>"
 msgstr ""
+"<p>Saatavillaolevat tekstityypit:<br><table><tr><td>heading:</td><td>etsii otsikoista</td></tr><tr><td>footnote:</td><td>etsii alaviitteitä</td></"
+"tr><tr><td>strong:</td><td>etsii Strongin numeroita</td></tr><tr><td>morph:"
+"</td><td>etsii morfologisia koodeja</td></tr></table></p>"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:704
 msgid ""
@@ -1699,10 +1695,13 @@ msgid ""
 "\"http://lucene.apache.org/java/docs/queryparsersyntax.html\">http://lucene."
 "apache.org/java/docs/queryparsersyntax.html</a></p>"
 msgstr ""
+"<p>BibleTime käyttää Lucenen hakukonetta etsintöihin. Siinä on monia edistyksellisiä ominaisuuksia. Lisätietoja löytyy osoitteesta: <a href="
+"\"http://lucene.apache.org/java/docs/queryparsersyntax.html\">http://lucene."
+"apache.org/java/docs/queryparsersyntax.html</a></p>"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:709
 msgid "Basic Search Syntax Introduction"
-msgstr ""
+msgstr "Etsinnän perusopas"
 
 #: ../bibletime/frontend/searchdialog/csearchdialogpages.cpp:717
 msgid "No search scope"
@@ -1710,7 +1709,7 @@ msgstr "Ei haun laajuutta"
 
 #: ../bibletime/frontend/searchdialog/csearchresultview.cpp:41
 msgid "Results"
-msgstr ""
+msgstr "Tulokset"
 
 #: ../bibletime/main.cpp:124
 msgid "Enable debug messages"
@@ -1737,9 +1736,8 @@ msgid "Bible study tool for KDE"
 msgstr "Raamatun opiskelutyökalu KDE:lle"
 
 #: ../bibletime/main.cpp:137
-#, fuzzy
 msgid "(c)1999-2006, The BibleTime Team"
-msgstr "(c)1999-2005, The BibleTime Team"
+msgstr "(c)1999-2006, BibleTime-työryhmä"
 
 #: ../bibletime/main.cpp:138
 msgid ""
@@ -1781,7 +1779,7 @@ msgstr "Kuvakkeet, käynnistyslogo"
 
 #: ../bibletime/main.cpp:165
 msgid "GUI"
-msgstr ""
+msgstr "Graafunen käyttöliittymä"
 
 #: ../bibletime/main.cpp:167
 msgid "Founder of the Sword project"
@@ -1805,7 +1803,7 @@ msgstr "Kielikoodit ja nimet"
 
 #: ../bibletime/main.cpp:177
 msgid "GUI, instant search"
-msgstr ""
+msgstr "Graafinen käyttöliittymä, pikahaku"
 
 #: ../bibletime/main.cpp:179 ../bibletime/main.cpp:183
 msgid "Frontend"
@@ -1817,7 +1815,7 @@ msgstr "Hakuikkuna"
 
 #: ../bibletime/main.cpp:185
 msgid "Russian website translation"
-msgstr ""
+msgstr "Venäjänkielisten www-sivujen käännös"
 
 #: ../bibletime/main.cpp:187
 msgid "Documentation"
@@ -1825,7 +1823,7 @@ msgstr "Dokumentaatio"
 
 #: ../bibletime/main.cpp:189
 msgid "French handbook translation"
-msgstr ""
+msgstr "Ranskalaisen käsikirjan käännös"
 
 #: ../bibletime/main.cpp:193
 msgid "Very helpful and detailed testing"
@@ -1841,11 +1839,11 @@ msgstr "Hyödyllisiä lähdekoodin lisäyksiä"
 
 #: ../bibletime/main.cpp:199
 msgid "Translated the GUI into Russian"
-msgstr ""
+msgstr "Käänsi graafisen käyttöliittymän venäjäksi"
 
 #: ../bibletime/main.cpp:201
 msgid "New Bible key choosers"
-msgstr ""
+msgstr "Uudet Raamatun avaimen valinnat"
 
 #: ../bibletime/main.cpp:204
 msgid ""
@@ -1877,8 +1875,7 @@ msgstr "&Ikkuna"
 
 #: ../bibletime/tips-dummy.cpp:3
 msgid "The Bible was written so we could believe in Jesus. (John 20:31)\n"
-msgstr ""
-"Raamattu on kirjoitettu jotta me voisimme uskoa Jeesukseen. (Joh.20:31)\n"
+msgstr "Raamattu on kirjoitettu jotta me voisimme uskoa Jeesukseen. (Joh.20:31)\n"
 
 #: ../bibletime/tips-dummy.cpp:7
 msgid ""
@@ -1947,8 +1944,7 @@ msgstr ""
 "tehdä kirjanmerkit henkilökohtaisesta kommentaaristasi.\n"
 
 #: ../bibletime/tips-dummy.cpp:47
-msgid ""
-"The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
+msgid "The scriptures give us the wisdom that leads to salvation. (2 Timothy 3:15)\n"
 msgstr ""
 "Kirjoitukset antavat meille sitä viisautta joka vie pelastukseen. (2 Tim. "
 "3:15)\n"
@@ -1983,12 +1979,10 @@ msgstr ""
 msgid ""
 "In the beginning was the Word, the Word was with God, and the Word was God. "
 "(John 1:1)\n"
-msgstr ""
-"Alussa oli Sana, Sana oli Jumalan luona, ja Sana oli Jumala. (Joh. 1:1)\n"
+msgstr "Alussa oli Sana, Sana oli Jumalan luona, ja Sana oli Jumala. (Joh. 1:1)\n"
 
 #: ../bibletime/tips-dummy.cpp:66
-msgid ""
-"We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
+msgid "We will be judged on the last day by the words Jesus spoke. (John 12:48)\n"
 msgstr ""
 "Viimeisenä päivänä meidät tuomitaan sen sanan, jonka Jeesus on puhunut, "
 "mukaan. (Joh. 12:48)\n"
@@ -2184,8 +2178,7 @@ msgstr ""
 "asetuksista."
 
 #: ../bibletime/util/cresmgr.cpp:838
-msgid ""
-"Open the dialog to configure your bookshelf and install/update/remove works."
+msgid "Open the dialog to configure your bookshelf and install/update/remove works."
 msgstr ""
 "Avaa asetusikkunan, josta voidaan muokata kirjahyllyn asetuksia ja asentaa/"
 "päivittää/poistaa teoksia."
@@ -2271,8 +2264,7 @@ msgstr ""
 msgid ""
 "If you choose this option the search will distinguish between upper and "
 "lowercase characters."
-msgstr ""
-"Jos valitset tämän kohdan, niin haku eroittelee isot ja pienet kirjaimet."
+msgstr "Jos valitset tämän kohdan, niin haku eroittelee isot ja pienet kirjaimet."
 
 #: ../bibletime/util/cresmgr.cpp:923
 msgid ""
@@ -2353,9 +2345,8 @@ msgid "Go forward one item in the display history."
 msgstr "Mene ettenpäin yksi askel selailuhistoriassa."
 
 #: ../bibletime/util/cresmgr.cpp:997
-msgid ""
-"Show all occurences of the Strong number currently under the mouse cursor."
-msgstr ""
+msgid "Show all occurences of the Strong number currently under the mouse cursor."
+msgstr "Näytä kaikki hiiren kursorin alla olevan nykyisen Strongin numeron esiintymät."
 
 #: ../bibletime/util/cresmgr.cpp:1003
 msgid "This list contains the books which are available in this work."
@@ -2370,8 +2361,7 @@ msgid "Show the previous book of this work."
 msgstr "Näytä tämän teoksen edellinen kirja."
 
 #: ../bibletime/util/cresmgr.cpp:1015
-msgid ""
-"This list contains the chapters which are available in the current book."
+msgid "This list contains the chapters which are available in the current book."
 msgstr "Tämä luettelo sisältää nykyisestä kirjasta löytyvät kappaleet."
 
 #: ../bibletime/util/cresmgr.cpp:1019
@@ -2383,8 +2373,7 @@ msgid "Show the next chapter of the work."
 msgstr "Näytä teoksen seuraava kappale."
 
 #: ../bibletime/util/cresmgr.cpp:1027
-msgid ""
-"This list contains the verses which are available in the current chapter."
+msgid "This list contains the verses which are available in the current chapter."
 msgstr "Tämä luettelo sisältää nykyisen kappaleen jakeet."
 
 #: ../bibletime/util/cresmgr.cpp:1031
@@ -2404,8 +2393,7 @@ msgstr ""
 "tietue näytetään."
 
 #: ../bibletime/util/cresmgr.cpp:1043
-msgid ""
-"Synchronize the displayed entry of this work with the active Bible window."
+msgid "Synchronize the displayed entry of this work with the active Bible window."
 msgstr "Synkronoi teoksen näkyvä tietue aktiivisen Raamattu-ikkunan kanssa."
 
 #: ../bibletime/util/cresmgr.cpp:1050
@@ -2515,13 +2503,11 @@ msgid ""
 msgstr "Oletuskommentaaria käytetään kun linkkiä kommentaariin painetaan."
 
 #: ../bibletime/util/cresmgr.cpp:1165
-msgid ""
-"The standard lexicon is used when a hyperlink into a lexicon is clicked."
+msgid "The standard lexicon is used when a hyperlink into a lexicon is clicked."
 msgstr "Oletussanakirjaa käytetään kun linkkiä sanakirjaan painetaan."
 
 #: ../bibletime/util/cresmgr.cpp:1169
-msgid ""
-"The standard devotional will be used to display a short start up devotional."
+msgid "The standard devotional will be used to display a short start up devotional."
 msgstr "Oletushartauskirjaa käytetään näyttämään lyhyt aloitushartausteksti."
 
 #: ../bibletime/util/cresmgr.cpp:1173
@@ -2557,8 +2543,7 @@ msgstr ""
 "morfologisen tunnisteen linkkiä kreikankielisessä tekstissä on painettu."
 
 #: ../bibletime/util/cresmgr.cpp:1194
-msgid ""
-"Opens the search dialog to search in the work(s) that are currently open."
+msgid "Opens the search dialog to search in the work(s) that are currently open."
 msgstr "Avaa hakuikkunan etsiäksesi avoimista teoksista."
 
 #: ../bibletime/util/ctoolclass.cpp:78
@@ -2969,80 +2954,3 @@ msgstr "Kiina"
 msgid "Zulu"
 msgstr "Zulu"
 
-#~ msgid "Initializing print system"
-#~ msgstr "Alustetaan tulostusjärjestelmää"
-
-#~ msgid "Interrupt"
-#~ msgstr "Keskeytys"
-
-#~ msgid "Search &options"
-#~ msgstr "Haku&optiot"
-
-#~ msgid "Search &result"
-#~ msgstr "Haku&tulokset"
-
-#~ msgid "Search type :"
-#~ msgstr "Haun tyyppi:"
-
-#~ msgid "Search scope:"
-#~ msgstr "Haun laajuus:"
-
-#~ msgid "Found items"
-#~ msgstr "Löydetyt tietueet"
-
-#~ msgid "Show search analysis"
-#~ msgstr "Näytä hakuanalyysi"
-
-#~ msgid "Morph codes"
-#~ msgstr "Morfologiset koodit"
-
-#~ msgid "Main search parameters"
-#~ msgstr "Haun pääparametrit"
-
-#~ msgid "Search text:"
-#~ msgstr "Haettava teksti:"
-
-#~ msgid "Search type"
-#~ msgstr "Haun tyyppi"
-
-#~ msgid "Multiple words (AND)"
-#~ msgstr "Monta sanaa (AND)"
-
-#~ msgid "Multiple words (OR)"
-#~ msgstr "Monta sanaa (OR)"
-
-#~ msgid "Exact"
-#~ msgstr "Täsmällinen"
-
-#~ msgid "Regular expression"
-#~ msgstr "Säännöllinen lause"
-
-#~ msgid "Search options"
-#~ msgstr "Hakuoptiot"
-
-#~ msgid "Case sensitive"
-#~ msgstr "Merkkikokoherkkä"
-
-#~ msgid "Text type"
-#~ msgstr "Tekstin tyyppi"
-
-#~ msgid "Main text"
-#~ msgstr "Pääteksti"
-
-#~ msgid "Search scope"
-#~ msgstr "Haun laajuus"
-
-#~ msgid "Setup"
-#~ msgstr "Asetukset"
-
-#~ msgid "Search progress"
-#~ msgstr "Haun edistyminen"
-
-#~ msgid "Current work:"
-#~ msgstr "Nykyinen teos:"
-
-#~ msgid "All works:"
-#~ msgstr "Kaikki teokset:"
-
-#~ msgid "Last search result"
-#~ msgstr "Viimeinen hakutulos"
