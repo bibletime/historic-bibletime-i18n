@@ -1,0 +1,121 @@
+<chapter id="hdbk-term"
+><title
+>&bibletime; opstarten</title>
+
+<sect1 id="hdbk-start"
+><title
+>Hoe u &bibletime; opstart</title>
+
+	<sect2 id="hdbk-start-kde"
+><title
+>&bibletime; opstarten vanuit KDE</title>
+	
+		<para
+>&bibletime; is een &kde; programma en is ge&iuml;ntegreerd met het &kde; bureaublad. U kunt &bibletime; starten vanuit &kde; door in het Startmenu in de groep 'hulpmiddelen' te klikken op dit icoon: <mediaobject>
+		<imageobject
+><imagedata fileref="i_bibletime.png" format="PNG"/></imageobject>
+		<textobject>
+		<phrase
+>&bibletime; start icoon</phrase
+> </textobject>
+		</mediaobject>
+		</para>
+		
+		<para
+>&bibletime; kan ook gestart worden via een opdrachtprompt in een terminal. Om &bibletime; te starten, opent u een terminal en typt u: <screen
+>bibletime
+</screen>
+		</para>
+	
+	</sect2>
+	
+	<sect2 id="hdbk-start-otherwm"
+><title
+>Andere window managers</title>
+	
+		<para
+>&bibletime; kan gebruikt worden in combinatie met andere window managers, zoals Gnome, BlackBox of Sawfish, op voorwaarde dat &kde; al ge&iuml;nstalleerd is op uw computer. Als &kde; ge&iuml;nstalleerd is in /opt/kde, dan zou u het volgende commando in een terminal kunnen geven om het programma te starten:</para>
+		
+<screen
+>export KDEDIR=/opt/kde  #uw KDE directory
+bibletime
+</screen>
+			
+	</sect2>
+	
+	<sect2 id="hdbk-start-custom"
+><title
+>Aanpassing van het opstarten</title>
+		
+		<para
+>Vanuit een terminal kunt u &bibletime; gebruiken om een willekeurig vers uit de standaardbijbel te openen: <screen>
+bibletime --open-default-bible "&lt;random&gt;"
+</screen
+> Om een specifieke passage te openen, zoals Johannes 3:16, geeft u de opdracht: <screen>
+bibletime --open-default-bible "Johannes 3:16"
+</screen
+> U kunt zowel de Engelse boeknamen als de boeknamen in uw eigen taal gebruiken. </para>
+		
+	</sect2>
+
+</sect1>
+
+<sect1 id="hdbk-startsequence"
+><title
+>Volgorde van opstartschermen</title>
+
+	<para
+>Wanneer &bibletime; opstart kun je de volgende schermen zien, voordat het hoofdvenster van &bibletime; opent:</para>
+	
+	<variablelist>
+	
+		<varlistentry>
+			<term
+><interface
+>Boekenplank Manager</interface
+></term>
+			<listitem
+><para
+><action
+>Wijzigt uw boekenplank</action
+> Deze dialoog stelt u in staat om uw boekenplank te wijzigen en (Sword-)modules toe te voegen of te verwijderen van uw systeem. Dit wordt alleen getoond als er geen standaard boekenplank gevonden kan worden. Kijk a.u.b. in <link linkend="hdbk-op-bookshelfmanager"
+>deze sectie</link
+>voor meer informatie. Als u begint met een lege boekenplank, is het handig om ten minste &eacute;&eacute;n bijbel, &eacute;&eacute;n bijbelcommentaar, &eacute;&eacute;n lexicon en &eacute;&eacute;n boek te installeren om de basisfuncties van &bibletime; snel onder de knie te krijgen.</para
+></listitem
+> 
+		</varlistentry>
+		
+		<varlistentry>
+			<term
+><interface
+>Configureer &bibletime; dialoog</interface
+></term>
+			<listitem
+><para
+><action
+>Past &bibletime; aan aan de gebruiker.</action
+> Deze dialoog laat u &bibletime; aanpassen aan uw behoeften. Zie <link linkend="hdbk-config-bt"
+> de gedetailleerde beschrijving</link
+> van deze dialoog.</para
+></listitem
+> 
+		</varlistentry>
+		
+		<varlistentry>
+			<term
+><interface
+>Tip van de dag</interface
+></term>
+			<listitem
+><para
+>Deze kleine tips geven u behulpzame aanwijzingen om effici&euml;nter te werken met &bibletime; en er zitten ook een paar citaten uit de bijbel tussen. </para
+></listitem
+> 
+		</varlistentry>
+		
+	</variablelist>
+
+</sect1>
+
+</chapter>
+
