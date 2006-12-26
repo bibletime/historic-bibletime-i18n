@@ -5,27 +5,27 @@
 EXTRA_DIST = hdbk-config.docbook hdbk-intro.docbook hdbk-operation.docbook hdbk-reference.docbook hdbk-start.docbook index.docbook 
 
 install-data-local:
-	mkdir -p $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/;
-	chmod -R a+r+X  $(DESTDIR)$(kde_htmldir)/fi/bibletime;
+	mkdir -p $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/;
+	chmod -R a+r+X  $(DESTDIR)$(kde_htmldir)fi/bibletime;
 	for file in  hdbk-config.docbook hdbk-intro.docbook hdbk-operation.docbook hdbk-reference.docbook hdbk-start.docbook index.docbook; do \
 	  if test -e $$file; then \
-	    $(INSTALL_DATA) $(srcdir)/$$file $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook; \
-	    chmod a+r $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/$$file; \
+	    $(INSTALL_DATA) $(srcdir)/$$file $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook; \
+	    chmod a+r $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/$$file; \
 	  else \
-	    ln -sf ../../../en/bibletime/handbook/$$file $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/$$file; \
+	    ln -sf $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/../../../en/bibletime/handbook/$$file $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/$$file; \
 	  fi; \
 	done;
-	if test -d $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/../../common; then \
-	  ln -sf ../../common $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/common;\
+	if test -d $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/../../common; then \
+	  ln -sf $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook../../common $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/common;\
 	else \
-	  ln -sf ../../../en/common $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/common;\
+	  ln -sf $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/../../../en/common $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/common;\
 	fi;
-	chmod -R a+r+X $(DESTDIR)$(kde_htmldir)/fi/bibletime
+	chmod -R a+r+X $(DESTDIR)$(kde_htmldir)fi/bibletime
 
 uninstall-local:
 	for file in  hdbk-config.docbook hdbk-intro.docbook hdbk-operation.docbook hdbk-reference.docbook hdbk-start.docbook index.docbook; do \
-	  echo Removing $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/$$file; \
-	  rm -f $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/$$file; \
+	  echo Removing $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/$$file; \
+	  rm -f $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/$$file; \
 	done;
-	echo Removing $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/common;
-	rm -f $(DESTDIR)$(kde_htmldir)/fi/bibletime/handbook/common;
+	echo Removing $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/common;
+	rm -f $(DESTDIR)$(kde_htmldir)fi/bibletime/handbook/common;
