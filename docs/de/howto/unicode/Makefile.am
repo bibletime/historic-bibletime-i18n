@@ -5,27 +5,27 @@
 EXTRA_DIST = how2-basics.docbook how2-importance.docbook how2-interpretation.docbook index.docbook 
 
 install-data-local:
-	mkdir -p $(DESTDIR)$(kde_htmldir)de/bibletime/howto/;
-	chmod -R a+r+X  $(DESTDIR)$(kde_htmldir)de/bibletime;
+	mkdir -p $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/;
+	chmod -R a+r+X  $(DESTDIR)$(kde_htmldir)/de/bibletime;
 	for file in  how2-basics.docbook how2-importance.docbook how2-interpretation.docbook index.docbook; do \
 	  if test -e $$file; then \
-	    $(INSTALL_DATA) $(srcdir)/$$file $(DESTDIR)$(kde_htmldir)de/bibletime/howto; \
-	    chmod a+r $(DESTDIR)$(kde_htmldir)de/bibletime/howto/$$file; \
+	    $(INSTALL_DATA) $(srcdir)/$$file $(DESTDIR)$(kde_htmldir)/de/bibletime/howto; \
+	    chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/$$file; \
 	  else \
-	    ln -sf $(DESTDIR)$(kde_htmldir)de/bibletime/howto/../../../en/bibletime/howto/$$file $(DESTDIR)$(kde_htmldir)de/bibletime/howto/$$file; \
+	    ln -sf $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/../../../en/bibletime/howto/$$file $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/$$file; \
 	  fi; \
 	done;
-	if test -d $(DESTDIR)$(kde_htmldir)de/bibletime/howto/../../common; then \
-	  ln -sf $(DESTDIR)$(kde_htmldir)de/bibletime/howto../../common $(DESTDIR)$(kde_htmldir)de/bibletime/howto/common;\
+	if test -d $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/../../common; then \
+	  ln -sf $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/../../common $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/common;\
 	else \
-	  ln -sf $(DESTDIR)$(kde_htmldir)de/bibletime/howto/../../../en/common $(DESTDIR)$(kde_htmldir)de/bibletime/howto/common;\
+	  ln -sf $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/../../../en/common $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/common;\
 	fi;
-	chmod -R a+r+X $(DESTDIR)$(kde_htmldir)de/bibletime
+	chmod -R a+r+X $(DESTDIR)$(kde_htmldir)/de/bibletime
 
 uninstall-local:
 	for file in  how2-basics.docbook how2-importance.docbook how2-interpretation.docbook index.docbook; do \
-	  echo Removing $(DESTDIR)$(kde_htmldir)de/bibletime/howto/$$file; \
-	  rm -f $(DESTDIR)$(kde_htmldir)de/bibletime/howto/$$file; \
+	  echo Removing $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/$$file; \
+	  rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/$$file; \
 	done;
-	echo Removing $(DESTDIR)$(kde_htmldir)de/bibletime/howto/common;
-	rm -f $(DESTDIR)$(kde_htmldir)de/bibletime/howto/common;
+	echo Removing $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/common;
+	rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/howto/common;
