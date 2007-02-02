@@ -15,11 +15,6 @@ install-data-local:
 	    ln -sf $(DESTDIR)$(kde_htmldir)/ko/bibletime/howto/../../../en/bibletime/howto/$$file $(DESTDIR)$(kde_htmldir)/ko/bibletime/howto/$$file; \
 	  fi; \
 	done;
-	if test -d $(DESTDIR)$(kde_htmldir)/ko/bibletime/howto/../../common; then \
-	  ln -sf $(DESTDIR)$(kde_htmldir)/ko/bibletime/howto/../../common $(DESTDIR)$(kde_htmldir)/ko/bibletime/howto/common;\
-	else \
-	  ln -sf $(DESTDIR)$(kde_htmldir)/ko/bibletime/howto/../../../en/common $(DESTDIR)$(kde_htmldir)/ko/bibletime/howto/common;\
-	fi;
 	chmod -R a+r+X $(DESTDIR)$(kde_htmldir)/ko/bibletime
 
 uninstall-local:
