@@ -7,20 +7,17 @@ EXTRA_DIST = how2-basics.docbook how2-importance.docbook how2-interpretation.doc
 install-data-local:
 	mkdir -p $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/;
 	chmod -R a+r+X  $(DESTDIR)$(kde_htmldir)/pt-br/bibletime;
-	for file in  how2-basics.docbook how2-importance.docbook how2-interpretation.docbook index.docbook; do \
-	  if test -e $$file; then \
-	    $(INSTALL_DATA) $(srcdir)/$$file $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto; \
-	    chmod a+r $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/$$file; \
-	  else \
-	    ln -sf $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/../../../en/bibletime/howto/$$file $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/$$file; \
-	  fi; \
-	done;
-	chmod -R a+r+X $(DESTDIR)$(kde_htmldir)/pt-br/bibletime
+	$(INSTALL_DATA) $(srcdir)/how2-basics.docbook $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/how2-basics.docbook;
+	$(INSTALL_DATA) $(srcdir)/how2-importance.docbook $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/how2-importance.docbook;
+	$(INSTALL_DATA) $(srcdir)/how2-interpretation.docbook $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/how2-interpretation.docbook;
+	$(INSTALL_DATA) $(srcdir)/index.docbook $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/index.docbook;
 
 uninstall-local:
-	for file in  how2-basics.docbook how2-importance.docbook how2-interpretation.docbook index.docbook; do \
-	  echo Removing $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/$$file; \
-	  rm -f $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/$$file; \
-	done;
-	echo Removing $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/common;
-	rm -f $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/common;
+	rm -f $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/how2-basics.docbook;
+	rm -f $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/how2-importance.docbook;
+	rm -f $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/how2-interpretation.docbook;
+	rm -f $(DESTDIR)$(kde_htmldir)/pt-br/bibletime/howto/index.docbook;

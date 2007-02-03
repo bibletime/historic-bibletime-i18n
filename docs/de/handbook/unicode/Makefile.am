@@ -7,20 +7,26 @@ EXTRA_DIST = hdbk-config.docbook hdbk-intro.docbook hdbk-operation.docbook hdbk-
 install-data-local:
 	mkdir -p $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/;
 	chmod -R a+r+X  $(DESTDIR)$(kde_htmldir)/de/bibletime;
-	for file in  hdbk-config.docbook hdbk-intro.docbook hdbk-operation.docbook hdbk-reference.docbook hdbk-start.docbook index.docbook; do \
-	  if test -e $$file; then \
-	    $(INSTALL_DATA) $(srcdir)/$$file $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook; \
-	    chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/$$file; \
-	  else \
-	    ln -sf $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/../../../en/bibletime/handbook/$$file $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/$$file; \
-	  fi; \
-	done;
-	chmod -R a+r+X $(DESTDIR)$(kde_htmldir)/de/bibletime
+	$(INSTALL_DATA) $(srcdir)/hdbk-config.docbook $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-config.docbook;
+	$(INSTALL_DATA) $(srcdir)/hdbk-intro.docbook $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-intro.docbook;
+	$(INSTALL_DATA) $(srcdir)/hdbk-operation.docbook $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-operation.docbook;
+	$(INSTALL_DATA) $(srcdir)/hdbk-reference.docbook $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-reference.docbook;
+	$(INSTALL_DATA) $(srcdir)/hdbk-start.docbook $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-start.docbook;
+	$(INSTALL_DATA) $(srcdir)/hdbk-toolbars.docbook $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-toolbars.docbook;
+	$(INSTALL_DATA) $(srcdir)/index.docbook $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook;
+	chmod a+r $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/index.docbook;
 
 uninstall-local:
-	for file in  hdbk-config.docbook hdbk-intro.docbook hdbk-operation.docbook hdbk-reference.docbook hdbk-start.docbook index.docbook; do \
-	  echo Removing $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/$$file; \
-	  rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/$$file; \
-	done;
-	echo Removing $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/common;
-	rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/common;
+	rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-config.docbook;
+	rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-intro.docbook;
+	rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-operation.docbook;
+	rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-reference.docbook;
+	rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-start.docbook;
+	rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/hdbk-toolbars.docbook;
+	rm -f $(DESTDIR)$(kde_htmldir)/de/bibletime/handbook/index.docbook;

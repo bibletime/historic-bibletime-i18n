@@ -1,6 +1,6 @@
 <chapter id="hdbk-config"
 ><title
->Aseta &bibletime;</title>
+>&bibletime;:n asetukset</title>
 
 <para
 >Tässä osiossa löydät kuvauksen erilaisista tavoista asettaa &bibletime;:n asetukset: <link linkend="hdbk-config-bt"
@@ -77,33 +77,33 @@
 >&bibletime; osaa käyttää nyt kaikkia KDE/QT:n kirjasimia. Niin kauan kuin olet kiinnostunut näyttämään oikein, tässä ei tarvitse tehdä mitään. Jos näytöllä näkyy sarja kysymysmerkkejä (??????) tai tyhjiä laatikoita, silloin tiedät, että KDE:n oletusnäytön kirjasin ei sisällä kaikkia tämän työn käyttämiä merkkejä.</para>
 	
 		<para
->To correct this, choose this work's language from the drop down menu. Select the use custom font checkbox. Now select a font. For example, a font that supports many languages is Code2000. If no installed font can display the work you are interested in, try installing the &kde; localization package for that language.</para>
+>Korjataksesi tämän valitse tämän teoksen kieli alasvetovalikosta. Valitse oma kirjasin valintaruutu. Nyt valitse kirjasin. Esimerkiksi monia kieliä tarjoava kirjasin on Code2000. Jos mikään asennettu kirjasin ei pysty näyttämään teosta, sinun tulee asentaa konelle &kde; lokalisointipaketti tälle kielelle.</para>
 		
 		<sect3 id="hdbk-config-bt-addfont"
 ><title
 >Kirjasimien asennus</title>
 			<para
->Detailed font installation instructions are outside the scope of this handbook. &kde;'s <ulink url="help:/kcontrol/index.html"
->KControl Center</ulink
-> contains an excellent and easy to use font installation module. Please read <ulink url="help:/kcontrol/kcmfontinst/index.html"
-> its documentation</ulink
->. For further information you might want to refer to the <ulink url="http://www.ibiblio.org/pub/Linux/docs/HOWTO/other-formats/html_single/Unicode-HOWTO.html#toc4"
+>Tässä käsikirjassa ei ole kirjasimien asennuksen yksityiskohtaisia ohjeita. &Kde;:n <ulink url="help:/kcontrol/index.html"
+>Ohjauskeskus</ulink
+> sisältää erinomaisen ja helpon kirjasimien asennusmoduulin. Lue <ulink url="help:/kcontrol/kcmfontinst/index.html"
+> sen dokumentaatio</ulink
+>. Lisätietoja saadaksesi voit lukea <ulink url="http://www.ibiblio.org/pub/Linux/docs/HOWTO/other-formats/html_single/Unicode-HOWTO.html#toc4"
 > Unicode HOWTO</ulink
 >.</para>
 	
 			<tip
 ><para
->If you use a small font like Clearlyu (about 22kb), &bibletime; will run faster than with a large font like <trademark class="registered"
+>Jos käytät pientä kirjasinta kuten Clearlyu (noin 22kb), &bibletime; on nopeampi kuin suurilla kirjasimilla kuten <trademark class="registered"
 > Bitstream Cyberbit</trademark
-> (about 12Mb).</para
+> (noin 12Mb).</para
 ></tip>
 		</sect3>
 
 		<sect3 id="hdbk-config-bt-ob-font"
 ><title
->Obtaining Fonts</title>
+>Kirjasimien hankinta</title>
 			<para
->Fonts can be obtained from a number of sources:</para>
+>Kirjasimia voi hankkia lukuisasta joukosta lähteitä:</para>
 			<itemizedlist>
 			<listitem
 ><para
@@ -168,7 +168,7 @@
 				<row
 ><entry
 ><ulink url="ftp://ftp.crosswire.org/pub/sword/iso/latest/FONTS"
->Crosswire's font directory</ulink
+>Crosswiren kirjasinkansio</ulink
 ></entry>
 				<entry
 >Useita kirjasimia saatavana Crosswire Bible Society Ftp -palvelimella.</entry
@@ -203,9 +203,9 @@
 			</table>
 				
 			<para
->There are good Unicode font lists on the net, as the one by Christoph Singer (<ulink url="http://www.slovo.info/unifonts.htm"
+>Netissä on hyviä Unicode-kirjasinluetteloja, kuten Christoph Singerin (<ulink url="http://www.slovo.info/unifonts.htm"
 >Multilingual Unicode TrueType Fonts in the Internet</ulink
->), or the one by Alan Wood (<ulink url="http://www.alanwood.net/unicode/fontsbyrange.html"
+>), tai Alan Woodin (<ulink url="http://www.alanwood.net/unicode/fontsbyrange.html"
 > Unicode character ranges and the Unicode fonts that support them</ulink
 >). </para>
 			
@@ -244,7 +244,7 @@
 ><title
 >Aseta työkalupalkki -ikkuna</title>
 	<para
->You can adapt the toolbar to your needs. Please use the following entry in the main menu: <variablelist
+>Voit mukauttaa työkalupalkin tarpeitasi vastaavaksi. Käytä seuraavaa kohtaa päävalikossa: <variablelist
 > <varlistentry>
 			<term
 ><menuchoice
@@ -267,7 +267,7 @@
 	</variablelist>
 	</para>
 	<para
->Näet tämän ikkunan, joka sallii painikkeiden lisäyksen ja poiston &bibletime;:n päätyökalurivistä. Painikkeiden järjestys on myös vaihdettavissa. </para>
+>You will see this dialog, which allows adding and removing buttons from the main toolbar of &bibletime;. The order of the buttons can also be changed. </para>
 	<mediaobject>
 		<imageobject>
 		<imagedata fileref="ss_configtoolbar.png" format="PNG"/>

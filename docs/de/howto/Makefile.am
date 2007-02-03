@@ -11,12 +11,9 @@ unicode-files:
 	done;
 
 html-files: unicode-files
-	if test -e unicode/index.docbook; then \
-		olddir=$$PWD; \
-		cd html;\
-		echo "Validating the XML files..."; \
-		if meinproc ../unicode/index.docbook; then\
-			echo "HTML files created successfully."; \
-		fi; cd $$olddir; \
+	mkdir html;cd html;\
+	echo "Validating the XML files...";\
+	if meinproc ../unicode/index.docbook; then\
+		echo "HTML files created successfully."; \
 	fi;
 

@@ -1,4 +1,5 @@
 This is the package which contains the translations of BibleTime.
+See also the file INSTALL from the BibleTime program package.
 
 Installation
 --------------
@@ -10,6 +11,21 @@ You can install this package by executing
 
 This should install the translations of the user-interface, the Bible study
 howto and of the handbook.
+
+
+Debian specifics
+---------------------------
+Debian (and possibly derived distros as well) use a non-standard path to
+store the documentation of KDE programs. Therefore the ./configure line above in
+this case needs to be changed to:
+
+kde_htmldir=/usr/share/doc/kde/HTML ./configure --prefix=/usr
+
+If you forget this, you'll likely not be able to access the handbook and the
+BibleStudy HowTo.
+
+
+
 
 If something doesn't work as expected please please post in the BibleTime
 forums at http://forum.bibletime.info.
