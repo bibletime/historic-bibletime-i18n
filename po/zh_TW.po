@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: zh_TW\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-08-23 18:18+0200\n"
-"PO-Revision-Date: 2007-02-13 19:25-0500\n"
+"PO-Revision-Date: 2007-02-18 23:25-0500\n"
 "Last-Translator: Chunshek Chan <chunshek@gmail.com>\n"
 "Language-Team: Chinese Traditional <zh@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "附加文字"
 
 #: ../bibletime/backend/cdisplaytemplatemgr.cpp:184
 msgid "(user template)"
-msgstr "(使用者模板)"
+msgstr "(使用者範本)"
 
 #: ../bibletime/backend/cswordbackend.cpp:540
 msgid "Footnotes"
@@ -41,7 +41,7 @@ msgstr "標題"
 
 #: ../bibletime/backend/cswordbackend.cpp:549
 msgid "Morphological tags"
-msgstr "構詞學標示"
+msgstr "構詞學標記"
 
 #: ../bibletime/backend/cswordbackend.cpp:552
 msgid "Lemmas"
@@ -89,7 +89,7 @@ msgstr "未知的"
 
 #: ../bibletime/backend/cswordmoduleinfo.cpp:705
 msgid "Markup"
-msgstr "標示"
+msgstr "標記"
 
 #: ../bibletime/backend/cswordmoduleinfo.cpp:710
 #: ../bibletime/frontend/cswordsetupmodulelistview.cpp:86
@@ -165,15 +165,15 @@ msgstr "版權日期"
 
 #: ../bibletime/backend/cswordmoduleinfo.cpp:808
 msgid "Copyright contact name"
-msgstr "版權聯絡人姓名"
+msgstr "版權連絡人姓名"
 
 #: ../bibletime/backend/cswordmoduleinfo.cpp:810
 msgid "Copyright contact address"
-msgstr "版權聯絡人地址"
+msgstr "版權連絡人地址"
 
 #: ../bibletime/backend/cswordmoduleinfo.cpp:812
 msgid "Copyright contact email"
-msgstr "版權聯絡人電子郵件"
+msgstr "版權連絡人電子郵件"
 
 #: ../bibletime/bibletime_init.cpp:75
 msgid "Creating BibleTime's GUI"
@@ -186,7 +186,7 @@ msgstr "書架"
 
 #: ../bibletime/bibletime_init.cpp:104
 msgid "Initializing menu- and toolbars"
-msgstr "正在初始化選單及工具列"
+msgstr "正在初始化功能表及工具列"
 
 #: ../bibletime/bibletime_init.cpp:115
 msgid "Search in &open work(s)"
@@ -424,7 +424,7 @@ msgstr "沒有索引的模組"
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:106
 #: ../bibletime/frontend/cmanageindiceswidget.cpp:111
 msgid "KiB"
-msgstr "KiB"
+msgstr "KB"
 
 #: ../bibletime/frontend/cmoduleindexdialog.cpp:41
 msgid "Preparing instant search"
@@ -452,11 +452,11 @@ msgstr "顯示啟動圖像"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:168
 msgid "Display templates"
-msgstr "顯示樣式"
+msgstr "顯示範本"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:169
 msgid "Display templates define how text is displayed. Please choose a template you like."
-msgstr "文字的顯示取決於顯示樣式. 請選擇你喜歡的顯示樣式."
+msgstr "文字的顯示取決於顯示範本. 請選擇你喜歡的顯示範本."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:182
 msgid "Available display styles:"
@@ -472,7 +472,7 @@ msgstr "語言"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:219
 msgid "Specify a language for names of Bible books"
-msgstr "設定聖經書卷語言"
+msgstr "指定聖經書卷語言"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:220
 msgid "Sword has a number of locales available which can be used to internationalize the   names of books of the Bible. You can specify which locale to use. If you want to   create a new locale, see http://www.crosswire.org/sword/develop for details."
@@ -484,15 +484,15 @@ msgstr "顯示聖經書卷名稱用的語言"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:302
 msgid "Select custom fonts per-language"
-msgstr "按語言選擇特定字型"
+msgstr "按語言選擇自訂字型"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:303
 msgid "Here you find a list of all languages of the installed works.  You can specify a custom font for each language that needs a special font  to be displayed correctly."
-msgstr "在這裡你會找到已安裝著作的語言清單. 你可以按每種語言的需要, 指定能正確顯示的特定字型."
+msgstr "在這裡你會找到已安裝著作的語言清單. 你可以按每種語言的需要, 指定能正確顯示的自訂字型."
 
 #: ../bibletime/frontend/coptionsdialog.cpp:336
 msgid "Use custom font"
-msgstr "使用特定字型"
+msgstr "使用自訂字型"
 
 #: ../bibletime/frontend/coptionsdialog.cpp:344
 msgid "The quick brown fox jumps over the lazy dog."
@@ -728,7 +728,7 @@ msgstr "移除已安裝著作"
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:219
 msgid "This dialog lets you remove installed works from your system. Choose the modules and then click on the remove button."
-msgstr "這個對話盒讓你從系統裡移除已安裝的著作. 選擇以下模組並按移除鈕."
+msgstr "這個對話方塊讓你從系統裡移除已安裝的著作. 選擇以下模組並按移除鈕."
 
 #: ../bibletime/frontend/cswordsetupdialog.cpp:223
 msgid "Select works to be uninstalled"
@@ -959,7 +959,7 @@ msgstr "底線"
 
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:258
 msgid "Select all"
-msgstr "選擇全部"
+msgstr "全選"
 
 #: ../bibletime/frontend/display/chtmlwritedisplay.cpp:262
 msgid "HTML editor window"
@@ -1190,7 +1190,7 @@ msgstr "儲存文字"
 #: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:78
 #: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:76
 msgid "Delete current entry"
-msgstr "刪除當前項目"
+msgstr "刪除目前項目"
 
 #: ../bibletime/frontend/displaywindow/chtmlwritewindow.cpp:88
 #: ../bibletime/frontend/displaywindow/cplainwritewindow.cpp:87
@@ -1470,7 +1470,7 @@ msgstr "加入新範圍"
 
 #: ../bibletime/frontend/searchdialog/crangechooser.cpp:114
 msgid "Delete current range"
-msgstr "刪除當前範圍"
+msgstr "刪除目前範圍"
 
 #: ../bibletime/frontend/searchdialog/crangechooser.cpp:120
 msgid "Name:"
@@ -1478,7 +1478,7 @@ msgstr "名稱:"
 
 #: ../bibletime/frontend/searchdialog/crangechooser.cpp:125
 msgid "Edit current search range:"
-msgstr "編輯當前搜尋範圍:"
+msgstr "編輯目前搜尋範圍:"
 
 #: ../bibletime/frontend/searchdialog/crangechooser.cpp:135
 msgid "Parsed search range:"
@@ -1586,7 +1586,7 @@ msgstr "搜尋結果"
 
 #: ../bibletime/main.cpp:124
 msgid "Enable debug messages"
-msgstr "啟用除錯訊息"
+msgstr "啟用偵錯訊息"
 
 #: ../bibletime/main.cpp:125
 msgid "Ignore the startup session that was saved when BibleTime was closed the last time."
@@ -1618,7 +1618,7 @@ msgstr ""
 
 #: ../bibletime/main.cpp:147
 msgid "Project coordinator"
-msgstr "計劃統籌"
+msgstr "專案統籌"
 
 #: ../bibletime/main.cpp:149
 msgid "Frontend, backend"
@@ -1630,7 +1630,7 @@ msgstr "Crystal 圖示, crystal 啟動圖像, 網頁"
 
 #: ../bibletime/main.cpp:159
 msgid "High contrast template"
-msgstr "High contrast 顯示樣式"
+msgstr "High contrast 顯示範本"
 
 #: ../bibletime/main.cpp:161
 msgid "Installation manager"
@@ -1704,7 +1704,7 @@ msgstr "有用的附加源碼"
 
 #: ../bibletime/main.cpp:199
 msgid "Translated the GUI into Russian"
-msgstr "翻譯 GUI 為俄文"
+msgstr "翻譯 GUI 為俄語"
 
 #: ../bibletime/main.cpp:201
 msgid "New Bible key choosers"
@@ -1748,7 +1748,7 @@ msgid ""
 "To read it choose the item \"Handbook\" in the \"Help\" menu of BibleTime.\n"
 msgstr ""
 "BibleTime 包括了由 Fred Saalbach 寫的非常實用的使用手冊.\n"
-"如要閱讀, 請在 BibleTime 的 \"說明\" 選單選取 \"手冊\".\n"
+"如要閱讀, 請在 BibleTime 的 \"說明\" 功能表選取 \"手冊\".\n"
 
 #: ../bibletime/tips-dummy.cpp:12
 msgid "No one is allowed by God to add anything to or take anything away from the Word. (Revelation 22:18-19)\n"
@@ -1768,7 +1768,7 @@ msgstr ""
 
 #: ../bibletime/tips-dummy.cpp:25
 msgid "You can save, print and copy the whole search result by pressing the right mouse button on the icon of the searched module in the search dialog.\n"
-msgstr "你可以在搜尋對話盒裡用滑鼠右鍵點擊搜尋模組圖示, 以儲存, 列印, 及複製全部搜尋結果.\n"
+msgstr "你可以在搜尋對話方塊裡用滑鼠右鍵點擊搜尋模組圖示, 以儲存, 列印, 及複製全部搜尋結果.\n"
 
 #: ../bibletime/tips-dummy.cpp:29
 msgid "The Bible is our only spiritual weapon. (Ephesians 6:17)\n"
@@ -1806,7 +1806,7 @@ msgstr ""
 "想知道支援 Strong's numbers 的聖經裡的希伯來文或希臘文的原文涵義, 請開啟 Strong's numbers 選項\n"
 "並點選該 strong number. 一個包含該 strong number 及該詞的原文涵義的視窗將會開啟.\n"
 "如果你最愛的譯本並不支援 Strong's numbers 則請參考另一譯本裡的對應字詞.\n"
-"請確定你在個人喜好中設定了預設模組.\n"
+"請確定你在喜好設定中設定了預設模組.\n"
 
 #: ../bibletime/tips-dummy.cpp:58
 msgid "If you want to use a commentary as a topical reference, search it for terms your topic is about.\n"
@@ -1838,7 +1838,7 @@ msgid ""
 "Select it and copy it to the clipboard. Now insert the copied word in the search text box of the searchdialog.\n"
 msgstr ""
 "如果你想搜尋外文模組裡的字詞 (如希臘文或希伯來文), 先開啟一視窗並顯示包含該字詞的章節或項目.\n"
-"選擇該字詞後複製到剪貼簿裡. 然後你便可以在搜尋對話盒裡的文字方格貼上該外文字詞."
+"選擇該字詞後複製到剪貼簿裡. 然後你便可以在搜尋對話方塊裡的文字方格貼上該外文字詞."
 
 #: ../bibletime/tips-dummy.cpp:87
 msgid "The Word of God will not return to Him without accomplishing its purpose. (Isaiah 55:11)\n"
@@ -1846,7 +1846,7 @@ msgstr "神的話不會在沒有作成它的差遣前徒然返回祂處. (以賽
 
 #: ../bibletime/tips-dummy.cpp:91
 msgid "Foreign modules do often require a special font to display correctly. You can set the font for each language in the preferences.\n"
-msgstr "外國語文的模組通常需要特別的字型以正確顯示. 你可以憑個人喜好為每種語言設定字型.\n"
+msgstr "外國語文的模組通常需要特別的字型以正確顯示. 你可以憑喜好設定為每種語言設定字型.\n"
 
 #: ../bibletime/tips-dummy.cpp:95
 msgid "Did you know that the first book ever printed on a printing press was the Bible (by Johann Gutenberg, in 1492)?\n"
@@ -1874,7 +1874,7 @@ msgstr "你正在使用的程式是為了神的榮耀而編寫的.<BR>在你研�
 
 #: ../bibletime/util/cresmgr.cpp:737
 msgid "Open the printer dialog of BibleTime, where you can edit the print queue, assign styles to the items and print them."
-msgstr "開啟 BibleTime 的列印對話盒, 讓你編輯列印佇列, 為項目設置樣式並列印項目."
+msgstr "開啟 BibleTime 的列印對話方塊, 讓你編輯列印佇列, 為項目設置樣式並列印項目."
 
 #: ../bibletime/util/cresmgr.cpp:741
 msgid "Close BibleTime and save the settings."
@@ -1890,11 +1890,11 @@ msgstr "切換主工具列檢視."
 
 #: ../bibletime/util/cresmgr.cpp:760
 msgid "Open the search dialog to search in all works that are currently open."
-msgstr "開啟搜尋對話盒以搜尋當前已開啟的著作."
+msgstr "開啟搜尋對話方塊以搜尋目前已開啟的著作."
 
 #: ../bibletime/util/cresmgr.cpp:764
 msgid "Open the search dialog to search in the standard Bible."
-msgstr "開啟搜尋對話盒以搜尋標準聖經."
+msgstr "開啟搜尋對話方塊以搜尋標準聖經."
 
 #: ../bibletime/util/cresmgr.cpp:772
 msgid "Restore a saved BibleTime session."
@@ -1902,7 +1902,7 @@ msgstr "還原已儲存的 BibleTime 工作階段."
 
 #: ../bibletime/util/cresmgr.cpp:776
 msgid "Save current BibleTime session so that it can be reused later."
-msgstr "儲存當前的 BibleTime 工作階段讓將來再用."
+msgstr "儲存目前的 BibleTime 工作階段讓將來再用."
 
 #: ../bibletime/util/cresmgr.cpp:780
 msgid "Create and save a new session."
@@ -1954,11 +1954,11 @@ msgstr "開啟 BibleTime 的工具列編輯器."
 
 #: ../bibletime/util/cresmgr.cpp:834
 msgid "Open the dialog to set most of BibleTime's preferences."
-msgstr "開啟設定 BibleTime 個人喜好的對話盒."
+msgstr "開啟設定 BibleTime 喜好設定的對話方塊."
 
 #: ../bibletime/util/cresmgr.cpp:838
 msgid "Open the dialog to configure your bookshelf and install/update/remove works."
-msgstr "開啟設定你的書架及安裝/更新/移除著作的對話盒."
+msgstr "開啟設定你的書架及安裝/更新/移除著作的對話方塊."
 
 #: ../bibletime/util/cresmgr.cpp:847
 msgid "Open BibleTime's handbook in the KDE helpbrowser."
@@ -1982,7 +1982,7 @@ msgstr "顯示關於 BibleTime 的詳細資訊."
 
 #: ../bibletime/util/cresmgr.cpp:867
 msgid "Show detailed information about the KDE project."
-msgstr "顯示關於 KDE 計劃的詳細資訊."
+msgstr "顯示關於 KDE 專案的詳細資訊."
 
 #: ../bibletime/util/cresmgr.cpp:877
 msgid "Start to search the text in each of the chosen work(s)."
@@ -1990,11 +1990,11 @@ msgstr "開始在每部已選著作裡搜尋."
 
 #: ../bibletime/util/cresmgr.cpp:881
 msgid "Stop the active search."
-msgstr "停止活躍中的搜尋."
+msgstr "停止使用中搜尋."
 
 #: ../bibletime/util/cresmgr.cpp:888
 msgid "Open a dialog to choose work(s) for the search."
-msgstr "開啟選擇搜索著作的對話盒."
+msgstr "開啟選擇搜索著作的對話方塊."
 
 #: ../bibletime/util/cresmgr.cpp:892
 msgid "Enter the text you want to search in the chosen work(s) here."
@@ -2014,7 +2014,7 @@ msgstr "確切地使用已輸入的搜尋文字."
 
 #: ../bibletime/util/cresmgr.cpp:910
 msgid "Treat the search string as a GNU regular expression. The BibleTime handbook contains an introduction to regular expressions."
-msgstr "將搜尋字串當成 GNU 正規表達式. BibleTime 手冊裡附有正規表達式的使用介紹."
+msgstr "將搜尋字串當成 GNU 規則運算式. BibleTime 手冊裡附有規則運算式的使用介紹."
 
 #: ../bibletime/util/cresmgr.cpp:918
 msgid "If you choose this option the search will distinguish between upper and lowercase characters."
@@ -2022,7 +2022,7 @@ msgstr "如果你選取此項, 搜尋器將分開識別大小寫字元."
 
 #: ../bibletime/util/cresmgr.cpp:923
 msgid "Choose a scope from the list. Select the first item to use no scope, the second one is to use each work's last search result as search scope. The others are user defined search scopes."
-msgstr "從清單中選擇一個範圍. 如不想選擇範圍, 請選第一項. 如想使用每部著作的上一次搜尋結果, 請選第二項. 其他項目為使用者自訂搜尋範圍."
+msgstr "從清單中選擇一個範圍. 如不想選擇範圍, 請選第一項. 如想使用每部著作的上一次搜尋結果, 請選第二項. 其他項目為使用者定義的搜尋範圍."
 
 #: ../bibletime/util/cresmgr.cpp:931
 msgid "Select an item from the list to edit the search scope."
@@ -2034,7 +2034,7 @@ msgstr "更改已選搜尋範圍的名稱."
 
 #: ../bibletime/util/cresmgr.cpp:939
 msgid "Change the search ranges of the selected search scope item. Have a look at the predefined search scopes to see how search ranges are constructed."
-msgstr "更改已選搜尋項目的範圍. 查看已預訂的搜尋範圍, 以了解搜尋範圍的組成."
+msgstr "更改已選搜尋項目的範圍. 查看已預先定義的搜尋範圍, 以了解搜尋範圍的組成."
 
 #: ../bibletime/util/cresmgr.cpp:943
 msgid "Contains the search ranges which will be used for the search."
@@ -2046,7 +2046,7 @@ msgstr "加入新的搜尋範圍. 先輸入合適名稱, 然後編輯搜尋範�
 
 #: ../bibletime/util/cresmgr.cpp:951
 msgid "Deletes the selected search scope. If you close the dialog using Cancel the settings won't be saved."
-msgstr "刪除已選搜尋範圍. 如果你用取消鈕關閉此對話盒, 搜尋設定將不會被儲存."
+msgstr "刪除已選搜尋範圍. 如果你用取消鈕關閉此對話方塊, 搜尋設定將不會被儲存."
 
 #: ../bibletime/util/cresmgr.cpp:959
 msgid "The list of works chosen for the search."
@@ -2066,7 +2066,7 @@ msgstr "此按鈕可以用來捲動清單裡的項目. 按下此按鈕並移動�
 
 #: ../bibletime/util/cresmgr.cpp:983
 msgid "This button opens the search dialog with the work(s) of this window."
-msgstr "此按鈕會開啟當前視窗著作的搜尋對話盒."
+msgstr "此按鈕會開啟目前視窗著作的搜尋對話方塊."
 
 #: ../bibletime/util/cresmgr.cpp:988
 msgid "Go back one item in the display history."
@@ -2094,7 +2094,7 @@ msgstr "顯示此著作的上一卷."
 
 #: ../bibletime/util/cresmgr.cpp:1015
 msgid "This list contains the chapters which are available in the current book."
-msgstr "此清單內含當前書卷裡的所有章目."
+msgstr "此清單內含目前書卷裡的所有章目."
 
 #: ../bibletime/util/cresmgr.cpp:1019
 msgid "Show the previous chapter of the work."
@@ -2106,7 +2106,7 @@ msgstr "顯示此著作的下一章."
 
 #: ../bibletime/util/cresmgr.cpp:1027
 msgid "This list contains the verses which are available in the current chapter."
-msgstr "此清單內含當前章裡的所有節."
+msgstr "此清單內含目前章裡的所有節."
 
 #: ../bibletime/util/cresmgr.cpp:1031
 msgid "In  Bible texts, the next verse will be highlighted. In commentaries, the next entry will be shown."
@@ -2122,7 +2122,7 @@ msgstr "讓此著作與使用中聖經視窗作同步顯示."
 
 #: ../bibletime/util/cresmgr.cpp:1050
 msgid "This list contains the entries of the current work."
-msgstr "此清單包含了當前著作的項目."
+msgstr "此清單包含了目前著作的項目."
 
 #: ../bibletime/util/cresmgr.cpp:1054
 msgid "The next entry of the work will be shown."
@@ -2134,7 +2134,7 @@ msgstr "顯示此著作的上一項目."
 
 #: ../bibletime/util/cresmgr.cpp:1066
 msgid "Save the curent text into the work. The old text will be overwritten."
-msgstr "將當前文字儲存至著作中. 舊有的文字將被覆蓋."
+msgstr "將目前文字儲存至著作中. 舊有的文字將被覆蓋."
 
 #: ../bibletime/util/cresmgr.cpp:1070
 msgid "Loads the old text from the work and loads it into the edit area. The unsaved text will be lost."
@@ -2142,7 +2142,7 @@ msgstr "把著作裡的舊有文字載入至編輯範圍. 未儲存的文字將�
 
 #: ../bibletime/util/cresmgr.cpp:1074
 msgid "Deletes the current entry out of the work. The text will be lost."
-msgstr "從著作中刪除當前項目. 該項目文字將消失."
+msgstr "從著作中刪除目前項目. 該項目文字將消失."
 
 #: ../bibletime/util/cresmgr.cpp:1080
 msgid "Toggle bold formatting of the selected text."
@@ -2238,7 +2238,7 @@ msgstr "當指向希臘文構詞學辭典的超連結被點選時, 將使用標�
 
 #: ../bibletime/util/cresmgr.cpp:1194
 msgid "Opens the search dialog to search in the work(s) that are currently open."
-msgstr "開啟搜尋對話盒以搜尋當前著作."
+msgstr "開啟搜尋對話方塊以搜尋目前著作."
 
 #: ../bibletime/util/ctoolclass.cpp:78
 msgid "The file already exists."
@@ -2274,7 +2274,7 @@ msgstr "阿拉伯文"
 
 #: clanguagemgr.cpp:205
 msgid "Azerbaijani"
-msgstr "阿塞拜疆文"
+msgstr "亞塞拜然文"
 
 #: clanguagemgr.cpp:208
 msgid "Belarusian"
@@ -2290,7 +2290,7 @@ msgstr "布里敦文"
 
 #: clanguagemgr.cpp:218
 msgid "Bosnian"
-msgstr "波斯尼亞文"
+msgstr "波士尼亞文"
 
 #: clanguagemgr.cpp:220
 msgid "Catalan"
@@ -2406,7 +2406,7 @@ msgstr "夏威夷文"
 
 #: clanguagemgr.cpp:289
 msgid "Croatian"
-msgstr "克羅地亞文"
+msgstr "克羅埃西亞文"
 
 #: clanguagemgr.cpp:291
 msgid "Hungarian"
@@ -2414,7 +2414,7 @@ msgstr "匈牙利文"
 
 #: clanguagemgr.cpp:293
 msgid "Armenian"
-msgstr "阿美尼亞文"
+msgstr "亞美尼亞文"
 
 #: clanguagemgr.cpp:298
 msgid "Indonesian"
